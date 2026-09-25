@@ -1,5 +1,5 @@
 {
-  "lessonId": "6ab5dafa4d87c43ca06eea63",
+  "lessonId": "6ab5dc4aaaf3a5144b66e284",
   "title": "test 1",
   "slug": "test-1",
   "description": "",
@@ -8,6 +8,6 @@
   "duration": 20,
   "model": null,
   "isPublished": true,
-  "createdAt": "2026-09-25T02:22:50.122Z",
-  "updatedAt": "2026-09-25T02:22:50.162Z"
+  "createdAt": "2026-09-25T02:28:26.044Z",
+  "updatedAt": "2026-09-25T02:28:26.085Z"
 }
