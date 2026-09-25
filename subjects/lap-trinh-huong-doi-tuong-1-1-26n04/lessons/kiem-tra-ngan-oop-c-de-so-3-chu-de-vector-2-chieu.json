@@ -1,0 +1,13 @@
+{
+  "lessonId": "6ab6b098ccacc564d40110d3",
+  "title": "(Kiểm tra ngắn OOP C++) ĐỀ SỐ 3 - Chủ đề: VECTOR 2 CHIỀU",
+  "slug": "kiem-tra-ngan-oop-c-de-so-3-chu-de-vector-2-chieu",
+  "description": "",
+  "contentHtml": "<div class=\"flex-container flex-1-2-1-2\" style=\"display: flex; flex-direction: column;\"><div class=\"flex-container flex-1-2-1-2-0\" style=\"display: flex; flex-direction: column;\"><div class=\"flex-container flex-1-2-1-2-0-0\" style=\"display: flex; flex-direction: column;\"><div style=\"width: 100%; height: 100%;\"><p data-path-to-node=\"1,2,1,2,0,0,0\">ĐỀ SỐ 3\r\nVECTOR 2D</p></div></div><div class=\"flex-container flex-1-2-1-2-0-1\" style=\"display: flex; flex-direction: column;\"><div style=\"width: 100%; height: 100%;\"><p data-path-to-node=\"1,2,1,2,0,1,0\">⏱ 30 phút | 💻 C++</p></div></div><div class=\"flex-container flex-1-2-1-2-0-2\" style=\"display: flex; flex-direction: column;\"><div style=\"width: 100%; height: 100%;\"><p data-path-to-node=\"1,2,1,2,0,2,0\"><b data-path-to-node=\"1,2,1,2,0,2,0\" data-index-in-node=\"0\">Lớp Vector2Chieu:</b></p></div><div style=\"width: 100%; height: 100%;\"><ul data-path-to-node=\"1,2,1,2,0,2,1\"><li><p data-path-to-node=\"1,2,1,2,0,2,1,0,0\">Thuộc tính: <code data-path-to-node=\"1,2,1,2,0,2,1,0,0\" data-index-in-node=\"12\">x</code>, <code data-path-to-node=\"1,2,1,2,0,2,1,0,0\" data-index-in-node=\"15\">y</code> (double)</p></li><li><p data-path-to-node=\"1,2,1,2,0,2,1,1,0\">Cấu tử mặc định (x=0, y=0)</p></li><li><p data-path-to-node=\"1,2,1,2,0,2,1,2,0\">Nạp chồng toán tử <code data-path-to-node=\"1,2,1,2,0,2,1,2,0\" data-index-in-node=\"18\">+</code> và <code data-path-to-node=\"1,2,1,2,0,2,1,2,0\" data-index-in-node=\"23\">!=</code></p></li><li><p data-path-to-node=\"1,2,1,2,0,2,1,3,0\">Hàm bạn nạp chồng <code data-path-to-node=\"1,2,1,2,0,2,1,3,0\" data-index-in-node=\"18\">&gt;&gt;</code> và <code data-path-to-node=\"1,2,1,2,0,2,1,3,0\" data-index-in-node=\"24\">&lt;&lt;</code></p></li></ul></div><div class=\"flex-container flex-1-2-1-2-0-2-2\" style=\"display: flex; flex-direction: column;\"><div style=\"width: 100%; height: 100%;\"><p data-path-to-node=\"1,2,1,2,0,2,2,0\"><b data-path-to-node=\"1,2,1,2,0,2,2,0\" data-index-in-node=\"0\">main():</b> Nhập v1, v2; tính v3 = v1 + v2. Nếu v1 != v2 in \"Khac nhau\", ngược lại \"Giong nhau\".</p></div></div></div></div></div>",
+  "sampleSolution": "",
+  "duration": 30,
+  "model": null,
+  "isPublished": true,
+  "createdAt": "2026-09-25T17:34:16.970Z",
+  "updatedAt": "2026-09-25T17:34:17.183Z"
+}
