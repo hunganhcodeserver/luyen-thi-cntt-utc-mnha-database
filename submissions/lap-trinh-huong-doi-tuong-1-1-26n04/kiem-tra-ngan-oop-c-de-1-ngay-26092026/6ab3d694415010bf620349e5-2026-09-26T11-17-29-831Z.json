@@ -1,0 +1,186 @@
+{
+  "submissionId": "6ab7a9c9967b795a6041e1b2",
+  "submittedAt": "2026-09-26T11:17:29.831Z",
+  "gradedAt": "2026-09-26T11:17:37.820Z",
+  "status": "graded",
+  "errorMessage": null,
+  "userId": "6ab3d694415010bf620349e5",
+  "userName": "Mai Ngọc Hùng Anh",
+  "userEmail": "hunganh.okokok.0@gmail.com",
+  "subjectId": "6ab5aeac813f0f6c24604455",
+  "subjectName": "Lập trình hướng đối tượng-1-1-26(N04)",
+  "subjectCode": "IT1.108.3",
+  "subjectSlug": "lap-trinh-huong-doi-tuong-1-1-26n04",
+  "lessonId": "6ab7a99d967b795a6041e1b1",
+  "lessonTitle": "(Kiểm tra ngắn OOP C++) Đề 1 ngày 26/09/2026",
+  "lessonSlug": "kiem-tra-ngan-oop-c-de-1-ngay-26092026",
+  "lessonDuration": 15,
+  "lessonContentHtml": "<div class=\"question\">\r\n    <h3>Câu 3.</h3>\r\n\r\n    <p>\r\n        Xây dựng lớp <strong>DayThuc</strong> (Dãy số thực), trong đó có các\r\n        thuộc tính (private) gồm: số phần tử và các hệ số (con trỏ); các toán tử\r\n        (public): nhập, xuất, toán tử <code>+</code> để tính tổng dãy số.\r\n    </p>\r\n\r\n    <p>Viết hàm <code>main()</code> để:</p>\r\n\r\n    <ul>\r\n        <li>Nhập 2 dãy số</li>\r\n        <li>Cho biết dãy số nào có tổng lớn hơn</li>\r\n    </ul>\r\n</div>",
+  "lessonSampleSolution": "<div class=\"code-container\">\r\n    <pre><code>#include&lt;bits/stdc++.h&gt;\r\n\r\nusing namespace std;\r\nusing ll = long long;\r\n\r\nclass DayThuc{\r\n    private:\r\n        int n;\r\n        double *a;\r\n\r\n    public:\r\n        DayThuc() {\r\n            n = 0;\r\n            a = NULL;\r\n        }\r\n\r\n        /*\r\n            Nạp chồng toán tử nhập (Friend Function)\r\n        */\r\n        friend istream&amp; operator &gt;&gt;(istream &amp;is, DayThuc &amp;dt) {\r\n            cout &lt;&lt; \"\\nNhap so phan tu: \";\r\n            is &gt;&gt; dt.n;\r\n            cout &lt;&lt; endl;\r\n\r\n            dt.a = new double[dt.n + 1]; // Cấp phát bộ nhớ cho mảng dựa vào n đã nhập\r\n\r\n            for (int i = 0; i &lt; dt.n; i++) {\r\n                cout &lt;&lt; \"Nhap he so cua phan tu \" &lt;&lt; i &lt;&lt; \": \";\r\n                is &gt;&gt; dt.a[i];\r\n            }\r\n\r\n            cout &lt;&lt; endl;\r\n            return is;\r\n        }\r\n\r\n        /*\r\n            Nạp chồng toán tử xuất (Friend Function)\r\n        */\r\n        friend ostream& operator &lt;&lt; (ostream &amp;os, DayThuc dt){\r\n            os &lt;&lt; \"\\n--Gia tri luu duoc--\" &lt;&lt; endl;\r\n\r\n            for (int i = 0; i &lt; dt.n; i++) {\r\n                os &lt;&lt; \"Phan tu \" &lt;&lt; i &lt;&lt; \": \";\r\n                os &lt;&lt; dt.a[i] &lt;&lt; endl;\r\n            }\r\n\r\n            os &lt;&lt; endl;\r\n            return os;\r\n        }\r\n\r\n        double operator +() const {\r\n            double ketQua = 0;\r\n\r\n            for(int i = 0; i &lt; n; i++){\r\n                ketQua += a[i];\r\n            }\r\n\r\n            return ketQua;\r\n        }\r\n\r\n        bool operator&gt;(DayThuc &amp;dt) const {\r\n            // (*) Lúc này:\r\n            //     - this      = &amp;dt1   (con trỏ tới đối tượng đang gọi)\r\n            //     - *this     = dt1    (chính đối tượng bên trái dấu &gt;)\r\n            //     - dt        = dt2    (đối tượng bên phải dấu &gt;)\r\n\r\n            // (**) +(*this)  --&gt; gọi toán tử + một ngôi trên dt1\r\n            //      tức là chạy: double operator+() const { ... }\r\n            //      bên trong hàm đó: cộng dồn các phần tử a[i] của dt1\r\n            //      Kết quả ví dụ Test 1: 1.5 + 2.5 + 3.0 = 7.0\r\n\r\n            // (***) +dt  --&gt; gọi toán tử + một ngôi trên dt2\r\n            //       Kết quả ví dụ Test 1: 2.0 + 3.0 = 5.0\r\n\r\n            // (****) Sau đó so sánh hai double bằng toán tử &gt; có sẵn của C++\r\n            //        return 7.0 &gt; 5.0;  --&gt; trả về true\r\n\r\n            return +(*this) &gt; +dt;\r\n        }\r\n\r\n        ~DayThuc() {\r\n            delete[] a; // Xóa vùng nhớ đã cấp phát cho mảng a\r\n        }\r\n};\r\n\r\nint main() {\r\n    DayThuc dt1, dt2;\r\n\r\n    cout &lt;&lt; \"=== Nhap day 1 ===\" &lt;&lt; endl;\r\n    cin &gt;&gt; dt1;\r\n\r\n    cout &lt;&lt; \"=== Nhap day 2 ===\" &lt;&lt; endl;\r\n    cin &gt;&gt; dt2;\r\n\r\n    cout &lt;&lt; \"\\n=== Day 1 ===\";\r\n    cout &lt;&lt; dt1;\r\n\r\n    cout &lt;&lt; \"\\n=== Day 2 ===\";\r\n    cout &lt;&lt; dt2;\r\n\r\n    // Gọi toán tử &gt;\r\n    if (dt1 &gt; dt2) {\r\n        cout &lt;&lt; \"\\n-&gt; Tong day 1 LON HON tong day 2\" &lt;&lt; endl;\r\n    } else if (dt2 &gt; dt1) {\r\n        cout &lt;&lt; \"\\n-&gt; Tong day 2 LON HON tong day 1\" &lt;&lt; endl;\r\n    } else {\r\n        cout &lt;&lt; \"\\n-&gt; Hai day co tong BANG NHAU\" &lt;&lt; endl;\r\n    }\r\n\r\n    // In ra tổng để kiểm chứng\r\n    cout &lt;&lt; \"\\nTong day 1 = \" &lt;&lt; +dt1 &lt;&lt; endl;\r\n    cout &lt;&lt; \"Tong day 2 = \" &lt;&lt; +dt2 &lt;&lt; endl;\r\n\r\n    return 0;\r\n}</code></pre>\r\n</div>",
+  "answerHtml": "#include<bits/stdc++.h>\n\nusing namespace std;\nusing ll = long long;\n\nclass DayThuc{\n\tprivate:\n\t\tint n;\n\t\tdouble *a;\n\tpublic:\n\t\tDayThuc() {\n\t\t    n = 0;\n\t\t    a = NULL;\n\t\t}\n\t\t/*\n\t\tNạp chồng toán tử nhập (Friend Function)\n\t\t*/\n\t\tfriend istream& operator >>(istream &is, DayThuc &dt) {\n\t        cout << \"\\nNhap so phan tu: \";\n\t        is >> dt.n;\n\t        cout << endl;\n\t        dt.a = new double[dt.n + 1]; // Cấp phát bộ nhớ cho mảng dựa vào n đã nhập\n\t        for (int i = 0; i < dt.n; i++) {\n\t            cout << \"Nhap he so cua phan tu \" << i << \": \";\n\t            is >> dt.a[i];\n\t        }\n\t        cout << endl;\n\t        return is;\n\t    }\n\t\t/*\n\t\tNạp chồng toán tử xuất (Friend Function)\n\t\t*/\n\t    friend ostream& operator << (ostream &os, DayThuc dt){\n\t    \tos << \"\\n--Gia tri luu duoc--\" << endl;\n\t        for (int i = 0; i < dt.n; i++) {\n\t            os << \"Phan tu \" << i << \": \";\n\t            os << dt.a[i] << endl;\n\t        }\n\t        os << endl;\n        \treturn os;\n\t\t}\n\t    double operator +() const {\n\t        double ketQua = 0; \n\t        for(int i = 0; i < n; i++){\n\t        \tketQua += a[i];\n\t\t\t}\n\t        return ketQua; \n\t    }\n\t\tbool operator>(DayThuc &dt) const {\n\t\t    // (*) Lúc này:\n\t\t    //     - this      = &dt1   (con trỏ tới đối tượng đang gọi)\n\t\t    //     - *this     = dt1    (chính đối tượng bên trái dấu >)\n\t\t    //     - dt        = dt2    (đối tượng bên phải dấu >)\n\t\t\n\t\t    // (**) +(*this)  --> gọi toán tử + một ngôi trên dt1\n\t\t    //      tức là chạy: double operator+() const { ... }\n\t\t    //      bên trong hàm đó: cộng dồn các phần tử a[i] của dt1\n\t\t    //      Kết quả ví dụ Test 1: 1.5 + 2.5 + 3.0 = 7.0\n\t\t\n\t\t    // (***) +dt  --> gọi toán tử + một ngôi trên dt2\n\t\t    //       Kết quả ví dụ Test 1: 2.0 + 3.0 = 5.0\n\t\t\n\t\t    // (****) Sau đó so sánh hai double bằng toán tử > có sẵn của C++\n\t\t    //        return 7.0 > 5.0;  --> trả về true\n\t\t\n\t\t    return +(*this) > +dt;\n\t\t}\n\t\t~DayThuc() {\n\t\t    delete[] a; // Xóa vùng nhớ đã cấp phát cho mảng a\n\t\t}\n};\n\nint main() {\n    DayThuc dt1, dt2;\n    cout << \"=== Nhap day 1 ===\" << endl;\n    cin >> dt1;\n    cout << \"=== Nhap day 2 ===\" << endl;\n    cin >> dt2;\n    cout << \"\\n=== Day 1 ===\";\n    cout << dt1;\n    cout << \"\\n=== Day 2 ===\";\n    cout << dt2;\n    // Gọi toán tử >\n    if (dt1 > dt2) {\n        cout << \"\\n-> Tong day 1 LON HON tong day 2\" << endl;\n    } else if (dt2 > dt1) {\n        cout << \"\\n-> Tong day 2 LON HON tong day 1\" << endl;\n    } else {\n        cout << \"\\n-> Hai day co tong BANG NHAU\" << endl;\n    }\n    // In ra tổng để kiểm chứng\n    cout << \"\\nTong day 1 = \" << +dt1 << endl;\n    cout << \"Tong day 2 = \" << +dt2 << endl;\n    return 0;\n}",
+  "score": 10,
+  "feedback": "Bài làm hoàn thiện rất tốt, đáp ứng đầy đủ và chính xác tất cả các yêu cầu của đề bài. Cài đặt chuẩn xác các toán tử nhập, xuất, toán tử tính tổng một ngôi (+) và toán tử so sánh (>). Quản lý bộ nhớ động rõ ràng, có chú thích chi tiết, hàm main xử lý logic chặt chẽ.",
+  "breakdown": [
+    {
+      "criterion": "Khai báo lớp, thuộc tính private, hàm tạo/hàm hủy đúng",
+      "score": 1.3,
+      "comment": "Khai báo thuộc tính đúng yêu cầu private, có hàm khởi tạo và hàm hủy giải phóng con trỏ."
+    },
+    {
+      "criterion": "Nạp chồng toán tử nhập >> là friend, nhập đúng dữ liệu",
+      "score": 1.3,
+      "comment": "Toán tử >> được nạp chồng dưới dạng friend function, cấp phát động chính xác theo số phần tử n."
+    },
+    {
+      "criterion": "Nạp chồng toán tử xuất << là friend, xuất đúng dữ liệu",
+      "score": 0.9,
+      "comment": "Toán tử << được khai báo là friend, in đầy đủ và rõ ràng các phần tử."
+    },
+    {
+      "criterion": "Các phương thức getter/setter hoặc phương thức phụ trợ đúng",
+      "score": 0.5,
+      "comment": "Đảm bảo đầy đủ các phương thức cần thiết theo yêu cầu bài toán."
+    },
+    {
+      "criterion": "Nạp chồng toán tử một ngôi (nếu đề yêu cầu +, -, !, ...)",
+      "score": 1.4,
+      "comment": "Cài đặt đúng toán tử + một ngôi (operator+() const) để tính tổng các phần tử trong dãy số."
+    },
+    {
+      "criterion": "Nạp chồng toán tử hai ngôi / so sánh (nếu đề yêu cầu +, -, >, <, ==, ...)",
+      "score": 1.4,
+      "comment": "Cài đặt toán tử so sánh > hợp lý bằng cách tận dụng toán tử + một ngôi."
+    },
+    {
+      "criterion": "Hàm main nhập/xuất/xử lý đầy đủ theo đề",
+      "score": 1.4,
+      "comment": "Hàm main thực hiện nhập 2 dãy, so sánh tổng và in kết quả đầy đủ các trường hợp (lớn hơn, bé hơn, bằng nhau)."
+    },
+    {
+      "criterion": "Quản lý bộ nhớ động đúng, không rò rỉ",
+      "score": 0.9,
+      "comment": "Cấp phát new[] và thu hồi delete[] đúng cách trong destructor."
+    },
+    {
+      "criterion": "Phong cách, đặt tên, chú thích, không lỗi biên dịch",
+      "score": 0.9,
+      "comment": "Code sạch sẽ, định dạng chuẩn, có chú thích giải thích chi tiết, biên dịch thành công."
+    }
+  ],
+  "grammar": null,
+  "sampleComparison": null,
+  "model": "gemini-flash-latest",
+  "aiKeyId": "6ab54c8f3f9dc53143c394e7",
+  "aiKeyName": "chunglop0781@gmail.com",
+  "latencyMs": 7185,
+  "promptSnapshot": {
+    "promptId": "6ab736bee5d88208e9117c70",
+    "name": "Prompt Kiểm tra ngắn OOP C++",
+    "content": "Bạn là giảng viên chấm bài môn Lập trình hướng đối tượng (C++).\r\nHãy chấm bài làm của sinh viên theo đúng rubric dưới đây. Chỉ đánh giá dựa trên mã nguồn được cung cấp và yêu cầu đề bài. Không suy diễn thêm. Nếu bài không biên dịch được, ghi rõ trong feedback và chỉ cho điểm các phần có thể xác minh.\r\n\r\nTên sinh viên: {student_name}\r\nĐiểm tối đa: {max_score}\r\n\r\nĐỀ BÀI:\r\n{đề_bài}\r\n\r\nRUBRIC:\r\n{rubric}\r\n\r\nLỜI GIẢI MẪU THAM KHẢO (nếu cần đối chiếu):\r\n{lời_giải_mẫu}\r\n\r\nBÀI LÀM SINH VIÊN:\r\n{bài_làm}\r\n\r\nYÊU CẦU TRẢ VỀ:\r\nTrả về DUY NHẤT một object JSON hợp lệ, không thêm văn bản ngoài JSON:\r\n{\r\n  \"score\": number,\r\n  \"feedback\": string,\r\n  \"breakdown\": [{\"criterion\": string, \"score\": number, \"comment\": string}]\r\n}\r\n\r\nVariables:\r\n{\r\n  \"variables\": [\r\n    \"{đề_bài}\",\r\n    \"{bài_làm}\",\r\n    \"{rubric}\",\r\n    \"{max_score}\",\r\n    \"{student_name}\",\r\n    \"{lời_giải_mẫu}\"\r\n  ]\r\n}",
+    "rubric": [
+      {
+        "criterion": "Khai báo lớp, thuộc tính private, hàm tạo/hàm hủy đúng",
+        "weight": 13,
+        "description": "Lớp có các thuộc tính private theo đề; hàm tạo mặc định/hàm tạo có đối; hàm hủy nếu có cấp phát động."
+      },
+      {
+        "criterion": "Nạp chồng toán tử nhập >> là friend, nhập đúng dữ liệu",
+        "weight": 13,
+        "description": "operator>> là friend, nhập đúng các trường theo đề; xử lý khoảng trắng hợp lý nếu cần."
+      },
+      {
+        "criterion": "Nạp chồng toán tử xuất << là friend, xuất đúng dữ liệu",
+        "weight": 9,
+        "description": "operator<< là friend, in ra thông tin rõ ràng, đúng định dạng đề yêu cầu."
+      },
+      {
+        "criterion": "Các phương thức getter/setter hoặc phương thức phụ trợ đúng",
+        "weight": 5,
+        "description": "Cung cấp đủ getter/setter hoặc phương thức mà đề yêu cầu."
+      },
+      {
+        "criterion": "Nạp chồng toán tử một ngôi (nếu đề yêu cầu +, -, !, ...)",
+        "weight": 14,
+        "description": "Cài đặt đúng toán tử một ngôi theo đề, ví dụ operator+() tính tổng, operator-() đổi dấu, operator!() đảo ngược."
+      },
+      {
+        "criterion": "Nạp chồng toán tử hai ngôi / so sánh (nếu đề yêu cầu +, -, >, <, ==, ...)",
+        "weight": 14,
+        "description": "Cài đặt đúng toán tử hai ngôi hoặc toán tử so sánh theo đề, xử lý đúng ngữ nghĩa."
+      },
+      {
+        "criterion": "Hàm main nhập/xuất/xử lý đầy đủ theo đề",
+        "weight": 14,
+        "description": "main thực hiện đủ các bước: nhập, xuất, tính toán, so sánh, sắp xếp, tìm kiếm, ... theo đề."
+      },
+      {
+        "criterion": "Quản lý bộ nhớ động đúng, không rò rỉ",
+        "weight": 9,
+        "description": "Nếu dùng new/delete, cấp phát và giải phóng đúng; không rò rỉ bộ nhớ."
+      },
+      {
+        "criterion": "Phong cách, đặt tên, chú thích, không lỗi biên dịch",
+        "weight": 9,
+        "description": "Code rõ ràng, đặt tên hợp lý, có chú thích, biên dịch thành công."
+      }
+    ],
+    "strictness": "strict",
+    "maxScore": 10,
+    "scope": "lesson",
+    "version": 4,
+    "isFallback": false,
+    "unknownPlaceholders": [],
+    "snapshotAt": "2026-09-26T11:17:37.751Z"
+  },
+  "raw": {
+    "score": 10,
+    "feedback": "Bài làm hoàn thiện rất tốt, đáp ứng đầy đủ và chính xác tất cả các yêu cầu của đề bài. Cài đặt chuẩn xác các toán tử nhập, xuất, toán tử tính tổng một ngôi (+) và toán tử so sánh (>). Quản lý bộ nhớ động rõ ràng, có chú thích chi tiết, hàm main xử lý logic chặt chẽ.",
+    "breakdown": [
+      {
+        "criterion": "Khai báo lớp, thuộc tính private, hàm tạo/hàm hủy đúng",
+        "score": 1.3,
+        "comment": "Khai báo thuộc tính đúng yêu cầu private, có hàm khởi tạo và hàm hủy giải phóng con trỏ."
+      },
+      {
+        "criterion": "Nạp chồng toán tử nhập >> là friend, nhập đúng dữ liệu",
+        "score": 1.3,
+        "comment": "Toán tử >> được nạp chồng dưới dạng friend function, cấp phát động chính xác theo số phần tử n."
+      },
+      {
+        "criterion": "Nạp chồng toán tử xuất << là friend, xuất đúng dữ liệu",
+        "score": 0.9,
+        "comment": "Toán tử << được khai báo là friend, in đầy đủ và rõ ràng các phần tử."
+      },
+      {
+        "criterion": "Các phương thức getter/setter hoặc phương thức phụ trợ đúng",
+        "score": 0.5,
+        "comment": "Đảm bảo đầy đủ các phương thức cần thiết theo yêu cầu bài toán."
+      },
+      {
+        "criterion": "Nạp chồng toán tử một ngôi (nếu đề yêu cầu +, -, !, ...)",
+        "score": 1.4,
+        "comment": "Cài đặt đúng toán tử + một ngôi (operator+() const) để tính tổng các phần tử trong dãy số."
+      },
+      {
+        "criterion": "Nạp chồng toán tử hai ngôi / so sánh (nếu đề yêu cầu +, -, >, <, ==, ...)",
+        "score": 1.4,
+        "comment": "Cài đặt toán tử so sánh > hợp lý bằng cách tận dụng toán tử + một ngôi."
+      },
+      {
+        "criterion": "Hàm main nhập/xuất/xử lý đầy đủ theo đề",
+        "score": 1.4,
+        "comment": "Hàm main thực hiện nhập 2 dãy, so sánh tổng và in kết quả đầy đủ các trường hợp (lớn hơn, bé hơn, bằng nhau)."
+      },
+      {
+        "criterion": "Quản lý bộ nhớ động đúng, không rò rỉ",
+        "score": 0.9,
+        "comment": "Cấp phát new[] và thu hồi delete[] đúng cách trong destructor."
+      },
+      {
+        "criterion": "Phong cách, đặt tên, chú thích, không lỗi biên dịch",
+        "score": 0.9,
+        "comment": "Code sạch sẽ, định dạng chuẩn, có chú thích giải thích chi tiết, biên dịch thành công."
+      }
+    ]
+  }
+}
