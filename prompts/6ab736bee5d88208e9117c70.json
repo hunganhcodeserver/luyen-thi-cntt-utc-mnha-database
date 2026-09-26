@@ -1,0 +1,34 @@
+{
+  "promptId": "6ab736bee5d88208e9117c70",
+  "name": "Prompt Kiểm tra ngắn OOP C++",
+  "description": "",
+  "content": "Bạn là giảng viên chấm bài môn Lập trình hướng đối tượng (C++).\r\nHãy chấm bài làm của sinh viên theo đúng rubric dưới đây. Chỉ đánh giá dựa trên mã nguồn được cung cấp và yêu cầu đề bài. Không suy diễn thêm. Nếu bài không biên dịch được, ghi rõ trong feedback và chỉ cho điểm các phần có thể xác minh.\r\n\r\nĐỀ BÀI:\r\nXây dựng lớp DayThuc bằng C++:\r\n- Thuộc tính private: int n; double *a;\r\n- Hàm tạo mặc định: n = 0, a = NULL; hàm hủy: delete[] a;\r\n- Nạp chồng toán tử nhập >> dưới dạng hàm bạn (friend) để nhập n và các phần tử.\r\n- Nạp chồng toán tử xuất << dưới dạng hàm bạn để in dãy.\r\n- Nạp chồng toán tử + một ngôi (operator+()) trả về tổng các phần tử.\r\n- Nạp chồng toán tử > (operator>) để so sánh hai dãy theo tổng, trong đó dùng toán tử + một ngôi.\r\n- Viết hàm main: nhập 2 dãy, in 2 dãy, so sánh tổng hai dãy, in tổng từng dãy.\r\nYêu cầu: dùng hàm bạn cho >> và <<; quản lý bộ nhớ động đúng; không rò rỉ bộ nhớ.\r\n\r\nRUBRIC (tổng 10 điểm):\r\n1. Khai báo lớp, thuộc tính private, hàm tạo, hàm hủy đúng: 1.5\r\n2. Toán tử nhập >> là friend, nhập đúng n, cấp phát động, nhập mảng: 1.5\r\n3. Toán tử xuất << là friend, in đúng dãy: 1.0\r\n4. Toán tử + một ngôi tính tổng đúng: 1.0\r\n5. Toán tử > so sánh tổng đúng, có dùng + một ngôi: 1.5\r\n6. Hàm main nhập/xuất/so sánh/in tổng đầy đủ: 1.5\r\n7. Quản lý bộ nhớ: cấp phát/giải phóng đúng, không rò rỉ: 1.0\r\n8. Phong cách, đặt tên, chú thích, không lỗi biên dịch: 1.0\r\n\r\nBÀI LÀM SINH VIÊN:\r\n{student_code}\r\n\r\nYÊU CẦU TRẢ VỀ:\r\nTrả về DUY NHẤT một object JSON hợp lệ, không thêm văn bản ngoài JSON:\r\n{\r\n  \"score\": number,\r\n  \"feedback\": string,\r\n  \"breakdown\": [{\"criterion\": string, \"score\": number, \"comment\": string}]\r\n}\r\nĐiểm tối đa: 10.",
+  "rubric": [
+    {
+      "criterion": "Đúng logic",
+      "weight": 50,
+      "description": "",
+      "_id": "6ab736bee5d88208e9117c71"
+    },
+    {
+      "criterion": "Trình bày",
+      "weight": 50,
+      "description": "",
+      "_id": "6ab736bee5d88208e9117c72"
+    }
+  ],
+  "strictness": "strict",
+  "maxScore": 10,
+  "scope": "global",
+  "variables": [
+    "{đề_bài}",
+    "{bài_làm}",
+    "{rubric}",
+    "{max_score}",
+    "{student_name}",
+    "{lời_giải_mẫu}"
+  ],
+  "version": 1,
+  "active": true,
+  "updatedAt": "2026-09-26T03:06:38.564Z"
+}
