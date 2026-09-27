@@ -1,6 +1,6 @@
 {
   "promptId": "6ab8df46247ab9ca86c512a4",
-  "name": "test",
+  "name": "test 111",
   "description": "",
   "content": "Bạn là giảng viên chấm bài.\r\nHãy chấm theo rubric sau:\r\n{rubric}\r\n\r\nĐề bài:\r\n{đề_bài}\r\n\r\nBài làm sinh viên:\r\n{bài_làm}\r\n\r\nYêu cầu trả về DUY NHẤT một object JSON:\r\n{\r\n  \"score\": number,\r\n  \"feedback\": string,\r\n  \"breakdown\": [{\"criterion\": string, \"score\": number, \"comment\": string}]\r\n}\r\n\r\nĐiểm tối đa: {max_score}",
   "rubric": [
@@ -28,5 +28,5 @@
   ],
   "version": 1,
   "active": true,
-  "updatedAt": "2026-09-27T09:17:58.851Z"
+  "updatedAt": "2026-09-27T09:18:45.837Z"
 }
