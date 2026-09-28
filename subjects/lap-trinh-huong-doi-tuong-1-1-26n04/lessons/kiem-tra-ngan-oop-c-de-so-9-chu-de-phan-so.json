@@ -1,0 +1,13 @@
+{
+  "lessonId": "6aba92d9ca76911fd04171c2",
+  "title": "(Kiểm tra ngắn OOP C++) ĐỀ SỐ 9 - Chủ đề: PHÂN SỐ",
+  "slug": "kiem-tra-ngan-oop-c-de-so-9-chu-de-phan-so",
+  "description": "",
+  "contentHtml": "<div class=\"flex-container flex-1-2-1-8\" style=\"display: flex; flex-direction: column;\"><div class=\"flex-container flex-1-2-1-8-0\" style=\"display: flex; flex-direction: column;\"><div class=\"flex-container flex-1-2-1-8-0-0\" style=\"display: flex; flex-direction: column;\"><div style=\"width: 100%; height: 100%;\"><p data-path-to-node=\"1,2,1,8,0,0,0\">ĐỀ SỐ 9\r\nPHÂN SỐ</p></div></div><div class=\"flex-container flex-1-2-1-8-0-1\" style=\"display: flex; flex-direction: column;\"><div style=\"width: 100%; height: 100%;\"><p data-path-to-node=\"1,2,1,8,0,1,0\">⏱ 30 phút | 💻 C++</p></div></div><div class=\"flex-container flex-1-2-1-8-0-2\" style=\"display: flex; flex-direction: column;\"><div style=\"width: 100%; height: 100%;\"><p data-path-to-node=\"1,2,1,8,0,2,0\"><b data-path-to-node=\"1,2,1,8,0,2,0\" data-index-in-node=\"0\">Lớp PhanSo:</b></p></div><div style=\"width: 100%; height: 100%;\"><ul data-path-to-node=\"1,2,1,8,0,2,1\"><li><p data-path-to-node=\"1,2,1,8,0,2,1,0,0\">Thuộc tính: <code data-path-to-node=\"1,2,1,8,0,2,1,0,0\" data-index-in-node=\"12\">tuSo</code>, <code data-path-to-node=\"1,2,1,8,0,2,1,0,0\" data-index-in-node=\"18\">mauSo</code>, cấu tử &amp; <code data-path-to-node=\"1,2,1,8,0,2,1,0,0\" data-index-in-node=\"34\">rutGon()</code></p></li><li><p data-path-to-node=\"1,2,1,8,0,2,1,1,0\">Nạp chồng toán tử <code data-path-to-node=\"1,2,1,8,0,2,1,1,0\" data-index-in-node=\"18\">-</code> và <code data-path-to-node=\"1,2,1,8,0,2,1,1,0\" data-index-in-node=\"23\">&lt;</code></p></li><li><p data-path-to-node=\"1,2,1,8,0,2,1,2,0\">Hàm bạn <code data-path-to-node=\"1,2,1,8,0,2,1,2,0\" data-index-in-node=\"8\">&gt;&gt;</code> và <code data-path-to-node=\"1,2,1,8,0,2,1,2,0\" data-index-in-node=\"14\">&lt;&lt;</code></p></li></ul></div><div class=\"flex-container flex-1-2-1-8-0-2-2\" style=\"display: flex; flex-direction: column;\"><div style=\"width: 100%; height: 100%;\"><p data-path-to-node=\"1,2,1,8,0,2,2,0\"><b data-path-to-node=\"1,2,1,8,0,2,2,0\" data-index-in-node=\"0\">main():</b> Nhập p1, p2; in p1 - p2. Nếu p1 &lt; p2 in \"p1 nho hon p2\".</p></div></div></div></div></div>",
+  "sampleSolution": "",
+  "duration": 30,
+  "model": null,
+  "isPublished": true,
+  "createdAt": "2026-09-28T16:16:25.481Z",
+  "updatedAt": "2026-09-28T16:16:25.692Z"
+}
