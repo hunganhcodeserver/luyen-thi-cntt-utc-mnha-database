@@ -1,0 +1,13 @@
+{
+  "lessonId": "6abbd4cf33f81940cd6b9f02",
+  "title": "(Kiểm tra ngắn OOP C++) ĐỀ SỐ 17 - Chủ đề: PHÂN SỐ",
+  "slug": "kiem-tra-ngan-oop-c-de-so-17-chu-de-phan-so",
+  "description": "",
+  "contentHtml": "<h2>ĐỀ SỐ 17</h2>\r\n<p><strong>Chủ đề: PHÂN SỐ • Thời gian: 30 phút • C++</strong></p>\r\n\r\n<ul>\r\n    <li>\r\n        <strong>Yêu cầu: Xây dựng lớp PhanSo bao gồm:</strong>\r\n        <ol>\r\n            <li>Khai báo tuSo, mauSo; cấu tử và rutGon().</li>\r\n            <li>Nạp chồng toán tử / để chia hai phân số; xử lý trường hợp phân số chia bằng 0.</li>\r\n            <li>Nạp chồng toán tử /=.</li>\r\n            <li>Nạp chồng toán tử ==.</li>\r\n            <li>Viết hàm bạn &gt;&gt; và &lt;&lt;.</li>\r\n        </ol>\r\n    </li>\r\n    <li>\r\n        <strong>Yêu cầu trong hàm main():</strong> Nhập p1, p2. Nếu phép chia hợp lệ, in p1 / p2; sau đó thực hiện p1 /= p2 và in p1.\r\n    </li>\r\n</ul>\r\n\r\n<p><em>Lưu ý: Có thể bổ sung hàm/phương thức hỗ trợ hợp lý</em></p>\r\n",
+  "sampleSolution": "",
+  "duration": 30,
+  "model": null,
+  "isPublished": true,
+  "createdAt": "2026-09-29T15:10:07.702Z",
+  "updatedAt": "2026-09-29T15:10:07.910Z"
+}
