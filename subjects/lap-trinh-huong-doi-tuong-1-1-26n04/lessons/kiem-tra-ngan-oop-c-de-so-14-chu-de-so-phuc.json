@@ -1,0 +1,13 @@
+{
+  "lessonId": "6abbd3d233f81940cd6b9f01",
+  "title": "(Kiểm tra ngắn OOP C++) ĐỀ SỐ 14 - Chủ đề: SỐ PHỨC",
+  "slug": "kiem-tra-ngan-oop-c-de-so-14-chu-de-so-phuc",
+  "description": "",
+  "contentHtml": "<h2>ĐỀ SỐ 14</h2>\r\n<p><strong>Chủ đề: SỐ PHỨC • Thời gian: 30 phút • C++</strong></p>\r\n\r\n<p>SỐ PHỨC là số có dạng | z=a+bi</p>\r\n\r\n<ul>\r\n    <li>\r\n        <strong>Yêu cầu: Xây dựng lớp SoPhuc bao gồm:</strong>\r\n        <ol>\r\n            <li>Khai báo thuc, ao; cấu tử có đối mặc định.</li>\r\n            <li>Nạp chồng toán tử +.</li>\r\n            <li>Nạp chồng toán tử = để gán một số phức cho số phức khác và trả về *this.</li>\r\n            <li>Nạp chồng toán tử ==.</li>\r\n            <li>Viết hàm bạn &gt;&gt; và &lt;&lt;.</li>\r\n        </ol>\r\n    </li>\r\n    <li>\r\n        <strong>Yêu cầu trong hàm main():</strong> Nhập z1, z2; tạo z3 rồi thực hiện z3 = z1 + z2. In z3 và kiểm tra z3 == z1.\r\n    </li>\r\n</ul>\r\n\r\n<p><em>Lưu ý: Có thể bổ sung hàm/phương thức hỗ trợ hợp lý</em></p>\r\n",
+  "sampleSolution": "",
+  "duration": 30,
+  "model": null,
+  "isPublished": true,
+  "createdAt": "2026-09-29T15:05:54.733Z",
+  "updatedAt": "2026-09-29T15:05:54.940Z"
+}
