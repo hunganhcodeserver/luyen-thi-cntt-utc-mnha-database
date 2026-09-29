@@ -182,5 +182,12 @@
         "comment": "Mã nguồn trình bày sạch đẹp, đặt tên rõ ràng, có chú thích tốt và biên dịch thành công."
       }
     ]
-  }
+  },
+  "teacherComment": {
+    "content": "test",
+    "commentedBy": "6ab3d694415010bf620349e5",
+    "commentedByName": "Mai Ngọc Hùng Anh",
+    "commentedAt": "2026-09-29T10:42:18.054Z"
+  },
+  "teacherCommentHistory": []
 }
