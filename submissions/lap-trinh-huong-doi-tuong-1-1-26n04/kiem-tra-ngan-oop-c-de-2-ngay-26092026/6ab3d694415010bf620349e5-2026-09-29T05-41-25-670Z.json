@@ -184,10 +184,17 @@
     ]
   },
   "teacherComment": {
-    "content": "test",
+    "content": "Bài làm ổn chấp nhận được",
     "commentedBy": "6ab3d694415010bf620349e5",
     "commentedByName": "Mai Ngọc Hùng Anh",
-    "commentedAt": "2026-09-29T10:42:18.054Z"
+    "commentedAt": "2026-09-29T10:43:15.121Z"
   },
-  "teacherCommentHistory": []
+  "teacherCommentHistory": [
+    {
+      "content": "test",
+      "commentedBy": "6ab3d694415010bf620349e5",
+      "commentedByName": "Mai Ngọc Hùng Anh",
+      "commentedAt": "2026-09-29T10:42:18.054Z"
+    }
+  ]
 }
