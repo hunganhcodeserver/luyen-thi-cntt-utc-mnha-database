@@ -1,0 +1,13 @@
+{
+  "lessonId": "6abbd3293b9a8f1995e20a4d",
+  "title": "(Kiểm tra ngắn OOP C++) ĐỀ SỐ 12 - Chủ đề: THỜI GIAN",
+  "slug": "kiem-tra-ngan-oop-c-de-so-12-chu-de-thoi-gian",
+  "description": "",
+  "contentHtml": "<h2>ĐỀ SỐ 12</h2>\r\n<p><strong>Chủ đề: THỜI GIAN • Thời gian: 30 phút • C++</strong></p>\r\n\r\n<ul>\r\n    <li>\r\n        <strong>Yêu cầu: Xây dựng lớp ThoiGian bao gồm:</strong>\r\n        <ol>\r\n            <li>Khai báo gio, phut, giay; cấu tử có đối mặc định.</li>\r\n            <li>Viết chuanHoa() để đưa phút, giây về miền hợp lệ.</li>\r\n            <li>Nạp chồng toán tử &gt; để so sánh hai thời điểm.</li>\r\n            <li>Nạp chồng toán tử ++ dạng tiền tố để tăng thời gian thêm 1 giây.</li>\r\n            <li>Viết hàm bạn &gt;&gt; và &lt;&lt;.</li>\r\n        </ol>\r\n    </li>\r\n    <li>\r\n        <strong>Yêu cầu trong hàm main():</strong> Nhập t1, t2; cho biết t1 có lớn hơn t2 không. Thực hiện ++t1 rồi in t1.\r\n    </li>\r\n</ul>\r\n\r\n<p><em>Lưu ý: Có thể bổ sung hàm/phương thức hỗ trợ hợp lý</em></p>\r\n",
+  "sampleSolution": "",
+  "duration": 30,
+  "model": null,
+  "isPublished": true,
+  "createdAt": "2026-09-29T15:03:05.968Z",
+  "updatedAt": "2026-09-29T15:03:06.207Z"
+}
