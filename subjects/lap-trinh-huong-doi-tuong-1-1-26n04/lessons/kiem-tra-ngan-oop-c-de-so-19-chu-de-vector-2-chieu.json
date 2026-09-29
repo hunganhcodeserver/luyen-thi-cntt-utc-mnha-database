@@ -1,0 +1,13 @@
+{
+  "lessonId": "6abbd59e33f81940cd6b9f03",
+  "title": "(Kiểm tra ngắn OOP C++) ĐỀ SỐ 19 - Chủ đề: VECTOR 2 CHIỀU",
+  "slug": "kiem-tra-ngan-oop-c-de-so-19-chu-de-vector-2-chieu",
+  "description": "",
+  "contentHtml": "<h2>ĐỀ SỐ 19</h2>\r\n<p><strong>Chủ đề: VECTOR 2 CHIỀU • Thời gian: 30 phút • C++</strong></p>\r\n\r\n<ul>\r\n    <li>\r\n        <strong>Yêu cầu: Xây dựng lớp Vector2Chieu bao gồm:</strong>\r\n        <ol>\r\n            <li>Khai báo x, y; cấu tử có đối mặc định.</li>\r\n            <li>Viết doDai().</li>\r\n            <li>Nạp chồng toán tử &lt;, quy ước so sánh theo độ dài vector.</li>\r\n            <li>Nạp chồng toán tử =.</li>\r\n            <li>Viết hàm bạn &gt;&gt; và &lt;&lt;.</li>\r\n        </ol>\r\n    </li>\r\n    <li>\r\n        <strong>Yêu cầu trong hàm main():</strong> Nhập v1, v2; dùng &lt; để in vector ngắn hơn. Tạo v3 và thực hiện v3 = v1 rồi in v3.\r\n    </li>\r\n</ul>\r\n\r\n<p><em>Lưu ý: Có thể bổ sung hàm/phương thức hỗ trợ hợp lý</em></p>\r\n",
+  "sampleSolution": "",
+  "duration": 30,
+  "model": null,
+  "isPublished": true,
+  "createdAt": "2026-09-29T15:13:34.337Z",
+  "updatedAt": "2026-09-29T15:13:34.549Z"
+}
