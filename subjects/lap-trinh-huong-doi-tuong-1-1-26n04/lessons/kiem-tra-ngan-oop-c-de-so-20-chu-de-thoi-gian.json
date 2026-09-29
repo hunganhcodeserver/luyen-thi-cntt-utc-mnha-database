@@ -1,0 +1,13 @@
+{
+  "lessonId": "6abbd5ef3b9a8f1995e20a51",
+  "title": "(Kiểm tra ngắn OOP C++) ĐỀ SỐ 20 - Chủ đề: THỜI GIAN",
+  "slug": "kiem-tra-ngan-oop-c-de-so-20-chu-de-thoi-gian",
+  "description": "",
+  "contentHtml": "<h2>ĐỀ SỐ 20</h2>\r\n<p><strong>Chủ đề: THỜI GIAN • Thời gian: 30 phút • C++</strong></p>\r\n\r\n<ul>\r\n    <li>\r\n        <strong>Yêu cầu: Xây dựng lớp ThoiGian bao gồm:</strong>\r\n        <ol>\r\n            <li>Khai báo gio, phut, giay; cấu tử và chuanHoa() để đưa phút, giây về miền hợp lệ..</li>\r\n            <li>Nạp chồng toán tử - với số nguyên s (giây) để lùi thời gian; giả sử kết quả không âm.</li>\r\n            <li>Nạp chồng toán tử -= với số nguyên s.</li>\r\n            <li>Nạp chồng toán tử &gt;=.</li>\r\n            <li>Viết hàm bạn &gt;&gt; và &lt;&lt;.</li>\r\n        </ol>\r\n    </li>\r\n    <li>\r\n        <strong>Yêu cầu trong hàm main():</strong> Nhập t và số giây s. In t - s; sau đó t -= s và in t. Kiểm tra t &gt;= ThoiGian(8,0,0).\r\n    </li>\r\n</ul>\r\n\r\n<p><em>Lưu ý: Có thể bổ sung hàm/phương thức hỗ trợ hợp lý</em></p>\r\n",
+  "sampleSolution": "",
+  "duration": 30,
+  "model": null,
+  "isPublished": true,
+  "createdAt": "2026-09-29T15:14:55.820Z",
+  "updatedAt": "2026-09-29T15:14:56.028Z"
+}
