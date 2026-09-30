@@ -30,7 +30,7 @@
       "description": "Dùng đúng thuật ngữ CNTT và Assembly; không nhầm lẫn giữa biến, hằng, địa chỉ (offset), nội dung ô nhớ, thanh ghi, byte/word/double word."
     }
   ],
-  "strictness": "normal",
+  "strictness": "strict",
   "maxScore": 10,
   "scope": "global",
   "variables": [
@@ -43,5 +43,5 @@
   ],
   "version": 2,
   "active": true,
-  "updatedAt": "2026-09-30T15:27:47.697Z"
+  "updatedAt": "2026-09-30T15:28:26.225Z"
 }
