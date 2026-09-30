@@ -1,0 +1,13 @@
+{
+  "lessonId": "6abc8cec8954c815f83fe2f2",
+  "title": "(Kiểm tra ngắn OOP C++) ĐỀ SỐ 28 - Chủ đề: THỜI GIAN",
+  "slug": "kiem-tra-ngan-oop-c-de-so-28-chu-de-thoi-gian",
+  "description": "",
+  "contentHtml": "<h2>ĐỀ SỐ 28</h2>\r\n<p><strong>Chủ đề: THỜI GIAN • Thời gian: 30 phút • C++</strong></p>\r\n\r\n<ul>\r\n    <li>\r\n        <strong>Yêu cầu: Xây dựng lớp ThoiGian bao gồm:</strong>\r\n        <ol>\r\n            <li>Khai báo gio, phut, giay; cấu tử và chuanHoa() để đưa phút, giây về miền hợp lệ.</li>\r\n            <li>Nạp chồng toán tử ++ dạng hậu tố để tăng 1 giây.</li>\r\n            <li>Nạp chồng toán tử &lt;=.</li>\r\n            <li>Nạp chồng toán tử =.</li>\r\n            <li>Viết hàm bạn &gt;&gt; và &lt;&lt;.</li>\r\n        </ol>\r\n    </li>\r\n    <li>\r\n        <strong>Yêu cầu trong hàm main():</strong> Nhập t1; tạo t2 rồi gán t2 = t1. Thực hiện t1++ và in cả t1, t2; kiểm tra t2 &lt;= t1.\r\n    </li>\r\n</ul>\r\n\r\n<p><em>Lưu ý: Có thể bổ sung hàm/phương thức hỗ trợ hợp lý</em></p>\r\n",
+  "sampleSolution": "",
+  "duration": 30,
+  "model": null,
+  "isPublished": true,
+  "createdAt": "2026-09-30T04:15:40.819Z",
+  "updatedAt": "2026-09-30T04:15:41.026Z"
+}
