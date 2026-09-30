@@ -1,0 +1,13 @@
+{
+  "lessonId": "6abc8c488954c815f83fe2f0",
+  "title": "(Kiểm tra ngắn OOP C++) ĐỀ SỐ 26 - Chủ đề: SỐ PHỨC",
+  "slug": "kiem-tra-ngan-oop-c-de-so-26-chu-de-so-phuc",
+  "description": "",
+  "contentHtml": "<h2>ĐỀ SỐ 26</h2>\r\n<p><strong>Chủ đề: SỐ PHỨC • Thời gian: 30 phút • C++</strong></p>\r\n\r\n<p>SỐ PHỨC là số có dạng | z=a+bi</p>\r\n\r\n<ul>\r\n    <li>\r\n        <strong>Yêu cầu: Xây dựng lớp SoPhuc bao gồm:</strong>\r\n        <ol>\r\n            <li>Khai báo thuc, ao; cấu tử có đối mặc định.</li>\r\n            <li>Nạp chồng toán tử +.</li>\r\n            <li>Nạp chồng toán tử -=.</li>\r\n            <li>Nạp chồng toán tử &gt;, quy ước so sánh theo mô-đun.</li>\r\n            <li>Viết hàm bạn &gt;&gt; và &lt;&lt;.</li>\r\n        </ol>\r\n    </li>\r\n    <li>\r\n        <strong>Yêu cầu trong hàm main():</strong> Nhập z1, z2; in z1 + z2. Sau đó z1 -= z2 và in z1; dùng &gt; để cho biết số phức nào có mô-đun lớn hơn.\r\n    </li>\r\n</ul>\r\n\r\n<p><em>Lưu ý: Có thể bổ sung hàm/phương thức hỗ trợ hợp lý</em></p>\r\n",
+  "sampleSolution": "",
+  "duration": 30,
+  "model": null,
+  "isPublished": true,
+  "createdAt": "2026-09-30T04:12:56.776Z",
+  "updatedAt": "2026-09-30T04:12:56.988Z"
+}
