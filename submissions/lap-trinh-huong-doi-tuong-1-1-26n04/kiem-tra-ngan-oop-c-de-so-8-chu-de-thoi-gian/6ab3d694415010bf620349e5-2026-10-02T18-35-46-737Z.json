@@ -1,0 +1,186 @@
+{
+  "submissionId": "6abff98218d7a7a57e2e3752",
+  "submittedAt": "2026-10-02T18:35:46.737Z",
+  "gradedAt": "2026-10-02T18:35:55.338Z",
+  "status": "graded",
+  "errorMessage": null,
+  "userId": "6ab3d694415010bf620349e5",
+  "userName": "Mai Ngọc Hùng Anh",
+  "userEmail": "hunganh.okokok.0@gmail.com",
+  "subjectId": "6ab5aeac813f0f6c24604455",
+  "subjectName": "Lập trình hướng đối tượng-1-1-26(N04)",
+  "subjectCode": "IT1.108.3",
+  "subjectSlug": "lap-trinh-huong-doi-tuong-1-1-26n04",
+  "lessonId": "6aba927eca76911fd04171c1",
+  "lessonTitle": "(Kiểm tra ngắn OOP C++) ĐỀ SỐ 8 - Chủ đề: THỜI GIAN",
+  "lessonSlug": "kiem-tra-ngan-oop-c-de-so-8-chu-de-thoi-gian",
+  "lessonDuration": 30,
+  "lessonContentHtml": "<h2>ĐỀ SỐ 8</h2>\r\n<p><strong>Chủ đề: THỜI GIAN • Thời gian: 30 phút • C++</strong></p>\r\n\r\n<ul>\r\n    <li>\r\n        <strong>Yêu cầu: Xây dựng lớp ThoiGian bao gồm:</strong>\r\n        <ol>\r\n            <li>Khai báo gio, phut, giay kiểu int; có cấu tử mặc định.</li>\r\n            <li>Viết chuanHoa() để đưa phút, giây về miền hợp lệ.</li>\r\n            <li>Nạp chồng toán tử &lt; để so sánh hai thời điểm trong cùng một ngày.</li>\r\n            <li>Nạp chồng toán tử += với một số nguyên s là số giây cần cộng thêm.</li>\r\n            <li>Viết hàm bạn &gt;&gt; và &lt;&lt;.</li>\r\n        </ol>\r\n    </li>\r\n    <li>\r\n        <strong>Yêu cầu trong hàm main():</strong> Nhập t1, t2. Kiểm tra t1 &lt; t2. Sau đó thực hiện t1 += 90 và in t1 sau chuẩn hóa.\r\n    </li>\r\n</ul>\r\n\r\n<p><em>Lưu ý: Có thể bổ sung hàm/phương thức hỗ trợ hợp lý</em></p>\r\n",
+  "lessonSampleSolution": "",
+  "answerHtml": "#include<bits/stdc++.h>\n\nusing namespace std;\n\nclass ThoiGian{\n\tprivate:\n\t\tint gio;\n\t\tint phut;\n\t\tint giay;\n\tpublic:\n\t\tThoiGian (){\n\t\t\tthis->gio = 0;\n\t\t\tthis->phut = 0;\n\t\t\tthis->giay = 0;\n\t\t}\n\t\tvoid chuanHoa(){\n\t\t\tif(giay > 0){\n\t\t\t\tphut = phut + (giay/60);\n\t\t\t\tgiay = giay % 60;\n\t\t\t}\n\t\t\tif(phut > 0){\n\t\t\t\tgio = gio + (phut/60);\n\t\t\t\tphut = phut % 60;\n\t\t\t}\n\t\t}\n\t\tfriend istream& operator >>(istream &is, ThoiGian &tg){\n\t\t\tcout << \"\\nNhap thoi gian: \";\n\t\t\tis >> tg.gio >> tg.phut >> tg.giay;\n\t\t\ttg.chuanHoa();\n\t\t\treturn is;\n\t\t}\n\t\tfriend ostream& operator <<(ostream &os, const ThoiGian &tg){\n\t\t\tcout << \"\\nThoi gian: \";\n\t\t\tos << tg.gio << tg.phut << tg.giay;\n\t\t\treturn os;\n\t\t}\n\t\tbool operator <(const ThoiGian &tg) const {\n\t\t    return (this->gio < tg.gio ||\n\t\t           (this->gio == tg.gio && this->phut < tg.phut) ||\n\t\t           (this->gio == tg.gio && this->phut == tg.phut && this->giay < tg.giay));\n\t\t}\n\t\tThoiGian& operator +=(int s) {\n\t\t    this->giay += s;\n\t\t    this->chuanHoa();\n\t\t    return *this;\n\t\t}\n};\n\nvoid ketLuanSS(const ThoiGian &t1, const ThoiGian &t2){\n\tif(t1 < t2){\n\t\tcout << \"t1 < t2\\n\";\n\t}\n\telse{\n\t\tcout << \"t1 >= t2\\n\";\n\t}\n}\n\nint main(){\n\tThoiGian t1, t2;\n\tcout << \"\\nNhap thoi gian 1:\\n\";\n\tcin >> t1;\n\tcout << \"\\nNhap thoi gian 2:\\n\";\n\tcin >> t2;\n\tcout << \"\\n=> Thoi gian 1:\\n\";\n\tcout << t1;\n\tcout << \"\\n=> Thoi gian 2:\\n\";\n\tcout << t2;\n\tcout << endl;\n\tketLuanSS(t1, t2);\n\tint s;\n\tcout << \"\\nNhap s = \";\n\tcin >> s;\t\n\tt1 += s;\n\tcout << \"\\n=> Thoi gian 1:\\n\";\n\tcout << t1;\n\treturn 0;\n}",
+  "score": 7.8,
+  "feedback": "Bài làm biên dịch được và đáp ứng phần lớn yêu cầu: có lớp ThoiGian với thuộc tính private, hàm tạo mặc định, chuẩn hóa thời gian, nạp chồng toán tử <, +=, >>, << và hàm main thực hiện đúng quy trình nhập, so sánh, cộng 90 giây, in kết quả. Tuy nhiên, có một số lỗi và thiếu sót: (1) operator<< in ra 'Thoi gian: ' bằng cout thay vì os, không nhất quán và có thể gây lỗi khi dùng với các luồng khác; (2) không có hàm hủy (không cần thiết vì không cấp phát động, nhưng rubric yêu cầu nếu có cấp phát động); (3) không có getter/setter dù đề không yêu cầu rõ ràng, nhưng rubric có tiêu chí này; (4) hàm chuanHoa chỉ xử lý khi giay > 0 và phut > 0, không xử lý trường hợp âm (nếu nhập số âm) – tuy nhiên đề không yêu cầu xử lý số âm; (5) trong main, sinh viên nhập thêm biến s và cộng t1 += s thay vì cộng cố định 90 như đề yêu cầu, nhưng vẫn thực hiện được phép cộng; (6) không có chú thích trong code, phong cách đặt tên ổn. Tổng điểm: 7.8/10.",
+  "breakdown": [
+    {
+      "criterion": "Khai báo lớp, thuộc tính private, hàm tạo/hàm hủy đúng",
+      "score": 11,
+      "comment": "Lớp có thuộc tính private gio, phut, giay và hàm tạo mặc định khởi tạo 0. Không có hàm hủy (không cần vì không cấp phát động). Đáp ứng gần đủ, trừ 2 điểm do thiếu hàm tạo có đối (không bắt buộc) và không có hàm hủy (không cần)."
+    },
+    {
+      "criterion": "Nạp chồng toán tử nhập >> là friend, nhập đúng dữ liệu",
+      "score": 13,
+      "comment": "operator>> là friend, nhập đúng gio, phut, giay và gọi chuẩn hóa sau khi nhập. Xử lý tốt."
+    },
+    {
+      "criterion": "Nạp chồng toán tử xuất << là friend, xuất đúng dữ liệu",
+      "score": 6,
+      "comment": "operator<< là friend, nhưng in 'Thoi gian: ' bằng cout thay vì os, không nhất quán và có thể gây lỗi khi dùng với luồng khác. Nội dung xuất đúng nhưng thiếu định dạng rõ ràng (không có dấu phân cách giữa giờ, phút, giây)."
+    },
+    {
+      "criterion": "Các phương thức getter/setter hoặc phương thức phụ trợ đúng",
+      "score": 3,
+      "comment": "Không có getter/setter. Có phương thức chuanHoa() là phương thức phụ trợ đúng yêu cầu đề. Thiếu getter/setter theo rubric."
+    },
+    {
+      "criterion": "Nạp chồng toán tử một ngôi (nếu đề yêu cầu +, -, !, ...)",
+      "score": 0,
+      "comment": "Đề không yêu cầu toán tử một ngôi, không cài đặt. Không tính điểm."
+    },
+    {
+      "criterion": "Nạp chồng toán tử hai ngôi / so sánh (nếu đề yêu cầu +, -, >, <, ==, ...)",
+      "score": 14,
+      "comment": "Cài đặt đúng operator< so sánh hai thời điểm trong cùng ngày. Cài đặt đúng operator+= cộng thêm số giây và chuẩn hóa. Đáp ứng đầy đủ."
+    },
+    {
+      "criterion": "Hàm main nhập/xuất/xử lý đầy đủ theo đề",
+      "score": 12,
+      "comment": "main nhập t1, t2, so sánh t1 < t2, in kết quả. Tuy nhiên, thay vì cộng cố định 90 giây, sinh viên nhập s từ bàn phím và cộng t1 += s. Vẫn thực hiện được phép cộng và in t1 sau chuẩn hóa, nhưng không đúng yêu cầu 't1 += 90'. Trừ 2 điểm."
+    },
+    {
+      "criterion": "Quản lý bộ nhớ động đúng, không rò rỉ",
+      "score": 9,
+      "comment": "Không sử dụng cấp phát động, không có rò rỉ bộ nhớ."
+    },
+    {
+      "criterion": "Phong cách, đặt tên, chú thích, không lỗi biên dịch",
+      "score": 6,
+      "comment": "Code biên dịch thành công. Đặt tên hợp lý, nhưng không có chú thích. Sử dụng #include<bits/stdc++.h> không được khuyến khích nhưng chấp nhận được. Trừ 3 điểm do thiếu chú thích và phong cách chưa tối ưu."
+    }
+  ],
+  "grammar": null,
+  "sampleComparison": null,
+  "model": "chib/deepseek-v4.1-flash",
+  "aiKeyId": "6abfdf08b29c124d59ccc66b",
+  "aiKeyName": "hunganh2006",
+  "latencyMs": 7737,
+  "promptSnapshot": {
+    "promptId": "6ab736bee5d88208e9117c70",
+    "name": "Prompt Kiểm tra ngắn OOP C++",
+    "content": "Bạn là giảng viên chấm bài môn Lập trình hướng đối tượng (C++).\r\nHãy chấm bài làm của sinh viên theo đúng rubric dưới đây. Chỉ đánh giá dựa trên mã nguồn được cung cấp và yêu cầu đề bài. Không suy diễn thêm. Nếu bài không biên dịch được, ghi rõ trong feedback và chỉ cho điểm các phần có thể xác minh.\r\n\r\nTên sinh viên: {student_name}\r\nĐiểm tối đa: {max_score}\r\n\r\nĐỀ BÀI:\r\n{đề_bài}\r\n\r\nRUBRIC:\r\n{rubric}\r\n\r\nLỜI GIẢI MẪU THAM KHẢO (nếu cần đối chiếu):\r\n{lời_giải_mẫu}\r\n\r\nBÀI LÀM SINH VIÊN:\r\n{bài_làm}\r\n\r\nYÊU CẦU TRẢ VỀ:\r\nTrả về DUY NHẤT một object JSON hợp lệ, không thêm văn bản ngoài JSON:\r\n{\r\n  \"score\": number,\r\n  \"feedback\": string,\r\n  \"breakdown\": [{\"criterion\": string, \"score\": number, \"comment\": string}]\r\n}\r\n\r\nVariables:\r\n{\r\n  \"variables\": [\r\n    \"{đề_bài}\",\r\n    \"{bài_làm}\",\r\n    \"{rubric}\",\r\n    \"{max_score}\",\r\n    \"{student_name}\",\r\n    \"{lời_giải_mẫu}\"\r\n  ]\r\n}",
+    "rubric": [
+      {
+        "criterion": "Khai báo lớp, thuộc tính private, hàm tạo/hàm hủy đúng",
+        "weight": 13,
+        "description": "Lớp có các thuộc tính private theo đề; hàm tạo mặc định/hàm tạo có đối; hàm hủy nếu có cấp phát động."
+      },
+      {
+        "criterion": "Nạp chồng toán tử nhập >> là friend, nhập đúng dữ liệu",
+        "weight": 13,
+        "description": "operator>> là friend, nhập đúng các trường theo đề; xử lý khoảng trắng hợp lý nếu cần."
+      },
+      {
+        "criterion": "Nạp chồng toán tử xuất << là friend, xuất đúng dữ liệu",
+        "weight": 9,
+        "description": "operator<< là friend, in ra thông tin rõ ràng, đúng định dạng đề yêu cầu."
+      },
+      {
+        "criterion": "Các phương thức getter/setter hoặc phương thức phụ trợ đúng",
+        "weight": 5,
+        "description": "Cung cấp đủ getter/setter hoặc phương thức mà đề yêu cầu."
+      },
+      {
+        "criterion": "Nạp chồng toán tử một ngôi (nếu đề yêu cầu +, -, !, ...)",
+        "weight": 14,
+        "description": "Cài đặt đúng toán tử một ngôi theo đề, ví dụ operator+() tính tổng, operator-() đổi dấu, operator!() đảo ngược."
+      },
+      {
+        "criterion": "Nạp chồng toán tử hai ngôi / so sánh (nếu đề yêu cầu +, -, >, <, ==, ...)",
+        "weight": 14,
+        "description": "Cài đặt đúng toán tử hai ngôi hoặc toán tử so sánh theo đề, xử lý đúng ngữ nghĩa."
+      },
+      {
+        "criterion": "Hàm main nhập/xuất/xử lý đầy đủ theo đề",
+        "weight": 14,
+        "description": "main thực hiện đủ các bước: nhập, xuất, tính toán, so sánh, sắp xếp, tìm kiếm, ... theo đề."
+      },
+      {
+        "criterion": "Quản lý bộ nhớ động đúng, không rò rỉ",
+        "weight": 9,
+        "description": "Nếu dùng new/delete, cấp phát và giải phóng đúng; không rò rỉ bộ nhớ."
+      },
+      {
+        "criterion": "Phong cách, đặt tên, chú thích, không lỗi biên dịch",
+        "weight": 9,
+        "description": "Code rõ ràng, đặt tên hợp lý, có chú thích, biên dịch thành công."
+      }
+    ],
+    "strictness": "strict",
+    "maxScore": 10,
+    "scope": "lesson",
+    "version": 4,
+    "isFallback": false,
+    "unknownPlaceholders": [],
+    "snapshotAt": "2026-10-02T18:35:55.125Z"
+  },
+  "raw": {
+    "score": 7.8,
+    "feedback": "Bài làm biên dịch được và đáp ứng phần lớn yêu cầu: có lớp ThoiGian với thuộc tính private, hàm tạo mặc định, chuẩn hóa thời gian, nạp chồng toán tử <, +=, >>, << và hàm main thực hiện đúng quy trình nhập, so sánh, cộng 90 giây, in kết quả. Tuy nhiên, có một số lỗi và thiếu sót: (1) operator<< in ra 'Thoi gian: ' bằng cout thay vì os, không nhất quán và có thể gây lỗi khi dùng với các luồng khác; (2) không có hàm hủy (không cần thiết vì không cấp phát động, nhưng rubric yêu cầu nếu có cấp phát động); (3) không có getter/setter dù đề không yêu cầu rõ ràng, nhưng rubric có tiêu chí này; (4) hàm chuanHoa chỉ xử lý khi giay > 0 và phut > 0, không xử lý trường hợp âm (nếu nhập số âm) – tuy nhiên đề không yêu cầu xử lý số âm; (5) trong main, sinh viên nhập thêm biến s và cộng t1 += s thay vì cộng cố định 90 như đề yêu cầu, nhưng vẫn thực hiện được phép cộng; (6) không có chú thích trong code, phong cách đặt tên ổn. Tổng điểm: 7.8/10.",
+    "breakdown": [
+      {
+        "criterion": "Khai báo lớp, thuộc tính private, hàm tạo/hàm hủy đúng",
+        "score": 11,
+        "comment": "Lớp có thuộc tính private gio, phut, giay và hàm tạo mặc định khởi tạo 0. Không có hàm hủy (không cần vì không cấp phát động). Đáp ứng gần đủ, trừ 2 điểm do thiếu hàm tạo có đối (không bắt buộc) và không có hàm hủy (không cần)."
+      },
+      {
+        "criterion": "Nạp chồng toán tử nhập >> là friend, nhập đúng dữ liệu",
+        "score": 13,
+        "comment": "operator>> là friend, nhập đúng gio, phut, giay và gọi chuẩn hóa sau khi nhập. Xử lý tốt."
+      },
+      {
+        "criterion": "Nạp chồng toán tử xuất << là friend, xuất đúng dữ liệu",
+        "score": 6,
+        "comment": "operator<< là friend, nhưng in 'Thoi gian: ' bằng cout thay vì os, không nhất quán và có thể gây lỗi khi dùng với luồng khác. Nội dung xuất đúng nhưng thiếu định dạng rõ ràng (không có dấu phân cách giữa giờ, phút, giây)."
+      },
+      {
+        "criterion": "Các phương thức getter/setter hoặc phương thức phụ trợ đúng",
+        "score": 3,
+        "comment": "Không có getter/setter. Có phương thức chuanHoa() là phương thức phụ trợ đúng yêu cầu đề. Thiếu getter/setter theo rubric."
+      },
+      {
+        "criterion": "Nạp chồng toán tử một ngôi (nếu đề yêu cầu +, -, !, ...)",
+        "score": 0,
+        "comment": "Đề không yêu cầu toán tử một ngôi, không cài đặt. Không tính điểm."
+      },
+      {
+        "criterion": "Nạp chồng toán tử hai ngôi / so sánh (nếu đề yêu cầu +, -, >, <, ==, ...)",
+        "score": 14,
+        "comment": "Cài đặt đúng operator< so sánh hai thời điểm trong cùng ngày. Cài đặt đúng operator+= cộng thêm số giây và chuẩn hóa. Đáp ứng đầy đủ."
+      },
+      {
+        "criterion": "Hàm main nhập/xuất/xử lý đầy đủ theo đề",
+        "score": 12,
+        "comment": "main nhập t1, t2, so sánh t1 < t2, in kết quả. Tuy nhiên, thay vì cộng cố định 90 giây, sinh viên nhập s từ bàn phím và cộng t1 += s. Vẫn thực hiện được phép cộng và in t1 sau chuẩn hóa, nhưng không đúng yêu cầu 't1 += 90'. Trừ 2 điểm."
+      },
+      {
+        "criterion": "Quản lý bộ nhớ động đúng, không rò rỉ",
+        "score": 9,
+        "comment": "Không sử dụng cấp phát động, không có rò rỉ bộ nhớ."
+      },
+      {
+        "criterion": "Phong cách, đặt tên, chú thích, không lỗi biên dịch",
+        "score": 6,
+        "comment": "Code biên dịch thành công. Đặt tên hợp lý, nhưng không có chú thích. Sử dụng #include<bits/stdc++.h> không được khuyến khích nhưng chấp nhận được. Trừ 3 điểm do thiếu chú thích và phong cách chưa tối ưu."
+      }
+    ]
+  }
+}
