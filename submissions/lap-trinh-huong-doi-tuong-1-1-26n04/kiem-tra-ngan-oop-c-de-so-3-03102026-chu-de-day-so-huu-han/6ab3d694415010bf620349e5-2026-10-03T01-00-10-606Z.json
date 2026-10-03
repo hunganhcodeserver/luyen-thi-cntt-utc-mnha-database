@@ -1,0 +1,187 @@
+{
+  "submissionId": "6ac0539a03c1e657bf17a94c",
+  "submittedAt": "2026-10-03T01:00:10.606Z",
+  "gradedAt": "2026-10-03T01:00:20.791Z",
+  "status": "graded",
+  "errorMessage": null,
+  "userId": "6ab3d694415010bf620349e5",
+  "userName": "Mai Ngọc Hùng Anh",
+  "userEmail": "hunganh.okokok.0@gmail.com",
+  "subjectId": "6ab5aeac813f0f6c24604455",
+  "subjectName": "Lập trình hướng đối tượng-1-1-26(N04)",
+  "subjectCode": "IT1.108.3",
+  "subjectSlug": "lap-trinh-huong-doi-tuong-1-1-26n04",
+  "lessonId": "6ac04afc3f2db7d95bab115a",
+  "lessonTitle": "(Kiểm tra ngắn OOP C++) ĐỀ SỐ 3 (03/10/2026) - Chủ đề: DÃY SỐ HỮU HẠN",
+  "lessonSlug": "kiem-tra-ngan-oop-c-de-so-3-03102026-chu-de-day-so-huu-han",
+  "lessonDuration": 30,
+  "lessonContentHtml": "<div class=\"de-bai\">\r\n    <h2 style=\"text-align: center; text-transform: uppercase;\">Đề số 3</h2>\r\n    <p style=\"text-align: center; font-weight: bold;\">Chủ đề: DÃY SỐ HỮU HẠN &bull; Thời gian: 30 phút &bull; C++</p>\r\n    \r\n    <ul>\r\n        <li>\r\n            <strong>Yêu cầu: Xây dựng lớp DaySo lưu tối đa 50 số nguyên; có cấu tử mặc định và phương thức nhập mảng.</strong>\r\n            <ol>\r\n                <li>Viết phương thức tongDuong() tính tổng các phần tử dương.</li>\r\n                <li>Nạp chồng toán tử [] để truy cập phần tử theo chỉ số hợp lệ.</li>\r\n                <li>Viết hàm bạn nạp chồng &gt;&gt;, &lt;&lt; để nhập/xuất dãy.</li>\r\n                <li>Viết phương thức maxChan() và thông báo khi dãy không có số chẵn.</li>\r\n            </ol>\r\n        </li>\r\n        <li><strong>Yêu cầu trong hàm main(): nhập dãy A; in tổng dương và phần tử chẵn lớn nhất của A.</strong></li>\r\n    </ul>\r\n</div>\r\n",
+  "lessonSampleSolution": "",
+  "answerHtml": "#include<bits/stdc++.h>\n\nusing namespace std;\n\nclass DaySo{\n\tprivate:\n\t\tint n;\n\t\tint *a;\n\tpublic:\n\t\tDaySo(){\n\t\t    n = 0;\n        \ta = new int[50];\n\t\t}\n\t    int getN() { \n\t        return n; \n\t    }\n\t\tint* getA() {\n\t\t    return a;\n\t\t}\n\t\tint& operator[](int index) {\n\t\t    if (index >= 0 && index < n) {\n\t\t        return a[index]; // Nếu hợp lệ thì trả về phần tử\n\t\t    }\n\t\t    // Trường hợp không hợp lệ, trả về phần tử đầu tiên để tránh lỗi crash chương trình\n\t\t    cout << \"Chi so khong hop le!\" << endl;\n\t\t    return a[0]; \n\t\t}\n\t\tfriend istream& operator >> (istream &is, DaySo &ds){\n\t\t\tcout << \"\\nNhap so phan tu: \";\n\t\t\tis >> ds.n;\n\t\t\tcout << endl;\n\t\t\tfor(int i = 0; i < ds.n; i++){\n\t\t\t\tcout << \"Nhap he so cua phan tu \" << i << \": \";\n\t\t\t\tis >> ds[i];\n\t\t\t}\n\t        cout << endl;\n\t        return is;\n\t\t}\n\t\tfriend ostream& operator << (ostream &os, const DaySo &ds){\n\t\t\tos << \"\\n--Gia tri day so luu duoc--\" << endl;\n\t\t\tfor(int i = 0; i < ds.n; i++){\n\t\t\t\tos << \"Phan tu \" << i << \": \";\n\t\t\t\tos << ds.a[i] << endl;\n\t\t\t}\n\t        os << endl;\n\t        return os;\n\t\t}\n};\n\nint tongDuong(DaySo &ds) {\n    int tong = 0; \n    for (int i = 0; i < ds.getN(); i++) { \n        if (ds[i] > 0) {\n            tong += ds[i];\n        }\n    }\n    return tong;\n}\n\nint maxChan(DaySo &ds) {\n    int tmp = 0; \n    for (int i = 0; i < ds.getN(); i++) { \n        if ((ds[i] > tmp) && (ds[i] % 2 == 0)) {\n            tmp = ds[i];\n        }\n    }\n    return tmp;\n}\n\n\nint main(){\n\tDaySo A;\n\tcout << \"=== NHAP DU LIEU DAY SO A ===\" << endl;\n\tcin >> A;\n\tcout << \"=== XUAT DU LIEU DAY SO A ===\" << endl;\n\tcout << A;\n\tcout << \"=== KET QUA TINH TOAN ===\" << endl;\n\tcout << \"Tong cac phan tu duong: \" << tongDuong(A) << endl;\n\tint max_chan = maxChan(A);\n\tif (max_chan != 0) {\n\t\tcout << \"Phan tu chan lon nhat: \" << max_chan << endl;\n\t} else {\n\t\tcout << \"Day so khong co so chan duong!\" << endl;\n\t}\n\treturn 0;\n}",
+  "score": 6.3,
+  "feedback": "Bài làm biên dịch và chạy được, đáp ứng được phần lớn các yêu cầu cơ bản của đề: có lớp DaySo với thuộc tính private, hàm tạo mặc định cấp phát động mảng 50 phần tử, nạp chồng operator[] truy cập theo chỉ số, nạp chồng >> và << là friend, hàm main nhập/in dãy và tính tổng dương, tìm chẵn lớn nhất. Tuy nhiên có nhiều điểm trừ quan trọng: (1) thiếu hàm hủy để giải phóng bộ nhớ động → rò rỉ bộ nhớ; (2) tongDuong() và maxChan() được viết dưới dạng hàm tự do ngoài lớp thay vì phương thức của lớp như đề yêu cầu; (3) maxChan() xử lý sai khi dãy không có số chẵn dương và khi số chẵn lớn nhất ≤ 0 — do khởi tạo tmp = 0 và không lưu cờ trạng thái, dẫn đến thông báo sai (ví dụ dãy toàn số chẵn âm [-2,-4] vẫn báo 'không có số chẵn'); (4) không kiểm tra giới hạn n tối đa 50 khi nhập, có thể tràn mảng; (5) operator[] xử lý chỉ số không hợp lệ bằng cách trả về a[0] gây ngữ nghĩa sai lệch; (6) không có setter và không thực hiện đúng yêu cầu 'phương thức nhập mảng' của lớp. Về rubric: các tiêu chí về toán tử một ngôi và hai ngôi không được đề yêu cầu nên không tính điểm (0 điểm do không áp dụng, tương ứng với việc không có cài đặt nào liên quan).",
+  "breakdown": [
+    {
+      "criterion": "Khai báo lớp, thuộc tính private, hàm tạo/hàm hủy đúng",
+      "score": 8,
+      "comment": "Có lớp DaySo với thuộc tính private n và a, hàm tạo mặc định cấp phát động mảng 50 phần tử. Tuy nhiên thiếu hàm hủy để giải phóng bộ nhớ, vi phạm yêu cầu khi dùng cấp phát động."
+    },
+    {
+      "criterion": "Nạp chồng toán tử nhập >> là friend, nhập đúng dữ liệu",
+      "score": 10,
+      "comment": "operator>> được khai báo friend, nhập n và từng phần tử qua operator[]. Tuy nhiên không kiểm tra n ≤ 50 (có thể ghi tràn mảng động 50 phần tử) và không xử lý trường hợp n âm."
+    },
+    {
+      "criterion": "Nạp chồng toán tử xuất << là friend, xuất đúng dữ liệu",
+      "score": 8,
+      "comment": "operator<< là friend, in rõ ràng từng phần tử. Định dạng chấp nhận được, dù chưa tối ưu (in nhiều dòng thay vì một dãy)."
+    },
+    {
+      "criterion": "Các phương thức getter/setter hoặc phương thức phụ trợ đúng",
+      "score": 3,
+      "comment": "Có getN() và getA() nhưng thiếu setter; đồng thời tongDuong() và maxChan() được viết ngoài lớp (hàm tự do) thay vì là phương thức như đề yêu cầu."
+    },
+    {
+      "criterion": "Nạp chồng toán tử một ngôi (nếu đề yêu cầu +, -, !, ...)",
+      "score": 0,
+      "comment": "Đề không yêu cầu toán tử một ngôi, không áp dụng."
+    },
+    {
+      "criterion": "Nạp chồng toán tử hai ngôi / so sánh (nếu đề yêu cầu +, -, >, <, ==, ...)",
+      "score": 0,
+      "comment": "Đề không yêu cầu toán tử hai ngôi hay so sánh, không áp dụng."
+    },
+    {
+      "criterion": "Hàm main nhập/xuất/xử lý đầy đủ theo đề",
+      "score": 11,
+      "comment": "main nhập dãy A, in dãy, in tổng dương và phần tử chẵn lớn nhất — đủ các bước theo đề. Tuy nhiên logic tìm chẵn lớn nhất dựa vào giá trị 0 làm điểm khởi tạo nên xử lý sai khi dãy chỉ toàn số chẵn ≤ 0."
+    },
+    {
+      "criterion": "Quản lý bộ nhớ động đúng, không rò rỉ",
+      "score": 2,
+      "comment": "Có cấp phát động bằng new int[50] nhưng không có hàm hủy để delete[], gây rò rỉ bộ nhớ nghiêm trọng."
+    },
+    {
+      "criterion": "Phong cách, đặt tên, chú thích, không lỗi biên dịch",
+      "score": 7,
+      "comment": "Code biên dịch được, đặt tên tương đối ổn, có vài chú thích. Tuy nhiên dùng #include<bits/stdc++.h> và using namespace std không được khuyến khích; logic maxChan gây hiểu nhầm trong thông báo."
+    }
+  ],
+  "grammar": null,
+  "sampleComparison": null,
+  "model": "chib/deepseek-v4.1-flash",
+  "aiKeyId": "6abfdf08b29c124d59ccc66b",
+  "aiKeyName": "hunganh2006",
+  "aiProvider": "vilao",
+  "latencyMs": 9234,
+  "promptSnapshot": {
+    "promptId": "6ab736bee5d88208e9117c70",
+    "name": "Prompt Kiểm tra ngắn OOP C++",
+    "content": "Bạn là giảng viên chấm bài môn Lập trình hướng đối tượng (C++).\r\nHãy chấm bài làm của sinh viên theo đúng rubric dưới đây. Chỉ đánh giá dựa trên mã nguồn được cung cấp và yêu cầu đề bài. Không suy diễn thêm. Nếu bài không biên dịch được, ghi rõ trong feedback và chỉ cho điểm các phần có thể xác minh.\r\n\r\nTên sinh viên: {student_name}\r\nĐiểm tối đa: {max_score}\r\n\r\nĐỀ BÀI:\r\n{đề_bài}\r\n\r\nRUBRIC:\r\n{rubric}\r\n\r\nLỜI GIẢI MẪU THAM KHẢO (nếu cần đối chiếu):\r\n{lời_giải_mẫu}\r\n\r\nBÀI LÀM SINH VIÊN:\r\n{bài_làm}\r\n\r\nYÊU CẦU TRẢ VỀ:\r\nTrả về DUY NHẤT một object JSON hợp lệ, không thêm văn bản ngoài JSON:\r\n{\r\n  \"score\": number,\r\n  \"feedback\": string,\r\n  \"breakdown\": [{\"criterion\": string, \"score\": number, \"comment\": string}]\r\n}\r\n\r\nVariables:\r\n{\r\n  \"variables\": [\r\n    \"{đề_bài}\",\r\n    \"{bài_làm}\",\r\n    \"{rubric}\",\r\n    \"{max_score}\",\r\n    \"{student_name}\",\r\n    \"{lời_giải_mẫu}\"\r\n  ]\r\n}",
+    "rubric": [
+      {
+        "criterion": "Khai báo lớp, thuộc tính private, hàm tạo/hàm hủy đúng",
+        "weight": 13,
+        "description": "Lớp có các thuộc tính private theo đề; hàm tạo mặc định/hàm tạo có đối; hàm hủy nếu có cấp phát động."
+      },
+      {
+        "criterion": "Nạp chồng toán tử nhập >> là friend, nhập đúng dữ liệu",
+        "weight": 13,
+        "description": "operator>> là friend, nhập đúng các trường theo đề; xử lý khoảng trắng hợp lý nếu cần."
+      },
+      {
+        "criterion": "Nạp chồng toán tử xuất << là friend, xuất đúng dữ liệu",
+        "weight": 9,
+        "description": "operator<< là friend, in ra thông tin rõ ràng, đúng định dạng đề yêu cầu."
+      },
+      {
+        "criterion": "Các phương thức getter/setter hoặc phương thức phụ trợ đúng",
+        "weight": 5,
+        "description": "Cung cấp đủ getter/setter hoặc phương thức mà đề yêu cầu."
+      },
+      {
+        "criterion": "Nạp chồng toán tử một ngôi (nếu đề yêu cầu +, -, !, ...)",
+        "weight": 14,
+        "description": "Cài đặt đúng toán tử một ngôi theo đề, ví dụ operator+() tính tổng, operator-() đổi dấu, operator!() đảo ngược."
+      },
+      {
+        "criterion": "Nạp chồng toán tử hai ngôi / so sánh (nếu đề yêu cầu +, -, >, <, ==, ...)",
+        "weight": 14,
+        "description": "Cài đặt đúng toán tử hai ngôi hoặc toán tử so sánh theo đề, xử lý đúng ngữ nghĩa."
+      },
+      {
+        "criterion": "Hàm main nhập/xuất/xử lý đầy đủ theo đề",
+        "weight": 14,
+        "description": "main thực hiện đủ các bước: nhập, xuất, tính toán, so sánh, sắp xếp, tìm kiếm, ... theo đề."
+      },
+      {
+        "criterion": "Quản lý bộ nhớ động đúng, không rò rỉ",
+        "weight": 9,
+        "description": "Nếu dùng new/delete, cấp phát và giải phóng đúng; không rò rỉ bộ nhớ."
+      },
+      {
+        "criterion": "Phong cách, đặt tên, chú thích, không lỗi biên dịch",
+        "weight": 9,
+        "description": "Code rõ ràng, đặt tên hợp lý, có chú thích, biên dịch thành công."
+      }
+    ],
+    "strictness": "strict",
+    "maxScore": 10,
+    "scope": "lesson",
+    "version": 4,
+    "isFallback": false,
+    "unknownPlaceholders": [],
+    "snapshotAt": "2026-10-03T01:00:20.576Z"
+  },
+  "raw": {
+    "score": 6.3,
+    "feedback": "Bài làm biên dịch và chạy được, đáp ứng được phần lớn các yêu cầu cơ bản của đề: có lớp DaySo với thuộc tính private, hàm tạo mặc định cấp phát động mảng 50 phần tử, nạp chồng operator[] truy cập theo chỉ số, nạp chồng >> và << là friend, hàm main nhập/in dãy và tính tổng dương, tìm chẵn lớn nhất. Tuy nhiên có nhiều điểm trừ quan trọng: (1) thiếu hàm hủy để giải phóng bộ nhớ động → rò rỉ bộ nhớ; (2) tongDuong() và maxChan() được viết dưới dạng hàm tự do ngoài lớp thay vì phương thức của lớp như đề yêu cầu; (3) maxChan() xử lý sai khi dãy không có số chẵn dương và khi số chẵn lớn nhất ≤ 0 — do khởi tạo tmp = 0 và không lưu cờ trạng thái, dẫn đến thông báo sai (ví dụ dãy toàn số chẵn âm [-2,-4] vẫn báo 'không có số chẵn'); (4) không kiểm tra giới hạn n tối đa 50 khi nhập, có thể tràn mảng; (5) operator[] xử lý chỉ số không hợp lệ bằng cách trả về a[0] gây ngữ nghĩa sai lệch; (6) không có setter và không thực hiện đúng yêu cầu 'phương thức nhập mảng' của lớp. Về rubric: các tiêu chí về toán tử một ngôi và hai ngôi không được đề yêu cầu nên không tính điểm (0 điểm do không áp dụng, tương ứng với việc không có cài đặt nào liên quan).",
+    "breakdown": [
+      {
+        "criterion": "Khai báo lớp, thuộc tính private, hàm tạo/hàm hủy đúng",
+        "score": 8,
+        "comment": "Có lớp DaySo với thuộc tính private n và a, hàm tạo mặc định cấp phát động mảng 50 phần tử. Tuy nhiên thiếu hàm hủy để giải phóng bộ nhớ, vi phạm yêu cầu khi dùng cấp phát động."
+      },
+      {
+        "criterion": "Nạp chồng toán tử nhập >> là friend, nhập đúng dữ liệu",
+        "score": 10,
+        "comment": "operator>> được khai báo friend, nhập n và từng phần tử qua operator[]. Tuy nhiên không kiểm tra n ≤ 50 (có thể ghi tràn mảng động 50 phần tử) và không xử lý trường hợp n âm."
+      },
+      {
+        "criterion": "Nạp chồng toán tử xuất << là friend, xuất đúng dữ liệu",
+        "score": 8,
+        "comment": "operator<< là friend, in rõ ràng từng phần tử. Định dạng chấp nhận được, dù chưa tối ưu (in nhiều dòng thay vì một dãy)."
+      },
+      {
+        "criterion": "Các phương thức getter/setter hoặc phương thức phụ trợ đúng",
+        "score": 3,
+        "comment": "Có getN() và getA() nhưng thiếu setter; đồng thời tongDuong() và maxChan() được viết ngoài lớp (hàm tự do) thay vì là phương thức như đề yêu cầu."
+      },
+      {
+        "criterion": "Nạp chồng toán tử một ngôi (nếu đề yêu cầu +, -, !, ...)",
+        "score": 0,
+        "comment": "Đề không yêu cầu toán tử một ngôi, không áp dụng."
+      },
+      {
+        "criterion": "Nạp chồng toán tử hai ngôi / so sánh (nếu đề yêu cầu +, -, >, <, ==, ...)",
+        "score": 0,
+        "comment": "Đề không yêu cầu toán tử hai ngôi hay so sánh, không áp dụng."
+      },
+      {
+        "criterion": "Hàm main nhập/xuất/xử lý đầy đủ theo đề",
+        "score": 11,
+        "comment": "main nhập dãy A, in dãy, in tổng dương và phần tử chẵn lớn nhất — đủ các bước theo đề. Tuy nhiên logic tìm chẵn lớn nhất dựa vào giá trị 0 làm điểm khởi tạo nên xử lý sai khi dãy chỉ toàn số chẵn ≤ 0."
+      },
+      {
+        "criterion": "Quản lý bộ nhớ động đúng, không rò rỉ",
+        "score": 2,
+        "comment": "Có cấp phát động bằng new int[50] nhưng không có hàm hủy để delete[], gây rò rỉ bộ nhớ nghiêm trọng."
+      },
+      {
+        "criterion": "Phong cách, đặt tên, chú thích, không lỗi biên dịch",
+        "score": 7,
+        "comment": "Code biên dịch được, đặt tên tương đối ổn, có vài chú thích. Tuy nhiên dùng #include<bits/stdc++.h> và using namespace std không được khuyến khích; logic maxChan gây hiểu nhầm trong thông báo."
+      }
+    ]
+  }
+}
