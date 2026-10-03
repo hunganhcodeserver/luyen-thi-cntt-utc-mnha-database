@@ -1,13 +1,12 @@
 {
   "lessonId": "6ac04afc3f2db7d95bab115a",
-  "title": "(Kiểm tra ngắn OOP C++) ĐỀ SỐ 3 (03/10/2026) - Chủ đề: SỐ PHỨC",
-  "slug": "kiem-tra-ngan-oop-c-de-so-3-03102026-chu-de-so-phuc",
+  "title": "(Kiểm tra ngắn OOP C++) ĐỀ SỐ 3 (03/10/2026) - Chủ đề: DÃY SỐ HỮU HẠN",
+  "slug": "kiem-tra-ngan-oop-c-de-so-3-03102026-chu-de-day-so-huu-han",
   "description": "",
   "contentHtml": "<div class=\"de-bai\">\r\n    <h2 style=\"text-align: center; text-transform: uppercase;\">Đề số 3</h2>\r\n    <p style=\"text-align: center; font-weight: bold;\">Chủ đề: DÃY SỐ HỮU HẠN &bull; Thời gian: 30 phút &bull; C++</p>\r\n    \r\n    <ul>\r\n        <li>\r\n            <strong>Yêu cầu: Xây dựng lớp DaySo lưu tối đa 50 số nguyên; có cấu tử mặc định và phương thức nhập mảng.</strong>\r\n            <ol>\r\n                <li>Viết phương thức tongDuong() tính tổng các phần tử dương.</li>\r\n                <li>Nạp chồng toán tử [] để truy cập phần tử theo chỉ số hợp lệ.</li>\r\n                <li>Viết hàm bạn nạp chồng &gt;&gt;, &lt;&lt; để nhập/xuất dãy.</li>\r\n                <li>Viết phương thức maxChan() và thông báo khi dãy không có số chẵn.</li>\r\n            </ol>\r\n        </li>\r\n        <li><strong>Yêu cầu trong hàm main(): nhập dãy A; in tổng dương và phần tử chẵn lớn nhất của A.</strong></li>\r\n    </ul>\r\n</div>\r\n",
   "sampleSolution": "",
   "duration": 30,
   "model": null,
   "isPublished": true,
-  "createdAt": "2026-10-03T00:23:24.446Z",
-  "updatedAt": "2026-10-03T00:23:24.700Z"
+  "updatedAt": "2026-10-03T00:23:38.724Z"
 }
