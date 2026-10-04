@@ -1458,35 +1458,6 @@
             "explanationHtml": "WT = 8, 8, 5, 7 → Ttb = 28/4 = <b>7</b>. Với bộ dữ liệu này, SJF chiếm đoạt cho Ttb nhỏ nhất.",
             "multi": false,
             "id": "mcq-50"
-          },
-          {
-            "startLine": 307,
-            "text": "Trong các luồng của cùng một tiến trình, thành phần nào là riêng của từng luồng?",
-            "image": null,
-            "options": [
-              {
-                "key": "A",
-                "text": "Vùng code"
-              },
-              {
-                "key": "B",
-                "text": "Vùng data"
-              },
-              {
-                "key": "C",
-                "text": "Heap"
-              },
-              {
-                "key": "D",
-                "text": "Thread ID, PC, thanh ghi và stack"
-              }
-            ],
-            "correct": [
-              "D"
-            ],
-            "explanationHtml": "Các luồng dùng chung code, data, heap, tệp mở; mỗi luồng chỉ có <b>ID, PC, thanh ghi và stack</b> riêng.",
-            "multi": false,
-            "id": "mcq-51"
           }
         ]
       }
