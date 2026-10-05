@@ -2152,7 +2152,12 @@
   },
   "gradedAt": "2026-10-05T17:59:47.241Z",
   "gradedBy": "auto",
-  "teacherComment": null,
+  "teacherComment": {
+    "content": "test",
+    "commentedBy": "6ab3d694415010bf620349e5",
+    "commentedByName": "Mai Ngọc Hùng Anh",
+    "commentedAt": "2026-10-05T18:36:50.916Z"
+  },
   "teacherCommentHistory": [],
   "aiAnalyses": [
     {
