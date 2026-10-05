@@ -3,11 +3,11 @@
   "title": "(Kiểm tra ngắn OOP C++) Đề 2 05/10/2026",
   "slug": "kiem-tra-ngan-oop-c-de-2-05102026",
   "description": "",
-  "contentHtml": "<blockquote>\r\n    <p><strong>Lưu ý chung khi làm bài:</strong></p>\r\n    <ul>\r\n        <li>Dùng <code>cin &gt;&gt; ws; getline(cin, ...)</code> để nhập chuỗi ký tự nhằm tránh lỗi trôi lệnh (không sử dụng <code>cin.ignore()</code>).</li>\r\n        <li>Giả sử số lượng phần tử <var>n</var> &gt;= 1 khi thực hiện các thao tác tìm giá trị lớn nhất (max) hoặc nhỏ nhất (min).</li>\r\n    </ul>\r\n</blockquote>\r\n\r\n\r\n<hr />\r\n\r\n<h2>Đề 2: Lớp Người và lớp Nhân viên</h2>\r\n<p>Sử dụng lại lớp cha <code>Nguoi</code> đã xây dựng ở Đề 1.</p>\r\n<p>Xây dựng lớp con <code>NhanVien</code> kế thừa từ lớp <code>Nguoi</code>, bổ sung thuộc tính hệ số lương. Thiết lập hàm tính lương theo công thức: <code>Luong = heSoLuong * 2570</code>.</p>\r\n<p>Viết hàm <code>main</code> nhập vào danh sách gồm <var>n</var> nhân viên. Thực hiện tính và in ra màn hình thông tin kèm số lương cụ thể của từng nhân viên.</p>\r\n",
+  "contentHtml": "<blockquote>\r\n    <p><strong>Lưu ý chung khi làm bài:</strong></p>\r\n    <ul>\r\n        <li>Dùng <code>cin &gt;&gt; ws; getline(cin, ...)</code> để nhập chuỗi ký tự nhằm tránh lỗi trôi lệnh (không sử dụng <code>cin.ignore()</code>).</li>\r\n        <li>Giả sử số lượng phần tử <var>n</var> &gt;= 1 khi thực hiện các thao tác tìm giá trị lớn nhất (max) hoặc nhỏ nhất (min).</li>\r\n    </ul>\r\n</blockquote>\r\n\r\n\r\n<hr />\r\n\r\n<h2>Đề 2: Lớp Người và lớp Nhân viên</h2>\r\n<p>Sử dụng lại lớp cha <code>Nguoi</code> đã xây dựng ở Đề 1.</p>\r\n<p>Thiết lập lớp cha <code>Nguoi</code> gồm các thuộc tính <code>private</code>: họ tên, năm sinh. Cung cấp hàm nhập, xuất và getter cho năm sinh.</p>\r\n<p>Xây dựng lớp con <code>NhanVien</code> kế thừa từ lớp <code>Nguoi</code>, bổ sung thuộc tính hệ số lương. Thiết lập hàm tính lương theo công thức: <code>Luong = heSoLuong * 2570</code>.</p>\r\n<p>Viết hàm <code>main</code> nhập vào danh sách gồm <var>n</var> nhân viên. Thực hiện tính và in ra màn hình thông tin kèm số lương cụ thể của từng nhân viên.</p>\r\n",
   "sampleSolution": "",
   "duration": 30,
   "model": null,
   "isPublished": true,
   "createdAt": "2026-10-05T06:06:25.861Z",
-  "updatedAt": "2026-10-05T06:06:41.608Z"
+  "updatedAt": "2026-10-05T06:07:46.317Z"
 }
