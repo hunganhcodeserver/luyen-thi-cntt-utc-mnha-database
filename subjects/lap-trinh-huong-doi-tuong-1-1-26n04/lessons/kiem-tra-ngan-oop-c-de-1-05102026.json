@@ -3,11 +3,11 @@
   "title": "(Kiểm tra ngắn OOP C++) Đề 1 05/10/2026",
   "slug": "kiem-tra-ngan-oop-c-de-1-05102026",
   "description": "",
-  "contentHtml": "<blockquote>\r\n    <p><strong>Lưu ý chung khi làm bài:</strong></p>\r\n    <ul>\r\n        <li>Dùng <code>cin &gt;&gt; ws; getline(cin, ...)</code> để nhập chuỗi ký tự nhằm tránh lỗi trôi lệnh (không sử dụng <code>cin.ignore()</code>).</li>\r\n        <li>Giả sử số lượng phần tử <var>n</var> &gt;= 1 khi thực hiện các thao tác tìm giá trị lớn nhất (max) hoặc nhỏ nhất (min).</li>\r\n    </ul>\r\n</blockquote>\r\n\r\n<hr />\r\n\r\n<h2>Đề 1: Lớp Người và lớp Sinh viên</h2>\r\n<p>Thiết lập lớp cha <code>Nguoi</code> gồm các thuộc tính <code>private</code>: họ tên, năm sinh. Cung cấp hàm nhập, xuất và getter cho năm sinh.</p>\r\n<p>Xây dựng lớp con <code>SinhVien</code> kế thừa từ lớp <code>Nguoi</code>, bổ sung thuộc tính điểm số. Tái sử dụng hàm nhập/xuất của lớp cha và bổ sung getter cho điểm.</p>\r\n<p>Viết hàm <code>main</code> nhập vào danh sách gồm <var>n</var> sinh viên. Thực hiện xuất ra màn hình thông tin các sinh viên qua môn (có điểm số &gt;= 6).</p>\r\n\r\n<hr />",
+  "contentHtml": "<blockquote>\r\n    <p><strong>Lưu ý chung khi làm bài:</strong></p>\r\n    <ul>\r\n        <li>Dùng <code>cin &gt;&gt; ws; getline(cin, ...)</code> để nhập chuỗi ký tự nhằm tránh lỗi trôi lệnh (không sử dụng <code>cin.ignore()</code>).</li>\r\n        <li>Giả sử số lượng phần tử <var>n</var> &gt;= 1 khi thực hiện các thao tác tìm giá trị lớn nhất (max) hoặc nhỏ nhất (min).</li>\r\n    </ul>\r\n</blockquote>\r\n\r\n<hr />\r\n\r\n<!-- ĐỀ 1 -->\r\n<section id=\"de-1\">\r\n    <h2>Đề 1: Lớp Người và lớp Sinh viên</h2>\r\n    <p><strong>Yêu cầu:</strong></p>\r\n    <ol>\r\n        <li>Thiết lập lớp cha <code>Nguoi</code> gồm các thuộc tính <code>private</code>: họ tên, năm sinh. Cung cấp hàm nhập, xuất và getter cho năm sinh.</li>\r\n        <li>Xây dựng lớp con <code>SinhVien</code> kế thừa từ lớp <code>Nguoi</code>, bổ sung thuộc tính điểm số. Tái sử dụng hàm nhập/xuất của lớp cha và bổ sung getter cho điểm.</li>\r\n        <li>Viết hàm <code>main</code> nhập vào danh sách gồm <var>n</var> sinh viên. Thực hiện xuất ra màn hình thông tin các sinh viên qua môn (có điểm số &gt;= 6).</li>\r\n    </ol>\r\n</section>",
   "sampleSolution": "",
   "duration": 30,
   "model": null,
   "isPublished": true,
   "createdAt": "2026-10-05T06:05:13.207Z",
-  "updatedAt": "2026-10-05T06:05:13.207Z"
+  "updatedAt": "2026-10-05T09:44:38.457Z"
 }
