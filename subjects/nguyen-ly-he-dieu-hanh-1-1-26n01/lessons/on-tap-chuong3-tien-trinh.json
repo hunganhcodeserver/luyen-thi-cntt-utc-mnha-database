@@ -34,7 +34,7 @@
             "correct": [
               "B"
             ],
-            "explanationHtml": "Chương trình là thực thể &lt;b&gt;thụ động&lt;/b&gt; (tệp trên thiết bị lưu trữ); tiến trình là thực thể &lt;b&gt;chủ động&lt;/b&gt; với PC, thanh ghi, vùng nhớ, tệp mở.",
+            "explanationHtml": "Chương trình là thực thể &amp;lt;b&amp;gt;thụ động&amp;lt;/b&amp;gt; (tệp trên thiết bị lưu trữ); tiến trình là thực thể &amp;lt;b&amp;gt;chủ động&amp;lt;/b&amp;gt; với PC, thanh ghi, vùng nhớ, tệp mở.",
             "multi": false,
             "id": "mcq-1"
           },
@@ -556,7 +556,7 @@
             "correct": [
               "B"
             ],
-            "explanationHtml": "Tiến trình quay lại hàng đợi &lt;b&gt;Ready&lt;/b&gt; và phải chờ bộ lập lịch cấp CPU, không đi thẳng vào Running.",
+            "explanationHtml": "Tiến trình quay lại hàng đợi &amp;lt;b&amp;gt;Ready&amp;lt;/b&amp;gt; và phải chờ bộ lập lịch cấp CPU, không đi thẳng vào Running.",
             "multi": false,
             "id": "mcq-19"
           },
@@ -1368,7 +1368,7 @@
             "correct": [
               "C"
             ],
-            "explanationHtml": "Gantt: P1 (0–7), P2 (7–11), P3 (11–12), P4 (12–16). WT = 0, 5, 7, 7 → Ttb = 19/4 = &lt;b&gt;4.75&lt;/b&gt;.",
+            "explanationHtml": "Gantt: P1 (0–7), P2 (7–11), P3 (11–12), P4 (12–16). WT = 0, 5, 7, 7 → Ttb = 19/4 = &amp;lt;b&amp;gt;4.75&amp;lt;/b&amp;gt;.",
             "multi": false,
             "id": "mcq-47"
           },
@@ -1397,7 +1397,7 @@
             "correct": [
               "D"
             ],
-            "explanationHtml": "Gantt: P1 (0–7), P3 (7–8), P2 (8–12), P4 (12–16). WT = 0, 6, 3, 7 → Ttb = 16/4 = &lt;b&gt;4&lt;/b&gt;.",
+            "explanationHtml": "Gantt: P1 (0–7), P3 (7–8), P2 (8–12), P4 (12–16). WT = 0, 6, 3, 7 → Ttb = 16/4 = &amp;lt;b&amp;gt;4&amp;lt;/b&amp;gt;.",
             "multi": false,
             "id": "mcq-48"
           },
@@ -1426,7 +1426,7 @@
             "correct": [
               "A"
             ],
-            "explanationHtml": "WT = 9, 1, 0, 2 → Ttb = 12/4 = &lt;b&gt;3&lt;/b&gt;.",
+            "explanationHtml": "WT = 9, 1, 0, 2 → Ttb = 12/4 = &amp;lt;b&amp;gt;3&amp;lt;/b&amp;gt;.",
             "multi": false,
             "id": "mcq-49"
           },
@@ -1455,7 +1455,7 @@
             "correct": [
               "C"
             ],
-            "explanationHtml": "WT = 8, 8, 5, 7 → Ttb = 28/4 = &lt;b&gt;7&lt;/b&gt;. Với bộ dữ liệu này, SJF chiếm đoạt cho Ttb nhỏ nhất.",
+            "explanationHtml": "WT = 8, 8, 5, 7 → Ttb = 28/4 = &amp;lt;b&amp;gt;7&amp;lt;/b&amp;gt;. Với bộ dữ liệu này, SJF chiếm đoạt cho Ttb nhỏ nhất.",
             "multi": false,
             "id": "mcq-50"
           }
