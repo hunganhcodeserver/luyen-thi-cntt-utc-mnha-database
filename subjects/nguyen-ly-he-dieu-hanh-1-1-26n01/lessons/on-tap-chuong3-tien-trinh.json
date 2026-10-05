@@ -34,9 +34,10 @@
             "correct": [
               "B"
             ],
-            "explanationHtml": "Chương trình là thực thể &amp;lt;b&amp;gt;thụ động&amp;lt;/b&amp;gt; (tệp trên thiết bị lưu trữ); tiến trình là thực thể &amp;lt;b&amp;gt;chủ động&amp;lt;/b&amp;gt; với PC, thanh ghi, vùng nhớ, tệp mở.",
+            "explanationHtml": "Chương trình là thực thể &amp;amp;lt;b&amp;amp;gt;thụ động&amp;amp;lt;/b&amp;amp;gt; (tệp trên thiết bị lưu trữ); tiến trình là thực thể &amp;amp;lt;b&amp;amp;gt;chủ động&amp;amp;lt;/b&amp;amp;gt; với PC, thanh ghi, vùng nhớ, tệp mở.",
             "multi": false,
-            "id": "mcq-1"
+            "id": "mcq-1",
+            "clusterId": null
           },
           {
             "startLine": 8,
@@ -65,7 +66,8 @@
             ],
             "explanationHtml": null,
             "multi": false,
-            "id": "mcq-2"
+            "id": "mcq-2",
+            "clusterId": null
           },
           {
             "startLine": 14,
@@ -94,7 +96,8 @@
             ],
             "explanationHtml": null,
             "multi": false,
-            "id": "mcq-3"
+            "id": "mcq-3",
+            "clusterId": null
           },
           {
             "startLine": 20,
@@ -123,7 +126,8 @@
             ],
             "explanationHtml": null,
             "multi": false,
-            "id": "mcq-4"
+            "id": "mcq-4",
+            "clusterId": null
           },
           {
             "startLine": 26,
@@ -152,7 +156,8 @@
             ],
             "explanationHtml": null,
             "multi": false,
-            "id": "mcq-5"
+            "id": "mcq-5",
+            "clusterId": null
           },
           {
             "startLine": 32,
@@ -181,7 +186,8 @@
             ],
             "explanationHtml": null,
             "multi": false,
-            "id": "mcq-6"
+            "id": "mcq-6",
+            "clusterId": null
           },
           {
             "startLine": 38,
@@ -210,7 +216,8 @@
             ],
             "explanationHtml": null,
             "multi": false,
-            "id": "mcq-7"
+            "id": "mcq-7",
+            "clusterId": null
           },
           {
             "startLine": 44,
@@ -239,7 +246,8 @@
             ],
             "explanationHtml": null,
             "multi": false,
-            "id": "mcq-8"
+            "id": "mcq-8",
+            "clusterId": null
           },
           {
             "startLine": 50,
@@ -268,7 +276,8 @@
             ],
             "explanationHtml": null,
             "multi": false,
-            "id": "mcq-9"
+            "id": "mcq-9",
+            "clusterId": null
           },
           {
             "startLine": 56,
@@ -297,7 +306,8 @@
             ],
             "explanationHtml": null,
             "multi": false,
-            "id": "mcq-10"
+            "id": "mcq-10",
+            "clusterId": null
           },
           {
             "startLine": 62,
@@ -326,7 +336,8 @@
             ],
             "explanationHtml": null,
             "multi": false,
-            "id": "mcq-11"
+            "id": "mcq-11",
+            "clusterId": null
           },
           {
             "startLine": 68,
@@ -355,7 +366,8 @@
             ],
             "explanationHtml": null,
             "multi": false,
-            "id": "mcq-12"
+            "id": "mcq-12",
+            "clusterId": null
           },
           {
             "startLine": 74,
@@ -384,7 +396,8 @@
             ],
             "explanationHtml": null,
             "multi": false,
-            "id": "mcq-13"
+            "id": "mcq-13",
+            "clusterId": null
           },
           {
             "startLine": 80,
@@ -413,7 +426,8 @@
             ],
             "explanationHtml": null,
             "multi": false,
-            "id": "mcq-14"
+            "id": "mcq-14",
+            "clusterId": null
           },
           {
             "startLine": 86,
@@ -442,7 +456,8 @@
             ],
             "explanationHtml": null,
             "multi": false,
-            "id": "mcq-15"
+            "id": "mcq-15",
+            "clusterId": null
           },
           {
             "startLine": 92,
@@ -471,7 +486,8 @@
             ],
             "explanationHtml": null,
             "multi": false,
-            "id": "mcq-16"
+            "id": "mcq-16",
+            "clusterId": null
           },
           {
             "startLine": 98,
@@ -500,7 +516,8 @@
             ],
             "explanationHtml": null,
             "multi": false,
-            "id": "mcq-17"
+            "id": "mcq-17",
+            "clusterId": null
           },
           {
             "startLine": 104,
@@ -529,7 +546,8 @@
             ],
             "explanationHtml": null,
             "multi": false,
-            "id": "mcq-18"
+            "id": "mcq-18",
+            "clusterId": null
           },
           {
             "startLine": 110,
@@ -556,9 +574,10 @@
             "correct": [
               "B"
             ],
-            "explanationHtml": "Tiến trình quay lại hàng đợi &amp;lt;b&amp;gt;Ready&amp;lt;/b&amp;gt; và phải chờ bộ lập lịch cấp CPU, không đi thẳng vào Running.",
+            "explanationHtml": "Tiến trình quay lại hàng đợi &amp;amp;lt;b&amp;amp;gt;Ready&amp;amp;lt;/b&amp;amp;gt; và phải chờ bộ lập lịch cấp CPU, không đi thẳng vào Running.",
             "multi": false,
-            "id": "mcq-19"
+            "id": "mcq-19",
+            "clusterId": null
           },
           {
             "startLine": 117,
@@ -587,7 +606,8 @@
             ],
             "explanationHtml": null,
             "multi": false,
-            "id": "mcq-20"
+            "id": "mcq-20",
+            "clusterId": null
           },
           {
             "startLine": 123,
@@ -616,7 +636,8 @@
             ],
             "explanationHtml": null,
             "multi": false,
-            "id": "mcq-21"
+            "id": "mcq-21",
+            "clusterId": null
           },
           {
             "startLine": 129,
@@ -645,7 +666,8 @@
             ],
             "explanationHtml": null,
             "multi": false,
-            "id": "mcq-22"
+            "id": "mcq-22",
+            "clusterId": null
           },
           {
             "startLine": 135,
@@ -674,7 +696,8 @@
             ],
             "explanationHtml": null,
             "multi": false,
-            "id": "mcq-23"
+            "id": "mcq-23",
+            "clusterId": null
           },
           {
             "startLine": 141,
@@ -703,7 +726,8 @@
             ],
             "explanationHtml": null,
             "multi": false,
-            "id": "mcq-24"
+            "id": "mcq-24",
+            "clusterId": null
           },
           {
             "startLine": 147,
@@ -732,7 +756,8 @@
             ],
             "explanationHtml": null,
             "multi": false,
-            "id": "mcq-25"
+            "id": "mcq-25",
+            "clusterId": null
           },
           {
             "startLine": 153,
@@ -761,7 +786,8 @@
             ],
             "explanationHtml": null,
             "multi": false,
-            "id": "mcq-26"
+            "id": "mcq-26",
+            "clusterId": null
           },
           {
             "startLine": 159,
@@ -790,7 +816,8 @@
             ],
             "explanationHtml": null,
             "multi": false,
-            "id": "mcq-27"
+            "id": "mcq-27",
+            "clusterId": null
           },
           {
             "startLine": 165,
@@ -819,7 +846,8 @@
             ],
             "explanationHtml": null,
             "multi": false,
-            "id": "mcq-28"
+            "id": "mcq-28",
+            "clusterId": null
           },
           {
             "startLine": 171,
@@ -848,7 +876,8 @@
             ],
             "explanationHtml": null,
             "multi": false,
-            "id": "mcq-29"
+            "id": "mcq-29",
+            "clusterId": null
           },
           {
             "startLine": 177,
@@ -877,7 +906,8 @@
             ],
             "explanationHtml": null,
             "multi": false,
-            "id": "mcq-30"
+            "id": "mcq-30",
+            "clusterId": null
           },
           {
             "startLine": 183,
@@ -906,7 +936,8 @@
             ],
             "explanationHtml": null,
             "multi": false,
-            "id": "mcq-31"
+            "id": "mcq-31",
+            "clusterId": null
           },
           {
             "startLine": 189,
@@ -935,7 +966,8 @@
             ],
             "explanationHtml": null,
             "multi": false,
-            "id": "mcq-32"
+            "id": "mcq-32",
+            "clusterId": null
           },
           {
             "startLine": 195,
@@ -964,7 +996,8 @@
             ],
             "explanationHtml": null,
             "multi": false,
-            "id": "mcq-33"
+            "id": "mcq-33",
+            "clusterId": null
           },
           {
             "startLine": 201,
@@ -993,7 +1026,8 @@
             ],
             "explanationHtml": null,
             "multi": false,
-            "id": "mcq-34"
+            "id": "mcq-34",
+            "clusterId": null
           },
           {
             "startLine": 207,
@@ -1022,7 +1056,8 @@
             ],
             "explanationHtml": null,
             "multi": false,
-            "id": "mcq-35"
+            "id": "mcq-35",
+            "clusterId": null
           },
           {
             "startLine": 213,
@@ -1051,7 +1086,8 @@
             ],
             "explanationHtml": null,
             "multi": false,
-            "id": "mcq-36"
+            "id": "mcq-36",
+            "clusterId": null
           },
           {
             "startLine": 219,
@@ -1080,7 +1116,8 @@
             ],
             "explanationHtml": null,
             "multi": false,
-            "id": "mcq-37"
+            "id": "mcq-37",
+            "clusterId": null
           },
           {
             "startLine": 225,
@@ -1109,7 +1146,8 @@
             ],
             "explanationHtml": null,
             "multi": false,
-            "id": "mcq-38"
+            "id": "mcq-38",
+            "clusterId": null
           },
           {
             "startLine": 231,
@@ -1138,7 +1176,8 @@
             ],
             "explanationHtml": null,
             "multi": false,
-            "id": "mcq-39"
+            "id": "mcq-39",
+            "clusterId": null
           },
           {
             "startLine": 237,
@@ -1167,7 +1206,8 @@
             ],
             "explanationHtml": null,
             "multi": false,
-            "id": "mcq-40"
+            "id": "mcq-40",
+            "clusterId": null
           },
           {
             "startLine": 243,
@@ -1196,7 +1236,8 @@
             ],
             "explanationHtml": null,
             "multi": false,
-            "id": "mcq-41"
+            "id": "mcq-41",
+            "clusterId": null
           },
           {
             "startLine": 249,
@@ -1225,7 +1266,8 @@
             ],
             "explanationHtml": null,
             "multi": false,
-            "id": "mcq-42"
+            "id": "mcq-42",
+            "clusterId": null
           },
           {
             "startLine": 255,
@@ -1254,7 +1296,8 @@
             ],
             "explanationHtml": null,
             "multi": false,
-            "id": "mcq-43"
+            "id": "mcq-43",
+            "clusterId": null
           },
           {
             "startLine": 261,
@@ -1283,7 +1326,8 @@
             ],
             "explanationHtml": null,
             "multi": false,
-            "id": "mcq-44"
+            "id": "mcq-44",
+            "clusterId": null
           },
           {
             "startLine": 267,
@@ -1312,7 +1356,8 @@
             ],
             "explanationHtml": null,
             "multi": false,
-            "id": "mcq-45"
+            "id": "mcq-45",
+            "clusterId": null
           },
           {
             "startLine": 273,
@@ -1341,7 +1386,8 @@
             ],
             "explanationHtml": null,
             "multi": false,
-            "id": "mcq-46"
+            "id": "mcq-46",
+            "clusterId": null
           },
           {
             "startLine": 279,
@@ -1368,9 +1414,10 @@
             "correct": [
               "C"
             ],
-            "explanationHtml": "Gantt: P1 (0–7), P2 (7–11), P3 (11–12), P4 (12–16). WT = 0, 5, 7, 7 → Ttb = 19/4 = &amp;lt;b&amp;gt;4.75&amp;lt;/b&amp;gt;.",
+            "explanationHtml": "Gantt: P1 (0–7), P2 (7–11), P3 (11–12), P4 (12–16). WT = 0, 5, 7, 7 → Ttb = 19/4 = &amp;amp;lt;b&amp;amp;gt;4.75&amp;amp;lt;/b&amp;amp;gt;.",
             "multi": false,
-            "id": "mcq-47"
+            "id": "mcq-47",
+            "clusterId": null
           },
           {
             "startLine": 286,
@@ -1397,9 +1444,10 @@
             "correct": [
               "D"
             ],
-            "explanationHtml": "Gantt: P1 (0–7), P3 (7–8), P2 (8–12), P4 (12–16). WT = 0, 6, 3, 7 → Ttb = 16/4 = &amp;lt;b&amp;gt;4&amp;lt;/b&amp;gt;.",
+            "explanationHtml": "Gantt: P1 (0–7), P3 (7–8), P2 (8–12), P4 (12–16). WT = 0, 6, 3, 7 → Ttb = 16/4 = &amp;amp;lt;b&amp;amp;gt;4&amp;amp;lt;/b&amp;amp;gt;.",
             "multi": false,
-            "id": "mcq-48"
+            "id": "mcq-48",
+            "clusterId": null
           },
           {
             "startLine": 293,
@@ -1426,9 +1474,10 @@
             "correct": [
               "A"
             ],
-            "explanationHtml": "WT = 9, 1, 0, 2 → Ttb = 12/4 = &amp;lt;b&amp;gt;3&amp;lt;/b&amp;gt;.",
+            "explanationHtml": "WT = 9, 1, 0, 2 → Ttb = 12/4 = &amp;amp;lt;b&amp;amp;gt;3&amp;amp;lt;/b&amp;amp;gt;.",
             "multi": false,
-            "id": "mcq-49"
+            "id": "mcq-49",
+            "clusterId": null
           },
           {
             "startLine": 300,
@@ -1455,9 +1504,10 @@
             "correct": [
               "C"
             ],
-            "explanationHtml": "WT = 8, 8, 5, 7 → Ttb = 28/4 = &amp;lt;b&amp;gt;7&amp;lt;/b&amp;gt;. Với bộ dữ liệu này, SJF chiếm đoạt cho Ttb nhỏ nhất.",
+            "explanationHtml": "WT = 8, 8, 5, 7 → Ttb = 28/4 = &amp;amp;lt;b&amp;amp;gt;7&amp;amp;lt;/b&amp;amp;gt;. Với bộ dữ liệu này, SJF chiếm đoạt cho Ttb nhỏ nhất.",
             "multi": false,
-            "id": "mcq-50"
+            "id": "mcq-50",
+            "clusterId": null
           }
         ]
       }
