@@ -34,7 +34,7 @@
             "correct": [
               "B"
             ],
-            "explanationHtml": "Chương trình là thực thể &amp;amp;amp;amp;amp;lt;b&amp;amp;amp;amp;amp;gt;thụ động&amp;amp;amp;amp;amp;lt;/b&amp;amp;amp;amp;amp;gt; (tệp trên thiết bị lưu trữ); tiến trình là thực thể &amp;amp;amp;amp;amp;lt;b&amp;amp;amp;amp;amp;gt;chủ động&amp;amp;amp;amp;amp;lt;/b&amp;amp;amp;amp;amp;gt; với PC, thanh ghi, vùng nhớ, tệp mở.",
+            "explanationHtml": "Chương trình là thực thể &lt;b&gt;thụ động&lt;/b&gt; (tệp trên thiết bị lưu trữ); tiến trình là thực thể &lt;b&gt;chủ động&lt;/b&gt; với PC, thanh ghi, vùng nhớ, tệp mở.",
             "multi": false,
             "id": "mcq-1",
             "clusterId": null
@@ -70,8 +70,8 @@
             "clusterId": null
           },
           {
-            "startLine": 14,
-            "text": "Vùng nào của tiến trình chứa mã lệnh của chương trình?",
+            "startLine": 15,
+            "text": "Vùng nào chứa mã lệnh của chương trình?",
             "image": null,
             "options": [
               {
@@ -97,11 +97,11 @@
             "explanationHtml": null,
             "multi": false,
             "id": "mcq-3",
-            "clusterId": null
+            "clusterId": "mcq-c1"
           },
           {
-            "startLine": 20,
-            "text": "Biến toàn cục và biến tĩnh được lưu ở vùng nào của tiến trình?",
+            "startLine": 21,
+            "text": "Biến toàn cục và biến tĩnh được lưu ở vùng nào?",
             "image": null,
             "options": [
               {
@@ -127,11 +127,11 @@
             "explanationHtml": null,
             "multi": false,
             "id": "mcq-4",
-            "clusterId": null
+            "clusterId": "mcq-c1"
           },
           {
-            "startLine": 26,
-            "text": "Bộ nhớ cấp phát động trong tiến trình nằm ở vùng nào?",
+            "startLine": 27,
+            "text": "Bộ nhớ cấp phát động nằm ở vùng nào?",
             "image": null,
             "options": [
               {
@@ -157,11 +157,11 @@
             "explanationHtml": null,
             "multi": false,
             "id": "mcq-5",
-            "clusterId": null
+            "clusterId": "mcq-c1"
           },
           {
-            "startLine": 32,
-            "text": "Stack của tiến trình lưu những gì?",
+            "startLine": 33,
+            "text": "Stack lưu những gì?",
             "image": null,
             "options": [
               {
@@ -187,11 +187,11 @@
             "explanationHtml": null,
             "multi": false,
             "id": "mcq-6",
-            "clusterId": null
+            "clusterId": "mcq-c1"
           },
           {
-            "startLine": 38,
-            "text": "Theo sơ đồ vùng nhớ của tiến trình, vùng địa chỉ chưa dùng nằm giữa hai vùng nào và biến đổi ra sao?",
+            "startLine": 39,
+            "text": "Theo sơ đồ vùng nhớ, vùng địa chỉ chưa dùng nằm giữa hai vùng nào và biến đổi ra sao?",
             "image": null,
             "options": [
               {
@@ -217,10 +217,10 @@
             "explanationHtml": null,
             "multi": false,
             "id": "mcq-7",
-            "clusterId": null
+            "clusterId": "mcq-c1"
           },
           {
-            "startLine": 44,
+            "startLine": 45,
             "text": "Nhiều lần chạy cùng một chương trình có thể dùng chung điều gì?",
             "image": null,
             "options": [
@@ -250,7 +250,7 @@
             "clusterId": null
           },
           {
-            "startLine": 50,
+            "startLine": 51,
             "text": "Mỗi tiến trình có trạng thái riêng gồm những thành phần nào?",
             "image": null,
             "options": [
@@ -280,7 +280,7 @@
             "clusterId": null
           },
           {
-            "startLine": 56,
+            "startLine": 57,
             "text": "Hai cửa sổ của cùng một ứng dụng có thể là gì?",
             "image": null,
             "options": [
@@ -310,7 +310,7 @@
             "clusterId": null
           },
           {
-            "startLine": 62,
+            "startLine": 63,
             "text": "Có bao nhiêu trạng thái cơ bản của tiến trình trong bài học?",
             "image": null,
             "options": [
@@ -340,7 +340,7 @@
             "clusterId": null
           },
           {
-            "startLine": 68,
+            "startLine": 70,
             "text": "Trạng thái \"New\" có nghĩa là gì?",
             "image": null,
             "options": [
@@ -367,10 +367,10 @@
             "explanationHtml": null,
             "multi": false,
             "id": "mcq-12",
-            "clusterId": null
+            "clusterId": "mcq-c2"
           },
           {
-            "startLine": 74,
+            "startLine": 76,
             "text": "Tiến trình ở trạng thái Ready đang ở tình huống nào?",
             "image": null,
             "options": [
@@ -397,10 +397,10 @@
             "explanationHtml": null,
             "multi": false,
             "id": "mcq-13",
-            "clusterId": null
+            "clusterId": "mcq-c2"
           },
           {
-            "startLine": 80,
+            "startLine": 82,
             "text": "Tiến trình ở trạng thái Waiting là tiến trình như thế nào?",
             "image": null,
             "options": [
@@ -427,10 +427,10 @@
             "explanationHtml": null,
             "multi": false,
             "id": "mcq-14",
-            "clusterId": null
+            "clusterId": "mcq-c2"
           },
           {
-            "startLine": 86,
+            "startLine": 89,
             "text": "Chuyển trạng thái \"dispatch\" là chuyển từ trạng thái nào sang trạng thái nào?",
             "image": null,
             "options": [
@@ -457,10 +457,10 @@
             "explanationHtml": null,
             "multi": false,
             "id": "mcq-15",
-            "clusterId": null
+            "clusterId": "mcq-c3"
           },
           {
-            "startLine": 92,
+            "startLine": 95,
             "text": "Chuyển trạng thái \"admitted\" là chuyển từ trạng thái nào sang trạng thái nào?",
             "image": null,
             "options": [
@@ -487,10 +487,10 @@
             "explanationHtml": null,
             "multi": false,
             "id": "mcq-16",
-            "clusterId": null
+            "clusterId": "mcq-c3"
           },
           {
-            "startLine": 98,
+            "startLine": 101,
             "text": "Khi xảy ra ngắt (interrupt) hoặc bị tước quyền, tiến trình đang chạy chuyển sang trạng thái nào?",
             "image": null,
             "options": [
@@ -517,10 +517,10 @@
             "explanationHtml": null,
             "multi": false,
             "id": "mcq-17",
-            "clusterId": null
+            "clusterId": "mcq-c3"
           },
           {
-            "startLine": 104,
+            "startLine": 107,
             "text": "Khi tiến trình yêu cầu I/O hoặc chờ một sự kiện, nó chuyển từ trạng thái nào sang trạng thái nào?",
             "image": null,
             "options": [
@@ -547,10 +547,10 @@
             "explanationHtml": null,
             "multi": false,
             "id": "mcq-18",
-            "clusterId": null
+            "clusterId": "mcq-c3"
           },
           {
-            "startLine": 110,
+            "startLine": 113,
             "text": "Khi I/O hoàn tất, tiến trình đang Waiting chuyển sang trạng thái nào?",
             "image": null,
             "options": [
@@ -574,13 +574,13 @@
             "correct": [
               "B"
             ],
-            "explanationHtml": "Tiến trình quay lại hàng đợi &amp;amp;amp;amp;amp;lt;b&amp;amp;amp;amp;amp;gt;Ready&amp;amp;amp;amp;amp;lt;/b&amp;amp;amp;amp;amp;gt; và phải chờ bộ lập lịch cấp CPU, không đi thẳng vào Running.",
+            "explanationHtml": "Tiến trình quay lại hàng đợi &lt;b&gt;Ready&lt;/b&gt; và phải chờ bộ lập lịch cấp CPU, không đi thẳng vào Running.",
             "multi": false,
             "id": "mcq-19",
-            "clusterId": null
+            "clusterId": "mcq-c3"
           },
           {
-            "startLine": 117,
+            "startLine": 120,
             "text": "Tại một thời điểm, mỗi lõi CPU chạy tối đa bao nhiêu luồng?",
             "image": null,
             "options": [
@@ -607,10 +607,10 @@
             "explanationHtml": null,
             "multi": false,
             "id": "mcq-20",
-            "clusterId": null
+            "clusterId": "mcq-c3"
           },
           {
-            "startLine": 123,
+            "startLine": 126,
             "text": "Hành động nào đưa tiến trình từ Running sang Terminated?",
             "image": null,
             "options": [
@@ -637,10 +637,10 @@
             "explanationHtml": null,
             "multi": false,
             "id": "mcq-21",
-            "clusterId": null
+            "clusterId": "mcq-c3"
           },
           {
-            "startLine": 129,
+            "startLine": 132,
             "text": "Bước nào KHÔNG thuộc bốn bước tạo tiến trình trong bài?",
             "image": null,
             "options": [
@@ -670,7 +670,7 @@
             "clusterId": null
           },
           {
-            "startLine": 135,
+            "startLine": 138,
             "text": "Trong bốn bước tạo tiến trình, bước cuối cùng là gì?",
             "image": null,
             "options": [
@@ -700,7 +700,7 @@
             "clusterId": null
           },
           {
-            "startLine": 141,
+            "startLine": 144,
             "text": "Sau khi tạo tiến trình con, quan hệ thực thi giữa cha và con có thể là gì?",
             "image": null,
             "options": [
@@ -730,7 +730,7 @@
             "clusterId": null
           },
           {
-            "startLine": 147,
+            "startLine": 150,
             "text": "Cơ chế copy-on-write có tác dụng gì?",
             "image": null,
             "options": [
@@ -760,7 +760,7 @@
             "clusterId": null
           },
           {
-            "startLine": 153,
+            "startLine": 156,
             "text": "PPID dùng để làm gì?",
             "image": null,
             "options": [
@@ -790,7 +790,7 @@
             "clusterId": null
           },
           {
-            "startLine": 159,
+            "startLine": 162,
             "text": "Trong UNIX/Linux, tiến trình cha dùng lời gọi nào để nhận trạng thái kết thúc của tiến trình con?",
             "image": null,
             "options": [
@@ -820,7 +820,7 @@
             "clusterId": null
           },
           {
-            "startLine": 165,
+            "startLine": 168,
             "text": "Tiến trình Zombie là tiến trình nào?",
             "image": null,
             "options": [
@@ -850,7 +850,7 @@
             "clusterId": null
           },
           {
-            "startLine": 171,
+            "startLine": 174,
             "text": "Tiến trình Orphan xuất hiện khi nào?",
             "image": null,
             "options": [
@@ -880,8 +880,8 @@
             "clusterId": null
           },
           {
-            "startLine": 177,
-            "text": "Trong ví dụ shell thực thi lệnh \"ls -l\", tiến trình con thực hiện chuỗi thao tác nào?",
+            "startLine": 181,
+            "text": "Tiến trình con thực hiện chuỗi thao tác nào?",
             "image": null,
             "options": [
               {
@@ -907,11 +907,11 @@
             "explanationHtml": null,
             "multi": false,
             "id": "mcq-30",
-            "clusterId": null
+            "clusterId": "mcq-c4"
           },
           {
-            "startLine": 183,
-            "text": "Trong ví dụ shell thực thi lệnh ngoài, tiến trình cha (shell) làm gì sau khi tạo con?",
+            "startLine": 187,
+            "text": "Sau khi tạo con, tiến trình cha (shell) làm gì?",
             "image": null,
             "options": [
               {
@@ -937,10 +937,10 @@
             "explanationHtml": null,
             "multi": false,
             "id": "mcq-31",
-            "clusterId": null
+            "clusterId": "mcq-c4"
           },
           {
-            "startLine": 189,
+            "startLine": 193,
             "text": "PCB là viết tắt của cụm từ nào?",
             "image": null,
             "options": [
@@ -970,7 +970,7 @@
             "clusterId": null
           },
           {
-            "startLine": 195,
+            "startLine": 200,
             "text": "PCB được lưu ở đâu?",
             "image": null,
             "options": [
@@ -997,11 +997,11 @@
             "explanationHtml": null,
             "multi": false,
             "id": "mcq-33",
-            "clusterId": null
+            "clusterId": "mcq-c5"
           },
           {
-            "startLine": 201,
-            "text": "Nhóm thông tin \"Định danh\" trong PCB gồm những mục nào?",
+            "startLine": 206,
+            "text": "Nhóm thông tin \"Định danh\" gồm những mục nào?",
             "image": null,
             "options": [
               {
@@ -1027,11 +1027,11 @@
             "explanationHtml": null,
             "multi": false,
             "id": "mcq-34",
-            "clusterId": null
+            "clusterId": "mcq-c5"
           },
           {
-            "startLine": 207,
-            "text": "Nhóm thông tin \"Ngữ cảnh CPU\" trong PCB gồm những mục nào?",
+            "startLine": 212,
+            "text": "Nhóm thông tin \"Ngữ cảnh CPU\" gồm những mục nào?",
             "image": null,
             "options": [
               {
@@ -1057,11 +1057,11 @@
             "explanationHtml": null,
             "multi": false,
             "id": "mcq-35",
-            "clusterId": null
+            "clusterId": "mcq-c5"
           },
           {
-            "startLine": 213,
-            "text": "Bảng trang, bảng đoạn và thanh ghi base/limit thuộc nhóm thông tin nào trong PCB?",
+            "startLine": 218,
+            "text": "Bảng trang, bảng đoạn và thanh ghi base/limit thuộc nhóm thông tin nào?",
             "image": null,
             "options": [
               {
@@ -1087,11 +1087,11 @@
             "explanationHtml": null,
             "multi": false,
             "id": "mcq-36",
-            "clusterId": null
+            "clusterId": "mcq-c5"
           },
           {
-            "startLine": 219,
-            "text": "Danh sách tệp đang mở và thiết bị được cấp thuộc nhóm thông tin nào trong PCB?",
+            "startLine": 224,
+            "text": "Danh sách tệp đang mở và thiết bị được cấp thuộc nhóm thông tin nào?",
             "image": null,
             "options": [
               {
@@ -1117,11 +1117,11 @@
             "explanationHtml": null,
             "multi": false,
             "id": "mcq-37",
-            "clusterId": null
+            "clusterId": "mcq-c5"
           },
           {
-            "startLine": 225,
-            "text": "Thông tin nào sau đây thuộc nhóm \"Kế toán và bảo vệ\" của PCB?",
+            "startLine": 230,
+            "text": "Thông tin nào sau đây thuộc nhóm \"Kế toán và bảo vệ\"?",
             "image": null,
             "options": [
               {
@@ -1147,11 +1147,11 @@
             "explanationHtml": null,
             "multi": false,
             "id": "mcq-38",
-            "clusterId": null
+            "clusterId": "mcq-c5"
           },
           {
-            "startLine": 231,
-            "text": "Hàng đợi Ready queue chứa những PCB nào?",
+            "startLine": 237,
+            "text": "Ready queue chứa những PCB nào?",
             "image": null,
             "options": [
               {
@@ -1177,10 +1177,10 @@
             "explanationHtml": null,
             "multi": false,
             "id": "mcq-39",
-            "clusterId": null
+            "clusterId": "mcq-c6"
           },
           {
-            "startLine": 237,
+            "startLine": 243,
             "text": "Khi I/O hoàn tất, PCB trong Device queue được chuyển đến đâu?",
             "image": null,
             "options": [
@@ -1207,11 +1207,11 @@
             "explanationHtml": null,
             "multi": false,
             "id": "mcq-40",
-            "clusterId": null
+            "clusterId": "mcq-c6"
           },
           {
-            "startLine": 243,
-            "text": "Khi chuyển đổi ngữ cảnh, hệ điều hành lưu trạng thái của tiến trình cũ vào đâu?",
+            "startLine": 250,
+            "text": "Hệ điều hành lưu trạng thái của tiến trình cũ vào đâu?",
             "image": null,
             "options": [
               {
@@ -1237,10 +1237,10 @@
             "explanationHtml": null,
             "multi": false,
             "id": "mcq-41",
-            "clusterId": null
+            "clusterId": "mcq-c7"
           },
           {
-            "startLine": 249,
+            "startLine": 256,
             "text": "Thời gian chuyển đổi ngữ cảnh được xem là gì?",
             "image": null,
             "options": [
@@ -1267,10 +1267,10 @@
             "explanationHtml": null,
             "multi": false,
             "id": "mcq-42",
-            "clusterId": null
+            "clusterId": "mcq-c7"
           },
           {
-            "startLine": 255,
+            "startLine": 262,
             "text": "Việc chuyển ngữ cảnh giữa các luồng cùng tiến trình thường như thế nào so với giữa các tiến trình?",
             "image": null,
             "options": [
@@ -1297,10 +1297,10 @@
             "explanationHtml": null,
             "multi": false,
             "id": "mcq-43",
-            "clusterId": null
+            "clusterId": "mcq-c7"
           },
           {
-            "startLine": 261,
+            "startLine": 268,
             "text": "Trong lập lịch tiến trình, mục tiêu nào cần cực đại hóa?",
             "image": null,
             "options": [
@@ -1330,7 +1330,7 @@
             "clusterId": null
           },
           {
-            "startLine": 267,
+            "startLine": 274,
             "text": "Thuật toán FCFS chọn tiến trình kế tiếp dựa trên tiêu chí nào?",
             "image": null,
             "options": [
@@ -1360,7 +1360,7 @@
             "clusterId": null
           },
           {
-            "startLine": 273,
+            "startLine": 280,
             "text": "Công thức tính thời gian chờ (WT) trong bài là gì?",
             "image": null,
             "options": [
@@ -1390,7 +1390,7 @@
             "clusterId": null
           },
           {
-            "startLine": 280,
+            "startLine": 287,
             "text": "Thời gian chờ trung bình của FCFS là bao nhiêu?",
             "image": null,
             "options": [
@@ -1417,10 +1417,10 @@
             "explanationHtml": "Gantt: P1 (0–7), P2 (7–11), P3 (11–12), P4 (12–16).&lt;br&gt;WT = 0, 5, 7, 7 → Ttb = 19/4 = &lt;b&gt;4.75&lt;/b&gt;.",
             "multi": false,
             "id": "mcq-47",
-            "clusterId": "mcq-c1"
+            "clusterId": "mcq-c8"
           },
           {
-            "startLine": 287,
+            "startLine": 294,
             "text": "Thời gian chờ trung bình của SJF không chiếm đoạt là bao nhiêu?",
             "image": null,
             "options": [
@@ -1447,10 +1447,10 @@
             "explanationHtml": "Gantt: P1 (0–7), P3 (7–8), P2 (8–12), P4 (12–16).&lt;br&gt;WT = 0, 6, 3, 7 → Ttb = 16/4 = &lt;b&gt;4&lt;/b&gt;.",
             "multi": false,
             "id": "mcq-48",
-            "clusterId": "mcq-c1"
+            "clusterId": "mcq-c8"
           },
           {
-            "startLine": 294,
+            "startLine": 301,
             "text": "Thời gian chờ trung bình của SJF chiếm đoạt (SRTF) là bao nhiêu?",
             "image": null,
             "options": [
@@ -1477,10 +1477,10 @@
             "explanationHtml": "Gantt: P1 (0–2), P2 (2–4), P3 (4–5), P2 (5–7), P4 (7–11), P1 (11–16).&lt;br&gt;WT = 9, 1, 0, 2 → Ttb = 12/4 = &lt;b&gt;3&lt;/b&gt;.",
             "multi": false,
             "id": "mcq-49",
-            "clusterId": "mcq-c1"
+            "clusterId": "mcq-c8"
           },
           {
-            "startLine": 301,
+            "startLine": 308,
             "text": "Thời gian chờ trung bình của Round Robin (q = 3) là bao nhiêu?",
             "image": null,
             "options": [
@@ -1507,15 +1507,106 @@
             "explanationHtml": "Gantt: P1 (0–3), P2 (3–6), P1 (6–9), P3 (9–10), P4 (10–13), P2 (13–14), P1 (14–15), P4 (15–16).&lt;br&gt;WT = 8, 8, 5, 7 → Ttb = 28/4 = &lt;b&gt;7&lt;/b&gt;.&lt;br&gt;Với bộ dữ liệu này, SJF chiếm đoạt cho Ttb nhỏ nhất.",
             "multi": false,
             "id": "mcq-50",
-            "clusterId": "mcq-c1"
+            "clusterId": "mcq-c8"
           }
         ],
         "clusters": [
           {
             "id": "mcq-c1",
+            "from": 3,
+            "to": 7,
+            "text": "Không gian địa chỉ của một tiến trình được chia thành các vùng: &lt;b&gt;Text, Data, Heap, Stack&lt;/b&gt;. Dùng dữ kiện này trả lời năm câu sau.",
+            "image": null,
+            "questionIds": [
+              "mcq-3",
+              "mcq-4",
+              "mcq-5",
+              "mcq-6",
+              "mcq-7"
+            ]
+          },
+          {
+            "id": "mcq-c2",
+            "from": 12,
+            "to": 14,
+            "text": "Trong sơ đồ trạng thái, mỗi tiến trình ở một trong các trạng thái: &lt;b&gt;New, Ready, Running, Waiting, Terminated&lt;/b&gt;. Dùng dữ kiện này trả lời ba câu sau.",
+            "image": null,
+            "questionIds": [
+              "mcq-12",
+              "mcq-13",
+              "mcq-14"
+            ]
+          },
+          {
+            "id": "mcq-c3",
+            "from": 15,
+            "to": 21,
+            "text": "Tiến trình chuyển giữa các trạng thái &lt;b&gt;New, Ready, Running, Waiting, Terminated&lt;/b&gt; thông qua các sự kiện như admitted, dispatch, interrupt, chờ I/O hoặc sự kiện, I/O hoàn tất và exit. Dùng dữ kiện này trả lời bảy câu sau.",
+            "image": null,
+            "questionIds": [
+              "mcq-15",
+              "mcq-16",
+              "mcq-17",
+              "mcq-18",
+              "mcq-19",
+              "mcq-20",
+              "mcq-21"
+            ]
+          },
+          {
+            "id": "mcq-c4",
+            "from": 30,
+            "to": 31,
+            "text": "Shell thực thi lệnh ngoài &lt;code&gt;ls -l&lt;/code&gt;: shell (tiến trình cha) tạo một tiến trình con để chạy lệnh này. Dùng dữ kiện này trả lời hai câu sau.",
+            "image": null,
+            "questionIds": [
+              "mcq-30",
+              "mcq-31"
+            ]
+          },
+          {
+            "id": "mcq-c5",
+            "from": 33,
+            "to": 38,
+            "text": "Hệ điều hành quản lý mỗi tiến trình bằng một &lt;b&gt;PCB&lt;/b&gt;, trong đó thông tin được chia thành nhiều nhóm. Dùng dữ kiện này trả lời sáu câu sau.",
+            "image": null,
+            "questionIds": [
+              "mcq-33",
+              "mcq-34",
+              "mcq-35",
+              "mcq-36",
+              "mcq-37",
+              "mcq-38"
+            ]
+          },
+          {
+            "id": "mcq-c6",
+            "from": 39,
+            "to": 40,
+            "text": "Hệ điều hành tổ chức các PCB vào nhiều hàng đợi khác nhau, chẳng hạn &lt;b&gt;Ready queue&lt;/b&gt; và &lt;b&gt;Device queue&lt;/b&gt;, tùy theo tình trạng của tiến trình. Dùng dữ kiện này trả lời hai câu sau.",
+            "image": null,
+            "questionIds": [
+              "mcq-39",
+              "mcq-40"
+            ]
+          },
+          {
+            "id": "mcq-c7",
+            "from": 41,
+            "to": 43,
+            "text": "Khi CPU chuyển từ tiến trình này sang tiến trình khác, hệ điều hành phải thực hiện &lt;b&gt;chuyển đổi ngữ cảnh&lt;/b&gt; (context switch). Dùng dữ kiện này trả lời ba câu sau.",
+            "image": null,
+            "questionIds": [
+              "mcq-41",
+              "mcq-42",
+              "mcq-43"
+            ]
+          },
+          {
+            "id": "mcq-c8",
             "from": 47,
             "to": 50,
-            "text": "Cho bảng tiến trình sau (AT: thời điểm đến, BT: thời gian burst):&lt;br&gt;&lt;b&gt;P1&lt;/b&gt;(AT=0, BT=7)&lt;br&gt;&lt;b&gt;P2&lt;/b&gt;(AT=2, BT=4)&lt;br&gt;&lt;b&gt;P3&lt;/b&gt;(AT=4, BT=1)&lt;br&gt;&lt;b&gt;P4&lt;/b&gt;(AT=5, BT=4)&lt;br&gt;Dùng dữ kiện này trả lời bốn câu sau, với &lt;b&gt;WT = CT − AT − BT&lt;/b&gt;.",
+            "text": "Cho bảng tiến trình sau (AT: thời điểm đến, BT: thời gian burst):&lt;br&gt;&lt;b&gt;P1&lt;/b&gt; (AT=0, BT=7)&lt;br&gt;&lt;b&gt;P2&lt;/b&gt; (AT=2, BT=4)&lt;br&gt;&lt;b&gt;P3&lt;/b&gt; (AT=4, BT=1)&lt;br&gt;&lt;b&gt;P4&lt;/b&gt; (AT=5, BT=4)&lt;br&gt;Dùng dữ kiện này trả lời bốn câu sau, với &lt;b&gt;WT = CT − AT − BT&lt;/b&gt;.",
             "image": null,
             "questionIds": [
               "mcq-47",
