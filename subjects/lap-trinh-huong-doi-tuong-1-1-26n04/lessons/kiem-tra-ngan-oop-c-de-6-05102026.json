@@ -1,0 +1,13 @@
+{
+  "lessonId": "6ac4c4a374aba1d1f0d69ea0",
+  "title": "(Kiểm tra ngắn OOP C++) Đề 6 05/10/2026",
+  "slug": "kiem-tra-ngan-oop-c-de-6-05102026",
+  "description": "",
+  "contentHtml": "<blockquote>\n    <p><strong>Lưu ý chung khi làm bài:</strong></p>\n    <ul>\n        <li>Dùng <code>cin &gt;&gt; ws; getline(cin, ...)</code> để nhập chuỗi ký tự nhằm tránh lỗi trôi lệnh (không sử dụng <code>cin.ignore()</code>).</li>\n        <li>Giả sử số lượng phần tử <var>n</var> &gt;= 1 khi thực hiện các thao tác tìm giá trị lớn nhất (max) hoặc nhỏ nhất (min).</li>\n    </ul>\n</blockquote>\n\n\n\n\n<hr />\n\n<!-- ĐỀ 6 -->\n<section id=\"de-6\">\n    <h2>Đề 6: Kế thừa ba cấp (Người → Nhân viên → Quản lý)</h2>\n    <p><strong>Yêu cầu:</strong></p>\n    <ol>\n        <li>Xây dựng lớp cha tầng thứ nhất là <code>Nguoi</code> gồm các thuộc tính <code>private</code>: họ tên, năm sinh. Cung cấp hàm nhập và xuất thông tin.</li>\n        <li>Xây dựng lớp con tầng thứ hai là <code>NhanVien</code> kế thừa từ <code>Nguoi</code>, bổ sung thuộc tính hệ số lương và hàm tính lương cơ bản.</li>\n        <li>Xây dựng lớp con tầng thứ ba là <code>QuanLy</code> kế thừa từ lớp <code>NhanVien</code>, bổ sung thuộc tính phụ cấp chức vụ. Hàm tính lương của lớp <code>QuanLy</code> phải gọi lại hàm tính lương của lớp <code>NhanVien</code> rồi cộng thêm tiền phụ cấp.</li>\n        <li>Viết hàm <code>main</code> nhập vào một danh sách gồm <var>n</var> quản lý, thực hiện tính toán và xuất ra bảng lương chi tiết của từng người quản lý.</li>\n    </ol>\n</section>\n",
+  "sampleSolution": "",
+  "duration": 30,
+  "model": null,
+  "isPublished": true,
+  "createdAt": "2026-10-06T09:51:31.790Z",
+  "updatedAt": "2026-10-06T09:51:31.790Z"
+}
