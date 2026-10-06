@@ -1,6 +1,6 @@
 {
   "type": "quiz",
-  "title": "Ôn tập Chuong4_Tuong_tranh_va_dong_bo",
+  "title": "Ôn tập Chuong4_Tuong_tranh_va_dong_bo.pppt",
   "contentHtml": null,
   "quiz": {
     "version": 1,
@@ -1504,7 +1504,7 @@
             "correct": [
               "B"
             ],
-            "explanationHtml": "Tiến trình i báo muốn vào bằng &lt;code&gt;flag[i] = true&lt;/code&gt;, rồi nhường ưu tiên cho tiến trình kia bằng &lt;code&gt;turn = j&lt;/code&gt;.",
+            "explanationHtml": "Tiến trình i báo muốn vào bằng &amp;lt;code&amp;gt;flag[i] = true&amp;lt;/code&amp;gt;, rồi nhường ưu tiên cho tiến trình kia bằng &amp;lt;code&amp;gt;turn = j&amp;lt;/code&amp;gt;.",
             "multi": false,
             "id": "mcq-50",
             "clusterId": null
@@ -1515,7 +1515,7 @@
             "id": "mcq-c1",
             "from": 17,
             "to": 18,
-            "text": "Thuật toán &amp;quot;lấy số thứ tự&amp;quot; cho bốn tiến trình: &amp;lt;b&amp;gt;P0 lấy số 12, P1 lấy số 8, P2 lấy số 15, P3 lấy số 10&amp;lt;/b&amp;gt;. Dùng dữ kiện này trả lời hai câu sau.",
+            "text": "Thuật toán &amp;amp;quot;lấy số thứ tự&amp;amp;quot; cho bốn tiến trình: &amp;amp;lt;b&amp;amp;gt;P0 lấy số 12, P1 lấy số 8, P2 lấy số 15, P3 lấy số 10&amp;amp;lt;/b&amp;amp;gt;. Dùng dữ kiện này trả lời hai câu sau.",
             "image": null,
             "questionIds": [
               "mcq-17",
@@ -1526,7 +1526,7 @@
             "id": "mcq-c2",
             "from": 31,
             "to": 32,
-            "text": "Hệ thống có &amp;lt;b&amp;gt;3 máy in dùng chung&amp;lt;/b&amp;gt;, được quản lý bằng semaphore đếm S khởi tạo bằng 3. Dùng dữ kiện này trả lời hai câu sau.",
+            "text": "Hệ thống có &amp;amp;lt;b&amp;amp;gt;3 máy in dùng chung&amp;amp;lt;/b&amp;amp;gt;, được quản lý bằng semaphore đếm S khởi tạo bằng 3. Dùng dữ kiện này trả lời hai câu sau.",
             "image": null,
             "questionIds": [
               "mcq-31",
