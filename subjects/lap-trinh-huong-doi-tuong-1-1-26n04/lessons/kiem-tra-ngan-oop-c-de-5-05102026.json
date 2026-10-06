@@ -1,0 +1,13 @@
+{
+  "lessonId": "6ac4c43774aba1d1f0d69e9e",
+  "title": "(Kiểm tra ngắn OOP C++) Đề 5 05/10/2026",
+  "slug": "kiem-tra-ngan-oop-c-de-5-05102026",
+  "description": "",
+  "contentHtml": "<blockquote>\n    <p><strong>Lưu ý chung khi làm bài:</strong></p>\n    <ul>\n        <li>Dùng <code>cin &gt;&gt; ws; getline(cin, ...)</code> để nhập chuỗi ký tự nhằm tránh lỗi trôi lệnh (không sử dụng <code>cin.ignore()</code>).</li>\n        <li>Giả sử số lượng phần tử <var>n</var> &gt;= 1 khi thực hiện các thao tác tìm giá trị lớn nhất (max) hoặc nhỏ nhất (min).</li>\n    </ul>\n</blockquote>\n\n\n\n<hr />\n\n<!-- ĐỀ 5 -->\n<section id=\"de-5\">\n    <h2>Đề 5: Tìm hiểu phạm vi truy cập protected</h2>\n    <p><strong>Yêu cầu:</strong></p>\n    <ol>\n        <li>Xây dựng lớp cha <code>HinhHoc</code> có thuộc tính <code>ten</code> (tên hình) được để ở phạm vi thuộc tính <code>protected</code> nhằm cho phép các lớp con truy cập trực tiếp để gán tên, nhưng bên ngoài lớp vẫn không thể truy cập được nhằm đảm bảo tính đóng gói.</li>\n        <li>Xây dựng hai lớp con kế thừa từ lớp <code>HinhHoc</code> là:\n            <ul>\n                <li>Lớp <code>HinhChuNhat</code>: gồm thuộc tính dài, rộng.</li>\n                <li>Lớp <code>HinhTron</code>: gồm thuộc tính bán kính.</li>\n            </ul>\n            Các lớp con sẽ gán trực tiếp thuộc tính <code>ten</code> của lớp cha ngay trong hàm tạo của mình và cài đặt hàm tính diện tích riêng.\n        </li>\n        <li>Viết hàm <code>main</code> để kiểm tra việc nhập xuất thông tin, tính diện tích của hình chữ nhật và hình tròn, đồng thời minh họa việc bên ngoài lớp không thể truy cập trực tiếp vào thuộc tính <code>protected</code>.</li>\n    </ol>\n</section>",
+  "sampleSolution": "",
+  "duration": 30,
+  "model": null,
+  "isPublished": true,
+  "createdAt": "2026-10-06T09:49:43.530Z",
+  "updatedAt": "2026-10-06T09:49:43.530Z"
+}
