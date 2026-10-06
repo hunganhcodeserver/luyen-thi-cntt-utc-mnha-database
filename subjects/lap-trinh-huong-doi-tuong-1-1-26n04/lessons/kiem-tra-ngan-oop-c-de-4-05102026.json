@@ -1,0 +1,13 @@
+{
+  "lessonId": "6ac4c3a974aba1d1f0d69e99",
+  "title": "(Kiểm tra ngắn OOP C++) Đề 4 05/10/2026",
+  "slug": "kiem-tra-ngan-oop-c-de-4-05102026",
+  "description": "",
+  "contentHtml": "<blockquote>\n    <p><strong>Lưu ý chung khi làm bài:</strong></p>\n    <ul>\n        <li>Dùng <code>cin &gt;&gt; ws; getline(cin, ...)</code> để nhập chuỗi ký tự nhằm tránh lỗi trôi lệnh (không sử dụng <code>cin.ignore()</code>).</li>\n        <li>Giả sử số lượng phần tử <var>n</var> &gt;= 1 khi thực hiện các thao tác tìm giá trị lớn nhất (max) hoặc nhỏ nhất (min).</li>\n    </ul>\n</blockquote>\n\n\n<hr />\n\n<!-- ĐỀ 4 -->\n<section id=\"de-4\">\n    <h2>Đề 4: Hàm tạo có đối số trong kế thừa</h2>\n    <p><strong>Yêu cầu:</strong></p>\n    <ol>\n        <li>Thiết lập lớp cha <code>Nguoi</code> gồm các thuộc tính <code>private</code>: họ tên, năm sinh. Tích hợp hàm tạo mặc định và hàm tạo có đối số (sử dụng tham số mặc định).</li>\n        <li>Xây dựng lớp con <code>SinhVien</code> kế thừa từ lớp <code>Nguoi</code>, bổ sung thuộc tính điểm số. Yêu cầu cài đặt đầy đủ cả hàm tạo mặc định và hàm tạo có đối số (gọi hàm tạo của lớp cha thông qua danh sách khởi tạo - initialization list).</li>\n        <li>Viết hàm <code>main</code> thực hiện khởi tạo 2 đối tượng sinh viên theo 2 cách:\n            <ul>\n                <li>Sinh viên <var>a</var>: khởi tạo trực tiếp bằng hàm tạo có đối số.</li>\n                <li>Sinh viên <var>b</var>: khởi tạo bằng hàm tạo mặc định rồi gọi hàm nhập dữ liệu từ bàn phím.</li>\n            </ul>\n            Kiểm tra và thông báo ra màn hình những sinh viên nào đã qua môn (điểm số &gt;= 6).\n        </li>\n    </ol>",
+  "sampleSolution": "",
+  "duration": 30,
+  "model": null,
+  "isPublished": true,
+  "createdAt": "2026-10-06T09:47:21.682Z",
+  "updatedAt": "2026-10-06T09:47:21.682Z"
+}
