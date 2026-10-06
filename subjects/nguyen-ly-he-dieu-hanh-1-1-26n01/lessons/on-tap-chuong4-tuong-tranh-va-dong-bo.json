@@ -11,7 +11,7 @@
         "questions": [
           {
             "startLine": 1,
-            "text": "Tương tranh (concurrency) được hiểu đúng nhất là gì? 1",
+            "text": "Tương tranh (concurrency) được hiểu đúng nhất là gì?",
             "image": null,
             "options": [
               {
@@ -1504,7 +1504,7 @@
             "correct": [
               "B"
             ],
-            "explanationHtml": "Tiến trình i báo muốn vào bằng &amp;amp;lt;code&amp;amp;gt;flag[i] = true&amp;amp;lt;/code&amp;amp;gt;, rồi nhường ưu tiên cho tiến trình kia bằng &amp;amp;lt;code&amp;amp;gt;turn = j&amp;amp;lt;/code&amp;amp;gt;.",
+            "explanationHtml": "Tiến trình i báo muốn vào bằng &amp;amp;amp;lt;code&amp;amp;amp;gt;flag[i] = true&amp;amp;amp;lt;/code&amp;amp;amp;gt;, rồi nhường ưu tiên cho tiến trình kia bằng &amp;amp;amp;lt;code&amp;amp;amp;gt;turn = j&amp;amp;amp;lt;/code&amp;amp;amp;gt;.",
             "multi": false,
             "id": "mcq-50",
             "clusterId": null
@@ -1515,7 +1515,7 @@
             "id": "mcq-c1",
             "from": 17,
             "to": 18,
-            "text": "Thuật toán &amp;amp;amp;quot;lấy số thứ tự&amp;amp;amp;quot; cho bốn tiến trình: &amp;amp;amp;lt;b&amp;amp;amp;gt;P0 lấy số 12, P1 lấy số 8, P2 lấy số 15, P3 lấy số 10&amp;amp;amp;lt;/b&amp;amp;amp;gt;. Dùng dữ kiện này trả lời hai câu sau.",
+            "text": "Thuật toán &amp;amp;amp;amp;quot;lấy số thứ tự&amp;amp;amp;amp;quot; cho bốn tiến trình: &amp;amp;amp;amp;lt;b&amp;amp;amp;amp;gt;P0 lấy số 12, P1 lấy số 8, P2 lấy số 15, P3 lấy số 10&amp;amp;amp;amp;lt;/b&amp;amp;amp;amp;gt;. Dùng dữ kiện này trả lời hai câu sau.",
             "image": null,
             "questionIds": [
               "mcq-17",
@@ -1526,7 +1526,7 @@
             "id": "mcq-c2",
             "from": 31,
             "to": 32,
-            "text": "Hệ thống có &amp;amp;amp;lt;b&amp;amp;amp;gt;3 máy in dùng chung&amp;amp;amp;lt;/b&amp;amp;amp;gt;, được quản lý bằng semaphore đếm S khởi tạo bằng 3. Dùng dữ kiện này trả lời hai câu sau.",
+            "text": "Hệ thống có &amp;amp;amp;amp;lt;b&amp;amp;amp;amp;gt;3 máy in dùng chung&amp;amp;amp;amp;lt;/b&amp;amp;amp;amp;gt;, được quản lý bằng semaphore đếm S khởi tạo bằng 3. Dùng dữ kiện này trả lời hai câu sau.",
             "image": null,
             "questionIds": [
               "mcq-31",
