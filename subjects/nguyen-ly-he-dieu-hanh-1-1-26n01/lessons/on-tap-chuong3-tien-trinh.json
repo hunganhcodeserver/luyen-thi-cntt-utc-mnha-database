@@ -34,7 +34,7 @@
             "correct": [
               "B"
             ],
-            "explanationHtml": "Chương trình là thực thể &amp;amp;amp;amp;lt;b&amp;amp;amp;amp;gt;thụ động&amp;amp;amp;amp;lt;/b&amp;amp;amp;amp;gt; (tệp trên thiết bị lưu trữ); tiến trình là thực thể &amp;amp;amp;amp;lt;b&amp;amp;amp;amp;gt;chủ động&amp;amp;amp;amp;lt;/b&amp;amp;amp;amp;gt; với PC, thanh ghi, vùng nhớ, tệp mở.",
+            "explanationHtml": "Chương trình là thực thể &amp;amp;amp;amp;amp;lt;b&amp;amp;amp;amp;amp;gt;thụ động&amp;amp;amp;amp;amp;lt;/b&amp;amp;amp;amp;amp;gt; (tệp trên thiết bị lưu trữ); tiến trình là thực thể &amp;amp;amp;amp;amp;lt;b&amp;amp;amp;amp;amp;gt;chủ động&amp;amp;amp;amp;amp;lt;/b&amp;amp;amp;amp;amp;gt; với PC, thanh ghi, vùng nhớ, tệp mở.",
             "multi": false,
             "id": "mcq-1",
             "clusterId": null
@@ -574,7 +574,7 @@
             "correct": [
               "B"
             ],
-            "explanationHtml": "Tiến trình quay lại hàng đợi &amp;amp;amp;amp;lt;b&amp;amp;amp;amp;gt;Ready&amp;amp;amp;amp;lt;/b&amp;amp;amp;amp;gt; và phải chờ bộ lập lịch cấp CPU, không đi thẳng vào Running.",
+            "explanationHtml": "Tiến trình quay lại hàng đợi &amp;amp;amp;amp;amp;lt;b&amp;amp;amp;amp;amp;gt;Ready&amp;amp;amp;amp;amp;lt;/b&amp;amp;amp;amp;amp;gt; và phải chờ bộ lập lịch cấp CPU, không đi thẳng vào Running.",
             "multi": false,
             "id": "mcq-19",
             "clusterId": null
@@ -1390,8 +1390,8 @@
             "clusterId": null
           },
           {
-            "startLine": 279,
-            "text": "Với bảng P1(AT=0, BT=7), P2(AT=2, BT=4), P3(AT=4, BT=1), P4(AT=5, BT=4), thời gian chờ trung bình của FCFS là bao nhiêu?",
+            "startLine": 280,
+            "text": "Thời gian chờ trung bình của FCFS là bao nhiêu?",
             "image": null,
             "options": [
               {
@@ -1414,14 +1414,14 @@
             "correct": [
               "C"
             ],
-            "explanationHtml": "Gantt: P1 (0–7), P2 (7–11), P3 (11–12), P4 (12–16). WT = 0, 5, 7, 7 → Ttb = 19/4 = &amp;amp;amp;amp;lt;b&amp;amp;amp;amp;gt;4.75&amp;amp;amp;amp;lt;/b&amp;amp;amp;amp;gt;.",
+            "explanationHtml": "Gantt: P1 (0–7), P2 (7–11), P3 (11–12), P4 (12–16).&lt;br&gt;WT = 0, 5, 7, 7 → Ttb = 19/4 = &lt;b&gt;4.75&lt;/b&gt;.",
             "multi": false,
             "id": "mcq-47",
-            "clusterId": null
+            "clusterId": "mcq-c1"
           },
           {
-            "startLine": 286,
-            "text": "Với cùng bộ dữ liệu trên, thời gian chờ trung bình của SJF không chiếm đoạt là bao nhiêu?",
+            "startLine": 287,
+            "text": "Thời gian chờ trung bình của SJF không chiếm đoạt là bao nhiêu?",
             "image": null,
             "options": [
               {
@@ -1444,14 +1444,14 @@
             "correct": [
               "D"
             ],
-            "explanationHtml": "Gantt: P1 (0–7), P3 (7–8), P2 (8–12), P4 (12–16). WT = 0, 6, 3, 7 → Ttb = 16/4 = &amp;amp;amp;amp;lt;b&amp;amp;amp;amp;gt;4&amp;amp;amp;amp;lt;/b&amp;amp;amp;amp;gt;.",
+            "explanationHtml": "Gantt: P1 (0–7), P3 (7–8), P2 (8–12), P4 (12–16).&lt;br&gt;WT = 0, 6, 3, 7 → Ttb = 16/4 = &lt;b&gt;4&lt;/b&gt;.",
             "multi": false,
             "id": "mcq-48",
-            "clusterId": null
+            "clusterId": "mcq-c1"
           },
           {
-            "startLine": 293,
-            "text": "Với cùng bộ dữ liệu trên, thời gian chờ trung bình của SJF chiếm đoạt (SRTF) là bao nhiêu?",
+            "startLine": 294,
+            "text": "Thời gian chờ trung bình của SJF chiếm đoạt (SRTF) là bao nhiêu?",
             "image": null,
             "options": [
               {
@@ -1474,14 +1474,14 @@
             "correct": [
               "A"
             ],
-            "explanationHtml": "WT = 9, 1, 0, 2 → Ttb = 12/4 = &amp;amp;amp;amp;lt;b&amp;amp;amp;amp;gt;3&amp;amp;amp;amp;lt;/b&amp;amp;amp;amp;gt;.",
+            "explanationHtml": "Gantt: P1 (0–2), P2 (2–4), P3 (4–5), P2 (5–7), P4 (7–11), P1 (11–16).&lt;br&gt;WT = 9, 1, 0, 2 → Ttb = 12/4 = &lt;b&gt;3&lt;/b&gt;.",
             "multi": false,
             "id": "mcq-49",
-            "clusterId": null
+            "clusterId": "mcq-c1"
           },
           {
-            "startLine": 300,
-            "text": "Với cùng bộ dữ liệu trên, thời gian chờ trung bình của Round Robin (q = 3) là bao nhiêu?",
+            "startLine": 301,
+            "text": "Thời gian chờ trung bình của Round Robin (q = 3) là bao nhiêu?",
             "image": null,
             "options": [
               {
@@ -1504,10 +1504,25 @@
             "correct": [
               "C"
             ],
-            "explanationHtml": "WT = 8, 8, 5, 7 → Ttb = 28/4 = &amp;amp;amp;amp;lt;b&amp;amp;amp;amp;gt;7&amp;amp;amp;amp;lt;/b&amp;amp;amp;amp;gt;. Với bộ dữ liệu này, SJF chiếm đoạt cho Ttb nhỏ nhất.",
+            "explanationHtml": "Gantt: P1 (0–3), P2 (3–6), P1 (6–9), P3 (9–10), P4 (10–13), P2 (13–14), P1 (14–15), P4 (15–16).&lt;br&gt;WT = 8, 8, 5, 7 → Ttb = 28/4 = &lt;b&gt;7&lt;/b&gt;.&lt;br&gt;Với bộ dữ liệu này, SJF chiếm đoạt cho Ttb nhỏ nhất.",
             "multi": false,
             "id": "mcq-50",
-            "clusterId": null
+            "clusterId": "mcq-c1"
+          }
+        ],
+        "clusters": [
+          {
+            "id": "mcq-c1",
+            "from": 47,
+            "to": 50,
+            "text": "Cho bảng tiến trình sau (AT: thời điểm đến, BT: thời gian burst):&lt;br&gt;&lt;b&gt;P1&lt;/b&gt;(AT=0, BT=7)&lt;br&gt;&lt;b&gt;P2&lt;/b&gt;(AT=2, BT=4)&lt;br&gt;&lt;b&gt;P3&lt;/b&gt;(AT=4, BT=1)&lt;br&gt;&lt;b&gt;P4&lt;/b&gt;(AT=5, BT=4)&lt;br&gt;Dùng dữ kiện này trả lời bốn câu sau, với &lt;b&gt;WT = CT − AT − BT&lt;/b&gt;.",
+            "image": null,
+            "questionIds": [
+              "mcq-47",
+              "mcq-48",
+              "mcq-49",
+              "mcq-50"
+            ]
           }
         ]
       }
