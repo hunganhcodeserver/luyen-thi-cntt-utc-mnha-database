@@ -1,0 +1,1510 @@
+{
+  "type": "quiz",
+  "title": "Ôn tập Chuong4_Tuong_tranh_va_dong_bo",
+  "contentHtml": null,
+  "quiz": {
+    "version": 1,
+    "maxScore": 10,
+    "parts": {
+      "mcq": {
+        "pointsPerQuestion": 0.2,
+        "questions": [
+          {
+            "startLine": 1,
+            "text": "Tương tranh (concurrency) được hiểu đúng nhất là gì?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Nhiều CPU cùng thực hiện nhiều công việc ở đúng một thời điểm"
+              },
+              {
+                "key": "B",
+                "text": "Một CPU chuyển đổi nhanh giữa nhiều công việc nên có cảm giác cùng chạy"
+              },
+              {
+                "key": "C",
+                "text": "Một công việc được chia thành nhiều phần chạy hoàn toàn độc lập"
+              },
+              {
+                "key": "D",
+                "text": "Mỗi công việc được cấp một CPU riêng"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-1",
+            "clusterId": null
+          },
+          {
+            "startLine": 7,
+            "text": "Song song (parallelism) khác tương tranh ở điểm nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Song song chỉ xảy ra trên hệ một CPU"
+              },
+              {
+                "key": "B",
+                "text": "Song song không bao giờ dùng dữ liệu chung"
+              },
+              {
+                "key": "C",
+                "text": "Song song là nhiều CPU hoặc nhiều lõi thực hiện thật sự cùng lúc"
+              },
+              {
+                "key": "D",
+                "text": "Song song không cần hệ điều hành điều phối"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-2",
+            "clusterId": null
+          },
+          {
+            "startLine": 13,
+            "text": "Điều kiện tranh chấp (race condition) là tình huống nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Kết quả phụ thuộc vào việc tiến trình nào chạy trước, tiến trình nào chạy sau"
+              },
+              {
+                "key": "B",
+                "text": "Hai tiến trình chờ nhau mãi mãi"
+              },
+              {
+                "key": "C",
+                "text": "Một tiến trình bị CPU từ chối cấp thời gian chạy"
+              },
+              {
+                "key": "D",
+                "text": "Hai tiến trình dùng hai biến khác nhau"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-3",
+            "clusterId": null
+          },
+          {
+            "startLine": 19,
+            "text": "Giả sử count ban đầu bằng 5 và hai tiến trình cùng thực hiện count = count + 1 mà không đồng bộ. Kết quả nào sau đây CÓ THỂ xảy ra?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Luôn luôn là 7"
+              },
+              {
+                "key": "B",
+                "text": "Có thể là 6 do mất một lần cập nhật"
+              },
+              {
+                "key": "C",
+                "text": "Chắc chắn là 5"
+              },
+              {
+                "key": "D",
+                "text": "Chắc chắn là 8"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Cả hai cùng đọc 5, cùng tính 6 rồi cùng ghi 6 nên một lần cập nhật bị mất.",
+            "multi": false,
+            "id": "mcq-4",
+            "clusterId": null
+          },
+          {
+            "startLine": 26,
+            "text": "Ở mức CPU, lệnh count = count + 1 thường được thực hiện qua bao nhiêu bước chính?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "1 bước"
+              },
+              {
+                "key": "B",
+                "text": "2 bước"
+              },
+              {
+                "key": "C",
+                "text": "3 bước: đọc từ bộ nhớ, tăng trong thanh ghi, ghi lại bộ nhớ"
+              },
+              {
+                "key": "D",
+                "text": "5 bước"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-5",
+            "clusterId": null
+          },
+          {
+            "startLine": 32,
+            "text": "Vùng tới hạn (critical section) là gì?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Đoạn mã truy cập hoặc thay đổi tài nguyên dùng chung"
+              },
+              {
+                "key": "B",
+                "text": "Đoạn mã chỉ chứa các lệnh vào/ra"
+              },
+              {
+                "key": "C",
+                "text": "Vùng nhớ mà hệ điều hành cấm mọi tiến trình truy cập"
+              },
+              {
+                "key": "D",
+                "text": "Phần mã chạy lâu nhất của chương trình"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-6",
+            "clusterId": null
+          },
+          {
+            "startLine": 38,
+            "text": "Thứ tự bốn phần liên quan của một tiến trình là gì?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Vùng tới hạn → Vùng vào → Vùng ra → Phần còn lại"
+              },
+              {
+                "key": "B",
+                "text": "Vùng vào → Vùng tới hạn → Vùng ra → Phần còn lại"
+              },
+              {
+                "key": "C",
+                "text": "Phần còn lại → Vùng ra → Vùng tới hạn → Vùng vào"
+              },
+              {
+                "key": "D",
+                "text": "Vùng vào → Vùng ra → Vùng tới hạn → Phần còn lại"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-7",
+            "clusterId": null
+          },
+          {
+            "startLine": 44,
+            "text": "Việc đồng bộ chủ yếu tập trung vào phần nào của tiến trình?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Phần còn lại"
+              },
+              {
+                "key": "B",
+                "text": "Vùng tới hạn"
+              },
+              {
+                "key": "C",
+                "text": "Vùng vào và vùng ra"
+              },
+              {
+                "key": "D",
+                "text": "Toàn bộ chương trình"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-8",
+            "clusterId": null
+          },
+          {
+            "startLine": 50,
+            "text": "Ba yêu cầu của một giải pháp đúng cho bài toán vùng tới hạn là gì?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Mutual exclusion, progress, bounded waiting"
+              },
+              {
+                "key": "B",
+                "text": "Mutual exclusion, deadlock, starvation"
+              },
+              {
+                "key": "C",
+                "text": "Progress, priority, fairness"
+              },
+              {
+                "key": "D",
+                "text": "Bounded waiting, throughput, latency"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-9",
+            "clusterId": null
+          },
+          {
+            "startLine": 56,
+            "text": "Yêu cầu \"Không cản trở vô lý\" (progress) có nghĩa là gì?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Không có hai tiến trình cùng ở trong vùng tới hạn"
+              },
+              {
+                "key": "B",
+                "text": "Mỗi tiến trình phải được vào sau một số lần chờ hữu hạn"
+              },
+              {
+                "key": "C",
+                "text": "Nếu vùng tới hạn đang trống, tiến trình có nhu cầu phải có cơ hội vào"
+              },
+              {
+                "key": "D",
+                "text": "Tiến trình ưu tiên cao luôn được vào trước"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-10",
+            "clusterId": null
+          },
+          {
+            "startLine": 62,
+            "text": "Yêu cầu \"Không chờ mãi\" (bounded waiting) có nghĩa là gì?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Mỗi tiến trình phải được vào vùng tới hạn sau một số lần chờ hữu hạn"
+              },
+              {
+                "key": "B",
+                "text": "Tiến trình không bao giờ phải chờ"
+              },
+              {
+                "key": "C",
+                "text": "Chỉ một tiến trình được vào vùng tới hạn"
+              },
+              {
+                "key": "D",
+                "text": "Vùng tới hạn luôn phải ngắn hơn 1 ms"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-11",
+            "clusterId": null
+          },
+          {
+            "startLine": 68,
+            "text": "Giải pháp luân phiên nghiêm ngặt (dùng biến turn) vi phạm yêu cầu nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Độc quyền truy xuất"
+              },
+              {
+                "key": "B",
+                "text": "Không cản trở vô lý (progress)"
+              },
+              {
+                "key": "C",
+                "text": "Cả ba yêu cầu"
+              },
+              {
+                "key": "D",
+                "text": "Không vi phạm yêu cầu nào"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "P0 phải chờ P1 dù vùng tới hạn đang trống và P1 chưa cần vào.",
+            "multi": false,
+            "id": "mcq-12",
+            "clusterId": null
+          },
+          {
+            "startLine": 75,
+            "text": "Giải pháp Peterson cho hai tiến trình sử dụng những biến điều khiển nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Chỉ biến turn"
+              },
+              {
+                "key": "B",
+                "text": "Chỉ mảng flag[]"
+              },
+              {
+                "key": "C",
+                "text": "Mảng flag[] và biến turn"
+              },
+              {
+                "key": "D",
+                "text": "Mảng number[] và biến turn"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-13",
+            "clusterId": null
+          },
+          {
+            "startLine": 81,
+            "text": "Trong Peterson, tiến trình i phải chờ khi nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "flag[i] == false và turn == i"
+              },
+              {
+                "key": "B",
+                "text": "flag[j] == true và turn == j"
+              },
+              {
+                "key": "C",
+                "text": "flag[j] == false và turn == i"
+              },
+              {
+                "key": "D",
+                "text": "flag[i] == true và turn == i"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-14",
+            "clusterId": null
+          },
+          {
+            "startLine": 87,
+            "text": "Trong Peterson, khi ra khỏi vùng tới hạn, tiến trình i thực hiện hành động nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Đặt turn = i"
+              },
+              {
+                "key": "B",
+                "text": "Đặt flag[j] = true"
+              },
+              {
+                "key": "C",
+                "text": "Đặt flag[i] = false"
+              },
+              {
+                "key": "D",
+                "text": "Không làm gì"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-15",
+            "clusterId": null
+          },
+          {
+            "startLine": 93,
+            "text": "Phát biểu nào về giải pháp Peterson là ĐÚNG?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Áp dụng cho hai tiến trình và giả định đọc/ghi biến điều khiển là nguyên tử"
+              },
+              {
+                "key": "B",
+                "text": "Áp dụng trực tiếp cho n tiến trình bất kỳ"
+              },
+              {
+                "key": "C",
+                "text": "Không có chờ bận"
+              },
+              {
+                "key": "D",
+                "text": "Cho phép hai tiến trình cùng vượt qua vòng chờ"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-16",
+            "clusterId": null
+          },
+          {
+            "startLine": 100,
+            "text": "Tiến trình nào được vào vùng tới hạn đầu tiên?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "P0"
+              },
+              {
+                "key": "B",
+                "text": "P1"
+              },
+              {
+                "key": "C",
+                "text": "P2"
+              },
+              {
+                "key": "D",
+                "text": "P3"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-17",
+            "clusterId": "mcq-c1"
+          },
+          {
+            "startLine": 106,
+            "text": "Tiến trình nào được vào vùng tới hạn cuối cùng?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "P0"
+              },
+              {
+                "key": "B",
+                "text": "P1"
+              },
+              {
+                "key": "C",
+                "text": "P2"
+              },
+              {
+                "key": "D",
+                "text": "P3"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-18",
+            "clusterId": "mcq-c1"
+          },
+          {
+            "startLine": 112,
+            "text": "Vì sao cần hỗ trợ từ phần cứng cho đồng bộ?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Vì giải pháp phần mềm không bao giờ đảm bảo độc quyền truy xuất"
+              },
+              {
+                "key": "B",
+                "text": "Vì đọc/ghi biến điều khiển có thể bị xen kẽ, mã phần mềm phức tạp và dễ sai"
+              },
+              {
+                "key": "C",
+                "text": "Vì phần cứng làm cho mọi chương trình chạy nhanh hơn"
+              },
+              {
+                "key": "D",
+                "text": "Vì hệ điều hành không có khái niệm tiến trình"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-19",
+            "clusterId": null
+          },
+          {
+            "startLine": 118,
+            "text": "Lệnh Test-and-Set trả về giá trị nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Giá trị mới của khóa (luôn là true)"
+              },
+              {
+                "key": "B",
+                "text": "Giá trị cũ của khóa, đồng thời đặt khóa thành true trong cùng một thao tác"
+              },
+              {
+                "key": "C",
+                "text": "Số tiến trình đang chờ"
+              },
+              {
+                "key": "D",
+                "text": "Địa chỉ của khóa"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-20",
+            "clusterId": null
+          },
+          {
+            "startLine": 124,
+            "text": "Khi dùng while (TestAndSet(&lock)) { } với lock = false ban đầu, điều gì xảy ra với tiến trình đầu tiên gọi lệnh?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Nhận old = false nên thoát vòng lặp và được vào vùng tới hạn"
+              },
+              {
+                "key": "B",
+                "text": "Nhận old = true nên phải chờ"
+              },
+              {
+                "key": "C",
+                "text": "Bị chặn vĩnh viễn"
+              },
+              {
+                "key": "D",
+                "text": "Làm lock trở về false"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-21",
+            "clusterId": null
+          },
+          {
+            "startLine": 130,
+            "text": "Lệnh Compare-and-Swap (CAS) hoạt động thế nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Luôn ghi giá trị mới vào địa chỉ"
+              },
+              {
+                "key": "B",
+                "text": "Chỉ ghi giá trị mới nếu giá trị hiện tại bằng giá trị mong đợi"
+              },
+              {
+                "key": "C",
+                "text": "Chỉ đọc giá trị mà không ghi"
+              },
+              {
+                "key": "D",
+                "text": "Hoán đổi giá trị của hai tiến trình"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-22",
+            "clusterId": null
+          },
+          {
+            "startLine": 136,
+            "text": "Hạn chế của việc tắt ngắt để bảo vệ vùng tới hạn trên hệ nhiều CPU là gì?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Tắt ngắt ở một CPU không ngăn các CPU khác truy cập dữ liệu"
+              },
+              {
+                "key": "B",
+                "text": "Tắt ngắt làm tăng số CPU"
+              },
+              {
+                "key": "C",
+                "text": "Tắt ngắt làm mất dữ liệu trong bộ nhớ"
+              },
+              {
+                "key": "D",
+                "text": "Không có hạn chế nào"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-23",
+            "clusterId": null
+          },
+          {
+            "startLine": 142,
+            "text": "Spinlock phù hợp nhất trong trường hợp nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Vùng tới hạn kéo dài nhiều giây"
+              },
+              {
+                "key": "B",
+                "text": "Thời gian giữ khóa rất ngắn"
+              },
+              {
+                "key": "C",
+                "text": "Tiến trình phải chờ thiết bị I/O chậm"
+              },
+              {
+                "key": "D",
+                "text": "Số tiến trình rất lớn và chờ lâu"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-24",
+            "clusterId": null
+          },
+          {
+            "startLine": 148,
+            "text": "Nhược điểm chính của spinlock là gì?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Không đảm bảo độc quyền truy xuất"
+              },
+              {
+                "key": "B",
+                "text": "Cần chuyển trạng thái tiến trình liên tục"
+              },
+              {
+                "key": "C",
+                "text": "Tốn thời gian CPU khi chờ"
+              },
+              {
+                "key": "D",
+                "text": "Chỉ chạy được trên hệ một CPU"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-25",
+            "clusterId": null
+          },
+          {
+            "startLine": 154,
+            "text": "Quy tắc dễ nhớ khi chọn giữa chờ bận và chờ ngủ là gì?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Chờ rất ngắn thì block; chờ lâu thì spin"
+              },
+              {
+                "key": "B",
+                "text": "Chờ rất ngắn thì spin; chờ có thể lâu thì block"
+              },
+              {
+                "key": "C",
+                "text": "Luôn dùng spin"
+              },
+              {
+                "key": "D",
+                "text": "Luôn dùng block"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-26",
+            "clusterId": null
+          },
+          {
+            "startLine": 160,
+            "text": "Mẫu sử dụng đúng của mutex là gì?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "unlock() → thao tác dữ liệu chung → lock()"
+              },
+              {
+                "key": "B",
+                "text": "lock() → lock() → thao tác dữ liệu chung"
+              },
+              {
+                "key": "C",
+                "text": "lock() → thao tác dữ liệu chung → unlock()"
+              },
+              {
+                "key": "D",
+                "text": "thao tác dữ liệu chung → lock() → unlock()"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-27",
+            "clusterId": null
+          },
+          {
+            "startLine": 166,
+            "text": "Semaphore chỉ được thay đổi thông qua hai thao tác nguyên tử nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "read và write"
+              },
+              {
+                "key": "B",
+                "text": "wait và signal"
+              },
+              {
+                "key": "C",
+                "text": "lock và open"
+              },
+              {
+                "key": "D",
+                "text": "push và pop"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-28",
+            "clusterId": null
+          },
+          {
+            "startLine": 172,
+            "text": "Khi một tiến trình gọi wait(S) mà S = 0 thì điều gì xảy ra?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Tiến trình được vào ngay và S thành -1 rồi trở về 0"
+              },
+              {
+                "key": "B",
+                "text": "Tiến trình bị hủy"
+              },
+              {
+                "key": "C",
+                "text": "Tiến trình bị đưa vào hàng đợi chờ"
+              },
+              {
+                "key": "D",
+                "text": "S được đặt lại bằng 1"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-29",
+            "clusterId": null
+          },
+          {
+            "startLine": 178,
+            "text": "Semaphore nhị phân có giá trị trong khoảng nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "0 hoặc 1"
+              },
+              {
+                "key": "B",
+                "text": "Từ 0 đến N bất kỳ"
+              },
+              {
+                "key": "C",
+                "text": "Chỉ số âm"
+              },
+              {
+                "key": "D",
+                "text": "Từ 1 trở lên"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-30",
+            "clusterId": null
+          },
+          {
+            "startLine": 185,
+            "text": "Sau khi hai tiến trình gọi wait(S) (chưa có signal), giá trị của S là bao nhiêu?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "0"
+              },
+              {
+                "key": "B",
+                "text": "1"
+              },
+              {
+                "key": "C",
+                "text": "2"
+              },
+              {
+                "key": "D",
+                "text": "3"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-31",
+            "clusterId": "mcq-c2"
+          },
+          {
+            "startLine": 191,
+            "text": "Nếu bốn tiến trình lần lượt gọi wait(S) mà chưa có signal(S), có bao nhiêu tiến trình phải chờ?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "0"
+              },
+              {
+                "key": "B",
+                "text": "1"
+              },
+              {
+                "key": "C",
+                "text": "2"
+              },
+              {
+                "key": "D",
+                "text": "4"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Ba tiến trình đầu lấy được máy in (S giảm về 0), tiến trình thứ tư phải chờ.",
+            "multi": false,
+            "id": "mcq-32",
+            "clusterId": "mcq-c2"
+          },
+          {
+            "startLine": 198,
+            "text": "Vì sao wait() và signal() phải là các thao tác nguyên tử?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Để chạy nhanh hơn"
+              },
+              {
+                "key": "B",
+                "text": "Để không tiến trình khác chen vào giữa khi đang cập nhật S"
+              },
+              {
+                "key": "C",
+                "text": "Để tránh dùng bộ nhớ"
+              },
+              {
+                "key": "D",
+                "text": "Để tiến trình không cần chờ"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-33",
+            "clusterId": null
+          },
+          {
+            "startLine": 204,
+            "text": "Khi dùng semaphore nhị phân để bảo vệ biến count, giá trị khởi tạo đúng là bao nhiêu?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "0"
+              },
+              {
+                "key": "B",
+                "text": "1"
+              },
+              {
+                "key": "C",
+                "text": "2"
+              },
+              {
+                "key": "D",
+                "text": "-1"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-34",
+            "clusterId": null
+          },
+          {
+            "startLine": 210,
+            "text": "Theo nguyên tắc dùng semaphore/mutex, signal() (hoặc unlock) nên được đặt ở đâu?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Chỉ ở đường thoát bình thường"
+              },
+              {
+                "key": "B",
+                "text": "Chỉ khi chương trình kết thúc"
+              },
+              {
+                "key": "C",
+                "text": "Ở mọi đường ra khỏi vùng tới hạn, kể cả khi có lỗi"
+              },
+              {
+                "key": "D",
+                "text": "Trước khi gọi wait()"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-35",
+            "clusterId": null
+          },
+          {
+            "startLine": 216,
+            "text": "Đặc điểm cốt lõi của monitor là gì?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Cho phép nhiều luồng cùng thực hiện bên trong monitor"
+              },
+              {
+                "key": "B",
+                "text": "Chỉ một luồng được thực hiện bên trong monitor tại một thời điểm"
+              },
+              {
+                "key": "C",
+                "text": "Không có dữ liệu dùng chung"
+              },
+              {
+                "key": "D",
+                "text": "Chỉ dùng được giữa các máy khác nhau"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-36",
+            "clusterId": null
+          },
+          {
+            "startLine": 222,
+            "text": "wait trên biến điều kiện (condition variable) khác wait trên semaphore ở điểm nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Nó dùng để chờ một điều kiện logic bên trong monitor"
+              },
+              {
+                "key": "B",
+                "text": "Nó luôn không bao giờ chặn tiến trình"
+              },
+              {
+                "key": "C",
+                "text": "Nó chỉ dùng cho spinlock"
+              },
+              {
+                "key": "D",
+                "text": "Nó không cho phép đánh thức tiến trình khác"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-37",
+            "clusterId": null
+          },
+          {
+            "startLine": 228,
+            "text": "Ưu điểm của truyền thông điệp (message passing) là gì?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Không tốn chi phí sao chép"
+              },
+              {
+                "key": "B",
+                "text": "Giảm chia sẻ dữ liệu trực tiếp; phù hợp tiến trình ở các máy khác nhau"
+              },
+              {
+                "key": "C",
+                "text": "Luôn nhanh hơn mutex"
+              },
+              {
+                "key": "D",
+                "text": "Không cần hàng đợi"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-38",
+            "clusterId": null
+          },
+          {
+            "startLine": 234,
+            "text": "Để quản lý N tài nguyên giống nhau, công cụ phù hợp nhất là gì?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Mutex"
+              },
+              {
+                "key": "B",
+                "text": "Spinlock"
+              },
+              {
+                "key": "C",
+                "text": "Semaphore đếm"
+              },
+              {
+                "key": "D",
+                "text": "Barrier"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-39",
+            "clusterId": null
+          },
+          {
+            "startLine": 240,
+            "text": "Trong bài toán Producer – Consumer với buffer có giới hạn, khi nào Producer phải chờ?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Khi buffer rỗng"
+              },
+              {
+                "key": "B",
+                "text": "Khi buffer đầy"
+              },
+              {
+                "key": "C",
+                "text": "Khi Consumer đang ngủ"
+              },
+              {
+                "key": "D",
+                "text": "Khi mutex bằng 0"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-40",
+            "clusterId": null
+          },
+          {
+            "startLine": 246,
+            "text": "Trong giải pháp Producer – Consumer bằng semaphore, empty và full được khởi tạo thế nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "empty = 0, full = N"
+              },
+              {
+                "key": "B",
+                "text": "empty = N, full = 0"
+              },
+              {
+                "key": "C",
+                "text": "empty = 1, full = 1"
+              },
+              {
+                "key": "D",
+                "text": "empty = N, full = N"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-41",
+            "clusterId": null
+          },
+          {
+            "startLine": 252,
+            "text": "Vì sao thứ tự các lệnh wait trong Producer – Consumer rất quan trọng?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Đảo thứ tự (wait(mutex) trước wait(empty)/wait(full)) có thể gây khóa chéo"
+              },
+              {
+                "key": "B",
+                "text": "Vì thứ tự quyết định kích thước buffer"
+              },
+              {
+                "key": "C",
+                "text": "Vì wait(mutex) luôn phải đặt sau signal"
+              },
+              {
+                "key": "D",
+                "text": "Thứ tự không quan trọng"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-42",
+            "clusterId": null
+          },
+          {
+            "startLine": 258,
+            "text": "Trong bài toán Readers – Writers, phát biểu nào là ĐÚNG?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Chỉ một reader được đọc tại một thời điểm"
+              },
+              {
+                "key": "B",
+                "text": "Nhiều reader có thể đọc cùng lúc, còn writer cần độc quyền"
+              },
+              {
+                "key": "C",
+                "text": "Writer có thể ghi cùng lúc với reader"
+              },
+              {
+                "key": "D",
+                "text": "Hai writer có thể ghi cùng lúc"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-43",
+            "clusterId": null
+          },
+          {
+            "startLine": 264,
+            "text": "Trong bài toán năm triết gia dùng đũa, bế tắc xảy ra khi nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Mỗi triết gia chỉ cần một chiếc đũa"
+              },
+              {
+                "key": "B",
+                "text": "Mọi triết gia cùng cầm đũa bên trái rồi chờ đũa bên phải"
+              },
+              {
+                "key": "C",
+                "text": "Chỉ có hai triết gia muốn ăn"
+              },
+              {
+                "key": "D",
+                "text": "Có nhiều đũa hơn số triết gia"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-44",
+            "clusterId": null
+          },
+          {
+            "startLine": 270,
+            "text": "Cách nào sau đây giúp tránh bế tắc trong bài toán triết gia?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Cho cả năm người cùng lấy đũa trái trước"
+              },
+              {
+                "key": "B",
+                "text": "Chỉ cho tối đa 4 người cùng cố lấy đũa"
+              },
+              {
+                "key": "C",
+                "text": "Cho phép giữ đũa vô thời hạn"
+              },
+              {
+                "key": "D",
+                "text": "Bỏ bớt một chiếc đũa khỏi bàn"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-45",
+            "clusterId": null
+          },
+          {
+            "startLine": 276,
+            "text": "Barrier được dùng khi nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Khi cần độc quyền truy xuất một biến"
+              },
+              {
+                "key": "B",
+                "text": "Khi một công việc chia thành nhiều giai đoạn song song và tất cả luồng phải đến rồi mới đi tiếp"
+              },
+              {
+                "key": "C",
+                "text": "Khi cần truyền dữ liệu giữa hai máy"
+              },
+              {
+                "key": "D",
+                "text": "Khi cần tắt ngắt"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-46",
+            "clusterId": null
+          },
+          {
+            "startLine": 282,
+            "text": "Tình huống reader mới đến liên tục khiến writer không bao giờ được chạy là ví dụ của hiện tượng nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Deadlock"
+              },
+              {
+                "key": "B",
+                "text": "Livelock"
+              },
+              {
+                "key": "C",
+                "text": "Race condition"
+              },
+              {
+                "key": "D",
+                "text": "Starvation"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-47",
+            "clusterId": null
+          },
+          {
+            "startLine": 288,
+            "text": "Hiện tượng livelock được mô tả đúng nhất là gì?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Các tiến trình chờ nhau mãi mãi và đứng yên"
+              },
+              {
+                "key": "B",
+                "text": "Các tiến trình vẫn thay đổi trạng thái nhưng không tiến gần đến kết quả, ví dụ hai bên liên tục nhường nhau"
+              },
+              {
+                "key": "C",
+                "text": "Một tiến trình bị giết bởi hệ điều hành"
+              },
+              {
+                "key": "D",
+                "text": "Một tiến trình chiếm CPU quá lâu"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-48",
+            "clusterId": null
+          },
+          {
+            "startLine": 294,
+            "text": "Nguyên tắc nào sau đây giúp tránh bế tắc khi một luồng cần lấy nhiều khóa?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Lấy khóa theo thứ tự ngẫu nhiên"
+              },
+              {
+                "key": "B",
+                "text": "Dùng cùng một thứ tự khi lấy nhiều khóa"
+              },
+              {
+                "key": "C",
+                "text": "Giữ khóa càng lâu càng tốt"
+              },
+              {
+                "key": "D",
+                "text": "Gọi hàm I/O chậm khi đang giữ khóa"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-49",
+            "clusterId": null
+          }
+        ],
+        "clusters": [
+          {
+            "id": "mcq-c1",
+            "from": 17,
+            "to": 18,
+            "text": "Thuật toán &quot;lấy số thứ tự&quot; cho bốn tiến trình: &lt;b&gt;P0 lấy số 12, P1 lấy số 8, P2 lấy số 15, P3 lấy số 10&lt;/b&gt;. Dùng dữ kiện này trả lời hai câu sau.",
+            "image": null,
+            "questionIds": [
+              "mcq-17",
+              "mcq-18"
+            ]
+          },
+          {
+            "id": "mcq-c2",
+            "from": 31,
+            "to": 32,
+            "text": "Hệ thống có &lt;b&gt;3 máy in dùng chung&lt;/b&gt;, được quản lý bằng semaphore đếm S khởi tạo bằng 3. Dùng dữ kiện này trả lời hai câu sau.",
+            "image": null,
+            "questionIds": [
+              "mcq-31",
+              "mcq-32"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
