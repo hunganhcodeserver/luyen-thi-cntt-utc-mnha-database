@@ -11,7 +11,7 @@
         "questions": [
           {
             "startLine": 1,
-            "text": "Tiến trình khác chương trình ở điểm nào?",
+            "text": "Tiến trình khác chương trình ở điểm nào? 1",
             "image": null,
             "options": [
               {
@@ -34,7 +34,7 @@
             "correct": [
               "B"
             ],
-            "explanationHtml": "Chương trình là thực thể &amp;amp;lt;b&amp;amp;gt;thụ động&amp;amp;lt;/b&amp;amp;gt; (tệp trên thiết bị lưu trữ); tiến trình là thực thể &amp;amp;lt;b&amp;amp;gt;chủ động&amp;amp;lt;/b&amp;amp;gt; với PC, thanh ghi, vùng nhớ, tệp mở.",
+            "explanationHtml": "Chương trình là thực thể &amp;amp;amp;lt;b&amp;amp;amp;gt;thụ động&amp;amp;amp;lt;/b&amp;amp;amp;gt; (tệp trên thiết bị lưu trữ); tiến trình là thực thể &amp;amp;amp;lt;b&amp;amp;amp;gt;chủ động&amp;amp;amp;lt;/b&amp;amp;amp;gt; với PC, thanh ghi, vùng nhớ, tệp mở.",
             "multi": false,
             "id": "mcq-1",
             "clusterId": null
@@ -574,7 +574,7 @@
             "correct": [
               "B"
             ],
-            "explanationHtml": "Tiến trình quay lại hàng đợi &amp;amp;lt;b&amp;amp;gt;Ready&amp;amp;lt;/b&amp;amp;gt; và phải chờ bộ lập lịch cấp CPU, không đi thẳng vào Running.",
+            "explanationHtml": "Tiến trình quay lại hàng đợi &amp;amp;amp;lt;b&amp;amp;amp;gt;Ready&amp;amp;amp;lt;/b&amp;amp;amp;gt; và phải chờ bộ lập lịch cấp CPU, không đi thẳng vào Running.",
             "multi": false,
             "id": "mcq-19",
             "clusterId": null
@@ -1414,7 +1414,7 @@
             "correct": [
               "C"
             ],
-            "explanationHtml": "Gantt: P1 (0–7), P2 (7–11), P3 (11–12), P4 (12–16). WT = 0, 5, 7, 7 → Ttb = 19/4 = &amp;amp;lt;b&amp;amp;gt;4.75&amp;amp;lt;/b&amp;amp;gt;.",
+            "explanationHtml": "Gantt: P1 (0–7), P2 (7–11), P3 (11–12), P4 (12–16). WT = 0, 5, 7, 7 → Ttb = 19/4 = &amp;amp;amp;lt;b&amp;amp;amp;gt;4.75&amp;amp;amp;lt;/b&amp;amp;amp;gt;.",
             "multi": false,
             "id": "mcq-47",
             "clusterId": null
@@ -1444,7 +1444,7 @@
             "correct": [
               "D"
             ],
-            "explanationHtml": "Gantt: P1 (0–7), P3 (7–8), P2 (8–12), P4 (12–16). WT = 0, 6, 3, 7 → Ttb = 16/4 = &amp;amp;lt;b&amp;amp;gt;4&amp;amp;lt;/b&amp;amp;gt;.",
+            "explanationHtml": "Gantt: P1 (0–7), P3 (7–8), P2 (8–12), P4 (12–16). WT = 0, 6, 3, 7 → Ttb = 16/4 = &amp;amp;amp;lt;b&amp;amp;amp;gt;4&amp;amp;amp;lt;/b&amp;amp;amp;gt;.",
             "multi": false,
             "id": "mcq-48",
             "clusterId": null
@@ -1474,7 +1474,7 @@
             "correct": [
               "A"
             ],
-            "explanationHtml": "WT = 9, 1, 0, 2 → Ttb = 12/4 = &amp;amp;lt;b&amp;amp;gt;3&amp;amp;lt;/b&amp;amp;gt;.",
+            "explanationHtml": "WT = 9, 1, 0, 2 → Ttb = 12/4 = &amp;amp;amp;lt;b&amp;amp;amp;gt;3&amp;amp;amp;lt;/b&amp;amp;amp;gt;.",
             "multi": false,
             "id": "mcq-49",
             "clusterId": null
@@ -1504,7 +1504,7 @@
             "correct": [
               "C"
             ],
-            "explanationHtml": "WT = 8, 8, 5, 7 → Ttb = 28/4 = &amp;amp;lt;b&amp;amp;gt;7&amp;amp;lt;/b&amp;amp;gt;. Với bộ dữ liệu này, SJF chiếm đoạt cho Ttb nhỏ nhất.",
+            "explanationHtml": "WT = 8, 8, 5, 7 → Ttb = 28/4 = &amp;amp;amp;lt;b&amp;amp;amp;gt;7&amp;amp;amp;lt;/b&amp;amp;amp;gt;. Với bộ dữ liệu này, SJF chiếm đoạt cho Ttb nhỏ nhất.",
             "multi": false,
             "id": "mcq-50",
             "clusterId": null
