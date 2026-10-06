@@ -1,6 +1,6 @@
 {
   "lessonId": "6ac33e6160a3636c8e36759a",
-  "title": "(Kiểm tra ngắn OOP C++) Đề 2 05/10/2026 (viết istream, ostream để nhập, xuất)",
+  "title": "(Kiểm tra ngắn OOP C++) Đề 2 05/10/2026 (viết istream, ostream để nhập, xuất",
   "slug": "kiem-tra-ngan-oop-c-de-2-05102026-viet-istream-ostream-de-nhap-xuat",
   "description": "",
   "contentHtml": "<blockquote>\r\n    <p><strong>Lưu ý chung khi làm bài:</strong></p>\r\n    <ul>\r\n        <li>Dùng <code>cin &gt;&gt; ws; getline(cin, ...)</code> để nhập chuỗi ký tự nhằm tránh lỗi trôi lệnh (không sử dụng <code>cin.ignore()</code>).</li>\r\n        <li>Giả sử số lượng phần tử <var>n</var> &gt;= 1 khi thực hiện các thao tác tìm giá trị lớn nhất (max) hoặc nhỏ nhất (min).</li>\r\n    </ul>\r\n</blockquote>\r\n\r\n<hr />\r\n\r\n<!-- ĐỀ 3 -->\r\n<section id=\"de-3\">\r\n    <h2>Đề 3: Cây kế thừa hai nhánh (Người, Sinh viên, Nhân viên)</h2>\r\n    <p><strong>Yêu cầu:</strong></p>\r\n    <ol>\r\n        <li>Thiết lập lớp cha <code>Nguoi</code> gồm các thuộc tính <code>private</code>: họ tên, năm sinh. Cung cấp hàm nhập, xuất và getter cho năm sinh.</li>\r\n        <li>Xây dựng đồng thời hai lớp con cùng kế thừa từ lớp <code>Nguoi</code> bao gồm:\r\n            <ul>\r\n                <li>Lớp <code>SinhVien</code>: bổ sung thuộc tính điểm số.</li>\r\n                <li>Lớp <code>NhanVien</code>: bổ sung thuộc tính hệ số lương.</li>\r\n            </ul>\r\n            <em>(Cả hai lớp con đều phải gọi lại hàm nhập/xuất từ lớp cha)</em>\r\n        </li>\r\n        <li>Viết hàm <code>main</code> nhập vào một danh sách gồm <var>n</var> sinh viên và một danh sách gồm <var>m</var> nhân viên. Tìm và hiển thị ra màn hình thông tin của sinh viên lớn tuổi nhất và nhân viên lớn tuổi nhất (người lớn tuổi nhất là người có năm sinh nhỏ nhất).</li>\r\n    </ol>\r\n</section>",
@@ -9,5 +9,5 @@
   "model": null,
   "isPublished": true,
   "createdAt": "2026-10-05T15:48:12.573Z",
-  "updatedAt": "2026-10-06T09:26:02.583Z"
+  "updatedAt": "2026-10-06T09:26:59.105Z"
 }
