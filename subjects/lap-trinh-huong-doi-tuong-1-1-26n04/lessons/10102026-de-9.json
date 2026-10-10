@@ -1,0 +1,23 @@
+{
+  "lessonId": "6ac989be57e868224b5f3c8a",
+  "type": "essay",
+  "title": "(10/10/2026) Đề 9",
+  "slug": "10102026-de-9",
+  "subjectSlug": "lap-trinh-huong-doi-tuong-1-1-26n04",
+  "description": "",
+  "contentHtml": "<div class=\"de-bai\">\n\n<div class=\"bai\">\n  <h3>Bài 9:</h3>\n  <p>Xây dựng lớp môn học gồm các thuộc tính mã môn, tên môn và số tín chỉ. Xây dựng lớp quản lý môn học bao gồm các thuộc tính mã kỳ học, số môn học và danh sách các môn học. Viết chương trình nhập vào số các môn học, số kỳ học. Tính tổng số tín chỉ của từng kỳ học. In ra kỳ nào có nhiều tín chỉ nhất.</p>\n</div>\n\n</div>",
+  "sampleSolution": "",
+  "duration": 30,
+  "model": null,
+  "promptId": null,
+  "aiKeyId": null,
+  "isPublished": true,
+  "isDeleted": false,
+  "createdBy": {
+    "id": "6ab3d694415010bf620349e5",
+    "name": "Mai Ngọc Hùng Anh",
+    "email": "hunganh.okokok.0@gmail.com"
+  },
+  "createdAt": "2026-10-10T00:41:34.761Z",
+  "updatedAt": "2026-10-10T00:41:34.761Z"
+}
