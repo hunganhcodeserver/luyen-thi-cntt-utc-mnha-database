@@ -9,7 +9,15 @@
   "model": null,
   "isPublished": true,
   "createdAt": "2026-09-30T15:39:21.357Z",
-  "updatedAt": "2026-10-10T00:25:55.758Z",
+  "updatedAt": "2026-10-10T00:25:56.931Z",
   "isDeleted": true,
-  "deletedAt": "2026-10-10T00:25:55.758Z"
+  "deletedAt": "2026-10-10T00:25:55.758Z",
+  "order": 0,
+  "type": "essay",
+  "promptId": null,
+  "aiKeyId": null,
+  "analysisAiKeyIds": [],
+  "createdBy": null,
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "deletedBy": "6ab3d694415010bf620349e5"
 }
