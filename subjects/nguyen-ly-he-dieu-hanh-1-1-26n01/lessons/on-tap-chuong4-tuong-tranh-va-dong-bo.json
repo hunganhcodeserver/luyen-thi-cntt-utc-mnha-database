@@ -1546,5 +1546,14 @@
   "isPublished": true,
   "isDeleted": false,
   "createdAt": "2026-10-10T17:59:28.266Z",
-  "updatedAt": "2026-10-10T18:01:28.518Z"
+  "updatedAt": "2026-10-10T18:01:29.755Z",
+  "description": "",
+  "sampleSolution": "",
+  "order": 0,
+  "model": null,
+  "aiKeyId": null,
+  "createdBy": null,
+  "updatedBy": null,
+  "deletedAt": null,
+  "deletedBy": null
 }
