@@ -1,7 +1,7 @@
 {
   "submissionId": "6ac9913bd6adfa227c42f431",
   "submittedAt": "2026-10-10T01:13:31.045Z",
-  "gradedAt": "2026-10-10T01:14:14.426Z",
+  "gradedAt": "2026-10-10T01:14:14.030Z",
   "status": "graded",
   "errorMessage": null,
   "userId": "6ab6ea62461cb184bc25a92d",
@@ -135,5 +135,8 @@
         "explanation": "Gọi tongtinchi() nhiều lần cho cùng một kỳ làm lặp lại vòng lặp cộng tín chỉ không cần thiết; nên lưu kết quả vào biến tạm."
       }
     ]
-  }
+  },
+  "type": "essay",
+  "teacherComment": null,
+  "updatedAt": "2026-10-10T01:14:49.280Z"
 }
