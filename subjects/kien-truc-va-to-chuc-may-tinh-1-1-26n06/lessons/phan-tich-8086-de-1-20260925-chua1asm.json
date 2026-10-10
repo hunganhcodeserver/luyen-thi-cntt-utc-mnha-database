@@ -8,5 +8,7 @@
   "duration": 30,
   "model": null,
   "isPublished": true,
-  "updatedAt": "2026-09-30T15:39:48.655Z"
+  "updatedAt": "2026-10-10T00:25:42.755Z",
+  "isDeleted": true,
+  "deletedAt": "2026-10-10T00:25:42.755Z"
 }
