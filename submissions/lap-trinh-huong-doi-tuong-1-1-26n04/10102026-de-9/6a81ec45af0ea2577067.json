@@ -1,0 +1,114 @@
+{
+  "submissionId": "6ac99bd24949445c29447446",
+  "submittedAt": "2026-10-10T01:58:42.967Z",
+  "gradedAt": "2026-10-10T01:58:56.643Z",
+  "status": "graded",
+  "errorMessage": null,
+  "userId": "6ab3d694415010bf620349e5",
+  "userName": "Mai Ngọc Hùng Anh",
+  "userEmail": "hunganh.okokok.0@gmail.com",
+  "subjectId": "6ab5aeac813f0f6c24604455",
+  "subjectName": "Lập trình hướng đối tượng-1-1-26(N04)",
+  "subjectCode": "IT1.108.3",
+  "subjectSlug": "lap-trinh-huong-doi-tuong-1-1-26n04",
+  "lessonId": "6ac989be57e868224b5f3c8a",
+  "lessonTitle": "(10/10/2026) Đề 9",
+  "lessonSlug": "10102026-de-9",
+  "lessonDuration": 30,
+  "lessonContentHtml": "<div class=\"de-bai\">\n\n<div class=\"bai\">\n  <h3>Bài 9:</h3>\n  <p>Xây dựng lớp môn học gồm các thuộc tính mã môn, tên môn và số tín chỉ. Xây dựng lớp quản lý môn học bao gồm các thuộc tính mã kỳ học, số môn học và danh sách các môn học. Viết chương trình nhập vào số các môn học, số kỳ học. Tính tổng số tín chỉ của từng kỳ học. In ra kỳ nào có nhiều tín chỉ nhất.</p>\n</div>\n\n</div>",
+  "lessonSampleSolution": "",
+  "answerHtml": "#include<iostream>\nusing namespace std;\nclass MonHoc{\n\tprivate:\n\t\tint ma;\n\t\tstring ten;\n\t\tint soTin;\n\tpublic:\n\t\tvoid nhap(){\n\t\t\tcout<<\"Nhap ma: \";\n\t\t\tcin>>ma;\n\t\t\tcout<<\"Nhap ten: \";\n\t\t\tcin.ignore();\n\t\t\tgetline(cin, ten);\n\t\t\tcout<<\"Nhap so tin chi: \";\n\t\t\tcin>>soTin;\n\t\t}\n\t\tvoid xuat(){\n\t\t\tcout<<endl<<ma<<\" \"<<ten<<\" \"<<soTin;\n\t\t}\n\t\tint getTin(){\n\t\t\treturn soTin;\n\t\t}\n};\nclass QL{\n\tprivate:\n\t\tint maKy;\n\t\tint soMon;\n\t\tMonHoc *mh;\n\tpublic:\n\t\tQL(){\n\t\t\tmaKy = 0;\n\t\t\tsoMon = 0;\n\t\t\tmh = new MonHoc[soMon];\n\t\t}\n\t\tvoid nhap(){\n\t\t\tcout<<\"Nhap ma ky: \";\n\t\t\tcin>>maKy;\n\t\t\tcout<<\"Nhap so mon: \";\n\t\t\tcin>>soMon;\n\t\t\tmh = new MonHoc[soMon];\n\t\t\tfor(int i=0; i<soMon; i++){\n\t\t\t\tmh[i].nhap();\n\t\t\t}\n\t\t}\n\t\tvoid xuat(){\n\t\t\tcout<<maKy<<\" \"<<soMon;\n\t\t\tfor(int i=0; i<soMon; i++){\n\t\t\t\tmh[i].xuat();\n\t\t\t}\n\t\t}\n\t\tint tongTin(){\n\t\t\tint tong = 0;\n\t\t\tfor(int i=0; i<soMon; i++){\n\t\t\t\ttong += mh[i].getTin();\n\t\t\t}\n\t\t}\n\t\t~QL(){\n\t\t\tdelete []mh;\n\t\t}\n};\nint main(){\n\tint n;\n\tcout<<\"Nhap so ky hoc: \";\n\tcin>>n;\n\tQL *ql = new QL[n];\n\tfor(int i=0; i<n; i++){\n\t\tql[i].nhap();\n\t}\n\tfor(int i=0; i<n; i++){\n\t\tql[i].xuat();\n\t}\n\tfor(int i=0; i<n; i++){\n\t\tcout<<\"Tong tin ky la: \"<<ql[i].tongTin();\n\t}\n}",
+  "score": 6,
+  "feedback": "Bài làm đã xây dựng được cấu trúc hai lớp MonHoc và QL theo đúng yêu cầu đề bài, có phương thức nhập xuất và tính toán. Tuy nhiên, hàm tongTin() bị lỗi nghiêm trọng do thiếu câu lệnh return, và sinh viên chưa làm yêu cầu tìm, in ra kỳ có nhiều tín chỉ nhất.",
+  "breakdown": [
+    {
+      "criterion": "Xây dựng lớp MonHoc",
+      "score": 2,
+      "comment": "Khai báo đầy đủ thuộc tính, có hàm nhập, xuất và getter lấy số tín chỉ."
+    },
+    {
+      "criterion": "Xây dựng lớp QL (Quản lý môn học)",
+      "score": 2,
+      "comment": "Đã tạo lớp quản lý với mảng động MonHoc. Tuy nhiên hàm tongTin() thiếu lệnh return tong, gây lỗi undefined behavior."
+    },
+    {
+      "criterion": "Nhập và tính tổng tín chỉ từng kỳ",
+      "score": 1.5,
+      "comment": "Đã nhập danh sách các kỳ và gọi tính tổng tín chỉ, nhưng do hàm tongTin() không return nên in ra kết quả rác hoặc không chính xác; định dạng in ra còn dính chữ."
+    },
+    {
+      "criterion": "Tìm và in kỳ có nhiều tín chỉ nhất",
+      "score": 0,
+      "comment": "Chưa thực hiện yêu cầu này của đề bài."
+    },
+    {
+      "criterion": "Quản lý bộ nhớ và chuẩn hóa mã nguồn",
+      "score": 0.5,
+      "comment": "Trong hàm tạo QL đã cấp phát mh nhưng trong hàm nhap() lại cấp phát lại mà không giải phóng con trỏ cũ; chưa giải phóng mảng ql trong main."
+    }
+  ],
+  "grammar": null,
+  "sampleComparison": null,
+  "model": "gemini-flash-latest",
+  "aiKeyId": "6ab555d45d6ff92ba4d7b934",
+  "aiKeyName": "hufng nguyễn",
+  "aiProvider": "gemini",
+  "latencyMs": 13191,
+  "promptSnapshot": {
+    "kind": "essay",
+    "promptId": null,
+    "name": "Fallback mặc định (hardcoded)",
+    "content": "Bạn là giáo viên chấm bài. Hãy chấm bài viết sau dựa trên đề bài và rubric.\n\nĐề bài:\n{đề_bài}\n\nBài làm sinh viên:\n{bài_làm}\n\nLời giải mẫu (nếu có, chỉ dùng để đối chiếu ý, không chép nguyên văn vào feedback):\n{lời_giải_mẫu}\n\nRubric: {rubric}\nĐiểm tối đa: {max_score}\n\nQUY TẮC PHÁT HIỆN LỖI:\n- Chỉ liệt kê lỗi khi lỗi thực sự tồn tại trong bài làm, không tự bịa.\n- Nếu đề bài/rubric không đủ căn cứ để xác định một lỗi cụ thể, bỏ qua, không đoán.\n- Mỗi lỗi nêu rõ: câu gốc sai, câu đã sửa, giải thích ngắn gọn.\n\nChỉ trả về JSON hợp lệ, không Markdown, không giải thích ngoài JSON:\n{\n  \"score\": number,\n  \"feedback\": string,\n  \"breakdown\": [{ \"criterion\": string, \"score\": number, \"comment\": string }],\n  \"errors\": [{ \"original\": string, \"corrected\": string, \"explanation\": string }]\n}",
+    "rubric": null,
+    "strictness": "normal",
+    "maxScore": 10,
+    "scope": "fallback",
+    "version": 0,
+    "isFallback": true,
+    "unknownPlaceholders": [],
+    "snapshotAt": "2026-10-10T01:58:56.161Z"
+  },
+  "raw": {
+    "score": 6,
+    "feedback": "Bài làm đã xây dựng được cấu trúc hai lớp MonHoc và QL theo đúng yêu cầu đề bài, có phương thức nhập xuất và tính toán. Tuy nhiên, hàm tongTin() bị lỗi nghiêm trọng do thiếu câu lệnh return, và sinh viên chưa làm yêu cầu tìm, in ra kỳ có nhiều tín chỉ nhất.",
+    "breakdown": [
+      {
+        "criterion": "Xây dựng lớp MonHoc",
+        "score": 2,
+        "comment": "Khai báo đầy đủ thuộc tính, có hàm nhập, xuất và getter lấy số tín chỉ."
+      },
+      {
+        "criterion": "Xây dựng lớp QL (Quản lý môn học)",
+        "score": 2,
+        "comment": "Đã tạo lớp quản lý với mảng động MonHoc. Tuy nhiên hàm tongTin() thiếu lệnh return tong, gây lỗi undefined behavior."
+      },
+      {
+        "criterion": "Nhập và tính tổng tín chỉ từng kỳ",
+        "score": 1.5,
+        "comment": "Đã nhập danh sách các kỳ và gọi tính tổng tín chỉ, nhưng do hàm tongTin() không return nên in ra kết quả rác hoặc không chính xác; định dạng in ra còn dính chữ."
+      },
+      {
+        "criterion": "Tìm và in kỳ có nhiều tín chỉ nhất",
+        "score": 0,
+        "comment": "Chưa thực hiện yêu cầu này của đề bài."
+      },
+      {
+        "criterion": "Quản lý bộ nhớ và chuẩn hóa mã nguồn",
+        "score": 0.5,
+        "comment": "Trong hàm tạo QL đã cấp phát mh nhưng trong hàm nhap() lại cấp phát lại mà không giải phóng con trỏ cũ; chưa giải phóng mảng ql trong main."
+      }
+    ],
+    "errors": [
+      {
+        "original": "int tongTin(){\n\tint tong = 0;\n\tfor(int i=0; i<soMon; i++){\n\t\ttong += mh[i].getTin();\n\t}\n}",
+        "corrected": "int tongTin(){\n\tint tong = 0;\n\tfor(int i=0; i<soMon; i++){\n\t\ttong += mh[i].getTin();\n\t}\n\treturn tong;\n}",
+        "explanation": "Hàm có kiểu trả về là int nhưng thiếu câu lệnh return, dẫn đến giá trị trả về không xác định."
+      },
+      {
+        "original": "for(int i=0; i<n; i++){\n\tcout<<\"Tong tin ky la: \"<<ql[i].tongTin();\n}",
+        "corrected": "int maxTin = ql[0].tongTin();\nint viTriMax = 0;\nfor(int i=0; i<n; i++){\n\tcout<<\"Tong tin ky \"<<i+1<<\" la: \"<<ql[i].tongTin()<<endl;\n\tif(ql[i].tongTin() > maxTin){\n\t\tmaxTin = ql[i].tongTin();\n\t\tviTriMax = i;\n\t}\n}\ncout<<\"Ky co nhieu tin chi nhat: \";\nql[viTriMax].xuat();",
+        "explanation": "Chưa xử lý yêu cầu tìm và in ra kỳ học có nhiều tín chỉ nhất theo đề bài."
+      }
+    ]
+  }
+}
