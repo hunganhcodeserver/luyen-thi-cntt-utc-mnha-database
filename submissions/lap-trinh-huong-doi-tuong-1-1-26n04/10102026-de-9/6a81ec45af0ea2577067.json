@@ -1,7 +1,7 @@
 {
   "submissionId": "6ac99bd24949445c29447446",
   "submittedAt": "2026-10-10T01:58:42.967Z",
-  "gradedAt": "2026-10-10T01:58:56.643Z",
+  "gradedAt": "2026-10-10T01:58:56.161Z",
   "status": "graded",
   "errorMessage": null,
   "userId": "6ab3d694415010bf620349e5",
@@ -110,5 +110,8 @@
         "explanation": "Chưa xử lý yêu cầu tìm và in ra kỳ học có nhiều tín chỉ nhất theo đề bài."
       }
     ]
-  }
+  },
+  "type": "essay",
+  "teacherComment": null,
+  "updatedAt": "2026-10-10T01:58:58.305Z"
 }
