@@ -34,7 +34,7 @@
             "correct": [
               "B"
             ],
-            "explanationHtml": "Chương trình là thực thể &lt;b&gt;thụ động&lt;/b&gt; (tệp trên thiết bị lưu trữ); tiến trình là thực thể &lt;b&gt;chủ động&lt;/b&gt; với PC, thanh ghi, vùng nhớ, tệp mở.",
+            "explanationHtml": "Chương trình là thực thể &amp;lt;b&amp;gt;thụ động&amp;lt;/b&amp;gt; (tệp trên thiết bị lưu trữ); tiến trình là thực thể &amp;lt;b&amp;gt;chủ động&amp;lt;/b&amp;gt; với PC, thanh ghi, vùng nhớ, tệp mở.",
             "multi": false,
             "id": "mcq-1",
             "clusterId": null
@@ -574,7 +574,7 @@
             "correct": [
               "B"
             ],
-            "explanationHtml": "Tiến trình quay lại hàng đợi &lt;b&gt;Ready&lt;/b&gt; và phải chờ bộ lập lịch cấp CPU, không đi thẳng vào Running.",
+            "explanationHtml": "Tiến trình quay lại hàng đợi &amp;lt;b&amp;gt;Ready&amp;lt;/b&amp;gt; và phải chờ bộ lập lịch cấp CPU, không đi thẳng vào Running.",
             "multi": false,
             "id": "mcq-19",
             "clusterId": "mcq-c3"
@@ -1414,7 +1414,7 @@
             "correct": [
               "C"
             ],
-            "explanationHtml": "Gantt: P1 (0–7), P2 (7–11), P3 (11–12), P4 (12–16).&lt;br&gt;WT = 0, 5, 7, 7 → Ttb = 19/4 = &lt;b&gt;4.75&lt;/b&gt;.",
+            "explanationHtml": "Gantt: P1 (0–7), P2 (7–11), P3 (11–12), P4 (12–16).&amp;lt;br&amp;gt;WT = 0, 5, 7, 7 → Ttb = 19/4 = &amp;lt;b&amp;gt;4.75&amp;lt;/b&amp;gt;.",
             "multi": false,
             "id": "mcq-47",
             "clusterId": "mcq-c8"
@@ -1444,7 +1444,7 @@
             "correct": [
               "D"
             ],
-            "explanationHtml": "Gantt: P1 (0–7), P3 (7–8), P2 (8–12), P4 (12–16).&lt;br&gt;WT = 0, 6, 3, 7 → Ttb = 16/4 = &lt;b&gt;4&lt;/b&gt;.",
+            "explanationHtml": "Gantt: P1 (0–7), P3 (7–8), P2 (8–12), P4 (12–16).&amp;lt;br&amp;gt;WT = 0, 6, 3, 7 → Ttb = 16/4 = &amp;lt;b&amp;gt;4&amp;lt;/b&amp;gt;.",
             "multi": false,
             "id": "mcq-48",
             "clusterId": "mcq-c8"
@@ -1474,7 +1474,7 @@
             "correct": [
               "A"
             ],
-            "explanationHtml": "Gantt: P1 (0–2), P2 (2–4), P3 (4–5), P2 (5–7), P4 (7–11), P1 (11–16).&lt;br&gt;WT = 9, 1, 0, 2 → Ttb = 12/4 = &lt;b&gt;3&lt;/b&gt;.",
+            "explanationHtml": "Gantt: P1 (0–2), P2 (2–4), P3 (4–5), P2 (5–7), P4 (7–11), P1 (11–16).&amp;lt;br&amp;gt;WT = 9, 1, 0, 2 → Ttb = 12/4 = &amp;lt;b&amp;gt;3&amp;lt;/b&amp;gt;.",
             "multi": false,
             "id": "mcq-49",
             "clusterId": "mcq-c8"
@@ -1504,7 +1504,7 @@
             "correct": [
               "C"
             ],
-            "explanationHtml": "Gantt: P1 (0–3), P2 (3–6), P1 (6–9), P3 (9–10), P4 (10–13), P2 (13–14), P1 (14–15), P4 (15–16).&lt;br&gt;WT = 8, 8, 5, 7 → Ttb = 28/4 = &lt;b&gt;7&lt;/b&gt;.&lt;br&gt;Với bộ dữ liệu này, SJF chiếm đoạt cho Ttb nhỏ nhất.",
+            "explanationHtml": "Gantt: P1 (0–3), P2 (3–6), P1 (6–9), P3 (9–10), P4 (10–13), P2 (13–14), P1 (14–15), P4 (15–16).&amp;lt;br&amp;gt;WT = 8, 8, 5, 7 → Ttb = 28/4 = &amp;lt;b&amp;gt;7&amp;lt;/b&amp;gt;.&amp;lt;br&amp;gt;Với bộ dữ liệu này, SJF chiếm đoạt cho Ttb nhỏ nhất.",
             "multi": false,
             "id": "mcq-50",
             "clusterId": "mcq-c8"
@@ -1515,7 +1515,7 @@
             "id": "mcq-c1",
             "from": 3,
             "to": 7,
-            "text": "Không gian địa chỉ của một tiến trình được chia thành các vùng: &lt;b&gt;Text, Data, Heap, Stack&lt;/b&gt;. Dùng dữ kiện này trả lời năm câu sau.",
+            "text": "Không gian địa chỉ của một tiến trình được chia thành các vùng: &amp;lt;b&amp;gt;Text, Data, Heap, Stack&amp;lt;/b&amp;gt;. Dùng dữ kiện này trả lời năm câu sau.",
             "image": null,
             "questionIds": [
               "mcq-3",
@@ -1529,7 +1529,7 @@
             "id": "mcq-c2",
             "from": 12,
             "to": 14,
-            "text": "Trong sơ đồ trạng thái, mỗi tiến trình ở một trong các trạng thái: &lt;b&gt;New, Ready, Running, Waiting, Terminated&lt;/b&gt;. Dùng dữ kiện này trả lời ba câu sau.",
+            "text": "Trong sơ đồ trạng thái, mỗi tiến trình ở một trong các trạng thái: &amp;lt;b&amp;gt;New, Ready, Running, Waiting, Terminated&amp;lt;/b&amp;gt;. Dùng dữ kiện này trả lời ba câu sau.",
             "image": null,
             "questionIds": [
               "mcq-12",
@@ -1541,7 +1541,7 @@
             "id": "mcq-c3",
             "from": 15,
             "to": 21,
-            "text": "Tiến trình chuyển giữa các trạng thái &lt;b&gt;New, Ready, Running, Waiting, Terminated&lt;/b&gt; thông qua các sự kiện như admitted, dispatch, interrupt, chờ I/O hoặc sự kiện, I/O hoàn tất và exit. Dùng dữ kiện này trả lời bảy câu sau.",
+            "text": "Tiến trình chuyển giữa các trạng thái &amp;lt;b&amp;gt;New, Ready, Running, Waiting, Terminated&amp;lt;/b&amp;gt; thông qua các sự kiện như admitted, dispatch, interrupt, chờ I/O hoặc sự kiện, I/O hoàn tất và exit. Dùng dữ kiện này trả lời bảy câu sau.",
             "image": null,
             "questionIds": [
               "mcq-15",
@@ -1557,7 +1557,7 @@
             "id": "mcq-c4",
             "from": 30,
             "to": 31,
-            "text": "Shell thực thi lệnh ngoài &lt;code&gt;ls -l&lt;/code&gt;: shell (tiến trình cha) tạo một tiến trình con để chạy lệnh này. Dùng dữ kiện này trả lời hai câu sau.",
+            "text": "Shell thực thi lệnh ngoài &amp;lt;code&amp;gt;ls -l&amp;lt;/code&amp;gt;: shell (tiến trình cha) tạo một tiến trình con để chạy lệnh này. Dùng dữ kiện này trả lời hai câu sau.",
             "image": null,
             "questionIds": [
               "mcq-30",
@@ -1568,7 +1568,7 @@
             "id": "mcq-c5",
             "from": 33,
             "to": 38,
-            "text": "Hệ điều hành quản lý mỗi tiến trình bằng một &lt;b&gt;PCB&lt;/b&gt;, trong đó thông tin được chia thành nhiều nhóm. Dùng dữ kiện này trả lời sáu câu sau.",
+            "text": "Hệ điều hành quản lý mỗi tiến trình bằng một &amp;lt;b&amp;gt;PCB&amp;lt;/b&amp;gt;, trong đó thông tin được chia thành nhiều nhóm. Dùng dữ kiện này trả lời sáu câu sau.",
             "image": null,
             "questionIds": [
               "mcq-33",
@@ -1583,7 +1583,7 @@
             "id": "mcq-c6",
             "from": 39,
             "to": 40,
-            "text": "Hệ điều hành tổ chức các PCB vào nhiều hàng đợi khác nhau, chẳng hạn &lt;b&gt;Ready queue&lt;/b&gt; và &lt;b&gt;Device queue&lt;/b&gt;, tùy theo tình trạng của tiến trình. Dùng dữ kiện này trả lời hai câu sau.",
+            "text": "Hệ điều hành tổ chức các PCB vào nhiều hàng đợi khác nhau, chẳng hạn &amp;lt;b&amp;gt;Ready queue&amp;lt;/b&amp;gt; và &amp;lt;b&amp;gt;Device queue&amp;lt;/b&amp;gt;, tùy theo tình trạng của tiến trình. Dùng dữ kiện này trả lời hai câu sau.",
             "image": null,
             "questionIds": [
               "mcq-39",
@@ -1594,7 +1594,7 @@
             "id": "mcq-c7",
             "from": 41,
             "to": 43,
-            "text": "Khi CPU chuyển từ tiến trình này sang tiến trình khác, hệ điều hành phải thực hiện &lt;b&gt;chuyển đổi ngữ cảnh&lt;/b&gt; (context switch). Dùng dữ kiện này trả lời ba câu sau.",
+            "text": "Khi CPU chuyển từ tiến trình này sang tiến trình khác, hệ điều hành phải thực hiện &amp;lt;b&amp;gt;chuyển đổi ngữ cảnh&amp;lt;/b&amp;gt; (context switch). Dùng dữ kiện này trả lời ba câu sau.",
             "image": null,
             "questionIds": [
               "mcq-41",
@@ -1606,7 +1606,7 @@
             "id": "mcq-c8",
             "from": 47,
             "to": 50,
-            "text": "Cho bảng tiến trình sau (AT: thời điểm đến, BT: thời gian burst):&lt;br&gt;&lt;b&gt;P1&lt;/b&gt; (AT=0, BT=7)&lt;br&gt;&lt;b&gt;P2&lt;/b&gt; (AT=2, BT=4)&lt;br&gt;&lt;b&gt;P3&lt;/b&gt; (AT=4, BT=1)&lt;br&gt;&lt;b&gt;P4&lt;/b&gt; (AT=5, BT=4)&lt;br&gt;Dùng dữ kiện này trả lời bốn câu sau, với &lt;b&gt;WT = CT − AT − BT&lt;/b&gt;.",
+            "text": "Cho bảng tiến trình sau (AT: thời điểm đến, BT: thời gian burst):&amp;lt;br&amp;gt;&amp;lt;b&amp;gt;P1&amp;lt;/b&amp;gt; (AT=0, BT=7)&amp;lt;br&amp;gt;&amp;lt;b&amp;gt;P2&amp;lt;/b&amp;gt; (AT=2, BT=4)&amp;lt;br&amp;gt;&amp;lt;b&amp;gt;P3&amp;lt;/b&amp;gt; (AT=4, BT=1)&amp;lt;br&amp;gt;&amp;lt;b&amp;gt;P4&amp;lt;/b&amp;gt; (AT=5, BT=4)&amp;lt;br&amp;gt;Dùng dữ kiện này trả lời bốn câu sau, với &amp;lt;b&amp;gt;WT = CT − AT − BT&amp;lt;/b&amp;gt;.",
             "image": null,
             "questionIds": [
               "mcq-47",
@@ -1618,5 +1618,15 @@
         ]
       }
     }
-  }
+  },
+  "lessonId": "db75e7aa8ff4b1ee4523c946",
+  "slug": "on-tap-chuong3-tien-trinh",
+  "subjectSlug": "nguyen-ly-he-dieu-hanh-1-1-26n01",
+  "duration": 75,
+  "promptId": null,
+  "analysisAiKeyIds": [],
+  "isPublished": true,
+  "isDeleted": false,
+  "createdAt": "2026-10-10T17:59:28.266Z",
+  "updatedAt": "2026-10-10T18:01:11.254Z"
 }
