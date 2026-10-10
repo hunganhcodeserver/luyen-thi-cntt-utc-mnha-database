@@ -1,0 +1,139 @@
+{
+  "submissionId": "6ac9913bd6adfa227c42f431",
+  "submittedAt": "2026-10-10T01:13:31.045Z",
+  "gradedAt": "2026-10-10T01:14:14.426Z",
+  "status": "graded",
+  "errorMessage": null,
+  "userId": "6ab6ea62461cb184bc25a92d",
+  "userName": "Nguyễn văn An",
+  "userEmail": "thuvan67890@gmail.com",
+  "subjectId": "6ab5aeac813f0f6c24604455",
+  "subjectName": "Lập trình hướng đối tượng-1-1-26(N04)",
+  "subjectCode": "IT1.108.3",
+  "subjectSlug": "lap-trinh-huong-doi-tuong-1-1-26n04",
+  "lessonId": "6ac989be57e868224b5f3c8a",
+  "lessonTitle": "(10/10/2026) Đề 9",
+  "lessonSlug": "10102026-de-9",
+  "lessonDuration": 30,
+  "lessonContentHtml": "<div class=\"de-bai\">\n\n<div class=\"bai\">\n  <h3>Bài 9:</h3>\n  <p>Xây dựng lớp môn học gồm các thuộc tính mã môn, tên môn và số tín chỉ. Xây dựng lớp quản lý môn học bao gồm các thuộc tính mã kỳ học, số môn học và danh sách các môn học. Viết chương trình nhập vào số các môn học, số kỳ học. Tính tổng số tín chỉ của từng kỳ học. In ra kỳ nào có nhiều tín chỉ nhất.</p>\n</div>\n\n</div>",
+  "lessonSampleSolution": "",
+  "answerHtml": "#include <iostream>\n#include <string>\nusing namespace std;\n\nclass monhoc {\nprivate:\n    string mamon, tenmon;\n    int sotinchi;\n\npublic:\n    void nhap() {\n        cout << \"Ma mon: \";\n        cin >> mamon;\n        cin.ignore();\n\n        cout << \"Ten mon: \";\n        getline(cin,tenmon);\n\n        cout << \"So tin chi: \";\n        cin >> sotinchi;\n        cin.ignore();\n    }\n\n    int getTinChi() {\n        return sotinchi;\n    }\n\n    void xuat() {\n        cout << mamon << \" - \" << tenmon\n             << \" - \" << sotinchi << \" tin chi\\n\";\n    }\n};\n\nclass QuanLyMonHoc : public monhoc { //khai bao quanlimonhoc ke thua tu mon hoc\nprivate:\n    string makyhoc;\n    int somon;\n    monhoc ds[100];\n\npublic:\n    void nhapkyhoc() {\n        cout << \"Ma ky hoc: \";\n        cin >> makyhoc;\n\n        cout << \"So mon hoc: \";\n        cin >> somon;\n        cin.ignore();\n\n        for (int i = 0; i < somon; i++) {\n            cout << \"\\nNhap mon hoc thu \" << i + 1 << \":\\n\";\n            ds[i].nhap();\n        }\n    }\n\n    int tongtinchi() {\n        int tong = 0;\n\n        for (int i = 0; i < somon; i++) {\n            tong += ds[i].getTinChi();\n        }\n\n        return tong;\n    }\n\n    void xuatkyhoc() {\n        cout << \"Ky hoc \" << makyhoc\n             << \" co \" << tongtinchi()\n             << \" tin chi\\n\";\n    }\n};\n\nint main() {\n    int n;\n    cout << \"Nhap so ky hoc: \";\n    cin >> n;\n    cin.ignore();\n\n    QuanLyMonHoc ds[100];\n\n    for (int i = 0; i < n; i++) {\n        cout << \"\\nNHAP KY HOC THU \" << i + 1 << \":\\n\";\n        ds[i].nhapkyhoc();\n    }\n\n    int maxtinchi = ds[0].tongtinchi();\n\n    for (int i = 1; i < n; i++) {\n        if (ds[i].tongtinchi() > maxtinchi) {\n            maxtinchi = ds[i].tongtinchi();\n        }\n    }\n\n    cout << \"\\nCAC KY HOC CO SO TIN CHI CAO NHAT:\\n\";\n\n    for (int i = 0; i < n; i++) {\n        if (ds[i].tongtinchi() == maxtinchi) {\n            ds[i].xuatkyhoc();\n        }\n    }\n\n    return 0;\n}",
+  "score": 8,
+  "feedback": "Bài làm chạy được và đáp ứng đúng yêu cầu chính: có lớp monhoc (mã môn, tên môn, số tín chỉ), lớp QuanLyMonHoc (mã kỳ, số môn, danh sách môn), nhập nhiều kỳ, tính tổng tín chỉ từng kỳ và in ra kỳ nhiều tín chỉ nhất (xử lý tốt trường hợp nhiều kỳ bằng nhau). Điểm cần sửa quan trọng nhất là quan hệ giữa hai lớp: QuanLyMonHoc KHÔNG nên kế thừa từ monhoc vì đây là quan hệ 'has-a' (chứa danh sách môn) chứ không phải 'is-a'; bài đã dùng cả kế thừa lẫn mảng thành viên nên phần kế thừa là dư và sai về thiết kế OOP. Ngoài ra nên kiểm tra giới hạn số môn/số kỳ (<=100), xử lý trường hợp n<=0 trước khi truy cập ds[0], và cân nhắc giảm kích thước mảng hoặc dùng cấp phát động vì mảng 100x100 đối tượng đặt trên stack rất tốn bộ nhớ. Nên lưu kết quả tongtinchi() vào biến thay vì gọi lại nhiều lần.",
+  "breakdown": [
+    {
+      "criterion": "Lớp monhoc (thuộc tính, nhập/xuất, getter)",
+      "score": 2,
+      "comment": "Đầy đủ 3 thuộc tính, đóng gói private, có nhap/xuat/getTinChi; xử lý cin.ignore() trước getline hợp lý."
+    },
+    {
+      "criterion": "Lớp QuanLyMonHoc (mã kỳ, số môn, danh sách môn)",
+      "score": 1.5,
+      "comment": "Đủ thuộc tính yêu cầu nhưng thiết kế sai: kế thừa public từ monhoc trong khi quan hệ đúng là chứa (composition); phần kế thừa hoàn toàn dư thừa."
+    },
+    {
+      "criterion": "Nhập số môn học, số kỳ học",
+      "score": 1.5,
+      "comment": "Nhập đúng luồng, có thông báo rõ ràng; thiếu kiểm tra hợp lệ (n, somon trong [1..100])."
+    },
+    {
+      "criterion": "Tính tổng tín chỉ từng kỳ",
+      "score": 2,
+      "comment": "Hàm tongtinchi() đúng; xuatkyhoc() in mã kỳ và tổng tín chỉ chính xác."
+    },
+    {
+      "criterion": "Tìm và in kỳ nhiều tín chỉ nhất",
+      "score": 2,
+      "comment": "Đúng thuật toán tìm max và in được tất cả kỳ đạt max. Chỉ lỗi tiềm ẩn khi n<=0."
+    },
+    {
+      "criterion": "Chất lượng code (bộ nhớ, đặt tên, hiệu quả)",
+      "score": 1,
+      "comment": "Code rõ ràng, thụt lề tốt, nhưng mảng tĩnh 100x100 trên stack tốn bộ nhớ, trùng tên biến 'ds' giữa main và thành viên, gọi lặp tongtinchi()."
+    }
+  ],
+  "grammar": null,
+  "sampleComparison": null,
+  "model": "occ/claude-opus-5",
+  "aiKeyId": "6abfdf08b29c124d59ccc66b",
+  "aiKeyName": "hunganh2006",
+  "aiProvider": "vilao",
+  "latencyMs": 42981,
+  "promptSnapshot": {
+    "kind": "essay",
+    "promptId": null,
+    "name": "Fallback mặc định (hardcoded)",
+    "content": "Bạn là giáo viên chấm bài. Hãy chấm bài viết sau dựa trên đề bài và rubric.\n\nĐề bài:\n{đề_bài}\n\nBài làm sinh viên:\n{bài_làm}\n\nLời giải mẫu (nếu có, chỉ dùng để đối chiếu ý, không chép nguyên văn vào feedback):\n{lời_giải_mẫu}\n\nRubric: {rubric}\nĐiểm tối đa: {max_score}\n\nQUY TẮC PHÁT HIỆN LỖI:\n- Chỉ liệt kê lỗi khi lỗi thực sự tồn tại trong bài làm, không tự bịa.\n- Nếu đề bài/rubric không đủ căn cứ để xác định một lỗi cụ thể, bỏ qua, không đoán.\n- Mỗi lỗi nêu rõ: câu gốc sai, câu đã sửa, giải thích ngắn gọn.\n\nChỉ trả về JSON hợp lệ, không Markdown, không giải thích ngoài JSON:\n{\n  \"score\": number,\n  \"feedback\": string,\n  \"breakdown\": [{ \"criterion\": string, \"score\": number, \"comment\": string }],\n  \"errors\": [{ \"original\": string, \"corrected\": string, \"explanation\": string }]\n}",
+    "rubric": null,
+    "strictness": "normal",
+    "maxScore": 10,
+    "scope": "fallback",
+    "version": 0,
+    "isFallback": true,
+    "unknownPlaceholders": [],
+    "snapshotAt": "2026-10-10T01:14:14.030Z"
+  },
+  "raw": {
+    "score": 8,
+    "feedback": "Bài làm chạy được và đáp ứng đúng yêu cầu chính: có lớp monhoc (mã môn, tên môn, số tín chỉ), lớp QuanLyMonHoc (mã kỳ, số môn, danh sách môn), nhập nhiều kỳ, tính tổng tín chỉ từng kỳ và in ra kỳ nhiều tín chỉ nhất (xử lý tốt trường hợp nhiều kỳ bằng nhau). Điểm cần sửa quan trọng nhất là quan hệ giữa hai lớp: QuanLyMonHoc KHÔNG nên kế thừa từ monhoc vì đây là quan hệ 'has-a' (chứa danh sách môn) chứ không phải 'is-a'; bài đã dùng cả kế thừa lẫn mảng thành viên nên phần kế thừa là dư và sai về thiết kế OOP. Ngoài ra nên kiểm tra giới hạn số môn/số kỳ (<=100), xử lý trường hợp n<=0 trước khi truy cập ds[0], và cân nhắc giảm kích thước mảng hoặc dùng cấp phát động vì mảng 100x100 đối tượng đặt trên stack rất tốn bộ nhớ. Nên lưu kết quả tongtinchi() vào biến thay vì gọi lại nhiều lần.",
+    "breakdown": [
+      {
+        "criterion": "Lớp monhoc (thuộc tính, nhập/xuất, getter)",
+        "score": 2,
+        "comment": "Đầy đủ 3 thuộc tính, đóng gói private, có nhap/xuat/getTinChi; xử lý cin.ignore() trước getline hợp lý."
+      },
+      {
+        "criterion": "Lớp QuanLyMonHoc (mã kỳ, số môn, danh sách môn)",
+        "score": 1.5,
+        "comment": "Đủ thuộc tính yêu cầu nhưng thiết kế sai: kế thừa public từ monhoc trong khi quan hệ đúng là chứa (composition); phần kế thừa hoàn toàn dư thừa."
+      },
+      {
+        "criterion": "Nhập số môn học, số kỳ học",
+        "score": 1.5,
+        "comment": "Nhập đúng luồng, có thông báo rõ ràng; thiếu kiểm tra hợp lệ (n, somon trong [1..100])."
+      },
+      {
+        "criterion": "Tính tổng tín chỉ từng kỳ",
+        "score": 2,
+        "comment": "Hàm tongtinchi() đúng; xuatkyhoc() in mã kỳ và tổng tín chỉ chính xác."
+      },
+      {
+        "criterion": "Tìm và in kỳ nhiều tín chỉ nhất",
+        "score": 2,
+        "comment": "Đúng thuật toán tìm max và in được tất cả kỳ đạt max. Chỉ lỗi tiềm ẩn khi n<=0."
+      },
+      {
+        "criterion": "Chất lượng code (bộ nhớ, đặt tên, hiệu quả)",
+        "score": 1,
+        "comment": "Code rõ ràng, thụt lề tốt, nhưng mảng tĩnh 100x100 trên stack tốn bộ nhớ, trùng tên biến 'ds' giữa main và thành viên, gọi lặp tongtinchi()."
+      }
+    ],
+    "errors": [
+      {
+        "original": "class QuanLyMonHoc : public monhoc { //khai bao quanlimonhoc ke thua tu mon hoc",
+        "corrected": "class QuanLyMonHoc {",
+        "explanation": "Lớp quản lý môn học chứa danh sách môn học (quan hệ has-a), không phải là một môn học, nên không được kế thừa từ monhoc. Lớp đã có mảng 'monhoc ds[100]' nên kế thừa là dư thừa và sai thiết kế OOP."
+      },
+      {
+        "original": "cout << \"So mon hoc: \";\ncin >> somon;",
+        "corrected": "cout << \"So mon hoc (1-100): \";\ncin >> somon;\nif (somon < 0) somon = 0;\nif (somon > 100) somon = 100;",
+        "explanation": "Thiếu kiểm tra giới hạn: nếu người dùng nhập somon > 100 sẽ ghi ra ngoài mảng ds[100] gây lỗi tràn bộ nhớ."
+      },
+      {
+        "original": "int maxtinchi = ds[0].tongtinchi();",
+        "corrected": "if (n <= 0) { cout << \"Khong co ky hoc nao!\\n\"; return 0; }\nint maxtinchi = ds[0].tongtinchi();",
+        "explanation": "Nếu n <= 0, ds[0] chưa được nhập nên thuộc tính somon mang giá trị rác, vòng lặp trong tongtinchi() sẽ truy cập sai và có thể làm chương trình crash."
+      },
+      {
+        "original": "cin >> n;\n...\nQuanLyMonHoc ds[100];",
+        "corrected": "cin >> n;\nif (n > 100) n = 100;\nQuanLyMonHoc* ds = new QuanLyMonHoc[n];  // nhớ delete[] ds; trước return",
+        "explanation": "Mảng 100 đối tượng, mỗi đối tượng chứa 100 monhoc (mỗi monhoc có 2 string) đặt trên stack chiếm hàng trăm KB, dễ gây stack overflow; ngoài ra n > 100 sẽ truy cập ngoài mảng."
+      },
+      {
+        "original": "if (ds[i].tongtinchi() > maxtinchi) {\n    maxtinchi = ds[i].tongtinchi();\n}",
+        "corrected": "int t = ds[i].tongtinchi();\nif (t > maxtinchi) {\n    maxtinchi = t;\n}",
+        "explanation": "Gọi tongtinchi() nhiều lần cho cùng một kỳ làm lặp lại vòng lặp cộng tín chỉ không cần thiết; nên lưu kết quả vào biến tạm."
+      }
+    ]
+  }
+}
