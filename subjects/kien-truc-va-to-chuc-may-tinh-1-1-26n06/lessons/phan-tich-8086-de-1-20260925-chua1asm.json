@@ -8,7 +8,15 @@
   "duration": 30,
   "model": null,
   "isPublished": true,
-  "updatedAt": "2026-10-10T00:25:42.755Z",
+  "updatedAt": "2026-10-10T00:25:43.754Z",
   "isDeleted": true,
-  "deletedAt": "2026-10-10T00:25:42.755Z"
+  "deletedAt": "2026-10-10T00:25:42.755Z",
+  "order": 0,
+  "type": "essay",
+  "promptId": null,
+  "aiKeyId": null,
+  "analysisAiKeyIds": [],
+  "createdBy": null,
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "deletedBy": "6ab3d694415010bf620349e5"
 }
