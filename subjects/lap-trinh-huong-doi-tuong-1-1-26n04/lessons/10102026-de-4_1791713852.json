@@ -1,0 +1,23 @@
+{
+  "lessonId": "6acb623cc4cd6bb7aae94043",
+  "type": "essay",
+  "title": "(10/10/2026) Đề 4",
+  "slug": "10102026-de-4",
+  "subjectSlug": "lap-trinh-huong-doi-tuong-1-1-26n04",
+  "description": "",
+  "contentHtml": "<div class=\"de-bai\">\n\n<div class=\"bai\">\n  <h3>Bài 4.</h3>\n  <p>Xây dựng lớp SP (Số Phức), gồm các thuộc tính (private): phần thực và phần ảo; các phương thức (public): hàm tạo không đối và hàm tạo có hai đối để tạo và khởi gán số phức, các hàm nhập và xuất một số phức và định nghĩa chồng phép toán ! để tính tổng bình phương của phần thực và phần ảo (ví dụ: nếu z = 3 – 4i thì giá trị !z bằng 25).</p>\n  <p>Viết tiếp hàm main( ) trong đó:<br>\n  - Nhập hai số phức s1 và s2, trong đó nhập s1 dùng hàm tạo có đối, nhập s2 dùng hàm nhập.<br>\n  - Tính tổng s = !s1 + !s2.<br>\n  - In các số phức s1, s2 và tổng s ra màn hình (mỗi số in trên một dòng).</p>\n</div>\n\n</div>",
+  "sampleSolution": "",
+  "duration": 30,
+  "model": null,
+  "promptId": null,
+  "aiKeyId": null,
+  "isPublished": true,
+  "isDeleted": false,
+  "createdBy": {
+    "id": "6ab3d694415010bf620349e5",
+    "name": "Mai Ngọc Hùng Anh",
+    "email": "hunganh.okokok.0@gmail.com"
+  },
+  "createdAt": "2026-10-11T10:17:32.140Z",
+  "updatedAt": "2026-10-11T10:17:32.140Z"
+}
