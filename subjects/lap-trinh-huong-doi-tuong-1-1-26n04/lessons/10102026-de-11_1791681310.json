@@ -1,0 +1,23 @@
+{
+  "lessonId": "6acae31ef27cca54241c97cc",
+  "type": "essay",
+  "title": "(10/10/2026) Đề 11",
+  "slug": "10102026-de-11",
+  "subjectSlug": "lap-trinh-huong-doi-tuong-1-1-26n04",
+  "description": "",
+  "contentHtml": "<div class=\"de-bai\">\n\n\n\n<div class=\"bai\">\n  <h3>Bài 11:</h3>\n  <p>xây dựng lớp điểm gồm các thuộc tính hoành độ và tung độ. Xây dựng lớp Đa giác gồm các thuộc tính n là số cạnh của đa giác, và một mảng điểm tương ứng với số cạnh đó. Viết chương trình nhập vào n đa giác, in ra màn hình chu vi của từng đa giác đó</p>\n</div>\n\n</div>",
+  "sampleSolution": "",
+  "duration": 30,
+  "model": null,
+  "promptId": null,
+  "aiKeyId": null,
+  "isPublished": true,
+  "isDeleted": false,
+  "createdBy": {
+    "id": "6ab3d694415010bf620349e5",
+    "name": "Mai Ngọc Hùng Anh",
+    "email": "hunganh.okokok.0@gmail.com"
+  },
+  "createdAt": "2026-10-11T01:15:10.369Z",
+  "updatedAt": "2026-10-11T01:15:10.369Z"
+}
