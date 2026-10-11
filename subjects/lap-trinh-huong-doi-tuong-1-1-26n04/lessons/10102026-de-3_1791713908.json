@@ -1,0 +1,23 @@
+{
+  "lessonId": "6acb6274c4cd6bb7aae94044",
+  "type": "essay",
+  "title": "(10/10/2026) Đề 3",
+  "slug": "10102026-de-3",
+  "subjectSlug": "lap-trinh-huong-doi-tuong-1-1-26n04",
+  "description": "",
+  "contentHtml": "<div class=\"de-bai\">\n\n<div class=\"bai\">\n  <h3>Bài 3.</h3>\n  <p>Xây dựng lớp NGUOI, gồm các thuộc tính (private): họ tên, tuổi; các phương thức (public): nhap( ), xuat( ) và các phương thức khác.</p>\n  <p>Xây dựng lớp QLNV dẫn xuất từ lớp NGUOI, gồm các thuộc tính (private): snct (số năm công tác) và hs (hệ số lương); các phương thức (public): tính tiền lương, biết tienluong = lcb*hs + phucap, trong đó: lcb (lương cơ bản) là 1,5 triệu cho tất cả nhân viên, phucap = 0,2 triệu * snct.</p>\n  <p>Viết hàm main( ) trong đó:<br>\n  - Nhập n nhân viên<br>\n  - Tìm nhân viên có số năm công tác nhiều nhất<br>\n  - In danh sách nhân viên theo thứ tự lương từ cao đến thấp</p>\n</div>\n\n</div>",
+  "sampleSolution": "",
+  "duration": 30,
+  "model": null,
+  "promptId": null,
+  "aiKeyId": null,
+  "isPublished": true,
+  "isDeleted": false,
+  "createdBy": {
+    "id": "6ab3d694415010bf620349e5",
+    "name": "Mai Ngọc Hùng Anh",
+    "email": "hunganh.okokok.0@gmail.com"
+  },
+  "createdAt": "2026-10-11T10:18:28.202Z",
+  "updatedAt": "2026-10-11T10:18:28.202Z"
+}
