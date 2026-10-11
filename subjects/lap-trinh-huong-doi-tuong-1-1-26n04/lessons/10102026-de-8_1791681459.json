@@ -1,0 +1,23 @@
+{
+  "lessonId": "6acae3b3f27cca54241c97cd",
+  "type": "essay",
+  "title": "(10/10/2026) Đề 8",
+  "slug": "10102026-de-8",
+  "subjectSlug": "lap-trinh-huong-doi-tuong-1-1-26n04",
+  "description": "",
+  "contentHtml": "<div class=\"de-bai\">\n\n\n\n<div class=\"bai\">\n  <h3>Bài 8:</h3>\n  <p>Xây dựng lớp người gồm tên, năm sinh. Lớp sinh viên kế thừa lớp người có thêm thuộc tính điểm trung bình. Xây dựng lớp giảng viên kế thừa lớp người, có thêm số giờ dạy.</p>\n  <p>Nhập n số nguyên n và khởi tạo n giảng viên và n sinh viên</p>\n  <p>In ra số giảng viên và sinh viên dc thưởng, biết rằng giảng viên dc thưởng nếu giờ dạy lớn hơn 300 và sinh viên dc thưởng nếu điểm &gt;9</p>\n</div>\n\n</div>",
+  "sampleSolution": "",
+  "duration": 30,
+  "model": null,
+  "promptId": null,
+  "aiKeyId": null,
+  "isPublished": true,
+  "isDeleted": false,
+  "createdBy": {
+    "id": "6ab3d694415010bf620349e5",
+    "name": "Mai Ngọc Hùng Anh",
+    "email": "hunganh.okokok.0@gmail.com"
+  },
+  "createdAt": "2026-10-11T01:17:39.436Z",
+  "updatedAt": "2026-10-11T01:17:39.436Z"
+}
