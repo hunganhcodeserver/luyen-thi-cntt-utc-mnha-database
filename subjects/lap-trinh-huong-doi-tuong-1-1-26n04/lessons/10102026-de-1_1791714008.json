@@ -1,0 +1,23 @@
+{
+  "lessonId": "6acb62d8c4cd6bb7aae94046",
+  "type": "essay",
+  "title": "(10/10/2026) Đề 1",
+  "slug": "10102026-de-1",
+  "subjectSlug": "lap-trinh-huong-doi-tuong-1-1-26n04",
+  "description": "",
+  "contentHtml": "<div class=\"de-bai\">\n\n<div class=\"bai\">\n  <h3>Bài 1.</h3>\n  <p>Hãy định nghĩa một lớp Shape (Hình) trong đó dữ liệu là 2 cạnh (width, và height). Dẫn xuất từ lớp Hình hai lớp con là lớp Triangle (Hình tam giác) và lớp Rectangle (Hình chữ nhật), trong mỗi lớp có phương thức tính diện tích area().</p>\n  <p>Trong hàm main() khai báo hai biến đối tượng của lớp Triangle và lớp Rectangle, sau đó gọi hàm area() để tính diện tích mỗi hình.</p>\n  <p>Yêu cầu: Viết hai phiên bản cho hai trường hợp:<br>\n  1) Dữ liệu của Shape là protected, dùng hàm thành phần để nhập dữ liệu.<br>\n  2) Dữ liệu của Shape là private, dùng hàm tạo có đối để khởi tạo dữ liệu.</p>\n</div>\n\n</div>",
+  "sampleSolution": "",
+  "duration": 30,
+  "model": null,
+  "promptId": null,
+  "aiKeyId": null,
+  "isPublished": true,
+  "isDeleted": false,
+  "createdBy": {
+    "id": "6ab3d694415010bf620349e5",
+    "name": "Mai Ngọc Hùng Anh",
+    "email": "hunganh.okokok.0@gmail.com"
+  },
+  "createdAt": "2026-10-11T10:20:08.069Z",
+  "updatedAt": "2026-10-11T10:20:08.069Z"
+}
