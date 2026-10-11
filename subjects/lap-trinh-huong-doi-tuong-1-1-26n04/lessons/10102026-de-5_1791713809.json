@@ -1,0 +1,23 @@
+{
+  "lessonId": "6acb6211c4cd6bb7aae94042",
+  "type": "essay",
+  "title": "(10/10/2026) Đề 5",
+  "slug": "10102026-de-5",
+  "subjectSlug": "lap-trinh-huong-doi-tuong-1-1-26n04",
+  "description": "",
+  "contentHtml": "<div class=\"de-bai\">\n\n<div class=\"bai\">\n  <h3>Bài 5.</h3>\n  <p>Xây dựng lớp Nguoi (Người) gồm các thuộc tính gồm họ tên, tuổi và các phương thức cần thiết. Xây dựng lớp Quanly (Quản lý) dẫn xuất từ lớp Nguoi, bổ sung thêm thuộc tính snct (số năm công tác), hsl (hệ số lương). Công thức tính lương là: tienluong = lcb*hsl + phucap, trong đó: phucap = 3 triệu nếu snct &gt;= 15 năm, phucap = 2 triệu nếu 5 =&lt; snct &lt; 15 năm và phucap = 1 triệu nếu snct&lt;5 năm.</p>\n  <p>Viết hàm main( ) thực hiện:<br>\n  - Nhập vào n nhân viên.<br>\n  - Tìm nhân viên có tiền lương cao nhất và nhân viên có tiền lương thấp nhất.</p>\n</div>\n\n</div>",
+  "sampleSolution": "",
+  "duration": 30,
+  "model": null,
+  "promptId": null,
+  "aiKeyId": null,
+  "isPublished": true,
+  "isDeleted": false,
+  "createdBy": {
+    "id": "6ab3d694415010bf620349e5",
+    "name": "Mai Ngọc Hùng Anh",
+    "email": "hunganh.okokok.0@gmail.com"
+  },
+  "createdAt": "2026-10-11T10:16:49.431Z",
+  "updatedAt": "2026-10-11T10:16:49.431Z"
+}
