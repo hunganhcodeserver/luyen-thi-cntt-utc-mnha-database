@@ -1,0 +1,93 @@
+{
+  "submissionId": "6acbc3c7b33da2c33a929049",
+  "submittedAt": "2026-10-11T17:13:43.822Z",
+  "gradedAt": "2026-10-11T17:14:05.266Z",
+  "status": "graded",
+  "errorMessage": null,
+  "userId": "6acbbd8d7863e590007beee8",
+  "userName": "mai thế quang",
+  "userEmail": "maiq0555@gmail.com",
+  "subjectId": "6acbbe9eb33da2c33a929045",
+  "subjectName": "Tin học đại cương-1-1-25(N27)",
+  "subjectCode": "IT0.004.2",
+  "subjectSlug": "tin-hoc-dai-cuong-1-1-25n27",
+  "lessonId": "6acbbfdbb33da2c33a929046",
+  "lessonTitle": "11/10/2026 (Code cơ khí) - Bài Đa thức 1",
+  "lessonSlug": "11102026-code-co-khi-bai-da-thuc-1",
+  "lessonDuration": 30,
+  "lessonContentHtml": "<div class=\"de-bai\">\n\n<h2>DẠNG 4: BÀI TẬP VỀ ĐA THỨC</h2>\n<p>Viết chương trình bằng ngôn ngữ C, giải các bài toán sau:</p>\n\n<div class=\"bai\">\n  <p><b>Bài 1:</b> Cho đa thức P<sub>n</sub>(x)=a<sub>0</sub> + a<sub>1</sub>x + a<sub>2</sub>x<sup>2</sup> + a<sub>3</sub>x<sup>3</sup>+....+a<sub>n</sub>x<sup>n</sup>.</p>\n  <p>a, Nhập các hệ số của đa thức trên, in các hệ số vừa nhập trên một dòng.</p>\n  <p>b. Đếm số hệ số nhỏ hơn 0</p>\n  <p>c, Tính giá trị của đa thức tại giá trị x<sub>0</sub> với x<sub>0</sub> được nhập từ bàn phím.</p>\n  <p>d, Tính đạo hàm cấp 1 của đa thức, và in ra các hệ số của đa thức sau khi tính đạo hàm.</p>\n</div>\n\n</div>",
+  "lessonSampleSolution": "",
+  "answerHtml": "#include <stdio.h>\n#include <math.h>\n\nint main() {\n    int n;\n\n    // Nhập bậc của đa thức\n    printf(\"Nhap bac cua da thuc (n): \");\n    scanf(\"%d\", &n);\n\n    float a[n + 1];\n\n    // --- Câu a: Nhập và in các hệ số ---\n    printf(\"\\n--- CAU A ---\\n\");\n    for (int i = 0; i <= n; i++) {\n        printf(\"Nhap he so a[%d]: \", i);\n        scanf(\"%f\", &a[i]);\n    }\n\n    printf(\"Cac he so vua nhap la: \");\n    for (int i = 0; i <= n; i++) {\n        printf(\"%.2f \", a[i]);\n    }\n    printf(\"\\n\");\n\n    // --- Câu b: Đếm số hệ số nhỏ hơn 0 ---\n    printf(\"\\n--- CAU B ---\\n\");\n    int count = 0;\n    for (int i = 0; i <= n; i++) {\n        if (a[i] < 0) {\n            count++;\n        }\n    }\n    printf(\"So he so nho hon 0 la: %d\\n\", count);\n\n    // --- Câu c: Tính giá trị đa thức tại x0 ---\n    printf(\"\\n--- CAU C ---\\n\");\n    float x0;\n    printf(\"Nhap gia tri x0: \");\n    scanf(\"%f\", &x0);\n\n    // Sử dụng thuật toán Horner để tính giá trị đa thức nhanh và chính xác\n    float val = a[n];\n    for (int i = n - 1; i >= 0; i--) {\n        val = val * x0 + a[i];\n    }\n    printf(\"Gia tri cua da thuc P(%.2f) = %.2f\\n\", x0, val);\n\n    // --- Câu d: Tính đạo hàm cấp 1 và in các hệ số sau đạo hàm ---\n    printf(\"\\n--- CAU D ---\\n\");\n    if (n == 0) {\n        printf(\"Dao ham cap 1 cua hang so la: 0.00\\n\");\n    } else {\n        float b[n]; // Mảng lưu các hệ số của đa thức đạo hàm (bậc n - 1)\n        \n        // Đạo hàm: (a_i * x^i)' = i * a_i * x^(i-1)\n        for (int i = 1; i <= n; i++) {\n            b[i - 1] = i * a[i];\n        }\n\n        printf(\"Cac he so cua da thuc sau khi dao ham cap 1 (tu b_0 den b_%d) la:\\n\", n - 1);\n        for (int i = 0; i < n; i++) {\n            printf(\"%.2f \", b[i]);\n        }\n        printf(\"\\n\");\n    }\n\n    return 0;\n}",
+  "score": 10,
+  "feedback": "Bài làm hoàn thiện rất tốt. Chương trình viết rõ ràng, mạch lạc, đáp ứng đầy đủ và chính xác tất cả các yêu cầu từ câu a đến câu d. Đáng khen ngợi khi bạn sử dụng thuật toán Horner để tính giá trị đa thức một cách tối ưu và đã xử lý tốt trường hợp biên n = 0 ở câu tính đạo hàm.",
+  "breakdown": [
+    {
+      "criterion": "Câu a: Nhập và in các hệ số của đa thức",
+      "score": 2.5,
+      "comment": "Nhập đúng bậc n và n + 1 hệ số, in các hệ số trên một dòng đúng yêu cầu."
+    },
+    {
+      "criterion": "Câu b: Đếm số hệ số nhỏ hơn 0",
+      "score": 2.5,
+      "comment": "Duyệt mảng và đếm chính xác số lượng hệ số âm."
+    },
+    {
+      "criterion": "Câu c: Tính giá trị đa thức tại x0",
+      "score": 2.5,
+      "comment": "Sử dụng lược đồ Horner chính xác và tối ưu về mặt thuật toán."
+    },
+    {
+      "criterion": "Câu d: Tính đạo hàm cấp 1 và in kết quả",
+      "score": 2.5,
+      "comment": "Công thức đạo hàm chính xác, có xét trường hợp đa thức bậc 0 (hằng số) rất cẩn thận."
+    }
+  ],
+  "grammar": null,
+  "sampleComparison": null,
+  "model": "gemini-flash-latest",
+  "aiKeyId": "6ab7116dc878bedb86de26dc",
+  "aiKeyName": "VMK1",
+  "aiProvider": "gemini",
+  "latencyMs": 21044,
+  "promptSnapshot": {
+    "kind": "essay",
+    "promptId": null,
+    "name": "Fallback mặc định (hardcoded)",
+    "content": "Bạn là giáo viên chấm bài. Hãy chấm bài viết sau dựa trên đề bài và rubric.\n\nĐề bài:\n{đề_bài}\n\nBài làm sinh viên:\n{bài_làm}\n\nLời giải mẫu (nếu có, chỉ dùng để đối chiếu ý, không chép nguyên văn vào feedback):\n{lời_giải_mẫu}\n\nRubric: {rubric}\nĐiểm tối đa: {max_score}\n\nQUY TẮC PHÁT HIỆN LỖI:\n- Chỉ liệt kê lỗi khi lỗi thực sự tồn tại trong bài làm, không tự bịa.\n- Nếu đề bài/rubric không đủ căn cứ để xác định một lỗi cụ thể, bỏ qua, không đoán.\n- Mỗi lỗi nêu rõ: câu gốc sai, câu đã sửa, giải thích ngắn gọn.\n\nChỉ trả về JSON hợp lệ, không Markdown, không giải thích ngoài JSON:\n{\n  \"score\": number,\n  \"feedback\": string,\n  \"breakdown\": [{ \"criterion\": string, \"score\": number, \"comment\": string }],\n  \"errors\": [{ \"original\": string, \"corrected\": string, \"explanation\": string }]\n}",
+    "rubric": null,
+    "strictness": "normal",
+    "maxScore": 10,
+    "scope": "fallback",
+    "version": 0,
+    "isFallback": true,
+    "unknownPlaceholders": [],
+    "snapshotAt": "2026-10-11T17:14:04.869Z"
+  },
+  "raw": {
+    "score": 10,
+    "feedback": "Bài làm hoàn thiện rất tốt. Chương trình viết rõ ràng, mạch lạc, đáp ứng đầy đủ và chính xác tất cả các yêu cầu từ câu a đến câu d. Đáng khen ngợi khi bạn sử dụng thuật toán Horner để tính giá trị đa thức một cách tối ưu và đã xử lý tốt trường hợp biên n = 0 ở câu tính đạo hàm.",
+    "breakdown": [
+      {
+        "criterion": "Câu a: Nhập và in các hệ số của đa thức",
+        "score": 2.5,
+        "comment": "Nhập đúng bậc n và n + 1 hệ số, in các hệ số trên một dòng đúng yêu cầu."
+      },
+      {
+        "criterion": "Câu b: Đếm số hệ số nhỏ hơn 0",
+        "score": 2.5,
+        "comment": "Duyệt mảng và đếm chính xác số lượng hệ số âm."
+      },
+      {
+        "criterion": "Câu c: Tính giá trị đa thức tại x0",
+        "score": 2.5,
+        "comment": "Sử dụng lược đồ Horner chính xác và tối ưu về mặt thuật toán."
+      },
+      {
+        "criterion": "Câu d: Tính đạo hàm cấp 1 và in kết quả",
+        "score": 2.5,
+        "comment": "Công thức đạo hàm chính xác, có xét trường hợp đa thức bậc 0 (hằng số) rất cẩn thận."
+      }
+    ],
+    "errors": []
+  }
+}
