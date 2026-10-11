@@ -1,0 +1,293 @@
+{
+  "version": 1,
+  "updatedAt": "2026-10-11T06:25:10.457Z",
+  "total": 13,
+  "logs": [
+    {
+      "id": "6ac45a48c3fe67bf29ff941c",
+      "actor": "6ab3d694415010bf620349e5",
+      "actorName": "Mai Ngọc Hùng Anh",
+      "actorEmail": "hunganh.okokok.0@gmail.com",
+      "action": "update_quiz",
+      "entity": "Lesson",
+      "entityId": "6ac28a23281bc06b11417e0b",
+      "description": "",
+      "metadata": {
+        "title": "Ôn tập Chuong3_Tien_trinh",
+        "duration": 75,
+        "counts": {
+          "mcq": 50,
+          "tf": 0,
+          "fill": 0
+        }
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "createdAt": "2026-10-06T02:17:44.481Z"
+    },
+    {
+      "id": "6ac45a58c3fe67bf29ff941d",
+      "actor": "6ab3d694415010bf620349e5",
+      "actorName": "Mai Ngọc Hùng Anh",
+      "actorEmail": "hunganh.okokok.0@gmail.com",
+      "action": "update_quiz",
+      "entity": "Lesson",
+      "entityId": "6ac28a23281bc06b11417e0b",
+      "description": "",
+      "metadata": {
+        "title": "Ôn tập Chuong3_Tien_trinh",
+        "duration": 75,
+        "counts": {
+          "mcq": 50,
+          "tf": 0,
+          "fill": 0
+        }
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "createdAt": "2026-10-06T02:18:00.347Z"
+    },
+    {
+      "id": "6ac45c6b7e586548770007cd",
+      "actor": "6ab3d694415010bf620349e5",
+      "actorName": "Mai Ngọc Hùng Anh",
+      "actorEmail": "hunganh.okokok.0@gmail.com",
+      "action": "update_quiz",
+      "entity": "Lesson",
+      "entityId": "6ac28a23281bc06b11417e0b",
+      "description": "",
+      "metadata": {
+        "title": "Ôn tập Chuong3_Tien_trinh",
+        "duration": 75,
+        "counts": {
+          "mcq": 50,
+          "tf": 0,
+          "fill": 0
+        }
+      },
+      "ipAddress": "116.96.47.49",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "createdAt": "2026-10-06T02:26:51.228Z"
+    },
+    {
+      "id": "6ac45c84fffc0cf516f5a21b",
+      "actor": "6ab3d694415010bf620349e5",
+      "actorName": "Mai Ngọc Hùng Anh",
+      "actorEmail": "hunganh.okokok.0@gmail.com",
+      "action": "update_quiz",
+      "entity": "Lesson",
+      "entityId": "6ac28a23281bc06b11417e0b",
+      "description": "",
+      "metadata": {
+        "title": "Ôn tập Chuong3_Tien_trinh",
+        "duration": 75,
+        "counts": {
+          "mcq": 50,
+          "tf": 0,
+          "fill": 0
+        }
+      },
+      "ipAddress": "116.96.47.49",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "createdAt": "2026-10-06T02:27:16.618Z"
+    },
+    {
+      "id": "6ac460681f664b47f14296d3",
+      "actor": "6ab3d694415010bf620349e5",
+      "actorName": "Mai Ngọc Hùng Anh",
+      "actorEmail": "hunganh.okokok.0@gmail.com",
+      "action": "update_quiz",
+      "entity": "Lesson",
+      "entityId": "6ac28a23281bc06b11417e0b",
+      "description": "",
+      "metadata": {
+        "title": "Ôn tập Chuong3_Tien_trinh",
+        "duration": 75,
+        "counts": {
+          "mcq": 50,
+          "tf": 0,
+          "fill": 0
+        }
+      },
+      "ipAddress": "116.96.47.49",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "createdAt": "2026-10-06T02:43:52.411Z"
+    },
+    {
+      "id": "6ac470062803d792cee6e6c9",
+      "actor": "6ab3d694415010bf620349e5",
+      "actorName": "Mai Ngọc Hùng Anh",
+      "actorEmail": "hunganh.okokok.0@gmail.com",
+      "action": "create_quiz",
+      "entity": "Lesson",
+      "entityId": "6ac470052803d792cee6e6c8",
+      "description": "",
+      "metadata": {
+        "title": "Ôn tập Chuong4_Tuong_tranh_va_dong_bo",
+        "duration": 75,
+        "counts": {
+          "mcq": 49,
+          "tf": 0,
+          "fill": 0
+        }
+      },
+      "ipAddress": "116.96.47.49",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "createdAt": "2026-10-06T03:50:30.021Z"
+    },
+    {
+      "id": "6ac470902803d792cee6e6ca",
+      "actor": "6ab3d694415010bf620349e5",
+      "actorName": "Mai Ngọc Hùng Anh",
+      "actorEmail": "hunganh.okokok.0@gmail.com",
+      "action": "update_quiz",
+      "entity": "Lesson",
+      "entityId": "6ac28a23281bc06b11417e0b",
+      "description": "",
+      "metadata": {
+        "title": "Ôn tập Chuong3_Tien_trinh",
+        "duration": 75,
+        "counts": {
+          "mcq": 50,
+          "tf": 0,
+          "fill": 0
+        }
+      },
+      "ipAddress": "116.96.47.49",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "createdAt": "2026-10-06T03:52:48.794Z"
+    },
+    {
+      "id": "6ac48295cdbd3d8d3783c64c",
+      "actor": "6ab3d694415010bf620349e5",
+      "actorName": "Mai Ngọc Hùng Anh",
+      "actorEmail": "hunganh.okokok.0@gmail.com",
+      "action": "update_quiz",
+      "entity": "Lesson",
+      "entityId": "6ac470052803d792cee6e6c8",
+      "description": "",
+      "metadata": {
+        "title": "Ôn tập Chuong4_Tuong_tranh_va_dong_bo",
+        "duration": 75,
+        "counts": {
+          "mcq": 50,
+          "tf": 0,
+          "fill": 0
+        }
+      },
+      "ipAddress": "116.96.47.49",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "createdAt": "2026-10-06T05:09:41.363Z"
+    },
+    {
+      "id": "6ac4c3cd74aba1d1f0d69e9b",
+      "actor": "6ab3d694415010bf620349e5",
+      "actorName": "Mai Ngọc Hùng Anh",
+      "actorEmail": "hunganh.okokok.0@gmail.com",
+      "action": "update_quiz",
+      "entity": "Lesson",
+      "entityId": "6ac470052803d792cee6e6c8",
+      "description": "",
+      "metadata": {
+        "title": "Ôn tập Chuong4_Tuong_tranh_va_dong_bo.pppt",
+        "duration": 75,
+        "counts": {
+          "mcq": 50,
+          "tf": 0,
+          "fill": 0
+        }
+      },
+      "ipAddress": "101.99.15.74",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "createdAt": "2026-10-06T09:47:57.466Z"
+    },
+    {
+      "id": "6ac4c3df74aba1d1f0d69e9c",
+      "actor": "6ab3d694415010bf620349e5",
+      "actorName": "Mai Ngọc Hùng Anh",
+      "actorEmail": "hunganh.okokok.0@gmail.com",
+      "action": "update_quiz",
+      "entity": "Lesson",
+      "entityId": "6ac470052803d792cee6e6c8",
+      "description": "",
+      "metadata": {
+        "title": "Ôn tập Chuong4_Tuong_tranh_va_dong_bo",
+        "duration": 75,
+        "counts": {
+          "mcq": 50,
+          "tf": 0,
+          "fill": 0
+        }
+      },
+      "ipAddress": "101.99.15.74",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "createdAt": "2026-10-06T09:48:15.573Z"
+    },
+    {
+      "id": "6ac4c3ed74aba1d1f0d69e9d",
+      "actor": "6ab3d694415010bf620349e5",
+      "actorName": "Mai Ngọc Hùng Anh",
+      "actorEmail": "hunganh.okokok.0@gmail.com",
+      "action": "update_quiz",
+      "entity": "Lesson",
+      "entityId": "6ac470052803d792cee6e6c8",
+      "description": "",
+      "metadata": {
+        "title": "Ôn tập Chuong4_Tuong_tranh_va_dong_bo",
+        "duration": 75,
+        "counts": {
+          "mcq": 50,
+          "tf": 0,
+          "fill": 0
+        }
+      },
+      "ipAddress": "101.99.15.74",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "createdAt": "2026-10-06T09:48:29.842Z"
+    },
+    {
+      "id": "6aca7d693777c28df2e00743",
+      "actor": "6ab3d694415010bf620349e5",
+      "actorName": "Mai Ngọc Hùng Anh",
+      "actorEmail": "hunganh.okokok.0@gmail.com",
+      "action": "update_quiz",
+      "entity": "Lesson",
+      "entityId": "db75e7aa8ff4b1ee4523c946",
+      "description": "",
+      "metadata": {
+        "title": "Ôn tập Chuong3_Tien_trinh",
+        "duration": 75,
+        "counts": {
+          "mcq": 50,
+          "tf": 0,
+          "fill": 0
+        }
+      },
+      "ipAddress": "116.96.47.56",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "createdAt": "2026-10-10T18:01:13.103Z"
+    },
+    {
+      "id": "6aca7d7a3777c28df2e00744",
+      "actor": "6ab3d694415010bf620349e5",
+      "actorName": "Mai Ngọc Hùng Anh",
+      "actorEmail": "hunganh.okokok.0@gmail.com",
+      "action": "update_quiz",
+      "entity": "Lesson",
+      "entityId": "ac3c83285dc81ae525f00665",
+      "description": "",
+      "metadata": {
+        "title": "Ôn tập Chuong4_Tuong_tranh_va_dong_bo",
+        "duration": 75,
+        "counts": {
+          "mcq": 50,
+          "tf": 0,
+          "fill": 0
+        }
+      },
+      "ipAddress": "116.96.47.56",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "createdAt": "2026-10-10T18:01:30.492Z"
+    }
+  ]
+}
