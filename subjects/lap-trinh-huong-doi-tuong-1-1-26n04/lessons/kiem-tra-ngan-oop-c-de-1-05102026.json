@@ -9,5 +9,7 @@
   "model": null,
   "isPublished": true,
   "createdAt": "2026-10-05T06:05:13.207Z",
-  "updatedAt": "2026-10-06T09:25:17.191Z"
+  "updatedAt": "2026-10-11T01:19:45.641Z",
+  "isDeleted": true,
+  "deletedAt": "2026-10-11T01:19:45.641Z"
 }
