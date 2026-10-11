@@ -1,0 +1,23 @@
+{
+  "lessonId": "6acb629ec4cd6bb7aae94045",
+  "type": "essay",
+  "title": "(10/10/2026) Đề 2",
+  "slug": "10102026-de-2",
+  "subjectSlug": "lap-trinh-huong-doi-tuong-1-1-26n04",
+  "description": "",
+  "contentHtml": "<div class=\"de-bai\">\n\n<div class=\"bai\">\n  <h3>Bài 2.</h3>\n  <p>Để quản lý 2 công ty Phần mềm và Vận tải, cần tạo các lớp:</p>\n  <p>Lớp CTY gồm các thuộc tính (private): ten (tên công ty), ntl (năm thành lập). Lớp CTYPM dẫn xuất từ lớp CTY, gồm các thuộc tính (private): sltv (số lập trình viên). Lớp CTYVT dẫn xuất từ lớp CTY, gồm các thuộc tính (private): soto (số ô tô)</p>\n  <p>Viết hàm main() để thực hiện các yêu cầu sau:<br>\n  + Nhập danh sách n công ty phần mềm và m công ty vận tải.<br>\n  + In tên các công ty phần mềm thành lập sau năm 2000 và có trên 20 lập trình viên.<br>\n  + In các công ty vận tải thành lập trước năm 2000 và có không quá 10 ô tô.</p>\n</div>\n\n</div>",
+  "sampleSolution": "",
+  "duration": 30,
+  "model": null,
+  "promptId": null,
+  "aiKeyId": null,
+  "isPublished": true,
+  "isDeleted": false,
+  "createdBy": {
+    "id": "6ab3d694415010bf620349e5",
+    "name": "Mai Ngọc Hùng Anh",
+    "email": "hunganh.okokok.0@gmail.com"
+  },
+  "createdAt": "2026-10-11T10:19:10.743Z",
+  "updatedAt": "2026-10-11T10:19:10.743Z"
+}
