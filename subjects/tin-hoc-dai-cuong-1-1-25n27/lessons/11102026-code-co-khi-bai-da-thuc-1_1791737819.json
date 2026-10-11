@@ -13,13 +13,9 @@
   "aiKeyId": null,
   "isPublished": true,
   "isDeleted": false,
-  "createdBy": {
-    "id": "6ab3d694415010bf620349e5",
-    "name": "Mai Ngọc Hùng Anh",
-    "email": "hunganh.okokok.0@gmail.com"
-  },
+  "createdBy": "6ab3d694415010bf620349e5",
   "createdAt": "2026-10-11T16:56:59.449Z",
-  "updatedAt": "2026-10-11T17:24:44.074Z",
+  "updatedAt": "2026-10-11T17:24:45.459Z",
   "order": 0,
   "analysisAiKeyIds": [],
   "updatedBy": "6ab3d694415010bf620349e5",
