@@ -1,8 +1,8 @@
 {
   "lessonId": "6acc3d1a67061fd9b825a792",
   "type": "essay",
-  "title": "(Code 8086 - Giữa kì) Bài 1: Cộng hai số có một chữ số",
-  "slug": "code-8086-giua-ki-bai-1-cong-hai-so-co-mot-chu-so",
+  "title": "(12/10/2026 - Code 8086 - Giữa kì) Bài 1: Cộng hai số có một chữ số",
+  "slug": "12102026-code-8086-giua-ki-bai-1-cong-hai-so-co-mot-chu-so",
   "subjectSlug": "kien-truc-va-to-chuc-may-tinh-1-1-26n06",
   "description": "",
   "contentHtml": "<div class=\"de-bai\">\n  <h3>Bài 1: Cộng hai số có một chữ số</h3>\n  <p>Viết chương trình hợp ngữ 8086 yêu cầu nhập vào hai số, mỗi số có <b>một chữ số</b>, rồi in ra tổng của hai số đó.</p>\n  <p><b>Ví dụ:</b></p>\n  <pre>nhap so thu nhat: 3\nnhap so thu hai: 5\ntong hai so: 08</pre>\n  <p><b>Cách làm:</b></p>\n  <ul>\n    <li>In thông báo bằng hàm 9 của ngắt 21h (chuỗi kết thúc bằng ký tự $).</li>\n    <li>Nhập ký tự bằng hàm 1 của ngắt 21h, ký tự nhận được nằm trong AL. Trừ đi 48 để đổi từ ký tự sang số.</li>\n    <li>Cất số thứ nhất vào BL, nhập số thứ hai rồi cộng vào BL.</li>\n    <li>Tổng tối đa là 18 nên có thể có hai chữ số. Chia tổng cho 10: thương (AL) là chữ số hàng chục, số dư (AH) là chữ số hàng đơn vị.</li>\n    <li>In từng chữ số bằng hàm 2 của ngắt 21h (ký tự cần in để trong DL). Cộng thêm 48 để đổi từ số sang ký tự.</li>\n  </ul>\n</div>",
@@ -13,9 +13,13 @@
   "aiKeyId": null,
   "isPublished": true,
   "isDeleted": false,
-  "createdBy": "6ab3d694415010bf620349e5",
+  "createdBy": {
+    "id": "6ab3d694415010bf620349e5",
+    "name": "Mai Ngọc Hùng Anh",
+    "email": "hunganh.okokok.0@gmail.com"
+  },
   "createdAt": "2026-10-12T01:51:22.067Z",
-  "updatedAt": "2026-10-12T01:51:23.501Z",
+  "updatedAt": "2026-10-12T02:54:53.218Z",
   "order": 0,
   "analysisAiKeyIds": [],
   "updatedBy": "6ab3d694415010bf620349e5",
