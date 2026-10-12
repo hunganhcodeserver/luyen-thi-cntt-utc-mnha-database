@@ -1,7 +1,7 @@
 {
   "submissionId": "6acc5ddab1d524a40714b566",
   "submittedAt": "2026-10-12T04:11:06.314Z",
-  "gradedAt": "2026-10-12T04:11:25.196Z",
+  "gradedAt": "2026-10-12T04:11:24.770Z",
   "status": "graded",
   "errorMessage": null,
   "userId": "6ab3d694415010bf620349e5",
@@ -99,5 +99,8 @@
         "explanation": "Đoạn mã mới chỉ nhập chữ số hàng chục của số thứ hai rồi nhân 10, bị thiếu thao tác nhập tiếp chữ số hàng đơn vị rồi cộng dồn vào BH."
       }
     ]
-  }
+  },
+  "type": "essay",
+  "teacherComment": null,
+  "updatedAt": "2026-10-12T04:11:28.724Z"
 }
