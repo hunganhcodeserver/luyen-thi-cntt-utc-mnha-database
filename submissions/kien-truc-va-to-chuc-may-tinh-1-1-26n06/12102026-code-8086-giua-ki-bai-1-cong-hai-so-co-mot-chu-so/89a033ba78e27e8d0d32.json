@@ -1,7 +1,7 @@
 {
   "submissionId": "6acc52f5d8eff4597e440ca5",
   "submittedAt": "2026-10-12T03:24:37.832Z",
-  "gradedAt": "2026-10-12T03:25:25.839Z",
+  "gradedAt": "2026-10-12T03:25:25.412Z",
   "status": "graded",
   "errorMessage": null,
   "userId": "6ab3d694415010bf620349e5",
@@ -179,5 +179,8 @@
         "explanation": "Lưu đồ cần đúng quy ước ký hiệu khối để phân biệt điểm đầu/cuối, khối nhập/xuất và khối xử lý."
       }
     ]
-  }
+  },
+  "type": "essay",
+  "teacherComment": null,
+  "updatedAt": "2026-10-12T03:25:29.670Z"
 }
