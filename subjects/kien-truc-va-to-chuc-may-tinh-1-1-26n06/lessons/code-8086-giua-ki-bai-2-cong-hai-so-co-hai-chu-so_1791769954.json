@@ -1,8 +1,8 @@
 {
   "lessonId": "6acc3d6299efe282d88ee9ca",
   "type": "essay",
-  "title": "(Code 8086 - Giữa kì) Bài 2: Cộng hai số có hai chữ số",
-  "slug": "code-8086-giua-ki-bai-2-cong-hai-so-co-hai-chu-so",
+  "title": "(12/10/2026 - Code 8086 - Giữa kì) Bài 2: Cộng hai số có hai chữ số",
+  "slug": "12102026-code-8086-giua-ki-bai-2-cong-hai-so-co-hai-chu-so",
   "subjectSlug": "kien-truc-va-to-chuc-may-tinh-1-1-26n06",
   "description": "",
   "contentHtml": "<div class=\"de-bai\">\n  <h3>Bài 2: Cộng hai số có hai chữ số</h3>\n  <p>Viết chương trình hợp ngữ 8086 yêu cầu nhập vào hai số, mỗi số có <b>hai chữ số</b>, rồi in ra tổng của hai số đó.</p>\n  <p><b>Ví dụ:</b></p>\n  <pre>nhap so thu nhat: 23\nnhap so thu hai: 45\ntong hai so: 68</pre>\n  <p><b>Cách làm:</b></p>\n  <ul>\n    <li>Mỗi số nhập hai lần (chữ số hàng chục trước, hàng đơn vị sau); mỗi lần trừ 48 để đổi sang số.</li>\n    <li>Ghép số: lấy chữ số hàng chục nhân với 10 (lệnh mul, kết quả nằm trong AX), rồi cộng chữ số hàng đơn vị.</li>\n    <li>Lưu số thứ nhất vào BL, số thứ hai vào BH. Cộng hai thanh ghi để được tổng.</li>\n    <li>Trước khi chia cho 10 phải gán AH = 0 để phép chia byte chính xác. Thương là chữ số hàng chục, số dư là chữ số hàng đơn vị.</li>\n    <li>In hai chữ số bằng hàm 2 của ngắt 21h (cộng 48 để đổi sang ký tự).</li>\n  </ul>\n</div>",
@@ -13,9 +13,13 @@
   "aiKeyId": null,
   "isPublished": true,
   "isDeleted": false,
-  "createdBy": "6ab3d694415010bf620349e5",
+  "createdBy": {
+    "id": "6ab3d694415010bf620349e5",
+    "name": "Mai Ngọc Hùng Anh",
+    "email": "hunganh.okokok.0@gmail.com"
+  },
   "createdAt": "2026-10-12T01:52:34.002Z",
-  "updatedAt": "2026-10-12T01:52:35.661Z",
+  "updatedAt": "2026-10-12T02:53:28.593Z",
   "order": 0,
   "analysisAiKeyIds": [],
   "updatedBy": "6ab3d694415010bf620349e5",
