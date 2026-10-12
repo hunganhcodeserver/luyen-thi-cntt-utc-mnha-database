@@ -1,7 +1,7 @@
 {
   "submissionId": "6acc6506bd11d16e4815db1b",
   "submittedAt": "2026-10-12T04:41:42.384Z",
-  "gradedAt": "2026-10-12T04:42:28.898Z",
+  "gradedAt": "2026-10-12T04:42:27.514Z",
   "status": "failed",
   "errorMessage": "Gemini SDK timeout sau 45000ms",
   "userId": "6ab3d694415010bf620349e5",
@@ -29,9 +29,12 @@
   "sampleComparison": null,
   "model": "gemini-flash-latest",
   "aiKeyId": null,
-  "aiKeyName": null,
-  "aiProvider": null,
+  "aiKeyName": "hunganh.okokok.0@gmail.com",
+  "aiProvider": "gemini",
   "latencyMs": null,
   "promptSnapshot": null,
-  "raw": null
+  "raw": null,
+  "type": "essay",
+  "teacherComment": null,
+  "updatedAt": "2026-10-12T04:42:31.558Z"
 }
