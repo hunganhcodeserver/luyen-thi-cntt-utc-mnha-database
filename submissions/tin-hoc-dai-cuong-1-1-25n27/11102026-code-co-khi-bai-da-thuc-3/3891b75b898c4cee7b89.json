@@ -1,7 +1,7 @@
 {
   "submissionId": "6acc3dea9cf20414d9272d46",
   "submittedAt": "2026-10-12T01:54:50.519Z",
-  "gradedAt": "2026-10-12T01:54:56.081Z",
+  "gradedAt": "2026-10-12T01:54:55.823Z",
   "status": "failed",
   "errorMessage": "Không phân tích được hình vẽ (bước đọc ảnh): {\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}",
   "userId": "6ab3d694415010bf620349e5",
@@ -29,9 +29,12 @@
   "sampleComparison": null,
   "model": "gemini-flash-latest",
   "aiKeyId": null,
-  "aiKeyName": null,
-  "aiProvider": null,
+  "aiKeyName": "hunganh.okokok.0@gmail.com",
+  "aiProvider": "gemini",
   "latencyMs": null,
   "promptSnapshot": null,
-  "raw": null
+  "raw": null,
+  "type": "essay",
+  "teacherComment": null,
+  "updatedAt": "2026-10-12T01:55:02.487Z"
 }
