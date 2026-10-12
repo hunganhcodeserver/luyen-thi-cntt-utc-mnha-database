@@ -1,0 +1,23 @@
+{
+  "lessonId": "6acc3fb09cf20414d9272d48",
+  "type": "essay",
+  "title": "(Code 8086 - Giữa kì) Bài 4: Nhập một số bất kỳ rồi in ra",
+  "slug": "code-8086-giua-ki-bai-4-nhap-mot-so-bat-ky-roi-in-ra",
+  "subjectSlug": "kien-truc-va-to-chuc-may-tinh-1-1-26n06",
+  "description": "",
+  "contentHtml": "<div class=\"de-bai\">\n  <h3>Bài 4: Nhập một số bất kỳ rồi in ra</h3>\n  <p>Viết chương trình hợp ngữ 8086 yêu cầu nhập một số (nhiều chữ số, nhập đến khi nhấn Enter) rồi in lại số vừa nhập.</p>\n  <p><b>Ví dụ:</b></p>\n  <pre>nhap so: 125\nso vua nhap 125</pre>\n  <p><b>Cách làm:</b></p>\n  <ul>\n    <li>Nhập từng ký tự bằng hàm 1 của ngắt 21h. Nếu ký tự là 13 (phím Enter) thì dừng nhập.</li>\n    <li>Với mỗi chữ số nhập vào: trừ 48 để đổi sang số, lấy số đang lưu nhân 10 rồi cộng chữ số mới. Số đang lưu ban đầu bằng 0.</li>\n    <li>Để in số: chia số cho 10 liên tục, mỗi lần chia xong thì đẩy (push) số dư vào ngăn xếp và đếm số lần đẩy bằng CX. Dừng khi thương bằng 0.</li>\n    <li>Lấy các chữ số ra bằng pop. Do ngăn xếp là cấu trúc vào sau ra trước nên chữ số đầu tiên lấy ra là chữ số hàng cao nhất. In từng chữ số (cộng 48) bằng vòng lặp loop.</li>\n  </ul>\n</div>",
+  "sampleSolution": "<div class=\"loi-giai\">\n  <h3>Lời giải Bài 4</h3>\n<pre><code>; nhap n, tinh s = 1 + 2 + 3...\n.model small\n.stack 100h\n.data\n\n    ms1 db  10, 13, \"nhap so: $\"\n    ms2 db  10, 13, \"so vua nhap $\"\n    a   db  0\n.code\n    main proc\n        mov ax, @data\n        mov ds, ax\n        \n        \n        mov ah, 9\n        lea dx, ms1\n        int 21h\n        \n        mov bl, 10\n        mov bh, 0   ; so dau tien = 0\nnhaptiep:        \n        mov ah,1\n        int 21h\n        cmp al, 13\n        je  stop1\n        sub al, 48\n        mov a, al\n        mov al, bh\n        mul bl\n        add al, a\n        mov bh, al\n        jmp nhaptiep\nstop1:\n        \n        mov ah, 9\n        lea dx, ms2\n        int 21h\n        \n        mov al, bh\n        mov cx , 0\n        \n        mov bl, 10\nchiatiep:\n        mov ah, 0        \n        div bl          ; thuong: al, du: ah\n        \n        cmp al, 0\n        \n        je  stop2        ; neu thuong = 0 -> in\n        \n        push ax\n        inc cl\n        \n        jmp chiatiep\nstop2:\n        push ax\n        inc cl\ninso:\n        mov ah, 2\n        pop dx\n        mov dl, dh\n        add dl, 48\n        int 21h\n        loop inso\n        \n                \n            \n           \n        mov ah, 4ch\n        int 21h\n        main endp\n    end main</code></pre>\n  <p><b>Nhận xét:</b> dòng comment đầu chương trình ghi \"tính s = 1 + 2 + 3...\" nhưng chương trình thực tế không tính tổng; nó chỉ nhập một số rồi in lại số đó. Số được lưu trong một thanh ghi 8 bit nên chỉ nhập được giá trị tối đa 255. Khi gọi <code>pop dx</code>, số dư (nằm ở AH lúc push) trở về DH nên mới có lệnh <code>mov dl, dh</code> trước khi in.</p>\n</div>",
+  "duration": 60,
+  "model": null,
+  "promptId": null,
+  "aiKeyId": null,
+  "isPublished": true,
+  "isDeleted": false,
+  "createdBy": {
+    "id": "6ab3d694415010bf620349e5",
+    "name": "Mai Ngọc Hùng Anh",
+    "email": "hunganh.okokok.0@gmail.com"
+  },
+  "createdAt": "2026-10-12T02:02:24.049Z",
+  "updatedAt": "2026-10-12T02:02:24.049Z"
+}
