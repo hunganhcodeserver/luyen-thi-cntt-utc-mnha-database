@@ -1,8 +1,8 @@
 {
   "lessonId": "6acc3f4f9cf20414d9272d47",
   "type": "essay",
-  "title": "(Code 8086 - Giữa kì) Bài 3: Cộng hai số có hai chữ số (dùng biến nhớ)",
-  "slug": "code-8086-giua-ki-bai-3-cong-hai-so-co-hai-chu-so-dung-bien-nho",
+  "title": "(12/10/2026 - Code 8086 - Giữa kì) Bài 3: Cộng hai số có hai chữ số (dùng biến nhớ)",
+  "slug": "12102026-code-8086-giua-ki-bai-3-cong-hai-so-co-hai-chu-so-dung-bien-nho",
   "subjectSlug": "kien-truc-va-to-chuc-may-tinh-1-1-26n06",
   "description": "",
   "contentHtml": "<div class=\"de-bai\">\n  <h3>Bài 3: Cộng hai số có hai chữ số (dùng biến nhớ)</h3>\n  <p>Giống Bài 2: nhập hai số có hai chữ số rồi in tổng. Yêu cầu khai báo hai biến <code>a</code>, <code>b</code> kiểu byte trong đoạn dữ liệu và dùng biến <code>a</code> để lưu số thứ nhất.</p>\n  <p><b>Ví dụ:</b></p>\n  <pre>nhap so thu nhat: 23\nnhap so thu hai: 45\ntong hai so: 68</pre>\n  <p><b>Cách làm:</b></p>\n  <ul>\n    <li>Nhập và ghép số thứ nhất như Bài 2, sau đó cất vào biến <code>a</code> để giải phóng thanh ghi.</li>\n    <li>Nhập và ghép số thứ hai vào BL, rồi cộng với biến <code>a</code>.</li>\n    <li>Chia tổng cho 10 (nhớ gán AH = 0 trước khi chia), cất số dư vào biến <code>a</code> rồi in hai chữ số.</li>\n  </ul>\n</div>",
@@ -13,9 +13,13 @@
   "aiKeyId": null,
   "isPublished": true,
   "isDeleted": false,
-  "createdBy": "6ab3d694415010bf620349e5",
+  "createdBy": {
+    "id": "6ab3d694415010bf620349e5",
+    "name": "Mai Ngọc Hùng Anh",
+    "email": "hunganh.okokok.0@gmail.com"
+  },
   "createdAt": "2026-10-12T02:00:47.900Z",
-  "updatedAt": "2026-10-12T02:00:49.293Z",
+  "updatedAt": "2026-10-12T02:53:13.032Z",
   "order": 0,
   "analysisAiKeyIds": [],
   "updatedBy": "6ab3d694415010bf620349e5",
