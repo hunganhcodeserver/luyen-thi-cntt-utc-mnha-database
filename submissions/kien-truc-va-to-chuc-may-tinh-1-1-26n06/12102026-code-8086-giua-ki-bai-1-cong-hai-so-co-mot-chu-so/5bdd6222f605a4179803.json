@@ -1,0 +1,107 @@
+{
+  "submissionId": "6acc514d89d20e4142827e4d",
+  "submittedAt": "2026-10-12T03:17:33.260Z",
+  "gradedAt": "2026-10-12T03:17:57.029Z",
+  "status": "graded",
+  "errorMessage": null,
+  "userId": "6ab3d694415010bf620349e5",
+  "userName": "Mai Ngọc Hùng Anh",
+  "userEmail": "hunganh.okokok.0@gmail.com",
+  "subjectId": "6ab5aeec813f0f6c24604456",
+  "subjectName": "Kiến trúc và tổ chức máy tính-1-1-26(N06)",
+  "subjectCode": "IT1.107.3",
+  "subjectSlug": "kien-truc-va-to-chuc-may-tinh-1-1-26n06",
+  "lessonId": "6acc3d1a67061fd9b825a792",
+  "lessonTitle": "(12/10/2026 - Code 8086 - Giữa kì) Bài 1: Cộng hai số có một chữ số",
+  "lessonSlug": "12102026-code-8086-giua-ki-bai-1-cong-hai-so-co-mot-chu-so",
+  "lessonDuration": 60,
+  "lessonContentHtml": "<div class=\"de-bai\">\n  <h3>Bài 1: Cộng hai số có một chữ số</h3>\n  <p>Viết chương trình hợp ngữ 8086 yêu cầu nhập vào hai số, mỗi số có <b>một chữ số</b>, rồi in ra tổng của hai số đó.</p>\n  <p><b>Ví dụ:</b></p>\n  <pre>nhap so thu nhat: 3\nnhap so thu hai: 5\ntong hai so: 08</pre>\n  <p><b>Cách làm:</b></p>\n  <ul>\n    <li>In thông báo bằng hàm 9 của ngắt 21h (chuỗi kết thúc bằng ký tự $).</li>\n    <li>Nhập ký tự bằng hàm 1 của ngắt 21h, ký tự nhận được nằm trong AL. Trừ đi 48 để đổi từ ký tự sang số.</li>\n    <li>Cất số thứ nhất vào BL, nhập số thứ hai rồi cộng vào BL.</li>\n    <li>Tổng tối đa là 18 nên có thể có hai chữ số. Chia tổng cho 10: thương (AL) là chữ số hàng chục, số dư (AH) là chữ số hàng đơn vị.</li>\n    <li>In từng chữ số bằng hàm 2 của ngắt 21h (ký tự cần in để trong DL). Cộng thêm 48 để đổi từ số sang ký tự.</li>\n  </ul>\n</div>",
+  "lessonSampleSolution": "<div class=\"loi-giai\">\n  <h3>Lời giải Bài 1</h3>\n<pre><code>.model small\n.stack 100h\n.data\n    ms1 db  'nhap so thu nhat: $'\n    ms2 db  10, 13, 'nhap so thu hai: $'\n    ms3 db  10, 13, 'tong hai so: $'\n\n.code\nmain proc\n    mov ax, @data\n    mov ds, ax\n    \n    mov ah, 9\n    lea dx, ms1\n    int 21h\n    \n    mov ah, 1\n    int 21h\n    \n    sub al, 48  ; doi thanh so\n    mov bl, al  ; luu tam vao bl\n    \n    mov ah, 9\n    lea dx, ms2\n    int 21h\n    \n    mov ah, 1\n    int 21h\n    sub al, 48\n    \n    add bl, al  ; tong luu trong bl\n    \n    mov ah, 9\n    lea dx, ms3\n    int 21h\n    \n    ;mov ah, 0\n    mov al, bl\n    mov bh, 10\n    div bh      ; al: thuong, ah: du\n    \n    mov bh, ah\n    \n    mov ah, 2\n    mov dl, al\n    add dl, 48\n    int 21h\n    \n    mov dl, bh\n    add dl, 48\n    int 21h\n    \n    \n    mov ah, 4ch\n    int 21h\n    \n    main endp\nend main</code></pre>\n  <p><b>Nhận xét:</b> dòng <code>;mov ah, 0</code> đang bị comment. Sau khi in chuỗi bằng hàm 9, AH vẫn bằng 9 nên khi chia, AX = 09xxh và thương vượt quá 255, gây lỗi tràn (divide overflow). Cần bỏ dấu <code>;</code> để AH = 0 trước khi chia. Chương trình chỉ in đúng khi tổng có thể tách thành hai chữ số (tối đa 18, in dạng 08, 18...).</p>\n</div>",
+  "answerHtml": ".model small\n.stack 100h\n.data\n    ms1 db  'nhap so thu nhat: $'          ;thong bao nhap so thu nhat\n    ms2 db  10, 13, 'nhap so thu hai: $'   ;10, 13: xuong dong + ve dau dong\n    ms3 db  10, 13, 'tong hai so: $'       ;thong bao hien thi ket qua\n\n.code\nmain proc\n    ;khoi tao doan du lieu\n    mov ax, @data\n    mov ds, ax\n\n    ;in thong bao nhap so thu nhat\n    mov ah, 9           ;ham 9: hien thi chuoi ket thuc bang $\n    lea dx, ms1         ;dx = dia chi chuoi ms1\n    int 21h\n\n    ;nhap so thu nhat\n    mov ah, 1           ;ham 1: doc 1 ky tu tu ban phim, luu vao al\n    int 21h\n\n    sub al, 48          ;doi ky tu ASCII thanh so ('0' = 48)\n    mov bl, al          ;luu so thu nhat vao bl\n\n    ;in thong bao nhap so thu hai\n    mov ah, 9\n    lea dx, ms2\n    int 21h\n\n    ;nhap so thu hai\n    mov ah, 1\n    int 21h\n    sub al, 48          ;doi ky tu ASCII thanh so, ket qua o al\n\n    ;tinh tong\n    add bl, al          ;bl = so thu nhat + so thu hai\n\n    ;in thong bao ket qua\n    mov ah, 9\n    lea dx, ms3\n    int 21h\n\n    ;tach tong thanh chu so hang chuc va hang don vi\n    mov ah, 0           ;xoa ah de ax = tong (div 8 bit chia ax cho toan hang)\n    mov al, bl          ;al = tong\n    mov bh, 10          ;bh = so chia\n    div bh              ;al: thuong (hang chuc), ah: du (hang don vi)\n\n    mov bh, ah          ;cat chu so hang don vi vao bh (vi ah sap bi ghi de)\n\n    ;hien thi chu so hang chuc\n    mov ah, 2           ;ham 2: hien thi 1 ky tu trong dl\n    mov dl, al          ;dl = chu so hang chuc\n    add dl, 48          ;doi thanh ky tu ASCII\n    int 21h\n\n    ;hien thi chu so hang don vi\n    mov dl, bh          ;dl = chu so hang don vi (ah van = 2 nen khong can gan lai)\n    add dl, 48          ;doi thanh ky tu ASCII\n    int 21h\n\n    ;ket thuc chuong trinh\n    mov ah, 4ch         ;ham 4ch: thoat ve he dieu hanh\n    int 21h\n\n    main endp\nend main",
+  "hasDrawing": false,
+  "drawingFile": null,
+  "drawingMime": null,
+  "drawingAnalysis": null,
+  "score": 10,
+  "feedback": "Bài làm chính xác và đầy đủ theo yêu cầu đề bài. Sinh viên dùng đúng hàm 9 (in chuỗi kết thúc bằng $), hàm 1 (nhập ký tự vào AL, trừ 48 để đổi sang số), lưu số thứ nhất vào BL rồi cộng số thứ hai, chia cho 10 để tách hàng chục/hàng đơn vị và in bằng hàm 2 (cộng 48 để đổi về ký tự). Điểm đáng khen nhất: sinh viên đã đặt `mov ah, 0` trước khi `div bh` — đây chính là chỗ dễ sai nhất (nếu thiếu, AH vẫn bằng 9 sau khi in chuỗi, AX = 09xxh làm thương vượt 255 gây lỗi divide overflow). Việc cất số dư vào BH trước khi ghi AH = 2 cũng xử lý đúng. Chú thích trong bài rõ ràng, giải thích được lý do từng bước. Không phát hiện lỗi nào.",
+  "breakdown": [
+    {
+      "criterion": "Khai báo cấu trúc chương trình (.model, .stack, .data, .code, khởi tạo DS)",
+      "score": 2,
+      "comment": "Khai báo đầy đủ, nạp @data vào DS đúng cách; ba chuỗi thông báo đều kết thúc bằng $ và có 10,13 để xuống dòng."
+    },
+    {
+      "criterion": "In thông báo (hàm 9) và nhập số (hàm 1), đổi ký tự sang số",
+      "score": 2.5,
+      "comment": "Dùng đúng `mov ah,9` + `lea dx, msX` và `mov ah,1`; trừ 48 sau mỗi lần nhập để chuyển ASCII sang giá trị số."
+    },
+    {
+      "criterion": "Tính tổng, lưu trung gian đúng thanh ghi",
+      "score": 2,
+      "comment": "Cất số thứ nhất vào BL rồi `add bl, al` — không bị mất dữ liệu khi gọi ngắt 21h ở giữa."
+    },
+    {
+      "criterion": "Tách chữ số hàng chục/đơn vị bằng phép chia",
+      "score": 2.5,
+      "comment": "Xóa AH về 0 trước khi chia (tránh divide overflow), `mov bh,10` rồi `div bh` cho thương ở AL và số dư ở AH; bảo toàn số dư vào BH trước khi dùng AH cho hàm 2."
+    },
+    {
+      "criterion": "In kết quả hai chữ số (hàm 2) và kết thúc chương trình",
+      "score": 1,
+      "comment": "In lần lượt hàng chục rồi hàng đơn vị, cộng 48 để về ASCII; kết thúc bằng hàm 4Ch. Kết quả đúng dạng ví dụ (08)."
+    }
+  ],
+  "grammar": null,
+  "sampleComparison": null,
+  "model": "occ/claude-opus-5",
+  "aiKeyId": "6abfdf08b29c124d59ccc66b",
+  "aiKeyName": "hunganh2006",
+  "aiProvider": "vilao",
+  "latencyMs": 23334,
+  "promptSnapshot": {
+    "kind": "essay",
+    "promptId": null,
+    "name": "Fallback mặc định (hardcoded)",
+    "content": "Bạn là giáo viên chấm bài. Hãy chấm bài viết sau dựa trên đề bài và rubric.\n\nĐề bài:\n{đề_bài}\n\nBài làm sinh viên (phần nhập chữ):\n{bài_làm}\n\nPhần vẽ tay của sinh viên (đã được bước phân tích hình ảnh đọc trước):\n{hình_vẽ}\n\nLời giải mẫu (nếu có, chỉ dùng để đối chiếu ý, không chép nguyên văn vào feedback):\n{lời_giải_mẫu}\n\nRubric: {rubric}\nĐiểm tối đa: {max_score}\n\nQUY TẮC CHẤM KẾT HỢP CHỮ + HÌNH VẼ:\n- Nếu có cả phần nhập chữ và phần vẽ tay: chấm CẢ HAI theo đề bài/rubric, cho một điểm tổng duy nhất.\n- Nếu chỉ có một phần: chỉ chấm phần đó, KHÔNG trừ điểm vì phần sinh viên không nộp.\n\nQUY TẮC PHÁT HIỆN LỖI:\n- Chỉ liệt kê lỗi khi lỗi thực sự tồn tại trong bài làm, không tự bịa.\n- Nếu đề bài/rubric không đủ căn cứ để xác định một lỗi cụ thể, bỏ qua, không đoán.\n- Mỗi lỗi nêu rõ: câu gốc sai, câu đã sửa, giải thích ngắn gọn.\n\nChỉ trả về JSON hợp lệ, không Markdown, không giải thích ngoài JSON:\n{\n  \"score\": number,\n  \"feedback\": string,\n  \"breakdown\": [{ \"criterion\": string, \"score\": number, \"comment\": string }],\n  \"errors\": [{ \"original\": string, \"corrected\": string, \"explanation\": string }]\n}",
+    "rubric": null,
+    "strictness": "normal",
+    "maxScore": 10,
+    "scope": "fallback",
+    "version": 0,
+    "isFallback": true,
+    "unknownPlaceholders": [],
+    "snapshotAt": "2026-10-12T03:17:56.596Z"
+  },
+  "raw": {
+    "score": 10,
+    "feedback": "Bài làm chính xác và đầy đủ theo yêu cầu đề bài. Sinh viên dùng đúng hàm 9 (in chuỗi kết thúc bằng $), hàm 1 (nhập ký tự vào AL, trừ 48 để đổi sang số), lưu số thứ nhất vào BL rồi cộng số thứ hai, chia cho 10 để tách hàng chục/hàng đơn vị và in bằng hàm 2 (cộng 48 để đổi về ký tự). Điểm đáng khen nhất: sinh viên đã đặt `mov ah, 0` trước khi `div bh` — đây chính là chỗ dễ sai nhất (nếu thiếu, AH vẫn bằng 9 sau khi in chuỗi, AX = 09xxh làm thương vượt 255 gây lỗi divide overflow). Việc cất số dư vào BH trước khi ghi AH = 2 cũng xử lý đúng. Chú thích trong bài rõ ràng, giải thích được lý do từng bước. Không phát hiện lỗi nào.",
+    "breakdown": [
+      {
+        "criterion": "Khai báo cấu trúc chương trình (.model, .stack, .data, .code, khởi tạo DS)",
+        "score": 2,
+        "comment": "Khai báo đầy đủ, nạp @data vào DS đúng cách; ba chuỗi thông báo đều kết thúc bằng $ và có 10,13 để xuống dòng."
+      },
+      {
+        "criterion": "In thông báo (hàm 9) và nhập số (hàm 1), đổi ký tự sang số",
+        "score": 2.5,
+        "comment": "Dùng đúng `mov ah,9` + `lea dx, msX` và `mov ah,1`; trừ 48 sau mỗi lần nhập để chuyển ASCII sang giá trị số."
+      },
+      {
+        "criterion": "Tính tổng, lưu trung gian đúng thanh ghi",
+        "score": 2,
+        "comment": "Cất số thứ nhất vào BL rồi `add bl, al` — không bị mất dữ liệu khi gọi ngắt 21h ở giữa."
+      },
+      {
+        "criterion": "Tách chữ số hàng chục/đơn vị bằng phép chia",
+        "score": 2.5,
+        "comment": "Xóa AH về 0 trước khi chia (tránh divide overflow), `mov bh,10` rồi `div bh` cho thương ở AL và số dư ở AH; bảo toàn số dư vào BH trước khi dùng AH cho hàm 2."
+      },
+      {
+        "criterion": "In kết quả hai chữ số (hàm 2) và kết thúc chương trình",
+        "score": 1,
+        "comment": "In lần lượt hàng chục rồi hàng đơn vị, cộng 48 để về ASCII; kết thúc bằng hàm 4Ch. Kết quả đúng dạng ví dụ (08)."
+      }
+    ],
+    "errors": []
+  }
+}
