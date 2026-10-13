@@ -1,7 +1,7 @@
 {
   "submissionId": "6acdb0b5fba1956e3d7f629c",
   "submittedAt": "2026-10-13T04:16:53.036Z",
-  "gradedAt": "2026-10-13T04:17:21.801Z",
+  "gradedAt": "2026-10-13T04:17:21.331Z",
   "status": "graded",
   "errorMessage": null,
   "userId": "6ab3d694415010bf620349e5",
@@ -93,5 +93,8 @@
       }
     ],
     "errors": []
-  }
+  },
+  "type": "essay",
+  "teacherComment": null,
+  "updatedAt": "2026-10-13T04:17:26.427Z"
 }
