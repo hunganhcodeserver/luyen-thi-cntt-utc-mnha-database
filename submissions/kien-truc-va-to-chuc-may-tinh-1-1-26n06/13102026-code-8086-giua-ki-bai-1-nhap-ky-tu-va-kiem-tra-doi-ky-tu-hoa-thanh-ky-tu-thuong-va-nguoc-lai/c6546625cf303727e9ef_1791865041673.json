@@ -1,0 +1,97 @@
+{
+  "submissionId": "6acdb0b5fba1956e3d7f629c",
+  "submittedAt": "2026-10-13T04:16:53.036Z",
+  "gradedAt": "2026-10-13T04:17:21.801Z",
+  "status": "graded",
+  "errorMessage": null,
+  "userId": "6ab3d694415010bf620349e5",
+  "userName": "Mai Ngọc Hùng Anh",
+  "userEmail": "hunganh.okokok.0@gmail.com",
+  "subjectId": "6ab5aeec813f0f6c24604456",
+  "subjectName": "Kiến trúc và tổ chức máy tính-1-1-26(N06)",
+  "subjectCode": "IT1.107.3",
+  "subjectSlug": "kien-truc-va-to-chuc-may-tinh-1-1-26n06",
+  "lessonId": "6acda82bacfec1ea0f7dac4f",
+  "lessonTitle": "(13/10/2026 - Code 8086 - Giữa kì) Bài 1: Nhập ký tự và kiểm tra, đổi ký tự hoa thành ký tự thường và ngược lại",
+  "lessonSlug": "13102026-code-8086-giua-ki-bai-1-nhap-ky-tu-va-kiem-tra-doi-ky-tu-hoa-thanh-ky-tu-thuong-va-nguoc-lai",
+  "lessonDuration": 60,
+  "lessonContentHtml": "<div class=\"de-bai\">\n  <h3>Bài 1: Nhập ký tự và kiểm tra, đổi ký tự hoa thành ký tự thường và ngược lại</h3>\n  <p>Viết chương trình hợp ngữ 8086 yêu cầu nhập một ký tự từ bàn phím, kiểm tra ký tự đó rồi in ra ký tự sau khi đổi: chữ hoa đổi thành chữ thường, chữ thường đổi thành chữ hoa. Nếu không phải chữ cái thì thông báo và không đổi.</p>\n  <p><b>Ví dụ:</b></p>\n  <pre>nhap ky tu: a\nky tu sau khi doi: A\n\nnhap ky tu: G\nky tu sau khi doi: g\n\nnhap ky tu: 5\nday khong phai chu cai</pre>\n  <p><b>Cách làm:</b></p>\n  <ul>\n    <li>In thông báo nhập bằng hàm 9 của ngắt 21h, rồi nhập 1 ký tự bằng hàm 1 của ngắt 21h. Ký tự nhập vào nằm trong thanh ghi AL, nên cất sang BL để dùng tiếp.</li>\n    <li>Kiểm tra chữ hoa: nếu 'A' (65) ≤ AL ≤ 'Z' (90) thì đây là chữ hoa. Đổi sang chữ thường bằng cách cộng 32.</li>\n    <li>Kiểm tra chữ thường: nếu 'a' (97) ≤ AL ≤ 'z' (122) thì đây là chữ thường. Đổi sang chữ hoa bằng cách trừ 32.</li>\n    <li>Nếu không thuộc hai khoảng trên thì in thông báo \"day khong phai chu cai\" rồi kết thúc.</li>\n    <li>In ký tự sau khi đổi bằng hàm 2 của ngắt 21h (đặt ký tự vào DL), sau đó kết thúc chương trình bằng hàm 4Ch.</li>\n  </ul>\n</div>",
+  "lessonSampleSolution": "",
+  "answerHtml": ".model small\n.stack 100h\n.data\n    tb1 db 'nhap ky tu: $'\n    tb2 db 'ky tu sau khi doi: $'\n    tb3 db 'day khong phai chu cai$'\n\n.code\n    main proc\n\n        ;khoi tao du lieu\n        mov ax, @data\n        mov ds, ax\n\n        ;in thong bao nhap ki tu\n        mov ah, 9\n        lea dx, tb1\n        int 21h\n\n        ;nhap 1 ki tu\n        mov ah, 1\n        int 21h\n        mov bl, al\n\n        call xuond_dong         ; xuong dong sau khi nhap (bl khong bi anh huong)\n\n        ;kiem tra chu hoa: 'A' (65) ≤ AL ≤ 'Z' (90)\n        cmp bl, 'A'             ; so sanh bl voi 65 (chi so sanh, khong sua bl)\n        jb  kt_thuong           ; neu bl < 65 -> nhay toi kt_thuong\n        cmp bl, 'Z'             ; so sanh bl voi 90\n        ja  kt_thuong           ; neu bl > 90 -> nhay toi kt_thuong\n        add bl, 32              ; chu hoa -> chu thuong (neu khong nhay o tren)\n        jmp in_kq               ; nhay vo dieu kien toi in_kq\n\n    kt_thuong:                      ; <-- nhan 1 \n        ;kiem tra chu thuong: 'a' (97) ≤ AL ≤ 'z' (122)\n        cmp bl, 'a'             ; so sanh bl voi 97\n        jb  khong_phai          ; neu bl < 97 -> khong phai chu cai\n        cmp bl, 'z'             ; so sanh bl voi 122\n        ja  khong_phai          ; neu bl > 122 -> khong phai chu cai\n        sub bl, 32              ; chu thuong -> chu hoa\n        jmp in_kq               ; nhay vo dieu kien toi in_kq\n\n    khong_phai:                     ; <-- nhan 2\n        mov ah, 9               ; ham 9: in chuoi\n        lea dx, tb3             ; DX tro toi chuoi bao loi\n        int 21h                 ; thuc hien in\n        jmp thoat               ; nhay toi ket thuc, bo qua in_kq\n\n    in_kq:                          ; <-- nhan 3\n        mov ah, 9               ; ham 9: in chuoi\n        lea dx, tb2             ; DX tro toi chuoi \"ky tu sau khi doi\"\n        int 21h                 ; thuc hien in\n        mov ah, 2               ; ham 2: in 1 ky tu trong DL\n        mov dl, bl              ; in ky tu da doi\n        int 21h                 ; thuc hien in\n\n        \n    thoat:                          ;ket thuc chuong trinh\n        call xuond_dong         ; xuong dong sau khi bao xong\n        mov ah, 4ch         ;ham 4ch: thoat ve he dieu hanh\n        int 21h\n\n    main endp\n\nxuond_dong proc\n    push ax\n    push dx\n    mov ah, 2       ;ham 2: in ki tu\n    mov dl, 13      ;ve dau dong\n    int 21h\n    mov dl, 10      ;xuong dong\n    int 21h\n    pop dx  \n    pop ax  \n    ret\nxuond_dong endp\n\n\nend main",
+  "hasDrawing": false,
+  "drawingFile": null,
+  "drawingMime": null,
+  "drawingAnalysis": null,
+  "score": 10,
+  "feedback": "Bài làm rất tốt, cấu trúc chương trình hợp ngữ 8086 rõ ràng và chuẩn xác. Các bước nhập xuất, so sánh phân nhánh để đổi chữ hoa thành chữ thường và ngược lại, cũng như xử lý trường hợp không phải chữ cái đều thực hiện chính xác theo yêu cầu đề bài. Thêm vào đó, bạn đã viết thủ tục xuống dòng riêng và có bảo toàn các thanh ghi (push/pop), thể hiện kỹ năng lập trình tốt.",
+  "breakdown": [
+    {
+      "criterion": "Cấu trúc chương trình và khai báo dữ liệu",
+      "score": 2,
+      "comment": "Khai báo đầy đủ các phân đoạn, chuỗi thông báo kết thúc bằng ký tự '$' đúng quy cách."
+    },
+    {
+      "criterion": "Nhập và lưu trữ ký tự",
+      "score": 2,
+      "comment": "Sử dụng đúng hàm 01h của ngắt 21h và lưu giá trị vào thanh ghi BL hợp lý."
+    },
+    {
+      "criterion": "Logic kiểm tra và chuyển đổi ký tự",
+      "score": 3,
+      "comment": "Sử dụng lệnh cmp và các lệnh nhảy không dấu (jb, ja) chính xác để kiểm tra khoảng ký tự hoa/thường, cộng trừ 32 chuẩn xác."
+    },
+    {
+      "criterion": "In kết quả và kết thúc chương trình",
+      "score": 3,
+      "comment": "In kết quả và thông báo lỗi đúng bằng các hàm 09h, 02h; thoát chương trình đúng bằng hàm 4Ch; viết thủ tục xuống dòng chuẩn."
+    }
+  ],
+  "grammar": null,
+  "sampleComparison": null,
+  "model": "gemini-flash-latest",
+  "aiKeyId": "6ab555d45d6ff92ba4d7b934",
+  "aiKeyName": "hufng nguyễn",
+  "aiProvider": "gemini",
+  "latencyMs": 28293,
+  "promptSnapshot": {
+    "kind": "essay",
+    "promptId": null,
+    "name": "Fallback mặc định (hardcoded)",
+    "content": "Bạn là giáo viên chấm bài. Hãy chấm bài viết sau dựa trên đề bài và rubric.\n\nĐề bài:\n{đề_bài}\n\nBài làm sinh viên (phần nhập chữ):\n{bài_làm}\n\nPhần vẽ tay của sinh viên (đã được bước phân tích hình ảnh đọc trước):\n{hình_vẽ}\n\nLời giải mẫu (nếu có, chỉ dùng để đối chiếu ý, không chép nguyên văn vào feedback):\n{lời_giải_mẫu}\n\nRubric: {rubric}\nĐiểm tối đa: {max_score}\n\nQUY TẮC CHẤM KẾT HỢP CHỮ + HÌNH VẼ:\n- Nếu có cả phần nhập chữ và phần vẽ tay: chấm CẢ HAI theo đề bài/rubric, cho một điểm tổng duy nhất.\n- Nếu chỉ có một phần: chỉ chấm phần đó, KHÔNG trừ điểm vì phần sinh viên không nộp.\n\nQUY TẮC PHÁT HIỆN LỖI:\n- Chỉ liệt kê lỗi khi lỗi thực sự tồn tại trong bài làm, không tự bịa.\n- Nếu đề bài/rubric không đủ căn cứ để xác định một lỗi cụ thể, bỏ qua, không đoán.\n- Mỗi lỗi nêu rõ: câu gốc sai, câu đã sửa, giải thích ngắn gọn.\n\nChỉ trả về JSON hợp lệ, không Markdown, không giải thích ngoài JSON:\n{\n  \"score\": number,\n  \"feedback\": string,\n  \"breakdown\": [{ \"criterion\": string, \"score\": number, \"comment\": string }],\n  \"errors\": [{ \"original\": string, \"corrected\": string, \"explanation\": string }]\n}",
+    "rubric": null,
+    "strictness": "normal",
+    "maxScore": 10,
+    "scope": "fallback",
+    "version": 0,
+    "isFallback": true,
+    "unknownPlaceholders": [],
+    "snapshotAt": "2026-10-13T04:17:21.331Z"
+  },
+  "raw": {
+    "score": 10,
+    "feedback": "Bài làm rất tốt, cấu trúc chương trình hợp ngữ 8086 rõ ràng và chuẩn xác. Các bước nhập xuất, so sánh phân nhánh để đổi chữ hoa thành chữ thường và ngược lại, cũng như xử lý trường hợp không phải chữ cái đều thực hiện chính xác theo yêu cầu đề bài. Thêm vào đó, bạn đã viết thủ tục xuống dòng riêng và có bảo toàn các thanh ghi (push/pop), thể hiện kỹ năng lập trình tốt.",
+    "breakdown": [
+      {
+        "criterion": "Cấu trúc chương trình và khai báo dữ liệu",
+        "score": 2,
+        "comment": "Khai báo đầy đủ các phân đoạn, chuỗi thông báo kết thúc bằng ký tự '$' đúng quy cách."
+      },
+      {
+        "criterion": "Nhập và lưu trữ ký tự",
+        "score": 2,
+        "comment": "Sử dụng đúng hàm 01h của ngắt 21h và lưu giá trị vào thanh ghi BL hợp lý."
+      },
+      {
+        "criterion": "Logic kiểm tra và chuyển đổi ký tự",
+        "score": 3,
+        "comment": "Sử dụng lệnh cmp và các lệnh nhảy không dấu (jb, ja) chính xác để kiểm tra khoảng ký tự hoa/thường, cộng trừ 32 chuẩn xác."
+      },
+      {
+        "criterion": "In kết quả và kết thúc chương trình",
+        "score": 3,
+        "comment": "In kết quả và thông báo lỗi đúng bằng các hàm 09h, 02h; thoát chương trình đúng bằng hàm 4Ch; viết thủ tục xuống dòng chuẩn."
+      }
+    ],
+    "errors": []
+  }
+}
