@@ -11,7 +11,7 @@
   "isDeleted": false,
   "createdBy": "6ab3d694415010bf620349e5",
   "createdAt": "2026-10-14T13:58:39.194Z",
-  "updatedAt": "2026-10-14T19:54:20.301Z",
+  "updatedAt": "2026-10-14T19:56:44.935Z",
   "contentHtml": null,
   "quiz": {
     "version": 1,
@@ -45,7 +45,7 @@
             "correct": [
               "B"
             ],
-            "explanationHtml": "Ví dụ: &amp;amp;amp;lt;code&amp;amp;amp;gt;count&amp;amp;amp;lt;/code&amp;amp;amp;gt;, &amp;amp;amp;lt;code&amp;amp;amp;gt;loop&amp;amp;amp;lt;/code&amp;amp;amp;gt; là các địa chỉ ký hiệu trong mã nguồn.",
+            "explanationHtml": "Ví dụ: &lt;code&gt;count&lt;/code&gt;, &lt;code&gt;loop&lt;/code&gt; là các địa chỉ ký hiệu trong mã nguồn.",
             "multi": false,
             "id": "mcq-1",
             "clusterId": null
@@ -105,13 +105,13 @@
             "correct": [
               "A"
             ],
-            "explanationHtml": null,
+            "explanationHtml": "Trình biên dịch tạo luôn địa chỉ cố định nên chỉ phù hợp khi vị trí nạp không thay đổi.",
             "multi": false,
             "id": "mcq-3",
             "clusterId": null
           },
           {
-            "startLine": 21,
+            "startLine": 22,
             "text": "Việc gán địa chỉ khi chương trình đang chạy cần phần cứng hỗ trợ nào?",
             "image": null,
             "options": [
@@ -135,13 +135,13 @@
             "correct": [
               "B"
             ],
-            "explanationHtml": null,
+            "explanationHtml": "Các thành phần này thực hiện việc dịch địa chỉ và kiểm tra quyền truy cập mỗi lần CPU truy cập bộ nhớ.",
             "multi": false,
             "id": "mcq-4",
             "clusterId": null
           },
           {
-            "startLine": 27,
+            "startLine": 29,
             "text": "Trong kỹ thuật tải động (dynamic loading), một hàm hoặc thủ tục được đưa vào RAM khi nào?",
             "image": null,
             "options": [
@@ -171,7 +171,7 @@
             "clusterId": null
           },
           {
-            "startLine": 34,
+            "startLine": 36,
             "text": "Quan sát hình MMU: CPU phát ra địa chỉ logic 346, thanh ghi relocation có giá trị 14000. Địa chỉ vật lý gửi tới bộ nhớ là bao nhiêu?",
             "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database/main/cache/image/1792007651913.png",
             "options": [
@@ -201,7 +201,7 @@
             "clusterId": null
           },
           {
-            "startLine": 42,
+            "startLine": 44,
             "text": "Một tiến trình có limit = 80000, base = 14000. CPU phát ra địa chỉ logic 90000. Điều gì xảy ra?",
             "image": null,
             "options": [
@@ -231,7 +231,7 @@
             "clusterId": null
           },
           {
-            "startLine": 49,
+            "startLine": 51,
             "text": "Hai tiến trình cùng dùng địa chỉ logic 0x1000 nhưng MMU đưa tới hai vị trí RAM khác nhau. Điều này thể hiện lợi ích nào?",
             "image": null,
             "options": [
@@ -255,13 +255,13 @@
             "correct": [
               "A"
             ],
-            "explanationHtml": null,
+            "explanationHtml": "Mỗi tiến trình có vùng nhớ riêng nên không đọc/ghi nhầm dữ liệu của tiến trình khác.",
             "multi": false,
             "id": "mcq-8",
             "clusterId": null
           },
           {
-            "startLine": 55,
+            "startLine": 58,
             "text": "Swapping là kỹ thuật nào?",
             "image": null,
             "options": [
@@ -285,13 +285,13 @@
             "correct": [
               "D"
             ],
-            "explanationHtml": null,
+            "explanationHtml": "Phương án đầu là Overlay, phương án thứ hai là phân trang, phương án thứ ba là liên kết động.",
             "multi": false,
             "id": "mcq-9",
             "clusterId": null
           },
           {
-            "startLine": 61,
+            "startLine": 65,
             "text": "Quan sát sơ đồ Swapping: mũi tên số 1 \"swap out\" mô tả thao tác nào?",
             "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database/main/cache/image/1792007611733.png",
             "options": [
@@ -315,13 +315,13 @@
             "correct": [
               "A"
             ],
-            "explanationHtml": null,
+            "explanationHtml": "Swap out ghi tiến trình ra vùng swap và trả lại RAM cho hệ thống; swap in là thao tác ngược lại.",
             "multi": false,
             "id": "mcq-10",
             "clusterId": null
           },
           {
-            "startLine": 68,
+            "startLine": 73,
             "text": "Một tiến trình 200 MB, tốc độ đọc/ghi đĩa 100 MB/s. Thời gian đưa ra rồi nạp lại (chỉ tính truyền dữ liệu) khoảng bao nhiêu?",
             "image": null,
             "options": [
@@ -351,7 +351,7 @@
             "clusterId": null
           },
           {
-            "startLine": 75,
+            "startLine": 80,
             "text": "Vì sao không nên swap hoặc di chuyển vùng nhớ của tiến trình đang thực hiện I/O trực tiếp?",
             "image": null,
             "options": [
@@ -381,7 +381,7 @@
             "clusterId": null
           },
           {
-            "startLine": 82,
+            "startLine": 87,
             "text": "Roll out / roll in dùng trong trường hợp nào?",
             "image": null,
             "options": [
@@ -405,13 +405,13 @@
             "correct": [
               "A"
             ],
-            "explanationHtml": null,
+            "explanationHtml": "Khi thiếu RAM, tiến trình ưu tiên thấp tạm bị đưa ra (roll out); tiến trình ưu tiên cao được nạp vào và chạy trước (roll in).",
             "multi": false,
             "id": "mcq-13",
             "clusterId": null
           },
           {
-            "startLine": 88,
+            "startLine": 94,
             "text": "Mục tiêu chính của kỹ thuật Overlay là gì?",
             "image": null,
             "options": [
@@ -435,13 +435,13 @@
             "correct": [
               "B"
             ],
-            "explanationHtml": null,
+            "explanationHtml": "Overlay chỉ nạp mô-đun đang cần, mô-đun mới ghi đè lên vùng của mô-đun cũ.",
             "multi": false,
             "id": "mcq-14",
             "clusterId": null
           },
           {
-            "startLine": 94,
+            "startLine": 101,
             "text": "Quan sát hình cấu trúc bộ nhớ khi dùng Overlay: phần gốc 20 KB, mô-đun A 30 KB, mô-đun B 50 KB (A và B không chạy đồng thời). Dung lượng RAM cần thiết là bao nhiêu?",
             "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database/main/cache/image/1792007573468.png",
             "options": [
@@ -471,7 +471,7 @@
             "clusterId": null
           },
           {
-            "startLine": 102,
+            "startLine": 109,
             "text": "Một chương trình có phần gốc 40 KB và ba mô-đun A (25 KB), B (60 KB), C (35 KB) không bao giờ chạy đồng thời. Khi dùng Overlay, dung lượng RAM tối thiểu cần là bao nhiêu?",
             "image": null,
             "options": [
@@ -501,7 +501,7 @@
             "clusterId": null
           },
           {
-            "startLine": 109,
+            "startLine": 116,
             "text": "Phát biểu nào đúng khi so sánh Swapping và Overlay?",
             "image": null,
             "options": [
@@ -525,13 +525,13 @@
             "correct": [
               "D"
             ],
-            "explanationHtml": null,
+            "explanationHtml": "Ghi nhớ: Swapping đổi tiến trình; Overlay đổi phần chương trình.",
             "multi": false,
             "id": "mcq-17",
             "clusterId": null
           },
           {
-            "startLine": 115,
+            "startLine": 123,
             "text": "Trong cấp phát bộ nhớ liên tục, mỗi tiến trình được cấp phát như thế nào?",
             "image": null,
             "options": [
@@ -555,13 +555,13 @@
             "correct": [
               "A"
             ],
-            "explanationHtml": null,
+            "explanationHtml": "Toàn bộ tiến trình phải nằm trong một vùng RAM liền nhau, dù là phân vùng cố định hay phân vùng động.",
             "multi": false,
             "id": "mcq-18",
             "clusterId": null
           },
           {
-            "startLine": 121,
+            "startLine": 130,
             "text": "Phân mảnh trong (internal fragmentation) xảy ra khi nào?",
             "image": null,
             "options": [
@@ -591,7 +591,7 @@
             "clusterId": null
           },
           {
-            "startLine": 128,
+            "startLine": 137,
             "text": "Phân mảnh ngoài (external fragmentation) xảy ra khi nào?",
             "image": null,
             "options": [
@@ -621,7 +621,7 @@
             "clusterId": null
           },
           {
-            "startLine": 135,
+            "startLine": 144,
             "text": "Quan sát hình phân vùng động: sau bước 5 (P2 kết thúc), bộ nhớ gồm P3 (30K) và một khoảng trống liền kề. Khoảng trống đó có kích thước bao nhiêu?",
             "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database/main/cache/image/1792007527037.png",
             "options": [
@@ -645,13 +645,13 @@
             "correct": [
               "C"
             ],
-            "explanationHtml": null,
+            "explanationHtml": "Bước 4: P3 (30K), khoảng trống 30K, P2 (40K). Khi P2 kết thúc, 40K của P2 nhập với 30K liền kề thành 30 + 40 = 70K.",
             "multi": false,
             "id": "mcq-21",
             "clusterId": null
           },
           {
-            "startLine": 142,
+            "startLine": 152,
             "text": "Quan sát hình First-fit: các khoảng trống lần lượt là 100, 500, 200, 300, 600 KB, tiến trình cần 212 KB. First-fit chọn khoảng trống nào?",
             "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database/main/cache/image/1792007492731.png",
             "options": [
@@ -681,7 +681,7 @@
             "clusterId": null
           },
           {
-            "startLine": 150,
+            "startLine": 160,
             "text": "Quan sát hình Best-fit với tiến trình 212 KB: Best-fit chọn khoảng trống nào và phần dư là bao nhiêu?",
             "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database/main/cache/image/1792007475760.png",
             "options": [
@@ -705,13 +705,13 @@
             "correct": [
               "A"
             ],
-            "explanationHtml": null,
+            "explanationHtml": "Best-fit chọn khoảng trống nhỏ nhất nhưng vẫn đủ: 300 KB, dư 300 − 212 = 88 KB.",
             "multi": false,
             "id": "mcq-23",
             "clusterId": null
           },
           {
-            "startLine": 158,
+            "startLine": 169,
             "text": "Với First-fit, tiến trình 417KB được cấp vào khoảng trống nào?",
             "image": null,
             "options": [
@@ -741,7 +741,7 @@
             "clusterId": "mcq-c1"
           },
           {
-            "startLine": 165,
+            "startLine": 176,
             "text": "Thuật toán nào cấp phát được cả bốn tiến trình?",
             "image": null,
             "options": [
@@ -771,7 +771,7 @@
             "clusterId": "mcq-c1"
           },
           {
-            "startLine": 172,
+            "startLine": 183,
             "text": "Với Worst-fit, tiến trình 112KB được cấp vào khoảng trống có kích thước bao nhiêu (tại thời điểm cấp)?",
             "image": null,
             "options": [
@@ -801,7 +801,7 @@
             "clusterId": "mcq-c1"
           },
           {
-            "startLine": 180,
+            "startLine": 191,
             "text": "Với First-fit, tiến trình nào không được cấp phát?",
             "image": null,
             "options": [
@@ -831,7 +831,7 @@
             "clusterId": "mcq-c2"
           },
           {
-            "startLine": 187,
+            "startLine": 198,
             "text": "Với Best-fit, tiến trình P4 (320KB) được cấp vào khoảng trống nào?",
             "image": null,
             "options": [
@@ -861,7 +861,7 @@
             "clusterId": "mcq-c2"
           },
           {
-            "startLine": 194,
+            "startLine": 205,
             "text": "Với Worst-fit, tiến trình P2 (250KB) được cấp vào khoảng trống có kích thước bao nhiêu?",
             "image": null,
             "options": [
@@ -891,7 +891,7 @@
             "clusterId": "mcq-c2"
           },
           {
-            "startLine": 201,
+            "startLine": 212,
             "text": "Việc gom các vùng trống thành một khối lớn (compaction) chỉ thực hiện được khi nào?",
             "image": null,
             "options": [
@@ -915,13 +915,13 @@
             "correct": [
               "D"
             ],
-            "explanationHtml": null,
+            "explanationHtml": "Compaction phải dời tiến trình trong RAM nên địa chỉ phải được gán lúc chạy.",
             "multi": false,
             "id": "mcq-30",
             "clusterId": null
           },
           {
-            "startLine": 207,
+            "startLine": 219,
             "text": "Quan sát hình so sánh hai loại phân mảnh: phần gạch chéo bên trong các vùng P1, P2, P3 ở hình bên phải là loại phân mảnh nào?",
             "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database/main/cache/image/1792007432707.png",
             "options": [
@@ -945,13 +945,13 @@
             "correct": [
               "A"
             ],
-            "explanationHtml": null,
+            "explanationHtml": "Phần gạch chéo là phần không dùng hết nằm bên trong vùng đã cấp cho tiến trình, nên là phân mảnh trong.",
             "multi": false,
             "id": "mcq-31",
             "clusterId": null
           },
           {
-            "startLine": 214,
+            "startLine": 227,
             "text": "Tiến trình cần 70 KB nhưng được cấp vùng 100 KB. Phân mảnh trong là bao nhiêu?",
             "image": null,
             "options": [
@@ -975,13 +975,13 @@
             "correct": [
               "C"
             ],
-            "explanationHtml": null,
+            "explanationHtml": "Phân mảnh trong = 100 − 70 = 30 KB.",
             "multi": false,
             "id": "mcq-32",
             "clusterId": null
           },
           {
-            "startLine": 220,
+            "startLine": 234,
             "text": "Phân trang (paging) là kỹ thuật nào?",
             "image": null,
             "options": [
@@ -1005,13 +1005,13 @@
             "correct": [
               "A"
             ],
-            "explanationHtml": null,
+            "explanationHtml": "Bảng trang ghi trang đang nằm ở khung nào nên chương trình vẫn thấy các trang liên tiếp.",
             "multi": false,
             "id": "mcq-33",
             "clusterId": null
           },
           {
-            "startLine": 226,
+            "startLine": 241,
             "text": "Ưu và nhược điểm của phân trang là gì?",
             "image": null,
             "options": [
@@ -1035,13 +1035,13 @@
             "correct": [
               "B"
             ],
-            "explanationHtml": null,
+            "explanationHtml": "Mỗi trang đặt vào khung trống bất kỳ nên không có phân mảnh ngoài; trang cuối thường không dùng hết nên còn phân mảnh trong.",
             "multi": false,
             "id": "mcq-34",
             "clusterId": null
           },
           {
-            "startLine": 232,
+            "startLine": 248,
             "text": "Một không gian địa chỉ có 8 trang, mỗi trang 1 KB, ánh xạ vào bộ nhớ vật lý 32 khung. Địa chỉ logic gồm bao nhiêu bit?",
             "image": null,
             "options": [
@@ -1065,13 +1065,13 @@
             "correct": [
               "B"
             ],
-            "explanationHtml": "d = 10 bit (1 KB = 2&amp;amp;amp;lt;sup&amp;amp;amp;gt;10&amp;amp;amp;lt;/sup&amp;amp;amp;gt;), p = 3 bit (8 = 2&amp;amp;amp;lt;sup&amp;amp;amp;gt;3&amp;amp;amp;lt;/sup&amp;amp;amp;gt;), tổng 13 bit.",
+            "explanationHtml": "d = 10 bit (1 KB = 2&lt;sup&gt;10&lt;/sup&gt;), p = 3 bit (8 = 2&lt;sup&gt;3&lt;/sup&gt;), tổng 13 bit.",
             "multi": false,
             "id": "mcq-35",
             "clusterId": null
           },
           {
-            "startLine": 239,
+            "startLine": 255,
             "text": "Với dữ kiện trên (8 trang, trang 1 KB, 32 khung), địa chỉ vật lý gồm bao nhiêu bit?",
             "image": null,
             "options": [
@@ -1095,13 +1095,13 @@
             "correct": [
               "D"
             ],
-            "explanationHtml": "frame = 5 bit (32 = 2&amp;amp;amp;lt;sup&amp;amp;amp;gt;5&amp;amp;amp;lt;/sup&amp;amp;amp;gt;) cộng d = 10 bit, tổng 15 bit.",
+            "explanationHtml": "frame = 5 bit (32 = 2&lt;sup&gt;5&lt;/sup&gt;) cộng d = 10 bit, tổng 15 bit.",
             "multi": false,
             "id": "mcq-36",
             "clusterId": null
           },
           {
-            "startLine": 246,
+            "startLine": 262,
             "text": "Kích thước trang là 4 byte; trang 1 nằm ở khung 6. Địa chỉ logic 7 được dịch thành địa chỉ vật lý nào?",
             "image": null,
             "options": [
@@ -1131,7 +1131,7 @@
             "clusterId": null
           },
           {
-            "startLine": 253,
+            "startLine": 269,
             "text": "Quan sát hình bảng trang (p0→F5, p1→F6, p2→F1, p3→F2): trang p = 3 được ánh xạ vào khung nào?",
             "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database/main/cache/image/1792007381543.png",
             "options": [
@@ -1155,13 +1155,13 @@
             "correct": [
               "D"
             ],
-            "explanationHtml": null,
+            "explanationHtml": "Theo bảng trang, mục 3 → 2 nên trang 3 nằm ở khung F2.",
             "multi": false,
             "id": "mcq-38",
             "clusterId": null
           },
           {
-            "startLine": 260,
+            "startLine": 277,
             "text": "Quan sát hình Bảng trang của P1 (0→6, 1→4, 2→5, 3→7, 4→1, 5→9). Biết mỗi frame là 1 KB, địa chỉ vật lý 6578 tương ứng địa chỉ logic nào?",
             "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database/main/cache/image/1792007334751.png",
             "options": [
@@ -1191,7 +1191,7 @@
             "clusterId": null
           },
           {
-            "startLine": 268,
+            "startLine": 285,
             "text": "Quan sát hình Bảng trang của P1 như câu trước. Biết mỗi frame là 2 KB, địa chỉ logic 3654 được chuyển thành địa chỉ vật lý nào?",
             "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database/main/cache/image/1792007322962.png",
             "options": [
@@ -1221,7 +1221,7 @@
             "clusterId": null
           },
           {
-            "startLine": 276,
+            "startLine": 293,
             "text": "Quan sát sơ đồ TLB: khi xảy ra TLB miss, hệ thống phải làm gì?",
             "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database/main/cache/image/1792007278979.png",
             "options": [
@@ -1245,13 +1245,13 @@
             "correct": [
               "C"
             ],
-            "explanationHtml": null,
+            "explanationHtml": "TLB hit: có sẵn cặp trang → khung, chỉ cần truy cập dữ liệu. TLB miss: phải đọc bảng trang trong RAM, có thể cập nhật TLB, rồi mới truy cập dữ liệu.",
             "multi": false,
             "id": "mcq-41",
             "clusterId": null
           },
           {
-            "startLine": 283,
+            "startLine": 301,
             "text": "Quan sát hình bảng trang: các mục trang 6 và 7 có bit \"i\" (invalid). Điều này có nghĩa gì?",
             "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database/main/cache/image/1792007247204.png",
             "options": [
@@ -1275,13 +1275,13 @@
             "correct": [
               "D"
             ],
-            "explanationHtml": null,
+            "explanationHtml": "Bit valid/invalid cho biết trang có hợp lệ hoặc đang hiện diện hay không; truy cập trang invalid sẽ báo lỗi.",
             "multi": false,
             "id": "mcq-42",
             "clusterId": null
           },
           {
-            "startLine": 290,
+            "startLine": 309,
             "text": "Quan sát hình bảng trang hai mức: thành phần p<sub>2</sub> của địa chỉ dùng để làm gì?",
             "image": null,
             "options": [
@@ -1305,13 +1305,13 @@
             "correct": [
               "B"
             ],
-            "explanationHtml": null,
+            "explanationHtml": "p&lt;sub&gt;1&lt;/sub&gt; chọn bảng trang con; p&lt;sub&gt;2&lt;/sub&gt; chọn mục trong bảng con để tìm khung; độ lệch d vẫn giữ nguyên.",
             "multi": false,
             "id": "mcq-43",
             "clusterId": null
           },
           {
-            "startLine": 296,
+            "startLine": 316,
             "text": "Quan sát hình: loại bảng trang nào có mỗi mục ghi (pid, p) của trang đang nằm trong khung RAM tương ứng?",
             "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database/main/cache/image/1791986878118.png",
             "options": [
@@ -1341,7 +1341,7 @@
             "clusterId": null
           },
           {
-            "startLine": 304,
+            "startLine": 324,
             "text": "Một đoạn s có Base[s] = 2000, Limit[s] = 500. Địa chỉ logic có độ lệch d = 350 được dịch thành địa chỉ vật lý nào?",
             "image": null,
             "options": [
@@ -1365,13 +1365,13 @@
             "correct": [
               "A"
             ],
-            "explanationHtml": "d = 350 &amp;amp;amp;lt; 500 hợp lệ; địa chỉ vật lý = 2000 + 350 = 2350.",
+            "explanationHtml": "d = 350 &lt; 500 hợp lệ; địa chỉ vật lý = 2000 + 350 = 2350.",
             "multi": false,
             "id": "mcq-45",
             "clusterId": null
           },
           {
-            "startLine": 311,
+            "startLine": 331,
             "text": "Quan sát hình chia sẻ đoạn mã: đoạn nào được hai tiến trình P1 và P2 dùng chung?",
             "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database/main/cache/image/1791986770213.png",
             "options": [
@@ -1395,13 +1395,13 @@
             "correct": [
               "C"
             ],
-            "explanationHtml": null,
+            "explanationHtml": "Hai tiến trình dùng chung đoạn mã chỉ đọc/thực thi, còn đoạn dữ liệu của mỗi tiến trình nằm ở vùng riêng.",
             "multi": false,
             "id": "mcq-46",
             "clusterId": null
           },
           {
-            "startLine": 318,
+            "startLine": 339,
             "text": "Trong kết hợp phân đoạn và phân trang với địa chỉ dạng s | p | d, bảng đoạn cho biết thông tin gì?",
             "image": null,
             "options": [
@@ -1431,7 +1431,7 @@
             "clusterId": null
           },
           {
-            "startLine": 326,
+            "startLine": 347,
             "text": "Thuật toán thay thế trang FIFO gây ra bao nhiêu lỗi trang?",
             "image": null,
             "options": [
@@ -1455,13 +1455,13 @@
             "correct": [
               "D"
             ],
-            "explanationHtml": null,
+            "explanationHtml": "FIFO thay trang vào sớm nhất. Lỗi tại các tham chiếu: 1, 2, 3, 4, 5, 6, 2, 1, 3, 7, 6, 4, 1, 2, 3, 5, tổng 16 lỗi.",
             "multi": false,
             "id": "mcq-48",
             "clusterId": "mcq-c3"
           },
           {
-            "startLine": 332,
+            "startLine": 354,
             "text": "Thuật toán thay thế trang tối ưu (OPT) gây ra bao nhiêu lỗi trang?",
             "image": null,
             "options": [
@@ -1485,13 +1485,13 @@
             "correct": [
               "A"
             ],
-            "explanationHtml": null,
+            "explanationHtml": "OPT thay trang sẽ không được dùng lâu nhất trong tương lai. Lỗi tại các tham chiếu: 1, 2, 3, 4, 5, 6, 7, 4, 2, 5, tổng 10 lỗi.",
             "multi": false,
             "id": "mcq-49",
             "clusterId": "mcq-c3"
           },
           {
-            "startLine": 338,
+            "startLine": 361,
             "text": "Thuật toán thay thế trang LRU gây ra bao nhiêu lỗi trang?",
             "image": null,
             "options": [
@@ -1515,7 +1515,7 @@
             "correct": [
               "D"
             ],
-            "explanationHtml": null,
+            "explanationHtml": "LRU thay trang lâu chưa được dùng nhất. Lỗi tại các tham chiếu: 1, 2, 3, 4, 5, 6, 3, 7, 6, 4, 1, 2, 5, tổng 13 lỗi.",
             "multi": false,
             "id": "mcq-50",
             "clusterId": "mcq-c3"
@@ -1526,7 +1526,7 @@
             "id": "mcq-c1",
             "from": 24,
             "to": 26,
-            "text": "Các khoảng trống theo thứ tự là &amp;amp;amp;lt;b&amp;amp;amp;gt;100KB, 500KB, 200KB, 300KB, 600KB&amp;amp;amp;lt;/b&amp;amp;amp;gt;. Các tiến trình đến lần lượt cần &amp;amp;amp;lt;b&amp;amp;amp;gt;212KB, 417KB, 112KB, 426KB&amp;amp;amp;lt;/b&amp;amp;amp;gt;. Dùng dữ kiện này trả lời ba câu sau.",
+            "text": "Các khoảng trống theo thứ tự là &lt;b&gt;100KB, 500KB, 200KB, 300KB, 600KB&lt;/b&gt;. Các tiến trình đến lần lượt cần &lt;b&gt;212KB, 417KB, 112KB, 426KB&lt;/b&gt;. Dùng dữ kiện này trả lời ba câu sau.",
             "image": null,
             "questionIds": [
               "mcq-24",
@@ -1538,7 +1538,7 @@
             "id": "mcq-c2",
             "from": 27,
             "to": 29,
-            "text": "Các khoảng trống theo thứ tự là &amp;amp;amp;lt;b&amp;amp;amp;gt;200KB, 400KB, 600KB, 300KB, 500KB&amp;amp;amp;lt;/b&amp;amp;amp;gt;. Bốn tiến trình đến lần lượt: &amp;amp;amp;lt;b&amp;amp;amp;gt;P1 = 220KB, P2 = 250KB, P3 = 550KB, P4 = 320KB&amp;amp;amp;lt;/b&amp;amp;amp;gt;. Dùng dữ kiện này trả lời ba câu sau.",
+            "text": "Các khoảng trống theo thứ tự là &lt;b&gt;200KB, 400KB, 600KB, 300KB, 500KB&lt;/b&gt;. Bốn tiến trình đến lần lượt: &lt;b&gt;P1 = 220KB, P2 = 250KB, P3 = 550KB, P4 = 320KB&lt;/b&gt;. Dùng dữ kiện này trả lời ba câu sau.",
             "image": null,
             "questionIds": [
               "mcq-27",
@@ -1550,7 +1550,7 @@
             "id": "mcq-c3",
             "from": 48,
             "to": 50,
-            "text": "Cho chuỗi truy xuất bộ nhớ: &amp;amp;amp;lt;b&amp;amp;amp;gt;1, 2, 3, 4, 2, 1, 5, 6, 2, 1, 2, 3, 7, 6, 3, 4, 1, 2, 3, 5&amp;amp;amp;lt;/b&amp;amp;amp;gt;. Bộ nhớ vật lý có &amp;amp;amp;lt;b&amp;amp;amp;gt;4 khung trang&amp;amp;amp;lt;/b&amp;amp;amp;gt;, ban đầu trống. Dùng dữ kiện này trả lời ba câu sau.",
+            "text": "Cho chuỗi truy xuất bộ nhớ: &lt;b&gt;1, 2, 3, 4, 2, 1, 5, 6, 2, 1, 2, 3, 7, 6, 3, 4, 1, 2, 3, 5&lt;/b&gt;. Bộ nhớ vật lý có &lt;b&gt;4 khung trang&lt;/b&gt;, ban đầu trống. Dùng dữ kiện này trả lời ba câu sau.",
             "image": null,
             "questionIds": [
               "mcq-48",
