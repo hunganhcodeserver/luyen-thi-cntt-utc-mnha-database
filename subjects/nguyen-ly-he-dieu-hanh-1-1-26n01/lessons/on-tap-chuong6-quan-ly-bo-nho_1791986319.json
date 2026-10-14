@@ -11,7 +11,7 @@
   "isDeleted": false,
   "createdBy": "6ab3d694415010bf620349e5",
   "createdAt": "2026-10-14T13:58:39.194Z",
-  "updatedAt": "2026-10-14T13:58:40.793Z",
+  "updatedAt": "2026-10-14T14:06:17.676Z",
   "contentHtml": null,
   "quiz": {
     "version": 1,
@@ -1373,7 +1373,7 @@
           {
             "startLine": 298,
             "text": "Quan sát hình chia sẻ đoạn mã: đoạn nào được hai tiến trình P1 và P2 dùng chung?",
-            "image": null,
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database/main/cache/image/1791986770213.png",
             "options": [
               {
                 "key": "A",
@@ -1401,7 +1401,7 @@
             "clusterId": null
           },
           {
-            "startLine": 304,
+            "startLine": 305,
             "text": "Trong kết hợp phân đoạn và phân trang với địa chỉ dạng s | p | d, bảng đoạn cho biết thông tin gì?",
             "image": null,
             "options": [
@@ -1431,7 +1431,7 @@
             "clusterId": null
           },
           {
-            "startLine": 312,
+            "startLine": 313,
             "text": "Thuật toán thay thế trang FIFO gây ra bao nhiêu lỗi trang?",
             "image": null,
             "options": [
@@ -1461,7 +1461,7 @@
             "clusterId": "mcq-c3"
           },
           {
-            "startLine": 318,
+            "startLine": 319,
             "text": "Thuật toán thay thế trang tối ưu (OPT) gây ra bao nhiêu lỗi trang?",
             "image": null,
             "options": [
@@ -1491,7 +1491,7 @@
             "clusterId": "mcq-c3"
           },
           {
-            "startLine": 324,
+            "startLine": 325,
             "text": "Thuật toán thay thế trang LRU gây ra bao nhiêu lỗi trang?",
             "image": null,
             "options": [
