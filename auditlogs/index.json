@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-14T19:54:21.658Z",
-  "total": 18,
+  "updatedAt": "2026-10-14T19:56:46.206Z",
+  "total": 19,
   "logs": [
     {
       "id": "6ac45a48c3fe67bf29ff941c",
@@ -388,6 +388,26 @@
       "ipAddress": "116.96.47.10",
       "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
       "createdAt": "2026-10-14T19:54:21.520Z"
+    },
+    {
+      "id": "6acfde7e8a9370402e70fc74",
+      "actor": "6ab3d694415010bf620349e5",
+      "action": "update_quiz",
+      "entity": "Lesson",
+      "entityId": "6acf8a8ff6326e3341cade3a",
+      "description": "",
+      "metadata": {
+        "title": "Ôn tập Chuong6_Quan_ly_bo_nho",
+        "duration": 75,
+        "counts": {
+          "mcq": 50,
+          "tf": 0,
+          "fill": 0
+        }
+      },
+      "ipAddress": "116.96.47.10",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "createdAt": "2026-10-14T19:56:46.076Z"
     }
   ]
 }
