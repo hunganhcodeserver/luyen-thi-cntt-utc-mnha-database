@@ -11,7 +11,7 @@
   "isDeleted": false,
   "createdBy": "6ab3d694415010bf620349e5",
   "createdAt": "2026-10-14T13:58:39.194Z",
-  "updatedAt": "2026-10-14T14:08:04.228Z",
+  "updatedAt": "2026-10-14T19:43:41.995Z",
   "contentHtml": null,
   "quiz": {
     "version": 1,
@@ -45,7 +45,7 @@
             "correct": [
               "B"
             ],
-            "explanationHtml": "Ví dụ: &amp;lt;code&amp;gt;count&amp;lt;/code&amp;gt;, &amp;lt;code&amp;gt;loop&amp;lt;/code&amp;gt; là các địa chỉ ký hiệu trong mã nguồn.",
+            "explanationHtml": "Ví dụ: &amp;amp;lt;code&amp;amp;gt;count&amp;amp;lt;/code&amp;amp;gt;, &amp;amp;lt;code&amp;amp;gt;loop&amp;amp;lt;/code&amp;amp;gt; là các địa chỉ ký hiệu trong mã nguồn.",
             "multi": false,
             "id": "mcq-1",
             "clusterId": null
@@ -1065,7 +1065,7 @@
             "correct": [
               "B"
             ],
-            "explanationHtml": "d = 10 bit (1 KB = 2&amp;lt;sup&amp;gt;10&amp;lt;/sup&amp;gt;), p = 3 bit (8 = 2&amp;lt;sup&amp;gt;3&amp;lt;/sup&amp;gt;), tổng 13 bit.",
+            "explanationHtml": "d = 10 bit (1 KB = 2&amp;amp;lt;sup&amp;amp;gt;10&amp;amp;lt;/sup&amp;amp;gt;), p = 3 bit (8 = 2&amp;amp;lt;sup&amp;amp;gt;3&amp;amp;lt;/sup&amp;amp;gt;), tổng 13 bit.",
             "multi": false,
             "id": "mcq-35",
             "clusterId": null
@@ -1095,7 +1095,7 @@
             "correct": [
               "D"
             ],
-            "explanationHtml": "frame = 5 bit (32 = 2&amp;lt;sup&amp;gt;5&amp;lt;/sup&amp;gt;) cộng d = 10 bit, tổng 15 bit.",
+            "explanationHtml": "frame = 5 bit (32 = 2&amp;amp;lt;sup&amp;amp;gt;5&amp;amp;lt;/sup&amp;amp;gt;) cộng d = 10 bit, tổng 15 bit.",
             "multi": false,
             "id": "mcq-36",
             "clusterId": null
@@ -1365,7 +1365,7 @@
             "correct": [
               "A"
             ],
-            "explanationHtml": "d = 350 &amp;lt; 500 hợp lệ; địa chỉ vật lý = 2000 + 350 = 2350.",
+            "explanationHtml": "d = 350 &amp;amp;lt; 500 hợp lệ; địa chỉ vật lý = 2000 + 350 = 2350.",
             "multi": false,
             "id": "mcq-45",
             "clusterId": null
@@ -1526,7 +1526,7 @@
             "id": "mcq-c1",
             "from": 24,
             "to": 26,
-            "text": "Các khoảng trống theo thứ tự là &amp;lt;b&amp;gt;100KB, 500KB, 200KB, 300KB, 600KB&amp;lt;/b&amp;gt;. Các tiến trình đến lần lượt cần &amp;lt;b&amp;gt;212KB, 417KB, 112KB, 426KB&amp;lt;/b&amp;gt;. Dùng dữ kiện này trả lời ba câu sau.",
+            "text": "Các khoảng trống theo thứ tự là &amp;amp;lt;b&amp;amp;gt;100KB, 500KB, 200KB, 300KB, 600KB&amp;amp;lt;/b&amp;amp;gt;. Các tiến trình đến lần lượt cần &amp;amp;lt;b&amp;amp;gt;212KB, 417KB, 112KB, 426KB&amp;amp;lt;/b&amp;amp;gt;. Dùng dữ kiện này trả lời ba câu sau.",
             "image": null,
             "questionIds": [
               "mcq-24",
@@ -1538,7 +1538,7 @@
             "id": "mcq-c2",
             "from": 27,
             "to": 29,
-            "text": "Các khoảng trống theo thứ tự là &amp;lt;b&amp;gt;200KB, 400KB, 600KB, 300KB, 500KB&amp;lt;/b&amp;gt;. Bốn tiến trình đến lần lượt: &amp;lt;b&amp;gt;P1 = 220KB, P2 = 250KB, P3 = 550KB, P4 = 320KB&amp;lt;/b&amp;gt;. Dùng dữ kiện này trả lời ba câu sau.",
+            "text": "Các khoảng trống theo thứ tự là &amp;amp;lt;b&amp;amp;gt;200KB, 400KB, 600KB, 300KB, 500KB&amp;amp;lt;/b&amp;amp;gt;. Bốn tiến trình đến lần lượt: &amp;amp;lt;b&amp;amp;gt;P1 = 220KB, P2 = 250KB, P3 = 550KB, P4 = 320KB&amp;amp;lt;/b&amp;amp;gt;. Dùng dữ kiện này trả lời ba câu sau.",
             "image": null,
             "questionIds": [
               "mcq-27",
@@ -1550,7 +1550,7 @@
             "id": "mcq-c3",
             "from": 48,
             "to": 50,
-            "text": "Cho chuỗi truy xuất bộ nhớ: &amp;lt;b&amp;gt;1, 2, 3, 4, 2, 1, 5, 6, 2, 1, 2, 3, 7, 6, 3, 4, 1, 2, 3, 5&amp;lt;/b&amp;gt;. Bộ nhớ vật lý có &amp;lt;b&amp;gt;4 khung trang&amp;lt;/b&amp;gt;, ban đầu trống. Dùng dữ kiện này trả lời ba câu sau.",
+            "text": "Cho chuỗi truy xuất bộ nhớ: &amp;amp;lt;b&amp;amp;gt;1, 2, 3, 4, 2, 1, 5, 6, 2, 1, 2, 3, 7, 6, 3, 4, 1, 2, 3, 5&amp;amp;lt;/b&amp;amp;gt;. Bộ nhớ vật lý có &amp;amp;lt;b&amp;amp;gt;4 khung trang&amp;amp;lt;/b&amp;amp;gt;, ban đầu trống. Dùng dữ kiện này trả lời ba câu sau.",
             "image": null,
             "questionIds": [
               "mcq-48",
