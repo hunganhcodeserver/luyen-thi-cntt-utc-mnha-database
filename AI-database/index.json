@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-15T09:01:35.421Z",
+  "updatedAt": "2026-10-15T09:12:52.258Z",
   "note": "Danh sách nhà cung cấp AI (API, biến API, model). Key API KHÔNG lưu ở đây — lưu mã hoá trong MongoDB (aikeys). Sửa tại /admin/ai-keys/Supplier.",
   "providers": [
     {
@@ -82,6 +82,7 @@
         "gpt-4-turbo",
         "gpt-3.5-turbo",
         "occ/claude-opus-5",
+        "occ/claude-opus-4-8",
         "claude-3-5-sonnet",
         "claude-3-5-haiku",
         "claude-3-opus",
@@ -106,7 +107,8 @@
         "maxTokens": "VILAO_MAX_TOKENS"
       },
       "createdAt": "2026-10-15T09:01:35.422Z",
-      "updatedAt": "2026-10-15T09:01:35.422Z"
+      "updatedAt": "2026-10-15T09:12:52.258Z",
+      "updatedBy": "hunganh.okokok.0@gmail.com"
     }
   ]
 }
