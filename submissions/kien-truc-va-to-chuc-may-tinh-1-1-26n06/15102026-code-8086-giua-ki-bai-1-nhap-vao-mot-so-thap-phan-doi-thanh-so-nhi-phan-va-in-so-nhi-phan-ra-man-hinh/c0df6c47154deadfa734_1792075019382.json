@@ -1,0 +1,97 @@
+{
+  "submissionId": "6ad0e4f94e9a8ba05f547d58",
+  "submittedAt": "2026-10-15T14:36:41.505Z",
+  "gradedAt": "2026-10-15T14:36:59.517Z",
+  "status": "graded",
+  "errorMessage": null,
+  "userId": "6ab3d694415010bf620349e5",
+  "userName": "Mai Ngọc Hùng Anh",
+  "userEmail": "hunganh.okokok.0@gmail.com",
+  "subjectId": "6ab5aeec813f0f6c24604456",
+  "subjectName": "Kiến trúc và tổ chức máy tính-1-1-26(N06)",
+  "subjectCode": "IT1.107.3",
+  "subjectSlug": "kien-truc-va-to-chuc-may-tinh-1-1-26n06",
+  "lessonId": "6ad01e558556b7b07d70de28",
+  "lessonTitle": "(15/10/2026 - Code 8086 - Giữa kì) Bài 1: Nhập vào một số thập phân, đổi thành số nhị phân và in số nhị phân ra màn hình",
+  "lessonSlug": "15102026-code-8086-giua-ki-bai-1-nhap-vao-mot-so-thap-phan-doi-thanh-so-nhi-phan-va-in-so-nhi-phan-ra-man-hinh",
+  "lessonDuration": 60,
+  "lessonContentHtml": "<div class=\"de-bai\">\n  <h3>Bài 1: Nhập vào một số thập phân, đổi thành số nhị phân và in số nhị phân ra màn hình</h3>\n  <p>Viết chương trình hợp ngữ 8086 yêu cầu nhập một số thập phân (nhiều chữ số, nhập đến khi nhấn Enter), đổi số đó sang hệ nhị phân rồi in dãy số nhị phân ra màn hình.</p>\n  <p><b>Ví dụ:</b></p>\n  <pre>nhap so thap phan: 10\nso nhi phan: 1010\n\nnhap so thap phan: 25\nso nhi phan: 11001</pre>\n  <p><b>Cách làm:</b></p>\n  <ul>\n    <li>Nhập từng ký tự bằng hàm 1 của ngắt 21h. Nếu ký tự là 13 (phím Enter) thì dừng nhập.</li>\n    <li>Với mỗi chữ số nhập vào: trừ 48 để đổi sang số, lấy số đang lưu nhân 10 rồi cộng chữ số mới. Số đang lưu ban đầu bằng 0.</li>\n    <li>Để đổi sang nhị phân: chia số cho 2 liên tục, mỗi lần chia xong thì đẩy (push) số dư (0 hoặc 1) vào ngăn xếp và đếm số lần đẩy bằng CX. Dừng khi thương bằng 0.</li>\n    <li>Lấy các chữ số ra bằng pop. Do ngăn xếp là cấu trúc vào sau ra trước nên chữ số đầu tiên lấy ra là bit cao nhất. In từng bit (cộng 48) bằng vòng lặp loop.</li>\n  </ul>\n</div>",
+  "lessonSampleSolution": "",
+  "answerHtml": ".model small\n.stack 100h\n.data\n    ms1 db 'nhap so thap phan: $'\n    ms2 db 'so nhi phan: $'\n\n.code\n    main proc\n        ;khoi tao du lieu\n        mov ax, @data\n        mov ds, ax\n\n        ;in thong bao nhap so\n        mov ah, 9\n        lea dx, ms1\n        int 21h\n\n        ;---- NHAP SO THAP PHAN ----\n        xor bx, bx      ; BX = so dang luu, ban dau = 0\n\n    nhap:\n        mov ah, 1       ; ham 1: doc 1 ky tu, ket qua nam o AL\n        int 21h\n        cmp al, 13      ; la phim Enter (13) ?\n        je xong_nhap    ; dung thi dung nhap\n        sub al, 48      ; doi ky tu '0'..'9' thanh so 0..9\n        mov ah, 0       ; xoa AH de AX = chu so vua nhap\n        mov cx, ax      ; cat chu so moi vao CX\n        mov ax, 10\n        mul bx          ; AX = BX * 10\n        add ax, cx      ; cong chu so moi\n        mov bx, ax      ; luu lai vao BX\n        jmp nhap\n\n    xong_nhap:\n        call xuong_dong\n\n        ;---- IN THONG BAO SO NHI PHAN ----\n        mov ah, 9\n        lea dx, ms2\n        int 21h\n\n        ;---- DOI SANG NHI PHAN: CHIA 2, PUSH SO DU ----\n        mov ax, bx      ; AX = so can doi\n        mov bx, 2       ; BX = so chia\n        xor cx, cx      ; CX = dem so bit (so lan push)\n\n    chia_2:\n        xor dx, dx      ; DX = 0 truoc khi chia (DX:AX / BX)\n        div bx          ; AX = thuong, DX = so du (0 hoac 1)\n        push dx         ; cat so du vao stack\n        inc cx          ; dem them 1 bit\n        cmp ax, 0       ; thuong con khac 0 thi chia tiep\n        jne chia_2\n\n        ;---- POP RA IN (DAO NGUOC THU TU) ----\n    in_bit:\n        pop dx          ; lay so du ra\n        add dl, 48      ; doi so 0/1 thanh ky tu '0'/'1'\n        mov ah, 2       ; ham 2: in ky tu trong DL\n        int 21h\n        loop in_bit     ; CX giam 1, con thi lap\n\n    thoat:\n        call xuong_dong\n        mov ah, 4ch\n        int 21h\n    main endp\n\nxuong_dong proc\n    push ax\n    push dx\n    mov ah, 2\n    mov dl, 13          ;ve dau dong\n    int 21h\n    mov dl, 10          ;xuong dong\n    int 21h\n    pop dx\n    pop ax\n    ret\nxuong_dong endp\nend main",
+  "hasDrawing": false,
+  "drawingFile": null,
+  "drawingMime": null,
+  "drawingAnalysis": null,
+  "score": 10,
+  "feedback": "Bài làm hoàn chỉnh và chính xác theo đúng yêu cầu đề bài. Chương trình nhập đúng số thập phân nhiều chữ số bằng hàm 1 ngắt 21h, dừng khi gặp Enter (mã 13). Thuật toán tích lũy giá trị (nhân 10 cộng chữ số mới) đúng, có xử lý xóa AH trước khi dùng AX. Phần đổi sang nhị phân dùng chia 2 liên tục, push số dư vào stack và đếm bằng CX, sau đó pop ra in đảo ngược bằng loop — hoàn toàn khớp với cách làm trong đề. Thủ tục xuong_dong có bảo toàn thanh ghi (push/pop AX, DX) là điểm cộng. Code rõ ràng, comment đầy đủ, cấu trúc chuẩn .model small. Không phát hiện lỗi logic.",
+  "breakdown": [
+    {
+      "criterion": "Nhập số thập phân nhiều chữ số và dừng khi Enter",
+      "score": 3,
+      "comment": "Dùng hàm 1 ngắt 21h, so sánh với 13 để dừng, tích lũy giá trị đúng (mul 10 + chữ số mới)."
+    },
+    {
+      "criterion": "Đổi sang nhị phân (chia 2, push số dư, đếm CX)",
+      "score": 4,
+      "comment": "Chia 2 liên tục, xor dx trước mỗi lần div, push số dư, inc CX, dừng khi thương = 0. Hoàn toàn chính xác."
+    },
+    {
+      "criterion": "In dãy nhị phân (pop + loop)",
+      "score": 2,
+      "comment": "Pop lấy bit cao nhất trước, cộng 48 thành ký tự, in bằng hàm 2, loop theo CX đúng."
+    },
+    {
+      "criterion": "Cấu trúc chương trình, thông báo, thoát chương trình",
+      "score": 1,
+      "comment": "Khởi tạo DS đúng, in thông báo ms1/ms2, xuống dòng hợp lý, thoát bằng hàm 4Ch. Thủ tục con bảo toàn thanh ghi."
+    }
+  ],
+  "grammar": null,
+  "sampleComparison": null,
+  "model": "occ/claude-opus-4-8",
+  "aiKeyId": "6abfdf08b29c124d59ccc66b",
+  "aiKeyName": "hunganh2006",
+  "aiProvider": "vilao",
+  "latencyMs": 17496,
+  "promptSnapshot": {
+    "kind": "essay",
+    "promptId": null,
+    "name": "Fallback mặc định (hardcoded)",
+    "content": "Bạn là giáo viên chấm bài. Hãy chấm bài viết sau dựa trên đề bài và rubric.\n\nĐề bài:\n{đề_bài}\n\nBài làm sinh viên (phần nhập chữ):\n{bài_làm}\n\nPhần vẽ tay của sinh viên (đã được bước phân tích hình ảnh đọc trước):\n{hình_vẽ}\n\nLời giải mẫu (nếu có, chỉ dùng để đối chiếu ý, không chép nguyên văn vào feedback):\n{lời_giải_mẫu}\n\nRubric: {rubric}\nĐiểm tối đa: {max_score}\n\nQUY TẮC CHẤM KẾT HỢP CHỮ + HÌNH VẼ:\n- Nếu có cả phần nhập chữ và phần vẽ tay: chấm CẢ HAI theo đề bài/rubric, cho một điểm tổng duy nhất.\n- Nếu chỉ có một phần: chỉ chấm phần đó, KHÔNG trừ điểm vì phần sinh viên không nộp.\n\nQUY TẮC PHÁT HIỆN LỖI:\n- Chỉ liệt kê lỗi khi lỗi thực sự tồn tại trong bài làm, không tự bịa.\n- Nếu đề bài/rubric không đủ căn cứ để xác định một lỗi cụ thể, bỏ qua, không đoán.\n- Mỗi lỗi nêu rõ: câu gốc sai, câu đã sửa, giải thích ngắn gọn.\n\nChỉ trả về JSON hợp lệ, không Markdown, không giải thích ngoài JSON:\n{\n  \"score\": number,\n  \"feedback\": string,\n  \"breakdown\": [{ \"criterion\": string, \"score\": number, \"comment\": string }],\n  \"errors\": [{ \"original\": string, \"corrected\": string, \"explanation\": string }]\n}",
+    "rubric": null,
+    "strictness": "normal",
+    "maxScore": 10,
+    "scope": "fallback",
+    "version": 0,
+    "isFallback": true,
+    "unknownPlaceholders": [],
+    "snapshotAt": "2026-10-15T14:36:59.005Z"
+  },
+  "raw": {
+    "score": 10,
+    "feedback": "Bài làm hoàn chỉnh và chính xác theo đúng yêu cầu đề bài. Chương trình nhập đúng số thập phân nhiều chữ số bằng hàm 1 ngắt 21h, dừng khi gặp Enter (mã 13). Thuật toán tích lũy giá trị (nhân 10 cộng chữ số mới) đúng, có xử lý xóa AH trước khi dùng AX. Phần đổi sang nhị phân dùng chia 2 liên tục, push số dư vào stack và đếm bằng CX, sau đó pop ra in đảo ngược bằng loop — hoàn toàn khớp với cách làm trong đề. Thủ tục xuong_dong có bảo toàn thanh ghi (push/pop AX, DX) là điểm cộng. Code rõ ràng, comment đầy đủ, cấu trúc chuẩn .model small. Không phát hiện lỗi logic.",
+    "breakdown": [
+      {
+        "criterion": "Nhập số thập phân nhiều chữ số và dừng khi Enter",
+        "score": 3,
+        "comment": "Dùng hàm 1 ngắt 21h, so sánh với 13 để dừng, tích lũy giá trị đúng (mul 10 + chữ số mới)."
+      },
+      {
+        "criterion": "Đổi sang nhị phân (chia 2, push số dư, đếm CX)",
+        "score": 4,
+        "comment": "Chia 2 liên tục, xor dx trước mỗi lần div, push số dư, inc CX, dừng khi thương = 0. Hoàn toàn chính xác."
+      },
+      {
+        "criterion": "In dãy nhị phân (pop + loop)",
+        "score": 2,
+        "comment": "Pop lấy bit cao nhất trước, cộng 48 thành ký tự, in bằng hàm 2, loop theo CX đúng."
+      },
+      {
+        "criterion": "Cấu trúc chương trình, thông báo, thoát chương trình",
+        "score": 1,
+        "comment": "Khởi tạo DS đúng, in thông báo ms1/ms2, xuống dòng hợp lý, thoát bằng hàm 4Ch. Thủ tục con bảo toàn thanh ghi."
+      }
+    ],
+    "errors": []
+  }
+}
