@@ -1,0 +1,23 @@
+{
+  "lessonId": "6ad01e558556b7b07d70de28",
+  "type": "essay",
+  "title": "(15/10/2026 - Code 8086 - Giữa kì) Bài 1: Nhập vào một số thập phân, đổi thành số nhị phân và in số nhị phân ra màn hình",
+  "slug": "15102026-code-8086-giua-ki-bai-1-nhap-vao-mot-so-thap-phan-doi-thanh-so-nhi-phan-va-in-so-nhi-phan-ra-man-hinh",
+  "subjectSlug": "kien-truc-va-to-chuc-may-tinh-1-1-26n06",
+  "description": "",
+  "contentHtml": "<div class=\"de-bai\">\n  <h3>Bài 1: Nhập vào một số thập phân, đổi thành số nhị phân và in số nhị phân ra màn hình</h3>\n  <p>Viết chương trình hợp ngữ 8086 yêu cầu nhập một số thập phân (nhiều chữ số, nhập đến khi nhấn Enter), đổi số đó sang hệ nhị phân rồi in dãy số nhị phân ra màn hình.</p>\n  <p><b>Ví dụ:</b></p>\n  <pre>nhap so thap phan: 10\nso nhi phan: 1010\n\nnhap so thap phan: 25\nso nhi phan: 11001</pre>\n  <p><b>Cách làm:</b></p>\n  <ul>\n    <li>Nhập từng ký tự bằng hàm 1 của ngắt 21h. Nếu ký tự là 13 (phím Enter) thì dừng nhập.</li>\n    <li>Với mỗi chữ số nhập vào: trừ 48 để đổi sang số, lấy số đang lưu nhân 10 rồi cộng chữ số mới. Số đang lưu ban đầu bằng 0.</li>\n    <li>Để đổi sang nhị phân: chia số cho 2 liên tục, mỗi lần chia xong thì đẩy (push) số dư (0 hoặc 1) vào ngăn xếp và đếm số lần đẩy bằng CX. Dừng khi thương bằng 0.</li>\n    <li>Lấy các chữ số ra bằng pop. Do ngăn xếp là cấu trúc vào sau ra trước nên chữ số đầu tiên lấy ra là bit cao nhất. In từng bit (cộng 48) bằng vòng lặp loop.</li>\n  </ul>\n</div>",
+  "sampleSolution": "",
+  "duration": 60,
+  "model": null,
+  "promptId": null,
+  "aiKeyId": null,
+  "isPublished": true,
+  "isDeleted": false,
+  "createdBy": {
+    "id": "6ab3d694415010bf620349e5",
+    "name": "Mai Ngọc Hùng Anh",
+    "email": "hunganh.okokok.0@gmail.com"
+  },
+  "createdAt": "2026-10-15T00:29:09.516Z",
+  "updatedAt": "2026-10-15T00:29:09.516Z"
+}
