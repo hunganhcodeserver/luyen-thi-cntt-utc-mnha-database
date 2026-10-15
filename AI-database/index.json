@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-15T09:25:38.909Z",
+  "updatedAt": "2026-10-15T09:33:32.218Z",
   "note": "Danh sách nhà cung cấp AI (API, biến API, model). Key API KHÔNG lưu ở đây — lưu mã hoá trong MongoDB (aikeys). Sửa tại /admin/ai-keys/Supplier.",
   "providers": [
     {
@@ -139,6 +139,38 @@
       "keyPlaceholder": "sk-ant-usr-...",
       "createdAt": "2026-10-15T09:25:38.909Z",
       "updatedAt": "2026-10-15T09:25:38.909Z",
+      "updatedBy": "hunganh.okokok.0@gmail.com"
+    },
+    {
+      "id": "groq",
+      "label": "Groq",
+      "description": "Model mã nguồn mở chạy nhanh trên Groq (có gói free)",
+      "kind": "openai",
+      "builtin": false,
+      "aliases": [],
+      "enabled": true,
+      "baseUrl": "https://api.groq.com/openai/v1",
+      "chatPath": "/chat/completions",
+      "authHeader": "Authorization",
+      "authScheme": "Bearer",
+      "maxTokens": 4096,
+      "systemPrompt": "Bạn là trợ lý AI chấm bài. Làm đúng theo yêu cầu và định dạng đầu ra được nêu trong tin nhắn của người dùng.",
+      "models": [
+        "openai/gpt-oss-20b",
+        "openai/gpt-oss-120b",
+        "llama-3.3-70b-versatile",
+        "llama-3.1-8b-instant"
+      ],
+      "defaultModel": "openai/gpt-oss-20b",
+      "fallbackModels": [],
+      "modelPerKey": true,
+      "allowCustomModel": true,
+      "keyPrefixes": [
+        "gsk_"
+      ],
+      "keyPlaceholder": "gsk_...",
+      "createdAt": "2026-10-15T09:33:32.218Z",
+      "updatedAt": "2026-10-15T09:33:32.218Z",
       "updatedBy": "hunganh.okokok.0@gmail.com"
     }
   ]
