@@ -1,7 +1,7 @@
 {
   "submissionId": "6ad03338bd04644fb7dbf26e",
   "submittedAt": "2026-10-15T01:58:16.556Z",
-  "gradedAt": "2026-10-15T01:58:28.921Z",
+  "gradedAt": "2026-10-15T01:58:28.504Z",
   "status": "graded",
   "errorMessage": null,
   "userId": "6ab3d694415010bf620349e5",
@@ -89,5 +89,8 @@
         "explanation": "Nên sử dụng thuật toán chia 2 đẩy số dư vào stack theo đúng yêu cầu của đề bài để loại bỏ các số 0 vô nghĩa ở đầu và khớp với ví dụ mẫu (ví dụ: 10 ra 1010 thay vì 0000000000001010)."
       }
     ]
-  }
+  },
+  "type": "essay",
+  "teacherComment": null,
+  "updatedAt": "2026-10-15T01:58:32.146Z"
 }
