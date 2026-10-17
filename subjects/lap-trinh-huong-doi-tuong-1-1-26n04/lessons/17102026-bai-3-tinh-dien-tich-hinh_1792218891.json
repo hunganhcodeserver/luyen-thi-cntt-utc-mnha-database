@@ -1,0 +1,23 @@
+{
+  "lessonId": "6ad3170b7cfcb559dd84d350",
+  "type": "essay",
+  "title": "(17/10/2026) Bài 3: Tính diện tích hình",
+  "slug": "17102026-bai-3-tinh-dien-tich-hinh",
+  "subjectSlug": "lap-trinh-huong-doi-tuong-1-1-26n04",
+  "description": "",
+  "contentHtml": "<h3>Bài 3.</h3>\n<p>Hãy định nghĩa một lớp Shape (Hình) trong đó dữ liệu là 2 cạnh (width, và height). Dẫn xuất từ lớp Hình hai lớp con là lớp Triangle (Hình tam giác) và lớp Rectangle (Hình chữ nhật), trong mỗi lớp có phương thức tính diện tích area().</p>\n<ul>\n  <li>Trong hàm main() khai báo hai biến đối tượng của lớp Triangle và lớp Rectangle, sau đó gọi hàm area() để tính diện tích mỗi hình.</li>\n  <li>Yêu cầu: Viết hai phiên bản cho hai trường hợp:\n    <ul>\n      <li>1) Dữ liệu của Shape là protected, dùng hàm thành phần để nhập dữ liệu.</li>\n      <li>2) Dữ liệu của Shape là private, dùng hàm tạo có đối để khởi tạo dữ liệu.</li>\n    </ul>\n  </li>\n</ul>",
+  "sampleSolution": "",
+  "duration": 30,
+  "model": null,
+  "promptId": null,
+  "aiKeyId": null,
+  "isPublished": true,
+  "isDeleted": false,
+  "createdBy": {
+    "id": "6ab3d694415010bf620349e5",
+    "name": "Mai Ngọc Hùng Anh",
+    "email": "hunganh.okokok.0@gmail.com"
+  },
+  "createdAt": "2026-10-17T06:34:51.412Z",
+  "updatedAt": "2026-10-17T06:34:51.412Z"
+}
