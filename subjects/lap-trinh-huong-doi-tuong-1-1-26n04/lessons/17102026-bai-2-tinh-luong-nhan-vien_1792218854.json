@@ -1,0 +1,23 @@
+{
+  "lessonId": "6ad316e67cfcb559dd84d34f",
+  "type": "essay",
+  "title": "(17/10/2026) Bài 2: Tính lương nhân viên",
+  "slug": "17102026-bai-2-tinh-luong-nhan-vien",
+  "subjectSlug": "lap-trinh-huong-doi-tuong-1-1-26n04",
+  "description": "",
+  "contentHtml": "<h3>Bài 2.</h3>\n<p>Một công ty có nhiều loại nhân viên với cách tính lương khác nhau. Hãy xây dựng chương trình tính lương với các yêu cầu sau:</p>\n<ol>\n  <li>Xây dựng lớp cơ sở Employee gồm:\n    <ul>\n      <li>Thuộc tính: mã nhân viên, họ tên.</li>\n      <li>Hàm nhập và hiển thị thông tin.</li>\n      <li>Hàm ảo thuần túy calculateSalary() để tính lương.</li>\n    </ul>\n  </li>\n  <li>Xây dựng ba lớp dẫn xuất:\n    <ul>\n      <li>FullTimeEmployee: nhân viên toàn thời gian, lương bằng lương cơ bản cộng phụ cấp.</li>\n      <li>PartTimeEmployee: nhân viên bán thời gian, lương bằng số giờ làm việc nhân đơn giá mỗi giờ.</li>\n      <li>CommissionEmployee: nhân viên hưởng hoa hồng, lương bằng lương cơ bản cộng tỷ lệ hoa hồng nhân doanh thu.</li>\n    </ul>\n  </li>\n  <li>Mỗi lớp phải cài đặt phương thức calculateSalary() theo công thức riêng.</li>\n  <li>Trong hàm main():\n    <ul>\n      <li>Nhập danh sách n nhân viên thuộc các loại khác nhau.</li>\n      <li>In thông tin và tiền lương của từng nhân viên.</li>\n      <li>Tính tổng quỹ lương của công ty.</li>\n    </ul>\n  </li>\n</ol>",
+  "sampleSolution": "",
+  "duration": 30,
+  "model": null,
+  "promptId": null,
+  "aiKeyId": null,
+  "isPublished": true,
+  "isDeleted": false,
+  "createdBy": {
+    "id": "6ab3d694415010bf620349e5",
+    "name": "Mai Ngọc Hùng Anh",
+    "email": "hunganh.okokok.0@gmail.com"
+  },
+  "createdAt": "2026-10-17T06:34:14.717Z",
+  "updatedAt": "2026-10-17T06:34:14.717Z"
+}
