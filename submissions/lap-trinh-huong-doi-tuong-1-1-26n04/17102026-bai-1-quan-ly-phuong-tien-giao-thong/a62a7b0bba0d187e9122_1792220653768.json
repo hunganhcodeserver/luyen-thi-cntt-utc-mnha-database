@@ -1,7 +1,7 @@
 {
   "submissionId": "6ad31de3c3d456b9a78e887b",
   "submittedAt": "2026-10-17T07:04:03.879Z",
-  "gradedAt": "2026-10-17T07:04:13.882Z",
+  "gradedAt": "2026-10-17T07:04:13.484Z",
   "status": "graded",
   "errorMessage": null,
   "userId": "6ab3d694415010bf620349e5",
@@ -89,5 +89,8 @@
         "explanation": "Dòng lệnh này cấp phát một đối tượng Car mới trước vòng lặp do-while, sau đó bên trong vòng lặp con trỏ ds[i] lại được gán địa chỉ mới của đối tượng được chọn. Điều này làm mất địa chỉ của đối tượng Car ban đầu và gây rò rỉ bộ nhớ (memory leak)."
       }
     ]
-  }
+  },
+  "type": "essay",
+  "teacherComment": null,
+  "updatedAt": "2026-10-17T07:04:17.787Z"
 }
