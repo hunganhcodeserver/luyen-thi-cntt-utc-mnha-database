@@ -1,7 +1,7 @@
 {
   "submissionId": "6ad45766aa9f96bf662d7f89",
   "submittedAt": "2026-10-18T05:21:42.654Z",
-  "gradedAt": "2026-10-18T05:22:03.371Z",
+  "gradedAt": "2026-10-18T05:22:02.968Z",
   "status": "graded",
   "errorMessage": null,
   "userId": "6ab3d694415010bf620349e5",
@@ -104,5 +104,8 @@
         "explanation": "Nên thêm từ khóa override như ở phiên bản protected để tường minh rằng đang ghi đè hàm ảo, giúp trình biên dịch phát hiện lỗi chữ ký (không trừ điểm, chỉ là góp ý)."
       }
     ]
-  }
+  },
+  "type": "essay",
+  "teacherComment": null,
+  "updatedAt": "2026-10-18T05:22:07.654Z"
 }
