@@ -1,0 +1,108 @@
+{
+  "submissionId": "6ad45766aa9f96bf662d7f89",
+  "submittedAt": "2026-10-18T05:21:42.654Z",
+  "gradedAt": "2026-10-18T05:22:03.371Z",
+  "status": "graded",
+  "errorMessage": null,
+  "userId": "6ab3d694415010bf620349e5",
+  "userName": "Mai Ngọc Hùng Anh",
+  "userEmail": "hunganh.okokok.0@gmail.com",
+  "subjectId": "6ab5aeac813f0f6c24604455",
+  "subjectName": "Lập trình hướng đối tượng-1-1-26(N04)",
+  "subjectCode": "IT1.108.3",
+  "subjectSlug": "lap-trinh-huong-doi-tuong-1-1-26n04",
+  "lessonId": "6ad3170b7cfcb559dd84d350",
+  "lessonTitle": "(17/10/2026) Bài 3: Tính diện tích hình",
+  "lessonSlug": "17102026-bai-3-tinh-dien-tich-hinh",
+  "lessonDuration": 30,
+  "lessonContentHtml": "<h3>Bài 3.</h3>\n<p>Hãy định nghĩa một lớp Shape (Hình) trong đó dữ liệu là 2 cạnh (width, và height). Dẫn xuất từ lớp Hình hai lớp con là lớp Triangle (Hình tam giác) và lớp Rectangle (Hình chữ nhật), trong mỗi lớp có phương thức tính diện tích area().</p>\n<ul>\n  <li>Trong hàm main() khai báo hai biến đối tượng của lớp Triangle và lớp Rectangle, sau đó gọi hàm area() để tính diện tích mỗi hình.</li>\n  <li>Yêu cầu: Viết hai phiên bản cho hai trường hợp:\n    <ul>\n      <li>1) Dữ liệu của Shape là protected, dùng hàm thành phần để nhập dữ liệu.</li>\n      <li>2) Dữ liệu của Shape là private, dùng hàm tạo có đối để khởi tạo dữ liệu.</li>\n    </ul>\n  </li>\n</ul>",
+  "lessonSampleSolution": "",
+  "answerHtml": "// Dữ liệu của Shape là private\n\n#include <bits/stdc++.h>\nusing namespace std;\n\nclass Shape{\n\tprivate:\n\t\tdouble width;\n\t\tdouble height;\n\tpublic:\n\t\tShape(){\n\t\t\twidth = 0;\n\t\t\theight = 0;\n\t\t}\n\t\tvirtual ~Shape(){\n\t\t}\n\t\tvirtual void nhap(){\n\t\t\tcout << \"Nhap chieu rong (Chieu rong day): \";\n\t\t\tcin >> width;\n\t\t\tcout << \"Nhap chieu dai (Chieu cao): \";\n\t\t\tcin >> height;\n\t\t}\n\t\tvirtual double area() const = 0;\n\t\tvirtual void xuat(){\n\t\t\tcout << \"Chieu rong: \" << width << \" | Chieu dai: \" << height << \" | Dien tich: \" << fixed << setprecision(2) << area() << endl;\n\t\t}\n\t\tdouble getWidth() const {\n\t\t\treturn width;\n\t\t}\n\t\tdouble getHeight() const {\n\t\t\treturn height;\n\t\t}\n};\n\nclass Triangle : public Shape{\n\tpublic:\n\t\tdouble area() const{\n\t\t\treturn 0.5 * getWidth() * getHeight();\n\t\t}\n};\n\nclass Rectangle : public Shape{\n\tpublic:\n\t\tdouble area() const{\n\t\t\treturn getWidth() * getHeight();\n\t\t}\n};\n\nint main(){\n    int n;\n    cout << \"Nhap n: \";\n    cin >> n;\n    vector<Shape*> ds(n);\n    for (int i = 0; i < n; i++) {\n    \tcout << \"--- Hinh \" << i + 1 << \" ---\\n\";\n    \tint loai = 0;\n    \tdo{\n    \t\tcout << \"Chon loai (1. Hinh tam giac, 2. Hinh chu nhat): \";\n    \t\tcin >> loai;\n            if (loai == 1) ds[i] = new Triangle;\n            else if (loai == 2) ds[i] = new Rectangle;\n            else cout << \"Vui long chon lai!\\n\";\n\t\t} while (loai < 1 || loai > 2);\n\t\tds[i]->nhap();\n\t}\n    cout << \"\\n===== DANH SACH HINH =====\\n\";\n    for (int i = 0; i < n; i++){\n    \tds[i]->xuat();\n\t}\n    for (int i = 0; i < n; i++) delete ds[i];\n    return 0;\n}\n\n\n\n\n// Du lieu cua Shape la protected\n\n#include <bits/stdc++.h>\nusing namespace std;\n\nclass Shape{\n\tprotected:\n\t\tdouble width;\n\t\tdouble height;\n\tpublic:\n\t\tShape(){\n\t\t\twidth = 0;\n\t\t\theight = 0;\n\t\t}\n\t\tvirtual ~Shape(){\n\t\t}\n\t\tvirtual void nhap(){\n\t\t\tcout << \"Nhap chieu rong (Chieu rong day): \";\n\t\t\tcin >> width;\n\t\t\tcout << \"Nhap chieu dai (Chieu cao): \";\n\t\t\tcin >> height;\n\t\t}\n\t\tvirtual double area() const = 0;\n\t\tvirtual void xuat(){\n\t\t\tcout << \"Chieu rong: \" << width << \" | Chieu dai: \" << height << \" | Dien tich: \" << fixed << setprecision(2) << area() << endl;\n\t\t}\n};\n\nclass Triangle : public Shape{\n\tpublic:\n\t\tdouble area() const override{\n\t\t\treturn 0.5 * width * height;\n\t\t}\n};\n\nclass Rectangle : public Shape{\n\tpublic:\n\t\tdouble area() const override{\n\t\t\treturn width * height;\n\t\t}\n};\n\nint main(){\n    int n;\n    cout << \"Nhap n: \";\n    cin >> n;\n    vector<Shape*> ds(n);\n    for (int i = 0; i < n; i++) {\n    \tcout << \"--- Hinh \" << i + 1 << \" ---\\n\";\n    \tint loai = 0;\n    \tdo{\n    \t\tcout << \"Chon loai (1. Hinh tam giac, 2. Hinh chu nhat): \";\n    \t\tcin >> loai;\n            if (loai == 1) ds[i] = new Triangle;\n            else if (loai == 2) ds[i] = new Rectangle;\n            else cout << \"Vui long chon lai!\\n\";\n\t\t} while (loai < 1 || loai > 2);\n\t\tds[i]->nhap();\n\t}\n    cout << \"\\n===== DANH SACH HINH =====\\n\";\n    for (int i = 0; i < n; i++){\n    \tds[i]->xuat();\n\t}\n    for (int i = 0; i < n; i++) delete ds[i];\n    return 0;\n}",
+  "hasDrawing": false,
+  "drawingFile": null,
+  "drawingMime": null,
+  "drawingAnalysis": null,
+  "score": 9.5,
+  "feedback": "Bài làm tốt, đáp ứng đầy đủ yêu cầu đề bài với hai phiên bản riêng biệt. Phiên bản private dùng getter để truy cập dữ liệu từ lớp con, phiên bản protected truy cập trực tiếp. Cả hai lớp Triangle và Rectangle đều override area() đúng (tam giác 0.5*đáy*cao, chữ nhật rộng*cao). Có dùng con trỏ đa hình, hàm ảo, destructor ảo và giải phóng bộ nhớ đầy đủ. Lưu ý nhỏ: đề yêu cầu phiên bản private 'dùng hàm tạo có đối để khởi tạo dữ liệu' nhưng bài lại dùng hàm nhap() thay vì constructor có tham số — chưa đúng hoàn toàn với yêu cầu này.",
+  "breakdown": [
+    {
+      "criterion": "Định nghĩa lớp Shape và kế thừa Triangle, Rectangle",
+      "score": 3,
+      "comment": "Khai báo lớp cơ sở Shape với 2 dữ liệu width, height và dẫn xuất đúng hai lớp con."
+    },
+    {
+      "criterion": "Phương thức area() trong mỗi lớp con",
+      "score": 3,
+      "comment": "area() được override đúng công thức cho cả tam giác và chữ nhật."
+    },
+    {
+      "criterion": "Hàm main gọi area() cho đối tượng Triangle và Rectangle",
+      "score": 2,
+      "comment": "Có khai báo, nhập và tính diện tích; dùng đa hình qua con trỏ, giải phóng bộ nhớ tốt."
+    },
+    {
+      "criterion": "Viết đủ hai phiên bản protected và private theo đúng yêu cầu",
+      "score": 1.5,
+      "comment": "Có đủ hai phiên bản. Trừ 0.5 vì phiên bản private đề yêu cầu dùng hàm tạo có đối (constructor có tham số) nhưng bài vẫn dùng hàm nhap() nhập liệu."
+    }
+  ],
+  "grammar": null,
+  "sampleComparison": null,
+  "model": "occ/claude-opus-4-8",
+  "aiKeyId": "6abfdf08b29c124d59ccc66b",
+  "aiKeyName": "hunganh2006",
+  "aiProvider": "vilao",
+  "latencyMs": 20312,
+  "promptSnapshot": {
+    "kind": "essay",
+    "promptId": null,
+    "name": "Fallback mặc định (hardcoded)",
+    "content": "Bạn là giáo viên chấm bài. Hãy chấm bài viết sau dựa trên đề bài và rubric.\n\nĐề bài:\n{đề_bài}\n\nBài làm sinh viên (phần nhập chữ):\n{bài_làm}\n\nPhần vẽ tay của sinh viên (đã được bước phân tích hình ảnh đọc trước):\n{hình_vẽ}\n\nLời giải mẫu (nếu có, chỉ dùng để đối chiếu ý, không chép nguyên văn vào feedback):\n{lời_giải_mẫu}\n\nRubric: {rubric}\nĐiểm tối đa: {max_score}\n\nQUY TẮC CHẤM KẾT HỢP CHỮ + HÌNH VẼ:\n- Nếu có cả phần nhập chữ và phần vẽ tay: chấm CẢ HAI theo đề bài/rubric, cho một điểm tổng duy nhất.\n- Nếu chỉ có một phần: chỉ chấm phần đó, KHÔNG trừ điểm vì phần sinh viên không nộp.\n\nQUY TẮC PHÁT HIỆN LỖI:\n- Chỉ liệt kê lỗi khi lỗi thực sự tồn tại trong bài làm, không tự bịa.\n- Nếu đề bài/rubric không đủ căn cứ để xác định một lỗi cụ thể, bỏ qua, không đoán.\n- Mỗi lỗi nêu rõ: câu gốc sai, câu đã sửa, giải thích ngắn gọn.\n\nChỉ trả về JSON hợp lệ, không Markdown, không giải thích ngoài JSON:\n{\n  \"score\": number,\n  \"feedback\": string,\n  \"breakdown\": [{ \"criterion\": string, \"score\": number, \"comment\": string }],\n  \"errors\": [{ \"original\": string, \"corrected\": string, \"explanation\": string }]\n}",
+    "rubric": null,
+    "strictness": "normal",
+    "maxScore": 10,
+    "scope": "fallback",
+    "version": 0,
+    "isFallback": true,
+    "unknownPlaceholders": [],
+    "snapshotAt": "2026-10-18T05:22:02.968Z"
+  },
+  "raw": {
+    "score": 9.5,
+    "feedback": "Bài làm tốt, đáp ứng đầy đủ yêu cầu đề bài với hai phiên bản riêng biệt. Phiên bản private dùng getter để truy cập dữ liệu từ lớp con, phiên bản protected truy cập trực tiếp. Cả hai lớp Triangle và Rectangle đều override area() đúng (tam giác 0.5*đáy*cao, chữ nhật rộng*cao). Có dùng con trỏ đa hình, hàm ảo, destructor ảo và giải phóng bộ nhớ đầy đủ. Lưu ý nhỏ: đề yêu cầu phiên bản private 'dùng hàm tạo có đối để khởi tạo dữ liệu' nhưng bài lại dùng hàm nhap() thay vì constructor có tham số — chưa đúng hoàn toàn với yêu cầu này.",
+    "breakdown": [
+      {
+        "criterion": "Định nghĩa lớp Shape và kế thừa Triangle, Rectangle",
+        "score": 3,
+        "comment": "Khai báo lớp cơ sở Shape với 2 dữ liệu width, height và dẫn xuất đúng hai lớp con."
+      },
+      {
+        "criterion": "Phương thức area() trong mỗi lớp con",
+        "score": 3,
+        "comment": "area() được override đúng công thức cho cả tam giác và chữ nhật."
+      },
+      {
+        "criterion": "Hàm main gọi area() cho đối tượng Triangle và Rectangle",
+        "score": 2,
+        "comment": "Có khai báo, nhập và tính diện tích; dùng đa hình qua con trỏ, giải phóng bộ nhớ tốt."
+      },
+      {
+        "criterion": "Viết đủ hai phiên bản protected và private theo đúng yêu cầu",
+        "score": 1.5,
+        "comment": "Có đủ hai phiên bản. Trừ 0.5 vì phiên bản private đề yêu cầu dùng hàm tạo có đối (constructor có tham số) nhưng bài vẫn dùng hàm nhap() nhập liệu."
+      }
+    ],
+    "errors": [
+      {
+        "original": "Shape(){ width = 0; height = 0; } ... virtual void nhap(){ ... cin >> width; ... }  (ở phiên bản private)",
+        "corrected": "Shape(double w, double h) : width(w), height(h) {} // khởi tạo dữ liệu qua hàm tạo có đối, và truyền giá trị khi tạo đối tượng: new Triangle(w, h)",
+        "explanation": "Đề bài phiên bản private yêu cầu 'dùng hàm tạo có đối để khởi tạo dữ liệu', nhưng bài làm vẫn dùng hàm nhap() như phiên bản protected. Nên bổ sung constructor có tham số để đúng yêu cầu."
+      },
+      {
+        "original": "class Triangle : public Shape{ public: double area() const{ ... } };  (phiên bản private)",
+        "corrected": "double area() const override { ... }",
+        "explanation": "Nên thêm từ khóa override như ở phiên bản protected để tường minh rằng đang ghi đè hàm ảo, giúp trình biên dịch phát hiện lỗi chữ ký (không trừ điểm, chỉ là góp ý)."
+      }
+    ]
+  }
+}
