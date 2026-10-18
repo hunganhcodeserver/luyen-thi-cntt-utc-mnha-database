@@ -1,7 +1,7 @@
 {
   "submissionId": "6ad437eb2599de35fe17a4ee",
   "submittedAt": "2026-10-18T03:07:23.469Z",
-  "gradedAt": "2026-10-18T03:07:44.865Z",
+  "gradedAt": "2026-10-18T03:07:44.436Z",
   "status": "graded",
   "errorMessage": null,
   "userId": "6ab3d694415010bf620349e5",
@@ -104,5 +104,8 @@
         "explanation": "Nên thêm từ khóa override cho các phương thức ghi đè (và nhap/xuat) để biên dịch kiểm tra đúng chữ ký, tăng độ an toàn và rõ ràng. Không bắt buộc nhưng là chuẩn C++ hiện đại."
       }
     ]
-  }
+  },
+  "type": "essay",
+  "teacherComment": null,
+  "updatedAt": "2026-10-18T03:07:47.693Z"
 }
