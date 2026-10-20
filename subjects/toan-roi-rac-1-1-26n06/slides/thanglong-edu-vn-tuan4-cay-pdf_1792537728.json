@@ -1,0 +1,29 @@
+{
+  "type": "slide",
+  "slideId": "6ad7f489ea489986ba009d36",
+  "title": "thanglong.edu.vn\\Tuan4_Cay.pdf",
+  "slug": "thanglong-edu-vn-tuan4-cay-pdf",
+  "subjectSlug": "toan-roi-rac-1-1-26n06",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/toan-roi-rac-1-1-26n06/slides/thanglong-edu-vn-tuan4-cay-pdf_1792537728.pdf",
+      "enc": 1675292,
+      "plain": 1675232
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 1675232,
+  "originalName": "Tuan4_Cay.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-20T23:08:57.026Z",
+  "updatedAt": "2026-10-20T23:08:57.026Z"
+}
