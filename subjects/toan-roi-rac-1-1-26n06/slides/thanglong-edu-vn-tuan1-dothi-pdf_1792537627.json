@@ -1,0 +1,29 @@
+{
+  "type": "slide",
+  "slideId": "6ad7f427ea489986ba009d33",
+  "title": "thanglong.edu.vn\\Tuan1_dothi.pdf",
+  "slug": "thanglong-edu-vn-tuan1-dothi-pdf",
+  "subjectSlug": "toan-roi-rac-1-1-26n06",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/toan-roi-rac-1-1-26n06/slides/thanglong-edu-vn-tuan1-dothi-pdf_1792537627.pdf",
+      "enc": 2985486,
+      "plain": 2985370
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 2985370,
+  "originalName": "Tuan1_dothi.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-20T23:07:19.493Z",
+  "updatedAt": "2026-10-20T23:07:19.493Z"
+}
