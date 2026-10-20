@@ -1,0 +1,29 @@
+{
+  "type": "slide",
+  "slideId": "6ad7f4bdea489986ba009d39",
+  "title": "thanglong.edu.vn\\Tuan7_TRR.pdf",
+  "slug": "thanglong-edu-vn-tuan7-trr-pdf",
+  "subjectSlug": "toan-roi-rac-1-1-26n06",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/toan-roi-rac-1-1-26n06/slides/thanglong-edu-vn-tuan7-trr-pdf_1792537780.pdf",
+      "enc": 1351112,
+      "plain": 1351052
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 1351052,
+  "originalName": "Tuan7_TRR.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-20T23:09:49.567Z",
+  "updatedAt": "2026-10-20T23:09:49.567Z"
+}
