@@ -1,7 +1,7 @@
 {
   "submissionId": "6ad7a8b8211637f19da97a5f",
   "submittedAt": "2026-10-20T17:45:28.682Z",
-  "gradedAt": "2026-10-20T17:46:11.596Z",
+  "gradedAt": "2026-10-20T17:46:11.086Z",
   "status": "graded",
   "errorMessage": null,
   "userId": "6ab3d694415010bf620349e5",
@@ -119,5 +119,8 @@
         "explanation": "Hàm 4Ch của int 21h dùng AL làm mã trả về; nên đặt AL = 0 để thoát với mã kết thúc xác định."
       }
     ]
-  }
+  },
+  "type": "essay",
+  "teacherComment": null,
+  "updatedAt": "2026-10-20T17:46:14.797Z"
 }
