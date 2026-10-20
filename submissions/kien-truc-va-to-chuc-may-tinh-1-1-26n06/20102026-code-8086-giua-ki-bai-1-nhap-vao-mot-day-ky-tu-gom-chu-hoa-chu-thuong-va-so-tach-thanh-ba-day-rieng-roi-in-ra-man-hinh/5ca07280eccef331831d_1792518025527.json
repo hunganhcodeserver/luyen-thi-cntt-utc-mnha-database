@@ -1,7 +1,7 @@
 {
   "submissionId": "6ad7a7615267747fb9c7cdf3",
   "submittedAt": "2026-10-20T17:39:45.536Z",
-  "gradedAt": "2026-10-20T17:40:25.685Z",
+  "gradedAt": "2026-10-20T17:40:25.098Z",
   "status": "graded",
   "errorMessage": null,
   "userId": "6ab3d694415010bf620349e5",
@@ -109,5 +109,8 @@
         "explanation": "Chú thích bị lặp lại từ khối trên, gây nhầm lẫn: khối này in nội dung mảng s chứ không in thông báo ms2."
       }
     ]
-  }
+  },
+  "type": "essay",
+  "teacherComment": null,
+  "updatedAt": "2026-10-20T17:40:29.598Z"
 }
