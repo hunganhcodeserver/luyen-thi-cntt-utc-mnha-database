@@ -1,0 +1,29 @@
+{
+  "type": "document",
+  "documentId": "6ad73c956126ed47759d8cf2",
+  "title": "Bai-tap-chuong-7-8",
+  "slug": "bai-tap-chuong-7-8",
+  "subjectSlug": "nguyen-ly-he-dieu-hanh-1-1-26n01",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/nguyen-ly-he-dieu-hanh-1-1-26n01/documents/bai-tap-chuong-7-8_1792490639.pdf",
+      "enc": 172292,
+      "plain": 172232
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 172232,
+  "originalName": "Bai-tap-chuong-7-8.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-20T10:04:05.962Z",
+  "updatedAt": "2026-10-20T10:04:05.962Z"
+}
