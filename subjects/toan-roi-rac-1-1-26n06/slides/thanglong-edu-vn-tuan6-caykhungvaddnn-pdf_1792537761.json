@@ -1,0 +1,29 @@
+{
+  "type": "slide",
+  "slideId": "6ad7f4a9ea489986ba009d38",
+  "title": "thanglong.edu.vn\\Tuan6_CayKhungVaDDNN.pdf",
+  "slug": "thanglong-edu-vn-tuan6-caykhungvaddnn-pdf",
+  "subjectSlug": "toan-roi-rac-1-1-26n06",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/toan-roi-rac-1-1-26n06/slides/thanglong-edu-vn-tuan6-caykhungvaddnn-pdf_1792537761.pdf",
+      "enc": 1026287,
+      "plain": 1026227
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 1026227,
+  "originalName": "Tuan6_CayKhungVaDDNN.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-20T23:09:29.596Z",
+  "updatedAt": "2026-10-20T23:09:29.596Z"
+}
