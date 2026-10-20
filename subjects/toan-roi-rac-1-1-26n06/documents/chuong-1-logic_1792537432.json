@@ -1,0 +1,29 @@
+{
+  "type": "document",
+  "documentId": "6ad7f360ea489986ba009d2e",
+  "title": "Chương 1 - Logic",
+  "slug": "chuong-1-logic",
+  "subjectSlug": "toan-roi-rac-1-1-26n06",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/toan-roi-rac-1-1-26n06/documents/chuong-1-logic_1792537432.pdf",
+      "enc": 818972,
+      "plain": 818912
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 818912,
+  "originalName": "Chương 1 - Logic.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-20T23:04:00.307Z",
+  "updatedAt": "2026-10-20T23:04:00.307Z"
+}
