@@ -1,0 +1,23 @@
+{
+  "lessonId": "6ad6e0c763ce43290e050204",
+  "type": "essay",
+  "title": "(20/10/2026 - Code 8086 - Giữa kì) Bài 1: Nhập vào một dãy ký tự gồm chữ hoa, chữ thường và số, tách thành ba dãy riêng rồi in ra màn hình",
+  "slug": "20102026-code-8086-giua-ki-bai-1-nhap-vao-mot-day-ky-tu-gom-chu-hoa-chu-thuong-va-so-tach-thanh-ba-day-rieng-roi-in-ra-man-hinh",
+  "subjectSlug": "kien-truc-va-to-chuc-may-tinh-1-1-26n06",
+  "description": "",
+  "contentHtml": "<div class=\"de-bai\">\n  <h3>Bài: Nhập vào một dãy ký tự gồm chữ hoa, chữ thường và số, tách thành ba dãy riêng rồi in ra màn hình</h3>\n  <p>Đây là bài nâng cấp của bài hôm trước (tách chữ hoa và chữ thường). Viết chương trình hợp ngữ 8086 yêu cầu nhập một dãy ký tự bất kỳ gồm chữ hoa, chữ thường và chữ số (nhập đến khi nhấn Enter), in lại dãy vừa nhập, sau đó tách thành ba dãy: dãy chữ hoa, dãy chữ thường và dãy số, rồi in cả ba dãy ra màn hình. Nếu dãy nào không có ký tự nào thì in thông báo cho biết dãy đó không có.</p>\n  <p><b>Ví dụ:</b></p>\n  <pre>nhap day ky tu: Ab1Cd23\nday ky tu vua nhap: Ab1Cd23\nday chu hoa: AC\nday chu thuong: bd\nday so: 123\n\nnhap day ky tu: abc123\nday ky tu vua nhap: abc123\nday chu hoa: khong co chu hoa\nday chu thuong: abc\nday so: 123\n\nnhap day ky tu: HELLO\nday ky tu vua nhap: HELLO\nday chu hoa: HELLO\nday chu thuong: khong co chu thuong\nday so: khong co so</pre>\n  <p><b>Cách làm:</b></p>\n  <ul>\n    <li>Khai báo 4 mảng ký tự: <code>s</code> lưu dãy nhập vào, <code>s1</code> lưu dãy chữ thường, <code>s2</code> lưu dãy chữ hoa, <code>s3</code> lưu dãy số (mỗi mảng 20 byte).</li>\n    <li>Nhập từng ký tự bằng hàm 1 của ngắt 21h, cất vào mảng <code>s</code>. Nếu ký tự là 13 (phím Enter) thì dừng nhập.</li>\n    <li>Thêm ký tự <code>$</code> vào cuối mảng <code>s</code> rồi in dãy vừa nhập bằng hàm 9 của ngắt 21h.</li>\n    <li>Duyệt từng ký tự của <code>s</code> và phân loại theo mã ASCII:\n      <ul>\n        <li>từ '0' (48) đến '9' (57): là chữ số, chép sang <code>s3</code>;</li>\n        <li>từ 'A' (65) đến 'Z' (90): là chữ hoa, chép sang <code>s2</code>;</li>\n        <li>từ 'a' (97) đến 'z' (122): là chữ thường, chép sang <code>s1</code>.</li>\n      </ul>\n    </li>\n    <li>Dùng ba biến đếm (ví dụ <code>si</code>, <code>di</code>, <code>bp</code>) để lưu số ký tự đã chép vào mỗi mảng <code>s1</code>, <code>s2</code>, <code>s3</code>.</li>\n    <li>Với mỗi dãy: nếu biến đếm bằng 0 thì in thông báo \"khong co ...\" tương ứng; ngược lại thêm ký tự <code>$</code> vào cuối dãy rồi in dãy ra màn hình bằng hàm 9 của ngắt 21h.</li>\n  </ul>\n</div>",
+  "sampleSolution": "",
+  "duration": 30,
+  "model": null,
+  "promptId": null,
+  "aiKeyId": null,
+  "isPublished": true,
+  "isDeleted": false,
+  "createdBy": {
+    "id": "6ab3d694415010bf620349e5",
+    "name": "Mai Ngọc Hùng Anh",
+    "email": "hunganh.okokok.0@gmail.com"
+  },
+  "createdAt": "2026-10-20T03:32:23.862Z",
+  "updatedAt": "2026-10-20T03:32:23.862Z"
+}
