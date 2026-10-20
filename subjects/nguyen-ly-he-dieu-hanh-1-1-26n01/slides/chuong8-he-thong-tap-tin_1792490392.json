@@ -1,0 +1,29 @@
+{
+  "type": "slide",
+  "slideId": "6ad73ba86126ed47759d8ceb",
+  "title": "Chuong8_He_thong_tap_tin",
+  "slug": "chuong8-he-thong-tap-tin",
+  "subjectSlug": "nguyen-ly-he-dieu-hanh-1-1-26n01",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/nguyen-ly-he-dieu-hanh-1-1-26n01/slides/chuong8-he-thong-tap-tin_1792490392.pdf",
+      "enc": 2373926,
+      "plain": 2373810
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 2373810,
+  "originalName": "Chuong8_He_thong_tap_tin.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-20T10:00:08.678Z",
+  "updatedAt": "2026-10-20T10:00:08.678Z"
+}
