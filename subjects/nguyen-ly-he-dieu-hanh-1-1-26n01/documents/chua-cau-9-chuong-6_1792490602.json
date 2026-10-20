@@ -1,0 +1,29 @@
+{
+  "type": "document",
+  "documentId": "6ad73c756126ed47759d8cf1",
+  "title": "Chua-cau-9-chuong-6",
+  "slug": "chua-cau-9-chuong-6",
+  "subjectSlug": "nguyen-ly-he-dieu-hanh-1-1-26n01",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/nguyen-ly-he-dieu-hanh-1-1-26n01/documents/chua-cau-9-chuong-6_1792490602.pdf",
+      "enc": 1193849,
+      "plain": 1193789
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 1193789,
+  "originalName": "Chua-cau-9-chuong-6.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-20T10:03:33.137Z",
+  "updatedAt": "2026-10-20T10:03:33.137Z"
+}
