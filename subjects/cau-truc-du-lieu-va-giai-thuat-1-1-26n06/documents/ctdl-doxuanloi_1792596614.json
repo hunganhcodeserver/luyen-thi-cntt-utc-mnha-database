@@ -1,0 +1,29 @@
+{
+  "type": "document",
+  "documentId": "6ad8daf73646ba8fda909e1f",
+  "title": "CTDL-DoXuanLoi",
+  "slug": "ctdl-doxuanloi",
+  "subjectSlug": "cau-truc-du-lieu-va-giai-thuat-1-1-26n06",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/cau-truc-du-lieu-va-giai-thuat-1-1-26n06/documents/ctdl-doxuanloi_1792596614.pdf",
+      "enc": 8232003,
+      "plain": 8231719
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 8231719,
+  "originalName": "CTDL-DoXuanLoi.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-21T15:32:07.312Z",
+  "updatedAt": "2026-10-21T15:32:07.312Z"
+}
