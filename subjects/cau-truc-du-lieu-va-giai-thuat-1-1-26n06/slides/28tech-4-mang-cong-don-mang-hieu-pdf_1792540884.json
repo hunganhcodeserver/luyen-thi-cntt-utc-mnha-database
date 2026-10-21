@@ -1,0 +1,29 @@
+{
+  "type": "slide",
+  "slideId": "6ad800dc47b6a0499c852d37",
+  "title": "28tech\\4. MẢNG CỘNG DỒN MẢNG HIỆU.pdf",
+  "slug": "28tech-4-mang-cong-don-mang-hieu-pdf",
+  "subjectSlug": "cau-truc-du-lieu-va-giai-thuat-1-1-26n06",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/cau-truc-du-lieu-va-giai-thuat-1-1-26n06/slides/28tech-4-mang-cong-don-mang-hieu-pdf_1792540884.pdf",
+      "enc": 822869,
+      "plain": 822809
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 822809,
+  "originalName": "4. MẢNG CỘNG DỒN MẢNG HIỆU.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-21T00:01:32.065Z",
+  "updatedAt": "2026-10-21T00:01:32.065Z"
+}
