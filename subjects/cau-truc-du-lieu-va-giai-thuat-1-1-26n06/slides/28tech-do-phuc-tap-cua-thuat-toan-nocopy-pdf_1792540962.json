@@ -1,0 +1,29 @@
+{
+  "type": "slide",
+  "slideId": "6ad8012847b6a0499c852d3b",
+  "title": "28tech\\ĐỘ PHỨC TẠP CỦA THUẬT TOÁN_NoCopy.pdf",
+  "slug": "28tech-do-phuc-tap-cua-thuat-toan-nocopy-pdf",
+  "subjectSlug": "cau-truc-du-lieu-va-giai-thuat-1-1-26n06",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/cau-truc-du-lieu-va-giai-thuat-1-1-26n06/slides/28tech-do-phuc-tap-cua-thuat-toan-nocopy-pdf_1792540962.pdf",
+      "enc": 623518,
+      "plain": 623458
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 623458,
+  "originalName": "ĐỘ PHỨC TẠP CỦA THUẬT TOÁN_NoCopy.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-21T00:02:48.793Z",
+  "updatedAt": "2026-10-21T00:02:48.793Z"
+}
