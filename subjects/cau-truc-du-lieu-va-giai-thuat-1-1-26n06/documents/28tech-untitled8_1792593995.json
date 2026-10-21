@@ -1,0 +1,29 @@
+{
+  "type": "document",
+  "documentId": "6ad8d0541470666ea8c78677",
+  "title": "28tech_Untitled8",
+  "slug": "28tech-untitled8",
+  "subjectSlug": "cau-truc-du-lieu-va-giai-thuat-1-1-26n06",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/cau-truc-du-lieu-va-giai-thuat-1-1-26n06/documents/28tech-untitled8_1792593995.pdf",
+      "enc": 80200,
+      "plain": 80140
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 80140,
+  "originalName": "28tech_Untitled8.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-21T14:46:44.100Z",
+  "updatedAt": "2026-10-21T14:46:44.100Z"
+}
