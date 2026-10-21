@@ -1,0 +1,29 @@
+{
+  "type": "slide",
+  "slideId": "6ad808c7970bf32e69140a59",
+  "title": "LMS/6. CÁC THUẬT TOÁN SẮP XẾP/Sắp xếp nhanh (quick sort), Sắp xếp trộn (Merge sort), Sắp xếp vun đống (Heap sort)",
+  "slug": "lms-6-cac-thuat-toan-sap-xep-sap-xep-nhanh-quick-sort-sap-xe",
+  "subjectSlug": "cau-truc-du-lieu-va-giai-thuat-1-1-26n06",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/cau-truc-du-lieu-va-giai-thuat-1-1-26n06/slides/lms-6-cac-thuat-toan-sap-xep-sap-xep-nhanh-quick-sort-sap-xe_1792542895.pdf",
+      "enc": 3603187,
+      "plain": 3603071
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 3603071,
+  "originalName": "ilovepdf_merged.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-21T00:35:19.105Z",
+  "updatedAt": "2026-10-21T00:35:19.105Z"
+}
