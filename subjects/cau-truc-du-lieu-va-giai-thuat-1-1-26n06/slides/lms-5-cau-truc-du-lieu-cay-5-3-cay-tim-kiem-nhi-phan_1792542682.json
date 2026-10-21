@@ -1,0 +1,29 @@
+{
+  "type": "slide",
+  "slideId": "6ad807e2e6fb076f2cde6a27",
+  "title": "LMS/5. CẤU TRÚC DỮ LIỆU CÂY/5.3. Cây tìm kiếm nhị phân",
+  "slug": "lms-5-cau-truc-du-lieu-cay-5-3-cay-tim-kiem-nhi-phan",
+  "subjectSlug": "cau-truc-du-lieu-va-giai-thuat-1-1-26n06",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/cau-truc-du-lieu-va-giai-thuat-1-1-26n06/slides/lms-5-cau-truc-du-lieu-cay-5-3-cay-tim-kiem-nhi-phan_1792542682.pdf",
+      "enc": 1362796,
+      "plain": 1362736
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 1362736,
+  "originalName": "Bai 9-3.  Tree - Cây tìm kiếm nhị phân.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-21T00:31:30.348Z",
+  "updatedAt": "2026-10-21T00:31:30.348Z"
+}
