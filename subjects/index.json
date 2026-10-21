@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-20T22:58:48.906Z",
+  "updatedAt": "2026-10-21T00:48:19.285Z",
   "subjects": [
     {
       "_id": "6ab3df063c59c9d02fe14887",
@@ -161,6 +161,26 @@
       "deletedForever": false,
       "createdAt": "2026-10-20T22:58:48.739Z",
       "updatedAt": "2026-10-20T22:58:48.739Z"
+    },
+    {
+      "_id": "6ad80bd3970bf32e69140a5b",
+      "name": "Giải tích số-1-2-25(N03)",
+      "code": "IT1.150.2",
+      "slug": "giai-tich-so-1-2-25n03",
+      "description": "",
+      "order": 0,
+      "githubFolder": null,
+      "promptId": null,
+      "quizPromptId": null,
+      "isPublished": true,
+      "userKey": null,
+      "createdBy": "6ab3d694415010bf620349e5",
+      "updatedBy": "6ab3d694415010bf620349e5",
+      "deletedAt": null,
+      "deletedBy": null,
+      "deletedForever": false,
+      "createdAt": "2026-10-21T00:48:19.153Z",
+      "updatedAt": "2026-10-21T00:48:19.153Z"
     }
   ]
 }
