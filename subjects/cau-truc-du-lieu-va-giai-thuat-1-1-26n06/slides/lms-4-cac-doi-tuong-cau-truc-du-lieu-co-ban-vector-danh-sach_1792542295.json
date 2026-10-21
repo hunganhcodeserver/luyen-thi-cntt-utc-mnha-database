@@ -1,0 +1,29 @@
+{
+  "type": "slide",
+  "slideId": "6ad80675e6fb076f2cde6a26",
+  "title": "LMS/4. CÁC ĐỐI TƯỢNG CẤU TRÚC DỮ LIỆU CƠ BẢN/Vector, Danh sách liên kết, Stack, Hàng đợi",
+  "slug": "lms-4-cac-doi-tuong-cau-truc-du-lieu-co-ban-vector-danh-sach",
+  "subjectSlug": "cau-truc-du-lieu-va-giai-thuat-1-1-26n06",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/cau-truc-du-lieu-va-giai-thuat-1-1-26n06/slides/lms-4-cac-doi-tuong-cau-truc-du-lieu-co-ban-vector-danh-sach_1792542295.pdf",
+      "enc": 5049475,
+      "plain": 5049303
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 5049303,
+  "originalName": "pdf.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-21T00:25:25.704Z",
+  "updatedAt": "2026-10-21T00:25:25.704Z"
+}
