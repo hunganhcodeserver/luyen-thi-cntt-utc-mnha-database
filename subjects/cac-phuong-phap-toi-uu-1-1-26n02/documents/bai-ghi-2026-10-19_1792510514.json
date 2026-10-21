@@ -7,14 +7,14 @@
   "description": "",
   "parts": [
     {
-      "path": "subjects/cac-phuong-phap-toi-uu-1-1-26n02/documents/bai-ghi-2026-10-19_1792510514.pdf",
-      "enc": 365318,
-      "plain": 365258
+      "path": "subjects/cac-phuong-phap-toi-uu-1-1-26n02/documents/bai-ghi-2026-10-19_1792590935.pdf",
+      "enc": 365319,
+      "plain": 365259
     }
   ],
   "fileExt": "pdf",
-  "fileSize": 365258,
-  "originalName": "bai-ghi-2026-10-19.pdf",
+  "fileSize": 365259,
+  "originalName": "2026-10-19.pdf",
   "encrypted": true,
   "encryption": "aes-256-gcm",
   "order": 0,
@@ -25,5 +25,5 @@
   "createdBy": "6ab3d694415010bf620349e5",
   "updatedBy": "6ab3d694415010bf620349e5",
   "createdAt": "2026-10-20T15:35:25.055Z",
-  "updatedAt": "2026-10-20T15:35:25.055Z"
+  "updatedAt": "2026-10-21T13:56:11.204Z"
 }
