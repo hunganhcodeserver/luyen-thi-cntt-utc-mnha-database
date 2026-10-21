@@ -1,0 +1,29 @@
+{
+  "type": "slide",
+  "slideId": "6ad80285f933fee991ea3b55",
+  "title": "28tech\\NGĂN XẾP - HÀNG ĐỢI - HÀNG ĐỢI ƯU TIÊN_NoCopy.pdf",
+  "slug": "28tech-ngan-xep-hang-doi-hang-doi-uu-tien-nocopy-pdf",
+  "subjectSlug": "cau-truc-du-lieu-va-giai-thuat-1-1-26n06",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/cau-truc-du-lieu-va-giai-thuat-1-1-26n06/slides/28tech-ngan-xep-hang-doi-hang-doi-uu-tien-nocopy-pdf_1792541311.pdf",
+      "enc": 539774,
+      "plain": 539714
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 539714,
+  "originalName": "NGĂN XẾP - HÀNG ĐỢI - HÀNG ĐỢI ƯU TIÊN_NoCopy.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-21T00:08:37.435Z",
+  "updatedAt": "2026-10-21T00:08:37.435Z"
+}
