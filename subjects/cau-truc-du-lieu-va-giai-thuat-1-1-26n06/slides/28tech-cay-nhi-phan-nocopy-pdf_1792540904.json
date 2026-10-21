@@ -1,0 +1,29 @@
+{
+  "type": "slide",
+  "slideId": "6ad800ef47b6a0499c852d38",
+  "title": "28tech\\CÂY NHỊ PHÂN_NoCopy.pdf",
+  "slug": "28tech-cay-nhi-phan-nocopy-pdf",
+  "subjectSlug": "cau-truc-du-lieu-va-giai-thuat-1-1-26n06",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/cau-truc-du-lieu-va-giai-thuat-1-1-26n06/slides/28tech-cay-nhi-phan-nocopy-pdf_1792540904.pdf",
+      "enc": 1015061,
+      "plain": 1015001
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 1015001,
+  "originalName": "CÂY NHỊ PHÂN_NoCopy.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-21T00:01:51.462Z",
+  "updatedAt": "2026-10-21T00:01:51.462Z"
+}
