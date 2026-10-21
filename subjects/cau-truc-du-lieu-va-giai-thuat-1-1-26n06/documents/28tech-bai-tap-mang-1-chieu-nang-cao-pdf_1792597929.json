@@ -1,0 +1,29 @@
+{
+  "type": "document",
+  "documentId": "6ad8dfb101c556a643cc0828",
+  "title": "28tech\\Bai_Tap\\Mảng 1 chiều nâng cao.pdf",
+  "slug": "28tech-bai-tap-mang-1-chieu-nang-cao-pdf",
+  "subjectSlug": "cau-truc-du-lieu-va-giai-thuat-1-1-26n06",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/cau-truc-du-lieu-va-giai-thuat-1-1-26n06/documents/28tech-bai-tap-mang-1-chieu-nang-cao-pdf_1792597929.pdf",
+      "enc": 103907,
+      "plain": 103847
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 103847,
+  "originalName": "Mảng 1 chiều nâng cao.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-21T15:52:17.077Z",
+  "updatedAt": "2026-10-21T15:52:17.077Z"
+}
