@@ -1,0 +1,29 @@
+{
+  "type": "slide",
+  "slideId": "6ad804a447b6a0499c852d45",
+  "title": "LMS/2. CƠ BẢN VỀ LẬP TRÌNH C++/2.1. Một số kiến thức cơ bản của ngôn ngữ C++",
+  "slug": "lms-2-co-ban-ve-lap-trinh-c-2-1-mot-so-kien-thuc-co-ban-cua",
+  "subjectSlug": "cau-truc-du-lieu-va-giai-thuat-1-1-26n06",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/cau-truc-du-lieu-va-giai-thuat-1-1-26n06/slides/lms-2-co-ban-ve-lap-trinh-c-2-1-mot-so-kien-thuc-co-ban-cua_1792541853.pdf",
+      "enc": 932349,
+      "plain": 932289
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 932289,
+  "originalName": "Bai 2 -Basic C++.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-21T00:17:40.972Z",
+  "updatedAt": "2026-10-21T00:17:40.972Z"
+}
