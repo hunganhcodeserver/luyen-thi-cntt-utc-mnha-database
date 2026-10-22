@@ -1,0 +1,23 @@
+{
+  "lessonId": "6ad9600cdd71d94e61e7885b",
+  "type": "essay",
+  "title": "(22/10/2026 - Code 8086 - Giữa kì) Bài 1: Nhập vào một dãy ký tự gồm chữ hoa, chữ thường và số, tách thành ba dãy riêng rồi đếm và in ra màn hình",
+  "slug": "22102026-code-8086-giua-ki-bai-1-nhap-vao-mot-day-ky-tu-gom-chu-hoa-chu-thuong-va-so-tach-thanh-ba-day-rieng-roi-dem-va-in-ra-man-hinh",
+  "subjectSlug": "kien-truc-va-to-chuc-may-tinh-1-1-26n06",
+  "description": "",
+  "contentHtml": "<div class=\"de-bai\">\n  <h3>(22/10/2026 - Code 8086 - Giữa kì) Bài 1: Nhập vào một dãy ký tự gồm chữ hoa, chữ thường và số, tách thành ba dãy riêng rồi đếm và in ra màn hình</h3>\n  <p>Đây là bài nâng cấp của bài tách chữ hoa, chữ thường và số. Viết chương trình hợp ngữ 8086 yêu cầu nhập một dãy ký tự bất kỳ gồm chữ hoa, chữ thường và chữ số (tối đa 20 ký tự, nhập đến khi nhấn Enter), in lại dãy vừa nhập, sau đó tách thành ba dãy: dãy chữ hoa, dãy chữ thường và dãy số. Chương trình in ba dãy này ra màn hình, <b>kèm số lượng ký tự của mỗi dãy</b>. Nếu dãy nào không có ký tự nào thì in thông báo cho biết dãy đó không có, và số lượng là 0.</p>\n  <p><b>Ví dụ:</b></p>\n  <pre>nhap day ky tu: Ab1Cd23\nday ky tu vua nhap: Ab1Cd23\nday chu hoa: AC\nso chu hoa: 2\nday chu thuong: bd\nso chu thuong: 2\nday so: 123\nso chu so: 3\n\nnhap day ky tu: abc123\nday ky tu vua nhap: abc123\nday chu hoa: khong co chu hoa\nso chu hoa: 0\nday chu thuong: abc\nso chu thuong: 3\nday so: 123\nso chu so: 3\n\nnhap day ky tu: HELLO\nday ky tu vua nhap: HELLO\nday chu hoa: HELLO\nso chu hoa: 5\nday chu thuong: khong co chu thuong\nso chu thuong: 0\nday so: khong co so\nso chu so: 0</pre>\n  <p><b>Cách làm:</b></p>\n  <ul>\n    <li>Khai báo 4 mảng ký tự: <code>s</code> lưu dãy nhập vào, <code>s1</code> lưu dãy chữ thường, <code>s2</code> lưu dãy chữ hoa, <code>s3</code> lưu dãy số (mỗi mảng 21 byte: 20 ký tự và 1 byte cho ký tự <code>$</code>).</li>\n    <li>Nhập từng ký tự bằng hàm 1 của ngắt 21h, cất vào mảng <code>s</code>. Nếu ký tự là 13 (phím Enter) thì dừng nhập.</li>\n    <li>Thêm ký tự <code>$</code> vào cuối mảng <code>s</code> rồi in dãy vừa nhập bằng hàm 9 của ngắt 21h.</li>\n    <li>Duyệt từng ký tự của <code>s</code> và phân loại theo mã ASCII:\n      <ul>\n        <li>từ '0' (48) đến '9' (57): là chữ số, chép sang <code>s3</code>;</li>\n        <li>từ 'A' (65) đến 'Z' (90): là chữ hoa, chép sang <code>s2</code>;</li>\n        <li>từ 'a' (97) đến 'z' (122): là chữ thường, chép sang <code>s1</code>.</li>\n      </ul>\n    </li>\n    <li>Dùng ba biến đếm (ví dụ <code>si</code>, <code>di</code>, <code>bp</code>) để lưu số ký tự đã chép vào mỗi mảng <code>s1</code>, <code>s2</code>, <code>s3</code>. Chính các biến đếm này là kết quả đếm cần in.</li>\n    <li>Với mỗi dãy: nếu biến đếm bằng 0 thì in thông báo \"khong co ...\" tương ứng; ngược lại thêm ký tự <code>$</code> vào cuối dãy rồi in dãy ra màn hình bằng hàm 9 của ngắt 21h.</li>\n    <li>Sau mỗi dãy, in dòng \"so ...: \" rồi in giá trị biến đếm ra màn hình dưới dạng số thập phân:\n      <ul>\n        <li>số lượng tối đa là 20 nên có thể có 2 chữ số;</li>\n        <li>chia số đếm cho 10 (<code>DIV</code>): thương là chữ số hàng chục, số dư là chữ số hàng đơn vị;</li>\n        <li>nếu thương bằng 0 thì bỏ qua chữ số hàng chục, không in số 0 đứng đầu;</li>\n        <li>cộng 30h vào từng chữ số để đổi sang mã ASCII rồi in bằng hàm 2 của ngắt 21h.</li>\n      </ul>\n    </li>\n    <li>Nên viết một thủ tục <code>IN_SO</code> (nhận số cần in trong <code>AL</code>) và gọi lại 3 lần cho ba biến đếm.</li>\n  </ul>\n</div>",
+  "sampleSolution": "",
+  "duration": 30,
+  "model": null,
+  "promptId": null,
+  "aiKeyId": null,
+  "isPublished": true,
+  "isDeleted": false,
+  "createdBy": {
+    "id": "6ab3d694415010bf620349e5",
+    "name": "Mai Ngọc Hùng Anh",
+    "email": "hunganh.okokok.0@gmail.com"
+  },
+  "createdAt": "2026-10-22T00:59:56.104Z",
+  "updatedAt": "2026-10-22T00:59:56.104Z"
+}
