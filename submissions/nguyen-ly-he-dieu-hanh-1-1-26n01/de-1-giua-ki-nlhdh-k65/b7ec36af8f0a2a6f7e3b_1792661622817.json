@@ -1,0 +1,87 @@
+{
+  "submissionId": "6ad9d8757b845953082e19c0",
+  "submittedAt": "2026-10-22T09:33:41.374Z",
+  "gradedAt": "2026-10-22T09:33:42.942Z",
+  "status": "graded",
+  "errorMessage": null,
+  "userId": "6ab3d694415010bf620349e5",
+  "userName": "Mai Ngọc Hùng Anh",
+  "userEmail": "hunganh.okokok.0@gmail.com",
+  "subjectId": "6ac1c602e567b9327241c171",
+  "subjectName": "Nguyên lý hệ điều hành-1-1-26(N01)",
+  "subjectCode": "IT1.112.3",
+  "subjectSlug": "nguyen-ly-he-dieu-hanh-1-1-26n01",
+  "lessonId": "6ac1c659e567b9327241c172",
+  "lessonTitle": "Đề 1 giữa kì NLHĐH K65",
+  "lessonSlug": "de-1-giua-ki-nlhdh-k65",
+  "lessonDuration": 90,
+  "lessonContentHtml": "<div class=\"de-thi\">\r\n    <h2 style=\"text-align: center;\">KIỂM TRA GIỮA KỲ HỆ ĐIỀU HÀNH (THỜI GIAN: 90 phút)</h2>\r\n    <h3 style=\"text-align: center;\">(KHÔNG SỬ DỤNG TÀI LIỆU)</h3>\r\n    \r\n    <p><strong>LƯU Ý:</strong></p>\r\n    <ul>\r\n        <li>Ghi đầy đủ họ tên, lớp, mã sinh viên vào giấy làm bài kiểm tra, làm xong kẹp đề vào bài, không vẽ, viết gì lên đề (nếu viết trừ 2 điểm)</li>\r\n        <li>Số cuối mã sinh viên là số lẻ (Đề 01)</li>\r\n        <li>Làm xong câu nào thì KHOANH TRÒN đáp án câu đó, chỉ chấp nhận với đáp án còn NGUYÊN VẸN, không gạch, xóa, chỉnh sửa</li>\r\n    </ul>\r\n\r\n    <p><strong>Câu 1 (2 điểm):</strong> So sánh các phương pháp FCFS, SJF chiếm quyền khi phân phối CPU cho các tiến trình sau:</p>\r\n    <table border=\"1\" cellpadding=\"5\" style=\"border-collapse: collapse; text-align: center;\">\r\n        <tr>\r\n            <th>Tiến trình</th>\r\n            <td>P1</td>\r\n            <td>P2</td>\r\n            <td>P3</td>\r\n            <td>P4</td>\r\n        </tr>\r\n        <tr>\r\n            <th>Thời điểm xuất hiện (s)</th>\r\n            <td>0</td>\r\n            <td>3</td>\r\n            <td>5</td>\r\n            <td>7</td>\r\n        </tr>\r\n        <tr>\r\n            <th>Thời gian thực hiện (s)</th>\r\n            <td>12</td>\r\n            <td>10</td>\r\n            <td>8</td>\r\n            <td>4</td>\r\n        </tr>\r\n    </table>\r\n    <p>Vẽ biểu đồ Gantt và tính thời gian chờ trung bình của mỗi thuật toán</p>\r\n\r\n    <p><strong>Câu 2 (2 điểm):</strong> Một chương trình có không gian địa chỉ dài 6 trang. Hệ điều hành quản lý bộ nhớ ảo phân trang theo yêu cầu. Bộ nhớ được cấp phát cho chương trình gồm 3 khung trang. Giả sử {6 2 1 3 4 3 4 1 3 4 5 2 4 5 6 3 4 1 5 6 1} là chuỗi truy cập bộ nhớ của chương trình. Hãy tính số lượng lỗi trang ứng với các phương pháp OPT và LRU.</p>\r\n\r\n    <p><strong>Câu 3 (2 điểm):</strong> Cho hệ thống gồm 12 đối tượng, trạng thái hiện giờ hệ thống thể hiện dưới bảng sau:</p>\r\n    <table border=\"1\" cellpadding=\"5\" style=\"border-collapse: collapse; text-align: center;\">\r\n        <tr>\r\n            <th>Tiến trình</th>\r\n            <th>Số lượng tài nguyên đã cấp phát cho mỗi tiến trình</th>\r\n            <th>Tổng số yêu cầu tài nguyên của mỗi tiến trình</th>\r\n        </tr>\r\n        <tr>\r\n            <td>P1</td>\r\n            <td>1</td>\r\n            <td>6</td>\r\n        </tr>\r\n        <tr>\r\n            <td>P2</td>\r\n            <td>0</td>\r\n            <td>5</td>\r\n        </tr>\r\n        <tr>\r\n            <td>P3</td>\r\n            <td>2</td>\r\n            <td>7</td>\r\n        </tr>\r\n        <tr>\r\n            <td>P4</td>\r\n            <td>4</td>\r\n            <td>5</td>\r\n        </tr>\r\n    </table>\r\n    <p>Hãy cho biết hệ thống có \"Trạng thái an toàn\" hay không?</p>\r\n\r\n    <p><strong>Câu 4 (2 điểm):</strong> Giả sử bộ nhớ gồm các phân vùng theo thứ tự sau: 350KB, 610KB, 400KB, 200KB, 750KB, 125KB. Hàng chờ đợi cấp phát bộ nhớ gồm các tiến trình sau: P1 yêu cầu 115KB, P2 yêu cầu 358KB, P3 yêu cầu 500KB, P4 yêu cầu 230KB và P5 yêu cầu 375KB. Quá trình cấp phát bộ nhớ diễn ra như thế nào nếu áp dụng thuật toán WorstFit.</p>\r\n\r\n    <p><strong>Câu 5 (2 điểm):</strong> Giải thích bằng cách hiểu của bạn về Đồng bộ và Bế tắc.</p>\r\n</div>\r\n",
+  "lessonSampleSolution": "",
+  "answerHtml": "Theo thuật toán này, tiến trình nào đến trước sẽ được phục vụ trước (không chiếm quyền). Thứ tự thực hiện sẽ là: P1 \\(\\rightarrow \\) P2 \\(\\rightarrow \\) P3 \\(\\rightarrow \\) P4.\n• P1 chạy từ thời điểm \\(0 \\rightarrow 12\\).\n• P2 chạy từ thời điểm \\(12 \\rightarrow 12 + 10 = 22\\).\n• P3 chạy từ thời điểm \\(22 \\rightarrow 22 + 8 = 30\\).\n• P4 chạy từ thời điểm \\(30 \\rightarrow 30 + 4 = 34\\)",
+  "hasDrawing": false,
+  "drawingFile": null,
+  "drawingMime": null,
+  "drawingAnalysis": null,
+  "score": 1,
+  "feedback": "Student only provided the FCFS schedule for Question 1. They omitted the waiting times, Gantt chart, and the comparison with SJF. No responses were given for the remaining questions.",
+  "breakdown": [
+    {
+      "criterion": "Question 1 – FCFS schedule correctness",
+      "score": 1,
+      "comment": "Correct FCFS order and timing were provided, but waiting times, Gantt chart, and SJF comparison were missing."
+    },
+    {
+      "criterion": "Question 1 – Waiting times & comparison",
+      "score": 0,
+      "comment": "Missing calculations and comparison with SJF."
+    },
+    {
+      "criterion": "Questions 2-5",
+      "score": 0,
+      "comment": "No answers submitted."
+    }
+  ],
+  "grammar": null,
+  "sampleComparison": null,
+  "model": "openai/gpt-oss-20b",
+  "aiKeyId": "6ad09e096b8d1a9ce1fe3e0c",
+  "aiKeyName": "hunganh.okokok.0@gmail.com",
+  "aiProvider": "groq",
+  "latencyMs": 1439,
+  "promptSnapshot": {
+    "kind": "essay",
+    "promptId": null,
+    "name": "Fallback mặc định (hardcoded)",
+    "content": "Bạn là giáo viên chấm bài. Hãy chấm bài viết sau dựa trên đề bài và rubric.\n\nĐề bài:\n{đề_bài}\n\nBài làm sinh viên (phần nhập chữ):\n{bài_làm}\n\nPhần vẽ tay của sinh viên (đã được bước phân tích hình ảnh đọc trước):\n{hình_vẽ}\n\nLời giải mẫu (nếu có, chỉ dùng để đối chiếu ý, không chép nguyên văn vào feedback):\n{lời_giải_mẫu}\n\nRubric: {rubric}\nĐiểm tối đa: {max_score}\n\nQUY TẮC CHẤM KẾT HỢP CHỮ + HÌNH VẼ:\n- Nếu có cả phần nhập chữ và phần vẽ tay: chấm CẢ HAI theo đề bài/rubric, cho một điểm tổng duy nhất.\n- Nếu chỉ có một phần: chỉ chấm phần đó, KHÔNG trừ điểm vì phần sinh viên không nộp.\n\nQUY TẮC PHÁT HIỆN LỖI:\n- Chỉ liệt kê lỗi khi lỗi thực sự tồn tại trong bài làm, không tự bịa.\n- Nếu đề bài/rubric không đủ căn cứ để xác định một lỗi cụ thể, bỏ qua, không đoán.\n- Mỗi lỗi nêu rõ: câu gốc sai, câu đã sửa, giải thích ngắn gọn.\n\nChỉ trả về JSON hợp lệ, không Markdown, không giải thích ngoài JSON:\n{\n  \"score\": number,\n  \"feedback\": string,\n  \"breakdown\": [{ \"criterion\": string, \"score\": number, \"comment\": string }],\n  \"errors\": [{ \"original\": string, \"corrected\": string, \"explanation\": string }]\n}",
+    "rubric": null,
+    "strictness": "normal",
+    "maxScore": 10,
+    "scope": "fallback",
+    "version": 0,
+    "isFallback": true,
+    "unknownPlaceholders": [],
+    "snapshotAt": "2026-10-22T09:33:42.816Z"
+  },
+  "raw": {
+    "score": 1,
+    "feedback": "Student only provided the FCFS schedule for Question 1. They omitted the waiting times, Gantt chart, and the comparison with SJF. No responses were given for the remaining questions.",
+    "breakdown": [
+      {
+        "criterion": "Question 1 – FCFS schedule correctness",
+        "score": 1,
+        "comment": "Correct FCFS order and timing were provided, but waiting times, Gantt chart, and SJF comparison were missing."
+      },
+      {
+        "criterion": "Question 1 – Waiting times & comparison",
+        "score": 0,
+        "comment": "Missing calculations and comparison with SJF."
+      },
+      {
+        "criterion": "Questions 2-5",
+        "score": 0,
+        "comment": "No answers submitted."
+      }
+    ],
+    "errors": []
+  }
+}
