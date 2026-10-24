@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-24T23:44:20.761Z",
-  "total": 22,
+  "updatedAt": "2026-10-24T23:47:32.862Z",
+  "total": 23,
   "logs": [
     {
       "id": "6ac45a48c3fe67bf29ff941c",
@@ -468,6 +468,26 @@
       "ipAddress": "116.96.46.168",
       "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
       "createdAt": "2026-10-24T23:44:20.642Z"
+    },
+    {
+      "id": "6add4394637699d574705e8b",
+      "actor": "6ab3d694415010bf620349e5",
+      "action": "create_quiz",
+      "entity": "Lesson",
+      "entityId": "6add4392751be57575b1d48b",
+      "description": "",
+      "metadata": {
+        "title": "ĐSTT 3TC - Đề 303 (HH)",
+        "duration": 90,
+        "counts": {
+          "mcq": 10,
+          "tf": 5,
+          "fill": 5
+        }
+      },
+      "ipAddress": "116.96.46.168",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+      "createdAt": "2026-10-24T23:47:32.639Z"
     }
   ]
 }
