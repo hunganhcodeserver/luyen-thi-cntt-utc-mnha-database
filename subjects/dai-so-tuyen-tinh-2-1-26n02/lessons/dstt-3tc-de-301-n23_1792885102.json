@@ -1,0 +1,565 @@
+{
+  "type": "quiz",
+  "lessonId": "6add416e751be57575b1d489",
+  "title": "ĐSTT 3TC - Đề 301 (N23)",
+  "slug": "dstt-3tc-de-301-n23",
+  "subjectSlug": "dai-so-tuyen-tinh-2-1-26n02",
+  "duration": 90,
+  "promptId": null,
+  "analysisAiKeyIds": [],
+  "isPublished": true,
+  "isDeleted": false,
+  "createdBy": {
+    "id": "6ab3d694415010bf620349e5",
+    "name": "Mai Ngọc Hùng Anh",
+    "email": "hunganh.okokok.0@gmail.com"
+  },
+  "createdAt": "2026-10-24T23:38:22.599Z",
+  "updatedAt": "2026-10-24T23:38:22.599Z",
+  "contentHtml": null,
+  "quiz": {
+    "version": 1,
+    "maxScore": 10,
+    "parts": {
+      "mcq": {
+        "pointsPerQuestion": 0.25,
+        "questions": [
+          {
+            "startLine": 1,
+            "text": "Cho ma trận $A=\\begin{pmatrix}-1&2&1\\\\3&0&-3\\\\4&2&-1\\end{pmatrix}$. Giá trị của $\\det(A-2I)$ là",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "$-18$"
+              },
+              {
+                "key": "B",
+                "text": "$-28$"
+              },
+              {
+                "key": "C",
+                "text": "$-22$"
+              },
+              {
+                "key": "D",
+                "text": "$-20$"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "$A-2I=\\begin{pmatrix}-3&amp;2&amp;1\\\\3&amp;-2&amp;-3\\\\4&amp;2&amp;-3\\end{pmatrix}$, khai triển định thức được $-28$.",
+            "multi": false,
+            "id": "mcq-1",
+            "clusterId": null
+          },
+          {
+            "startLine": 8,
+            "text": "Trong các ma trận sau, ma trận nào có hạng bằng 3?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "$\\begin{pmatrix}-1&3&3&-8&-8\\\\0&1&1&-3&-3\\\\-2&-3&-3&11&11\\end{pmatrix}$"
+              },
+              {
+                "key": "B",
+                "text": "Tất cả các đáp án."
+              },
+              {
+                "key": "C",
+                "text": "$\\begin{pmatrix}1&-1&-1&-3&-6\\\\2&0&-8&-2&8\\\\-2&3&-1&8&-14\\end{pmatrix}$"
+              },
+              {
+                "key": "D",
+                "text": "$\\begin{pmatrix}-1&-3&1&-1&-1\\\\-1&1&-3&1&9\\\\-4&-4&0&1&5\\end{pmatrix}$"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "Lưu ý đề gốc: ma trận ở đáp án A có hạng 2; các ma trận ở đáp án C và D đều có hạng 3 nên đề có 2 đáp án thoả mãn, đáp án \"Tất cả\" không đúng. Cần kiểm tra lại đề gốc.",
+            "multi": false,
+            "id": "mcq-2",
+            "clusterId": null
+          },
+          {
+            "startLine": 15,
+            "text": "Ma trận nào sau đây là ma trận hệ số mở rộng của một hệ Cramer?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "$\\begin{pmatrix}1&-3&1&9\\\\3&-3&1&11\\\\0&-3&-4&28\\end{pmatrix}$"
+              },
+              {
+                "key": "B",
+                "text": "$\\begin{pmatrix}-1&-1&-2\\\\-2&1&-1\\\\3&3&0\\end{pmatrix}$"
+              },
+              {
+                "key": "C",
+                "text": "$\\begin{pmatrix}1&3&9\\\\-2&3&18\\\\4&-1&1\\\\0&-1&-4\\end{pmatrix}$"
+              },
+              {
+                "key": "D",
+                "text": "$\\begin{pmatrix}-1&0&-1&1\\\\-2&2&-10&8\\\\-2&1&-6&5\\end{pmatrix}$"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "Hệ Cramer có ma trận hệ số vuông và định thức khác 0. Đáp án A: ma trận hệ số cấp 3 có định thức $-30\\neq 0$.",
+            "multi": false,
+            "id": "mcq-3",
+            "clusterId": null
+          },
+          {
+            "startLine": 22,
+            "text": "Cho hệ phương trình\\n$$\\begin{cases} x_1+x_2-3x_3-12x_4=-6 \\\\ -3x_2+12x_4=3 \\\\ -4x_1+3x_3+5x_4=2 \\end{cases}$$\\nNghiệm tổng quát của hệ phương trình trên là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "$x=(1-x_4;-1+4x_4;2-3x_4;x_4)$, $x_4\\in\\mathbb{R}$"
+              },
+              {
+                "key": "B",
+                "text": "$x=(1+x_4;-1+4x_4;2-3x_4;x_4)$, $x_4\\in\\mathbb{R}$"
+              },
+              {
+                "key": "C",
+                "text": "$x=(1+x_4;1-4x_4;2-3x_4;x_4)$, $x_4\\in\\mathbb{R}$"
+              },
+              {
+                "key": "D",
+                "text": "$x=(-5+3x_3+8x_4;-1+4x_4;x_3;x_4)$, $x_3,x_4\\in\\mathbb{R}$"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "Biến đổi sơ cấp ma trận mở rộng, chọn $x_4$ là ẩn tự do.",
+            "multi": false,
+            "id": "mcq-4",
+            "clusterId": null
+          },
+          {
+            "startLine": 29,
+            "text": "Trong không gian tuyến tính $\\mathbb{R}^4$, cho hai vectơ $a_1=(1;0;3;4)$, $a_2=(-2;5;2;3)$. Tìm $x$, biết $x=3a_1-a_2$.",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "$(5;-5;-2;9)$"
+              },
+              {
+                "key": "B",
+                "text": "$(5;-5;1;1)$"
+              },
+              {
+                "key": "C",
+                "text": "$(1;-5;11;1)$"
+              },
+              {
+                "key": "D",
+                "text": "$(-1;5;5;7)$"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "Lưu ý đề gốc: tính trực tiếp $3a_1-a_2=(5;-5;7;9)$, không trùng chính xác với đáp án nào; đáp án A gần nhất (chỉ khác thành phần thứ 3). Cần kiểm tra lại đề gốc.",
+            "multi": false,
+            "id": "mcq-5",
+            "clusterId": null
+          },
+          {
+            "startLine": 36,
+            "text": "Trong không gian tuyến tính $\\mathbb{R}^3$, cho cơ sở $(a)=\\{a_1=(1;2;3),\\,a_2=(3;7;-1),\\,a_3=(4;5;-2)\\}$. Tìm toạ độ của vectơ $x=(365;435;-135)$ theo cơ sở $(a)$.",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "$(15;-10;95)$"
+              },
+              {
+                "key": "B",
+                "text": "$(15;10;-95)$"
+              },
+              {
+                "key": "C",
+                "text": "$(19;-1;69)$"
+              },
+              {
+                "key": "D",
+                "text": "$(-19;1;69)$"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "Giải $x=\\alpha_1a_1+\\alpha_2a_2+\\alpha_3a_3$ được $(15;-10;95)$.",
+            "multi": false,
+            "id": "mcq-6",
+            "clusterId": null
+          },
+          {
+            "startLine": 43,
+            "text": "Cho ánh xạ tuyến tính $f:\\mathbb{R}^2\\to\\mathbb{R}^3$ xác định bởi công thức\\n$$f(x_1+2x_2;\\,x_1-x_2;\\,3x_1+2x_2)$$\\nvới $x=(x_1;x_2)\\in\\mathbb{R}^2$. Hỏi $f(2;3)$ là vectơ nào sau đây?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "$(8;12)$"
+              },
+              {
+                "key": "B",
+                "text": "$(6;-1;5)$"
+              },
+              {
+                "key": "C",
+                "text": "$(8;-1;12)$"
+              },
+              {
+                "key": "D",
+                "text": "$(4;15)$"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "Thay $x_1=2$, $x_2=3$: $(2+6;\\,2-3;\\,6+6)=(8;-1;12)$.",
+            "multi": false,
+            "id": "mcq-7",
+            "clusterId": null
+          },
+          {
+            "startLine": 50,
+            "text": "Cho ánh xạ tuyến tính $f:\\mathbb{R}^3\\to\\mathbb{R}^4$ và hai vectơ $x,y\\in\\mathbb{R}^3$. Biết $f(x)=(2;4;3;-1)$ và $f(y)=(1;0;2;4)$. Hỏi $f(x+3y)$ là vectơ nào dưới đây",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "$(2;4;3;1)$"
+              },
+              {
+                "key": "B",
+                "text": "$(3;0;6;12)$"
+              },
+              {
+                "key": "C",
+                "text": "$(6;1;8;2)$"
+              },
+              {
+                "key": "D",
+                "text": "$(5;4;9;11)$"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "$f(x+3y)=f(x)+3f(y)=(2+3;\\,4+0;\\,3+6;\\,-1+12)=(5;4;9;11)$.",
+            "multi": false,
+            "id": "mcq-8",
+            "clusterId": null
+          },
+          {
+            "startLine": 57,
+            "text": "Nếu áp dụng thủ tục Gram - Schmidt cho một tập hợp các vectơ phụ thuộc tuyến tính, điều gì sẽ xảy ra?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Quá trình sẽ không bao giờ kết thúc."
+              },
+              {
+                "key": "B",
+                "text": "Quá trình sẽ tạo ra các cột của một ma trận đường chéo."
+              },
+              {
+                "key": "C",
+                "text": "Tại một bước nào đó, quá trình sẽ tạo ra vectơ không."
+              },
+              {
+                "key": "D",
+                "text": "Quá trình sẽ tạo ra một tập hợp các vectơ trực chuẩn."
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "Vectơ phụ thuộc tuyến tính nên có vectơ biểu diễn được qua các vectơ trước, phần trực giao còn lại là vectơ không.",
+            "multi": false,
+            "id": "mcq-9",
+            "clusterId": null
+          },
+          {
+            "startLine": 64,
+            "text": "Trong không gian tuyến tính $\\mathbb{R}^4$, cho 2 vectơ $a_1=(1;1;-3;-1)$, $a_2=(2;2;1;a)$. Giá trị của $a$ để $a_1\\perp a_2$ là",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "$a=0$"
+              },
+              {
+                "key": "B",
+                "text": "$a=1$"
+              },
+              {
+                "key": "C",
+                "text": "$a=-1$"
+              },
+              {
+                "key": "D",
+                "text": "$a=2$"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "$a_1\\cdot a_2=2+2-3-a=1-a=0\\Rightarrow a=1$.",
+            "multi": false,
+            "id": "mcq-10",
+            "clusterId": null
+          }
+        ]
+      },
+      "tf": {
+        "pointsPerQuestion": 1,
+        "questions": [
+          {
+            "startLine": 1,
+            "text": "Cho 2 ma trận $A=\\begin{pmatrix}-4&2&4\\\\-5&-4&-5\\\\3&3&-5\\end{pmatrix}$, $B=\\begin{pmatrix}0&-4&5\\\\-4&-5&3\\\\2&-5&-1\\end{pmatrix}$. Xét các nhận định sau:",
+            "image": null,
+            "statements": [
+              {
+                "text": "$A^2B^3-2A^3B^2=A^2B^2(B-2A)$.",
+                "correct": false,
+                "explanationHtml": "Phép nhân ma trận không giao hoán nên $A^3B^2\\neq A^2B^2A$ nói chung.",
+                "id": "tf-1-a"
+              },
+              {
+                "text": "$\\det A=-232$.",
+                "correct": true,
+                "explanationHtml": null,
+                "id": "tf-1-b"
+              },
+              {
+                "text": "$\\det(B-2A)=606$.",
+                "correct": false,
+                "explanationHtml": "Tính trực tiếp được $\\det(B-2A)=2370$.",
+                "id": "tf-1-c"
+              },
+              {
+                "text": "$\\det\\left(A^2B^3-2A^3B^2\\right)=2572177912320$.",
+                "correct": true,
+                "explanationHtml": null,
+                "id": "tf-1-d"
+              }
+            ],
+            "id": "tf-1"
+          },
+          {
+            "startLine": 12,
+            "text": "Cho hệ phương trình\\n$$\\begin{cases} x_1-3x_3-8x_4+6x_5=-4 \\\\ -3x_1-4x_2+x_3+8x_4-10x_5=0 \\\\ 3x_1+x_3+16x_4+8x_5=-2 \\end{cases}$$\\nXét các nhận định sau:",
+            "image": null,
+            "statements": [
+              {
+                "text": "Thực hiện các biến đổi sơ cấp ma trận hệ số mở rộng $A$ của hệ phương trình, ta thu được ma trận $\\begin{pmatrix}1&0&-3&-8&6&4\\\\0&-4&-8&-16&8&-12\\\\0&0&10&40&-10&-10\\end{pmatrix}$.",
+                "correct": false,
+                "explanationHtml": "Cột hệ số tự do đúng phải là $(-4;-12;10)$.",
+                "id": "tf-2-a"
+              },
+              {
+                "text": "Hệ phương trình có vô số nghiệm với 2 ẩn tự do.",
+                "correct": true,
+                "explanationHtml": "Hạng ma trận hệ số bằng hạng ma trận mở rộng bằng 3, có 5 ẩn nên có 2 ẩn tự do.",
+                "id": "tf-2-b"
+              },
+              {
+                "text": "$x=(-7;4;-3;1;1)$ là một nghiệm của hệ phương trình thuần nhất ứng với hệ phương trình đã cho.",
+                "correct": true,
+                "explanationHtml": "Thay vào cả 3 phương trình thuần nhất đều cho vế trái bằng 0.",
+                "id": "tf-2-c"
+              },
+              {
+                "text": "Với $x_4,x_5$ là ẩn tự do, 1 nghiệm của hệ phương trình có dạng $x=(x_1;x_2;x_3;x_4;x_5)$. Khi đó, $x_1+x_2+x_3+x_4+x_5=-1+bx_4+cx_5$.",
+                "correct": false,
+                "explanationHtml": "Nghiệm: $x_1=-1-4x_4-3x_5$, $x_2=1+4x_4$, $x_3=1-4x_4+x_5$ nên tổng $=1-3x_4-x_5$ (hằng số là $1$, không phải $-1$).",
+                "id": "tf-2-d"
+              }
+            ],
+            "id": "tf-2"
+          },
+          {
+            "startLine": 25,
+            "text": "Trong không gian tuyến tính $\\mathbb{R}^4$, ta có các khẳng định sau:",
+            "image": null,
+            "statements": [
+              {
+                "text": "Mọi cơ sở của $\\mathbb{R}^4$ đều có 4 vectơ.",
+                "correct": true,
+                "explanationHtml": null,
+                "id": "tf-3-a"
+              },
+              {
+                "text": "Mọi hệ vectơ trong $\\mathbb{R}^4$ không thể có quá 4 vectơ.",
+                "correct": false,
+                "explanationHtml": "Hệ vectơ bất kỳ có thể có nhiều hơn 4 vectơ (khi đó phụ thuộc tuyến tính).",
+                "id": "tf-3-b"
+              },
+              {
+                "text": "Nếu hệ vectơ $\\{a_1,a_2,a_3,a_4\\}$ phụ thuộc tuyến tính thì hệ $\\{a_1,a_2,a_3\\}$ cũng phụ thuộc tuyến tính.",
+                "correct": false,
+                "explanationHtml": null,
+                "id": "tf-3-c"
+              },
+              {
+                "text": "Nếu hệ vectơ $\\{a_1,a_2,a_3,a_4\\}$ độc lập tuyến tính thì hệ $\\{a_1,a_2,a_3\\}$ cũng độc lập tuyến tính.",
+                "correct": true,
+                "explanationHtml": null,
+                "id": "tf-3-d"
+              }
+            ],
+            "id": "tf-3"
+          },
+          {
+            "startLine": 35,
+            "text": "Cho ánh xạ tuyến tính $f:\\mathbb{R}^3\\to\\mathbb{R}^3$ xác định bởi công thức\\n$$f(x)=(2x_1+2x_2+3x_3;\\,x_1+3x_2+3x_3;\\,-x_1+x_2+x_3)$$\\nvới $x=(x_1;x_2;x_3)\\in\\mathbb{R}^3$. Gọi $A=(a_{ij})$ là ma trận của $f$ trên cơ sở chính tắc của $\\mathbb{R}^3$.",
+            "image": null,
+            "statements": [
+              {
+                "text": "$a_{12}+a_{22}=5$.",
+                "correct": true,
+                "explanationHtml": "$a_{12}=2$, $a_{22}=3$.",
+                "id": "tf-4-a"
+              },
+              {
+                "text": "Tổng các giá trị riêng phân biệt của $A$ là 6.",
+                "correct": false,
+                "explanationHtml": "Các giá trị riêng là $1$ (bội 2) và $4$; tổng các giá trị riêng phân biệt là $5$.",
+                "id": "tf-4-b"
+              },
+              {
+                "text": "$x=(1;1;0)$ là một vectơ riêng ứng với giá trị riêng lớn nhất của $A$.",
+                "correct": true,
+                "explanationHtml": "$A(1;1;0)^T=(4;4;0)^T=4\\cdot(1;1;0)^T$.",
+                "id": "tf-4-c"
+              },
+              {
+                "text": "Các vectơ riêng ứng với giá trị riêng nhỏ nhất của $A$ hợp với vectơ $\\theta$ tạo thành một không gian con 2 chiều.",
+                "correct": false,
+                "explanationHtml": "Không gian riêng ứng với $\\lambda=1$ chỉ có số chiều bằng 1, sinh bởi $(-1;-1;1)$.",
+                "id": "tf-4-d"
+              }
+            ],
+            "id": "tf-4"
+          },
+          {
+            "startLine": 48,
+            "text": "Trong không gian tuyến tính $\\mathbb{R}^3$, cho hệ vectơ $(a)=\\{a_1=(2;-1;2),\\,a_2=(4;1;1),\\,a_3=(-2;6;-3)\\}$. Bằng phương pháp trực chuẩn hoá Gram-Schmidt, ta xây dựng được hệ trực chuẩn $(e)=\\{e_1,e_2,e_3\\}$ từ hệ trên theo thứ tự đã cho. Cho $x=(3;1;5)$.",
+            "image": null,
+            "statements": [
+              {
+                "text": "$e_1=\\left(\\frac{2}{3};-\\frac{1}{3};\\frac{2}{3}\\right)$.",
+                "correct": true,
+                "explanationHtml": null,
+                "id": "tf-5-a"
+              },
+              {
+                "text": "$e_2=\\left(\\frac{2}{3};\\frac{2}{3};-\\frac{1}{3}\\right)$.",
+                "correct": true,
+                "explanationHtml": null,
+                "id": "tf-5-b"
+              },
+              {
+                "text": "$e_3=\\left(\\frac{1}{3};\\frac{2}{3};\\frac{2}{3}\\right)$.",
+                "correct": false,
+                "explanationHtml": "$e_3=\\left(-\\frac{1}{3};\\frac{2}{3};\\frac{2}{3}\\right)$.",
+                "id": "tf-5-c"
+              },
+              {
+                "text": "$[x]_e=(5;1;3)$.",
+                "correct": true,
+                "explanationHtml": "Các thành phần là $x\\cdot e_1=5$, $x\\cdot e_2=1$, $x\\cdot e_3=3$.",
+                "id": "tf-5-d"
+              }
+            ],
+            "id": "tf-5"
+          }
+        ],
+        "scoring": "equal"
+      },
+      "fill": {
+        "pointsPerQuestion": 0.25,
+        "questions": [
+          {
+            "startLine": 1,
+            "text": "Cho ma trận $A=\\begin{pmatrix}5&-2&4\\\\-2&-5&-2\\\\-4&-5&0\\end{pmatrix}$. Tìm $A^{-1}$.",
+            "image": null,
+            "answers": [
+              "5/53, 10/53, -12/53; -4/53, -8/53, -1/53; 5/53, -33/106, 29/106"
+            ],
+            "explanationHtml": "Tính bằng ma trận phụ hợp hoặc biến đổi sơ cấp $[A\\,|\\,I]\\to[I\\,|\\,A^{-1}]$.",
+            "multi": false,
+            "id": "fill-1",
+            "clusterId": null
+          },
+          {
+            "startLine": 4,
+            "text": "Cho hệ phương trình\\n$$\\begin{cases} x_1+x_2-3x_3-5x_4=-5 \\\\ -2x_1-3x_2+2x_3+6x_4=8 \\\\ 2x_1-2x_2+x_3-3x_4=5 \\\\ -x_1-2x_3+2x_3+4x_4=6 \\end{cases}$$\\nBiết rằng hệ có vô số nghiệm và $x_2$ là ẩn không phụ thuộc vào ẩn tự do. Giá trị của $x_2$ là bao nhiêu?",
+            "image": null,
+            "answers": [
+              "-2"
+            ],
+            "explanationHtml": "Giải hệ (hiểu phương trình thứ tư là $-x_1-2x_2+2x_3+4x_4=6$) được $x_2=-2$ không phụ thuộc ẩn tự do.",
+            "multi": false,
+            "id": "fill-2",
+            "clusterId": null
+          },
+          {
+            "startLine": 7,
+            "text": "Trong không gian tuyến tính $\\mathbb{R}^3$, xét cơ sở $(a)=\\{a_1=(1;1;0),\\,a_2=(0;1;1),\\,a_3=(1;0;1)\\}$. Tìm định thức của ma trận chuyển cơ sở từ cơ sở chính tắc $(e)$ của $\\mathbb{R}^3$ sang cơ sở $(a)$.",
+            "image": null,
+            "answers": [
+              "2"
+            ],
+            "explanationHtml": "Ma trận chuyển có các cột là $a_1,a_2,a_3$, định thức bằng $2$.",
+            "multi": false,
+            "id": "fill-3",
+            "clusterId": null
+          },
+          {
+            "startLine": 10,
+            "text": "Cho ánh xạ tuyến tính $f:\\mathbb{R}^3\\to\\mathbb{R}^2$ có ma trận trên cơ sở chính tắc là $A=\\begin{pmatrix}-1&1&0\\\\-2&3&-1\\end{pmatrix}$. Biết $x=(x_1;x_2;x_3)$ thoả mãn $f(x)=(-5;-12)$, $x_1+x_2+x_3=5$. Tìm $x_1$.",
+            "image": null,
+            "answers": [
+              "4.33",
+              "13/3"
+            ],
+            "explanationHtml": "Giải hệ $-x_1+x_2=-5$, $-2x_1+3x_2-x_3=-12$, $x_1+x_2+x_3=5$ được $x_1=\\frac{13}{3}$.",
+            "multi": false,
+            "id": "fill-4",
+            "clusterId": null
+          },
+          {
+            "startLine": 13,
+            "text": "Áp dụng thủ tục Gram-Schmidt cho hai vectơ $v_1=(1;1;2)$ và $v_2=(3;1;0)$ với $v_1=u_1$, vectơ thứ hai $u_2$ (chưa chuẩn hoá) thu được là gì?",
+            "image": null,
+            "answers": [
+              "7/3, 1/3, -4/3"
+            ],
+            "explanationHtml": "$u_2=v_2-\\frac{v_2\\cdot u_1}{u_1\\cdot u_1}u_1=(3;1;0)-\\frac{4}{6}(1;1;2)=\\left(\\frac{7}{3};\\frac{1}{3};-\\frac{4}{3}\\right)$.",
+            "multi": false,
+            "id": "fill-5",
+            "clusterId": null
+          }
+        ],
+        "tolerance": 0,
+        "note": "Câu 1: nhập ma trận theo từng hàng, các phần tử cách nhau bằng dấu phẩy, các hàng cách nhau bằng dấu chấm phẩy (phân số viết dạng a/b). Câu 4 và câu 5: nếu là số thập phân thì làm tròn đến 2 chữ số thập phân, chỉ nhập số hoặc phân số a/b."
+      }
+    }
+  }
+}
