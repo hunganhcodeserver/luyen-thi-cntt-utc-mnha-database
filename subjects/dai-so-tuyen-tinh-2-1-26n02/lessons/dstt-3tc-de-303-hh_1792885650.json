@@ -9,13 +9,9 @@
   "analysisAiKeyIds": [],
   "isPublished": true,
   "isDeleted": false,
-  "createdBy": {
-    "id": "6ab3d694415010bf620349e5",
-    "name": "Mai Ngọc Hùng Anh",
-    "email": "hunganh.okokok.0@gmail.com"
-  },
+  "createdBy": "6ab3d694415010bf620349e5",
   "createdAt": "2026-10-24T23:47:30.906Z",
-  "updatedAt": "2026-10-24T23:47:30.906Z",
+  "updatedAt": "2026-10-24T23:47:31.972Z",
   "contentHtml": null,
   "quiz": {
     "version": 1,
@@ -561,5 +557,13 @@
         "note": "Câu 1: nhập biểu thức theo dạng a*l + b (ví dụ 194-18l, dùng chữ l thay cho λ). Câu 2: nhập số tiền theo thứ tự A, B, laptop (đơn vị triệu), cách nhau bằng dấu phẩy. Câu 4: nhập giá trị riêng, rồi véc tơ riêng cách nhau bằng dấu phẩy. Câu 5: nhập 4 toạ độ của x rồi 4 toạ độ của y, các toạ độ cách nh"
       }
     }
-  }
+  },
+  "description": "",
+  "sampleSolution": "",
+  "order": 0,
+  "model": null,
+  "aiKeyId": null,
+  "updatedBy": null,
+  "deletedAt": null,
+  "deletedBy": null
 }
