@@ -11,14 +11,14 @@
   "isDeleted": false,
   "createdBy": "6ab3d694415010bf620349e5",
   "createdAt": "2026-10-24T23:44:18.619Z",
-  "updatedAt": "2026-10-24T23:44:19.798Z",
+  "updatedAt": "2026-10-24T23:49:07.968Z",
   "contentHtml": null,
   "quiz": {
     "version": 1,
     "maxScore": 10,
     "parts": {
       "mcq": {
-        "pointsPerQuestion": 0.5,
+        "pointsPerQuestion": 0.25,
         "questions": [
           {
             "startLine": 1,
