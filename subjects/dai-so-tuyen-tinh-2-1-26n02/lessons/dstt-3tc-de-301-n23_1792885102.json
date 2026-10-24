@@ -9,13 +9,9 @@
   "analysisAiKeyIds": [],
   "isPublished": true,
   "isDeleted": false,
-  "createdBy": {
-    "id": "6ab3d694415010bf620349e5",
-    "name": "Mai Ngọc Hùng Anh",
-    "email": "hunganh.okokok.0@gmail.com"
-  },
+  "createdBy": "6ab3d694415010bf620349e5",
   "createdAt": "2026-10-24T23:38:22.599Z",
-  "updatedAt": "2026-10-24T23:38:22.599Z",
+  "updatedAt": "2026-10-24T23:38:23.713Z",
   "contentHtml": null,
   "quiz": {
     "version": 1,
@@ -561,5 +557,13 @@
         "note": "Câu 1: nhập ma trận theo từng hàng, các phần tử cách nhau bằng dấu phẩy, các hàng cách nhau bằng dấu chấm phẩy (phân số viết dạng a/b). Câu 4 và câu 5: nếu là số thập phân thì làm tròn đến 2 chữ số thập phân, chỉ nhập số hoặc phân số a/b."
       }
     }
-  }
+  },
+  "description": "",
+  "sampleSolution": "",
+  "order": 0,
+  "model": null,
+  "aiKeyId": null,
+  "updatedBy": null,
+  "deletedAt": null,
+  "deletedBy": null
 }
