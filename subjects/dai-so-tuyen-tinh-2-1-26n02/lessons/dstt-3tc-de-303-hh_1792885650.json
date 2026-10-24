@@ -1,0 +1,565 @@
+{
+  "type": "quiz",
+  "lessonId": "6add4392751be57575b1d48b",
+  "title": "ĐSTT 3TC - Đề 303 (HH)",
+  "slug": "dstt-3tc-de-303-hh",
+  "subjectSlug": "dai-so-tuyen-tinh-2-1-26n02",
+  "duration": 90,
+  "promptId": null,
+  "analysisAiKeyIds": [],
+  "isPublished": true,
+  "isDeleted": false,
+  "createdBy": {
+    "id": "6ab3d694415010bf620349e5",
+    "name": "Mai Ngọc Hùng Anh",
+    "email": "hunganh.okokok.0@gmail.com"
+  },
+  "createdAt": "2026-10-24T23:47:30.906Z",
+  "updatedAt": "2026-10-24T23:47:30.906Z",
+  "contentHtml": null,
+  "quiz": {
+    "version": 1,
+    "maxScore": 10,
+    "parts": {
+      "mcq": {
+        "pointsPerQuestion": 1,
+        "questions": [
+          {
+            "startLine": 1,
+            "text": "Cho các ma trận $A=\\begin{pmatrix}1&2\\\\-1&-1\\end{pmatrix}$, $B=\\begin{pmatrix}2&1\\\\2&1\\end{pmatrix}$. Khi đó ma trận $(A+B)^2-2AB$ là",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "$\\begin{pmatrix}-2&-3\\\\9&1\\end{pmatrix}$"
+              },
+              {
+                "key": "B",
+                "text": "$\\begin{pmatrix}-9&-3\\\\9&4\\end{pmatrix}$"
+              },
+              {
+                "key": "C",
+                "text": "$\\begin{pmatrix}5&3\\\\6&2\\end{pmatrix}$"
+              },
+              {
+                "key": "D",
+                "text": "$\\begin{pmatrix}0&3\\\\11&7\\end{pmatrix}$"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "$(A+B)^2-2AB=\\begin{pmatrix}0&amp;3\\\\11&amp;7\\end{pmatrix}$.",
+            "multi": false,
+            "id": "mcq-1",
+            "clusterId": null
+          },
+          {
+            "startLine": 8,
+            "text": "Cho ma trận $A=\\begin{pmatrix}3&-1\\\\2&-1\\end{pmatrix}$. Nghiệm của phương trình ma trận $AX=A^3+3I$ là",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "$X=\\begin{pmatrix}10&-5\\\\10&-10\\end{pmatrix}$"
+              },
+              {
+                "key": "B",
+                "text": "$X=\\begin{pmatrix}8&-3\\\\6&-4\\end{pmatrix}$"
+              },
+              {
+                "key": "C",
+                "text": "$X=\\begin{pmatrix}12&-2\\\\10&-8\\end{pmatrix}$"
+              },
+              {
+                "key": "D",
+                "text": "$X=\\begin{pmatrix}10&4\\\\1&-10\\end{pmatrix}$"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "$X=A^{-1}(A^3+3I)=A^2+3A^{-1}=\\begin{pmatrix}10&amp;-5\\\\10&amp;-10\\end{pmatrix}$.",
+            "multi": false,
+            "id": "mcq-2",
+            "clusterId": null
+          },
+          {
+            "startLine": 15,
+            "text": "Cho hệ phương trình tuyến tính\\n$$\\begin{cases} 3x_1+5x_2+54x_3-25x_4=2025 \\\\ 3x_1+5x_2-27x_3+50x_4=2025 \\\\ -3x_1+10x_2+27x_3+25x_4=2025 \\\\ 6x_1-5x_2+27x_3+25x_4=2025 \\end{cases}$$\\nKhi giải hệ trên, với kết quả nhận được, ẩn nào là 135",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "$x_1$"
+              },
+              {
+                "key": "B",
+                "text": "$x_2$"
+              },
+              {
+                "key": "C",
+                "text": "$x_3$"
+              },
+              {
+                "key": "D",
+                "text": "$x_4$"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Nghiệm của hệ là $(225;135;25;27)$.",
+            "multi": false,
+            "id": "mcq-3",
+            "clusterId": null
+          },
+          {
+            "startLine": 22,
+            "text": "Cho hệ phương trình thuần nhất\\n$$\\begin{cases} 3x_1+2x_2-3x_3-5x_4=0 \\\\ -2x_1+\\lambda x_2+4x_3+6x_4=0 \\\\ x_1-x_2+x_3+x_4=0 \\end{cases}$$\\nVới giá trị nào của $\\lambda$ hệ này có 2 ẩn tự do",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "$\\lambda=3$"
+              },
+              {
+                "key": "B",
+                "text": "$\\lambda=-3$"
+              },
+              {
+                "key": "C",
+                "text": "$\\lambda=-4$"
+              },
+              {
+                "key": "D",
+                "text": "$\\lambda=4$"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Hệ có 4 ẩn, có 2 ẩn tự do khi hạng ma trận hệ số bằng 2; điều này xảy ra khi $\\lambda=-3$.",
+            "multi": false,
+            "id": "mcq-4",
+            "clusterId": null
+          },
+          {
+            "startLine": 29,
+            "text": "Trong không gian tuyến tính $\\mathbb{R}^n$ cho hệ $\\{u_1,u_2,u_3,u_4\\}$ gồm bốn phần tử, sao cho $u_3=u_1+u_2$; $u_4=2u_1+3u_2$. Trong các đẳng thức được liệt kê dưới đây, đẳng thức nào là sai:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "$u_2=-2u_3+u_4$"
+              },
+              {
+                "key": "B",
+                "text": "$u_4=-u_1+3u_3$"
+              },
+              {
+                "key": "C",
+                "text": "$u_1=-u_2-2u_3+u_4$"
+              },
+              {
+                "key": "D",
+                "text": "$u_1=-3u_2-3u_3+2u_4$"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "Ở đáp án C: $-u_2-2u_3+u_4=-u_1$, không bằng $u_1$ nên đẳng thức sai.",
+            "multi": false,
+            "id": "mcq-5",
+            "clusterId": null
+          },
+          {
+            "startLine": 36,
+            "text": "Cho hệ $(a)=\\{a_1,a_2,a_3\\}$ là một hệ cơ sở của không gian tuyến tính $\\mathbb{R}^3$ với $a_1=(2,1,-3)$, $a_2=(1,1,1)$, $a_3=(4,2,1)$. Tọa độ của phần tử $x=(9,3,-7)$ theo cơ sở $(a)$ là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "$[x]_a=(1,3,4)$"
+              },
+              {
+                "key": "B",
+                "text": "$[x]_a=(3,-2,1)$"
+              },
+              {
+                "key": "C",
+                "text": "$[x]_a=(4,1,-2)$"
+              },
+              {
+                "key": "D",
+                "text": "$[x]_a=(2,-3,2)$"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "$2a_1-3a_2+2a_3=(4-3+8;\\,2-3+4;\\,-6-3+2)=(9;3;-7)$.",
+            "multi": false,
+            "id": "mcq-6",
+            "clusterId": null
+          },
+          {
+            "startLine": 43,
+            "text": "Cho $f:\\mathbb{R}^n\\to\\mathbb{R}^3$ là một ánh xạ tuyến tính nào đấy. Giả sử rằng tồn tại các phần tử $u,v\\in\\mathbb{R}^n$ sao cho $f(u)=(2,-1,3)$ và $f(3u-5v)=(1,-8,14)$. Khi đó $f(5u+2v)$ là phần tử",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "$f(5u+2v)=(20,5,10)$"
+              },
+              {
+                "key": "B",
+                "text": "$f(5u+2v)=(3,-9,17)$"
+              },
+              {
+                "key": "C",
+                "text": "$f(5u+2v)=(4,1,1)$"
+              },
+              {
+                "key": "D",
+                "text": "$f(5u+2v)=(12,-3,13)$"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "$f(v)=\\frac{3f(u)-f(3u-5v)}{5}=(1,1,-1)$, suy ra $f(5u+2v)=5f(u)+2f(v)=(12,-3,13)$.",
+            "multi": false,
+            "id": "mcq-7",
+            "clusterId": null
+          },
+          {
+            "startLine": 50,
+            "text": "Cho ánh xạ tuyến tính $f:\\mathbb{R}^2\\to\\mathbb{R}^3$ xác định theo công thức\\n$$f(x)=(3x_1+2x_2,\\,4x_1-3x_2,\\,x_1-4x_2),\\ \\forall x=(x_1,x_2)\\in\\mathbb{R}^2.$$\\nMa trận $A$ của ánh xạ $f$ theo các cơ sở chính tắc của $\\mathbb{R}^2$ và $\\mathbb{R}^3$ là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "$A=\\begin{pmatrix}3&4&1\\\\2&-3&-4\\end{pmatrix}$"
+              },
+              {
+                "key": "B",
+                "text": "$A=\\begin{pmatrix}2&-3&-4\\\\3&4&1\\end{pmatrix}$"
+              },
+              {
+                "key": "C",
+                "text": "$A=\\begin{pmatrix}3&4&1\\\\2&-3&-4\\end{pmatrix}^T$"
+              },
+              {
+                "key": "D",
+                "text": "$A=\\begin{pmatrix}2&-3&-4\\\\3&4&1\\end{pmatrix}^T$"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "Ma trận có các cột là $f(e_1)=(3,4,1)$ và $f(e_2)=(2,-3,-4)$, tức $A=\\begin{pmatrix}3&amp;2\\\\4&amp;-3\\\\1&amp;-4\\end{pmatrix}$.",
+            "multi": false,
+            "id": "mcq-8",
+            "clusterId": null
+          },
+          {
+            "startLine": 57,
+            "text": "Trong không gian Euclid $\\mathbb{R}^4$ cho các phần tử $u_1=(2,1,-1,1)$, $u_2=(1,-1,3,1)$, $v=(44,4,20,28)$. Trong các phần tử được liệt kê dưới đây, phần tử nào có chung véc tơ chuẩn hóa với phần tử $v$?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "$4u_1+3u_2$"
+              },
+              {
+                "key": "B",
+                "text": "$3u_1+4u_2$"
+              },
+              {
+                "key": "C",
+                "text": "$4u_1-u_2$"
+              },
+              {
+                "key": "D",
+                "text": "$u_1+4u_2$"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "$4u_1+3u_2=(11,1,5,7)=\\frac{1}{4}v$, cùng hướng với $v$.",
+            "multi": false,
+            "id": "mcq-9",
+            "clusterId": null
+          },
+          {
+            "startLine": 64,
+            "text": "Trong không gian Euclid $\\mathbb{R}^n$ cho các phần tử $x,y$ sao cho $\\langle x,y\\rangle=-90$, $\\|x+y\\|=6$, $\\|3x+2y\\|=7$. Với $x,y$ như thế, giá trị của $\\|7x+3y\\|$ là",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "$\\|7x+3y\\|=20$"
+              },
+              {
+                "key": "B",
+                "text": "$\\|7x+3y\\|=2\\sqrt{71}$"
+              },
+              {
+                "key": "C",
+                "text": "$\\|7x+3y\\|=6\\sqrt{11}$"
+              },
+              {
+                "key": "D",
+                "text": "$\\|7x+3y\\|=16$"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Từ hai điều kiện đầu: $\\|x\\|^2=53$, $\\|y\\|^2=163$. Khi đó $\\|7x+3y\\|^2=49\\cdot53+9\\cdot163+42\\cdot(-90)=284$.",
+            "multi": false,
+            "id": "mcq-10",
+            "clusterId": null
+          }
+        ]
+      },
+      "tf": {
+        "pointsPerQuestion": 1,
+        "questions": [
+          {
+            "startLine": 1,
+            "text": "Cho $X$ là nghiệm của phương trình ma trận $\\begin{pmatrix}1&2\\\\-4&3\\end{pmatrix}X=\\begin{pmatrix}0&-1\\\\11&37\\end{pmatrix}$. Khi đó ta có các đẳng thức:",
+            "image": null,
+            "statements": [
+              {
+                "text": "$X^2=I$.",
+                "correct": false,
+                "explanationHtml": "$X=\\begin{pmatrix}-2&amp;-7\\\\1&amp;3\\end{pmatrix}$ nên $X^2\\neq I$.",
+                "id": "tf-1-a"
+              },
+              {
+                "text": "$X^6=I$.",
+                "correct": true,
+                "explanationHtml": "$X^3=I$ nên $X^6=I$.",
+                "id": "tf-1-b"
+              },
+              {
+                "text": "$X^{88}=I$.",
+                "correct": false,
+                "explanationHtml": "$88$ không chia hết cho $3$ nên $X^{88}=X\\neq I$.",
+                "id": "tf-1-c"
+              },
+              {
+                "text": "$X^{888}=I$.",
+                "correct": true,
+                "explanationHtml": "$888$ chia hết cho $3$.",
+                "id": "tf-1-d"
+              }
+            ],
+            "id": "tf-1"
+          },
+          {
+            "startLine": 14,
+            "text": "Cho hệ Cramer\\n$$\\begin{cases} 5x+ay-4z=-7 \\\\ -ax+3y+az=6 \\\\ 4x+ay-3z=2 \\end{cases}$$\\nNếu $A$ là ma trận hệ số và $(x,y,z)$ là nghiệm của hệ này thì:",
+            "image": null,
+            "statements": [
+              {
+                "text": "$\\det A=3$.",
+                "correct": true,
+                "explanationHtml": null,
+                "id": "tf-2-a"
+              },
+              {
+                "text": "$x=3a^2-2a+29$.",
+                "correct": true,
+                "explanationHtml": null,
+                "id": "tf-2-b"
+              },
+              {
+                "text": "$y=-3a+2$.",
+                "correct": true,
+                "explanationHtml": null,
+                "id": "tf-2-c"
+              },
+              {
+                "text": "$z=3a^2-2a+26$.",
+                "correct": false,
+                "explanationHtml": "Nghiệm đúng là $z=3a^2-2a+38$.",
+                "id": "tf-2-d"
+              }
+            ],
+            "id": "tf-2"
+          },
+          {
+            "startLine": 24,
+            "text": "Trong không gian tuyến tính $\\mathbb{R}^4$ cho cơ sở $(a)=\\{a_1,a_2,a_3,a_4\\}$. Giả sử $x\\in\\mathbb{R}^4$ có tọa độ theo cơ sở $(a)$ là $[x]_a=(8,7,-9,-2)$. Khi đó ta có các đẳng thức",
+            "image": null,
+            "statements": [
+              {
+                "text": "$x-3a_1=5a_1+7a_2-9a_3-2a_4$.",
+                "correct": true,
+                "explanationHtml": null,
+                "id": "tf-3-a"
+              },
+              {
+                "text": "$x-5a_2=8a_1+2a_2-9a_3+2a_4$.",
+                "correct": false,
+                "explanationHtml": "$x-5a_2=8a_1+2a_2-9a_3-2a_4$.",
+                "id": "tf-3-b"
+              },
+              {
+                "text": "$x+4a_3=8a_1+7a_2-4a_3-2a_4$.",
+                "correct": false,
+                "explanationHtml": "$x+4a_3=8a_1+7a_2-5a_3-2a_4$.",
+                "id": "tf-3-c"
+              },
+              {
+                "text": "$x+7a_4=8a_1+7a_2-9a_3+5a_4$.",
+                "correct": true,
+                "explanationHtml": null,
+                "id": "tf-3-d"
+              }
+            ],
+            "id": "tf-3"
+          },
+          {
+            "startLine": 35,
+            "text": "Cho ánh xạ tuyến tính $f:\\mathbb{R}^3\\to\\mathbb{R}^3$ có ma trận trên cơ sở chính tắc là $A=\\begin{pmatrix}4&-2&3\\\\1&3&-3\\\\2&1&1\\end{pmatrix}$. Tiếp theo cho cơ sở $(a)=\\{a_1,a_2,a_3\\}$ gồm các phần tử $a_1=(1,1,1)$, $a_2=(3,2,4)$, $a_3=(4,-2,9)$. Ta khẳng định được rằng:",
+            "image": null,
+            "statements": [
+              {
+                "text": "$f(a_1)=(5,1,4)$.",
+                "correct": true,
+                "explanationHtml": "$f(a_1)=A\\cdot(1,1,1)^T=(5,1,4)$.",
+                "id": "tf-4-a"
+              },
+              {
+                "text": "$f(a_3)=(47,-29,16)$.",
+                "correct": false,
+                "explanationHtml": "$f(a_3)=(47,-29,15)$. (Đề gốc viết nhầm $a_3$ thành $a_1$.)",
+                "id": "tf-4-b"
+              },
+              {
+                "text": "$f(a_2)=385a_1-163a_2+31a_3$.",
+                "correct": true,
+                "explanationHtml": null,
+                "id": "tf-4-c"
+              },
+              {
+                "text": "$f(a_3)=331a_1-572a_2+108a_3$.",
+                "correct": false,
+                "explanationHtml": "Hệ số đúng của $a_1$ là $1331$.",
+                "id": "tf-4-d"
+              }
+            ],
+            "id": "tf-4"
+          },
+          {
+            "startLine": 47,
+            "text": "Trong không gian $\\mathbb{R}^4$ cho hệ trực giao $(a)=\\{a_1,a_2,a_3,a_4\\}$ với $a_1=(4,1,8,0)$; $a_2=(5,-4,-2,6)$, $a_3=(2,8,-2,3)$, $a_4=(-2,0,1,2)$. Chuẩn hóa hệ $(a)$ để thu được cơ sở trực chuẩn $(e)=\\{e_1,e_2,e_3,e_4\\}$ của $\\mathbb{R}^4$. Khi đó ta có các khẳng định:",
+            "image": null,
+            "statements": [
+              {
+                "text": "$a_2=9e_2$.",
+                "correct": true,
+                "explanationHtml": "$\\|a_2\\|=9$.",
+                "id": "tf-5-a"
+              },
+              {
+                "text": "$a_4=9e_4$.",
+                "correct": false,
+                "explanationHtml": "$\\|a_4\\|=3$ nên $a_4=3e_4$.",
+                "id": "tf-5-b"
+              },
+              {
+                "text": "$(a_1-2a_2+3e_3)\\perp(e_2+6e_3+3e_4)$.",
+                "correct": true,
+                "explanationHtml": "Do $(e)$ trực chuẩn nên tích vô hướng bằng $-2\\cdot\\|a_2\\|\\cdot1+3\\cdot6\\cdot... $, tính trực tiếp cho kết quả $0$.",
+                "id": "tf-5-c"
+              },
+              {
+                "text": "$(e_1+3e_2-e_3)\\perp(e_2+a_3+e_4)$.",
+                "correct": false,
+                "explanationHtml": "Tích vô hướng bằng $-6\\neq0$.",
+                "id": "tf-5-d"
+              }
+            ],
+            "id": "tf-5"
+          }
+        ],
+        "scoring": "equal"
+      },
+      "fill": {
+        "pointsPerQuestion": 1,
+        "questions": [
+          {
+            "startLine": 1,
+            "text": "Cho ma trận vuông $A=\\begin{pmatrix}1&4&-2&2\\\\3&1&\\lambda&\\lambda\\\\2&5&3&-1\\\\1&3&2&-4\\end{pmatrix}$. Tính $\\det A$.",
+            "image": null,
+            "answers": [
+              "194-18l",
+              "-18l+194"
+            ],
+            "explanationHtml": "Khai triển định thức theo biến đổi sơ cấp: $\\det A=-18\\lambda+194$.",
+            "multi": false,
+            "id": "fill-1",
+            "clusterId": null
+          },
+          {
+            "startLine": 4,
+            "text": "Hai người bạn A, B chơi thân với nhau và hiện tại mỗi người đã để dành được 1 khoản tiền. Chủ nhật tuần trước 2 người gặp mặt nhau và A bày tỏ ý định muốn mua 1 laptop, B muốn mua một điện thoại nhưng hiện tại không ai đủ tiền, đồng thời tổng số tiền họ đang thiếu là 22 triệu đồng. Khi đó, nếu A chuyển 50% số tiền của mình cho B vay thì B vừa đủ tiền mua điện thoại. Mặt khác, nếu B chuyển 40% số tiền của mình cho A vay thì A vẫn cần thêm 2 triệu để mua laptop. Nếu B mua điện thoại bằng hình thức trả góp, trong đó B trả lần đầu 30% giá tiền điện thoại, thì số tiền còn dư lại B cao hơn 2,5 triệu so với số tiền A đang cần vay thêm để mua laptop. Hãy cho biết mỗi người đang có bao nhiêu tiền và laptop giá bao nhiêu tiền.",
+            "image": null,
+            "answers": [
+              "20, 25, 32"
+            ],
+            "explanationHtml": "Gọi $a,b$ là số tiền của A, B; $P$ là giá điện thoại, $L$ là giá laptop (triệu đồng). Giải hệ ta được $a=20$, $b=25$, $P=35$, $L=32$.",
+            "multi": false,
+            "id": "fill-2",
+            "clusterId": null
+          },
+          {
+            "startLine": 7,
+            "text": "Trong không gian tuyến tính $\\mathbb{R}^4$ cho hệ $(a)=\\{a_1,a_2,a_3\\}$ với $a_1=(3,5,-1,1)$, $a_2=(-2,2,3,-2)$, $a_3=(4,1,-1,3)$. Nếu $x=(-2,\\lambda,5,-5)$ là một tổ hợp tuyến tính của hệ $(a)$ thì giá trị của $\\lambda$ là gì?",
+            "image": null,
+            "answers": [
+              "13"
+            ],
+            "explanationHtml": "Từ các thành phần 1, 3, 4: $x=2a_1+2a_2-a_3$. Suy ra $\\lambda=2\\cdot5+2\\cdot2-1=13$.",
+            "multi": false,
+            "id": "fill-3",
+            "clusterId": null
+          },
+          {
+            "startLine": 10,
+            "text": "Cho ma trận vuông $A=\\begin{pmatrix}4&1&2\\\\2&2&2\\\\-4&4&5\\end{pmatrix}$. Tìm giá trị riêng bội 2 của $A$ và tất cả véc tơ riêng ứng với giá trị riêng đó.",
+            "image": null,
+            "answers": [
+              "5, c(1,1,0)"
+            ],
+            "explanationHtml": "Đáp án theo đề gốc: $\\lambda=5$ và $x=c(1,1,0)$, $c\\neq0$. Lưu ý: với ma trận như đã in, đa thức đặc trưng là $\\lambda^3-11\\lambda^2+36\\lambda-22$ không có nghiệm bội, và $A(1,1,0)^T=(5,4,0)^T$ không cùng phương với $(1,1,0)$. Cần kiểm tra lại ma trận trong đề gốc.",
+            "multi": false,
+            "id": "fill-4",
+            "clusterId": null
+          },
+          {
+            "startLine": 13,
+            "text": "Hãy xác định các phần tử $x,y$ trong không gian Euclid $\\mathbb{R}^4$ biết rằng: $(x+y)\\perp(x-y)$; $(x+5y)\\perp(3x+y)$; $x+4y=(11,-1,3,5)$ và véc tơ chuẩn hóa của $2x+y$ là $u=\\frac{1}{6}(1,5,-1,3)$.",
+            "image": null,
+            "answers": [
+              "-1, 3, -1, 1; 3, -1, 1, 1"
+            ],
+            "explanationHtml": "Đặt $2x+y=tu$ với $t&gt;0$. Từ hai điều kiện vuông góc ta có $\\|x\\|=\\|y\\|$, giải được $t=6$. Khi đó $x=(-1,3,-1,1)$, $y=(3,-1,1,1)$.",
+            "multi": false,
+            "id": "fill-5",
+            "clusterId": null
+          }
+        ],
+        "tolerance": 0,
+        "note": "Câu 1: nhập biểu thức theo dạng a*l + b (ví dụ 194-18l, dùng chữ l thay cho λ). Câu 2: nhập số tiền theo thứ tự A, B, laptop (đơn vị triệu), cách nhau bằng dấu phẩy. Câu 4: nhập giá trị riêng, rồi véc tơ riêng cách nhau bằng dấu phẩy. Câu 5: nhập 4 toạ độ của x rồi 4 toạ độ của y, các toạ độ cách nh"
+      }
+    }
+  }
+}
