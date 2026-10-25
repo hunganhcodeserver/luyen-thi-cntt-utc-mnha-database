@@ -1,0 +1,29 @@
+{
+  "type": "slide",
+  "slideId": "6ade390cec1bc101232c87fd",
+  "title": "Chương 1-2-3 26/10/2026",
+  "slug": "chuong-1-2-3-26-10-2026",
+  "subjectSlug": "dai-so-tuyen-tinh-2-1-26n02",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/dai-so-tuyen-tinh-2-1-26n02/slides/chuong-1-2-3-26-10-2026_1792948393.pdf",
+      "enc": 21009475,
+      "plain": 21008855
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 21008855,
+  "originalName": "merged_MNHA.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-25T17:14:52.736Z",
+  "updatedAt": "2026-10-25T17:14:52.736Z"
+}
