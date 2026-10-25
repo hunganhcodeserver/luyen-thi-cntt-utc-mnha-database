@@ -1,0 +1,23 @@
+{
+  "lessonId": "6addb20d44d4b9416a29d9e3",
+  "type": "essay",
+  "title": "Bài 1 ngày 24/10/2026",
+  "slug": "bai-1-ngay-24102026",
+  "subjectSlug": "lap-trinh-huong-doi-tuong-1-1-26n04",
+  "description": "",
+  "contentHtml": "<p><strong>Bài 1.</strong> Xây dựng chương trình quản lý và mô tả hoạt động của các loại phương tiện giao thông với các yêu cầu:</p>\n<p>1. Xây dựng lớp cơ sở Vehicle gồm: Thuộc tính: brand (hãng sản xuất), speed (tốc độ). Hàm tạo, hàm nhập và hàm hiển thị thông tin. Hàm ảo move() mô tả hoạt động di chuyển của phương tiện.</p>\n<p>2. Xây dựng ba lớp dẫn xuất: Car: ô tô, di chuyển bằng động cơ. Bicycle: xe đạp, di chuyển bằng sức người. Motorcycle: xe máy, di chuyển bằng động cơ.</p>\n<p>3. Mỗi lớp dẫn xuất ghi đè phương thức move() để mô tả cách di chuyển riêng.</p>\n<p>4. Trong hàm main():</p>\n<ul>\n  <li>Khởi tạo n phương tiện thuộc các loại khác nhau, 1 là Car, 2 là Bicycle, 3 là Motorcycle.</li>\n  <li>Sử dụng mảng con trỏ Vehicle* để lưu địa chỉ các đối tượng.</li>\n  <li>Duyệt mảng và gọi move() cho từng phương tiện.</li>\n</ul>",
+  "sampleSolution": "",
+  "duration": 30,
+  "model": null,
+  "promptId": null,
+  "aiKeyId": null,
+  "isPublished": true,
+  "isDeleted": false,
+  "createdBy": {
+    "id": "6ab3d694415010bf620349e5",
+    "name": "Mai Ngọc Hùng Anh",
+    "email": "hunganh.okokok.0@gmail.com"
+  },
+  "createdAt": "2026-10-25T07:38:53.770Z",
+  "updatedAt": "2026-10-25T07:38:53.770Z"
+}
