@@ -77,9 +77,22 @@
       "keyHint": "a120",
       "createdBy": "data-node",
       "updatedAt": "2026-10-25T16:23:27.492Z"
+    },
+    {
+      "id": "data-node-7",
+      "url": "https://luyen-thi-cntt-utc-mnha-data-6.vercel.app",
+      "createdAt": "2026-10-25T16:27:26.131Z",
+      "enabled": true,
+      "health": null,
+      "name": "data-node-7",
+      "note": "",
+      "keyEnc": "v2.vW6i1ESY9TLXupNd.NYParh0vDw8VyCsFznvzDw.IFLVaodJI1EH6o9Ulp4Uk7ZfIvLZ9yAZzrOGg2Ks5hTWv0t84zMN_E67AS-AfYSQ41yEV7ehMPC5BiBNA06A6Nd0VIGE29IhQk8p69TD7rY",
+      "keyHint": "4522",
+      "createdBy": "data-node",
+      "updatedAt": "2026-10-25T16:27:26.131Z"
     }
   ],
   "v": 1,
   "createdAt": "2026-10-25T15:58:42.054Z",
-  "updatedAt": "2026-10-25T16:23:27.556Z"
+  "updatedAt": "2026-10-25T16:27:26.202Z"
 }
