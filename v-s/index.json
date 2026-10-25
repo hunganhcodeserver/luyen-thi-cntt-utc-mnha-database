@@ -25,9 +25,22 @@
       "keyHint": "14a0",
       "createdBy": "data-node",
       "updatedAt": "2026-10-25T16:04:28.910Z"
+    },
+    {
+      "id": "data-node-3",
+      "url": "https://https-luyen-thi-cntt-utc-mnha-data-amber.vercel.app",
+      "createdAt": "2026-10-25T16:10:22.515Z",
+      "enabled": true,
+      "health": null,
+      "name": "data-node-3",
+      "note": "",
+      "keyEnc": "v2.TVPbM6r9dKWbeuFS.blKuumPIVs3Yqs6mRHi3_Q.n9-zQSgvBwvNnOe9vi52ImK82pxrvzs54QYT1xXwq3DJEYGu_Z3nO1r3ogja3BptB-Dj-GFvqrSgOWag4UJjwjPty22XoJcqFKGa7NfUqm8",
+      "keyHint": "4332",
+      "createdBy": "data-node",
+      "updatedAt": "2026-10-25T16:10:22.515Z"
     }
   ],
   "v": 1,
   "createdAt": "2026-10-25T15:58:42.054Z",
-  "updatedAt": "2026-10-25T16:04:28.972Z"
+  "updatedAt": "2026-10-25T16:10:22.587Z"
 }
