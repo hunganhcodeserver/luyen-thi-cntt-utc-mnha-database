@@ -1,0 +1,23 @@
+{
+  "lessonId": "6addb30baa0190fa8ec664ea",
+  "type": "essay",
+  "title": "Bài 4 ngày 24/10/2026",
+  "slug": "bai-4-ngay-24102026",
+  "subjectSlug": "lap-trinh-huong-doi-tuong-1-1-26n04",
+  "description": "",
+  "contentHtml": "<p><strong>Câu 2.</strong> Xây dựng lớp Toado (tọa độ), gồm các thuộc tính (private): hoành độ, tung độ; các phương thức: nhập, xuất tọa độ và tính khoảng cách đến gốc tọa độ.</p>\n<p>Xây dựng lớp DiemMau (điểm màu) dẫn xuất từ lớp Toado, bổ sung thêm thuộc tính mau (là mã màu có giá trị 1, 2, 3, với 1 là Đỏ, 2 là Vàng, 3 là Xanh).</p>\n<p>Viết hàm main() để</p>\n<ul>\n  <li>Nhập thông tin cho n điểm.</li>\n  <li>Thống kê số điểm mỗi màu.</li>\n  <li>Tìm các điểm có khoảng cách lớn nhất đến gốc tọa độ.</li>\n</ul>",
+  "sampleSolution": "",
+  "duration": 30,
+  "model": null,
+  "promptId": null,
+  "aiKeyId": null,
+  "isPublished": true,
+  "isDeleted": false,
+  "createdBy": {
+    "id": "6ab3d694415010bf620349e5",
+    "name": "Mai Ngọc Hùng Anh",
+    "email": "hunganh.okokok.0@gmail.com"
+  },
+  "createdAt": "2026-10-25T07:43:07.381Z",
+  "updatedAt": "2026-10-25T07:43:07.381Z"
+}
