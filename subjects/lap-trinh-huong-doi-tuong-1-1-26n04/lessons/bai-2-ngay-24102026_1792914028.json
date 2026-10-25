@@ -1,0 +1,23 @@
+{
+  "lessonId": "6addb26caa0190fa8ec664e8",
+  "type": "essay",
+  "title": "Bài 2 ngày 24/10/2026",
+  "slug": "bai-2-ngay-24102026",
+  "subjectSlug": "lap-trinh-huong-doi-tuong-1-1-26n04",
+  "description": "",
+  "contentHtml": "<p><strong>Bài 2.</strong> Xây dựng lớp Xe, trong đó có các thuộc tính gồm: Biển số xe và trọng lượng của xe. Xây dựng lớp XeCon dẫn xuất từ lớp Xe, trong đó định nghĩa thêm thuộc tính: Số chỗ ngồi. Trong lớp trên có thể định nghĩa thêm một số hàm thành phần nếu cần thiết.</p>\n<p>Viết chương trình:</p>\n<ul>\n  <li>Nhập thông tin cho n xe con</li>\n  <li>In danh sách các xe con có trọng lượng dưới 1 tấn và có không quá 5 chỗ ngồi.</li>\n  <li>Nhập vào số thực x từ bàn phím, đếm số lượng xe con có trọng lượng nhỏ hơn x.</li>\n  <li>Tìm các xe con có số chỗ ngồi nhiều nhất.</li>\n</ul>",
+  "sampleSolution": "",
+  "duration": 30,
+  "model": null,
+  "promptId": null,
+  "aiKeyId": null,
+  "isPublished": true,
+  "isDeleted": false,
+  "createdBy": {
+    "id": "6ab3d694415010bf620349e5",
+    "name": "Mai Ngọc Hùng Anh",
+    "email": "hunganh.okokok.0@gmail.com"
+  },
+  "createdAt": "2026-10-25T07:40:28.277Z",
+  "updatedAt": "2026-10-25T07:40:28.277Z"
+}
