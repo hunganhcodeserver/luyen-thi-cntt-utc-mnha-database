@@ -1,0 +1,23 @@
+{
+  "lessonId": "6addb2daaa0190fa8ec664e9",
+  "type": "essay",
+  "title": "Bài 3 ngày 24/10/2026",
+  "slug": "bai-3-ngay-24102026",
+  "subjectSlug": "lap-trinh-huong-doi-tuong-1-1-26n04",
+  "description": "",
+  "contentHtml": "<p><strong>Câu 1.</strong> Xây dựng lớp Diem (Điểm), trong đó có các thuộc tính (private) gồm hoành độ và tung độ; các phương thức hoặc hàm bạn: &gt;&gt; để nhập tọa độ của một điểm, &lt;&lt; để in một điểm lên màn hình theo dạng (hoành độ, tung độ), tính khoảng cách từ một điểm đến gốc tọa độ.</p>\n<p>Viết hàm main() để:</p>\n<ul>\n  <li>Nhập tọa độ n điểm trên mặt phẳng.</li>\n  <li>Tính tổng khoảng cách từ tất cả các điểm trên đến gốc tọa độ.</li>\n  <li>Tìm một điểm ở gần gốc tọa độ nhất.</li>\n</ul>",
+  "sampleSolution": "",
+  "duration": 30,
+  "model": null,
+  "promptId": null,
+  "aiKeyId": null,
+  "isPublished": true,
+  "isDeleted": false,
+  "createdBy": {
+    "id": "6ab3d694415010bf620349e5",
+    "name": "Mai Ngọc Hùng Anh",
+    "email": "hunganh.okokok.0@gmail.com"
+  },
+  "createdAt": "2026-10-25T07:42:18.131Z",
+  "updatedAt": "2026-10-25T07:42:18.131Z"
+}
