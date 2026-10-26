@@ -1,0 +1,39 @@
+{
+  "type": "document",
+  "documentId": "6adf7626e5fc861c45165256",
+  "title": "HUST_Phạm Thị Hoài",
+  "slug": "hust-pham-thi-hoai",
+  "subjectSlug": "cac-phuong-phap-toi-uu-1-1-26n02",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/cac-phuong-phap-toi-uu-1-1-26n02/documents/hust-pham-thi-hoai_1793028752-1.pdf",
+      "enc": 22000620,
+      "plain": 22000000
+    },
+    {
+      "path": "subjects/cac-phuong-phap-toi-uu-1-1-26n02/documents/hust-pham-thi-hoai_1793028752-2.pdf",
+      "enc": 22000620,
+      "plain": 22000000
+    },
+    {
+      "path": "subjects/cac-phuong-phap-toi-uu-1-1-26n02/documents/hust-pham-thi-hoai_1793028752-3.pdf",
+      "enc": 13103987,
+      "plain": 13103591
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 57103591,
+  "originalName": "HUST_Phạm Thị Hoài.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-26T15:47:50.376Z",
+  "updatedAt": "2026-10-26T15:47:50.376Z"
+}
