@@ -1,0 +1,39 @@
+{
+  "type": "document",
+  "documentId": "6adf7cb2e25deb6d2c916631",
+  "title": "HUST_Introduction to Nonlinear Optimization",
+  "slug": "hust-introduction-to-nonlinear-optimization",
+  "subjectSlug": "cac-phuong-phap-toi-uu-1-1-26n02",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/cac-phuong-phap-toi-uu-1-1-26n02/documents/hust-introduction-to-nonlinear-optimization_1793030653-1.pdf",
+      "enc": 22000620,
+      "plain": 22000000
+    },
+    {
+      "path": "subjects/cac-phuong-phap-toi-uu-1-1-26n02/documents/hust-introduction-to-nonlinear-optimization_1793030653-2.pdf",
+      "enc": 22000620,
+      "plain": 22000000
+    },
+    {
+      "path": "subjects/cac-phuong-phap-toi-uu-1-1-26n02/documents/hust-introduction-to-nonlinear-optimization_1793030653-3.pdf",
+      "enc": 17652814,
+      "plain": 17652306
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 61652306,
+  "originalName": "HUST_Introduction to Nonlinear Optimization.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-26T16:15:46.812Z",
+  "updatedAt": "2026-10-26T16:15:46.812Z"
+}
