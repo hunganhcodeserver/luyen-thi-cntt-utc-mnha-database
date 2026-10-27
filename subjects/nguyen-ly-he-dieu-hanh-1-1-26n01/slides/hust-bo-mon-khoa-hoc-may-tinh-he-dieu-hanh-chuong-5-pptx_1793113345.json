@@ -1,0 +1,29 @@
+{
+  "type": "slide",
+  "slideId": "6ae0bd3e3b78cfc531aa9af7",
+  "title": "HUST_Bộ môn Khoa học máy tính_Hệ Điều Hành Chuong 5.pptx",
+  "slug": "hust-bo-mon-khoa-hoc-may-tinh-he-dieu-hanh-chuong-5-pptx",
+  "subjectSlug": "nguyen-ly-he-dieu-hanh-1-1-26n01",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/nguyen-ly-he-dieu-hanh-1-1-26n01/slides/hust-bo-mon-khoa-hoc-may-tinh-he-dieu-hanh-chuong-5-pptx_1793113345.pptx",
+      "enc": 2938696,
+      "plain": 2938580
+    }
+  ],
+  "fileExt": "pptx",
+  "fileSize": 2938580,
+  "originalName": "HUST_Bộ môn Khoa học máy tính_Hệ Điều Hành Chuong 5.pptx",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-27T15:03:26.465Z",
+  "updatedAt": "2026-10-27T15:03:26.465Z"
+}
