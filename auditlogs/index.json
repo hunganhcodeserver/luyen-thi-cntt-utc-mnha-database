@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-24T23:49:24.545Z",
-  "total": 26,
+  "updatedAt": "2026-10-27T02:52:27.052Z",
+  "total": 27,
   "logs": [
     {
       "id": "6ac45a48c3fe67bf29ff941c",
@@ -548,6 +548,26 @@
       "ipAddress": "116.96.46.168",
       "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
       "createdAt": "2026-10-24T23:49:24.371Z"
+    },
+    {
+      "id": "6ae011ea89dd495c07ddc317",
+      "actor": "6ab3d694415010bf620349e5",
+      "action": "create_quiz",
+      "entity": "Lesson",
+      "entityId": "6ae011e84afced9f14cf5b58",
+      "description": "",
+      "metadata": {
+        "title": "Ôn tập giữa kì",
+        "duration": 60,
+        "counts": {
+          "mcq": 18,
+          "tf": 0,
+          "fill": 0
+        }
+      },
+      "ipAddress": "116.96.46.229",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+      "createdAt": "2026-10-27T02:52:26.918Z"
     }
   ]
 }
