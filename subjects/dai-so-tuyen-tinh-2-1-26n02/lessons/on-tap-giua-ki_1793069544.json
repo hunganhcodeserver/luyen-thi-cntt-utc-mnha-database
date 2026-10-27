@@ -1,7 +1,7 @@
 {
   "type": "quiz",
   "lessonId": "6ae011e84afced9f14cf5b58",
-  "title": "Ôn tập giữa kì",
+  "title": "Ôn tập giữa kì (Đề cũ)",
   "slug": "on-tap-giua-ki",
   "subjectSlug": "dai-so-tuyen-tinh-2-1-26n02",
   "duration": 60,
@@ -11,7 +11,7 @@
   "isDeleted": false,
   "createdBy": "6ab3d694415010bf620349e5",
   "createdAt": "2026-10-27T02:52:24.909Z",
-  "updatedAt": "2026-10-27T02:52:26.118Z",
+  "updatedAt": "2026-10-27T03:04:06.726Z",
   "contentHtml": null,
   "quiz": {
     "version": 1,
