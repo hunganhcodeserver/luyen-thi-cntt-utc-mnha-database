@@ -110,12 +110,12 @@
         "2026-10-27": {
           "in": 0,
           "out": 4884,
-          "originIn": 17626,
-          "originOut": 0,
+          "originIn": 29756,
+          "originOut": 5040,
           "req": 2
         }
       },
-      "updatedAt": "2026-10-27T07:55:16.852Z"
+      "updatedAt": "2026-10-27T08:00:57.335Z"
     },
     "luyen-thi-cntt-utc-mnha": {
       "days": {
@@ -165,5 +165,5 @@
   "week": 43,
   "from": "2026-10-26",
   "to": "2026-11-01",
-  "updatedAt": "2026-10-27T07:55:19.802Z"
+  "updatedAt": "2026-10-27T08:00:57.335Z"
 }
