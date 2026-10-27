@@ -1,0 +1,12 @@
+{
+  "v": 1,
+  "base": "luyen-thi-cntt-utc-mnha-database",
+  "repos": [
+    {
+      "id": "1",
+      "repo": "luyen-thi-cntt-utc-mnha-database-1",
+      "createdAt": "2026-10-27T01:52:55.964Z"
+    }
+  ],
+  "updatedAt": "2026-10-27T01:52:55.964Z"
+}
