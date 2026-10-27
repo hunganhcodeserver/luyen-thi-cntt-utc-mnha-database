@@ -9,13 +9,9 @@
   "analysisAiKeyIds": [],
   "isPublished": true,
   "isDeleted": false,
-  "createdBy": {
-    "id": "6ab3d694415010bf620349e5",
-    "name": "Mai Ngọc Hùng Anh",
-    "email": "hunganh.okokok.0@gmail.com"
-  },
+  "createdBy": "6ab3d694415010bf620349e5",
   "createdAt": "2026-10-27T02:52:24.909Z",
-  "updatedAt": "2026-10-27T02:52:24.909Z",
+  "updatedAt": "2026-10-27T02:52:26.118Z",
   "contentHtml": null,
   "quiz": {
     "version": 1,
@@ -635,5 +631,13 @@
         ]
       }
     }
-  }
+  },
+  "description": "",
+  "sampleSolution": "",
+  "order": 0,
+  "model": null,
+  "aiKeyId": null,
+  "updatedBy": null,
+  "deletedAt": null,
+  "deletedBy": null
 }
