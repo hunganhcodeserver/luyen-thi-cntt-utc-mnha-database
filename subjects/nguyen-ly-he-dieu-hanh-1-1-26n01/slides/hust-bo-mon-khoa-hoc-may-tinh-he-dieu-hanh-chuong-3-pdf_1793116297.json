@@ -1,0 +1,29 @@
+{
+  "type": "slide",
+  "slideId": "6ae0c940ef54c9b30a697896",
+  "title": "HUST_Bộ môn Khoa học máy tính_Hệ Điều Hành-Chuong 3.pdf",
+  "slug": "hust-bo-mon-khoa-hoc-may-tinh-he-dieu-hanh-chuong-3-pdf",
+  "subjectSlug": "nguyen-ly-he-dieu-hanh-1-1-26n01",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/nguyen-ly-he-dieu-hanh-1-1-26n01/slides/hust-bo-mon-khoa-hoc-may-tinh-he-dieu-hanh-chuong-3-pdf_1793116297.pdf",
+      "enc": 3471474,
+      "plain": 3471358
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 3471358,
+  "originalName": "HUST_Bộ môn Khoa học máy tính_Hệ Điều Hành-Chuong 3.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-27T15:54:40.155Z",
+  "updatedAt": "2026-10-27T15:54:40.155Z"
+}
