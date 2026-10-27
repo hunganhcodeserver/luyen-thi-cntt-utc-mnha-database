@@ -1,0 +1,44 @@
+{
+  "type": "slide",
+  "slideId": "6ae0d2869d70743d0d17c378",
+  "title": "HUST_Đỗ Quốc Huy_Hệ Điều Hành_chuong 3_part2",
+  "slug": "hust-do-quoc-huy-he-dieu-hanh-chuong-3-part2",
+  "subjectSlug": "nguyen-ly-he-dieu-hanh-1-1-26n01",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/nguyen-ly-he-dieu-hanh-1-1-26n01/slides/hust-do-quoc-huy-he-dieu-hanh-chuong-3-part2_1793117773-1.pptx",
+      "enc": 22000620,
+      "plain": 22000000
+    },
+    {
+      "path": "subjects/nguyen-ly-he-dieu-hanh-1-1-26n01/slides/hust-do-quoc-huy-he-dieu-hanh-chuong-3-part2_1793117773-2.pptx",
+      "enc": 22000620,
+      "plain": 22000000
+    },
+    {
+      "path": "subjects/nguyen-ly-he-dieu-hanh-1-1-26n01/slides/hust-do-quoc-huy-he-dieu-hanh-chuong-3-part2_1793117773-3.pptx",
+      "enc": 22000620,
+      "plain": 22000000
+    },
+    {
+      "path": "subjects/nguyen-ly-he-dieu-hanh-1-1-26n01/slides/hust-do-quoc-huy-he-dieu-hanh-chuong-3-part2_1793117773-4.pptx",
+      "enc": 6066786,
+      "plain": 6066558
+    }
+  ],
+  "fileExt": "pptx",
+  "fileSize": 72066558,
+  "originalName": "HUST_Đỗ Quốc Huy_Hệ Điều Hành_chuong 3_part2.pptx",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-27T16:34:14.452Z",
+  "updatedAt": "2026-10-27T16:34:14.452Z"
+}
