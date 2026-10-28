@@ -1,0 +1,32 @@
+{
+  "type": "video",
+  "videoId": "6ae16afb56a8142b01bd71bf",
+  "title": "LMS - 3. PHÂN TÍCH THUẬT TOÁN",
+  "slug": "lms-3-phan-tich-thuat-toan",
+  "subjectSlug": "cau-truc-du-lieu-va-giai-thuat-1-1-26n06",
+  "description": "",
+  "videos": [
+    {
+      "id": "va743858e",
+      "title": "3.3. Phân tích thuật toán có độ phức tạp O(n)",
+      "enc": "v1.SdWGysOLVwsgRo1u.RwqpIz2yLDI_hxIpcBvVrg.-10vNniFD-KfJ3qAKpy4pVomb3bH3YP4V012jJ23nof4pOT7cM6w8EcKxwFtsEpvNmM2qhkb1KSsrHUGH68JQBWo2PwPrVqc-GkHjNC5DS0wDRu4KeCCGYg9oqA20u4Voj39QOWPoNcgACPEFswlpT5DM5wWTHDtA0e7vf-52-tJVePxcgDSKKK1Mv-vQxX6X_mPhmboEwSJ0JjhuQzoerDA5ufpMcs9qWpj6IDO508HxDzGN4VTuoJz_QyvGZvP8MwI_Zm4UFX2qjSx-yU_F8WEPZ8DOJdLdzc-Ps5KautTirnMPNvpvfCji1pnDL2ux1brmUhxBPyG2GX4hS5pA259UvlAmaQ39EI3Q2z4WohKLbR5kMvIAz36Xwg9CGSIzC1_45h9Z4rd2y5DjVwE1Zbbp5VIQ4HH5bAhd51YYjmKGIv-UWiE_A"
+    },
+    {
+      "id": "v08c99042",
+      "title": "3.4. Phân tích thuật toán có độ phức tạp O(n2)",
+      "enc": "v1.J65IIfiAt0JAelXk.-WLJujTSTWbsqUKOAKfnCw.qIGkhZtBDsJ1BT1SEowHukCqSz9xO_oHzLu8aHRzMSml5z7Osoj9ukE38jGZgo-Y06Aplz4PCZdX11D3Ig1sd6Whwvh7VJ_1h04PxBcXvhhrMSIkj2GbhxXzyTRk3TxoNCYvDRYTAmXtGAMNwb5xxzxIrh86VQhMypUrqLbwKK-9VyCmlaAC16vKvnUFkbKYAtgMrfJwSDO0fE2NGrO01t4IdxPGK97K81uLiafZmwWRYWfNMMNJETENJhJG0v-n0FUVi71BvhOOuYPlKsKk91hAoM6Onh8pq8utmPTqODTq1_yQvGHcOlPvwjjx75d1LA4B46Qd7p5LL3tXs5MgWqZreWX3KHCvDPIOgJhyu2MqsQvlJmBiA6UtQAGMGq7RaBDGmfF3s1S7q-tpEM4GRLslwTVeW6idEK1AHfqIstDXJB--W1d_PA"
+    }
+  ],
+  "videoCount": 2,
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-28T03:24:43.244Z",
+  "updatedAt": "2026-10-28T03:24:43.244Z"
+}
