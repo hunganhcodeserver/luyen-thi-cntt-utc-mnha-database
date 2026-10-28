@@ -1,0 +1,29 @@
+{
+  "type": "slide",
+  "slideId": "6ae1c176ca7b8373838be2b8",
+  "title": "HUST_Trần Vĩnh Đức_lec20-quy hoạch động",
+  "slug": "hust-tran-vinh-duc-lec20-quy-hoach-dong",
+  "subjectSlug": "toan-roi-rac-1-1-26n06",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/toan-roi-rac-1-1-26n06/slides/hust-tran-vinh-duc-lec20-quy-hoach-dong_1793179998.pdf",
+      "enc": 1443012,
+      "plain": 1442952
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 1442952,
+  "originalName": "HUST_Trần Vĩnh Đức_lec20-quy hoạch động.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-28T09:33:42.552Z",
+  "updatedAt": "2026-10-28T09:33:42.552Z"
+}
