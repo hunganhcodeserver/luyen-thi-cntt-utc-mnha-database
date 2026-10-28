@@ -1,0 +1,29 @@
+{
+  "type": "slide",
+  "slideId": "6ae1c1a1ca7b8373838be2bb",
+  "title": "HUST_Trần Vĩnh Đức_slidesV2_lecture02",
+  "slug": "hust-tran-vinh-duc-slidesv2-lecture02",
+  "subjectSlug": "toan-roi-rac-1-1-26n06",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/toan-roi-rac-1-1-26n06/slides/hust-tran-vinh-duc-slidesv2-lecture02_1793180059.pdf",
+      "enc": 459256,
+      "plain": 459196
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 459196,
+  "originalName": "HUST_Trần Vĩnh Đức_slidesV2_lecture02.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-28T09:34:25.614Z",
+  "updatedAt": "2026-10-28T09:34:25.614Z"
+}
