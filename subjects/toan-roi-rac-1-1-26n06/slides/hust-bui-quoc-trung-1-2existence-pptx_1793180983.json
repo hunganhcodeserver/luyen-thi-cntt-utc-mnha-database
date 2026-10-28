@@ -1,0 +1,29 @@
+{
+  "type": "slide",
+  "slideId": "6ae1c53eefc410fc851087c2",
+  "title": "HUST_Bùi Quốc Trung_1-2Existence.pptx",
+  "slug": "hust-bui-quoc-trung-1-2existence-pptx",
+  "subjectSlug": "toan-roi-rac-1-1-26n06",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/toan-roi-rac-1-1-26n06/slides/hust-bui-quoc-trung-1-2existence-pptx_1793180983.pptx",
+      "enc": 932397,
+      "plain": 932337
+    }
+  ],
+  "fileExt": "pptx",
+  "fileSize": 932337,
+  "originalName": "HUST_Bùi Quốc Trung_1-2Existence.pptx",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-28T09:49:50.581Z",
+  "updatedAt": "2026-10-28T09:49:50.581Z"
+}
