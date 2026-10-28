@@ -1,0 +1,29 @@
+{
+  "type": "slide",
+  "slideId": "6ae1c8bcefc410fc851087cc",
+  "title": "UTC-DVD-Cac_phuong_phap_toi_uu-1-1-26(N02)",
+  "slug": "utc-dvd-cac-phuong-phap-toi-uu-1-1-26-n02",
+  "subjectSlug": "cac-phuong-phap-toi-uu-1-1-26n02",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/cac-phuong-phap-toi-uu-1-1-26n02/slides/utc-dvd-cac-phuong-phap-toi-uu-1-1-26-n02_1793181844.pdf",
+      "enc": 9436949,
+      "plain": 9436665
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 9436665,
+  "originalName": "UTC-DVD-Cac_phuong_phap_toi_uu-1-1-26(N02).pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-28T10:04:44.827Z",
+  "updatedAt": "2026-10-28T10:04:44.827Z"
+}
