@@ -1,0 +1,29 @@
+{
+  "type": "slide",
+  "slideId": "6ae1bf97a13b85b49a981acc",
+  "title": "HUST_Trần Vĩnh Đức_lec4-graph1-new",
+  "slug": "hust-tran-vinh-duc-lec4-graph1-new",
+  "subjectSlug": "toan-roi-rac-1-1-26n06",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/toan-roi-rac-1-1-26n06/slides/hust-tran-vinh-duc-lec4-graph1-new_1793179529.pdf",
+      "enc": 4040502,
+      "plain": 4040330
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 4040330,
+  "originalName": "HUST_Trần Vĩnh Đức_lec4-graph1-new.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-28T09:25:43.181Z",
+  "updatedAt": "2026-10-28T09:25:43.181Z"
+}
