@@ -1,0 +1,29 @@
+{
+  "type": "slide",
+  "slideId": "6ae1c4bfefc410fc851087bf",
+  "title": "HUST_Bùi Quốc Trung_1-0Set",
+  "slug": "hust-bui-quoc-trung-1-0set",
+  "subjectSlug": "toan-roi-rac-1-1-26n06",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/toan-roi-rac-1-1-26n06/slides/hust-bui-quoc-trung-1-0set_1793180853.pptx",
+      "enc": 2301501,
+      "plain": 2301385
+    }
+  ],
+  "fileExt": "pptx",
+  "fileSize": 2301385,
+  "originalName": "HUST_Bùi Quốc Trung_1-0Set.pptx",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-28T09:47:43.995Z",
+  "updatedAt": "2026-10-28T09:47:43.995Z"
+}
