@@ -1,0 +1,29 @@
+{
+  "type": "slide",
+  "slideId": "6ae1c04aa13b85b49a981ad1",
+  "title": "HUST_Trần Vĩnh Đức_lec9-planar",
+  "slug": "hust-tran-vinh-duc-lec9-planar",
+  "subjectSlug": "toan-roi-rac-1-1-26n06",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/toan-roi-rac-1-1-26n06/slides/hust-tran-vinh-duc-lec9-planar_1793179716.pdf",
+      "enc": 1379311,
+      "plain": 1379251
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 1379251,
+  "originalName": "HUST_Trần Vĩnh Đức_lec9-planar.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-28T09:28:42.860Z",
+  "updatedAt": "2026-10-28T09:28:42.860Z"
+}
