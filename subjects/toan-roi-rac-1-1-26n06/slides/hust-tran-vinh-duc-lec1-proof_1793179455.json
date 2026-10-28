@@ -1,0 +1,29 @@
+{
+  "type": "slide",
+  "slideId": "6ae1bf52a13b85b49a981aca",
+  "title": "HUST_Trần Vĩnh Đức_lec1-proof",
+  "slug": "hust-tran-vinh-duc-lec1-proof",
+  "subjectSlug": "toan-roi-rac-1-1-26n06",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/toan-roi-rac-1-1-26n06/slides/hust-tran-vinh-duc-lec1-proof_1793179455.pdf",
+      "enc": 80492,
+      "plain": 80432
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 80432,
+  "originalName": "HUST_Trần Vĩnh Đức_lec1-proof.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-28T09:24:34.596Z",
+  "updatedAt": "2026-10-28T09:24:34.596Z"
+}
