@@ -1,0 +1,29 @@
+{
+  "type": "slide",
+  "slideId": "6ae1c031a13b85b49a981ad0",
+  "title": "HUST_Trần Vĩnh Đức_lec8",
+  "slug": "hust-tran-vinh-duc-lec8",
+  "subjectSlug": "toan-roi-rac-1-1-26n06",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/toan-roi-rac-1-1-26n06/slides/hust-tran-vinh-duc-lec8_1793179682.pdf",
+      "enc": 4912412,
+      "plain": 4912240
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 4912240,
+  "originalName": "HUST_Trần Vĩnh Đức_lec8.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-28T09:28:17.839Z",
+  "updatedAt": "2026-10-28T09:28:17.839Z"
+}
