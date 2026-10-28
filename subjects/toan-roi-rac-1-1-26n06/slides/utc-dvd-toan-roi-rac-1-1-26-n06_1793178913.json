@@ -1,0 +1,29 @@
+{
+  "type": "slide",
+  "slideId": "6ae1bd4f1558aa8225e179ba",
+  "title": "UTC-DVD-Toan_roi_rac-1-1-26(N06)",
+  "slug": "utc-dvd-toan-roi-rac-1-1-26-n06",
+  "subjectSlug": "toan-roi-rac-1-1-26n06",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/toan-roi-rac-1-1-26n06/slides/utc-dvd-toan-roi-rac-1-1-26-n06_1793178913.pdf",
+      "enc": 11149041,
+      "plain": 11148701
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 11148701,
+  "originalName": "UTC-DVD-Toan_roi_rac-1-1-26(N06).pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-28T09:15:59.076Z",
+  "updatedAt": "2026-10-28T09:15:59.076Z"
+}
