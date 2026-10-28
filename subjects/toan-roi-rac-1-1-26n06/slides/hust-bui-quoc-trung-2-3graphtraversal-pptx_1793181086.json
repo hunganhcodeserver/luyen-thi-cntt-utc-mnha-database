@@ -1,0 +1,29 @@
+{
+  "type": "slide",
+  "slideId": "6ae1c5a9efc410fc851087c7",
+  "title": "HUST_Bùi Quốc Trung_2-3GraphTraversal.pptx",
+  "slug": "hust-bui-quoc-trung-2-3graphtraversal-pptx",
+  "subjectSlug": "toan-roi-rac-1-1-26n06",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/toan-roi-rac-1-1-26n06/slides/hust-bui-quoc-trung-2-3graphtraversal-pptx_1793181086.pdf",
+      "enc": 3575417,
+      "plain": 3575301
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 3575301,
+  "originalName": "HUST_Bùi Quốc Trung_2-3GraphTraversal.pptx.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-28T09:51:37.970Z",
+  "updatedAt": "2026-10-28T09:51:37.970Z"
+}
