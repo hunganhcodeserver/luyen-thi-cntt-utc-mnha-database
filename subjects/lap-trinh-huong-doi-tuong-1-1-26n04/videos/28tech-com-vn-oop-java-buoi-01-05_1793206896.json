@@ -1,0 +1,32 @@
+{
+  "type": "video",
+  "videoId": "6ae22a70b46a3c6bb480b007",
+  "title": "28tech.com.vn_OOP_JAVA_Buổi-01-05",
+  "slug": "28tech-com-vn-oop-java-buoi-01-05",
+  "subjectSlug": "lap-trinh-huong-doi-tuong-1-1-26n04",
+  "description": "",
+  "videos": [
+    {
+      "id": "vf00cbe5b",
+      "title": "",
+      "enc": "v1.dPtybn4fFQlxZfbh.qr4Y2ZI4kLWBu90VT4-d-Q.IY3btrGVX7YtITpoAd82Fi01hCZGX0S6K-6UBZ_TZAQsn_2whefZpXzY6aIjArAG2jakyH0kghXLNz0maFQQ_K7kp8aVzeWbueP3cOW9iZW0k-nm9Utc-kNELBUQh5XAAx_zsuUFY_av1ZrnDnw37TsELVplqaNJZlIaLfpIPl_GNrBACwhWZ1rg4jCZw7alhF16oiw5K_YqYMaPr1vC3E2MBack6crZqrN0xEX5D0RatqHry0wIOJAelzfTfvpHGoj607Wo28CoMxFZAeUuhqLP4GpyV4yPfGvf7WewOe8HhburI0j7P5ivxdzeXQXGLtkniPYD7e7XuOmd3nuiLwMaHme-rzHFHVopUkgfGYNCQNuiiC_R5Wujce7bHoGQCpBcnEfZ4se203v0C3YXL3_pwQVVaMmZ8SBe6KmBS9NKQW48v3Pb-w"
+    },
+    {
+      "id": "v2c017864",
+      "title": "",
+      "enc": "v1.q-A7PnpQKCYVsVWm.9WHjRK2ZkERY6T20wfwGUg.heRgeO7MHMeB6XGnfK968rIiNxm1rAFnRFtv4OAPSSQ4tLOeQlHbYVnd10F-k4HXRb7P3fky4oqXqGOiArcJsRKj0u545BFV-4SsoH8b4Q11NM0C0wqU1t_xhyWORzW4dka_uK4IWmIviP6Mjb28nHROpjOe_yqIkbmdkYQujk35j67xqkgxfdMtNcHPO30hpZ4RcX0b7si45my3fax4SFw0tZtztKDeJPFH_MnHmsl6MxEaz4468pT-Zg6ctbHaT1kBJihkQ5ptTQuHJGajxTULv2acGmg4iaimDV9tobIMbQ9b0pm6KREYo_qxuSA4ww5_vuJ8uovSzIXNu3fO0AxD4z60QEdklDeuDGQOCEwiQAf-hIkpwUAeLXu3Oxssrip4kENlEOjbqsm6Vxx8YYZTyPL_3xC22pyj-U9fep0zE7QYj9b0UA"
+    }
+  ],
+  "videoCount": 2,
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-28T17:01:36.499Z",
+  "updatedAt": "2026-10-28T17:01:36.499Z"
+}
