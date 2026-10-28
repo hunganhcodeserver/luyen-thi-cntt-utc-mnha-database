@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-28T15:03:01.915Z",
-  "total": 16,
+  "updatedAt": "2026-10-28T15:03:05.589Z",
+  "total": 17,
   "sessions": {
     "c1.21eka8n-fMtIh5szarJl9biRB1sBoNHwDBTtOdOpSo4MkNhbwtFUNZgmlav_aB6etrOHuz-OXxYbzuDJ": {
       "e": "2026-10-31T18:07:43.799Z",
@@ -82,6 +82,11 @@
       "e": "2026-10-29T15:03:01.680Z",
       "u": "2026-10-28T15:03:01.681Z",
       "d": "d1.IK2qqW5Q2QCPUeaRrYO49GKT2aGTtgnvQSb_pTZGy49Ni6Q9rrP0gdZBuiwc8Xy-lW6AlQviHTdgNOGzVm85D4OtXdG8nd6yf6jYqJRo19Ictutk31cR1rETF3msFgbXxcgeq3hFDPPmw1E0ZHuJRHfDP5pVpwh9MBMrjq4E3OD615T8PYSFGXytp-oQapWrr_t3-rW5GUsSEh8uznv9bvjei8rr6eKk9w4DnT-B6Ahmqilm"
+    },
+    "c1.XC3mdyJ9quYUgThdnf7lxbHR704Ka8BJ8hrsNETJzWfxvNNkmZrXlSXwQ3xphJADqHMGX9_wpLjptd2q": {
+      "e": "2026-10-29T15:03:05.408Z",
+      "u": "2026-10-28T15:03:05.409Z",
+      "d": "d1._EspiajekQc9kaUUniFqT23u7xAOantXUXNUFuVCujyrdTUmZybv11kiNTjAxvcIK1dXETxd3Xcw3j1Du0em1mrElU9B6RSBtPTh_t_iLK7Hn_2wwbDgEhViOMBxlzyVxR8CeO8RX0d2hJjEIR5kFzd1YSveVyjplyZCvRCgWLN0tiAk63C6iEHPaRv2VXlzbBLnGJWeMrV3x4h_trnGYIa4-EQsf7v_5s0AGeAu0Q_Kd4wO5lk"
     }
   }
 }
