@@ -1,0 +1,29 @@
+{
+  "type": "document",
+  "documentId": "6ae2d2c1756043844a10e5c9",
+  "title": "BKOST UTC - 2. Hệ phương trình - Ebook tổng hợp lý thuyết & chữa bài tập",
+  "slug": "bkost-utc-2-he-phuong-trinh-ebook-tong-hop-ly-thuyet-chua-ba",
+  "subjectSlug": "dai-so-tuyen-tinh-2-1-26n02",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/dai-so-tuyen-tinh-2-1-26n02/documents/bkost-utc-2-he-phuong-trinh-ebook-tong-hop-ly-thuyet-chua-ba_1793249961.pdf",
+      "enc": 349466,
+      "plain": 349406
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 349406,
+  "originalName": "Hệ phương trình_ Bài tập có video chữa chi tiết.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-29T04:59:45.007Z",
+  "updatedAt": "2026-10-29T04:59:45.007Z"
+}
