@@ -10,9 +10,19 @@
       "id": "v99852df4",
       "title": "Lý thuyết",
       "enc": "v1._FlAFuFBPZSCYqWQ.6GBdUYMebQZGCdGNGnJwvw.8uQp5ypj_3a8-9wjTEglc6cCGIXkmVGtKKtDxI7da5rEX-ZsXL33vqkO7wdpUqIGDWympvRexZiis-CTS6NqMFbPUHRWETlyERV3aaJZCI_DzOZJBhMKnmMLShRBSovAB1utIlY_vfseh8EABgg6p-kr6W7OlCNBn-RTqL4CdHoeOTPoPVTTDZ5aroiH2hgMgdR0le8F0dbUvign1iNn6ld3PwFhuC1LNzb7B0_eey8OWFmYiN-i579sZoAFC3H57x0hmNF_Q2i5Cy6CSVn_dnZEF71koAViFZcO3XfXfuf020N4lLLA1SSGCqhN-vuRxlQMjQRiJMcHh5MaPZBr6vKiEe9yaC6bliqjB8XeAbMDZuPqD0BZ3Jc2Xrke5ZyBXVswEgksgE8RgpG9jC7JfXvbYuVlgiTNbCG3qfa08g5Q_aCiU-4yUg"
+    },
+    {
+      "id": "v670055c7",
+      "title": "Chữa bài tập p1",
+      "enc": "v1.ogIY7Ir22huOQSXk.65s9ObCcH3WlMBY8zHO80w.gea8wDjuRbD16F1JfJQkPlba2_PVTmLsaBe1l_8Ib2eG_ja35UgLOFev7jM8G8MYl06E-LI5-qPKPbB4Y9JYIM961xaBs_ufowugOisTPbjjy61cAN99_565NFnXDqL4dY7wV85DDttx0Xu8lFeT-0x6kO4FJboms1J1kGF8JZbmhAj9eW51BE5H-jc6zv9PV3DGfG-nTH6ctuQbsxDUV3QvyLzE8kq3wCISgwrPcKynaNqhf4zC1h2ze-K036Z8xukY3dD5OgKunKQ7dylQyTHQ9OXJMNIyJQZ-Wqq0W7upxhCA1TleDFDtDEUMkTHeMyU56y03R8uI8n87P06vb_e9u7hLaZuMrdySsh8gIv69bu2QPtEJXF-6MbliEZIAechHsplETPORHm6L5HRiGUC7FNDFrDdRLF4Gnuj0Sn9Scu-W71z9Nw"
+    },
+    {
+      "id": "v8bb18a6a",
+      "title": "Chữa bài tập p2",
+      "enc": "v1.zHrSY_So9j5INJrB.ElzuYbkZtfRg2n44zwCdWA.FEnPy3Xl9RumYdgvTk9VSeX7T3iOwyJfOecuH1NTju9-5tMOsUnGYCJ0yabukvcvy1YSZXXoQcJ4z7VqB3WrtSJFCK0R-kEo7BF52brW46yEsQDQx__mZh_J0TARgRLePlu4LeH2Gqbg-LbLEpeh1_WBFT_YVJg5ODGtegpkUy7edW56mxcFtGfYdxRZFDPAazpwxGzNQe9KEnWl5gAo0vOHUdzoXU8hRRlNd_YZPJIP_wjgMWSc8oFeWRC1CYY5DGLgMAzIOhRtpu-QK8qzWYWR-5B-MF7g3a9D3ZsVbgi6WwbZTTJOPNC-j8yWTL-06llltFfKskspQc0OsGg35lFnoM8RyHr4u4C-AhXnoC1hvBUDpIv4wxSUn9TkZYKq5mQXv03-FJBX0rMVlK7lyN1zeEO2h6N9oa6DGjEIF0HGRSAQZsNL2w"
     }
   ],
-  "videoCount": 1,
+  "videoCount": 3,
   "encrypted": true,
   "encryption": "aes-256-gcm",
   "order": 0,
@@ -23,5 +33,5 @@
   "createdBy": "6ab3d694415010bf620349e5",
   "updatedBy": "6ab3d694415010bf620349e5",
   "createdAt": "2026-10-29T14:54:54.714Z",
-  "updatedAt": "2026-10-29T14:54:54.714Z"
+  "updatedAt": "2026-10-29T15:57:38.604Z"
 }
