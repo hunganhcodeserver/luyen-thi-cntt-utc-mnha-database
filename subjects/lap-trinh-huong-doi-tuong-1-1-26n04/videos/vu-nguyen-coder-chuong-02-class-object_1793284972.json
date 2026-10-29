@@ -1,0 +1,27 @@
+{
+  "type": "video",
+  "videoId": "6ae35b6cba2887982a2fdff4",
+  "title": "Vũ Nguyễn Coder _ Chương 02 Class & Object",
+  "slug": "vu-nguyen-coder-chuong-02-class-object",
+  "subjectSlug": "lap-trinh-huong-doi-tuong-1-1-26n04",
+  "description": "",
+  "videos": [
+    {
+      "id": "v1f6ae793",
+      "title": "Bài 04 Khái niệm Hướng đối tượng (Object oriented) (website khoahocgiahoi.com zalo 0583953426)",
+      "enc": "v1.-8U4Xc4UG9tOC7oG.fclon9Guf-TS2Es-zstJSw.Pc-E7Ul7DrP96Nc_FC_FzEHm6LWnD7bO2MZZ3xEmrUsSGzvorIykui1f-O3urC10G7GhS6ECTDtxjAOCiW-Pc0WJCgDj9kEbTYCyq3Syh_VVBQzc-CoaemV3FATGjuBch6HtTW6C6ltLwHQhhupobRfxhkv9Idv_YXtRUJ2oL5y1aypC6A3ZEdWM2I5gjbvLqiHdK1tp_FSg_jN7Clerym4cQYuXWc5A_kBo3a2mr42VYAv-5Ziex0qcSK7cLV1O7BFTUj65MRw7hzvuGQTLhun1QcCZzX10r5e5pdYJrDUkO4wToz1HajEtEGr__b0aBxoJ82D_lO9n_TANIKdDRahp3KuAAqY_tRe2O-EqwpLafrLLUkSBY66qAqcZSi9VH_dc4fimPBXlg93BusEBapRH12QcLQArtOKDVN1VY8sRR5H6KcxIjw"
+    }
+  ],
+  "videoCount": 1,
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-29T14:42:52.425Z",
+  "updatedAt": "2026-10-29T14:42:52.425Z"
+}
