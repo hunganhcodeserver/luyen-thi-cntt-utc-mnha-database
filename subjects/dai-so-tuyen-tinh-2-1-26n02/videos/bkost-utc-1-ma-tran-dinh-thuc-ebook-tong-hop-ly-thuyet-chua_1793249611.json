@@ -1,0 +1,32 @@
+{
+  "type": "video",
+  "videoId": "6ae2d14bc454bac90e6e8b75",
+  "title": "BKOST UTC - 1. Ma trận, định thức - Ebook tổng hợp lý thuyết & chữa bài tập",
+  "slug": "bkost-utc-1-ma-tran-dinh-thuc-ebook-tong-hop-ly-thuyet-chua",
+  "subjectSlug": "dai-so-tuyen-tinh-2-1-26n02",
+  "description": "",
+  "videos": [
+    {
+      "id": "vee523dd4",
+      "title": "Live ôn tập Ma trận - Đại số p1",
+      "enc": "v1.qmO0ZeBByg2-O0kp.kz8ALAH-S7uSDo4mbsHRpQ.ZeH1NA2xWuF3WHNL88rZ2AZeMLH3jFBOU1q5y3kzYNTnQjCcnuBKoIBeZrO37GV0_kQBAJCeMRhlKchCdwywOpxkMP4vi6Ty4ghv9XIIe2VcuZYkLVRVuCGH_CjEV1NaLZGEJN2EtM3y72ZqzBIjE-hq4pL9wQFE8I9DH4N7sK10tQ0R-X_dUZYKJkAxdMH6TUzXFP_q3SqR-ajzkruiLNlPUAKbvVpLXkZd9pxnjIDAIKVdnU5y7SIeunx_-DJj53kRkCDcvE6xIns2hcAU2hwj-6SNOthk2NQ5vTay45ejSLIDIelkGJABQ7kWxeEhBCNvzkVjZhUqupXLYPJR66n3MiK-NJH1bkme8fYjUBy3lbHY90AoxBHwq22e_2RwvmzZvYiHMPkvtaB8V-mkXmfLDMp7MXLQtP-Fvgj52r1xC1MFSHQGaA"
+    },
+    {
+      "id": "v6fe8ef7c",
+      "title": "Live ôn tập Ma trận - đại số - p2",
+      "enc": "v1.WazByCK-PUucuqTc.VzHZ_AOElHRssgRlWeP8zg.7FBd3iL4TbCAFKZ93FjqhQGEod3mlPxeAOEmyee-Z3ATqoXdR8ep1pTM78Hck8KfNWSboUGK6biz0Vka9-U2PIax4Pk0yixreOvJg1f4l7Ip26life3eg7OIe8T0krp7Ai07QqhcUMYITd3jTsfo2kHUJSoXbhuVkB9JT0KPihElDJ0aIo7O5hohnZkFXftvmAbLtQFS5tZzuE_6HDBebugObYw4QeozZJwYk0HwhYFjO0jsRgVhjS_Gw7vOdwEfg4TkIX2egiwGE6c73trmte9_aEq_ZU_Y_iC1hwwodHaz6hM-XvQ_-JpPSJ36RI2ryNaOu0LVHq1YiJyDolwLgjcDJiaQwXpdXnZ4BZ3P1YMkLtJf-gEHt9PPhQWMcDPcgh7ueIf5zdSIOuwKWGcny9SJjFovGtrroAbHkyn1qh_hY6ajrl8g8w"
+    }
+  ],
+  "videoCount": 2,
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-29T04:53:31.846Z",
+  "updatedAt": "2026-10-29T04:53:31.846Z"
+}
