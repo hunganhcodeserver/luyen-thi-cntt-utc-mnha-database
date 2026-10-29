@@ -1,0 +1,27 @@
+{
+  "type": "video",
+  "videoId": "6ae35de70be83d49bcb2d732",
+  "title": "BKOST UTC - 4. Ánh xạ tuyến tính",
+  "slug": "bkost-utc-4-anh-xa-tuyen-tinh",
+  "subjectSlug": "dai-so-tuyen-tinh-2-1-26n02",
+  "description": "",
+  "videos": [
+    {
+      "id": "v4b73a8d0",
+      "title": "Lý thuyết",
+      "enc": "v1.JcQuyL_0clCTbkBM.e_ZejTfhOk9EIungvNUefQ.WAAI9X929CSKXiLtD5ywpCNozVj_K0RHItiKkMpk1wPZZaCh5zdK-PzCuNhcc1vILSDfl2EDpFKBbkMuYsa3v_kssjugssF-RRUAsZv8Xg_Sta2mhS4zVXMeu4cGITieGqqthNFhvP80IC6ful9PeUrP0-n5xUiJUVRA2rySHhjXx7i51k9O0APOOBIFJ5lX70kgtCcUROU1lbCodlqUxmznIxvHlWueizVVfF4VOsf0DyLWEU6ESY2m_vTX0s1XIYHPg-x5M2JMArO31GsfzGgmjAaMmogXjARD3yUQWS7xEWYJxsaHPGwtUXWkmFVp16FO2hHQmFBQwVvsr-9kPCDmjuyGy1LgBCtqvAt7eEWm0c3CbKixD6exuSxiwUJy2Q0F8WSf5Ly_jUQhr7FP4ielizbifGF1_86tOyVW0pET5mOUS8sjcg"
+    }
+  ],
+  "videoCount": 1,
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-29T14:53:27.041Z",
+  "updatedAt": "2026-10-29T14:53:27.041Z"
+}
