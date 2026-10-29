@@ -1,0 +1,32 @@
+{
+  "type": "video",
+  "videoId": "6ae3a01f23700d1296c5fd65",
+  "title": "Vũ Nguyễn Coder _ Chương 07 Một số class đặc biệt",
+  "slug": "vu-nguyen-coder-chuong-07-mot-so-class-dac-biet",
+  "subjectSlug": "lap-trinh-huong-doi-tuong-1-1-26n04",
+  "description": "",
+  "videos": [
+    {
+      "id": "vc758ce90",
+      "title": "Bài 25 Abstract Class (website khoahocgiahoi.com zalo 0583953426)",
+      "enc": "v1.W1IKGLhg_PSu_lTg.nZmFzIpdzi3_QQJQXCzYNQ.b_Cv2S2HS7RzjgG6tQ_44nPBmGtf49Ih4wk1Y0yLmJbRjOXpE0eo_WBaM7v7TzzvL-1zjiOD45XazyU74RqHapywBNJ_md9zH2qmZzCsQWwjKt7TTUBXa7yGe2fa_kq-VYpCHbCP27ZChWLC3fZxGkYeSBLI_le8zuO3-k6XLY2QsD55dPr2F7vunv9oS53HiYyjh0dvqFeBBgXQRdvls2mW4fmJUtYiGdrrw7P_uJzLGdj39KssCqpYFoOKIelZPAiiR_0USLOWoXhJ1Q9BYOu2a8dAPD-7atEkZlj4f-EHq2-fGKpJrpr9ACyaarIPt4SSBQ5DlbjBo_oJw4YCmheY2m0bJNJE8x3_WUNN4dyLwgHTHk1Z019tNyv06QYJ1yYfsLqX5rZ2CEqk2HEx9XUDvjL5CNFL7RhxOZb-sfv-3NYcsvFIpg"
+    },
+    {
+      "id": "v41ae75a1",
+      "title": "Bài 26 Interface (website khoahocgiahoi.com zalo 0583953426)",
+      "enc": "v1.5_qIhK5Vo7LQuuLE.yZpoE73RBK49QlJR5HTF9g.dpZ9R-009Zc6YTcofv4vetcHmTAFxsEgVx4ni4mO0KmUuQBhyujAyGAArnvcrampFRGc6req6OcztGjLekkqKrwL6Nyl0EPZX7AiXpYkpcC8fEVEPj65HP5_qaFAXk9f3YcAM5J-XgQgRpDo9dfCWyfFZ-Eg0gWItWRXp2nBke_rYITdI50RhX4sh7cZYXZ57P-k44cG3gSV8jlzqwvOiSuik6I3Vyv-tKAF1eWHJDvm43TG0xYxue_ANdTgQYNvx4pw-pdnGlQBR5H8NLVOV7Xiexp9PtwMCY4s1C7xmpXKT5c2Q4zb5o2n3xOYUVdT9GoVkXHbsozKlsq3F7EFcWZhJEjvecmJJ9VSIZxRaWkrVHIZkgwjUOt1TYRat9i3JEftEmyPwBMLto2sU_XWf0crt6QwKqD_QqWpv1owwYEcUakVxDMe3w"
+    }
+  ],
+  "videoCount": 2,
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-29T19:35:59.876Z",
+  "updatedAt": "2026-10-29T19:35:59.876Z"
+}
