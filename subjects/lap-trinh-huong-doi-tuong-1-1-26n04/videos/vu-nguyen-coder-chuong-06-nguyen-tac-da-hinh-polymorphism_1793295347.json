@@ -1,0 +1,27 @@
+{
+  "type": "video",
+  "videoId": "6ae383f324e9d2822ce4e181",
+  "title": "Vũ Nguyễn Coder _ Chương 06 Nguyên tắc đa hình (Polymorphism)",
+  "slug": "vu-nguyen-coder-chuong-06-nguyen-tac-da-hinh-polymorphism",
+  "subjectSlug": "lap-trinh-huong-doi-tuong-1-1-26n04",
+  "description": "",
+  "videos": [
+    {
+      "id": "va76d6bea",
+      "title": "Bài 22 Khái niệm đa hình (website khoahocgiahoi.com zalo 0583953426)",
+      "enc": "v1.jtbp1YkSacWylw8I.wzbCbvVu1SiJshYuFSr51Q.E25PoUZNh7I4iKZnXe6-MN3bK3qNUm6Zaa7kDS3S7MpMJK-0llMws6bUdOoPFw6ZRCmgvUlToCCyA1rdzP34W8KZHm3xqnOVLrhEl5FI7vaj8gRNhPa9I3LxgC_o0YZaj8x3axSbGozL1lRYTY-9OrSCxKBN4QWL80M-D0ZLOmnhvYQTPlll2ukSK2m_j-KjRlDlFAaSPXf0L3_jLX_jwHCU_tZXd-dQva_qFf39EvHU0xnpHpI3zRYvJIJW_X-W4cWePfjrHFyGuGCr4BFPCSWjDeIbAsyaWZM_fQFiCIwThjnSbzw7iGUV327kwqILo26JlCv1Nkivn6Of9PBTGBfEAvwkbvbCdVMXNFPWqbVOzKB5rceYlA"
+    }
+  ],
+  "videoCount": 1,
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-29T17:35:47.518Z",
+  "updatedAt": "2026-10-29T17:35:47.518Z"
+}
