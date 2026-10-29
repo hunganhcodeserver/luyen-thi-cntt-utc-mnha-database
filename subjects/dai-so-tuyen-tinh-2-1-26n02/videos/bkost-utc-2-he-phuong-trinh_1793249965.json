@@ -1,0 +1,27 @@
+{
+  "type": "video",
+  "videoId": "6ae2d2adc454bac90e6e8b76",
+  "title": "BKOST UTC - 2. Hệ phương trình",
+  "slug": "bkost-utc-2-he-phuong-trinh",
+  "subjectSlug": "dai-so-tuyen-tinh-2-1-26n02",
+  "description": "",
+  "videos": [
+    {
+      "id": "v69d5391f",
+      "title": "Live ôn tập Hệ phương trình - Đại số",
+      "enc": "v1.AIiotAHtMe5HvOy7.NLCp3vuseDnwh604WPldgA.DCnr1RRkzmBOUGqFDveIBuUn-0jioD7ns0zYAWQyHQI6tgDz1xLNxhTJ4M9u2gZITL5_hzVrgQnHlqxpD5MtP5yPujyQD1dQN-kJ6ZGTDFBDCKERuglp3pT6l0W1UVoN453XMQU7lHlwEKAaxHXJj1NmnruTt11XmzuYGFORS1RcgNrst8rPXOV_cuoZ5MpJg_iALAOaCOlP5uHAjdUSWXbzWd_tOmUKg2kgD4Vz2_zZgg0MH7yUNGSdJrke3dUj6gbDTMlsU1_V920tiYnatUTSITg46yRTeWxCJcspOvDRvOUpvVD1-dlEzE_wyRCuD1yqD81JxdXV6EQ46gmM3l-lKnvmTUndtvO-5JEdd3sE0vGYklAQsnl-2fTVB8F26PwI3JkkUKgqIdvRE7CeShe-q8_nsm8mrI1KOK6RkuHNZk_n_Ub_1w"
+    }
+  ],
+  "videoCount": 1,
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-29T04:59:25.559Z",
+  "updatedAt": "2026-10-29T04:59:25.559Z"
+}
