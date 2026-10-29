@@ -1,0 +1,27 @@
+{
+  "type": "video",
+  "videoId": "6ae35e3e0be83d49bcb2d733",
+  "title": "BKOST UTC - 5. Dạng song tuyến tính, dạng toàn phương - Không gian Euclide",
+  "slug": "bkost-utc-5-dang-song-tuyen-tinh-dang-toan-phuong-khong-gian",
+  "subjectSlug": "dai-so-tuyen-tinh-2-1-26n02",
+  "description": "",
+  "videos": [
+    {
+      "id": "v99852df4",
+      "title": "Lý thuyết",
+      "enc": "v1._FlAFuFBPZSCYqWQ.6GBdUYMebQZGCdGNGnJwvw.8uQp5ypj_3a8-9wjTEglc6cCGIXkmVGtKKtDxI7da5rEX-ZsXL33vqkO7wdpUqIGDWympvRexZiis-CTS6NqMFbPUHRWETlyERV3aaJZCI_DzOZJBhMKnmMLShRBSovAB1utIlY_vfseh8EABgg6p-kr6W7OlCNBn-RTqL4CdHoeOTPoPVTTDZ5aroiH2hgMgdR0le8F0dbUvign1iNn6ld3PwFhuC1LNzb7B0_eey8OWFmYiN-i579sZoAFC3H57x0hmNF_Q2i5Cy6CSVn_dnZEF71koAViFZcO3XfXfuf020N4lLLA1SSGCqhN-vuRxlQMjQRiJMcHh5MaPZBr6vKiEe9yaC6bliqjB8XeAbMDZuPqD0BZ3Jc2Xrke5ZyBXVswEgksgE8RgpG9jC7JfXvbYuVlgiTNbCG3qfa08g5Q_aCiU-4yUg"
+    }
+  ],
+  "videoCount": 1,
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-29T14:54:54.714Z",
+  "updatedAt": "2026-10-29T14:54:54.714Z"
+}
