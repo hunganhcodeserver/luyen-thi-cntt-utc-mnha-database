@@ -1,0 +1,29 @@
+{
+  "type": "slide",
+  "slideId": "6ae42c563c4ce4eec5414087",
+  "title": "UTC_OOP_CPP_SlideTrenLop",
+  "slug": "utc-oop-cpp-slidetrenlop",
+  "subjectSlug": "lap-trinh-huong-doi-tuong-1-1-26n04",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/lap-trinh-huong-doi-tuong-1-1-26n04/slides/utc-oop-cpp-slidetrenlop_1793338406.pdf",
+      "enc": 2847965,
+      "plain": 2847849
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 2847849,
+  "originalName": "UTC_OOP_CPP_SlideTrenLop.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-30T05:34:14.763Z",
+  "updatedAt": "2026-10-30T05:34:14.763Z"
+}
