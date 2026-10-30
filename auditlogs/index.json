@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-30T08:56:37.117Z",
-  "total": 29,
+  "updatedAt": "2026-10-30T08:57:09.403Z",
+  "total": 30,
   "logs": [
     {
       "id": "6ac45a48c3fe67bf29ff941c",
@@ -608,6 +608,26 @@
       "ipAddress": "14.232.211.17",
       "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
       "createdAt": "2026-10-30T08:56:36.961Z"
+    },
+    {
+      "id": "6ae45be5fad9d527a9d4704c",
+      "actor": "6ab3d694415010bf620349e5",
+      "action": "update_quiz",
+      "entity": "Lesson",
+      "entityId": "6ae45bc2ff6255ef8c60cc40",
+      "description": "",
+      "metadata": {
+        "title": "(Tài liệu B+) Giữa kì ĐSTT (2302 + 2301)",
+        "duration": 67,
+        "counts": {
+          "mcq": 20,
+          "tf": 0,
+          "fill": 0
+        }
+      },
+      "ipAddress": "14.232.211.17",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+      "createdAt": "2026-10-30T08:57:09.261Z"
     }
   ]
 }
