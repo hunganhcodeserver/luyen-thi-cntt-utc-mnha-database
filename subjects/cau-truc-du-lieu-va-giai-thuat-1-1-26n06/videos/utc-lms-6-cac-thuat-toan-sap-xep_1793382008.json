@@ -1,0 +1,27 @@
+{
+  "type": "video",
+  "videoId": "6ae4d6789116e6ba982f7c6a",
+  "title": "UTC_LMS - 6. CÁC THUẬT TOÁN SẮP XẾP",
+  "slug": "utc-lms-6-cac-thuat-toan-sap-xep",
+  "subjectSlug": "cau-truc-du-lieu-va-giai-thuat-1-1-26n06",
+  "description": "",
+  "videos": [
+    {
+      "id": "vcbcfd3b8",
+      "title": "6.1. Các thuật toán sắp xếp chậm",
+      "enc": "v1.Ssf2lyGG8GKgFOt3.p3pcilJ9Ea6YWqp1_7U86A.d-HccQQVzs406yBynTfxZUgB0A2mUWYIrJFCaWgNsIGj4cbL9I7ge6HtynNcERmYNf0krjRCeDIGsNe2jiwXZfuQbnsBEHsA4QyGowr6ESyIQhNw52J51SdEFqyXSBL-3HVTB1S4KggGzK2LB3WbYRgGSFxCAIjug26jchcfq0H7CIfF5ULjmhTFLcrwwstqlEta2MM2W-yqdrDksy_B8TXZ98FrRMoeQ7gLCtCT0_E9cun-relqZ7SuTVOSFfnv3ULHEXIbAyFe78FLZQgabSMmhFprrlRYGiGaP1Ig8n9Am93GuoeT6jllh-lCTJr8FZfIuRVgqZGMHHrpzELI7cJvJiPWmmBgdPDA0sVG7b9yJzFL9dVgftaYZ1qEjfkjyjs76HnzJqU7ual7UGwNBks_8xDxHqIYIjMXUFbUoqMvQZCRvI29Xw"
+    }
+  ],
+  "videoCount": 1,
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-30T17:40:08.280Z",
+  "updatedAt": "2026-10-30T17:40:08.280Z"
+}
