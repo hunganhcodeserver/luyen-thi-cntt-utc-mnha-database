@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-27T03:04:07.995Z",
-  "total": 28,
+  "updatedAt": "2026-10-30T08:56:37.117Z",
+  "total": 29,
   "logs": [
     {
       "id": "6ac45a48c3fe67bf29ff941c",
@@ -588,6 +588,26 @@
       "ipAddress": "116.96.46.229",
       "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
       "createdAt": "2026-10-27T03:04:07.829Z"
+    },
+    {
+      "id": "6ae45bc4e7a95db14819028f",
+      "actor": "6ab3d694415010bf620349e5",
+      "action": "create_quiz",
+      "entity": "Lesson",
+      "entityId": "6ae45bc2ff6255ef8c60cc40",
+      "description": "",
+      "metadata": {
+        "title": "(2302 + 2301) Giữa kì ĐSTT",
+        "duration": 67,
+        "counts": {
+          "mcq": 20,
+          "tf": 0,
+          "fill": 0
+        }
+      },
+      "ipAddress": "14.232.211.17",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+      "createdAt": "2026-10-30T08:56:36.961Z"
     }
   ]
 }
