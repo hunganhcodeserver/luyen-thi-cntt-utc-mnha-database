@@ -1,7 +1,7 @@
 {
   "type": "quiz",
   "lessonId": "6ae45bc2ff6255ef8c60cc40",
-  "title": "(2302 + 2301) Giữa kì ĐSTT",
+  "title": "(Tài liệu B+) Giữa kì ĐSTT (2302 + 2301)",
   "slug": "2302-2301-giua-ki-dstt",
   "subjectSlug": "dai-so-tuyen-tinh-2-1-26n02",
   "duration": 67,
@@ -11,7 +11,7 @@
   "isDeleted": false,
   "createdBy": "6ab3d694415010bf620349e5",
   "createdAt": "2026-10-30T08:56:34.959Z",
-  "updatedAt": "2026-10-30T08:56:36.151Z",
+  "updatedAt": "2026-10-30T08:57:08.160Z",
   "contentHtml": null,
   "quiz": {
     "version": 1,
