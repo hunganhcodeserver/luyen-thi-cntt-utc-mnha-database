@@ -1,0 +1,32 @@
+{
+  "type": "video",
+  "videoId": "6ae5fa33352b9dbc567abc8f",
+  "title": "LMS - Chương 5. Lý thuyết quan hệ",
+  "slug": "lms-chuong-5-ly-thuyet-quan-he",
+  "subjectSlug": "toan-roi-rac-1-1-26n06",
+  "description": "",
+  "videos": [
+    {
+      "id": "v443f7cd8",
+      "title": "Video BG 5.3 Các phép toán trên quan hệ hai ngôi",
+      "enc": "v1.Nsmij12NXyPMYtZ2.S_Syfs1KYXhZXFwbmddtng.HiCvjd4vFhrQYVsfhTjYoC0KVLKYVr3jpfoI3tIaJYscHKFmAmfpfSgt9X8YQEBNy-hyQchlm5MnsTSSniAt2VIKpT50X2i5BDg9FdV-gp_mu2h22_xlN1G2lbP08FYIuxaO9HKOWHpvRGa6zl5rsfl2J82zaQ-fnI2tZ4bzxNx7pMJdHg8f_iDjUyNjYN7GEe4-LDm4h3IQLXcq9yzhphgB5BjCNdjjaOCZVtuHntuLMXri-p9P57Xn_-aGwBQMzWoagxiCmzvK-Bjy9ifQADMeuorXbRZPPOZHc_4R3tsNmP7DFYzcDPaTSZ9pT0whGMxYEU0ATtB_h6fVjNPgqDsUcem7bVw26S6eWhJ_A75MLZhfYh83rsK3vijktgtazHgZ1xSNmuW1tKNRXErtjhh3-Z5FPpZFPvFHLASFrEb61xvoZ7RylA"
+    },
+    {
+      "id": "v7e85dccd",
+      "title": "Video BG 5.4 Biểu diễn quan hệ",
+      "enc": "v1.uLK8S--R4u15eh6B.6gorbiEyiMqbJ_-4LwZLhw.miqaNVM6HH-CXy33tVC7KXPyO3Yb_TtedESyKkfhc1BbTZ3Bp4eM-Ota4UXHx6Y7toBBdIiS6-DVvjrRiy1fCVM6gsrGWuWQm4tROS9QaQ32ON_b88dbwyen5-_03FVNEGwp_5Wgfo416ALjXFLi4kPkgCA_osvBiN6larlY6NelZy4wxAJKjxq8pLRAMhoMWco0dOd8VsSGkxdkkcbRrCtzDVemafCNYJMYUUal8bascapupGQhRye-9IW5H1f_FdXMRft5R5PtCI-U8G60oKsYeKYSVFvDmPBAO6slrOx5l45RTW7xkQjtCQuNADbPDXaf0I-j9VvcgGfw9IW2Bhs5gqXZ2B7aQismfsx6L0ZTEh6Udw4ql1ZqPeI0HBFCyVycH1CPrZwgi0OPO2Kpa9eDFHMmk-hAzHSoKQq3EkFVXXvN_BlKBg"
+    }
+  ],
+  "videoCount": 2,
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-31T14:24:51.512Z",
+  "updatedAt": "2026-10-31T14:24:51.512Z"
+}
