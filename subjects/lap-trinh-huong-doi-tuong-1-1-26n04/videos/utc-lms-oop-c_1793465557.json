@@ -1,0 +1,32 @@
+{
+  "type": "video",
+  "videoId": "6ae61cd53cd815fa16760fbc",
+  "title": "UTC - LMS - OOP C++",
+  "slug": "utc-lms-oop-c",
+  "subjectSlug": "lap-trinh-huong-doi-tuong-1-1-26n04",
+  "description": "",
+  "videos": [
+    {
+      "id": "v96c5fa31",
+      "title": "Chuong2_1",
+      "enc": "v1.4hxhxEv_LsVvozFp.icK3YyeZGdyoRY-EbPDaBQ.9t7BxKxZL5cuHdEKbRGCk3FblWg6L0zG6jNrXG3cx-GopSlG8el7uNuDQ6RrMd3LuETQ1bP_cISUrQWuJvnKHmULSJk7RjExlOQ0Hw5KPceY6ZfeisvY9Zgex7Y_Tuf-f_vtYVkaDKT8JpX6ORO8-0npjJAtzrA9BeKd2UDv1cI3fPKBCiuMXOZTq_S8YEuRRTcbH_TefZjIGJRDSM7kzj3DiBZIq5MBV6IfsA3KxWbcbbtLPbPEVRvnR2fAQ_Ggt9qqYUwvFnvJ3WeDzyIop1o8IuBkOW0NWxTRBULps4jsCrSCkXow3J3lTm7_3al5kmmuP3K31IrtT6t80i-c5mRUvWz0qBbDbac4cXsxklDLr6FxIUPKapikEGQsGguKuprgNaKB7oXxr_gWzGFcVdXLuvfVWniMeMYnFrN20Og-fLwgzwLojQ"
+    },
+    {
+      "id": "v9bcb58c8",
+      "title": "Chuong2_2",
+      "enc": "v1.pTR7c5bATUtAt7RQ.zn5iyv8WTK0M8kozhQzfQA.Ia2MngStCpZ6W4yZZbBPS1hyAlYs1VRrp_9JWAHm2UMSnw8SjpxPTavolqbxqAQXEiLbz1vn0zc0SX_HXKhr57Eto25rziPNn1s-zTXAGMIhc-nA3vVEpBWHY01J0wKzh63pMaMb53cPzDMBov45htkKZMdfgKqGecM998jONLjYzYJOICOEqk8k08vmzun-iJFQMpe_a_Fp4RjNCUhFl39fBeBf1agk6GSYCOfnPlpKq5pi6Mjxv8PrOrBjIyWRggcfA5cIkGzYz10HSWyPQFTY-9-XdolDkrBBid4FgsuZhfIT4qX8GeXWdqoK2s1t_X94zhAQnlWWIVTQr9VHxf_6VglhGvW63rq_dQXC9ur3EHnpAuHwl4h_W2J2j3PKuCCo80tEwivzVY3mHu9rp1FWrYfKCi6jvYa_GfQzUTvZ75Kd85qI0A"
+    }
+  ],
+  "videoCount": 2,
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-31T16:52:37.817Z",
+  "updatedAt": "2026-10-31T16:52:37.817Z"
+}
