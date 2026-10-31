@@ -8,16 +8,66 @@
   "videos": [
     {
       "id": "v96c5fa31",
-      "title": "Chuong2_1",
+      "title": "Chuong2_1 - Chương 2. Hàm trong C++",
       "enc": "v1.4hxhxEv_LsVvozFp.icK3YyeZGdyoRY-EbPDaBQ.9t7BxKxZL5cuHdEKbRGCk3FblWg6L0zG6jNrXG3cx-GopSlG8el7uNuDQ6RrMd3LuETQ1bP_cISUrQWuJvnKHmULSJk7RjExlOQ0Hw5KPceY6ZfeisvY9Zgex7Y_Tuf-f_vtYVkaDKT8JpX6ORO8-0npjJAtzrA9BeKd2UDv1cI3fPKBCiuMXOZTq_S8YEuRRTcbH_TefZjIGJRDSM7kzj3DiBZIq5MBV6IfsA3KxWbcbbtLPbPEVRvnR2fAQ_Ggt9qqYUwvFnvJ3WeDzyIop1o8IuBkOW0NWxTRBULps4jsCrSCkXow3J3lTm7_3al5kmmuP3K31IrtT6t80i-c5mRUvWz0qBbDbac4cXsxklDLr6FxIUPKapikEGQsGguKuprgNaKB7oXxr_gWzGFcVdXLuvfVWniMeMYnFrN20Og-fLwgzwLojQ"
     },
     {
       "id": "v9bcb58c8",
-      "title": "Chuong2_2",
+      "title": "Chuong2_2 - Chương 2. Hàm trong C++",
       "enc": "v1.pTR7c5bATUtAt7RQ.zn5iyv8WTK0M8kozhQzfQA.Ia2MngStCpZ6W4yZZbBPS1hyAlYs1VRrp_9JWAHm2UMSnw8SjpxPTavolqbxqAQXEiLbz1vn0zc0SX_HXKhr57Eto25rziPNn1s-zTXAGMIhc-nA3vVEpBWHY01J0wKzh63pMaMb53cPzDMBov45htkKZMdfgKqGecM998jONLjYzYJOICOEqk8k08vmzun-iJFQMpe_a_Fp4RjNCUhFl39fBeBf1agk6GSYCOfnPlpKq5pi6Mjxv8PrOrBjIyWRggcfA5cIkGzYz10HSWyPQFTY-9-XdolDkrBBid4FgsuZhfIT4qX8GeXWdqoK2s1t_X94zhAQnlWWIVTQr9VHxf_6VglhGvW63rq_dQXC9ur3EHnpAuHwl4h_W2J2j3PKuCCo80tEwivzVY3mHu9rp1FWrYfKCi6jvYa_GfQzUTvZ75Kd85qI0A"
+    },
+    {
+      "id": "vd04eda10",
+      "title": "Chuong3_1 - Chương 3. Xây dựng lớp",
+      "enc": "v1.VK1ankB1RcZyzPF4.GjdYLU2DMUszJobBhWJWTg.uTeJ_M_IDML0JQHOLvTZfxqyvwMb7O5x324iSzb76EsZ0AqMJOkKAveaZ45hck-YAaXxl3-CWEg1Ig8fZrG3IBncnRnlS1Nyojh8YWoiU3AnVEqRkA-jQV0-SlyJW_CNXd0Vcll-5wjm-QdokP9AwkUl8iTb3gd6Pm6OLVCNDTVajfOu66EKKi9D9eV1BnnxuwPIDnDF_Uj17Um6OMtx9ClR7rtDGE6aFIrcvdsKRlcQK0yEWa6zBHksBSm26a9G81bRRciuXQUPkMPGKI8wSvd-oGeuVcsfBrPJCMOBC6Yw8YG5PRoLAqQxMIAU3UdM0KcigJkkLDkUARxhmmxabUtcn3rqc_pTiv3yiHSdkWk2h8YNSVsar0lTWqH7ijIeRsPVotxjc1Q22O2WbOCzxdQW8GXym38YSToP7HZkIrY8KFhw86s3EQ"
+    },
+    {
+      "id": "v2cddffae",
+      "title": "Chuong3_2 - Chương 3. Xây dựng lớp",
+      "enc": "v1.JKtpn3bzjQhlq5SU.HFxpAPIVcQmQcb_yM8u_yQ.AugPBN5ZRdwVf86itYk4E3R6wH8lLsqpiUm_uuy_iKRFHDNIv2oJuD2dygDW1CTroPATZBKhWhEAz4no25T3rf6F1hCosW14eNQKQTANJEeOMoyIiGmuXJHU65OatMs4QnKbBpfQoPL2zN742j5Rj9EaEozn0Pqtmr_CbCMQKBtM--GzJTa27zDDM4ViE2DMIahzJj1720P_MGzAiZ5B-G0PcK4RjGc0nasg-sEON9ZRD-8HkS3dd2zRYfD0OD-I88YcxLNfkdq0cbA-o-TU71A3SiSSGFVHSWaZnayrp2hscXNu_IiGD7Cr7c2-WuiSnrAMLCzUpAfrWg_WHkKiW_uSbPfrNPYcGG5b0v_Qg-OoBEmx8ltnuzyMWmIyuPngXKe3931VLL-3SNP5sNalAsA_CLtkB4RjrzuT3u65xJasi5UUgXuJ6Q"
+    },
+    {
+      "id": "v0fae63a1",
+      "title": "Chuong4_1 - Chương 4. Hàm tạo và hàm hủy",
+      "enc": "v1.3Ezbit8koA648Gug.SZCj7d2b_mJJsSk-aoZv8Q.n6KCVouXAGtQQmF9xE_koAAtR4App8Y15RtEi6LTGu2JE15m7pLi92-Q6_cq1kKfGva-c6ZS0WGzrsI-5c2QVspvXlE35Gjm1ejak17J-uZ4yNza8x8aW8pG1TFwHnGCz-go6-1MoecIjNrphidWfExvsL1ga5QxbDm8X4QKioxo0qKvN3bkDeJpyym5pCcQEpe6rPZ34VSTPRZ81Inl9M3DBn-HIE4zKLqnGcAQ5Tit3s827pJUc_GDpBwoUFuX1atwqWunBXLUxZO2nx8UDGdDF6xrW8NaRipTTRZNvBA39mpc_pFusCfypkMnVWLH2lD3Pf99VftV1lGml4Pz_ItyyFuTgHOD33bar26D-XqleOaAx4d1synExQ-ZDIBz6NZcuNLh2s22B5DWe1BjeRApAe2lfr4a57uKi86KVMMrXdL61F3nGg"
+    },
+    {
+      "id": "vb408ca21",
+      "title": "Chuong4_2 - Chương 4. Hàm tạo và hàm hủy",
+      "enc": "v1.J9UHuCBUH77vOHXI.FZ9dy1CrmrRfWy6eTI3ypQ.qjAa6sD-Sh41MG-ycizlVH54bh4xPNp3OduleTpy48k2BmOE3-JboVTjVv41eklL53VWpyJJ5kPIWdXgwj4XmotykFQBW22AmHlddsivxgwwjkTUAedOqhYGoEWgeid6SuYqr9f9RaFVAIkEbk3UXSKBLcrRRZW3O_NPw6Do6Ec-HmA_1edXm5suSlv4S3RO6F2Uwh3zcbU1RrLacspVnqvBMDgP1is-JPv44J-2WkYXgal1zVhxydZWjffV1Btw9JjKGyC8XAl5dBRUrww5ca61eFXtM6vHozZaRbIYSt1b_LDAjQ314WparkXMoEEwWo0B6JkwfD4TVtB3K2wSRQ0SrHcTlmDRQYow1gHBghewAudKRdSq2NRqRos1SzDmg9IZz85JIrC9jwKgrEy_Hq_KJKl3Xksl16U-0irM6JV5aJBdE-wYIw"
+    },
+    {
+      "id": "v0490730f",
+      "title": "Chuong5_1 - Chương 5. Dẫn xuất và thừa kế",
+      "enc": "v1.jW9fsmA5Fy-qYJJi.BZxkJeMgFNJ5QQxJWJbV2w.FfMwFK7vMStvvWyG8_ApKuU1aZMiih-OlMt6SHsfRCyIeVpQsoDOCK9rZxT1_iisBw6rVeWrNakbaPF3FZTuf_PJ3jy2gQbigJEAEh_3sJ5DVLmYhi6BRrBTsETgdPmzuNAducnQzOtQQjoc2Rp1yQTXb9N1j66AEbqFVD1trbmp1kq4EQ9qQfbn39rW27CuUHNHkFmb_xWqeI_j9SAHJbSCOit96KnmZZD_HOq49mckwaAlB5H7LnhjF1fvkgDdtokTcbXZIQpfaJknd0tALFOIIwyMBxc_ty6S07anzX7y-kSSbXMAHAqaMn3gS1xH5zMyS5HKjxB6zSU72OW7GKOB5S6jrXYZDr0SmnJC3wyBZ9WZIhe04xXHrafbR2XVJqkr0btSNhV_jGX2AlQ7NCRBO57xJan3xh_E7QQ5G1cEQ96AN_0DNQ"
+    },
+    {
+      "id": "ve5ba85c1",
+      "title": "Chuong5_2 - Chương 5. Dẫn xuất và thừa kế",
+      "enc": "v1.p2qf9GB0aVBdbwUf.nZg6aOeKX0-e5bkUZmDlCA.qIQibvHiGq5mV9riAAF1bVztwHqZwrkyhs_kG5palFKGHcuiUQ7HQF67bSzsSN-PZhXmTyJXPtVBG8jgtNBmE5Jiba0cP4njlMqRiWFLi6KgvbhYvPmhRRxAFtuAltdrIJL0jd_zKoKhBRekkKZqoKChkSYFSFSF7f4DPo848sewczOFbuu8y0pd7gEgBvuL9RtlHnttommKC2cnOufv86LB0s77al4sziUy7kOeqpf0NXRsXBHNaBBfK9UsS-X3zhJnKOtZCoTYLvVwe7EDmxqW7IzlYO2IQ1wNSLWOk4xX8YKOrerbnHOZNOpvRajB9fctxT8AMWqLmvIqcjtWB7y_UPp0sFXTvD5-QxN-afkiRemwqysfzgbJwSRZLmoCeHjZCdhqyUFYSQl-j52XlwiMoO-gbT3Vj51p4ai20RBCQF1wk2GJ8A"
+    },
+    {
+      "id": "v3a07ecd2",
+      "title": "5.5. Toán tử gán của lớp dẫn xuất - Chương 5. Dẫn xuất và thừa kế",
+      "enc": "v1.fKAAeCicTXy5Yazr.c8EzW7_F9fezoHpmKDjb1w.zv6_Keyrpz9xUEOVm1N694hgvHimWU_dbcmwRxKzULgxYyyCNbg2u55xaVgsN3yTDUpPUkNOnm34sZNFZYPBTf1Qd21Q15NAKap-l7-MTKfrzehEfOUoGHPF3m5NFHhik7UYpVdlTGgiGerXfUd1msjKKDP0xJFXz6pMKzl4IV4gJqdsluBCskKbcW4h-aaXWUXu2PsamlvmHVN1qyTmELNBXp_yuBkIaxFLWbHJ2SnU_O5lZERxStZTkheQJa8SUIBPkU_zBNxoDk1hvXxVfDF_ZhYPl2fviN7CYYsQrM_NKrjjfvf36LunTkozcHd0v9Lbx3LZdwreafid5tMZv27M3V5uzmQ8RJr_YH0WtnFwE6x5nVhT3mdusdZDx3sZ51_1-ovql6v-qIMmDy6qp9bGmRdhhF-CDnnapGbbOWmnwkupPGlO8A"
+    },
+    {
+      "id": "v26cd3a8e",
+      "title": "5.6. Hàm tạo sao chép của lớp dẫn xuất - Chương 5. Dẫn xuất và thừa kế",
+      "enc": "v1.9B3pBj9D0I4AtuWn.RJxeutrkQfvE-Ms94sF78A.4MHd1NFWQmTdI7wtmZRDKubK3WFDlodjhgR5oKCtfOS49udYhNMPQKUS4NCfpGLd5lx_jQmbaipgbF2thOEEMB-5qhPKuQB2xMhwJh6bWZhqGYVVXllqwzBdpQEwvx53OYLsZSFtzw2axvPpmKD_rw_-cY7RUqXREJhnLLKGvCYKuc7hkCG1QHez_h_XvTiP3jP7G-P-ZL69utSnK6N8qP-kzuw97XJOFokyuiAtCmDcfn4C7QTi4nFBzaLLWRIrAJj1SaGGGJf37_3tqnbwS_TAf1xqV2qHrhgadLk6ASu3JPywQgGrs--JhOpd3ZJB4NC0TFaUo2sRsE21z-Y6kb3P6wm4tdSxEUgs2sKuMmxF_xlsu1Txuk1weQuyKAB1oWK6nDWTsfVjQ-lDfLJnxkZ_pGKZfZkhBx5wdpHZMciKf2FxXUiaQA"
+    },
+    {
+      "id": "v44795479",
+      "title": "6.4. Lớp cơ sở trừu tượng - Chương 6. Tương ứng bội và phương thức ảo",
+      "enc": "v1.e1hEC2w1-zQ65Rxr.H7RDLGHLmLGDCJG-gPV_nw.D33Yd4-RlWhEcj75ZNmn_2jYrxomDuDWXpAuHO0PsQpi-OgEdRnbsUotauMHME-RAVMNc5QSQAnEll5x8itOOCU4oYIBN6SuUXatPbpkKijinEzLQR5ASFLyodcqqGh7ck-yD_jIyGEJphz2k2RMkRZrvS0feaRsmXCLN9-kd0GAaya-0x92vbkJEhoqcrJAnd5TGWe2kUi5ka5NHaKFAlVuxb_vvy-TFjxiXiUFWtO-XDeAtavlF3GdbzUeKnGBSxveCQYcgREZt9usTjKdUJ5t7g0GjbApxaleAavuoRu9m69lZv_jL_cK6v8eAQjPjQDfC6SV9QGp0EgNb5REOmJPtt1bDEmCkTf6HIcnXnfziyEAhVeR0J8fo5_wIPOk30pv-oLvx7D2S5lKjmSxTO6bW-Zw9TfUVBZssHsPzSAKGePgNGGC6g"
+    },
+    {
+      "id": "vde327dba",
+      "title": "6.5. Sử dụng tương ứng bội và phương thức ảo - Chương 6. Tương ứng bội và phương thức ảo",
+      "enc": "v1.2_ysALHp0796dipd.cyv4plooHNjcq3rOIIkssw._sN3Eg_FCl0C0f87plPd6ZD3RpOkl1WzVn7fymX-a6VKxsGy4AFaYh_U3DlIKOFJuqMh1ubiXeFbCq3yNcOBCfETFWh2QnkVwa0VfoQbfxmP2s5U6dGn_UtxUM40_LMj40MfcVX1cXQpuPSE8QzRepP5xyqXoTBUa23KYwCrTdpkIQx4-g0hfw3Bbr-P3J3p7IBKnmY29N_CLm3pcdPzR0VoUfS1fx5ZIFWywUdOQ1N84kPMnw5zfBxRutPrO9QH1hiCbeNLoXCK1esNtzd5iVeJpRT5BrjchcyRpIahQ41kJ2fdKNPqFlKhPG4SxNK7QcfdP2Uw_-w7GsmsllcJodwlqoO0dlCmzY0H4W8UJmiLkTva7nRmN-gnI7YRTt-sfeqbx2qS7ILP1h2MREdVFXUDT6oIBoS7kYgUbetwCXgHA3ZcRS2n0w"
     }
   ],
-  "videoCount": 2,
+  "videoCount": 12,
   "encrypted": true,
   "encryption": "aes-256-gcm",
   "order": 0,
@@ -28,5 +78,5 @@
   "createdBy": "6ab3d694415010bf620349e5",
   "updatedBy": "6ab3d694415010bf620349e5",
   "createdAt": "2026-10-31T16:52:37.817Z",
-  "updatedAt": "2026-10-31T16:52:37.817Z"
+  "updatedAt": "2026-10-31T17:08:32.279Z"
 }
