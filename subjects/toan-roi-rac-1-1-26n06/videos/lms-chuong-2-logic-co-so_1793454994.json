@@ -1,0 +1,27 @@
+{
+  "type": "video",
+  "videoId": "6ae5f392547649258c8eda10",
+  "title": "LMS - CHƯƠNG 2. LOGIC CƠ SƠ",
+  "slug": "lms-chuong-2-logic-co-so",
+  "subjectSlug": "toan-roi-rac-1-1-26n06",
+  "description": "",
+  "videos": [
+    {
+      "id": "v31fd96ca",
+      "title": "Video BG 2.4 Các dạng chuẩn tắc của mệnh đề",
+      "enc": "v1.88d50wVO8H-0nyUo.QJc-BELc6lLp0CxkvFDtfA.XeH14Xwn7smZjq0HNDBvvz9e6mze5Dd5a8GEcI-0aCDhjsCC3qTnOggTrH32TvZz18MVOZmrbcgm3PXajNDsp15-OP8GVfThGXH5MWuBIdRd5mtcikVD_L3tjaz3VZB2z-E9Zxz1ApkgN-JJ1wDaOxDr5JSZrqdL81_twXJ8D4gDThfTF7Xn4jLIZZPez056oE6GEmbOayaWOmgEh10rCRmRrAY0MzU26IvdhNKQmXHcYJNOH45pxsmtWzwoXh8Q1-e4Wr6DxV37wiZZ1Clvan0uzl8sRodKbTHPurmVOBHLK7V5wfYiJWDoioZTqPwPlsRV6mIT4h9hWpCHkIDmi361xOlJVG3AjXtLoQCKj7UkniO8NV01GputBnYc5uoump3x2Ea9u6M1KzXHY6uZfAsm0UTJgKQjEiuliSVxl9RSk-PggslPIg"
+    }
+  ],
+  "videoCount": 1,
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-31T13:56:34.435Z",
+  "updatedAt": "2026-10-31T13:56:34.435Z"
+}
