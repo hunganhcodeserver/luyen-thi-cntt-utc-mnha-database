@@ -20,9 +20,14 @@
       "id": "v6436a4d1",
       "title": "Chữa bài tập p2",
       "enc": "v1.UCAaCbINV8F7c3P_.T8NZZR9uNDrLD7V7UkQ1eQ._U5kk7VqiSsE7kSjDVgz5meF-cd4Zf0ypbxm-F8-rDAfahZEfqpF7nzzJ40LHk21bAMy4GC2YRuvHaTeHrs08dfEQzGjaT_mif5hhy_YoeqJcd-QTX7eadaryzOttn7DqifwbeloIfn70ruwqlcg6-RZhvG7amigm7iIlluJvlh1cbaCaqHXJXFEuZleRKtQI9NjQ-Hnnk76IgG6yqhAww0Yc1CgAl-fOYy9d1-apbQntZMI2nlhbwFcTOR-Tdh8oBEapx-JI10hCYI6RlIwjC_h5RIf0GG5dTsYwOOiH_GJxndKCK_xVBOTUamgmsdGS1hiL7BMiyQ7PAhOxm96dXDFKF-YeVOdPbVATAWjrlFtWlE0yo1FV-ve15bvnAToDsosn0r7uTsvYoDSqt-_nlJFfQUFHK1obAXbmpNof7ClEjk3o2mCsA"
+    },
+    {
+      "id": "v3e5d8f3a",
+      "title": "(Cũ) Chữa bài tập",
+      "enc": "v1.2g26cl-Q_SmXDHyw.vnmlBeytGAxKKg-JSFiTKw.AEmPZkHD39rxUGcpraekfaHiPuUt2rNIM2fmNUhHvcBrzoFcxCeN8AaxWX1HFVyO5FxfLZBmFjOY5fSMmt3OvKDLt9oVb_jBnklrxejNPv5qL9EK40jP682F4e0B6pNEVlQXuSaF_eWjnwi0pS5YPtZ4EmifCiWShk9VfmjEesYnNzvGZNP0dcWAfs1ZEq7xGxXXdrdP8DhnIEMSmYcwsARTreOmKovpexralojAWf32nAvlwwYWvjkRWYBWW0DU2LyUnpcNDNyYzQPaVxtz_QFO2hqYiicQq6sebY-smpuRKvePOsS61pKtBK9yoJmVkJFD33ULpO1qRyX50mT6sm_zoGKobXG0U7fsCxaZJKjsn6AwyZXyydoiNjqYmrSFC1dq0jGHeBzyPyruhYlwf_Y4DEWkCQGEd47YtVE2FVqHGygNfKXwqg"
     }
   ],
-  "videoCount": 3,
+  "videoCount": 4,
   "encrypted": true,
   "encryption": "aes-256-gcm",
   "order": 0,
@@ -33,5 +38,5 @@
   "createdBy": "6ab3d694415010bf620349e5",
   "updatedBy": "6ab3d694415010bf620349e5",
   "createdAt": "2026-10-29T14:52:25.725Z",
-  "updatedAt": "2026-10-29T15:33:10.999Z"
+  "updatedAt": "2026-11-01T09:11:21.419Z"
 }
