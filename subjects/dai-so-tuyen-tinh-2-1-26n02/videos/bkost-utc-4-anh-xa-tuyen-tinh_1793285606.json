@@ -20,9 +20,19 @@
       "id": "vb66faf32",
       "title": "Live ôn tập ánh xạ buổi 2",
       "enc": "v1.lb6R1ZMwSVeUDEeb.hKe1KuZBAvXZGspoRVE7EA.5835KfJCFlkN_R9ZCDnXXdNtKirfE3P2Vhhmp8D1zC-eW74pvsaT692YnZhzU9ItIA6qGWeia_ephlFVgoIOzSGBh0UCSHCaEeX0r3HBTMVv8x2_URqR0zPvCCqqzC11O9UpKNf2bx5I9YqAC84bcOn-Qffr3aLQWDajCaKgoVWolFaqeejcwP0hFzGhWEFZN7slDxDFjKj4rVDK9VAEmeluSoUgZR31o3UO0PSKyra_n6FkjPmXw9ZRtKzhFJPgE__TTEws5XnmNdmnkPfe7iXSIwz0zkSKqYkr-nCDu2Alo5NEJGDEhS9amBO2KMrZPsDOiLyGCe6inXc9ooUpVQGoa6PM_OPhURIa3ymKV0asYJB5jhuE0VLDuRfgJi9zCeW9WXaotuC5C8Uubg3kV7bfv5IQeDR-q4EYjvODFNqNPvB-NGShlg"
+    },
+    {
+      "id": "vb35287bd",
+      "title": "(Cũ) Chữa bài p1",
+      "enc": "v1.SvYCVQVRxII2pOTK.qVEnJuLrunakywxLpiwy6Q.X3-0HCHDAI0cGP6tQoa-r8r3O3FdKKmoFlNetzwT-JTA0peJJzLpe7FvMKWPiM66bvWIJQF6XaBdMC-DG5QpuhcSfpC7KVPoORpfeUEcLywp7Q04dDGo2WSoVafzUfk5Ax4Kka9M-xKP6VqeaLQl6IfEGsqjApDqWAFIiifkpnn9OAC9M08BBzoWtwza0IhzT936cL6ygUBKjnX-3PHGRudZcaxSEg3EiB5ToSeYjdWmU_hakGTPTs9n866Vuadx4I4TNIvZwtcsq8PdPSkPysUqGHzwZMEqCPiOTxk7lfrzLxUqH6yqB6djCDEwi55V-0v33Zmq9CA83yu5utx1k6MBKGAdEMRMu3gmk87H2salx_Ko8DVAZfpTqcJWVVde3y3Hw7BMCmKraVFh-NUjFULdbl6UkRXR5B8VYubaD9_6LcyHg3FX4A"
+    },
+    {
+      "id": "vf40eaf88",
+      "title": "(Cũ) Chữa bài p2",
+      "enc": "v1.bBON_mCJVB1aGVqq.UmyjTNn_zHiYEWwPnodFjg.jHY2_VlNFTevlr0uo9nTXX9pWqpPQg462EwP5VQNtWjC0GWDW4Wp5Lr9cl5rK8YR8G1rvaSF9C9WoRYh7DQxzUMooQrhOe80BOCVO-EAlufjjLjTVZhGXKm9GXVJDl08QxxcAY_pm6qHz4skwpepmnmwLShILzuta9bmWEcRt83swwZD9lOTz4O1nPMtWerUwfrvutdCt0to1LrSp_8Ba2UNcZSipoRmYBoRY7jdbvjSz4vubWcJAuaBHzinZtWyxQkKC5LZDCTqsNPH2Szssogk8wXXNDaiP78Su3N11vomOy_-eEfcGC7PjhhizAqXgAmoWgqeIHEabtIM2FdW4vymnrlqAVeOVDCy6TieoNn_1hcY6yEElp7_uHAeJ1tIIyoMo-x7vG-Q0-L-U5jw2B5o-tbEucVdfjlLxN2UsSuMQlLrNAuEZw"
     }
   ],
-  "videoCount": 3,
+  "videoCount": 5,
   "encrypted": true,
   "encryption": "aes-256-gcm",
   "order": 0,
@@ -33,5 +43,5 @@
   "createdBy": "6ab3d694415010bf620349e5",
   "updatedBy": "6ab3d694415010bf620349e5",
   "createdAt": "2026-10-29T14:53:27.041Z",
-  "updatedAt": "2026-10-29T15:36:55.529Z"
+  "updatedAt": "2026-11-01T09:13:12.831Z"
 }
