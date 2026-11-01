@@ -7,6 +7,11 @@
   "description": "",
   "videos": [
     {
+      "id": "v6143d2a8",
+      "title": "Lũy thừa ma trận",
+      "enc": "v1.NyRRJoLqdIGfjJo2.zYojD4XYMw6gUDMA12kMBQ.5n557tfBWXINK6yuvMLIkSUFnzheS1OLOm3jVk0PCaQA06pOW6XKhillCL6q-uLQAVr2cvNCU8kL_LuxQn3eIDS9dz-0UgekcjfADDc2plYjZGKcbuZ50pxDfkurH9CZ0usrWSAMlYFg-e64ekbc0pSFQjkCj1mWTwSAPlW25AsDqs0InGisTrelS7UkeHaug0x1-rKYQT9Gk-oNqCQd6eERC4B3gVX9ScrZ6ICJxXx78MNl84lkZjMEKMcbiJKFfy-t0pI6IJiFOiFHSpLhSHLEPbah74XhutKNJiPrc_VvWmC70j8fmCuJMT_5DLt-iibhsEhAcEytarxS7YmzQ9UU-skepAkXHYIPRxrTmoohvhKQM3b6yRKzkBiP2LDOmf6eHaLPKUNwqk-LM2ABn-7983b3MtwP7lige1ecLyPMfT3JiudZgCoGJaoKKDsNgCOJin3eyXS8HVfHCrs_VbOvGzqulfK_Ixl9ZPWeDttWXe-dV_XIQ8oAEDigyvhjwnGxJG0ekeCmXw6_Qr6S2HdAruRNox4B"
+    },
+    {
       "id": "vee523dd4",
       "title": "Live ôn tập Ma trận - Đại số p1",
       "enc": "v1.qmO0ZeBByg2-O0kp.kz8ALAH-S7uSDo4mbsHRpQ.ZeH1NA2xWuF3WHNL88rZ2AZeMLH3jFBOU1q5y3kzYNTnQjCcnuBKoIBeZrO37GV0_kQBAJCeMRhlKchCdwywOpxkMP4vi6Ty4ghv9XIIe2VcuZYkLVRVuCGH_CjEV1NaLZGEJN2EtM3y72ZqzBIjE-hq4pL9wQFE8I9DH4N7sK10tQ0R-X_dUZYKJkAxdMH6TUzXFP_q3SqR-ajzkruiLNlPUAKbvVpLXkZd9pxnjIDAIKVdnU5y7SIeunx_-DJj53kRkCDcvE6xIns2hcAU2hwj-6SNOthk2NQ5vTay45ejSLIDIelkGJABQ7kWxeEhBCNvzkVjZhUqupXLYPJR66n3MiK-NJH1bkme8fYjUBy3lbHY90AoxBHwq22e_2RwvmzZvYiHMPkvtaB8V-mkXmfLDMp7MXLQtP-Fvgj52r1xC1MFSHQGaA"
@@ -17,7 +22,7 @@
       "enc": "v1.WazByCK-PUucuqTc.VzHZ_AOElHRssgRlWeP8zg.7FBd3iL4TbCAFKZ93FjqhQGEod3mlPxeAOEmyee-Z3ATqoXdR8ep1pTM78Hck8KfNWSboUGK6biz0Vka9-U2PIax4Pk0yixreOvJg1f4l7Ip26life3eg7OIe8T0krp7Ai07QqhcUMYITd3jTsfo2kHUJSoXbhuVkB9JT0KPihElDJ0aIo7O5hohnZkFXftvmAbLtQFS5tZzuE_6HDBebugObYw4QeozZJwYk0HwhYFjO0jsRgVhjS_Gw7vOdwEfg4TkIX2egiwGE6c73trmte9_aEq_ZU_Y_iC1hwwodHaz6hM-XvQ_-JpPSJ36RI2ryNaOu0LVHq1YiJyDolwLgjcDJiaQwXpdXnZ4BZ3P1YMkLtJf-gEHt9PPhQWMcDPcgh7ueIf5zdSIOuwKWGcny9SJjFovGtrroAbHkyn1qh_hY6ajrl8g8w"
     }
   ],
-  "videoCount": 2,
+  "videoCount": 3,
   "encrypted": true,
   "encryption": "aes-256-gcm",
   "order": 0,
@@ -28,5 +33,5 @@
   "createdBy": "6ab3d694415010bf620349e5",
   "updatedBy": "6ab3d694415010bf620349e5",
   "createdAt": "2026-10-29T04:53:31.846Z",
-  "updatedAt": "2026-10-29T04:57:39.475Z"
+  "updatedAt": "2026-11-01T04:58:32.232Z"
 }
