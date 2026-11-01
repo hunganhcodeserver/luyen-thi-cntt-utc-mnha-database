@@ -7,12 +7,27 @@
   "description": "",
   "videos": [
     {
+      "id": "v716429f7",
+      "title": "Khái niệm về hệ phương trình tuyến tính",
+      "enc": "v1.rIX8hO7lj8stdPLe.FsSHPSTgcu3Z7yzp1XNhTA.HwgOXPwXSXYuiQGb3Jq9p90AJ-yQlqJuVeKOWDx2OzaYTNt8Ok04uW2Zm3Z15QO5FnUyHnsq4yRLOr_s0QCymEnZv9t7Pr4tBtER4Hcacu6tbgIhCHjiCIB_YkvANkUM_sn-FGvbuTK6Qtkq8qOHfdyDqtLrGss29nBHV8B1kYtJF16gk10QI1h0SyCCsWD1UJmjDOgszPuvy3SwdaYVD2MKYUln-HvsaZuLg0LAhIrnERqXlZncuLXnewDiC9V292iCUq8BYktO_LlHMbGaZyCKRErfH0d2mAZ2h942HfbE-joADqV4okspsP2-zSRnGE_9oUXONFNgb4MJbhn4wHs8yeQTK23zNUc3C7-PqFJfltjakVEbDxti63RJN51wZCPgoM1ugoU8iLJ1BF2PXjk910Q4nMdanni9atwTubJ7tCaJnHpYuQ"
+    },
+    {
+      "id": "v0ee52575",
+      "title": "Sử dụng phương pháp Gauss",
+      "enc": "v1._rKeYIZACvC3ZYWN.xqSmPP4BfYXQcBXKOW-gyg.lhW1CfKVbepzyh0sowewyrbUL9KO2PnxcfCm4tbOOBLEX3zvd5WKBiuAMMurrABr2JGrdi1qsewV3CWL0-ExZ6S2vWwbl73fZLyoKUyosptoI2oozgPt3GGW9QnU3PqTVvuOYZ1eFzlm518HLbDPOX0d4xMKwdJcTrYBttp7ZLr0B2mLzxd_4HwzloZG6JuKA4jNSLYJSduk4EiFl5vtdIelGIZe9Aq83NlkC653eyXuHIfHER43KTKVulkKc2fHDnGsA_P4NV4XzT7sC0wU7bX_GVqg9mEFQP2FXR25O-cxUCTdkA96i-FDMSMuIa1stQdbyoTDwuP6fZ4eEMJWe6FYNPp5Fh2y056Tt128MBi4y2orRvtspmglbBkPPnEaQSJdlHvDtKwsNe3HHQhOP08gDjCKtWYORB4znNQzvtl9gRkzC4YfMQ"
+    },
+    {
+      "id": "v1c61d49a",
+      "title": "Sử dụng phương pháp Gauss - Jordan",
+      "enc": "v1.-fTrgcKkjsZs-W_x.LfvmUN24qXZDDDiH0BAExQ.MACuGU9GQmzZbp--oELFKVWgsx6dXVU5X_sRzxaH0hYUc5Rg39sTIipCw87ggR7CsvvG4H-oMvR3gQE1YfdbUSX94xDNpNSdmEKad6G09LPp7ii33tEDLyy0wkefuXuB87xx1Qs8G7p-q5ShoNTsm2Hr-pjqnaYkGUy8xT0ZB450DnFv6O8g7XnkJWL-3fcYNDxRiq3dfYkbbnZJr6WdD54efsfdWg8nLIqoQ3NLKJ6C08YsGbw4Gx8mA9goXoF_NYjvSrQXHsb6yS3q-bQLSYIonqZOiNZ8ckfm3haqBaSZmsD5K2i6Qr5fYxEfGPTKEt0uXX5msXEnrSW9mQhWmPdpSTeWkyYfiKujUDVd641j1CvC4noEPjrCd29aY1WyTjtwr_Y63I3lw7Tp1-AlAXjEyk18KBW3EQrzFszWqIKw1cWM3fCnQw"
+    },
+    {
       "id": "v69d5391f",
       "title": "Live ôn tập Hệ phương trình - Đại số",
       "enc": "v1.AIiotAHtMe5HvOy7.NLCp3vuseDnwh604WPldgA.DCnr1RRkzmBOUGqFDveIBuUn-0jioD7ns0zYAWQyHQI6tgDz1xLNxhTJ4M9u2gZITL5_hzVrgQnHlqxpD5MtP5yPujyQD1dQN-kJ6ZGTDFBDCKERuglp3pT6l0W1UVoN453XMQU7lHlwEKAaxHXJj1NmnruTt11XmzuYGFORS1RcgNrst8rPXOV_cuoZ5MpJg_iALAOaCOlP5uHAjdUSWXbzWd_tOmUKg2kgD4Vz2_zZgg0MH7yUNGSdJrke3dUj6gbDTMlsU1_V920tiYnatUTSITg46yRTeWxCJcspOvDRvOUpvVD1-dlEzE_wyRCuD1yqD81JxdXV6EQ46gmM3l-lKnvmTUndtvO-5JEdd3sE0vGYklAQsnl-2fTVB8F26PwI3JkkUKgqIdvRE7CeShe-q8_nsm8mrI1KOK6RkuHNZk_n_Ub_1w"
     }
   ],
-  "videoCount": 1,
+  "videoCount": 4,
   "encrypted": true,
   "encryption": "aes-256-gcm",
   "order": 0,
@@ -23,5 +38,5 @@
   "createdBy": "6ab3d694415010bf620349e5",
   "updatedBy": "6ab3d694415010bf620349e5",
   "createdAt": "2026-10-29T04:59:25.559Z",
-  "updatedAt": "2026-10-29T04:59:25.559Z"
+  "updatedAt": "2026-11-01T06:16:31.659Z"
 }
