@@ -1,7 +1,7 @@
 {
   "submissionId": "6ae8cf4cbb178c267d073835",
   "submittedAt": "2026-11-02T17:58:36.335Z",
-  "gradedAt": "2026-11-02T17:59:05.342Z",
+  "gradedAt": "2026-11-02T17:59:04.615Z",
   "status": "graded",
   "errorMessage": null,
   "userId": "6ab3d694415010bf620349e5",
@@ -129,5 +129,8 @@
         "explanation": "Nên khai báo xuat() là virtual để lớp dẫn xuất ghi đè đúng và gọi đa hình, đồng thời phải có hàm xuat() trong XeCon in thêm số chỗ ngồi."
       }
     ]
-  }
+  },
+  "type": "essay",
+  "teacherComment": null,
+  "updatedAt": "2026-11-02T17:59:06.735Z"
 }
