@@ -3,14 +3,14 @@
     "luyen-thi-cntt-utc-mnha": {
       "days": {
         "2026-11-02": {
-          "in": 139044,
-          "out": 363281,
-          "originIn": 357325,
-          "originOut": 171965,
-          "req": 23
+          "in": 148330,
+          "out": 363362,
+          "originIn": 376642,
+          "originOut": 173421,
+          "req": 24
         }
       },
-      "updatedAt": "2026-11-02T01:43:17.319Z"
+      "updatedAt": "2026-11-02T01:43:23.165Z"
     },
     "data-node-1": {
       "days": {
@@ -41,5 +41,5 @@
   "week": 44,
   "from": "2026-11-02",
   "to": "2026-11-08",
-  "updatedAt": "2026-11-02T01:43:17.319Z"
+  "updatedAt": "2026-11-02T01:43:23.165Z"
 }
