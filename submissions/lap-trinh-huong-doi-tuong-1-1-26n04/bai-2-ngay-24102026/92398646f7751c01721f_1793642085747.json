@@ -1,0 +1,153 @@
+{
+  "submissionId": "6ae8ce3d42bf03e930ecf0de",
+  "submittedAt": "2026-11-02T17:54:05.172Z",
+  "gradedAt": "2026-11-02T17:54:45.863Z",
+  "status": "graded",
+  "errorMessage": null,
+  "userId": "6ab3d694415010bf620349e5",
+  "userName": "Mai Ngọc Hùng Anh",
+  "userEmail": "hunganh.okokok.0@gmail.com",
+  "subjectId": "6ab5aeac813f0f6c24604455",
+  "subjectName": "Lập trình hướng đối tượng-1-1-26(N04)",
+  "subjectCode": "IT1.108.3",
+  "subjectSlug": "lap-trinh-huong-doi-tuong-1-1-26n04",
+  "lessonId": "6addb26caa0190fa8ec664e8",
+  "lessonTitle": "Bài 2 ngày 24/10/2026",
+  "lessonSlug": "bai-2-ngay-24102026",
+  "lessonDuration": 30,
+  "lessonContentHtml": "<p><strong>Bài 2.</strong> Xây dựng lớp Xe, trong đó có các thuộc tính gồm: Biển số xe và trọng lượng của xe. Xây dựng lớp XeCon dẫn xuất từ lớp Xe, trong đó định nghĩa thêm thuộc tính: Số chỗ ngồi. Trong lớp trên có thể định nghĩa thêm một số hàm thành phần nếu cần thiết.</p>\n<p>Viết chương trình:</p>\n<ul>\n  <li>Nhập thông tin cho n xe con</li>\n  <li>In danh sách các xe con có trọng lượng dưới 1 tấn và có không quá 5 chỗ ngồi.</li>\n  <li>Nhập vào số thực x từ bàn phím, đếm số lượng xe con có trọng lượng nhỏ hơn x.</li>\n  <li>Tìm các xe con có số chỗ ngồi nhiều nhất.</li>\n</ul>",
+  "lessonSampleSolution": "",
+  "answerHtml": "#include<bits/stdc++.h>\nusing namespace std;\n\nclass Xe{\n\tprivate:\n\t\tstring BSX;\n\t\tdouble trongLuong;\n\tpublic:\n\t\tXe(){\n\t\t\tBSX = \"\";\n\t\t\ttrongLuong = 0.0;\n\t\t}\n\t\tvirtual ~Xe(){\n\t\t}\n\t\tvoid nhap(){\n\t\t\tcout << \"===NHAP CAC THONG TIN===\\n\";\n\t\t\tcout << \"Bien so xe: \";\n\t\t\tgetline(cin >> ws, BSX);\n\t\t\tcout << \"Trong luong (tan): \";\n\t\t\tcin >> trongLuong;\n\t\t}\n\t\tvoid xuat(){\n\t\t\tcout << \"Bien so xe: \" << BSX << \" | Trong luong (tan): \" << trongLuong;\n\t\t}\n\t\tdouble getTrongLuong(){\n\t\t\treturn trongLuong;\n\t\t}\n\t\tvirtual int demChoNgoi() = 0;\n};\n\nclass XeCon : public Xe{\n\tprivate:\n\t\tint soChoNgoi;\n\tpublic:\n\t\tXeCon(){\n\t\t\tsoChoNgoi = 0;\n\t\t}\n\t\tvoid nhap(){\n\t\t\tXe::nhap();\n\t\t\tcout << \"So cho ngoi = \"; cin >> soChoNgoi;\n\t\t}\n\t\tvoid nhap(){\n\t\t\tXe::nhap();\n\t\t\tcout << \" | So cho ngoi: \" << soChoNgoi;\n\t\t}\n\t\tint getSoChoNgoi(){\n\t\t\treturn soChoNgoi;\n\t\t}\n};\n\nint main(){\n\tint n;\n\tcout << \"Nhap n = \";\n\tcin >> n;\n\tvector<XeCon*> ds(n);\n\tcout << endl;\n\tfor(int i = 0; i < n; i++){\n\t\tcout << \"Xe con thu\" << i+1 << \":\\n\";\n\t\tds[i] = new XeCon;\n\t\tds[i]->nhap();\n\t}\n\tcout << endl;\n\t\n\tcout << \"== Xe con (< 1 tan, <= 5 cho ngoi) ==\" << endl;\n\tfor(int i = 0; i < n; i++){\n\t\tif(ds[i]->getTrongLuong() < 1 && ds[i]->getSoChoNgoi() <= 5){\n\t\t\tds[i]->xuat;\n\t\t}\n\t}\n\t\n\tdouble x;\n\tcout << \"\\nNhap so thuc x: \";\n\tcin >> x;\n\tint dem = 0;\n\tfor(int i = 0; i < n; i++){\n\t\tif(ds[i]->getTrongLuong() < x) dem++;\n\t}\n\tcout << \"=> So xe con (trong luong < x = \" << x << \"): \" << dem << endl;\n\tint maxChoNgoi = 0;\n\tfor(int i = 0; i < n; i++){\n\t\tif(ds[i]->getSoChoNgoi() > maxChoNgoi){\n\t\t\tmaxChoNgoi = ds[i]->getSoChoNgoi();\n\t\t}\n\t}\n\tcout << \"\\n==Xe con co so cho ngoi nhieu nhat==\\n\";\n\tfor(int i = 0; i < n; i++){\n\t\tif(ds[i]->getSoChoNgoi == maxCho){\n\t\t\tds[i]->xuat;\n\t\t}\n\t}\n\tfor(int i = 0; i < n; i++){\n\t\tdelete ds[i];\n\t}\n\treturn 0;\n}",
+  "hasDrawing": false,
+  "drawingFile": null,
+  "drawingMime": null,
+  "drawingAnalysis": null,
+  "score": 5.5,
+  "feedback": "Bài làm nắm đúng cấu trúc đề: lớp Xe có biển số + trọng lượng, lớp XeCon dẫn xuất public thêm số chỗ ngồi, có getter, destructor virtual, dùng vector con trỏ và giải phóng bộ nhớ bằng delete. Bốn yêu cầu xử lý (nhập n xe, lọc <1 tấn & <=5 chỗ, đếm theo x, tìm max số chỗ) đều đúng về mặt thuật toán. Tuy nhiên chương trình KHÔNG biên dịch được do nhiều lỗi nặng: khai báo hai hàm trùng hệt tên `void nhap()` trong XeCon (hàm thứ hai lẽ ra là `xuat()`); khai báo hàm thuần ảo `virtual int demChoNgoi() = 0;` trong Xe nhưng XeCon không cài đặt lại nên XeCon vẫn là lớp trừu tượng, `new XeCon` sẽ lỗi; gọi hàm thiếu dấu `()` ở `ds[i]->xuat;` và `ds[i]->getSoChoNgoi`; dùng biến `maxCho` chưa khai báo (đúng phải là `maxChoNgoi`). Cần sửa các lỗi này và thêm xuống dòng sau mỗi lần xuất thông tin xe.",
+  "breakdown": [
+    {
+      "criterion": "Lớp Xe (thuộc tính biển số, trọng lượng; hàm nhập/xuất, getter)",
+      "score": 1.75,
+      "comment": "Thuộc tính và hàm thành phần hợp lý, có destructor virtual. Trừ điểm vì khai báo hàm thuần ảo `demChoNgoi()` vô nghĩa (không hề dùng) làm lớp dẫn xuất trở thành abstract."
+    },
+    {
+      "criterion": "Lớp XeCon dẫn xuất, thêm số chỗ ngồi",
+      "score": 1,
+      "comment": "Kế thừa public đúng, có thuộc tính soChoNgoi và getter. Nhưng định nghĩa trùng hai hàm `nhap()` (hàm xuất bị đặt sai tên) và không override hàm thuần ảo của lớp cha → lỗi biên dịch."
+    },
+    {
+      "criterion": "Nhập thông tin n xe con",
+      "score": 1,
+      "comment": "Vòng lặp nhập và cấp phát động đúng; `getline(cin >> ws, ...)` xử lý tốt biển số có khoảng trắng. Thiếu khoảng trắng trong chuỗi thông báo."
+    },
+    {
+      "criterion": "In xe < 1 tấn và <= 5 chỗ ngồi",
+      "score": 0.75,
+      "comment": "Điều kiện lọc đúng nhưng câu lệnh in sai cú pháp (`ds[i]->xuat;` thiếu `()`), và không xuống dòng sau mỗi xe."
+    },
+    {
+      "criterion": "Đếm xe có trọng lượng < x",
+      "score": 1,
+      "comment": "Đúng hoàn toàn: nhập x, đếm và in kết quả."
+    },
+    {
+      "criterion": "Tìm xe có số chỗ ngồi nhiều nhất",
+      "score": 0.5,
+      "comment": "Thuật toán hai lượt (tìm max rồi in tất cả xe đạt max) đúng hướng, nhưng dùng biến `maxCho` không tồn tại và gọi hàm thiếu `()` ở cả điều kiện và lệnh in."
+    },
+    {
+      "criterion": "Khả năng biên dịch / chạy & trình bày",
+      "score": 0.5,
+      "comment": "Code trình bày rõ ràng, có giải phóng bộ nhớ, nhưng không biên dịch được nên bị trừ nhiều."
+    }
+  ],
+  "grammar": null,
+  "sampleComparison": null,
+  "model": "occ/claude-opus-5",
+  "aiKeyId": "6abfdf08b29c124d59ccc66b",
+  "aiKeyName": "hunganh2006",
+  "aiProvider": "vilao",
+  "latencyMs": 40216,
+  "promptSnapshot": {
+    "kind": "essay",
+    "promptId": null,
+    "name": "Fallback mặc định (hardcoded)",
+    "content": "Bạn là giáo viên chấm bài. Hãy chấm bài viết sau dựa trên đề bài và rubric.\n\nĐề bài:\n{đề_bài}\n\nBài làm sinh viên (phần nhập chữ):\n{bài_làm}\n\nPhần vẽ tay của sinh viên (đã được bước phân tích hình ảnh đọc trước):\n{hình_vẽ}\n\nLời giải mẫu (nếu có, chỉ dùng để đối chiếu ý, không chép nguyên văn vào feedback):\n{lời_giải_mẫu}\n\nRubric: {rubric}\nĐiểm tối đa: {max_score}\n\nQUY TẮC CHẤM KẾT HỢP CHỮ + HÌNH VẼ:\n- Nếu có cả phần nhập chữ và phần vẽ tay: chấm CẢ HAI theo đề bài/rubric, cho một điểm tổng duy nhất.\n- Nếu chỉ có một phần: chỉ chấm phần đó, KHÔNG trừ điểm vì phần sinh viên không nộp.\n\nQUY TẮC PHÁT HIỆN LỖI:\n- Chỉ liệt kê lỗi khi lỗi thực sự tồn tại trong bài làm, không tự bịa.\n- Nếu đề bài/rubric không đủ căn cứ để xác định một lỗi cụ thể, bỏ qua, không đoán.\n- Mỗi lỗi nêu rõ: câu gốc sai, câu đã sửa, giải thích ngắn gọn.\n\nChỉ trả về JSON hợp lệ, không Markdown, không giải thích ngoài JSON:\n{\n  \"score\": number,\n  \"feedback\": string,\n  \"breakdown\": [{ \"criterion\": string, \"score\": number, \"comment\": string }],\n  \"errors\": [{ \"original\": string, \"corrected\": string, \"explanation\": string }]\n}",
+    "rubric": null,
+    "strictness": "normal",
+    "maxScore": 10,
+    "scope": "fallback",
+    "version": 0,
+    "isFallback": true,
+    "unknownPlaceholders": [],
+    "snapshotAt": "2026-11-02T17:54:45.391Z"
+  },
+  "raw": {
+    "score": 5.5,
+    "feedback": "Bài làm nắm đúng cấu trúc đề: lớp Xe có biển số + trọng lượng, lớp XeCon dẫn xuất public thêm số chỗ ngồi, có getter, destructor virtual, dùng vector con trỏ và giải phóng bộ nhớ bằng delete. Bốn yêu cầu xử lý (nhập n xe, lọc <1 tấn & <=5 chỗ, đếm theo x, tìm max số chỗ) đều đúng về mặt thuật toán. Tuy nhiên chương trình KHÔNG biên dịch được do nhiều lỗi nặng: khai báo hai hàm trùng hệt tên `void nhap()` trong XeCon (hàm thứ hai lẽ ra là `xuat()`); khai báo hàm thuần ảo `virtual int demChoNgoi() = 0;` trong Xe nhưng XeCon không cài đặt lại nên XeCon vẫn là lớp trừu tượng, `new XeCon` sẽ lỗi; gọi hàm thiếu dấu `()` ở `ds[i]->xuat;` và `ds[i]->getSoChoNgoi`; dùng biến `maxCho` chưa khai báo (đúng phải là `maxChoNgoi`). Cần sửa các lỗi này và thêm xuống dòng sau mỗi lần xuất thông tin xe.",
+    "breakdown": [
+      {
+        "criterion": "Lớp Xe (thuộc tính biển số, trọng lượng; hàm nhập/xuất, getter)",
+        "score": 1.75,
+        "comment": "Thuộc tính và hàm thành phần hợp lý, có destructor virtual. Trừ điểm vì khai báo hàm thuần ảo `demChoNgoi()` vô nghĩa (không hề dùng) làm lớp dẫn xuất trở thành abstract."
+      },
+      {
+        "criterion": "Lớp XeCon dẫn xuất, thêm số chỗ ngồi",
+        "score": 1,
+        "comment": "Kế thừa public đúng, có thuộc tính soChoNgoi và getter. Nhưng định nghĩa trùng hai hàm `nhap()` (hàm xuất bị đặt sai tên) và không override hàm thuần ảo của lớp cha → lỗi biên dịch."
+      },
+      {
+        "criterion": "Nhập thông tin n xe con",
+        "score": 1,
+        "comment": "Vòng lặp nhập và cấp phát động đúng; `getline(cin >> ws, ...)` xử lý tốt biển số có khoảng trắng. Thiếu khoảng trắng trong chuỗi thông báo."
+      },
+      {
+        "criterion": "In xe < 1 tấn và <= 5 chỗ ngồi",
+        "score": 0.75,
+        "comment": "Điều kiện lọc đúng nhưng câu lệnh in sai cú pháp (`ds[i]->xuat;` thiếu `()`), và không xuống dòng sau mỗi xe."
+      },
+      {
+        "criterion": "Đếm xe có trọng lượng < x",
+        "score": 1,
+        "comment": "Đúng hoàn toàn: nhập x, đếm và in kết quả."
+      },
+      {
+        "criterion": "Tìm xe có số chỗ ngồi nhiều nhất",
+        "score": 0.5,
+        "comment": "Thuật toán hai lượt (tìm max rồi in tất cả xe đạt max) đúng hướng, nhưng dùng biến `maxCho` không tồn tại và gọi hàm thiếu `()` ở cả điều kiện và lệnh in."
+      },
+      {
+        "criterion": "Khả năng biên dịch / chạy & trình bày",
+        "score": 0.5,
+        "comment": "Code trình bày rõ ràng, có giải phóng bộ nhớ, nhưng không biên dịch được nên bị trừ nhiều."
+      }
+    ],
+    "errors": [
+      {
+        "original": "void nhap(){\n\tXe::nhap();\n\tcout << \" | So cho ngoi: \" << soChoNgoi;\n}",
+        "corrected": "void xuat(){\n\tXe::xuat();\n\tcout << \" | So cho ngoi: \" << soChoNgoi << endl;\n}",
+        "explanation": "Hàm thứ hai trong XeCon bị đặt trùng tên và trùng chữ ký với `nhap()` → lỗi redefinition. Đây phải là hàm `xuat()` và bên trong gọi `Xe::xuat()`, kèm endl để mỗi xe in một dòng."
+      },
+      {
+        "original": "virtual int demChoNgoi() = 0;",
+        "corrected": "(xóa dòng này)",
+        "explanation": "Hàm thuần ảo này không được dùng ở đâu và XeCon không cài đặt lại, nên XeCon vẫn là lớp trừu tượng, khiến `new XeCon` không biên dịch được."
+      },
+      {
+        "original": "ds[i]->xuat;",
+        "corrected": "ds[i]->xuat();",
+        "explanation": "Gọi hàm thành phần phải có cặp dấu ngoặc `()`; viết thiếu chỉ là tham chiếu tới hàm nên không in gì và gây lỗi biên dịch."
+      },
+      {
+        "original": "if(ds[i]->getSoChoNgoi == maxCho){",
+        "corrected": "if(ds[i]->getSoChoNgoi() == maxChoNgoi){",
+        "explanation": "Thiếu `()` khi gọi getter và dùng sai tên biến: biến đã khai báo là `maxChoNgoi`, không có biến `maxCho`."
+      },
+      {
+        "original": "cout << \"Xe con thu\" << i+1 << \":\\n\";",
+        "corrected": "cout << \"Xe con thu \" << i+1 << \":\\n\";",
+        "explanation": "Thiếu khoảng trắng trước số thứ tự nên kết quả hiển thị bị dính chữ (\"Xe con thu1\")."
+      }
+    ]
+  }
+}
