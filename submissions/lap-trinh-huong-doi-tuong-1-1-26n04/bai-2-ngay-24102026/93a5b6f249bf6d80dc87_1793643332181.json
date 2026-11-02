@@ -1,7 +1,7 @@
 {
   "submissionId": "6ae8d31ed02dd1ebc77c3f68",
   "submittedAt": "2026-11-02T18:14:54.037Z",
-  "gradedAt": "2026-11-02T18:15:32.314Z",
+  "gradedAt": "2026-11-02T18:15:31.802Z",
   "status": "graded",
   "errorMessage": null,
   "userId": "6ab3d694415010bf620349e5",
@@ -124,5 +124,8 @@
         "explanation": "Không có virtual, XeCon::nhap()/xuat() chỉ che tên (name hiding) chứ không ghi đè. Chương trình hiện chạy đúng vì danh sách khai báo là vector<XeCon*>, nhưng nếu đổi sang vector<Xe*> thì ds[i]->nhap() sẽ gọi hàm của Xe và mất phần nhập số chỗ ngồi."
       }
     ]
-  }
+  },
+  "type": "essay",
+  "teacherComment": null,
+  "updatedAt": "2026-11-02T18:15:45.755Z"
 }
