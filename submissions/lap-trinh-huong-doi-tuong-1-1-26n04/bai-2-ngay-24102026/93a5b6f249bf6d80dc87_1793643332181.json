@@ -1,0 +1,128 @@
+{
+  "submissionId": "6ae8d31ed02dd1ebc77c3f68",
+  "submittedAt": "2026-11-02T18:14:54.037Z",
+  "gradedAt": "2026-11-02T18:15:32.314Z",
+  "status": "graded",
+  "errorMessage": null,
+  "userId": "6ab3d694415010bf620349e5",
+  "userName": "Mai Ngọc Hùng Anh",
+  "userEmail": "hunganh.okokok.0@gmail.com",
+  "subjectId": "6ab5aeac813f0f6c24604455",
+  "subjectName": "Lập trình hướng đối tượng-1-1-26(N04)",
+  "subjectCode": "IT1.108.3",
+  "subjectSlug": "lap-trinh-huong-doi-tuong-1-1-26n04",
+  "lessonId": "6addb26caa0190fa8ec664e8",
+  "lessonTitle": "Bài 2 ngày 24/10/2026",
+  "lessonSlug": "bai-2-ngay-24102026",
+  "lessonDuration": 30,
+  "lessonContentHtml": "<p><strong>Bài 2.</strong> Xây dựng lớp Xe, trong đó có các thuộc tính gồm: Biển số xe và trọng lượng của xe. Xây dựng lớp XeCon dẫn xuất từ lớp Xe, trong đó định nghĩa thêm thuộc tính: Số chỗ ngồi. Trong lớp trên có thể định nghĩa thêm một số hàm thành phần nếu cần thiết.</p>\n<p>Viết chương trình:</p>\n<ul>\n  <li>Nhập thông tin cho n xe con</li>\n  <li>In danh sách các xe con có trọng lượng dưới 1 tấn và có không quá 5 chỗ ngồi.</li>\n  <li>Nhập vào số thực x từ bàn phím, đếm số lượng xe con có trọng lượng nhỏ hơn x.</li>\n  <li>Tìm các xe con có số chỗ ngồi nhiều nhất.</li>\n</ul>",
+  "lessonSampleSolution": "",
+  "answerHtml": "#include<bits/stdc++.h>\nusing namespace std;\n\nclass Xe{\n\tprivate:\n\t\tstring BSX;\n\t\tdouble trongLuong;\n\tpublic:\n\t\tXe(){\n\t\t\tBSX = \"\";\n\t\t\ttrongLuong = 0.0;\n\t\t}\n\t\tvirtual ~Xe(){\n\t\t}\n\t\tvoid nhap(){\n\t\t\tcout << \"===NHAP CAC THONG TIN===\\n\";\n\t\t\tcout << \"Bien so xe: \";\n\t\t\tgetline(cin >> ws, BSX);\n\t\t\tcout << \"Trong luong (tan): \";\n\t\t\tcin >> trongLuong;\n\t\t}\n\t\tvoid xuat(){\n\t\t\tcout << \"Bien so xe: \" << BSX << \" | Trong luong (tan): \" << trongLuong;\n\t\t}\n\t\tdouble getTrongLuong(){\n\t\t\treturn trongLuong;\n\t\t}\n\t\tvirtual int getSoChoNgoi() = 0;\n};\n\nclass XeCon : public Xe{\n\tprivate:\n\t\tint soChoNgoi;\n\tpublic:\n\t\tXeCon(){\n\t\t\tsoChoNgoi = 0;\n\t\t}\n\t\tvoid nhap(){\n\t\t\tXe::nhap();\n\t\t\tcout << \"So cho ngoi = \"; cin >> soChoNgoi;\n\t\t\tcout << endl;\n\t\t}\n\t\tvoid xuat(){ // lỗi sai: ban đầu viết \"void nhap()\" lần thứ hai (trùng tên, không biên dịch được); hàm này in thông tin nên phải đặt tên xuat\n\t\t\tXe::xuat(); // lỗi sai: ban đầu gọi Xe::nhap(); hàm xuất phải gọi Xe::xuat() để in biển số và trọng lượng\n\t\t\tcout << \" | So cho ngoi: \" << soChoNgoi;\n\t\t\tcout << endl;\n\t\t}\n\t\tint getSoChoNgoi(){ // lỗi sai: ban đầu thiếu override hàm thuần ảo getSoChoNgoi() của Xe; XeCon phải định nghĩa hàm này, nếu không XeCon là lớp trừu tượng và \"new XeCon\" báo lỗi\n\t\t\treturn soChoNgoi;\n\t\t}\n};\n\nint main(){\n\tint n;\n\tcout << \"Nhap n = \";\n\tcin >> n;\n\tvector<XeCon*> ds(n);\n\tcout << endl;\n\tfor(int i = 0; i < n; i++){\n\t\tcout << \"Xe con thu \" << i+1 << \":\\n\";\n\t\tcout << endl;\n\t\tds[i] = new XeCon;\n\t\tds[i]->nhap();\n\t}\n\tcout << endl;\n\t\n\tcout << \"== Xe con (< 1 tan, <= 5 cho ngoi) ==\" << endl;\n\tfor(int i = 0; i < n; i++){\n\t\tif(ds[i]->getTrongLuong() < 1 && ds[i]->getSoChoNgoi() <= 5){\n\t\t\tds[i]->xuat(); // lỗi sai: ban đầu viết \"xuat\" thiếu cặp ngoặc (), đó chỉ là tên hàm chứ chưa gọi hàm\n\t\t\tcout << endl; // lỗi sai: ban đầu thiếu xuống dòng, các xe sẽ bị in dính vào nhau trên một dòng\n\t\t}\n\t}\n\t\n\tdouble x;\n\tcout << \"\\nNhap so thuc x: \";\n\tcin >> x;\n\tint dem = 0;\n\tfor(int i = 0; i < n; i++){\n\t\tif(ds[i]->getTrongLuong() < x) dem++;\n\t}\n\tcout << \"=> So xe con (trong luong < x = \" << x << \"): \" << dem << endl;\n\t\n\tint maxChoNgoi = 0;\n\tfor(int i = 0; i < n; i++){\n\t\tif(ds[i]->getSoChoNgoi() > maxChoNgoi){\n\t\t\tmaxChoNgoi = ds[i]->getSoChoNgoi();\n\t\t}\n\t}\n\tcout << \"\\n==Xe con co so cho ngoi nhieu nhat==\\n\";\n\tfor(int i = 0; i < n; i++){\n\t\tif(ds[i]->getSoChoNgoi() == maxChoNgoi){ // lỗi sai: ban đầu viết \"getSoChoNgoi == maxCho\", thiếu () khi gọi hàm và sai tên biến (maxCho chưa khai báo, phải là maxChoNgoi)\n\t\t\tds[i]->xuat(); // lỗi sai: ban đầu viết \"xuat\" thiếu cặp ngoặc ()\n\t\t\tcout << endl; // lỗi sai: ban đầu thiếu xuống dòng giữa các xe\n\t\t}\n\t}\n\tfor(int i = 0; i < n; i++){\n\t\tdelete ds[i];\n\t}\n\treturn 0;\n}",
+  "hasDrawing": false,
+  "drawingFile": null,
+  "drawingMime": null,
+  "drawingAnalysis": null,
+  "score": 9.5,
+  "feedback": "Bài làm tốt, đáp ứng đầy đủ 4 yêu cầu của đề: nhập n xe con, lọc xe < 1 tấn và <= 5 chỗ, đếm xe có trọng lượng < x, và tìm các xe có số chỗ ngồi nhiều nhất (dùng 2 lượt quét nên in được tất cả xe đạt max — đúng yêu cầu 'các xe'). Kế thừa đúng cú pháp (public), có destructor ảo cho lớp cơ sở, gọi lại Xe::nhap()/Xe::xuat() trong lớp dẫn xuất để tái sử dụng code, dùng getline(cin >> ws, ...) để đọc biển số có khoảng trắng, và có delete giải phóng bộ nhớ ở cuối. Các lỗi đã được sinh viên tự phát hiện và sửa (thiếu dấu (), gọi sai Xe::nhap() trong hàm xuất, thiếu override hàm thuần ảo) đều sửa đúng hướng. Chỉ còn hai điểm về thiết kế OOP cần lưu ý: (1) khai báo getSoChoNgoi() thuần ảo trong lớp Xe là không hợp lý vì 'số chỗ ngồi' là thuộc tính riêng của XeCon, khiến Xe trở thành lớp trừu tượng không cần thiết; (2) nhap()/xuat() trong Xe chưa khai báo virtual nên XeCon chỉ che (hide) chứ không ghi đè (override) — chương trình vẫn chạy đúng vì mảng khai báo là XeCon*, nhưng nếu dùng Xe* thì sẽ gọi sai hàm. Nên bổ sung thêm getter cho biển số và cân nhắc kiểm tra n > 0.",
+  "breakdown": [
+    {
+      "criterion": "Lớp Xe: thuộc tính biển số, trọng lượng; hàm nhập/xuất",
+      "score": 1.5,
+      "comment": "Đủ thuộc tính và hàm nhập/xuất, có destructor ảo. Trừ nhẹ do đưa hàm thuần ảo getSoChoNgoi() vào lớp cơ sở (sai về mặt thiết kế) và nhap()/xuat() chưa khai báo virtual."
+    },
+    {
+      "criterion": "Lớp XeCon dẫn xuất, thêm thuộc tính số chỗ ngồi",
+      "score": 2,
+      "comment": "Kế thừa public đúng, bổ sung soChoNgoi, nhap()/xuat() gọi lại hàm lớp cha hợp lý, có getter."
+    },
+    {
+      "criterion": "Nhập thông tin cho n xe con",
+      "score": 1.5,
+      "comment": "Dùng vector<XeCon*>, cấp phát và nhập đúng; đọc biển số bằng getline(cin >> ws, ...) tránh lỗi trôi lệnh."
+    },
+    {
+      "criterion": "In xe con < 1 tấn và <= 5 chỗ ngồi",
+      "score": 1.5,
+      "comment": "Điều kiện lọc đúng, định dạng in rõ ràng."
+    },
+    {
+      "criterion": "Đếm xe con có trọng lượng < x",
+      "score": 1.5,
+      "comment": "Nhập x kiểu double và đếm đúng."
+    },
+    {
+      "criterion": "Tìm các xe con có số chỗ ngồi nhiều nhất",
+      "score": 1.5,
+      "comment": "Tìm max rồi quét lại in tất cả xe đạt max — đúng yêu cầu 'các xe'. Có giải phóng bộ nhớ."
+    }
+  ],
+  "grammar": null,
+  "sampleComparison": null,
+  "model": "occ/claude-opus-5",
+  "aiKeyId": "6abfdf08b29c124d59ccc66b",
+  "aiKeyName": "hunganh2006",
+  "aiProvider": "vilao",
+  "latencyMs": 37762,
+  "promptSnapshot": {
+    "kind": "essay",
+    "promptId": null,
+    "name": "Fallback mặc định (hardcoded)",
+    "content": "Bạn là giáo viên chấm bài. Hãy chấm bài viết sau dựa trên đề bài và rubric.\n\nĐề bài:\n{đề_bài}\n\nBài làm sinh viên (phần nhập chữ):\n{bài_làm}\n\nPhần vẽ tay của sinh viên (đã được bước phân tích hình ảnh đọc trước):\n{hình_vẽ}\n\nLời giải mẫu (nếu có, chỉ dùng để đối chiếu ý, không chép nguyên văn vào feedback):\n{lời_giải_mẫu}\n\nRubric: {rubric}\nĐiểm tối đa: {max_score}\n\nQUY TẮC CHẤM KẾT HỢP CHỮ + HÌNH VẼ:\n- Nếu có cả phần nhập chữ và phần vẽ tay: chấm CẢ HAI theo đề bài/rubric, cho một điểm tổng duy nhất.\n- Nếu chỉ có một phần: chỉ chấm phần đó, KHÔNG trừ điểm vì phần sinh viên không nộp.\n\nQUY TẮC PHÁT HIỆN LỖI:\n- Chỉ liệt kê lỗi khi lỗi thực sự tồn tại trong bài làm, không tự bịa.\n- Nếu đề bài/rubric không đủ căn cứ để xác định một lỗi cụ thể, bỏ qua, không đoán.\n- Mỗi lỗi nêu rõ: câu gốc sai, câu đã sửa, giải thích ngắn gọn.\n\nChỉ trả về JSON hợp lệ, không Markdown, không giải thích ngoài JSON:\n{\n  \"score\": number,\n  \"feedback\": string,\n  \"breakdown\": [{ \"criterion\": string, \"score\": number, \"comment\": string }],\n  \"errors\": [{ \"original\": string, \"corrected\": string, \"explanation\": string }]\n}",
+    "rubric": null,
+    "strictness": "normal",
+    "maxScore": 10,
+    "scope": "fallback",
+    "version": 0,
+    "isFallback": true,
+    "unknownPlaceholders": [],
+    "snapshotAt": "2026-11-02T18:15:31.802Z"
+  },
+  "raw": {
+    "score": 9.5,
+    "feedback": "Bài làm tốt, đáp ứng đầy đủ 4 yêu cầu của đề: nhập n xe con, lọc xe < 1 tấn và <= 5 chỗ, đếm xe có trọng lượng < x, và tìm các xe có số chỗ ngồi nhiều nhất (dùng 2 lượt quét nên in được tất cả xe đạt max — đúng yêu cầu 'các xe'). Kế thừa đúng cú pháp (public), có destructor ảo cho lớp cơ sở, gọi lại Xe::nhap()/Xe::xuat() trong lớp dẫn xuất để tái sử dụng code, dùng getline(cin >> ws, ...) để đọc biển số có khoảng trắng, và có delete giải phóng bộ nhớ ở cuối. Các lỗi đã được sinh viên tự phát hiện và sửa (thiếu dấu (), gọi sai Xe::nhap() trong hàm xuất, thiếu override hàm thuần ảo) đều sửa đúng hướng. Chỉ còn hai điểm về thiết kế OOP cần lưu ý: (1) khai báo getSoChoNgoi() thuần ảo trong lớp Xe là không hợp lý vì 'số chỗ ngồi' là thuộc tính riêng của XeCon, khiến Xe trở thành lớp trừu tượng không cần thiết; (2) nhap()/xuat() trong Xe chưa khai báo virtual nên XeCon chỉ che (hide) chứ không ghi đè (override) — chương trình vẫn chạy đúng vì mảng khai báo là XeCon*, nhưng nếu dùng Xe* thì sẽ gọi sai hàm. Nên bổ sung thêm getter cho biển số và cân nhắc kiểm tra n > 0.",
+    "breakdown": [
+      {
+        "criterion": "Lớp Xe: thuộc tính biển số, trọng lượng; hàm nhập/xuất",
+        "score": 1.5,
+        "comment": "Đủ thuộc tính và hàm nhập/xuất, có destructor ảo. Trừ nhẹ do đưa hàm thuần ảo getSoChoNgoi() vào lớp cơ sở (sai về mặt thiết kế) và nhap()/xuat() chưa khai báo virtual."
+      },
+      {
+        "criterion": "Lớp XeCon dẫn xuất, thêm thuộc tính số chỗ ngồi",
+        "score": 2,
+        "comment": "Kế thừa public đúng, bổ sung soChoNgoi, nhap()/xuat() gọi lại hàm lớp cha hợp lý, có getter."
+      },
+      {
+        "criterion": "Nhập thông tin cho n xe con",
+        "score": 1.5,
+        "comment": "Dùng vector<XeCon*>, cấp phát và nhập đúng; đọc biển số bằng getline(cin >> ws, ...) tránh lỗi trôi lệnh."
+      },
+      {
+        "criterion": "In xe con < 1 tấn và <= 5 chỗ ngồi",
+        "score": 1.5,
+        "comment": "Điều kiện lọc đúng, định dạng in rõ ràng."
+      },
+      {
+        "criterion": "Đếm xe con có trọng lượng < x",
+        "score": 1.5,
+        "comment": "Nhập x kiểu double và đếm đúng."
+      },
+      {
+        "criterion": "Tìm các xe con có số chỗ ngồi nhiều nhất",
+        "score": 1.5,
+        "comment": "Tìm max rồi quét lại in tất cả xe đạt max — đúng yêu cầu 'các xe'. Có giải phóng bộ nhớ."
+      }
+    ],
+    "errors": [
+      {
+        "original": "class Xe{ ... virtual int getSoChoNgoi() = 0; };",
+        "corrected": "Bỏ dòng virtual int getSoChoNgoi() = 0; khỏi lớp Xe, chỉ khai báo int getSoChoNgoi() trong lớp XeCon.",
+        "explanation": "Số chỗ ngồi là thuộc tính riêng của XeCon, không phải đặc trưng chung của mọi loại Xe (xe tải, xe khách...). Khai báo hàm thuần ảo này làm Xe thành lớp trừu tượng một cách không cần thiết và vi phạm nguyên tắc thiết kế lớp cơ sở."
+      },
+      {
+        "original": "void nhap(){ ... }\nvoid xuat(){ ... }   // trong lớp Xe",
+        "corrected": "virtual void nhap(){ ... }\nvirtual void xuat(){ ... }   // trong lớp Xe",
+        "explanation": "Không có virtual, XeCon::nhap()/xuat() chỉ che tên (name hiding) chứ không ghi đè. Chương trình hiện chạy đúng vì danh sách khai báo là vector<XeCon*>, nhưng nếu đổi sang vector<Xe*> thì ds[i]->nhap() sẽ gọi hàm của Xe và mất phần nhập số chỗ ngồi."
+      }
+    ]
+  }
+}
