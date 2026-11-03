@@ -1,7 +1,7 @@
 {
   "submissionId": "6ae9698a4b44da814ee5609f",
   "submittedAt": "2026-11-03T04:56:42.856Z",
-  "gradedAt": "2026-11-03T04:57:18.084Z",
+  "gradedAt": "2026-11-03T04:57:17.460Z",
   "status": "graded",
   "errorMessage": null,
   "userId": "6ab3d694415010bf620349e5",
@@ -124,5 +124,8 @@
         "explanation": "Nên xóa các dòng code bị comment và ghi chú sửa bài trước khi nộp để bài làm gọn gàng, dễ đọc."
       }
     ]
-  }
+  },
+  "type": "essay",
+  "teacherComment": null,
+  "updatedAt": "2026-11-03T04:57:19.304Z"
 }
