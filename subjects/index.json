@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-03T03:48:44.362Z",
+  "updatedAt": "2026-11-03T03:49:46.684Z",
   "subjects": [
     {
       "_id": "6ab3df063c59c9d02fe14887",
@@ -221,6 +221,26 @@
       "deletedForever": false,
       "createdAt": "2026-11-03T03:48:44.239Z",
       "updatedAt": "2026-11-03T03:48:44.239Z"
+    },
+    {
+      "_id": "6ae959dad12e5592d07ba0dd",
+      "name": "Cô Mai Phương: Luyện giải đề thi THPT 2026 (Mức độ 8+)",
+      "code": "PRO3M.7.2026",
+      "slug": "co-mai-phuong-luyen-giai-de-thi-thpt-2026-muc-do-8",
+      "description": "",
+      "order": 0,
+      "githubFolder": null,
+      "promptId": null,
+      "quizPromptId": null,
+      "isPublished": true,
+      "userKey": "6ae950fc1fd5f2f73453e2e4",
+      "createdBy": "6ae951541fd5f2f73453e2e6",
+      "updatedBy": "6ae951541fd5f2f73453e2e6",
+      "deletedAt": null,
+      "deletedBy": null,
+      "deletedForever": false,
+      "createdAt": "2026-11-03T03:49:46.587Z",
+      "updatedAt": "2026-11-03T03:49:46.587Z"
     }
   ]
 }
