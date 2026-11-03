@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-03T03:29:33.753Z",
-  "total": 34,
+  "updatedAt": "2026-11-03T03:32:24.631Z",
+  "total": 35,
   "logs": [
     {
       "id": "6ac45a48c3fe67bf29ff941c",
@@ -686,6 +686,26 @@
       "ipAddress": "116.96.46.229",
       "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
       "createdAt": "2026-11-03T03:29:33.625Z"
+    },
+    {
+      "id": "6ae955c8fdcdfdf0d4c6b636",
+      "actor": "6ae951541fd5f2f73453e2e6",
+      "action": "update_quiz",
+      "entity": "Lesson",
+      "entityId": "6ae9551b82455fdec57f663a",
+      "description": "",
+      "metadata": {
+        "title": "(Tuần số 1) 6-7. Thi Online: Dành trọn điểm câu hỏi Từ loại và Trật tự từ (Buổi 1) - Đề vận dụng",
+        "duration": 120,
+        "counts": {
+          "mcq": 30,
+          "tf": 0,
+          "fill": 0
+        }
+      },
+      "ipAddress": "116.96.46.229",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+      "createdAt": "2026-11-03T03:32:24.499Z"
     }
   ]
 }
