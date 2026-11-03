@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-03T03:16:00.701Z",
-  "total": 32,
+  "updatedAt": "2026-11-03T03:18:13.932Z",
+  "total": 33,
   "logs": [
     {
       "id": "6ac45a48c3fe67bf29ff941c",
@@ -654,6 +654,18 @@
       "ipAddress": "",
       "userAgent": "",
       "createdAt": "2026-11-03T03:16:00.594Z"
+    },
+    {
+      "id": "6ae952753249706b47cfca87",
+      "actor": "6ab3d694415010bf620349e5",
+      "action": "grant_layout_edit",
+      "entity": "User",
+      "entityId": "6ae951f782455fdec57f6637",
+      "description": "",
+      "metadata": {},
+      "ipAddress": "",
+      "userAgent": "",
+      "createdAt": "2026-11-03T03:18:13.822Z"
     }
   ]
 }
