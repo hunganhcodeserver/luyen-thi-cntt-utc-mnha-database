@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-30T08:45:29.688Z",
+  "updatedAt": "2026-11-03T03:22:22.985Z",
   "subjects": [
     {
       "_id": "6ab3df063c59c9d02fe14887",
@@ -181,6 +181,26 @@
       "deletedForever": false,
       "createdAt": "2026-10-21T00:48:19.153Z",
       "updatedAt": "2026-10-21T00:48:19.153Z"
+    },
+    {
+      "_id": "6ae9536e82455fdec57f6639",
+      "name": "VIP90 cô Mai Phương 2026",
+      "code": "VIP90.2026",
+      "slug": "vip90-co-mai-phuong-2026",
+      "description": "",
+      "order": 0,
+      "githubFolder": null,
+      "promptId": null,
+      "quizPromptId": null,
+      "isPublished": true,
+      "userKey": "6ae950fc1fd5f2f73453e2e4",
+      "createdBy": "6ae951541fd5f2f73453e2e6",
+      "updatedBy": "6ae951541fd5f2f73453e2e6",
+      "deletedAt": null,
+      "deletedBy": null,
+      "deletedForever": false,
+      "createdAt": "2026-11-03T03:22:22.867Z",
+      "updatedAt": "2026-11-03T03:22:22.867Z"
     }
   ]
 }
