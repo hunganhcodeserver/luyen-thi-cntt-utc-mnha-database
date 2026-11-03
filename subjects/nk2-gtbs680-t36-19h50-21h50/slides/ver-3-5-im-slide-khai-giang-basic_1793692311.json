@@ -1,0 +1,29 @@
+{
+  "type": "slide",
+  "slideId": "6ae9935836e2f514aed9b6a2",
+  "title": "[Ver 3.5] IM_Slide khai giảng Basic",
+  "slug": "ver-3-5-im-slide-khai-giang-basic",
+  "subjectSlug": "nk2-gtbs680-t36-19h50-21h50",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/nk2-gtbs680-t36-19h50-21h50/slides/ver-3-5-im-slide-khai-giang-basic_1793692311.pptx",
+      "enc": 16624100,
+      "plain": 16623592
+    }
+  ],
+  "fileExt": "pptx",
+  "fileSize": 16623592,
+  "originalName": "[Ver 3.5] IM_Slide khai giảng Basic.pptx",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ac1d25d7d8ec4035a2f1e84",
+  "updatedBy": "6ac1d25d7d8ec4035a2f1e84",
+  "createdAt": "2026-11-03T07:55:04.559Z",
+  "updatedAt": "2026-11-03T07:55:04.559Z"
+}
