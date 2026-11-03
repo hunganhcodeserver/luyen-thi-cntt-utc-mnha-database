@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-03T03:49:46.684Z",
+  "updatedAt": "2026-11-03T07:43:11.626Z",
   "subjects": [
     {
       "_id": "6ab3df063c59c9d02fe14887",
@@ -241,6 +241,26 @@
       "deletedForever": false,
       "createdAt": "2026-11-03T03:49:46.587Z",
       "updatedAt": "2026-11-03T03:49:46.587Z"
+    },
+    {
+      "_id": "6ae9908e36e2f514aed9b6a0",
+      "name": "NK2.  GTBS_680 T3.6 19h50 - 21h50",
+      "code": "GTBS",
+      "slug": "nk2-gtbs680-t36-19h50-21h50",
+      "description": "",
+      "order": 0,
+      "githubFolder": null,
+      "promptId": null,
+      "quizPromptId": null,
+      "isPublished": true,
+      "userKey": "6ac1d28fa3ad662865bb16f4",
+      "createdBy": "6ac1d25d7d8ec4035a2f1e84",
+      "updatedBy": "6ac1d25d7d8ec4035a2f1e84",
+      "deletedAt": null,
+      "deletedBy": null,
+      "deletedForever": false,
+      "createdAt": "2026-11-03T07:43:10.548Z",
+      "updatedAt": "2026-11-03T07:43:10.548Z"
     }
   ]
 }
