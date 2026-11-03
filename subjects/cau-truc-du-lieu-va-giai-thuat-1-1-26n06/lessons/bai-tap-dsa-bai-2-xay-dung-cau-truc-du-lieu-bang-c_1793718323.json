@@ -1,8 +1,8 @@
 {
   "lessonId": "6ae9f8335d8845a474993646",
   "type": "essay",
-  "title": "(Bài tập DSA) Bài 2: Xây dựng cấu trúc dữ liệu bằng C++",
-  "slug": "bai-tap-dsa-bai-2-xay-dung-cau-truc-du-lieu-bang-c",
+  "title": "(Bài tập DSA ĐVĐ) Bài 2: Xây dựng cấu trúc dữ liệu bằng C++",
+  "slug": "bai-tap-dsa-dvd-bai-2-xay-dung-cau-truc-du-lieu-bang-c",
   "subjectSlug": "cau-truc-du-lieu-va-giai-thuat-1-1-26n06",
   "description": "",
   "contentHtml": "<h2>Bài 2: Xây dựng cấu trúc dữ liệu bằng C++</h2>\n\n<h3>Câu 1. Thực hiện các yêu cầu sau đây:</h3>\n<ul>\n  <li>Trình bày khái niệm cấu trúc vector.</li>\n  <li>Khi xây dựng lớp mẫu Vector có dữ liệu gồm int n, cap; T*buffer; hãy lập trình các phương thức sau của lớp Vector\n    <ul>\n      <li>Hàm void Vector&lt;T&gt;::erase(int k) là xoá phần tử ở vị trí k</li>\n      <li>Hàm void Vector&lt;T&gt;::insert(int k, T x) là thêm phần tử x vào vị trí k</li>\n    </ul>\n  </li>\n</ul>\n\n<h3>Câu 2. Thực hiện các yêu cầu sau đây:</h3>\n<ul>\n  <li>Trình bày cấu trúc danh sách liên kết đơn (single list) (vẽ hình minh họa).</li>\n  <li>Khi xây dựng lớp mẫu Node có dữ liệu gồm public: T elem; Node *next; và lớp mẫu Slist có dữ liệu gồm int n; Node&lt;T&gt; *Head, *Trail; hãy lập trình các phương thức sau trong (không sử dụng bộ lặp)\n    <ul>\n      <li>Hàm void Slist&lt;T&gt;::erase(T x) xoá một phần tử x (nếu có) ra khỏi Slist.</li>\n      <li>Hàm void Slist&lt;T&gt;::push_front(T x) thêm phần tử vào đầu Slist.</li>\n    </ul>\n  </li>\n</ul>\n\n<h3>Câu 3. Thực hiện các yêu cầu sau đây:</h3>\n<ul>\n  <li>Trình bày cấu trúc danh sách liên kết kép (double list) (vẽ hình minh họa).</li>\n  <li>Khi xây dựng lớp mẫu Node có dữ liệu gồm public: T elem; Node *prev,*next; và lớp mẫu Dlist có dữ liệu gồm int n; Node&lt;T&gt; *Head, *Trail; hãy lập trình các phương thức sau (không sử dụng bộ lặp)\n    <ul>\n      <li>Hàm void Dlist&lt;T&gt;::erase(T x) xoá một phần tử x (nếu có) ra khỏi Dlist.</li>\n      <li>Hàm void Dlist&lt;T&gt;::push_front(T x) thêm phần tử vào đầu Dlist.</li>\n    </ul>\n  </li>\n</ul>\n\n<h3>Câu 4. Thực hiện các yêu cầu sau đây:</h3>\n<ul>\n  <li>Khái niệm cây, trình bày cấu trúc lớp cây tổng quát .</li>\n  <li>Khi xây dựng lớp mẫu Node của cây tổng quát gồm gồm public: T elem; vector&lt;Node&lt;T&gt;*&gt; child; hãy lập trình các hàm sau:\n    <ul>\n      <li>Hàm Node&lt;T&gt;*find(Node&lt;T&gt;*H, T x) tìm giá trị x trong cây H trả về địa chỉ (con trỏ) của Node</li>\n      <li>Hàm void insert(Node&lt;T&gt;*H, T x, Node&lt;T&gt; *p) thêm Node p vào cây H là con của 1 Node có giá trị x (có thể sử dụng hàm find ở trên).</li>\n    </ul>\n  </li>\n</ul>\n\n<h3>Câu 5. Thực hiện các yêu cầu sau đây:</h3>\n<ul>\n  <li>Khái niệm cây, trình bày cấu trúc lớp cây tổng quát .</li>\n  <li>Khi xây dựng lớp mẫu Node của cây tổng quát gồm gồm public: T elem; vector&lt;Node&lt;T&gt;*&gt; child; hãy lập trình các hàm sau:\n    <ul>\n      <li>Hàm int count(Node&lt;T&gt;*H, T x) đếm tất cả các Node của cây H chứa x.</li>\n      <li>Hàm void high(Node&lt;T&gt;*H) xác định chiều cao của cây H.</li>\n    </ul>\n  </li>\n</ul>\n\n<h3>Câu 6. Thực hiện các yêu cầu sau đây:</h3>\n<ul>\n  <li>Trình bày khái niệm cây nhị phân nói chung.</li>\n  <li>Khi xây dựng lớp mẫu Node của cây nhị phân gồm public: T elem; Node&lt;T&gt;*left,*right; hãy lập trình các hàm sau:\n    <ul>\n      <li>Hàm Node&lt;T&gt;*find(Node&lt;T&gt;*H, T x) tìm giá trị x trong cây H trả về Node tìm được</li>\n      <li>Hàm int count(Node&lt;T&gt;*H, T x) đếm số Node có giá trị bằng x trong cây H.</li>\n    </ul>\n  </li>\n</ul>\n\n<h3>Câu 7. Thực hiện các yêu cầu sau đây:</h3>\n<ul>\n  <li>Trình bày khái niệm ngăn xếp (stack), trình bày cấu trúc dữ liệu stack, vẽ hình minh họa.</li>\n  <li>Trình bày thuật toán (không viết code) chuyển đổi biểu thức dạng trung tố sang dạng hậu tố; mô phỏng chuyển sang hậu tố biểu thức (3+5)*(4+(3*(6-(2+5)*3)+7)*2)</li>\n</ul>\n\n<h3>Câu 8. Thực hiện các yêu cầu sau đây:</h3>\n<ul>\n  <li>Trình bày khái niệm hàng đợi (Queue), trình bày về cấu trúc dữ liệu queue, vẽ hình minh họa.</li>\n  <li>Sử dụng cấu trúc dữ liệu hàng đợi trong thư viện STL có sẵn của C++ giải bài xếp búp bê Nga như sau: có n con búp bê có chiều cao là a1… an đã sắp giảm dần nếu 2 con búp bê có chiều cao chênh ít nhất khoảng cách 3 thì sẽ nuốt nhau. Hãy tìm cách lồng nhiều búp bê nhất bằng cách duyệt lần lượt chiều cao đưa vào queue nếu con đứng đầu nuốt được con mới thêm thì bỏ con đứng đầu khỏi queue, sau khi duyệt hết size của queue chính là số búp bê ít nhất.</li>\n</ul>",
@@ -13,9 +13,13 @@
   "aiKeyId": null,
   "isPublished": true,
   "isDeleted": false,
-  "createdBy": "6ab3d694415010bf620349e5",
+  "createdBy": {
+    "id": "6ab3d694415010bf620349e5",
+    "name": "Mai Ngọc Hùng Anh",
+    "email": "hunganh.okokok.0@gmail.com"
+  },
   "createdAt": "2026-11-03T15:05:23.672Z",
-  "updatedAt": "2026-11-03T15:05:25.244Z",
+  "updatedAt": "2026-11-03T15:27:16.433Z",
   "order": 0,
   "analysisAiKeyIds": [],
   "updatedBy": "6ab3d694415010bf620349e5",
