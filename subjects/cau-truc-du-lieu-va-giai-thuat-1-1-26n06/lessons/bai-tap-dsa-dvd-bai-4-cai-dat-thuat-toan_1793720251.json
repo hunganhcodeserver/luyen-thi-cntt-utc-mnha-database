@@ -1,0 +1,23 @@
+{
+  "lessonId": "6ae9ffbbabbb13dc62a01599",
+  "type": "essay",
+  "title": "(Bài tập DSA ĐVĐ) Bài 4: Cài đặt thuật toán",
+  "slug": "bai-tap-dsa-dvd-bai-4-cai-dat-thuat-toan",
+  "subjectSlug": "cau-truc-du-lieu-va-giai-thuat-1-1-26n06",
+  "description": "",
+  "contentHtml": "<h2>Bài 4: Cài đặt thuật toán</h2>\n\n<p><strong>Câu 1.</strong> Thực hiện các yêu cầu sau đây:</p>\n<ul>\n  <li>Trình bày ý tưởng của thuật toán sắp xếp Quicksort</li>\n  <li>Lập trình thuật toán Quicksort</li>\n</ul>\n\n<p><strong>Câu 2.</strong> Thực hiện các yêu cầu sau đây:</p>\n<ul>\n  <li>Trình bày ý tưởng của thuật toán sắp xếp HeapSort</li>\n  <li>Lập trình thuật toán Heapsort</li>\n</ul>\n\n<p><strong>Câu 3.</strong> Thực hiện các yêu cầu sau đây:</p>\n<ul>\n  <li>Trình bày ý tưởng của thuật toán sắp xếp MergeSort</li>\n  <li>Lập trình thuật toán MergeSort</li>\n</ul>\n\n<p><strong>Câu 4.</strong> Thực hiện các yêu cầu sau đây:</p>\n<ul>\n  <li>Trình bày ý tưởng của thuật toán sắp xếp chèn (InsertionSort)</li>\n  <li>Lập trình thuật toán sắp xếp chèn</li>\n</ul>\n\n<p><strong>Câu 5.</strong> Thực hiện các yêu cầu sau đây:</p>\n<ul>\n  <li>Trình bày ý tưởng của thuật toán sắp xếp chọn (SelectionSort)</li>\n  <li>Lập trình thuật toán sắp xếp chọn</li>\n</ul>\n\n<p><strong>Câu 6.</strong> Thực hiện các yêu cầu sau đây:</p>\n<ul>\n  <li>Trình bày ý tưởng của thuật toán sắp xếp nổi bọt (BubbleSort)</li>\n  <li>Lập trình thuật toán sắp xếp nổi bọt</li>\n</ul>\n\n<p><strong>Câu 7.</strong> Hãy lập trình viết hàm tìm kiếm nhị phân bằng đệ quy, tìm phần tử x trên mảng số nguyên a trong đoạn chỉ số từ L đến R, đã sắp xếp tăng dần theo nguyên mẫu hàm sau.</p>\n<pre><code>bool binary_search(int *a,int L,int R,int x);</code></pre>",
+  "sampleSolution": "",
+  "duration": 240,
+  "model": null,
+  "promptId": null,
+  "aiKeyId": null,
+  "isPublished": true,
+  "isDeleted": false,
+  "createdBy": {
+    "id": "6ab3d694415010bf620349e5",
+    "name": "Mai Ngọc Hùng Anh",
+    "email": "hunganh.okokok.0@gmail.com"
+  },
+  "createdAt": "2026-11-03T15:37:31.822Z",
+  "updatedAt": "2026-11-03T15:37:31.822Z"
+}
