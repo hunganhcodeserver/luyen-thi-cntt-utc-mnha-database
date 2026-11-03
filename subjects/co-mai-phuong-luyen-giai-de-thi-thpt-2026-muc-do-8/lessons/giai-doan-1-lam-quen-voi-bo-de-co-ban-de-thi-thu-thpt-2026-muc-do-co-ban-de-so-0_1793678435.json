@@ -1,0 +1,1313 @@
+{
+  "type": "quiz",
+  "lessonId": "6ae95c63d12e5592d07ba0df",
+  "title": "(GIAI ĐOẠN 1: LÀM QUEN VỚI BỘ ĐỀ CƠ BẢN) Đề thi thử THPT 2026 - Mức độ cơ bản: Đề số 01",
+  "slug": "giai-doan-1-lam-quen-voi-bo-de-co-ban-de-thi-thu-thpt-2026-muc-do-co-ban-de-so-0",
+  "subjectSlug": "co-mai-phuong-luyen-giai-de-thi-thpt-2026-muc-do-8",
+  "duration": 60,
+  "promptId": null,
+  "analysisAiKeyIds": [],
+  "isPublished": true,
+  "isDeleted": false,
+  "createdBy": {
+    "id": "6ae951541fd5f2f73453e2e6",
+    "name": "Mai Ngọc Hùng Anh THPT",
+    "email": "liwih62752@macsnipe.com"
+  },
+  "createdAt": "2026-11-03T04:00:35.544Z",
+  "updatedAt": "2026-11-03T04:00:35.544Z",
+  "contentHtml": null,
+  "quiz": {
+    "version": 1,
+    "maxScore": 10,
+    "parts": {
+      "mcq": {
+        "pointsPerQuestion": 0.25,
+        "questions": [
+          {
+            "startLine": 2,
+            "text": "Chọn đáp án phù hợp nhất cho chỗ trống số (1).",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "disturbances"
+              },
+              {
+                "key": "B",
+                "text": "disruptions"
+              },
+              {
+                "key": "C",
+                "text": "distortions"
+              },
+              {
+                "key": "D",
+                "text": "disabilities"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Ngữ cảnh: mưa lũ gây ra <b>disruptions</b> (sự gián đoạn) cho cuộc sống hằng ngày.",
+            "multi": false,
+            "id": "mcq-1",
+            "clusterId": "mcq-c1"
+          },
+          {
+            "startLine": 9,
+            "text": "Chọn đáp án phù hợp nhất cho chỗ trống số (2).",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "turn out"
+              },
+              {
+                "key": "B",
+                "text": "put out"
+              },
+              {
+                "key": "C",
+                "text": "shut out"
+              },
+              {
+                "key": "D",
+                "text": "bring out"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "<b>shut out</b>: ngăn chặn cái gì xâm nhập vào một nơi (ngăn nước lũ).",
+            "multi": false,
+            "id": "mcq-2",
+            "clusterId": "mcq-c1"
+          },
+          {
+            "startLine": 16,
+            "text": "Chọn đáp án phù hợp nhất cho chỗ trống số (3).",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "where"
+              },
+              {
+                "key": "B",
+                "text": "who"
+              },
+              {
+                "key": "C",
+                "text": "whom"
+              },
+              {
+                "key": "D",
+                "text": "whose"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "<b>whose</b> thay cho tính từ sở hữu trong mệnh đề quan hệ: residents whose homes...",
+            "multi": false,
+            "id": "mcq-3",
+            "clusterId": "mcq-c1"
+          },
+          {
+            "startLine": 23,
+            "text": "Chọn đáp án phù hợp nhất cho chỗ trống số (4).",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "whereas"
+              },
+              {
+                "key": "B",
+                "text": "so that"
+              },
+              {
+                "key": "C",
+                "text": "unless"
+              },
+              {
+                "key": "D",
+                "text": "provided that"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "<b>so that</b>: để mà (chỉ mục đích).",
+            "multi": false,
+            "id": "mcq-4",
+            "clusterId": "mcq-c1"
+          },
+          {
+            "startLine": 30,
+            "text": "Chọn đáp án phù hợp nhất cho chỗ trống số (5).",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "amount"
+              },
+              {
+                "key": "B",
+                "text": "degree"
+              },
+              {
+                "key": "C",
+                "text": "number"
+              },
+              {
+                "key": "D",
+                "text": "volume"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "<b>a large number of</b> + danh từ đếm được số nhiều (shops, markets, schools).",
+            "multi": false,
+            "id": "mcq-5",
+            "clusterId": "mcq-c1"
+          },
+          {
+            "startLine": 37,
+            "text": "Chọn đáp án phù hợp nhất cho chỗ trống số (6).",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "poor drainage systems"
+              },
+              {
+                "key": "B",
+                "text": "systems poor drainage"
+              },
+              {
+                "key": "C",
+                "text": "drainage poor systems"
+              },
+              {
+                "key": "D",
+                "text": "poor systems drainage"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "Trật tự từ: tính từ + danh từ phụ + danh từ chính → <b>poor drainage systems</b>.",
+            "multi": false,
+            "id": "mcq-6",
+            "clusterId": "mcq-c1"
+          },
+          {
+            "startLine": 45,
+            "text": "Chọn đáp án phù hợp nhất cho chỗ trống số (7).",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "cooperate"
+              },
+              {
+                "key": "B",
+                "text": "cooperatively"
+              },
+              {
+                "key": "C",
+                "text": "cooperative"
+              },
+              {
+                "key": "D",
+                "text": "cooperation"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "Sau động từ build cần danh từ song hành với harmony → <b>cooperation</b>.",
+            "multi": false,
+            "id": "mcq-7",
+            "clusterId": "mcq-c2"
+          },
+          {
+            "startLine": 52,
+            "text": "Chọn đáp án phù hợp nhất cho chỗ trống số (8).",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Put"
+              },
+              {
+                "key": "B",
+                "text": "Lay"
+              },
+              {
+                "key": "C",
+                "text": "Set"
+              },
+              {
+                "key": "D",
+                "text": "Bring"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "Collocation: <b>set rules</b> (đặt ra quy tắc).",
+            "multi": false,
+            "id": "mcq-8",
+            "clusterId": "mcq-c2"
+          },
+          {
+            "startLine": 59,
+            "text": "Chọn đáp án phù hợp nhất cho chỗ trống số (9).",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "other"
+              },
+              {
+                "key": "B",
+                "text": "a few"
+              },
+              {
+                "key": "C",
+                "text": "a little"
+              },
+              {
+                "key": "D",
+                "text": "each"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "<b>each</b> + danh từ đếm được số ít (child).",
+            "multi": false,
+            "id": "mcq-9",
+            "clusterId": "mcq-c2"
+          },
+          {
+            "startLine": 66,
+            "text": "Chọn đáp án phù hợp nhất cho chỗ trống số (10).",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "distinctions"
+              },
+              {
+                "key": "B",
+                "text": "disputes"
+              },
+              {
+                "key": "C",
+                "text": "violations"
+              },
+              {
+                "key": "D",
+                "text": "demands"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "<b>disputes</b>: các cuộc tranh cãi; hợp nghĩa với việc hiểu cảm xúc của nhau.",
+            "multi": false,
+            "id": "mcq-10",
+            "clusterId": "mcq-c2"
+          },
+          {
+            "startLine": 73,
+            "text": "Chọn đáp án phù hợp nhất cho chỗ trống số (11).",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "for"
+              },
+              {
+                "key": "B",
+                "text": "from"
+              },
+              {
+                "key": "C",
+                "text": "of"
+              },
+              {
+                "key": "D",
+                "text": "with"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "<b>compare somebody with somebody</b>: so sánh ai với ai.",
+            "multi": false,
+            "id": "mcq-11",
+            "clusterId": "mcq-c2"
+          },
+          {
+            "startLine": 80,
+            "text": "Chọn đáp án phù hợp nhất cho chỗ trống số (12).",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "showed"
+              },
+              {
+                "key": "B",
+                "text": "show"
+              },
+              {
+                "key": "C",
+                "text": "have shown"
+              },
+              {
+                "key": "D",
+                "text": "showing"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "Rút gọn mệnh đề quan hệ chủ động: which show → <b>showing</b>.",
+            "multi": false,
+            "id": "mcq-12",
+            "clusterId": "mcq-c2"
+          },
+          {
+            "startLine": 87,
+            "text": "Mark the letter A, B, C or D to indicate the best arrangement of utterances to make a meaningful exchange.<br>a. Huy: Yeah, I have. I’m thinking of donating some clothes and food this weekend.<br>b. Linh: From my perspective, helping together makes our support much more meaningful.<br>c. Linh: That’s great! I plan to send some money through a local charity.<br>d. Linh: Have you seen the news about the floods in the central region? It’s heartbreaking.<br>e. Huy: Good idea. We could even organise a small donation drive at school.",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "b – e – d – a – c"
+              },
+              {
+                "key": "B",
+                "text": "d – a – c – e – b"
+              },
+              {
+                "key": "C",
+                "text": "c – e – d – a – b"
+              },
+              {
+                "key": "D",
+                "text": "b – a – c – e – d"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Mở đầu bằng câu hỏi (d), Huy trả lời (a), Linh đáp (c), Huy đề xuất (e), Linh kết luận (b).",
+            "multi": false,
+            "id": "mcq-13",
+            "clusterId": null
+          },
+          {
+            "startLine": 94,
+            "text": "Mark the letter A, B, C or D to indicate the best arrangement of sentences to make a meaningful text.<br>a. For some, the admiration of strangers replaces genuine connection, creating a quiet sense of emptiness behind the screen.<br>b. The visibility offered by social media turns ordinary moments into performances, shaping how people present themselves to the world.<br>c. Online fame has become a modern obsession, attracting countless individuals eager for recognition.<br>d. Fame achieved through a viral post can disappear as quickly as it arrives, leaving many chasing the next burst of attention.<br>e. What seems like success, therefore, often reveals the fragility of validation built on fleeting applause.",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "d – a – b – e – c"
+              },
+              {
+                "key": "B",
+                "text": "c – d – e – a – b"
+              },
+              {
+                "key": "C",
+                "text": "d – b – e – c – a"
+              },
+              {
+                "key": "D",
+                "text": "c – b – d – a – e"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "c giới thiệu chủ đề → b → d → a → e (kết luận với \"therefore\").",
+            "multi": false,
+            "id": "mcq-14",
+            "clusterId": null
+          },
+          {
+            "startLine": 101,
+            "text": "Mark the letter A, B, C or D to indicate the best arrangement of sentences to make a meaningful letter.<br>Dear Green Paw Animal Shelter,<br>a. Could you please share more details about the volunteer requirements and available schedules?<br>b. Caring for abandoned animals has always been a cause close to my heart, and your shelter’s work truly inspires me.<br>c. My previous experience at a local rescue centre taught me how patience and consistency can make frightened animals trust again.<br>d. Your guidance will help me prepare properly before joining your dedicated team.<br>e. Having some free time this summer, I would love to contribute by helping with daily care or adoption events.<br>Best regards,<br>Lan Nguyen",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "b – e – c – a – d"
+              },
+              {
+                "key": "B",
+                "text": "e – d – c – b – a"
+              },
+              {
+                "key": "C",
+                "text": "c – b – d – e – a"
+              },
+              {
+                "key": "D",
+                "text": "a – b – e – d – c"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "Bày tỏ cảm hứng (b) → mong muốn đóng góp (e) → kinh nghiệm (c) → hỏi thông tin (a) → mong được hướng dẫn (d).",
+            "multi": false,
+            "id": "mcq-15",
+            "clusterId": null
+          },
+          {
+            "startLine": 108,
+            "text": "Mark the letter A, B, C or D to indicate the best arrangement of utterances to make a meaningful exchange.<br>a. Mai: If everyone reduced single-use plastic, the difference would be huge.<br>b. Mai: I can’t believe how much plastic ends up in the river every day.<br>c. Huy: Yeah, it’s scary. Even small bottles we throw away can harm wildlife.",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "b – a – c"
+              },
+              {
+                "key": "B",
+                "text": "a – c – b"
+              },
+              {
+                "key": "C",
+                "text": "a – b – c"
+              },
+              {
+                "key": "D",
+                "text": "b – c – a"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "Mai nêu vấn đề (b) → Huy đồng tình (c) → Mai đưa giải pháp (a).",
+            "multi": false,
+            "id": "mcq-16",
+            "clusterId": null
+          },
+          {
+            "startLine": 115,
+            "text": "Mark the letter A, B, C or D to indicate the best arrangement of sentences to make a meaningful text.<br>a. The process demanded sensitivity and teamwork, as every voice needed to be heard and respected.<br>b. Working on a project against bullying at school was one of the most eye-opening experiences I’ve ever had.<br>c. Through each discussion, I realised that genuine change begins with empathy rather than punishment.<br>d. The project not only raised awareness but also reshaped the way we treat one another in daily life.<br>e. Our team designed workshops where students shared stories that revealed how subtle cruelty can damage confidence.",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "e – d – c – a – b"
+              },
+              {
+                "key": "B",
+                "text": "b – e – a – c – d"
+              },
+              {
+                "key": "C",
+                "text": "e – a – c – b – d"
+              },
+              {
+                "key": "D",
+                "text": "b – c – a – d – e"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Giới thiệu dự án (b) → hoạt động (e) → yêu cầu của quá trình (a) → nhận ra (c) → kết quả (d).",
+            "multi": false,
+            "id": "mcq-17",
+            "clusterId": null
+          },
+          {
+            "startLine": 123,
+            "text": "Chọn đáp án phù hợp nhất cho chỗ trống số (18).",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "the normalisation of disrespect and aggression"
+              },
+              {
+                "key": "B",
+                "text": "when disrespect and aggression are normalised"
+              },
+              {
+                "key": "C",
+                "text": "often normalises disrespect and aggression"
+              },
+              {
+                "key": "D",
+                "text": "which can normalise disrespect and aggression"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "\"What seems like a harmless expression of personality\" là mệnh đề danh từ làm chủ ngữ → cần động từ chia thì: <b>often normalises</b>.",
+            "multi": false,
+            "id": "mcq-18",
+            "clusterId": "mcq-c3"
+          },
+          {
+            "startLine": 130,
+            "text": "Chọn đáp án phù hợp nhất cho chỗ trống số (19).",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "teachers, parents, and digital platforms struggle to confront this reality"
+              },
+              {
+                "key": "B",
+                "text": "the struggle to confront this reality from teachers, parents, and digital platforms"
+              },
+              {
+                "key": "C",
+                "text": "the confrontation with teachers, parents, and digital platforms is a real struggle"
+              },
+              {
+                "key": "D",
+                "text": "a reality that teachers, parents, and digital platforms struggle to confront"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "Sau dấu gạch ngang cần cụm danh từ làm ngữ đồng vị: <b>a reality that ... struggle to confront</b>.",
+            "multi": false,
+            "id": "mcq-19",
+            "clusterId": "mcq-c3"
+          },
+          {
+            "startLine": 137,
+            "text": "Chọn đáp án phù hợp nhất cho chỗ trống số (20).",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "they rarely consider the consequences their words may bring"
+              },
+              {
+                "key": "B",
+                "text": "the consequences of their words are rarely brought for consideration"
+              },
+              {
+                "key": "C",
+                "text": "their words that are rarely considered may not bring consequences"
+              },
+              {
+                "key": "D",
+                "text": "they may bring the consequences of their words that are rarely considered"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "Mệnh đề chính có chủ ngữ \"they\" chỉ young people, đúng ngữ nghĩa và liên kết.",
+            "multi": false,
+            "id": "mcq-20",
+            "clusterId": "mcq-c3"
+          },
+          {
+            "startLine": 144,
+            "text": "Chọn đáp án phù hợp nhất cho chỗ trống số (21).",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "people’s sense of the truth can be dulled when they hear too many hurtful words"
+              },
+              {
+                "key": "B",
+                "text": "hearing words that hurt too often can dull people’s sense of how they can be truthful"
+              },
+              {
+                "key": "C",
+                "text": "people are hurt when their sense of truthful words is dulled while hearing them"
+              },
+              {
+                "key": "D",
+                "text": "the truth is that hearing it too often dulls people’s sense of how words can hurt"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "\"it\" chỉ swearing; câu phản bác trực tiếp quan điểm ở mệnh đề trước.",
+            "multi": false,
+            "id": "mcq-21",
+            "clusterId": "mcq-c3"
+          },
+          {
+            "startLine": 151,
+            "text": "Chọn đáp án phù hợp nhất cho chỗ trống số (22).",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "the defining online culture is built on civility, empathy, and responsibility"
+              },
+              {
+                "key": "B",
+                "text": "an online culture is built by defining civility, empathy, and responsibility"
+              },
+              {
+                "key": "C",
+                "text": "build an online culture defined by civility, empathy, and responsibility"
+              },
+              {
+                "key": "D",
+                "text": "while defining an online culture built on civility, empathy, and responsibility"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "Cấu trúc <b>help somebody (to) do something</b> → động từ nguyên mẫu: build.",
+            "multi": false,
+            "id": "mcq-22",
+            "clusterId": "mcq-c3"
+          },
+          {
+            "startLine": 159,
+            "text": "Robot footballers can do all of the following EXCEPT ________.",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "scoring goals"
+              },
+              {
+                "key": "B",
+                "text": "passing the ball"
+              },
+              {
+                "key": "C",
+                "text": "dribbling the ball"
+              },
+              {
+                "key": "D",
+                "text": "competing against humans"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "Đoạn 1: robot có thể rê bóng, chuyền bóng, ghi bàn nhưng \"not yet ready to compete against human professionals\".",
+            "multi": false,
+            "id": "mcq-23",
+            "clusterId": "mcq-c4"
+          },
+          {
+            "startLine": 166,
+            "text": "The word <b>they</b> in paragraph 1 refers to ________.",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "mistakes"
+              },
+              {
+                "key": "B",
+                "text": "skills"
+              },
+              {
+                "key": "C",
+                "text": "robot footballers"
+              },
+              {
+                "key": "D",
+                "text": "human professionals"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "\"they\" thay cho <b>robot footballers</b>.",
+            "multi": false,
+            "id": "mcq-24",
+            "clusterId": "mcq-c4"
+          },
+          {
+            "startLine": 173,
+            "text": "The word <b>imitating</b> in paragraph 2 is closest in meaning to ________.",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "revising"
+              },
+              {
+                "key": "B",
+                "text": "copying"
+              },
+              {
+                "key": "C",
+                "text": "assessing"
+              },
+              {
+                "key": "D",
+                "text": "enhancing"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "imitate (bắt chước) = <b>copy</b>.",
+            "multi": false,
+            "id": "mcq-25",
+            "clusterId": "mcq-c4"
+          },
+          {
+            "startLine": 180,
+            "text": "The word <b>hazardous</b> in paragraph 3 is OPPOSITE in meaning to ________.",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "secure"
+              },
+              {
+                "key": "B",
+                "text": "complete"
+              },
+              {
+                "key": "C",
+                "text": "dangerous"
+              },
+              {
+                "key": "D",
+                "text": "unbearable"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "hazardous (nguy hiểm) &gt;&lt; <b>secure</b> (an toàn).",
+            "multi": false,
+            "id": "mcq-26",
+            "clusterId": "mcq-c4"
+          },
+          {
+            "startLine": 187,
+            "text": "Which of the following best paraphrases the underlined sentence in paragraph 4?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Many supporters think that robots bring even greater enthusiasm and sudden changes to the game than human players do."
+              },
+              {
+                "key": "B",
+                "text": "Many fans believe that machines already show the same emotion and surprise found in human football."
+              },
+              {
+                "key": "C",
+                "text": "Many people claim that human football draws its energy and unexpected moments from robots."
+              },
+              {
+                "key": "D",
+                "text": "Many fans believe robots can't match the emotional depth and unexpected nature of football played by humans."
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "Câu gốc: robot không bao giờ thay thế được đam mê và sự khó đoán của bóng đá con người.",
+            "multi": false,
+            "id": "mcq-27",
+            "clusterId": "mcq-c4"
+          },
+          {
+            "startLine": 194,
+            "text": "Which of the following is TRUE according to the passage?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "In competitions like RoboCup, robot footballers can compete against human footballers."
+              },
+              {
+                "key": "B",
+                "text": "All robot footballers are already equipped with cameras and algorithms like humans."
+              },
+              {
+                "key": "C",
+                "text": "The more advanced robot footballers are, the more they threaten human footballers."
+              },
+              {
+                "key": "D",
+                "text": "Human footballers possess inherent abilities that are hard to programme into robots."
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "A sai (RoboCup là cuộc thi robot); B sai (\"Some models\"); C sai (robot có thể là đối tác tập luyện); D đúng theo đoạn 2 và 4.",
+            "multi": false,
+            "id": "mcq-28",
+            "clusterId": "mcq-c4"
+          },
+          {
+            "startLine": 201,
+            "text": "Which paragraph explores how robots can be used apart from football?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Paragraph 3"
+              },
+              {
+                "key": "B",
+                "text": "Paragraph 1"
+              },
+              {
+                "key": "C",
+                "text": "Paragraph 4"
+              },
+              {
+                "key": "D",
+                "text": "Paragraph 2"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "Đoạn 3 nói về cứu hộ và các công việc công nghiệp.",
+            "multi": false,
+            "id": "mcq-29",
+            "clusterId": "mcq-c4"
+          },
+          {
+            "startLine": 208,
+            "text": "Which paragraph mentions a special competition?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Paragraph 4"
+              },
+              {
+                "key": "B",
+                "text": "Paragraph 2"
+              },
+              {
+                "key": "C",
+                "text": "Paragraph 1"
+              },
+              {
+                "key": "D",
+                "text": "Paragraph 3"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Đoạn 2 nhắc đến RoboCup, một cuộc thi robot quốc tế.",
+            "multi": false,
+            "id": "mcq-30",
+            "clusterId": "mcq-c4"
+          },
+          {
+            "startLine": 216,
+            "text": "According to paragraph 1, experts have warned that teenagers ________.",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "are addicted to communicating by using text messages"
+              },
+              {
+                "key": "B",
+                "text": "find it challenging to memorise words learned at school"
+              },
+              {
+                "key": "C",
+                "text": "can’t get a job easily because their vocabulary range is limited"
+              },
+              {
+                "key": "D",
+                "text": "become withdrawn and lack motivation to talk to others"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "\"may face unemployment in the future because their everyday vocabulary is very limited\".",
+            "multi": false,
+            "id": "mcq-31",
+            "clusterId": "mcq-c5"
+          },
+          {
+            "startLine": 223,
+            "text": "The word <b>inarticulate</b> in paragraph 1 can be best replaced by ________.",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "too slow to react"
+              },
+              {
+                "key": "B",
+                "text": "bad at calculating"
+              },
+              {
+                "key": "C",
+                "text": "unable to express thoughts clearly"
+              },
+              {
+                "key": "D",
+                "text": "easy to be influenced by others"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "inarticulate (không diễn đạt rõ ràng) = unable to express thoughts clearly.",
+            "multi": false,
+            "id": "mcq-32",
+            "clusterId": "mcq-c5"
+          },
+          {
+            "startLine": 230,
+            "text": "The word <b>they</b> in paragraph 2 refers to ________.",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "words"
+              },
+              {
+                "key": "B",
+                "text": "cameras"
+              },
+              {
+                "key": "C",
+                "text": "young people"
+              },
+              {
+                "key": "D",
+                "text": "celebrities"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "\"they\" chỉ <b>young people</b> ở câu trước.",
+            "multi": false,
+            "id": "mcq-33",
+            "clusterId": "mcq-c5"
+          },
+          {
+            "startLine": 237,
+            "text": "Jean Gross intends to send students with video cameras into workplaces to ________.",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "observe how workers use language"
+              },
+              {
+                "key": "B",
+                "text": "record short films for school projects"
+              },
+              {
+                "key": "C",
+                "text": "interview employees about their jobs"
+              },
+              {
+                "key": "D",
+                "text": "learn how to act in professional settings"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "\"so they can record how professionals use language and report back to their classmates\".",
+            "multi": false,
+            "id": "mcq-34",
+            "clusterId": "mcq-c5"
+          },
+          {
+            "startLine": 244,
+            "text": "Which of the following best summarises paragraph 3?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Tony McEnery’s study found that teenagers prefer using slang words, all of which are not able to be understood by the older generation."
+              },
+              {
+                "key": "B",
+                "text": "Research by Tony McEnery showed that teenagers use a very limited set of words and invent slang terms unfamiliar to adults."
+              },
+              {
+                "key": "C",
+                "text": "Tony McEnery’s research found that teenagers use a small number of common words in their speech and create exciting expressions."
+              },
+              {
+                "key": "D",
+                "text": "According to Tony McEnery, teenagers' speech shows a strong reliance on common words, with few slang expressions."
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Đoạn 3: thanh thiếu niên dùng vốn từ rất hạn chế và có tiếng lóng mà hầu hết người lớn không biết.",
+            "multi": false,
+            "id": "mcq-35",
+            "clusterId": "mcq-c5"
+          },
+          {
+            "startLine": 251,
+            "text": "Which of the following best paraphrases the underlined sentence in paragraph 4?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Not only does John Bald think parents and teachers influence this behaviour, but he also claims it creates the anti-school culture itself."
+              },
+              {
+                "key": "B",
+                "text": "John Bald argues that the anti-school culture controls the behaviour that parents and teachers struggle to confront."
+              },
+              {
+                "key": "C",
+                "text": "Were this behaviour less obvious, John Bald suggests that parents and teachers would not have to deal with the anti-school attitude."
+              },
+              {
+                "key": "D",
+                "text": "John Bald notes that opposition to schooling is evident in this behaviour, which parents and teachers should tackle."
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "Các phương án còn lại sai ngữ nghĩa hoặc đặt ra giả định không có trong câu gốc.",
+            "multi": false,
+            "id": "mcq-36",
+            "clusterId": "mcq-c5"
+          },
+          {
+            "startLine": 258,
+            "text": "Where in the passage does the following sentence best fit?<br><b>However, not all experts agree.</b>",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "(III)"
+              },
+              {
+                "key": "B",
+                "text": "(II)"
+              },
+              {
+                "key": "C",
+                "text": "(IV)"
+              },
+              {
+                "key": "D",
+                "text": "(I)"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "Trước (IV) là quan điểm tiêu cực của John Bald, sau (IV) là quan điểm tích cực của David Crystal nên cần câu chuyển ý tương phản.",
+            "multi": false,
+            "id": "mcq-37",
+            "clusterId": "mcq-c5"
+          },
+          {
+            "startLine": 265,
+            "text": "Which of the following is NOT mentioned in the passage?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "The campaign launched by Miss Gross aims at helping young people who struggle to use formal language."
+              },
+              {
+                "key": "B",
+                "text": "According to Miss Gross, a multifaceted approach will help teenagers to use language effectively."
+              },
+              {
+                "key": "C",
+                "text": "Tony McEnery was taken aback to discover some unusual slang words invented by teenagers."
+              },
+              {
+                "key": "D",
+                "text": "David Crystal is at loggerheads with others on the understanding and assessment of teenagers' language abilities."
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "Bài chỉ nói McEnery phát hiện ra tiếng lóng, không nói ông \"kinh ngạc\".",
+            "multi": false,
+            "id": "mcq-38",
+            "clusterId": "mcq-c5"
+          },
+          {
+            "startLine": 272,
+            "text": "Which of the following can be inferred from the passage?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "The long-term impact of text messages on teen language has yet to be comprehended."
+              },
+              {
+                "key": "B",
+                "text": "The anti-school culture is seen as a normal aspect of teenagers' development."
+              },
+              {
+                "key": "C",
+                "text": "Society tend to undervalue linguistic skills outside conventional or formal standards."
+              },
+              {
+                "key": "D",
+                "text": "Teens should be exposed to formal language daily so that they can talk properly."
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "Quan điểm của David Crystal cho thấy kỹ năng ngôn ngữ ngoài chuẩn trang trọng thường bị đánh giá thấp.",
+            "multi": false,
+            "id": "mcq-39",
+            "clusterId": "mcq-c5"
+          },
+          {
+            "startLine": 279,
+            "text": "Which of the following best summarises the passage?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Experts caution that teenagers' limited vocabulary risks unemployment, prompting Jean Gross to advocate for broader language use in education and at home."
+              },
+              {
+                "key": "B",
+                "text": "Experts warn that teens’ limited vocabulary may harm job prospects, leading to a language campaign and debates among experts over rebellion or creativity in teen speech."
+              },
+              {
+                "key": "C",
+                "text": "Experts warn that teenagers' limited 800-word everyday online vocabulary will negatively affect their job prospects, prompting an effort to teach them formal language skills."
+              },
+              {
+                "key": "D",
+                "text": "Teenagers use a slang-filled \"teenspeak\" with friends to rebel against formal education, though some experts argue this shows great creative language flexibility."
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Đáp án B bao quát cả vấn đề, chiến dịch của Jean Gross và các tranh luận giữa các chuyên gia.",
+            "multi": false,
+            "id": "mcq-40",
+            "clusterId": "mcq-c5"
+          }
+        ],
+        "clusters": [
+          {
+            "id": "mcq-c1",
+            "from": 1,
+            "to": 6,
+            "text": "<i>Read the following piece of news and mark the letter A, B, C, or D to indicate the correct option that best fits each of the numbered blanks from 1 to 6.</i><br>Heavy rains have hit Hanoi hard, creating 122 flooding spots that have paralysed 30 streets. The downpour brought (1) ________ to daily life, and traffic in many districts came to a standstill. While some people tried to (2) ________ floodwaters with sandbags and wooden boards, others waded through deep water to reach safety. There were residents (3) ________ homes were soaked and vehicles that were trapped in waterlogged roads. Authorities are working to pump out water and clear the streets, which had been turned into shallow rivers, (4) ________ normal life can resume. A large (5) ________ of shops, markets, and schools in the worst-hit areas were forced to close or move. This extreme weather, which wreaked havoc across the city, highlights how vulnerable urban areas remain to heavy rains and (6) ________.",
+            "image": null,
+            "questionIds": [
+              "mcq-1",
+              "mcq-2",
+              "mcq-3",
+              "mcq-4",
+              "mcq-5",
+              "mcq-6"
+            ]
+          },
+          {
+            "id": "mcq-c2",
+            "from": 7,
+            "to": 12,
+            "text": "<i>Read the following leaflet and mark the letter A, B, C, or D to indicate the correct option that best fits each of the numbered blanks from 7 to 12.</i><br><b>The Secret to Raising Siblings Who Get Along</b><br>Raising children who live under the same roof can be joyful—but also challenging. Here are some tips that help build (7) ________ and harmony among siblings.<br>● Encourage teamwork through shared tasks, such as cleaning or cooking together, which helps them see each other as partners rather than rivals.<br>● (8) ________ clear family rules so everyone knows what is acceptable and what isn’t. When boundaries are consistent, children feel more secure.<br>● Teach empathy, reminding (9) ________ child to listen before reacting. Understanding one another’s feelings can reduce (10) ________.<br>● Avoid comparing one child (11) ________ another. Instead, celebrate individual strengths so no one feels left out or undervalued.<br>● Give siblings personal space and time with parents. Feeling equally valued prevents jealousy.<br>● Offer praise for kind gestures—acts (12) ________ care and patience—so that positive behaviour becomes a family habit.<br>With patience and guidance, peace at home can truly last.",
+            "image": null,
+            "questionIds": [
+              "mcq-7",
+              "mcq-8",
+              "mcq-9",
+              "mcq-10",
+              "mcq-11",
+              "mcq-12"
+            ]
+          },
+          {
+            "id": "mcq-c3",
+            "from": 18,
+            "to": 22,
+            "text": "<i>Read the following passage and mark the letter A, B, C, or D to indicate the correct option that best fits each of the numbered blanks from 18 to 22.</i><br>Foul language on social media has become a growing concern, especially among young users whose online presence reflects both freedom and impulsiveness. Many teenagers, driven by a desire to sound bold or humorous, adopt harsh words without realising how they shape communication norms. What seems like a harmless expression of personality (18) ________. The internet, a space once celebrated for creativity and connection, is now also a stage where offensive remarks gain attention faster than thoughtful ideas—(19) ________.<br>When young people post comments while angry or amused, (20) ________. Because online conversations happen instantly, emotion replaces reflection, and exaggeration replaces empathy. Using vulgar language, though intended to impress peers, can lead to misunderstanding or even cyberbullying. While some say that swearing just makes speech funnier or stronger, (21) ________. Encouraging digital manners, therefore, is not censorship but education.<br>Schools, which play a central role in shaping behaviour, should integrate digital ethics into everyday learning. By combining awareness campaigns, discussions, and peer projects, educators can show that respect and expression are not opposites but partners. The goal is not to silence individuality but to guide it—helping students, both creators and consumers of content, (22) ________.",
+            "image": null,
+            "questionIds": [
+              "mcq-18",
+              "mcq-19",
+              "mcq-20",
+              "mcq-21",
+              "mcq-22"
+            ]
+          },
+          {
+            "id": "mcq-c4",
+            "from": 23,
+            "to": 30,
+            "text": "<i>Read the following passage and mark the letter A, B, C, or D to indicate the correct answer to each of the questions from 23 to 30.</i><br>Football, the world’s most beloved sport, is entering a new era with the development of robot players. Engineers and scientists are creating advanced machines that can dribble, pass, and even score goals. These robots use artificial intelligence (AI) to learn from their mistakes and improve their skills over time. While <b>they</b> are not yet ready to compete against human professionals, robot footballers are becoming impressively skilled, raising questions about the future of the sport.<br>One of the main difficulties in creating robot footballers lies in <b>imitating</b> human agility and quick thinking. People can respond instantly to surprises on the field, whereas robots depend on sensors and programmed instructions. Even so, progress is being made by groups such as RoboCup, an international robotics competition. Their machines can now cooperate, form strategies, and execute basic plays. Some models even use cameras and advanced software to track the ball and anticipate its direction—similar to how human players react.<br>Robotic footballers could transform the sport in several ways. They may serve as training partners, offering athletes a tireless and consistent opponent. In the future, fully robotic tournaments could emerge, where machines compete in fast-paced matches without human restrictions. The same technology could also support rescue missions and industrial tasks, allowing robots to move through <b>hazardous</b> or uneven areas safely.<br><u>Still, many fans argue that robots could never replace the passion and unpredictability of human football.</u> The sport thrives on emotion, creativity, and the human element - things machines cannot imitate. Still, robot footballers are an exciting technological achievement. Whether as training tools, entertainment, or a new kind of competition, they are set to become an important part of football’s future.",
+            "image": null,
+            "questionIds": [
+              "mcq-23",
+              "mcq-24",
+              "mcq-25",
+              "mcq-26",
+              "mcq-27",
+              "mcq-28",
+              "mcq-29",
+              "mcq-30"
+            ]
+          },
+          {
+            "id": "mcq-c5",
+            "from": 31,
+            "to": 40,
+            "text": "<i>Read the following passage and mark the letter A, B, C, or D to indicate the correct answer to each of the questions from 31 to 40.</i><br>A new generation of teenagers who mostly talk online or through text messages may face unemployment in the future because their everyday vocabulary is very limited — around 800 words, experts warn. Studies show that although they actually know about 40,000 words, they prefer a kind of “teenspeak” used in messages, chat rooms, and social media. Communication specialist Jean Gross believes that such a narrow vocabulary could harm their job prospects. She is starting a national campaign to help young people make better use of their language skills. Her goal is to make sure students don’t fail at school or later at work simply because they are <b>inarticulate</b>. <b>(I)</b><br>Jean Gross explains that young people spend more time using short and quick digital messages, so they rarely practice formal communication. <b>(II)</b> She says, “We must teach them to see the difference between texting language and the proper English <b>they</b>’ll need for real success — 800 words aren’t enough for any career.” To support this, she plans to send students with video cameras into workplaces so they can record how professionals use language and report back to their classmates. She also encourages parents to reduce their children’s TV time and replace it with real conversations.<br>Her worries came after research by Professor Tony McEnery, who studied 10 million spoken words and 100,000 words from teenagers’ blogs. He found that teens use their top 20 words in one-third of all their speech, along with slang unknown to most adults — such as “chenzed” (tired), “spong” (silly), and “lol” (laugh out loud).<br><b>(III)</b> According to language consultant John Bald, this limited use of vocabulary is not accidental but a kind of rebellion — teenagers, he explains, tend to simplify their language to fit in with friends and distance themselves from formal education. <u>He adds that this behaviour reflects a wider “anti-school” attitude that parents and teachers must address.</u> <b>(IV)</b> Linguist David Crystal argues that teenagers are, in fact, highly expressive and creative with words; their vocabulary is simply focused on subjects they care about, such as music, gaming, and social life. He believes this variation shows flexibility rather than laziness, proving that young people adapt language to suit their own world and identity.",
+            "image": null,
+            "questionIds": [
+              "mcq-31",
+              "mcq-32",
+              "mcq-33",
+              "mcq-34",
+              "mcq-35",
+              "mcq-36",
+              "mcq-37",
+              "mcq-38",
+              "mcq-39",
+              "mcq-40"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
