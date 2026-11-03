@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-03T03:14:17.221Z",
-  "total": 31,
+  "updatedAt": "2026-11-03T03:16:00.701Z",
+  "total": 32,
   "logs": [
     {
       "id": "6ac45a48c3fe67bf29ff941c",
@@ -640,6 +640,20 @@
       "ipAddress": "",
       "userAgent": "",
       "createdAt": "2026-11-03T03:14:17.092Z"
+    },
+    {
+      "id": "6ae951f0e61b177b95f0b12d",
+      "actor": "6ae951541fd5f2f73453e2e6",
+      "action": "update_layout",
+      "entity": "User",
+      "entityId": null,
+      "description": "",
+      "metadata": {
+        "logoChanged": true
+      },
+      "ipAddress": "",
+      "userAgent": "",
+      "createdAt": "2026-11-03T03:16:00.594Z"
     }
   ]
 }
