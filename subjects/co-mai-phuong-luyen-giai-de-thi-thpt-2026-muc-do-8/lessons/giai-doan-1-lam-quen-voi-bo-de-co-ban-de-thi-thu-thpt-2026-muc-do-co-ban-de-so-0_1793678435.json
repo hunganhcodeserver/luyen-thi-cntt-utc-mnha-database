@@ -9,13 +9,9 @@
   "analysisAiKeyIds": [],
   "isPublished": true,
   "isDeleted": false,
-  "createdBy": {
-    "id": "6ae951541fd5f2f73453e2e6",
-    "name": "Mai Ngọc Hùng Anh THPT",
-    "email": "liwih62752@macsnipe.com"
-  },
+  "createdBy": "6ae951541fd5f2f73453e2e6",
   "createdAt": "2026-11-03T04:00:35.544Z",
-  "updatedAt": "2026-11-03T04:00:35.544Z",
+  "updatedAt": "2026-11-03T04:00:36.810Z",
   "contentHtml": null,
   "quiz": {
     "version": 1,
@@ -1309,5 +1305,13 @@
         ]
       }
     }
-  }
+  },
+  "description": "",
+  "sampleSolution": "",
+  "order": 0,
+  "model": null,
+  "aiKeyId": null,
+  "updatedBy": null,
+  "deletedAt": null,
+  "deletedBy": null
 }
