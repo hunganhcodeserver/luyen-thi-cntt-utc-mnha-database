@@ -7,12 +7,12 @@
   "description": "",
   "parts": [
     {
-      "path": "subjects/nk2-gtbs680-t36-19h50-21h50/slides/ver-3-basic-lesson-2_1793694187-1.pptx",
+      "path": "subjects/nk2-gtbs680-t36-19h50-21h50/slides/ver-3-basic-lesson-2_1793696140-1.pptx",
       "enc": 22000620,
       "plain": 22000000
     },
     {
-      "path": "subjects/nk2-gtbs680-t36-19h50-21h50/slides/ver-3-basic-lesson-2_1793694187-2.pptx",
+      "path": "subjects/nk2-gtbs680-t36-19h50-21h50/slides/ver-3-basic-lesson-2_1793696140-2.pptx",
       "enc": 20965000,
       "plain": 20964380
     }
@@ -28,7 +28,7 @@
   "deletedAt": null,
   "deletedBy": null,
   "createdBy": "6ac1d25d7d8ec4035a2f1e84",
-  "updatedBy": "6ac1d25d7d8ec4035a2f1e84",
+  "updatedBy": "6ab3d694415010bf620349e5",
   "createdAt": "2026-11-03T08:26:23.896Z",
-  "updatedAt": "2026-11-03T08:26:23.896Z"
+  "updatedAt": "2026-11-03T08:58:24.149Z"
 }
