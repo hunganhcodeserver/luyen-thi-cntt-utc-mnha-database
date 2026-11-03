@@ -1,0 +1,698 @@
+{
+  "type": "quiz",
+  "lessonId": "6ae9588f29d59418060a96aa",
+  "title": "(Tuần số 1) 46-47. Thi Online: Tinh hoa Đọc hiểu (Buổi 2) - Đề vận dụng",
+  "slug": "tuan-so-1-46-47-thi-online-tinh-hoa-doc-hieu-buoi-2-de-van-dung",
+  "subjectSlug": "vip90-co-mai-phuong-2026",
+  "duration": 70,
+  "promptId": null,
+  "analysisAiKeyIds": [],
+  "isPublished": true,
+  "isDeleted": false,
+  "createdBy": {
+    "id": "6ae951541fd5f2f73453e2e6",
+    "name": "Mai Ngọc Hùng Anh THPT",
+    "email": "liwih62752@macsnipe.com"
+  },
+  "createdAt": "2026-11-03T03:44:15.019Z",
+  "updatedAt": "2026-11-03T03:44:15.019Z",
+  "contentHtml": null,
+  "quiz": {
+    "version": 1,
+    "maxScore": 10,
+    "parts": {
+      "mcq": {
+        "pointsPerQuestion": 0.5,
+        "questions": [
+          {
+            "startLine": 2,
+            "text": "The word <b>themselves</b> in the text refers to ______.",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "students"
+              },
+              {
+                "key": "B",
+                "text": "employers"
+              },
+              {
+                "key": "C",
+                "text": "workshops"
+              },
+              {
+                "key": "D",
+                "text": "internships"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "Thông tin: <i>When students understand what employers expect, they can prepare themselves better.</i> → \"themselves\" chỉ \"students\".",
+            "multi": false,
+            "id": "mcq-1",
+            "clusterId": "mcq-c1"
+          },
+          {
+            "startLine": 9,
+            "text": "Which of the following is NOT mentioned in the text as one of the skills that helps students succeed?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Teamwork"
+              },
+              {
+                "key": "B",
+                "text": "Communication"
+              },
+              {
+                "key": "C",
+                "text": "Languages"
+              },
+              {
+                "key": "D",
+                "text": "Problem-solving"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "Bài đọc nêu <i>communication skills, teamwork, and problem-solving abilities</i>; không đề cập đến ngoại ngữ (Languages).",
+            "multi": false,
+            "id": "mcq-2",
+            "clusterId": "mcq-c1"
+          },
+          {
+            "startLine": 16,
+            "text": "The word <b>important</b> in the text is CLOSEST in meaning to ______.",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "plentiful"
+              },
+              {
+                "key": "B",
+                "text": "expensive"
+              },
+              {
+                "key": "C",
+                "text": "valuable"
+              },
+              {
+                "key": "D",
+                "text": "essential"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "important (quan trọng) = essential (thiết yếu, cực kỳ quan trọng).",
+            "multi": false,
+            "id": "mcq-3",
+            "clusterId": "mcq-c1"
+          },
+          {
+            "startLine": 24,
+            "text": "According to supporters, school uniforms ________",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "replace the need for school discipline"
+              },
+              {
+                "key": "B",
+                "text": "prevent all forms of bullying in schools"
+              },
+              {
+                "key": "C",
+                "text": "promote equality and a sense of belonging"
+              },
+              {
+                "key": "D",
+                "text": "completely remove academic pressure"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "Thông tin: <i>Supporters argue that uniforms promote equality by reducing visible differences in wealth and fashion. When students wear the same clothes, they may feel a stronger sense of belonging...</i>",
+            "multi": false,
+            "id": "mcq-4",
+            "clusterId": "mcq-c2"
+          },
+          {
+            "startLine": 31,
+            "text": "The word <b>reducing</b> in the text is OPPOSITE in meaning to ________.",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "declining"
+              },
+              {
+                "key": "B",
+                "text": "working"
+              },
+              {
+                "key": "C",
+                "text": "attending"
+              },
+              {
+                "key": "D",
+                "text": "increasing"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "reduce (giảm, làm giảm) &gt;&lt; increase (tăng, làm tăng).",
+            "multi": false,
+            "id": "mcq-5",
+            "clusterId": "mcq-c2"
+          },
+          {
+            "startLine": 38,
+            "text": "The word <b>their</b> in the text refers to ________.",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "teenagers"
+              },
+              {
+                "key": "B",
+                "text": "identities"
+              },
+              {
+                "key": "C",
+                "text": "school uniforms"
+              },
+              {
+                "key": "D",
+                "text": "some people"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "Thông tin: <i>...especially for teenagers who are developing their identities.</i> → \"their\" chỉ \"teenagers\".",
+            "multi": false,
+            "id": "mcq-6",
+            "clusterId": "mcq-c2"
+          },
+          {
+            "startLine": 46,
+            "text": "The word <b>fundamental</b> in the text is closest in meaning to ______.",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "simple"
+              },
+              {
+                "key": "B",
+                "text": "cheap"
+              },
+              {
+                "key": "C",
+                "text": "advanced"
+              },
+              {
+                "key": "D",
+                "text": "basic"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "fundamental (cơ bản, nền tảng, thiết yếu) = basic.",
+            "multi": false,
+            "id": "mcq-7",
+            "clusterId": "mcq-c3"
+          },
+          {
+            "startLine": 53,
+            "text": "According to the passage, when governments provide free education, they ________.",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "give disadvantaged students a fair chance"
+              },
+              {
+                "key": "B",
+                "text": "eliminate all economic and political problems"
+              },
+              {
+                "key": "C",
+                "text": "no longer need to manage public resources"
+              },
+              {
+                "key": "D",
+                "text": "require families to pay higher tuition fees"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "Thông tin: <i>When governments provide free schooling, they reduce social inequality and give disadvantaged students a fair chance to succeed.</i>",
+            "multi": false,
+            "id": "mcq-8",
+            "clusterId": "mcq-c3"
+          },
+          {
+            "startLine": 60,
+            "text": "Why do some people believe education should not always be free?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Because free education weakens participation"
+              },
+              {
+                "key": "B",
+                "text": "Because governments have limited resources"
+              },
+              {
+                "key": "C",
+                "text": "Because schooling supports national development"
+              },
+              {
+                "key": "D",
+                "text": "Because disadvantaged students do not value learning"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Thông tin: <i>some believe that education can be seen as a privilege due to limited public resources. Governments must allocate funding carefully...</i>",
+            "multi": false,
+            "id": "mcq-9",
+            "clusterId": "mcq-c3"
+          },
+          {
+            "startLine": 67,
+            "text": "The word <b>significant</b> in the text is opposite in meaning to ______.",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "small"
+              },
+              {
+                "key": "B",
+                "text": "considerable"
+              },
+              {
+                "key": "C",
+                "text": "enormous"
+              },
+              {
+                "key": "D",
+                "text": "national"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "significant (quan trọng, đáng kể) &gt;&lt; small (nhỏ).",
+            "multi": false,
+            "id": "mcq-10",
+            "clusterId": "mcq-c3"
+          },
+          {
+            "startLine": 75,
+            "text": "Which of the following best paraphrases the underlined sentence in paragraph 1?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Pupils are trained to remember ideas without expressing them on paper."
+              },
+              {
+                "key": "B",
+                "text": "Learners are guided to understand information slowly and analyze it deeply."
+              },
+              {
+                "key": "C",
+                "text": "Students are expected to question information instead of writing it down."
+              },
+              {
+                "key": "D",
+                "text": "Many students are taught to take in information fast and write it in exams."
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "Câu gốc: \"Nhiều người học được đào tạo để tiếp thu thông tin nhanh chóng và sao chép lại trên giấy.\" → D diễn đạt đúng. A, B, C đều thêm ý không có hoặc trái nghĩa với câu gốc.",
+            "multi": false,
+            "id": "mcq-11",
+            "clusterId": "mcq-c4"
+          },
+          {
+            "startLine": 82,
+            "text": "Which of the following is NOT mentioned as a sign of students who do not truly know how to learn?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Question ideas"
+              },
+              {
+                "key": "B",
+                "text": "Revise the night before exams"
+              },
+              {
+                "key": "C",
+                "text": "Underline key words"
+              },
+              {
+                "key": "D",
+                "text": "Memorize formulas"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "Thông tin: <i>They memorize formulas, underline key words, and revise the night before exams.</i> → B, C, D được đề cập. \"Questioning ideas\" là đặc điểm của cách học đúng, không phải dấu hiệu của người không biết học.",
+            "multi": false,
+            "id": "mcq-12",
+            "clusterId": "mcq-c4"
+          },
+          {
+            "startLine": 89,
+            "text": "According to the passage, what is a consequence of learning in the wrong way?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Learners apply ideas in new situations easily."
+              },
+              {
+                "key": "B",
+                "text": "Students develop deeper insight into concepts."
+              },
+              {
+                "key": "C",
+                "text": "Knowledge disappears soon after the test is over."
+              },
+              {
+                "key": "D",
+                "text": "Understanding becomes stronger over time."
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "Thông tin: <i>Once the test is over, the knowledge quietly disappears.</i>",
+            "multi": false,
+            "id": "mcq-13",
+            "clusterId": "mcq-c4"
+          },
+          {
+            "startLine": 96,
+            "text": "According to the passage, learning how to learn means ________.",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "understanding your own thinking process"
+              },
+              {
+                "key": "B",
+                "text": "memorizing repeating facts in exams"
+              },
+              {
+                "key": "C",
+                "text": "collecting as much information as possible"
+              },
+              {
+                "key": "D",
+                "text": "studying only to achieve higher grades"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "Thông tin: <i>Learning how to learn means understanding your own thinking process.</i>",
+            "multi": false,
+            "id": "mcq-14",
+            "clusterId": "mcq-c4"
+          },
+          {
+            "startLine": 103,
+            "text": "The word <b>collecting</b> in paragraph 2 can be best replaced by ______.",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "knowing"
+              },
+              {
+                "key": "B",
+                "text": "catching"
+              },
+              {
+                "key": "C",
+                "text": "gathering"
+              },
+              {
+                "key": "D",
+                "text": "preventing"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "collect (thu thập, sưu tầm) = gather.",
+            "multi": false,
+            "id": "mcq-15",
+            "clusterId": "mcq-c4"
+          },
+          {
+            "startLine": 111,
+            "text": "Academic dishonesty before the Internet took place in the following forms, EXCEPT _______.",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "hiding handwritten notes during exams"
+              },
+              {
+                "key": "B",
+                "text": "using online AI tools to generate essays"
+              },
+              {
+                "key": "C",
+                "text": "copying homework from classmates"
+              },
+              {
+                "key": "D",
+                "text": "exchanging answers secretly in tests"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Thông tin: <i>handwritten notes hidden in exam rooms, copied homework from classmates, or secretly exchanged answers during tests.</i> → A, C, D được đề cập; B không phải hình thức gian lận trước thời đại Internet.",
+            "multi": false,
+            "id": "mcq-16",
+            "clusterId": "mcq-c5"
+          },
+          {
+            "startLine": 118,
+            "text": "The word <b>detect</b> in paragraph 1 is closest in meaning to ______.",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "succeed"
+              },
+              {
+                "key": "B",
+                "text": "weaken"
+              },
+              {
+                "key": "C",
+                "text": "attract"
+              },
+              {
+                "key": "D",
+                "text": "discover"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "detect (phát hiện, dò ra) = discover.",
+            "multi": false,
+            "id": "mcq-17",
+            "clusterId": "mcq-c5"
+          },
+          {
+            "startLine": 125,
+            "text": "Which of the following best paraphrases the underlined sentence in paragraph 2?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "The online setting has clearly separated research from plagiarism and reduced unnoticed misconduct."
+              },
+              {
+                "key": "B",
+                "text": "The online setting made it harder to distinguish research from plagiarism and easier to commit unnoticed misconduct."
+              },
+              {
+                "key": "C",
+                "text": "The digital context strengthened the line between research and plagiarism and simplified monitoring misconduct."
+              },
+              {
+                "key": "D",
+                "text": "The Internet environment distinguished research from plagiarism and made misconduct less convenient and more visible."
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Câu gốc: môi trường số làm mờ ranh giới giữa nghiên cứu và đạo văn, khiến hành vi sai trái vừa thuận tiện hơn vừa khó giám sát hơn. A, C, D đều trái ngược ý nghĩa câu gốc.",
+            "multi": false,
+            "id": "mcq-18",
+            "clusterId": "mcq-c5"
+          },
+          {
+            "startLine": 132,
+            "text": "What can be inferred from the emergence of AI in education?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "It completely removes ethical concerns and academic misconduct issues."
+              },
+              {
+                "key": "B",
+                "text": "It offers both learning support and new risks of academic dishonesty."
+              },
+              {
+                "key": "C",
+                "text": "It replaces traditional education systems without negative consequences."
+              },
+              {
+                "key": "D",
+                "text": "It eliminates the need to rethink academic integrity standards."
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Thông tin: <i>While they can support learning, they also make undetectable dishonesty increasingly plausible.</i> A sai ở \"completely removes\"; C sai ở \"without negative consequences\"; D sai ở \"eliminates\" (bài đọc nói cần định nghĩa lại tính liêm chính).",
+            "multi": false,
+            "id": "mcq-19",
+            "clusterId": "mcq-c5"
+          },
+          {
+            "startLine": 139,
+            "text": "The word <b>they</b> in paragraph 3 refers to _______.",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "essays"
+              },
+              {
+                "key": "B",
+                "text": "AI tools"
+              },
+              {
+                "key": "C",
+                "text": "complex problems"
+              },
+              {
+                "key": "D",
+                "text": "writing styles"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Thông tin: <i>AI tools can generate essays... While they can support learning...</i> → \"they\" chỉ \"AI tools\".",
+            "multi": false,
+            "id": "mcq-20",
+            "clusterId": "mcq-c5"
+          }
+        ],
+        "clusters": [
+          {
+            "id": "mcq-c1",
+            "from": 1,
+            "to": 3,
+            "text": "Preparing students for the job market is one of the main goals of modern education. Schools should not only provide academic knowledge but also help students develop practical skills. For example, students need communication skills, teamwork, and problem-solving abilities to succeed in the workplace. In addition, basic digital skills are <b>important</b> because many jobs today require the use of technology. Schools can organize career guidance programs, internships, and workshops to give students real experience. Learning how to write a CV and perform well in a job interview is also useful. When students understand what employers expect, they can prepare <b>themselves</b> better. As a result, they will feel more confident and ready to enter the job market after graduation.",
+            "image": null,
+            "questionIds": [
+              "mcq-1",
+              "mcq-2",
+              "mcq-3"
+            ]
+          },
+          {
+            "id": "mcq-c2",
+            "from": 4,
+            "to": 6,
+            "text": "School uniforms remain a common requirement in many education systems. Supporters argue that uniforms promote equality by <b>reducing</b> visible differences in wealth and fashion. When students wear the same clothes, they may feel a stronger sense of belonging and school identity. Uniforms can also create a more disciplined learning environment and reduce distractions related to appearance. In addition, parents often find them practical and cost-effective in the long term.<br>However, some people believe that school uniforms are outdated. They argue that clothing is a form of self-expression, especially for teenagers who are developing <b>their</b> identities. Strict dress codes may limit creativity and individuality. Moreover, uniforms do not automatically solve deeper issues such as bullying or academic pressure. All in all, whether uniforms are necessary or outdated depends on how schools balance discipline with personal freedom.",
+            "image": null,
+            "questionIds": [
+              "mcq-4",
+              "mcq-5",
+              "mcq-6"
+            ]
+          },
+          {
+            "id": "mcq-c3",
+            "from": 7,
+            "to": 10,
+            "text": "Education is widely considered a <b>fundamental</b> human right. Supporters of free education argue that every individual, regardless of economic background, deserves equal access to learning opportunities. When governments provide free schooling, they reduce social inequality and give disadvantaged students a fair chance to succeed. An educated population also contributes to economic growth, social stability, and democratic participation. From this perspective, free education is not simply a benefit but a long-term investment in national development.<br>On the other hand, some believe that education can be seen as a privilege due to limited public resources. Governments must allocate funding carefully, and maintaining high-quality free education requires <b>significant</b> financial commitment. In certain contexts, families who can afford tuition may be expected to contribute. Nevertheless, many argue that while advanced or specialized programs may involve costs, basic education should remain accessible to all as a universal right.",
+            "image": null,
+            "questionIds": [
+              "mcq-7",
+              "mcq-8",
+              "mcq-9",
+              "mcq-10"
+            ]
+          },
+          {
+            "id": "mcq-c4",
+            "from": 11,
+            "to": 15,
+            "text": "In reality, most students spend years in school without ever being taught how to learn. They memorize formulas, underline key words, and revise the night before exams. They chase grades, not understanding. But have you ever asked yourself why you forget most of what you studied just a few months later? <u><b>Many learners are trained to absorb information quickly and reproduce it on paper.</b></u> Once the test is over, the knowledge quietly disappears. Is that really education, or just short-term survival?<br>Learning how to learn means understanding your own thinking process. It involves questioning ideas, connecting concepts, and reflecting on mistakes. Real learning happens when you can explain a topic in your own words and apply it in a new situation. It is less about <b>collecting</b> facts and more about building insight. So, next time you open a textbook, ask yourself: are you studying for a grade, or are you actually learning something meaningful?",
+            "image": null,
+            "questionIds": [
+              "mcq-11",
+              "mcq-12",
+              "mcq-13",
+              "mcq-14",
+              "mcq-15"
+            ]
+          },
+          {
+            "id": "mcq-c5",
+            "from": 16,
+            "to": 20,
+            "text": "Before the widespread use of the Internet, academic dishonesty was limited by physical constraints. Students who wished to cheat often relied on handwritten notes hidden in exam rooms, copied homework from classmates, or secretly exchanged answers during tests. Plagiarism required access to printed books or libraries, which made it more time-consuming and easier to <b>detect</b>. Although cheating certainly existed, it demanded effort and carried a higher risk of being caught. Information was not instantly accessible, and academic misconduct was relatively restricted in scale.<br>With the arrival of the Internet, the landscape changed dramatically. Students gained immediate access to countless online sources, essays, and answer keys. Copying and pasting became effortless, and contract cheating services began offering customized assignments for a fee. <u><b>The digital environment blurred the boundaries between research and plagiarism, making misconduct both more convenient and more difficult to monitor.</b></u> Educational institutions have since had to adopt plagiarism-detection software and stricter policies.<br>Now, the rise of artificial intelligence introduces a new ethical dilemma. AI tools can generate essays, solve complex problems, and imitate academic writing styles within seconds. While <b>they</b> can support learning, they also make undetectable dishonesty increasingly plausible. The challenge today is not merely preventing cheating, but redefining academic integrity in an age where machines can think alongside students.",
+            "image": null,
+            "questionIds": [
+              "mcq-16",
+              "mcq-17",
+              "mcq-18",
+              "mcq-19",
+              "mcq-20"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
