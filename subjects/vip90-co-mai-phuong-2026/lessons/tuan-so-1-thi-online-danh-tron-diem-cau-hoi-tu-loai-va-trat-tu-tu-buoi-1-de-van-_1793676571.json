@@ -1,0 +1,1035 @@
+{
+  "type": "quiz",
+  "lessonId": "6ae9551b82455fdec57f663a",
+  "title": "(Tuần số 1) Thi Online: Dành trọn điểm câu hỏi Từ loại và Trật tự từ (Buổi 1) - Đề vận dụng",
+  "slug": "tuan-so-1-thi-online-danh-tron-diem-cau-hoi-tu-loai-va-trat-tu-tu-buoi-1-de-van-",
+  "subjectSlug": "vip90-co-mai-phuong-2026",
+  "duration": 120,
+  "promptId": null,
+  "analysisAiKeyIds": [],
+  "isPublished": true,
+  "isDeleted": false,
+  "createdBy": {
+    "id": "6ae951541fd5f2f73453e2e6",
+    "name": "Mai Ngọc Hùng Anh THPT",
+    "email": "liwih62752@macsnipe.com"
+  },
+  "createdAt": "2026-11-03T03:29:31.723Z",
+  "updatedAt": "2026-11-03T03:29:31.723Z",
+  "contentHtml": null,
+  "quiz": {
+    "version": 1,
+    "maxScore": 10,
+    "parts": {
+      "mcq": {
+        "pointsPerQuestion": 0.3333,
+        "questions": [
+          {
+            "startLine": 2,
+            "text": "Chọn đáp án đúng điền vào chỗ trống số (1).",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "amaze"
+              },
+              {
+                "key": "B",
+                "text": "amazing"
+              },
+              {
+                "key": "C",
+                "text": "amazement"
+              },
+              {
+                "key": "D",
+                "text": "amazed"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "<b>Từ loại:</b> sau mạo từ \"an\" và trước danh từ \"activity\" cần một tính từ chỉ đặc điểm. amazing (adj): tuyệt vời.<br>Tạm dịch: Việc cứu rùa biển là một hoạt động tuyệt vời giúp mọi người gắn kết với nhau.",
+            "multi": false,
+            "id": "mcq-1",
+            "clusterId": "mcq-c1"
+          },
+          {
+            "startLine": 9,
+            "text": "Chọn đáp án đúng điền vào chỗ trống số (2).",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "tiring"
+              },
+              {
+                "key": "B",
+                "text": "tiredness"
+              },
+              {
+                "key": "C",
+                "text": "tired"
+              },
+              {
+                "key": "D",
+                "text": "tiringly"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "<b>Từ loại:</b> feel + adj (cảm thấy như thế nào). Cần tính từ chỉ trạng thái, cảm xúc nên chọn \"tired\" (mệt).<br>Tạm dịch: Nhiều tình nguyện viên làm việc chăm chỉ, ngay cả khi họ cảm thấy mệt mỏi, để bảo vệ những sinh vật xinh đẹp này.",
+            "multi": false,
+            "id": "mcq-2",
+            "clusterId": "mcq-c1"
+          },
+          {
+            "startLine": 16,
+            "text": "Chọn đáp án đúng điền vào chỗ trống số (3).",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "team small rescue"
+              },
+              {
+                "key": "B",
+                "text": "rescue small team"
+              },
+              {
+                "key": "C",
+                "text": "small rescue team"
+              },
+              {
+                "key": "D",
+                "text": "small team rescue"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "<b>Trật tự từ:</b> \"rescue team\" (đội cứu hộ) là danh từ ghép nên tính từ \"small\" đứng trước danh từ ghép này.<br>Tạm dịch: Một đội cứu hộ nhỏ tuần tra các bãi biển và giúp di chuyển trứng rùa đến những khu vực an toàn.",
+            "multi": false,
+            "id": "mcq-3",
+            "clusterId": "mcq-c1"
+          },
+          {
+            "startLine": 24,
+            "text": "Chọn đáp án đúng điền vào chỗ trống số (4).",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "football exciting match"
+              },
+              {
+                "key": "B",
+                "text": "exciting football match"
+              },
+              {
+                "key": "C",
+                "text": "exciting match football"
+              },
+              {
+                "key": "D",
+                "text": "match exciting football"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "<b>Trật tự từ:</b> \"football match\" (trận bóng đá) là danh từ ghép nên tính từ \"exciting\" đứng trước.<br>Tạm dịch: Hôm qua, chúng tôi đã xem một trận bóng đá thú vị.",
+            "multi": false,
+            "id": "mcq-4",
+            "clusterId": "mcq-c2"
+          },
+          {
+            "startLine": 31,
+            "text": "Chọn đáp án đúng điền vào chỗ trống số (5).",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "satisfaction"
+              },
+              {
+                "key": "B",
+                "text": "satisfied"
+              },
+              {
+                "key": "C",
+                "text": "satisfy"
+              },
+              {
+                "key": "D",
+                "text": "satisfying"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "<b>Từ loại:</b> sau \"be\" cần một tính từ chỉ cảm xúc, trạng thái nên chọn \"satisfied\" (hài lòng).<br>Tạm dịch: Trận đấu rất căng thẳng và người hâm mộ cảm thấy hài lòng khi đội của họ ghi bàn trước.",
+            "multi": false,
+            "id": "mcq-5",
+            "clusterId": "mcq-c2"
+          },
+          {
+            "startLine": 38,
+            "text": "Chọn đáp án đúng điền vào chỗ trống số (6).",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "embarrassment"
+              },
+              {
+                "key": "B",
+                "text": "embarrass"
+              },
+              {
+                "key": "C",
+                "text": "embarrassed"
+              },
+              {
+                "key": "D",
+                "text": "embarrassing"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "<b>Từ loại:</b> sau mạo từ \"an\" và trước danh từ \"moment\" cần một tính từ chỉ đặc điểm, tính chất của khoảnh khắc đó nên chọn \"embarrassing\" (gây xấu hổ).<br>Tạm dịch: Tuy nhiên, một khoảnh khắc đáng xấu hổ đã xảy ra khi một cầu thủ bỏ lỡ một bàn thắng dễ dàng.",
+            "multi": false,
+            "id": "mcq-6",
+            "clusterId": "mcq-c2"
+          },
+          {
+            "startLine": 46,
+            "text": "Chọn đáp án đúng điền vào chỗ trống số (7).",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "fun school event"
+              },
+              {
+                "key": "B",
+                "text": "fun event school"
+              },
+              {
+                "key": "C",
+                "text": "school fun event"
+              },
+              {
+                "key": "D",
+                "text": "event fun school"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "<b>Trật tự từ:</b> \"school event\" (sự kiện của trường) là danh từ ghép nên tính từ \"fun\" đứng trước.<br>Tạm dịch: Chợ Tết truyền thống là một sự kiện vui của trường.",
+            "multi": false,
+            "id": "mcq-7",
+            "clusterId": "mcq-c3"
+          },
+          {
+            "startLine": 53,
+            "text": "Chọn đáp án đúng điền vào chỗ trống số (8).",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "fascinate"
+              },
+              {
+                "key": "B",
+                "text": "fascination"
+              },
+              {
+                "key": "C",
+                "text": "fascinating"
+              },
+              {
+                "key": "D",
+                "text": "fascinated"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "<b>Từ loại:</b> sau mạo từ \"a\" và trước danh từ \"experience\" cần một tính từ chỉ đặc điểm, tính chất nên chọn \"fascinating\" (hấp dẫn, thú vị).<br>Tạm dịch: Đây là một trải nghiệm thú vị nơi học sinh học được tinh thần làm việc nhóm và cùng nhau kỷ niệm ngày lễ.",
+            "multi": false,
+            "id": "mcq-8",
+            "clusterId": "mcq-c3"
+          },
+          {
+            "startLine": 60,
+            "text": "Chọn đáp án đúng điền vào chỗ trống số (9).",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "memorise"
+              },
+              {
+                "key": "B",
+                "text": "memorable"
+              },
+              {
+                "key": "C",
+                "text": "memory"
+              },
+              {
+                "key": "D",
+                "text": "memorably"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "<b>Từ loại:</b> sau \"This\" và trước danh từ \"event\" cần một tính từ bổ nghĩa nên chọn \"memorable\" (đáng nhớ).<br>Tạm dịch: Sự kiện đáng nhớ này mang mọi người đến gần hơn với tinh thần ngày Tết.",
+            "multi": false,
+            "id": "mcq-9",
+            "clusterId": "mcq-c3"
+          },
+          {
+            "startLine": 68,
+            "text": "Chọn đáp án đúng điền vào chỗ trống số (10).",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "speciality"
+              },
+              {
+                "key": "B",
+                "text": "specially"
+              },
+              {
+                "key": "C",
+                "text": "specialise"
+              },
+              {
+                "key": "D",
+                "text": "special"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "<b>Từ loại:</b> sau mạo từ \"a\" và trước danh từ \"event\" cần một tính từ nên chọn \"special\" (đặc biệt).<br>Tạm dịch: Triển lãm về Hà Nội xưa và nay là một sự kiện đặc biệt.",
+            "multi": false,
+            "id": "mcq-10",
+            "clusterId": "mcq-c4"
+          },
+          {
+            "startLine": 75,
+            "text": "Chọn đáp án đúng điền vào chỗ trống số (11).",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "surprise"
+              },
+              {
+                "key": "B",
+                "text": "surprisingly"
+              },
+              {
+                "key": "C",
+                "text": "surprised"
+              },
+              {
+                "key": "D",
+                "text": "surprising"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "<b>Từ loại:</b> sau \"be\" cần một tính từ diễn tả cảm xúc, trạng thái nên chọn \"surprised\" (ngạc nhiên).<br>Tạm dịch: Khách tham quan cảm thấy ngạc nhiên khi nhìn thấy những bức ảnh cũ về các con phố hẹp và những ngôi nhà truyền thống so với những tòa nhà cao tầng ngày nay.",
+            "multi": false,
+            "id": "mcq-11",
+            "clusterId": "mcq-c4"
+          },
+          {
+            "startLine": 82,
+            "text": "Chọn đáp án đúng điền vào chỗ trống số (12).",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "collection exciting photo"
+              },
+              {
+                "key": "B",
+                "text": "exciting photo collection"
+              },
+              {
+                "key": "C",
+                "text": "exciting collection photo"
+              },
+              {
+                "key": "D",
+                "text": "photo exciting collection"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "<b>Trật tự từ:</b> \"photo collection\" (bộ sưu tập ảnh) là danh từ ghép nên tính từ \"exciting\" đứng trước.<br>Tạm dịch: Một bộ sưu tập ảnh thú vị đã cho thấy Hà Nội đã thay đổi như thế nào theo thời gian.",
+            "multi": false,
+            "id": "mcq-12",
+            "clusterId": "mcq-c4"
+          },
+          {
+            "startLine": 89,
+            "text": "Chọn đáp án đúng điền vào chỗ trống số (13).",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "beautiful display art"
+              },
+              {
+                "key": "B",
+                "text": "display beautiful art"
+              },
+              {
+                "key": "C",
+                "text": "art beautiful display"
+              },
+              {
+                "key": "D",
+                "text": "beautiful art display"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "<b>Trật tự từ:</b> \"art display\" (khu trưng bày nghệ thuật) là danh từ ghép nên tính từ \"beautiful\" đứng trước.<br>Tạm dịch: Một khu trưng bày nghệ thuật tuyệt đẹp đã giới thiệu những bức tranh hiện đại được lấy cảm hứng từ lịch sử của thành phố.",
+            "multi": false,
+            "id": "mcq-13",
+            "clusterId": "mcq-c4"
+          },
+          {
+            "startLine": 97,
+            "text": "Chọn đáp án đúng điền vào chỗ trống số (14).",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "thrilled"
+              },
+              {
+                "key": "B",
+                "text": "thrillingly"
+              },
+              {
+                "key": "C",
+                "text": "thrill"
+              },
+              {
+                "key": "D",
+                "text": "thrilling"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "<b>Từ loại:</b> sau mạo từ \"a\" và trước danh từ \"flight\" cần một tính từ chỉ đặc điểm, tính chất của chuyến bay nên chọn \"thrilling\" (ly kỳ, phấn khích).<br>Tạm dịch: Tuần trước, tôi đã có một chuyến bay đầy phấn khích đến một hòn đảo xinh đẹp.",
+            "multi": false,
+            "id": "mcq-14",
+            "clusterId": "mcq-c5"
+          },
+          {
+            "startLine": 104,
+            "text": "Chọn đáp án đúng điền vào chỗ trống số (15).",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "satisfaction"
+              },
+              {
+                "key": "B",
+                "text": "satisfyingly"
+              },
+              {
+                "key": "C",
+                "text": "satisfying"
+              },
+              {
+                "key": "D",
+                "text": "satisfied"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "<b>Từ loại:</b> sau mạo từ \"a\" và trước danh từ \"experience\" cần một tính từ chỉ đặc điểm, tính chất của trải nghiệm nên chọn \"satisfying\" (thỏa mãn).<br>Tạm dịch: Được ngắm nhìn cảnh bình minh qua cửa sổ máy bay là một trải nghiệm thật mãn nguyện.",
+            "multi": false,
+            "id": "mcq-15",
+            "clusterId": "mcq-c5"
+          },
+          {
+            "startLine": 111,
+            "text": "Chọn đáp án đúng điền vào chỗ trống số (16).",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "attendant friendly flight"
+              },
+              {
+                "key": "B",
+                "text": "friendly attendant flight"
+              },
+              {
+                "key": "C",
+                "text": "flight friendly attendant"
+              },
+              {
+                "key": "D",
+                "text": "friendly flight attendant"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "<b>Trật tự từ:</b> \"flight attendant\" (tiếp viên hàng không) là danh từ ghép nên tính từ \"friendly\" đứng trước.<br>Tạm dịch: Một tiếp viên hàng không thân thiện đã phục vụ đồ ăn nhẹ và đồ uống với nụ cười ấm áp.",
+            "multi": false,
+            "id": "mcq-16",
+            "clusterId": "mcq-c5"
+          },
+          {
+            "startLine": 118,
+            "text": "Chọn đáp án đúng điền vào chỗ trống số (17).",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "moment smooth landing"
+              },
+              {
+                "key": "B",
+                "text": "landing smooth moment"
+              },
+              {
+                "key": "C",
+                "text": "smooth landing moment"
+              },
+              {
+                "key": "D",
+                "text": "smooth moment landing"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "<b>Trật tự từ:</b> \"landing moment\" (khoảnh khắc hạ cánh) là danh từ ghép nên tính từ \"smooth\" đứng trước.<br>Tạm dịch: Khoảnh khắc hạ cánh êm ái khiến mọi người cảm thấy an tâm.",
+            "multi": false,
+            "id": "mcq-17",
+            "clusterId": "mcq-c5"
+          },
+          {
+            "startLine": 126,
+            "text": "Chọn đáp án đúng điền vào chỗ trống số (18).",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "concerned"
+              },
+              {
+                "key": "B",
+                "text": "concerningly"
+              },
+              {
+                "key": "C",
+                "text": "concerning"
+              },
+              {
+                "key": "D",
+                "text": "concern"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "<b>Từ loại:</b> sau mạo từ \"a\" và trước danh từ \"issue\" cần một tính từ chỉ đặc điểm, tính chất của vấn đề nên chọn \"concerning\" (đáng lo ngại).<br>Tạm dịch: Ô nhiễm nước là một vấn đề đáng lo ngại đe dọa môi trường và sức khỏe con người.",
+            "multi": false,
+            "id": "mcq-18",
+            "clusterId": "mcq-c6"
+          },
+          {
+            "startLine": 133,
+            "text": "Chọn đáp án đúng điền vào chỗ trống số (19).",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "alarmingly"
+              },
+              {
+                "key": "B",
+                "text": "alarming"
+              },
+              {
+                "key": "C",
+                "text": "alarm"
+              },
+              {
+                "key": "D",
+                "text": "alarmed"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "<b>Từ loại:</b> sau mạo từ \"an\" và trước danh từ \"rise\" cần một tính từ chỉ đặc điểm, tính chất của sự gia tăng nên chọn \"alarming\" (đáng báo động).<br>Tạm dịch: Ở nhiều thành phố, sự gia tăng đáng báo động của lượng nước thải chưa qua xử lý đã gây ra những vấn đề nghiêm trọng cho cộng đồng.",
+            "multi": false,
+            "id": "mcq-19",
+            "clusterId": "mcq-c6"
+          },
+          {
+            "startLine": 140,
+            "text": "Chọn đáp án đúng điền vào chỗ trống số (20).",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "harmful leak chemical"
+              },
+              {
+                "key": "B",
+                "text": "chemical harmful leak"
+              },
+              {
+                "key": "C",
+                "text": "leak harmful chemical"
+              },
+              {
+                "key": "D",
+                "text": "harmful chemical leak"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "<b>Trật tự từ:</b> \"chemical leak\" (vụ rò rỉ hóa chất) là danh từ ghép nên tính từ \"harmful\" đứng trước.<br>Tạm dịch: Một vụ rò rỉ hóa chất độc hại từ các nhà máy gần đây đã làm ô nhiễm một hồ địa phương, gây hại cho sinh vật dưới nước.",
+            "multi": false,
+            "id": "mcq-20",
+            "clusterId": "mcq-c6"
+          },
+          {
+            "startLine": 147,
+            "text": "Chọn đáp án đúng điền vào chỗ trống số (21).",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "protectively"
+              },
+              {
+                "key": "B",
+                "text": "protection"
+              },
+              {
+                "key": "C",
+                "text": "protect"
+              },
+              {
+                "key": "D",
+                "text": "protective"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "<b>Từ loại:</b> \"to + V\" chỉ mục đích nên cần động từ nguyên thể \"protect\" (bảo vệ).<br>Tạm dịch: Chính phủ, các ngành công nghiệp và các cá nhân nên chung tay bảo vệ nguồn tài nguyên nước.",
+            "multi": false,
+            "id": "mcq-21",
+            "clusterId": "mcq-c6"
+          },
+          {
+            "startLine": 155,
+            "text": "Chọn đáp án đúng điền vào chỗ trống số (22).",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "efficient energy network"
+              },
+              {
+                "key": "B",
+                "text": "network efficient energy"
+              },
+              {
+                "key": "C",
+                "text": "efficient network energy"
+              },
+              {
+                "key": "D",
+                "text": "energy efficient network"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "<b>Trật tự từ:</b> \"energy network\" (mạng lưới năng lượng) là danh từ ghép nên tính từ \"efficient\" đứng trước. Trật tự \"energy efficient network\" (mạng lưới tiết kiệm năng lượng) cũng tồn tại nhưng dựa vào nghĩa và ngữ cảnh ta chọn \"efficient energy network\" (mạng lưới năng lượng hiệu quả).<br>Tạm dịch: Hệ thống giao thông hiện đại và mạng lưới năng lượng hiệu quả giúp thành phố trở nên bền vững hơn.",
+            "multi": false,
+            "id": "mcq-22",
+            "clusterId": "mcq-c7"
+          },
+          {
+            "startLine": 162,
+            "text": "Chọn đáp án đúng điền vào chỗ trống số (23).",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "satisfaction"
+              },
+              {
+                "key": "B",
+                "text": "satisfied"
+              },
+              {
+                "key": "C",
+                "text": "satisfy"
+              },
+              {
+                "key": "D",
+                "text": "satisfying"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "<b>Từ loại:</b> sau \"be\" cần một tính từ thể hiện trạng thái, cảm xúc nên chọn \"satisfied\". Cấu trúc: be satisfied with (hài lòng với).<br>Tạm dịch: Người dân hài lòng với các dịch vụ thông minh như thanh toán không dùng tiền mặt và cập nhật tình hình giao thông theo thời gian thực.",
+            "multi": false,
+            "id": "mcq-23",
+            "clusterId": "mcq-c7"
+          },
+          {
+            "startLine": 169,
+            "text": "Chọn đáp án đúng điền vào chỗ trống số (24).",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "frustrate"
+              },
+              {
+                "key": "B",
+                "text": "frustrated"
+              },
+              {
+                "key": "C",
+                "text": "frustration"
+              },
+              {
+                "key": "D",
+                "text": "frustrating"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "<b>Từ loại:</b> find something + adj (thấy cái gì đó như thế nào). Cần tính từ miêu tả đặc điểm của quá trình thích nghi nên chọn \"frustrating\" (gây bực bội).<br>Tạm dịch: Tuy nhiên, một số người cảm thấy quá trình thích nghi với các công nghệ mới thật bực bội.",
+            "multi": false,
+            "id": "mcq-24",
+            "clusterId": "mcq-c7"
+          },
+          {
+            "startLine": 176,
+            "text": "Chọn đáp án đúng điền vào chỗ trống số (25).",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "healthcare reliable system"
+              },
+              {
+                "key": "B",
+                "text": "system reliable healthcare"
+              },
+              {
+                "key": "C",
+                "text": "reliable system healthcare"
+              },
+              {
+                "key": "D",
+                "text": "reliable healthcare system"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "<b>Trật tự từ:</b> \"healthcare system\" (hệ thống chăm sóc sức khỏe) là danh từ ghép nên tính từ \"reliable\" đứng trước.<br>Tạm dịch: Hệ thống chăm sóc sức khỏe đáng tin cậy đảm bảo tiếp cận được dịch vụ y tế nhanh chóng, trong khi không gian xanh mang đến một nơi yên bình thoát khỏi cuộc sống đô thị ồn ào.",
+            "multi": false,
+            "id": "mcq-25",
+            "clusterId": "mcq-c7"
+          },
+          {
+            "startLine": 184,
+            "text": "Chọn đáp án đúng điền vào chỗ trống số (26).",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "personality"
+              },
+              {
+                "key": "B",
+                "text": "personally"
+              },
+              {
+                "key": "C",
+                "text": "personalise"
+              },
+              {
+                "key": "D",
+                "text": "personal"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "<b>Từ loại:</b> sau mạo từ \"a\" và tính từ \"warm\" cần một danh từ. Đuôi -ity thường là dấu hiệu của danh từ nên chọn \"personality\" (tính cách).<br>Tạm dịch: Cô ấy có một trái tim nhân hậu và một tính cách ấm áp khiến mọi người cảm thấy thoải mái.",
+            "multi": false,
+            "id": "mcq-26",
+            "clusterId": "mcq-c8"
+          },
+          {
+            "startLine": 191,
+            "text": "Chọn đáp án đúng điền vào chỗ trống số (27).",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "encouragingly"
+              },
+              {
+                "key": "B",
+                "text": "encourage"
+              },
+              {
+                "key": "C",
+                "text": "encouraged"
+              },
+              {
+                "key": "D",
+                "text": "encouraging"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "<b>Từ loại:</b> sau mạo từ \"an\" và trước danh từ \"friend\" cần một tính từ chỉ đặc điểm, tính chất của người bạn nên chọn \"encouraging\" (hay động viên).<br>Tạm dịch: Anna luôn là một người bạn hay động viên, luôn ủng hộ tôi khi tôi cảm thấy buồn.",
+            "multi": false,
+            "id": "mcq-27",
+            "clusterId": "mcq-c8"
+          },
+          {
+            "startLine": 198,
+            "text": "Chọn đáp án đúng điền vào chỗ trống số (28).",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "thoughtful gift birthday"
+              },
+              {
+                "key": "B",
+                "text": "birthday thoughtful gift"
+              },
+              {
+                "key": "C",
+                "text": "thoughtful birthday gift"
+              },
+              {
+                "key": "D",
+                "text": "gift thoughtful birthday"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "<b>Trật tự từ:</b> \"birthday gift\" (món quà sinh nhật) là danh từ ghép nên tính từ \"thoughtful\" đứng trước.<br>Tạm dịch: Cô ấy từng tặng tôi một món quà sinh nhật rất chu đáo - một cuốn sách mà tôi đã muốn từ lâu.",
+            "multi": false,
+            "id": "mcq-28",
+            "clusterId": "mcq-c8"
+          },
+          {
+            "startLine": 205,
+            "text": "Chọn đáp án đúng điền vào chỗ trống số (29).",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "surprised"
+              },
+              {
+                "key": "B",
+                "text": "surprisingly"
+              },
+              {
+                "key": "C",
+                "text": "surprise"
+              },
+              {
+                "key": "D",
+                "text": "surprising"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "<b>Từ loại:</b> sau \"be\" và \"so\" cần một tính từ thể hiện trạng thái, cảm xúc nên chọn \"surprised\". Cấu trúc: be surprised by (ngạc nhiên bởi/trước).<br>Tạm dịch: Tôi đã rất ngạc nhiên trước sự tốt bụng của cô ấy.",
+            "multi": false,
+            "id": "mcq-29",
+            "clusterId": "mcq-c8"
+          },
+          {
+            "startLine": 212,
+            "text": "Chọn đáp án đúng điền vào chỗ trống số (30).",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "amazingly"
+              },
+              {
+                "key": "B",
+                "text": "amazing"
+              },
+              {
+                "key": "C",
+                "text": "amazement"
+              },
+              {
+                "key": "D",
+                "text": "amazed"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "<b>Từ loại:</b> có liên từ \"and\" nên cần một tính từ song hành với \"reliable\" và \"caring\". Dựa vào nghĩa, chọn \"amazing\" (tuyệt vời).<br>Tạm dịch: Tôi cảm thấy thật may mắn khi có một người bạn đáng tin cậy, biết quan tâm và tuyệt vời như Anna.",
+            "multi": false,
+            "id": "mcq-30",
+            "clusterId": "mcq-c8"
+          }
+        ],
+        "clusters": [
+          {
+            "id": "mcq-c1",
+            "from": 1,
+            "to": 3,
+            "text": "<b>Đọc đoạn văn và chọn đáp án đúng cho mỗi chỗ trống từ 1 đến 3.</b><br>Saving sea turtles is an <b>(1)</b> _________ activity that brings people together. Many volunteers work hard, even when they feel <b>(2)</b> _________, to protect these beautiful creatures. A <b>(3)</b> _________ patrols the beaches and helps move turtle eggs to safe areas. Their joint effort ensures that baby turtles can reach the ocean safely.",
+            "image": null,
+            "questionIds": [
+              "mcq-1",
+              "mcq-2",
+              "mcq-3"
+            ]
+          },
+          {
+            "id": "mcq-c2",
+            "from": 4,
+            "to": 6,
+            "text": "<b>Đọc đoạn văn và chọn đáp án đúng cho mỗi chỗ trống từ 4 đến 6.</b><br>Yesterday, we watched a(n) <b>(4)</b> _________. The game was intense, and fans were <b>(5)</b> _________ when their team scored first. However, an <b>(6)</b> _________ moment occurred when a player missed an easy goal. The crowd laughed nervously, but the player quickly tried to fix it.",
+            "image": null,
+            "questionIds": [
+              "mcq-4",
+              "mcq-5",
+              "mcq-6"
+            ]
+          },
+          {
+            "id": "mcq-c3",
+            "from": 7,
+            "to": 9,
+            "text": "<b>Đọc đoạn văn và chọn đáp án đúng cho mỗi chỗ trống từ 7 đến 9.</b><br>The traditional Tet market is a(n) <b>(7)</b> _________. Students sell handmade goods, Tet cards, and snacks at small stalls. A cheerful atmosphere fills the market as teachers and parents join in. It's a <b>(8)</b> _________ experience where students learn teamwork and celebrate the holiday. This <b>(9)</b> _________ event brings everyone closer to the spirit of Tet.",
+            "image": null,
+            "questionIds": [
+              "mcq-7",
+              "mcq-8",
+              "mcq-9"
+            ]
+          },
+          {
+            "id": "mcq-c4",
+            "from": 10,
+            "to": 13,
+            "text": "<b>Đọc đoạn văn và chọn đáp án đúng cho mỗi chỗ trống từ 10 đến 13.</b><br>The exhibition about Hanoi, then and now, was a <b>(10)</b> _________ event. Visitors were <b>(11)</b> _________ to see old photos of narrow streets and traditional houses compared to today's tall buildings. A(n) <b>(12)</b> _________ showed how Hanoi has changed over time. A <b>(13)</b> _________ featured modern paintings inspired by the city's history. The exhibition was a memorable journey through Hanoi's past and present, bringing its story to life.",
+            "image": null,
+            "questionIds": [
+              "mcq-10",
+              "mcq-11",
+              "mcq-12",
+              "mcq-13"
+            ]
+          },
+          {
+            "id": "mcq-c5",
+            "from": 14,
+            "to": 17,
+            "text": "<b>Đọc đoạn văn và chọn đáp án đúng cho mỗi chỗ trống từ 14 đến 17.</b><br>Last week, I had a <b>(14)</b> _________ flight to a beautiful island. It was a <b>(15)</b> _________ experience to see the sunrise through the aeroplane window. A <b>(16)</b> _________ served snacks and drinks with a warm smile. A <b>(17)</b> _________ made everyone feel at ease. The view of the island from above was breathtaking, with blue seas and white beaches. It was truly a special flight I will never forget.",
+            "image": null,
+            "questionIds": [
+              "mcq-14",
+              "mcq-15",
+              "mcq-16",
+              "mcq-17"
+            ]
+          },
+          {
+            "id": "mcq-c6",
+            "from": 18,
+            "to": 21,
+            "text": "<b>Đọc đoạn văn và chọn đáp án đúng cho mỗi chỗ trống từ 18 đến 21.</b><br>Water pollution is a <b>(18)</b> _________ issue that threatens the environment and human health. Polluted rivers harm wildlife and make clean water harder to access. In many cities, an <b>(19)</b> _________ rise in untreated wastewater has caused serious problems for communities. A <b>(20)</b> _________ from factories recently polluted a local lake, harming aquatic life. Governments, industries, and individuals should join hands to <b>(21)</b> _________ water resources.",
+            "image": null,
+            "questionIds": [
+              "mcq-18",
+              "mcq-19",
+              "mcq-20",
+              "mcq-21"
+            ]
+          },
+          {
+            "id": "mcq-c7",
+            "from": 22,
+            "to": 25,
+            "text": "<b>Đọc đoạn văn và chọn đáp án đúng cho mỗi chỗ trống từ 22 đến 25.</b><br>Singapore is a great example of a smart city that uses technology to improve lives. A modern transportation system and a(n) <b>(22)</b> _________ make the city more sustainable. Residents are <b>(23)</b> _________ with smart services, like cashless payments and real-time traffic updates. However, some find the process of adapting to new technologies <b>(24)</b> _________. A <b>(25)</b> _________ ensures quick access to medical help, while green spaces offer a peaceful escape from busy urban life. Singapore truly leads the way in smart city development.",
+            "image": null,
+            "questionIds": [
+              "mcq-22",
+              "mcq-23",
+              "mcq-24",
+              "mcq-25"
+            ]
+          },
+          {
+            "id": "mcq-c8",
+            "from": 26,
+            "to": 30,
+            "text": "<b>Đọc đoạn văn và chọn đáp án đúng cho mỗi chỗ trống từ 26 đến 30.</b><br>My closest friend is Anna. She has a kind heart and a warm <b>(26)</b> _________ that makes everyone feel comfortable. Her bright smile can cheer me up even on bad days. Anna is always an <b>(27)</b> _________ friend who supports me when I feel sad. She once gave me a <b>(28)</b> _________ - a book I had wanted for a long time - and I was so <b>(29)</b> _________ by her kindness. She is also a helpful person, always ready to listen and offer great advice whenever I have a problem. Anna has a positive attitude towards life and often says, \"You can do it!\" Her words and actions motivate me every day. I feel so lucky to have a reliable, caring, and <b>(30)</b> _________ friend like Anna.",
+            "image": null,
+            "questionIds": [
+              "mcq-26",
+              "mcq-27",
+              "mcq-28",
+              "mcq-29",
+              "mcq-30"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
