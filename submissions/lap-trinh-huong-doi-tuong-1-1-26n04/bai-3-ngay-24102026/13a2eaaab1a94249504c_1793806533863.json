@@ -1,7 +1,7 @@
 {
   "submissionId": "6aeb50b02c32f9ab1cf56f6f",
   "submittedAt": "2026-11-04T15:35:12.707Z",
-  "gradedAt": "2026-11-04T15:35:34.009Z",
+  "gradedAt": "2026-11-04T15:35:33.456Z",
   "status": "graded",
   "errorMessage": null,
   "userId": "6ab3d694415010bf620349e5",
@@ -99,5 +99,8 @@
         "explanation": "Thiếu endl nên dòng tổng khoảng cách và dòng in điểm gần nhất bị dính liền, gây khó đọc kết quả."
       }
     ]
-  }
+  },
+  "type": "essay",
+  "teacherComment": null,
+  "updatedAt": "2026-11-04T15:35:35.216Z"
 }
