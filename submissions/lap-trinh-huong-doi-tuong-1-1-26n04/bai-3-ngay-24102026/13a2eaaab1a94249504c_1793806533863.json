@@ -1,0 +1,103 @@
+{
+  "submissionId": "6aeb50b02c32f9ab1cf56f6f",
+  "submittedAt": "2026-11-04T15:35:12.707Z",
+  "gradedAt": "2026-11-04T15:35:34.009Z",
+  "status": "graded",
+  "errorMessage": null,
+  "userId": "6ab3d694415010bf620349e5",
+  "userName": "Mai Ngọc Hùng Anh",
+  "userEmail": "hunganh.okokok.0@gmail.com",
+  "subjectId": "6ab5aeac813f0f6c24604455",
+  "subjectName": "Lập trình hướng đối tượng-1-1-26(N04)",
+  "subjectCode": "IT1.108.3",
+  "subjectSlug": "lap-trinh-huong-doi-tuong-1-1-26n04",
+  "lessonId": "6addb2daaa0190fa8ec664e9",
+  "lessonTitle": "Bài 3 ngày 24/10/2026",
+  "lessonSlug": "bai-3-ngay-24102026",
+  "lessonDuration": 30,
+  "lessonContentHtml": "<p><strong>Câu 1.</strong> Xây dựng lớp Diem (Điểm), trong đó có các thuộc tính (private) gồm hoành độ và tung độ; các phương thức hoặc hàm bạn: &gt;&gt; để nhập tọa độ của một điểm, &lt;&lt; để in một điểm lên màn hình theo dạng (hoành độ, tung độ), tính khoảng cách từ một điểm đến gốc tọa độ.</p>\n<p>Viết hàm main() để:</p>\n<ul>\n  <li>Nhập tọa độ n điểm trên mặt phẳng.</li>\n  <li>Tính tổng khoảng cách từ tất cả các điểm trên đến gốc tọa độ.</li>\n  <li>Tìm một điểm ở gần gốc tọa độ nhất.</li>\n</ul>",
+  "lessonSampleSolution": "",
+  "answerHtml": "//Ham ban, Nap chong toan tu, Con tro, Cap phat dong (new/delete)\n//vector<Diem*>, Ham const, Tham chieu, size_t\n\n#include<bits/stdc++.h>\n\nusing namespace std;\n\nclass Diem{\n\tprivate:\n\t\tdouble x;\n\t\tdouble y;\n\tpublic:\n\t\tDiem(){\n\t\t\tx = 0.0;\n\t\t\ty = 0.0;\n\t\t}\n\t\tfriend istream& operator >>(istream &is, Diem &d){\n\t\t\tcout << \"Nhap hoanh do (x): \";\n\t\t\tis >> d.x;\n\t\t\tcout << \"Nhap tung do (y): \";\n\t\t\tis >> d.y;\n\t\t\treturn is;\n\t\t}\n\t\tfriend ostream& operator <<(ostream &os, const Diem &d){\n\t\t\tos << \"(x, y) = (\" << d.x << \", \" << d.y << \")\";\n\t\t\treturn os;\n\t\t}\n\t\tdouble kc() const{\n\t\t\treturn sqrt(x*x+y*y);\n\t\t}\n};\n\nvoid arrangeMinKC(const vector<Diem*> &d){\n\tDiem* minKC = d[0];\n\tfor(size_t i = 1; i < d.size(); i++){\n\t\t//Ly do int -> size_t\n\t\t//int: co dau, so sanh voi d.size() bi canh bao\n\t\t//size_t: khong dau, cung kieu voi d.size()\n\t\tif(d[i]->kc() < minKC->kc()){\n\t\t\tminKC = d[i];\n\t\t}\n\t}\n\tcout << \"Diem gan toa do nhat: \" << *minKC << endl;\n}\n\nint main(){\n\tint n;\n\tcout << \"Nhap n = \";\n\tcin >> n;\n\tvector<Diem*> d(n); // Con tro\n\tfor(int i = 0; i < n; i++){\n\t\tcout << \"Diem \" << i + 1 << \":\" << endl;\n\t\td[i] = new Diem; // cap phat\n\t\tcin >> *d[i];\n\t}\n\tcout << \"\\n==========Data sau khi nhap:==========\\n\";\n\tdouble total = 0.0;\n\tfor(int i = 0; i < n; i++){\n\t\tcout << \"Diem \" << i + 1 << \":\" << endl;\n\t\tcout << *d[i] << \", khoang cach: \" << d[i]->kc() << endl;\n\t\ttotal += d[i]->kc();\n\t}\n\tcout << endl;\n\tcout << \"Tong tat ca cac diem den goc toa do = \" << total;\n\tarrangeMinKC(d);\n\tfor(int i = 0; i < n; i++){\n\t\tdelete d[i];\n\t}\n\treturn 0;\n}",
+  "hasDrawing": false,
+  "drawingFile": null,
+  "drawingMime": null,
+  "drawingAnalysis": null,
+  "score": 9.5,
+  "feedback": "Bài làm hoàn chỉnh và chạy đúng. Lớp Diem có đủ hai thuộc tính private (x, y), nạp chồng toán tử >> để nhập và << để in theo dạng (hoành độ, tung độ), hàm kc() tính khoảng cách đến gốc tọa độ. Hàm main() nhập n điểm, tính tổng khoảng cách và tìm điểm gần gốc tọa độ nhất đều chính xác. Sử dụng vector<Diem*>, cấp phát new và giải phóng delete hợp lý, không rò rỉ bộ nhớ. Dùng size_t đúng chỗ khi so sánh với d.size(). Chỉ có lỗi nhỏ về định dạng xuất (thiếu xuống dòng trước khi in điểm gần nhất).",
+  "breakdown": [
+    {
+      "criterion": "Thiết kế lớp Diem (thuộc tính private, operator >>, operator <<)",
+      "score": 4,
+      "comment": "Đầy đủ thuộc tính private và hai toán tử nhập/xuất đúng định dạng yêu cầu. operator<< dùng tham số const hợp lý."
+    },
+    {
+      "criterion": "Tính khoảng cách đến gốc tọa độ",
+      "score": 2,
+      "comment": "Hàm kc() const tính đúng bằng sqrt(x*x+y*y)."
+    },
+    {
+      "criterion": "Nhập n điểm và tính tổng khoảng cách",
+      "score": 2,
+      "comment": "Nhập và cộng dồn tổng khoảng cách chính xác."
+    },
+    {
+      "criterion": "Tìm điểm gần gốc tọa độ nhất",
+      "score": 1.5,
+      "comment": "Thuật toán tìm min đúng; trừ nhẹ do thiếu xuống dòng trước khi in kết quả làm output dính liền tổng khoảng cách."
+    }
+  ],
+  "grammar": null,
+  "sampleComparison": null,
+  "model": "occ/claude-opus-4-8",
+  "aiKeyId": "6abfdf08b29c124d59ccc66b",
+  "aiKeyName": "hunganh2006",
+  "aiProvider": "vilao",
+  "latencyMs": 20746,
+  "promptSnapshot": {
+    "kind": "essay",
+    "promptId": null,
+    "name": "Fallback mặc định (hardcoded)",
+    "content": "Bạn là giáo viên chấm bài. Hãy chấm bài viết sau dựa trên đề bài và rubric.\n\nĐề bài:\n{đề_bài}\n\nBài làm sinh viên (phần nhập chữ):\n{bài_làm}\n\nPhần vẽ tay của sinh viên (đã được bước phân tích hình ảnh đọc trước):\n{hình_vẽ}\n\nLời giải mẫu (nếu có, chỉ dùng để đối chiếu ý, không chép nguyên văn vào feedback):\n{lời_giải_mẫu}\n\nRubric: {rubric}\nĐiểm tối đa: {max_score}\n\nQUY TẮC CHẤM KẾT HỢP CHỮ + HÌNH VẼ:\n- Nếu có cả phần nhập chữ và phần vẽ tay: chấm CẢ HAI theo đề bài/rubric, cho một điểm tổng duy nhất.\n- Nếu chỉ có một phần: chỉ chấm phần đó, KHÔNG trừ điểm vì phần sinh viên không nộp.\n\nQUY TẮC PHÁT HIỆN LỖI:\n- Chỉ liệt kê lỗi khi lỗi thực sự tồn tại trong bài làm, không tự bịa.\n- Nếu đề bài/rubric không đủ căn cứ để xác định một lỗi cụ thể, bỏ qua, không đoán.\n- Mỗi lỗi nêu rõ: câu gốc sai, câu đã sửa, giải thích ngắn gọn.\n\nChỉ trả về JSON hợp lệ, không Markdown, không giải thích ngoài JSON:\n{\n  \"score\": number,\n  \"feedback\": string,\n  \"breakdown\": [{ \"criterion\": string, \"score\": number, \"comment\": string }],\n  \"errors\": [{ \"original\": string, \"corrected\": string, \"explanation\": string }]\n}",
+    "rubric": null,
+    "strictness": "normal",
+    "maxScore": 10,
+    "scope": "fallback",
+    "version": 0,
+    "isFallback": true,
+    "unknownPlaceholders": [],
+    "snapshotAt": "2026-11-04T15:35:33.456Z"
+  },
+  "raw": {
+    "score": 9.5,
+    "feedback": "Bài làm hoàn chỉnh và chạy đúng. Lớp Diem có đủ hai thuộc tính private (x, y), nạp chồng toán tử >> để nhập và << để in theo dạng (hoành độ, tung độ), hàm kc() tính khoảng cách đến gốc tọa độ. Hàm main() nhập n điểm, tính tổng khoảng cách và tìm điểm gần gốc tọa độ nhất đều chính xác. Sử dụng vector<Diem*>, cấp phát new và giải phóng delete hợp lý, không rò rỉ bộ nhớ. Dùng size_t đúng chỗ khi so sánh với d.size(). Chỉ có lỗi nhỏ về định dạng xuất (thiếu xuống dòng trước khi in điểm gần nhất).",
+    "breakdown": [
+      {
+        "criterion": "Thiết kế lớp Diem (thuộc tính private, operator >>, operator <<)",
+        "score": 4,
+        "comment": "Đầy đủ thuộc tính private và hai toán tử nhập/xuất đúng định dạng yêu cầu. operator<< dùng tham số const hợp lý."
+      },
+      {
+        "criterion": "Tính khoảng cách đến gốc tọa độ",
+        "score": 2,
+        "comment": "Hàm kc() const tính đúng bằng sqrt(x*x+y*y)."
+      },
+      {
+        "criterion": "Nhập n điểm và tính tổng khoảng cách",
+        "score": 2,
+        "comment": "Nhập và cộng dồn tổng khoảng cách chính xác."
+      },
+      {
+        "criterion": "Tìm điểm gần gốc tọa độ nhất",
+        "score": 1.5,
+        "comment": "Thuật toán tìm min đúng; trừ nhẹ do thiếu xuống dòng trước khi in kết quả làm output dính liền tổng khoảng cách."
+      }
+    ],
+    "errors": [
+      {
+        "original": "cout << \"Tong tat ca cac diem den goc toa do = \" << total;\n\tarrangeMinKC(d);",
+        "corrected": "cout << \"Tong tat ca cac diem den goc toa do = \" << total << endl;\n\tarrangeMinKC(d);",
+        "explanation": "Thiếu endl nên dòng tổng khoảng cách và dòng in điểm gần nhất bị dính liền, gây khó đọc kết quả."
+      }
+    ]
+  }
+}
