@@ -1,0 +1,23 @@
+{
+  "lessonId": "6aeb15288669bc211692bafc",
+  "type": "essay",
+  "title": "Nội dung on_tap.pdf_Đề luyện tập 2",
+  "slug": "noi-dung-ontappdfde-luyen-tap-2",
+  "subjectSlug": "toan-roi-rac-1-1-26n06",
+  "description": "",
+  "contentHtml": "<div class=\"de\">\n  <h3>Luyện tập 2</h3>\n\n  <div class=\"cau\">\n    <p><b>Câu 1 (2,5 điểm).</b> Cho hàm Boolean f(x, y, z) được cho bởi:</p>\n    <p>f(x, y, z) = Σ(1, 2, 3, 5, 7),</p>\n    <p>tức là f = 1 trên các bộ (x, y, z) có dạng nhị phân 001, 010, 011, 101, 111.</p>\n    <p>Hãy dùng thuật toán Quine–McCluskey để tối thiểu hóa f sang dạng tổng của tích.</p>\n  </div>\n\n  <div class=\"cau\">\n    <p><b>Câu 2 (2,5 điểm).</b></p>\n    <p>(a) Có bao nhiêu số tự nhiên có 3 chữ số khác nhau và chia hết cho 5?</p>\n    <p>(b) Cho tập A = {a, b, c, d}. Có bao nhiêu tổ hợp lặp chập 6 của A? Viết ra 3 ví dụ.</p>\n  </div>\n\n  <div class=\"cau\">\n    <p><b>Câu 3 (2,5 điểm).</b> Cho tập A = {1, 2, 3, 4, 5, 6}. Định nghĩa quan hệ R trên A bởi:</p>\n    <p>a R b ⇔ a và b cùng tính chẵn lẻ (hoặc đều chẵn, hoặc đều lẻ).</p>\n    <p>(a) Viết đầy đủ tập các cặp thuộc R.</p>\n    <p>(b) Chứng minh R là một quan hệ tương đương trên A.</p>\n    <p>(c) Tìm các lớp tương đương và phân hoạch tương ứng của A.</p>\n  </div>\n\n  <div class=\"cau\">\n    <p><b>Câu 4 (2,5 điểm).</b> Cho đồ thị vô hướng G có tập đỉnh V = {a, b, c, d, e} và tập cạnh:</p>\n    <p>E = {ab, ac, bc, bd, cd, ce, de}.</p>\n    <p>(a) Tính bậc của mỗi đỉnh và cho biết G có liên thông không.</p>\n    <p>(b) Đồ thị G có đường đi Euler hoặc chu trình Euler không? Nếu có, hãy tìm một đường đi Euler.</p>\n  </div>\n</div>",
+  "sampleSolution": "",
+  "duration": 75,
+  "model": null,
+  "promptId": null,
+  "aiKeyId": null,
+  "isPublished": true,
+  "isDeleted": false,
+  "createdBy": {
+    "id": "6ab3d694415010bf620349e5",
+    "name": "Mai Ngọc Hùng Anh",
+    "email": "hunganh.okokok.0@gmail.com"
+  },
+  "createdAt": "2026-11-04T11:21:12.402Z",
+  "updatedAt": "2026-11-04T11:21:12.402Z"
+}
