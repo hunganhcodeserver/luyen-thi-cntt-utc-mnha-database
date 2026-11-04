@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-03T04:00:37.779Z",
-  "total": 37,
+  "updatedAt": "2026-11-04T08:20:25.350Z",
+  "total": 38,
   "logs": [
     {
       "id": "6ac45a48c3fe67bf29ff941c",
@@ -746,6 +746,28 @@
       "ipAddress": "116.96.46.229",
       "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
       "createdAt": "2026-11-03T04:00:37.644Z"
+    },
+    {
+      "id": "6aeaeac9c9f16c40031b25f8",
+      "actor": "6ab6ea62461cb184bc25a92d",
+      "actorEmail": "thuvan67890@gmail.com",
+      "action": "login_failed_locked",
+      "entity": "Auth",
+      "entityId": "6ab6ea62461cb184bc25a92d",
+      "description": "Đăng nhập sai 5/5 lần với email \"thuvan67890@gmail.com\" lúc 15:20:24 4/11/2026 (IP 58.187.231.48, Trình duyệt khác · iOS). Thiết bị này bị khoá 1 phút.",
+      "metadata": {
+        "email": "thuvan67890@gmail.com",
+        "ip": "58.187.231.48",
+        "device": "Trình duyệt khác · iOS",
+        "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_7_16 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/20H392 [FBAN/FBIOS;FBAV/575.0.0.28.104;FBBV/1043783737;FBDV/iPhone10,2;FBMD/iPhone;FBSN/iOS;FBSV/16.7.16;FBSS/3;FBCR/;FBID/phone;FBLC/vi_VN;FBOP/80]",
+        "attempts": 5,
+        "failedAt": "2026-11-04T08:20:24.540Z",
+        "lockedUntil": "2026-11-04T08:21:24.540Z",
+        "accountExists": true
+      },
+      "ipAddress": "58.187.231.48",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_7_16 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/20H392 [FBAN/FBIOS;FBAV/575.0.0.28.104;FBBV/1043783737;FBDV/iPhone10,2;FBMD/iPhone;FBSN/iOS;FBSV/16.7.16;FBSS/3;FBCR/;FBID/phone;FBLC/vi_VN;FBOP/80]",
+      "createdAt": "2026-11-04T08:20:24.540Z"
     }
   ]
 }
