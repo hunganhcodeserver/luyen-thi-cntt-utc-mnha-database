@@ -1,0 +1,23 @@
+{
+  "lessonId": "6aeb15e612d74ff5dd485322",
+  "type": "essay",
+  "title": "Nội dung on_tap.pdf_Đề luyện tập 4",
+  "slug": "noi-dung-ontappdfde-luyen-tap-4",
+  "subjectSlug": "toan-roi-rac-1-1-26n06",
+  "description": "",
+  "contentHtml": "<div class=\"de\">\n  <h3>Luyện tập 4</h3>\n\n  <div class=\"cau\">\n    <p><b>Câu 1 (2,5 điểm).</b> Cho miền giá trị là tập các số nguyên Z. Kí hiệu:</p>\n    <p>P(x): \"x là số chẵn\"; Q(x): \"x là số nguyên tố\".</p>\n    <p>(a) Viết các mệnh đề sau dưới dạng ký pháp logic vị từ và xét tính đúng/sai:</p>\n    <p>&nbsp;&nbsp;(i) \"Có ít nhất một số nguyên vừa chẵn vừa là số nguyên tố\".</p>\n    <p>&nbsp;&nbsp;(ii) \"Mọi số nguyên đều là số nguyên tố\".</p>\n    <p>&nbsp;&nbsp;(iii) \"Tồn tại duy nhất một số nguyên tố chẵn\".</p>\n    <p>(b) Viết mệnh đề \"Có vô hạn số nguyên tố\" dưới dạng công thức dùng lượng từ.</p>\n  </div>\n\n  <div class=\"cau\">\n    <p><b>Câu 2 (2,5 điểm).</b> Cho dãy (a<sub>n</sub>) được xác định bởi hệ thức truy hồi:</p>\n    <p>a<sub>n</sub> = 3a<sub>n−1</sub> − 2a<sub>n−2</sub>, với n ≥ 2, a<sub>0</sub> = 2, a<sub>1</sub> = 5.</p>\n    <p>(a) Tìm công thức tường minh cho a<sub>n</sub>.</p>\n    <p>(b) Tính a<sub>5</sub>.</p>\n  </div>\n\n  <div class=\"cau\">\n    <p><b>Câu 3 (2,5 điểm).</b> Trên tập Z, định nghĩa quan hệ R bởi: a R b ⇔ a − b chia hết cho 4.</p>\n    <p>(a) Chứng minh R là một quan hệ tương đương trên Z.</p>\n    <p>(b) Mô tả các lớp tương đương của R.</p>\n    <p>(c) Viết rõ bốn lớp tương đương chứa các số 0, 1, 2, 3.</p>\n  </div>\n\n  <div class=\"cau\">\n    <p><b>Câu 4 (2,5 điểm).</b> Cho đồ thị vô hướng có trọng số G với tập đỉnh V = {a, b, c, d, e} và các cạnh:</p>\n    <p>ab(4), ac(2), bc(1), bd(5), cd(8), ce(10), de(2).</p>\n    <p>Áp dụng thuật toán Dijkstra (ghi dạng bảng) để tìm đường đi ngắn nhất từ đỉnh a đến đỉnh e.</p>\n  </div>\n</div>",
+  "sampleSolution": "",
+  "duration": 75,
+  "model": null,
+  "promptId": null,
+  "aiKeyId": null,
+  "isPublished": true,
+  "isDeleted": false,
+  "createdBy": {
+    "id": "6ab3d694415010bf620349e5",
+    "name": "Mai Ngọc Hùng Anh",
+    "email": "hunganh.okokok.0@gmail.com"
+  },
+  "createdAt": "2026-11-04T11:24:22.335Z",
+  "updatedAt": "2026-11-04T11:24:22.335Z"
+}
