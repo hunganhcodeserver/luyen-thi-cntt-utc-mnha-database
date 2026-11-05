@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-03T07:43:11.626Z",
+  "updatedAt": "2026-11-05T17:09:47.978Z",
   "subjects": [
     {
       "_id": "6ab3df063c59c9d02fe14887",
@@ -261,6 +261,26 @@
       "deletedForever": false,
       "createdAt": "2026-11-03T07:43:10.548Z",
       "updatedAt": "2026-11-03T07:43:10.548Z"
+    },
+    {
+      "_id": "6aecb85b6efa7056c8760648",
+      "name": "Nhập môn ngành CNTT-1-1-25(N05) + Công nghệ số và AI",
+      "code": "IT1.001.3",
+      "slug": "nhap-mon-nganh-cntt-1-1-25n05-cong-nghe-so-va-ai",
+      "description": "",
+      "order": 0,
+      "githubFolder": null,
+      "promptId": null,
+      "quizPromptId": null,
+      "isPublished": true,
+      "userKey": null,
+      "createdBy": "6ab3d694415010bf620349e5",
+      "updatedBy": "6ab3d694415010bf620349e5",
+      "deletedAt": null,
+      "deletedBy": null,
+      "deletedForever": false,
+      "createdAt": "2026-11-05T17:09:47.445Z",
+      "updatedAt": "2026-11-05T17:09:47.445Z"
     }
   ]
 }
