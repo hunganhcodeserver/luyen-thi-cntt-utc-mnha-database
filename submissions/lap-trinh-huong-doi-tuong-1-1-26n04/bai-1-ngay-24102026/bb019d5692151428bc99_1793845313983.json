@@ -1,0 +1,103 @@
+{
+  "submissionId": "6aebe82d13f1965111b58243",
+  "submittedAt": "2026-11-05T02:21:33.235Z",
+  "gradedAt": "2026-11-05T02:21:54.083Z",
+  "status": "graded",
+  "errorMessage": null,
+  "userId": "6ab3d694415010bf620349e5",
+  "userName": "Mai Ngọc Hùng Anh",
+  "userEmail": "hunganh.okokok.0@gmail.com",
+  "subjectId": "6ab5aeac813f0f6c24604455",
+  "subjectName": "Lập trình hướng đối tượng-1-1-26(N04)",
+  "subjectCode": "IT1.108.3",
+  "subjectSlug": "lap-trinh-huong-doi-tuong-1-1-26n04",
+  "lessonId": "6addb20d44d4b9416a29d9e3",
+  "lessonTitle": "Bài 1 ngày 24/10/2026",
+  "lessonSlug": "bai-1-ngay-24102026",
+  "lessonDuration": 30,
+  "lessonContentHtml": "<p><strong>Bài 1.</strong> Xây dựng chương trình quản lý và mô tả hoạt động của các loại phương tiện giao thông với các yêu cầu:</p>\n<p>1. Xây dựng lớp cơ sở Vehicle gồm: Thuộc tính: brand (hãng sản xuất), speed (tốc độ). Hàm tạo, hàm nhập và hàm hiển thị thông tin. Hàm ảo move() mô tả hoạt động di chuyển của phương tiện.</p>\n<p>2. Xây dựng ba lớp dẫn xuất: Car: ô tô, di chuyển bằng động cơ. Bicycle: xe đạp, di chuyển bằng sức người. Motorcycle: xe máy, di chuyển bằng động cơ.</p>\n<p>3. Mỗi lớp dẫn xuất ghi đè phương thức move() để mô tả cách di chuyển riêng.</p>\n<p>4. Trong hàm main():</p>\n<ul>\n  <li>Khởi tạo n phương tiện thuộc các loại khác nhau, 1 là Car, 2 là Bicycle, 3 là Motorcycle.</li>\n  <li>Sử dụng mảng con trỏ Vehicle* để lưu địa chỉ các đối tượng.</li>\n  <li>Duyệt mảng và gọi move() cho từng phương tiện.</li>\n</ul>",
+  "lessonSampleSolution": "",
+  "answerHtml": "#include<bits/stdc++.h>\n\nusing namespace std;\n\nclass Vehicle{\n\tprivate:\n\t\tstring brand;\n\t\tdouble speed;\n\tpublic:\n\t\tVehicle(){\n\t\t\tbrand = \"\";\n\t\t\tspeed = 0.0;\n\t\t}\n\t\tvirtual ~Vehicle(){\n\t\t}\n\t\tvoid nhap(){\n\t\t\tcout << \"Hang san xuat: \";\n\t\t\tcin >> brand;\n\t\t\tcout << \"Toc do: \";\n\t\t\tcin >> speed;\n\t\t}\n\t\tvirtual void move(){\n\t\t\tcout << \"Di chuyen: \";\n\t\t}\n\t\tvoid xuat(){\n\t\t\tcout << \"Hang san xuat: \" << brand << \", Toc do: \" << speed << \", \";\n\t\t\tmove();\n\t\t}\n};\n\nclass Car : public Vehicle{\n\tpublic:\n\t\tvoid move(){\n\t\t\tVehicle::move();\n\t\t\tcout << \"Dong co.\\n\";\n\t\t}\n};\n\nclass Bicycle : public Vehicle{\n\tpublic:\n\t\tvoid move(){\n\t\t\tVehicle::move();\n\t\t\tcout << \"Suc nguoi.\\n\";\n\t\t}\n};\n\nclass Motorcycle : public Vehicle{\n\tpublic:\n\t\tvoid move(){\n\t\t\tVehicle::move();\n\t\t\tcout << \"Dong co.\\n\";\n\t\t}\n};\n\nint main(){\n\tint n;\n\tcout << \"Nhap n = \";\n\tcin >> n;\n\tcout << endl;\n\tvector<Vehicle*> ds(n);\n\tfor(int i = 0; i < n; i++){\n\t\tcout << \"Xe thu \" << i + 1 << \":\\n\";\n\t\tint loai;\n\t\tdo {\n\t\t\tcout << \"Chon loai (1. Car, 2. Bicycle, 3. Motorcycle): \";\n\t\t\tcin >> loai;\n\t\t\tif (loai == 1) ds[i] = new Car;\n\t\t\telse if (loai == 2) ds[i] = new Bicycle;\n\t\t\telse if (loai == 3) ds[i] = new Motorcycle;\n\t\t} while(loai < 1 || loai > 3);\n\t\tds[i]->nhap();\n\t\tcout << endl;\n\t}\n\tcout << \"\\n===== DANH SACH XE =====\\n\";\n\tfor(int i = 0; i < n; i++){\n\t\tds[i]->xuat();\n\t}\n\tfor(int i = 0; i < n; i++){\n\t\tdelete ds[i];\n\t}\n\treturn 0;\n}",
+  "hasDrawing": false,
+  "drawingFile": null,
+  "drawingMime": null,
+  "drawingAnalysis": null,
+  "score": 9,
+  "feedback": "Bài làm đáp ứng gần đủ yêu cầu và chạy đúng. Lớp Vehicle có thuộc tính brand và speed, có hàm tạo, hàm nhập, hàm xuất, hàm ảo move() và destructor ảo, nên việc delete qua con trỏ lớp cơ sở là an toàn. Ba lớp Car, Bicycle và Motorcycle đều ghi đè move(), và cách gọi Vehicle::move() để tái sử dụng phần chung là hợp lý. Trong main(), chương trình chọn đúng loại xe theo mã 1/2/3, có vòng do-while kiểm tra lựa chọn hợp lệ, gọi move() theo cơ chế đa hình thông qua xuat() và giải phóng bộ nhớ đầy đủ. Các điểm cần cải thiện: chỉ có hàm tạo mặc định, nên bổ sung hàm tạo có tham số (brand, speed); đề yêu cầu mảng con trỏ Vehicle* nhưng bài dùng vector<Vehicle*>. vector vẫn đúng về bản chất nhưng chưa bám sát đề. Có thể thêm từ khóa override ở các lớp dẫn xuất để trình biên dịch kiểm tra việc ghi đè.",
+  "breakdown": [
+    {
+      "criterion": "Lớp cơ sở Vehicle (thuộc tính, hàm tạo, nhập, hiển thị, hàm ảo move)",
+      "score": 2.5,
+      "comment": "Đủ thuộc tính, có nhập, xuất, move() ảo và destructor ảo. Chỉ có hàm tạo mặc định, thiếu hàm tạo có tham số."
+    },
+    {
+      "criterion": "Ba lớp dẫn xuất Car, Bicycle, Motorcycle",
+      "score": 2,
+      "comment": "Kế thừa public đúng, đủ ba lớp."
+    },
+    {
+      "criterion": "Ghi đè move() cho từng lớp",
+      "score": 2,
+      "comment": "Mỗi lớp ghi đè move() và mô tả đúng cách di chuyển (động cơ hoặc sức người)."
+    },
+    {
+      "criterion": "Hàm main(): khởi tạo n phương tiện, mảng con trỏ Vehicle*, duyệt và gọi move()",
+      "score": 2.5,
+      "comment": "Chọn loại xe đúng theo mã, có kiểm tra lựa chọn hợp lệ, gọi move() đa hình qua xuat() và giải phóng bộ nhớ. Dùng vector<Vehicle*> thay cho mảng con trỏ như đề yêu cầu."
+    }
+  ],
+  "grammar": null,
+  "sampleComparison": null,
+  "model": "occ/claude-opus-5-5",
+  "aiKeyId": "6abfdf08b29c124d59ccc66b",
+  "aiKeyName": "hunganh2006",
+  "aiProvider": "vilao",
+  "latencyMs": 20512,
+  "promptSnapshot": {
+    "kind": "essay",
+    "promptId": null,
+    "name": "Fallback mặc định (hardcoded)",
+    "content": "Bạn là giáo viên chấm bài. Hãy chấm bài viết sau dựa trên đề bài và rubric.\n\nĐề bài:\n{đề_bài}\n\nBài làm sinh viên (phần nhập chữ):\n{bài_làm}\n\nPhần vẽ tay của sinh viên (đã được bước phân tích hình ảnh đọc trước):\n{hình_vẽ}\n\nLời giải mẫu (nếu có, chỉ dùng để đối chiếu ý, không chép nguyên văn vào feedback):\n{lời_giải_mẫu}\n\nRubric: {rubric}\nĐiểm tối đa: {max_score}\n\nQUY TẮC CHẤM KẾT HỢP CHỮ + HÌNH VẼ:\n- Nếu có cả phần nhập chữ và phần vẽ tay: chấm CẢ HAI theo đề bài/rubric, cho một điểm tổng duy nhất.\n- Nếu chỉ có một phần: chỉ chấm phần đó, KHÔNG trừ điểm vì phần sinh viên không nộp.\n\nQUY TẮC PHÁT HIỆN LỖI:\n- Chỉ liệt kê lỗi khi lỗi thực sự tồn tại trong bài làm, không tự bịa.\n- Nếu đề bài/rubric không đủ căn cứ để xác định một lỗi cụ thể, bỏ qua, không đoán.\n- Mỗi lỗi nêu rõ: câu gốc sai, câu đã sửa, giải thích ngắn gọn.\n\nChỉ trả về JSON hợp lệ, không Markdown, không giải thích ngoài JSON:\n{\n  \"score\": number,\n  \"feedback\": string,\n  \"breakdown\": [{ \"criterion\": string, \"score\": number, \"comment\": string }],\n  \"errors\": [{ \"original\": string, \"corrected\": string, \"explanation\": string }]\n}",
+    "rubric": null,
+    "strictness": "normal",
+    "maxScore": 10,
+    "scope": "fallback",
+    "version": 0,
+    "isFallback": true,
+    "unknownPlaceholders": [],
+    "snapshotAt": "2026-11-05T02:21:53.750Z"
+  },
+  "raw": {
+    "score": 9,
+    "feedback": "Bài làm đáp ứng gần đủ yêu cầu và chạy đúng. Lớp Vehicle có thuộc tính brand và speed, có hàm tạo, hàm nhập, hàm xuất, hàm ảo move() và destructor ảo, nên việc delete qua con trỏ lớp cơ sở là an toàn. Ba lớp Car, Bicycle và Motorcycle đều ghi đè move(), và cách gọi Vehicle::move() để tái sử dụng phần chung là hợp lý. Trong main(), chương trình chọn đúng loại xe theo mã 1/2/3, có vòng do-while kiểm tra lựa chọn hợp lệ, gọi move() theo cơ chế đa hình thông qua xuat() và giải phóng bộ nhớ đầy đủ. Các điểm cần cải thiện: chỉ có hàm tạo mặc định, nên bổ sung hàm tạo có tham số (brand, speed); đề yêu cầu mảng con trỏ Vehicle* nhưng bài dùng vector<Vehicle*>. vector vẫn đúng về bản chất nhưng chưa bám sát đề. Có thể thêm từ khóa override ở các lớp dẫn xuất để trình biên dịch kiểm tra việc ghi đè.",
+    "breakdown": [
+      {
+        "criterion": "Lớp cơ sở Vehicle (thuộc tính, hàm tạo, nhập, hiển thị, hàm ảo move)",
+        "score": 2.5,
+        "comment": "Đủ thuộc tính, có nhập, xuất, move() ảo và destructor ảo. Chỉ có hàm tạo mặc định, thiếu hàm tạo có tham số."
+      },
+      {
+        "criterion": "Ba lớp dẫn xuất Car, Bicycle, Motorcycle",
+        "score": 2,
+        "comment": "Kế thừa public đúng, đủ ba lớp."
+      },
+      {
+        "criterion": "Ghi đè move() cho từng lớp",
+        "score": 2,
+        "comment": "Mỗi lớp ghi đè move() và mô tả đúng cách di chuyển (động cơ hoặc sức người)."
+      },
+      {
+        "criterion": "Hàm main(): khởi tạo n phương tiện, mảng con trỏ Vehicle*, duyệt và gọi move()",
+        "score": 2.5,
+        "comment": "Chọn loại xe đúng theo mã, có kiểm tra lựa chọn hợp lệ, gọi move() đa hình qua xuat() và giải phóng bộ nhớ. Dùng vector<Vehicle*> thay cho mảng con trỏ như đề yêu cầu."
+      }
+    ],
+    "errors": [
+      {
+        "original": "vector<Vehicle*> ds(n);",
+        "corrected": "Vehicle** ds = new Vehicle*[n]; // và cuối chương trình: delete[] ds;",
+        "explanation": "Đề yêu cầu dùng mảng con trỏ Vehicle*. vector hoạt động đúng nhưng không bám sát yêu cầu đề bài."
+      }
+    ]
+  }
+}
