@@ -1,0 +1,27 @@
+{
+  "type": "video",
+  "videoId": "6aebd349c46f6982955f6b3f",
+  "title": "[Ver 3.5] IM_khai giảng Basic",
+  "slug": "ver-3-5-im-khai-giang-basic",
+  "subjectSlug": "nk2-gtbs680-t36-19h50-21h50",
+  "description": "",
+  "videos": [
+    {
+      "id": "vf3323462",
+      "title": "",
+      "enc": "v1.mvnYjk3ftp_Ip_zu.-Q524wX2aCH0SLxX2Dl01A.sPTlswqLIiYizjEHBxfTT9AzU6l9qqdu2FjSccRnTofOkU2Sn_VBW7dFXiR6HEZWVHhEw0UwklgrTKsqgaa6x3vrGAcxvWYUG_kLcY25c45WSzRVXU9aWBc6BXFwtKaSzBLiD-WlaO6rsc9bG_UlQx1r4w1A0c7rSOC-3KocOvwOqFDWzuXvps8Tni5JcnTLmYkVE6Cfleo2Mje4r_tAwYdhedsNP4W66EBtfHp8jh8o2aIgibxw_Tb7EmKR0oTuPhThn53-1OFidQ3uncsam8oizrBQoJWfLgZBzDDzSMPsFXBS78s_lAnd_1hRpl1tmsSh3KqZjZH2Kyp--vMfi9dINIju3ZYZgsbcFsHurkdNWVnslOdH0Bzl0pLoWYgY9YZzCJOeFsF0f_drnMONfQIndh4Tib9gDSf2zwzSwtnk1ldc76BXTw"
+    }
+  ],
+  "videoCount": 1,
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-11-05T00:52:25.900Z",
+  "updatedAt": "2026-11-05T00:52:25.900Z"
+}
