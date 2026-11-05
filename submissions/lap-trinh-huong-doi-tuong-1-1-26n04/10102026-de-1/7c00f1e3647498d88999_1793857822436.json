@@ -1,7 +1,7 @@
 {
   "submissionId": "6aec190a3d4a284b3916e330",
   "submittedAt": "2026-11-05T05:50:02.565Z",
-  "gradedAt": "2026-11-05T05:50:22.543Z",
+  "gradedAt": "2026-11-05T05:50:22.115Z",
   "status": "graded",
   "errorMessage": null,
   "userId": "6ab3d694415010bf620349e5",
@@ -89,5 +89,8 @@
         "explanation": "Nếu người dùng nhập n âm, giá trị n bị chuyển thành số size_t rất lớn khi tạo vector, khiến chương trình ném ngoại lệ (length_error/bad_alloc). Cần kiểm tra n > 0 trước khi tạo vector."
       }
     ]
-  }
+  },
+  "type": "essay",
+  "teacherComment": null,
+  "updatedAt": "2026-11-05T05:50:23.656Z"
 }
