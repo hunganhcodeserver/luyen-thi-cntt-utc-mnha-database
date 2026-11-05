@@ -1,0 +1,44 @@
+{
+  "type": "slide",
+  "slideId": "6aecbfda6efa7056c8760649",
+  "title": "UTC_NMCNTT_CNSAI",
+  "slug": "utc-nmcntt-cnsai",
+  "subjectSlug": "nhap-mon-nganh-cntt-1-1-25n05-cong-nghe-so-va-ai",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/nhap-mon-nganh-cntt-1-1-25n05-cong-nghe-so-va-ai/slides/utc-nmcntt-cnsai_1793900251-1.pptx",
+      "enc": 22000620,
+      "plain": 22000000
+    },
+    {
+      "path": "subjects/nhap-mon-nganh-cntt-1-1-25n05-cong-nghe-so-va-ai/slides/utc-nmcntt-cnsai_1793900251-2.pptx",
+      "enc": 22000620,
+      "plain": 22000000
+    },
+    {
+      "path": "subjects/nhap-mon-nganh-cntt-1-1-25n05-cong-nghe-so-va-ai/slides/utc-nmcntt-cnsai_1793900251-3.pptx",
+      "enc": 22000620,
+      "plain": 22000000
+    },
+    {
+      "path": "subjects/nhap-mon-nganh-cntt-1-1-25n05-cong-nghe-so-va-ai/slides/utc-nmcntt-cnsai_1793900251-4.pptx",
+      "enc": 12483756,
+      "plain": 12483360
+    }
+  ],
+  "fileExt": "pptx",
+  "fileSize": 78483360,
+  "originalName": "UTC_NMCNTT_CNSAI.pptx",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-11-05T17:41:46.890Z",
+  "updatedAt": "2026-11-05T17:41:46.890Z"
+}
