@@ -1,7 +1,7 @@
 {
   "submissionId": "6aebe82d13f1965111b58243",
   "submittedAt": "2026-11-05T02:21:33.235Z",
-  "gradedAt": "2026-11-05T02:21:54.083Z",
+  "gradedAt": "2026-11-05T02:21:53.750Z",
   "status": "graded",
   "errorMessage": null,
   "userId": "6ab3d694415010bf620349e5",
@@ -99,5 +99,8 @@
         "explanation": "Đề yêu cầu dùng mảng con trỏ Vehicle*. vector hoạt động đúng nhưng không bám sát yêu cầu đề bài."
       }
     ]
-  }
+  },
+  "type": "essay",
+  "teacherComment": null,
+  "updatedAt": "2026-11-05T02:21:55.237Z"
 }
