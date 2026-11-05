@@ -1,7 +1,7 @@
 {
   "submissionId": "6aec186f3d4a284b3916e32e",
   "submittedAt": "2026-11-05T05:47:27.483Z",
-  "gradedAt": "2026-11-05T05:47:47.786Z",
+  "gradedAt": "2026-11-05T05:47:47.204Z",
   "status": "graded",
   "errorMessage": null,
   "userId": "6ab3d694415010bf620349e5",
@@ -104,5 +104,8 @@
         "explanation": "RectanglePrivate chỉ có hàm tạo RectanglePrivate(double, double), không có hàm tạo mặc định, nên lệnh gốc gây lỗi biên dịch. Cần truyền w, h vào hàm tạo."
       }
     ]
-  }
+  },
+  "type": "essay",
+  "teacherComment": null,
+  "updatedAt": "2026-11-05T05:47:49.085Z"
 }
