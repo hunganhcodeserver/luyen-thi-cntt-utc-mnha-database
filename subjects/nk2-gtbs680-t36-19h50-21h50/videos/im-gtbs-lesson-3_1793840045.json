@@ -1,0 +1,27 @@
+{
+  "type": "video",
+  "videoId": "6aebd3adc46f6982955f6b40",
+  "title": "[IM] GTBS - Lesson 3",
+  "slug": "im-gtbs-lesson-3",
+  "subjectSlug": "nk2-gtbs680-t36-19h50-21h50",
+  "description": "",
+  "videos": [
+    {
+      "id": "v5a2e410f",
+      "title": "",
+      "enc": "v1.VuML5ivg4ifV-5Ke.oXFKmqfvf4Jl3Dji2S_z1A.xAVMUUPKlqoPNHi4WiRrrJFzKlp_TJEsnu4ZfD_fWI3o9atPylUIAIf8FfEbMnFSqWwKJHCbv4URmE4aqX8_w_YmfRygdl64yTqbYVXk8d-tEPatzpeCBAc8Q6JRunH1GwPUrQWdLc2FrDHrWY-a_y74N6ELcXI9LlAEfkuiy4QxefRs2iXEoFInzeOatADmvhoY1obatpcy20OwQAz2LdZKF2KXDNTfiETJqs19tb1j50BsVf5_xe5uXdZbIwKEVI1bWQIhY3rJmMVEd2j0X236YEojkihfHMuk3liXPEADfkJOzYLWefOF8mHVmNcWouGED90JibEKgsufMpyMj1K_XZ1HnzmEYcWXCGTM-eLvEfuzggY2t7FU07m-58dUllu8_47hAJOgu8D6PUFbxJWPZUjO7RnoB5W-hEZJ-T_WF6By2hVEQw"
+    }
+  ],
+  "videoCount": 1,
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-11-05T00:54:05.636Z",
+  "updatedAt": "2026-11-05T00:54:05.636Z"
+}
