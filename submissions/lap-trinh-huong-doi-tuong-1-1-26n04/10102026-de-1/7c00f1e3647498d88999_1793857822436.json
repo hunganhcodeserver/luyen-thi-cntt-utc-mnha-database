@@ -1,0 +1,93 @@
+{
+  "submissionId": "6aec190a3d4a284b3916e330",
+  "submittedAt": "2026-11-05T05:50:02.565Z",
+  "gradedAt": "2026-11-05T05:50:22.543Z",
+  "status": "graded",
+  "errorMessage": null,
+  "userId": "6ab3d694415010bf620349e5",
+  "userName": "Mai Ngọc Hùng Anh",
+  "userEmail": "hunganh.okokok.0@gmail.com",
+  "subjectId": "6ab5aeac813f0f6c24604455",
+  "subjectName": "Lập trình hướng đối tượng-1-1-26(N04)",
+  "subjectCode": "IT1.108.3",
+  "subjectSlug": "lap-trinh-huong-doi-tuong-1-1-26n04",
+  "lessonId": "6acb62d8c4cd6bb7aae94046",
+  "lessonTitle": "(10/10/2026) Đề 1",
+  "lessonSlug": "10102026-de-1",
+  "lessonDuration": 30,
+  "lessonContentHtml": "<div class=\"de-bai\">\n\n<div class=\"bai\">\n  <h3>Bài 1.</h3>\n  <p>Hãy định nghĩa một lớp Shape (Hình) trong đó dữ liệu là 2 cạnh (width, và height). Dẫn xuất từ lớp Hình hai lớp con là lớp Triangle (Hình tam giác) và lớp Rectangle (Hình chữ nhật), trong mỗi lớp có phương thức tính diện tích area().</p>\n  <p>Trong hàm main() khai báo hai biến đối tượng của lớp Triangle và lớp Rectangle, sau đó gọi hàm area() để tính diện tích mỗi hình.</p>\n  <p>Yêu cầu: Viết hai phiên bản cho hai trường hợp:<br>\n  1) Dữ liệu của Shape là protected, dùng hàm thành phần để nhập dữ liệu.<br>\n  2) Dữ liệu của Shape là private, dùng hàm tạo có đối để khởi tạo dữ liệu.</p>\n</div>\n\n</div>",
+  "lessonSampleSolution": "",
+  "answerHtml": "#include<bits/stdc++.h>\n\nusing namespace std;\n\n//===========protected===========\nclass ShapeProtected{\n\tprotected:\n\t\tdouble width;\n\t\tdouble height;\n\tpublic:\n\t\tShapeProtected(){\n\t\t\twidth = 0.0;\n\t\t\theight = 0.0;\n\t\t}\n\t\tvirtual ~ShapeProtected(){\n\t\t}\n\t\tvoid nhap(){\n\t\t\tcout << \"Nhap chieu dai: \";\n\t\t\tcin >> width;\n\t\t\tcout << \"Nhap chieu rong: \";\n\t\t\tcin >> height;\n\t\t}\n\t\tvoid xuat(){\n\t\t\tcout << \"Chieu dai: \" << width << \", Chieu rong: \" << height;\n\t\t}\n\t\tdouble getWidth(){\n\t\t\treturn width;\n\t\t}\n\t\tdouble getHeight(){\n\t\t\treturn height;\n\t\t}\n\t\tvirtual double area() = 0;\n};\n\nclass TriangleProtected : public ShapeProtected{\n\tpublic:\n\t\tdouble area(){\n\t\t\treturn (1.0/2) * width * height;\n\t\t}\n};\n\nclass RectangleProtected : public ShapeProtected{\n\tpublic:\n\t\tdouble area(){\n\t\t\treturn width * height;\n\t\t}\n};\n\n//===========private===========\nclass ShapePrivate{\n\tprivate:\n\t\tdouble width;\n\t\tdouble height;\n\tpublic:\n\t\tShapePrivate(){\n\t\t\twidth = 0.0;\n\t\t\theight = 0.0;\n\t\t}\n\t\tShapePrivate(double w, double h){\n\t\t\twidth = w;\n\t\t\theight = h;\n\t\t}\n\t\tvirtual ~ShapePrivate(){\n\t\t}\n\t\tvoid xuat(){\n\t\t\tcout << \"Chieu dai: \" << width << \", Chieu rong: \" << height;\n\t\t}\n\t\tdouble getWidth(){\n\t\t\treturn width;\n\t\t}\n\t\tdouble getHeight(){\n\t\t\treturn height;\n\t\t}\n\t\tvirtual double area() = 0;\n};\n\nclass TrianglePrivate : public ShapePrivate{\n\tpublic:\n\t\tTrianglePrivate(double w, double h) : ShapePrivate(w, h){\n\t\t}\n\t\tdouble area(){\n\t\t\treturn (1.0/2) * getWidth() * getHeight();\n\t\t}\n};\n\nclass RectanglePrivate : public ShapePrivate{\n\tpublic:\n\t\tRectanglePrivate(double w, double h) : ShapePrivate(w, h){\n\t\t}\n\t\tdouble area(){\n\t\t\treturn getWidth() * getHeight();\n\t\t}\n};\n\nint main(){\n\tint n;\n\tcout << \"Nhap n = \";\n\tcin >> n;\n\tvector<ShapeProtected*> s1(n);\n\tvector<ShapePrivate*> s2(n);\n\tfor(int i = 0; i < n; i++){\n\t\tint loai;\n\t\tdo{\n\t\t\tcout << \"\\nHinh thu \" << i + 1 << \" (1: Tam giac, 2: Chu nhat): \";\n\t\t\tcin >> loai;\n\t\t\tif(loai != 1 && loai != 2){\n\t\t\t\tcout << \"Chi duoc nhap 1 hoac 2, nhap lai!\";\n\t\t\t}\n\t\t} while(loai != 1 && loai != 2);\n\t\t//phien ban 1: protected, dung ham thanh phan nhap\n\t\tif(loai == 1){\n\t\t\ts1[i] = new TriangleProtected();\n\t\t}\n\t\telse{\n\t\t\ts1[i] = new RectangleProtected();\n\t\t}\n\t\ts1[i]->nhap();\n\t\t//phien ban 2: private, dung ham tao co doi, du lieu lay tu s1\n\t\tdouble w = s1[i]->getWidth();\n\t\tdouble h = s1[i]->getHeight();\n\t\tif(loai == 1){\n\t\t\ts2[i] = new TrianglePrivate(w, h);\n\t\t}\n\t\telse{\n\t\t\ts2[i] = new RectanglePrivate(w, h);\n\t\t}\n\t}\n\tcout << \"\\n===== Protected =====\\n\";\n\tfor(int i = 0; i < n; i++){\n\t\ts1[i]->xuat();\n\t\tcout << \", Dien tich: \" << s1[i]->area() << endl;\n\t}\n\tcout << \"\\n===== Private =====\\n\";\n\tfor(int i = 0; i < n; i++){\n\t\ts2[i]->xuat();\n\t\tcout << \", Dien tich: \" << s2[i]->area() << endl;\n\t}\n\tfor(int i = 0; i < n; i++){\n\t\tdelete s1[i];\n\t\tdelete s2[i];\n\t}\n\treturn 0;\n}",
+  "hasDrawing": false,
+  "drawingFile": null,
+  "drawingMime": null,
+  "drawingAnalysis": null,
+  "score": 9.5,
+  "feedback": "Bài làm đáp ứng đầy đủ yêu cầu của đề. Phiên bản 1 khai báo dữ liệu protected và nhập dữ liệu bằng hàm thành phần nhap(). Lớp con truy cập trực tiếp width, height để tính diện tích. Phiên bản 2 khai báo dữ liệu private và khởi tạo bằng hàm tạo có đối. Lớp con gọi hàm tạo lớp cha qua danh sách khởi tạo và lấy dữ liệu qua getWidth()/getHeight(). Đây là cách làm đúng vì lớp con không truy cập được thành viên private. Bài dùng hàm ảo thuần túy area() và hàm hủy ảo, nên giải phóng đối tượng qua con trỏ lớp cha là an toàn, và có delete đầy đủ. Hàm main tổng quát hơn đề yêu cầu (n hình, chọn loại), vẫn tạo được đối tượng Triangle, Rectangle và gọi area(). Điểm cần cải thiện: chưa kiểm tra n hợp lệ. Nhãn 'Chieu dai/Chieu rong' cũng chưa phù hợp với tam giác (nên là 'Day/Chieu cao'). Các getter nên khai báo const.",
+  "breakdown": [
+    {
+      "criterion": "Phiên bản 1: Shape có dữ liệu protected, nhập bằng hàm thành phần, Triangle/Rectangle có area()",
+      "score": 4,
+      "comment": "Đúng yêu cầu. Lớp con dùng trực tiếp width, height. Công thức diện tích tam giác (1/2 * đáy * cao) và hình chữ nhật đều đúng."
+    },
+    {
+      "criterion": "Phiên bản 2: Shape có dữ liệu private, khởi tạo bằng hàm tạo có đối",
+      "score": 4,
+      "comment": "Đúng yêu cầu. Lớp con gọi ShapePrivate(w, h) trong danh sách khởi tạo và truy cập dữ liệu qua getter."
+    },
+    {
+      "criterion": "Hàm main và tổ chức chương trình",
+      "score": 1.5,
+      "comment": "main tạo đối tượng hai loại, gọi area(), xuất kết quả và giải phóng bộ nhớ đúng. Có kiểm tra lựa chọn loại hình. Chưa kiểm tra n hợp lệ: n âm sẽ làm chương trình lỗi khi tạo vector."
+    }
+  ],
+  "grammar": null,
+  "sampleComparison": null,
+  "model": "occ/claude-opus-5-5",
+  "aiKeyId": "6abfdf08b29c124d59ccc66b",
+  "aiKeyName": "hunganh2006",
+  "aiProvider": "vilao",
+  "latencyMs": 19548,
+  "promptSnapshot": {
+    "kind": "essay",
+    "promptId": null,
+    "name": "Fallback mặc định (hardcoded)",
+    "content": "Bạn là giáo viên chấm bài. Hãy chấm bài viết sau dựa trên đề bài và rubric.\n\nĐề bài:\n{đề_bài}\n\nBài làm sinh viên (phần nhập chữ):\n{bài_làm}\n\nPhần vẽ tay của sinh viên (đã được bước phân tích hình ảnh đọc trước):\n{hình_vẽ}\n\nLời giải mẫu (nếu có, chỉ dùng để đối chiếu ý, không chép nguyên văn vào feedback):\n{lời_giải_mẫu}\n\nRubric: {rubric}\nĐiểm tối đa: {max_score}\n\nQUY TẮC CHẤM KẾT HỢP CHỮ + HÌNH VẼ:\n- Nếu có cả phần nhập chữ và phần vẽ tay: chấm CẢ HAI theo đề bài/rubric, cho một điểm tổng duy nhất.\n- Nếu chỉ có một phần: chỉ chấm phần đó, KHÔNG trừ điểm vì phần sinh viên không nộp.\n\nQUY TẮC PHÁT HIỆN LỖI:\n- Chỉ liệt kê lỗi khi lỗi thực sự tồn tại trong bài làm, không tự bịa.\n- Nếu đề bài/rubric không đủ căn cứ để xác định một lỗi cụ thể, bỏ qua, không đoán.\n- Mỗi lỗi nêu rõ: câu gốc sai, câu đã sửa, giải thích ngắn gọn.\n\nChỉ trả về JSON hợp lệ, không Markdown, không giải thích ngoài JSON:\n{\n  \"score\": number,\n  \"feedback\": string,\n  \"breakdown\": [{ \"criterion\": string, \"score\": number, \"comment\": string }],\n  \"errors\": [{ \"original\": string, \"corrected\": string, \"explanation\": string }]\n}",
+    "rubric": null,
+    "strictness": "normal",
+    "maxScore": 10,
+    "scope": "fallback",
+    "version": 0,
+    "isFallback": true,
+    "unknownPlaceholders": [],
+    "snapshotAt": "2026-11-05T05:50:22.115Z"
+  },
+  "raw": {
+    "score": 9.5,
+    "feedback": "Bài làm đáp ứng đầy đủ yêu cầu của đề. Phiên bản 1 khai báo dữ liệu protected và nhập dữ liệu bằng hàm thành phần nhap(). Lớp con truy cập trực tiếp width, height để tính diện tích. Phiên bản 2 khai báo dữ liệu private và khởi tạo bằng hàm tạo có đối. Lớp con gọi hàm tạo lớp cha qua danh sách khởi tạo và lấy dữ liệu qua getWidth()/getHeight(). Đây là cách làm đúng vì lớp con không truy cập được thành viên private. Bài dùng hàm ảo thuần túy area() và hàm hủy ảo, nên giải phóng đối tượng qua con trỏ lớp cha là an toàn, và có delete đầy đủ. Hàm main tổng quát hơn đề yêu cầu (n hình, chọn loại), vẫn tạo được đối tượng Triangle, Rectangle và gọi area(). Điểm cần cải thiện: chưa kiểm tra n hợp lệ. Nhãn 'Chieu dai/Chieu rong' cũng chưa phù hợp với tam giác (nên là 'Day/Chieu cao'). Các getter nên khai báo const.",
+    "breakdown": [
+      {
+        "criterion": "Phiên bản 1: Shape có dữ liệu protected, nhập bằng hàm thành phần, Triangle/Rectangle có area()",
+        "score": 4,
+        "comment": "Đúng yêu cầu. Lớp con dùng trực tiếp width, height. Công thức diện tích tam giác (1/2 * đáy * cao) và hình chữ nhật đều đúng."
+      },
+      {
+        "criterion": "Phiên bản 2: Shape có dữ liệu private, khởi tạo bằng hàm tạo có đối",
+        "score": 4,
+        "comment": "Đúng yêu cầu. Lớp con gọi ShapePrivate(w, h) trong danh sách khởi tạo và truy cập dữ liệu qua getter."
+      },
+      {
+        "criterion": "Hàm main và tổ chức chương trình",
+        "score": 1.5,
+        "comment": "main tạo đối tượng hai loại, gọi area(), xuất kết quả và giải phóng bộ nhớ đúng. Có kiểm tra lựa chọn loại hình. Chưa kiểm tra n hợp lệ: n âm sẽ làm chương trình lỗi khi tạo vector."
+      }
+    ],
+    "errors": [
+      {
+        "original": "cout << \"Nhap n = \";\n\tcin >> n;\n\tvector<ShapeProtected*> s1(n);",
+        "corrected": "do{\n\t\tcout << \"Nhap n = \";\n\t\tcin >> n;\n\t} while(n <= 0);\n\tvector<ShapeProtected*> s1(n);",
+        "explanation": "Nếu người dùng nhập n âm, giá trị n bị chuyển thành số size_t rất lớn khi tạo vector, khiến chương trình ném ngoại lệ (length_error/bad_alloc). Cần kiểm tra n > 0 trước khi tạo vector."
+      }
+    ]
+  }
+}
