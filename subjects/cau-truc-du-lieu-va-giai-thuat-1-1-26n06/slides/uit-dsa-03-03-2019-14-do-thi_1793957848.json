@@ -1,0 +1,29 @@
+{
+  "type": "slide",
+  "slideId": "6aeda0032f9b6ad7e3fb5650",
+  "title": "UIT_DSA_03-03-2019_14. Đồ Thị",
+  "slug": "uit-dsa-03-03-2019-14-do-thi",
+  "subjectSlug": "cau-truc-du-lieu-va-giai-thuat-1-1-26n06",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/cau-truc-du-lieu-va-giai-thuat-1-1-26n06/slides/uit-dsa-03-03-2019-14-do-thi_1793957848.pdf",
+      "enc": 10297128,
+      "plain": 10296788
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 10296788,
+  "originalName": "14. Đồ Thị.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-11-06T09:38:11.526Z",
+  "updatedAt": "2026-11-06T09:38:11.526Z"
+}
