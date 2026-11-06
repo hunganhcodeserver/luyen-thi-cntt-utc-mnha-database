@@ -1,0 +1,29 @@
+{
+  "type": "slide",
+  "slideId": "6aed9dc72f9b6ad7e3fb564a",
+  "title": "UIT_DSA_03-03-2019_08. Stack & Queue",
+  "slug": "uit-dsa-03-03-2019-08-stack-queue",
+  "subjectSlug": "cau-truc-du-lieu-va-giai-thuat-1-1-26n06",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/cau-truc-du-lieu-va-giai-thuat-1-1-26n06/slides/uit-dsa-03-03-2019-08-stack-queue_1793957301.pdf",
+      "enc": 2218555,
+      "plain": 2218439
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 2218439,
+  "originalName": "08. Stack & Queue.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-11-06T09:28:39.902Z",
+  "updatedAt": "2026-11-06T09:28:39.902Z"
+}
