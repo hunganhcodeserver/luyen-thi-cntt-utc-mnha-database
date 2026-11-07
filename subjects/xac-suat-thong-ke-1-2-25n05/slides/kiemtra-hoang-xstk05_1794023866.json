@@ -1,0 +1,29 @@
+{
+  "type": "slide",
+  "slideId": "6aeea1d7207af83765ba959d",
+  "title": "kiemtra-Hoang-xstk05",
+  "slug": "kiemtra-hoang-xstk05",
+  "subjectSlug": "xac-suat-thong-ke-1-2-25n05",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/xac-suat-thong-ke-1-2-25n05/slides/kiemtra-hoang-xstk05_1794023866.pdf",
+      "enc": 532195,
+      "plain": 532135
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 532135,
+  "originalName": "kiemtra-Hoang-xstk05.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-11-07T03:58:15.647Z",
+  "updatedAt": "2026-11-07T03:58:15.647Z"
+}
