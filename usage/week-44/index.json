@@ -29,9 +29,16 @@
           "originIn": 31067387,
           "originOut": 9383757,
           "req": 730
+        },
+        "2026-11-06": {
+          "in": 944740,
+          "out": 5134237,
+          "originIn": 13337631,
+          "originOut": 4769127,
+          "req": 614
         }
       },
-      "updatedAt": "2026-11-06T00:07:51.051Z"
+      "updatedAt": "2026-11-07T00:07:51.001Z"
     },
     "data-node-1": {
       "days": {
@@ -62,9 +69,16 @@
           "originIn": 2273328,
           "originOut": 975539,
           "req": 49
+        },
+        "2026-11-06": {
+          "in": 0,
+          "out": 29401,
+          "originIn": 1839207,
+          "originOut": 788340,
+          "req": 39
         }
       },
-      "updatedAt": "2026-11-06T00:07:51.051Z"
+      "updatedAt": "2026-11-07T00:07:51.001Z"
     },
     "data-node-9": {
       "days": {
@@ -95,9 +109,16 @@
           "originIn": 26523,
           "originOut": 0,
           "req": 9
+        },
+        "2026-11-06": {
+          "in": 0,
+          "out": 9632,
+          "originIn": 17710,
+          "originOut": 0,
+          "req": 6
         }
       },
-      "updatedAt": "2026-11-06T00:07:51.051Z"
+      "updatedAt": "2026-11-07T00:07:51.001Z"
     },
     "data-node-2": {
       "days": {
@@ -128,9 +149,16 @@
           "originIn": 79653,
           "originOut": 0,
           "req": 9
+        },
+        "2026-11-06": {
+          "in": 0,
+          "out": 14792,
+          "originIn": 61985,
+          "originOut": 0,
+          "req": 8
         }
       },
-      "updatedAt": "2026-11-06T00:07:51.051Z"
+      "updatedAt": "2026-11-07T00:07:51.001Z"
     },
     "localhost": {
       "days": {
@@ -161,9 +189,16 @@
           "originIn": 13541942,
           "originOut": 948769633,
           "req": 920
+        },
+        "2026-11-06": {
+          "in": 90278940,
+          "out": 199567091,
+          "originIn": 4853602,
+          "originOut": 181847197,
+          "req": 1450
         }
       },
-      "updatedAt": "2026-11-06T00:07:51.051Z"
+      "updatedAt": "2026-11-07T00:07:51.001Z"
     },
     "data-node-5": {
       "days": {
@@ -194,9 +229,16 @@
           "originIn": 110672,
           "originOut": 10112,
           "req": 10
+        },
+        "2026-11-06": {
+          "in": 0,
+          "out": 10009,
+          "originIn": 53130,
+          "originOut": 0,
+          "req": 7
         }
       },
-      "updatedAt": "2026-11-06T00:07:51.051Z"
+      "updatedAt": "2026-11-07T00:07:51.001Z"
     },
     "data-node-3": {
       "days": {
@@ -227,9 +269,16 @@
           "originIn": 175874,
           "originOut": 31536,
           "req": 12
+        },
+        "2026-11-06": {
+          "in": 0,
+          "out": 10012,
+          "originIn": 77908,
+          "originOut": 11205,
+          "req": 7
         }
       },
-      "updatedAt": "2026-11-06T00:07:51.051Z"
+      "updatedAt": "2026-11-07T00:07:51.001Z"
     },
     "data-node-7": {
       "days": {
@@ -260,9 +309,16 @@
           "originIn": 111912,
           "originOut": 10712,
           "req": 10
+        },
+        "2026-11-06": {
+          "in": 0,
+          "out": 10009,
+          "originIn": 53130,
+          "originOut": 0,
+          "req": 7
         }
       },
-      "updatedAt": "2026-11-06T00:07:51.051Z"
+      "updatedAt": "2026-11-07T00:07:51.001Z"
     },
     "data-node-6": {
       "days": {
@@ -293,9 +349,16 @@
           "originIn": 109870,
           "originOut": 9704,
           "req": 10
+        },
+        "2026-11-06": {
+          "in": 0,
+          "out": 10009,
+          "originIn": 53130,
+          "originOut": 0,
+          "req": 7
         }
       },
-      "updatedAt": "2026-11-06T00:07:51.051Z"
+      "updatedAt": "2026-11-07T00:07:51.001Z"
     },
     "data-node-4": {
       "days": {
@@ -326,9 +389,16 @@
           "originIn": 88466,
           "originOut": 0,
           "req": 10
+        },
+        "2026-11-06": {
+          "in": 0,
+          "out": 10009,
+          "originIn": 53130,
+          "originOut": 0,
+          "req": 7
         }
       },
-      "updatedAt": "2026-11-06T00:07:51.051Z"
+      "updatedAt": "2026-11-07T00:07:51.001Z"
     },
     "data-node-8": {
       "days": {
@@ -359,14 +429,21 @@
           "originIn": 141279,
           "originOut": 19824,
           "req": 13
+        },
+        "2026-11-06": {
+          "in": 0,
+          "out": 10009,
+          "originIn": 53130,
+          "originOut": 0,
+          "req": 7
         }
       },
-      "updatedAt": "2026-11-06T00:07:51.051Z"
+      "updatedAt": "2026-11-07T00:07:51.001Z"
     }
   },
   "v": 2,
   "week": 44,
   "from": "2026-11-02",
   "to": "2026-11-08",
-  "updatedAt": "2026-11-06T00:07:51.051Z"
+  "updatedAt": "2026-11-07T00:07:51.001Z"
 }
