@@ -1,0 +1,29 @@
+{
+  "type": "slide",
+  "slideId": "6ae0ce239d70743d0d17c36d",
+  "title": "HUST_Đỗ Tuấn Anh_HDH_chuong 4_2019_color",
+  "slug": "hust-do-tuan-anh-hdh-chuong-4-2019-color",
+  "subjectSlug": "nguyen-ly-he-dieu-hanh-1-1-26n01",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/nguyen-ly-he-dieu-hanh-1-1-26n01/slides/hust-do-tuan-anh-hdh-chuong-4-2019-color_1793117683.pdf",
+      "enc": 4337018,
+      "plain": 4336846
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 4336846,
+  "originalName": "HUST_Đỗ Tuấn Anh_HDH_chuong 4_2019_color.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-27T16:15:31.625Z",
+  "updatedAt": "2026-10-27T16:15:31.625Z"
+}

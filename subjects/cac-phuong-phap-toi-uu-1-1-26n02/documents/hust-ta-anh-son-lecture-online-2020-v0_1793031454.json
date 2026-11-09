@@ -1,0 +1,29 @@
+{
+  "type": "document",
+  "documentId": "6adf7d30935a937d03709cf7",
+  "title": "HUST_Tạ Anh Sơn_Lecture_Online_2020_v0",
+  "slug": "hust-ta-anh-son-lecture-online-2020-v0",
+  "subjectSlug": "cac-phuong-phap-toi-uu-1-1-26n02",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/cac-phuong-phap-toi-uu-1-1-26n02/documents/hust-ta-anh-son-lecture-online-2020-v0_1793031454.pdf",
+      "enc": 606228,
+      "plain": 606168
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 606168,
+  "originalName": "HUST_Tạ Anh Sơn_Lecture_Online_2020_v0.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-26T16:17:52.017Z",
+  "updatedAt": "2026-10-26T16:17:52.017Z"
+}

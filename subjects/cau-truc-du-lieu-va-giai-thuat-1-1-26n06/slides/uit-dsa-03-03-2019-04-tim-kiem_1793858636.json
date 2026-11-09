@@ -1,0 +1,29 @@
+{
+  "type": "slide",
+  "slideId": "6aec1cf88fd376671b6719b7",
+  "title": "UIT_DSA_03-03-2019_04. Tìm Kiếm",
+  "slug": "uit-dsa-03-03-2019-04-tim-kiem",
+  "subjectSlug": "cau-truc-du-lieu-va-giai-thuat-1-1-26n06",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/cau-truc-du-lieu-va-giai-thuat-1-1-26n06/slides/uit-dsa-03-03-2019-04-tim-kiem_1793858636.pdf",
+      "enc": 15167274,
+      "plain": 15166822
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 15166822,
+  "originalName": "UIT_DSA_03-03-2019_04. Tìm Kiếm.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-11-05T06:06:48.472Z",
+  "updatedAt": "2026-11-05T06:06:48.472Z"
+}

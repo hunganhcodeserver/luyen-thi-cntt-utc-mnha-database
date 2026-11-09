@@ -1,0 +1,188 @@
+{
+  "submissionId": "6ac3ccfcca0432750b950167",
+  "submittedAt": "2026-10-05T16:14:52.853Z",
+  "gradedAt": "2026-10-05T16:15:02.280Z",
+  "status": "graded",
+  "errorMessage": null,
+  "userId": "6ab3d694415010bf620349e5",
+  "userName": "Mai Ngọc Hùng Anh",
+  "userEmail": "hunganh.okokok.0@gmail.com",
+  "subjectId": "6ab5aeac813f0f6c24604455",
+  "subjectName": "Lập trình hướng đối tượng-1-1-26(N04)",
+  "subjectCode": "IT1.108.3",
+  "subjectSlug": "lap-trinh-huong-doi-tuong-1-1-26n04",
+  "lessonId": "6ac33e1960a3636c8e367598",
+  "lessonTitle": "(Kiểm tra ngắn OOP C++) Đề 1 05/10/2026",
+  "lessonSlug": "kiem-tra-ngan-oop-c-de-1-05102026",
+  "lessonDuration": 30,
+  "lessonContentHtml": "<blockquote>\r\n    <p><strong>Lưu ý chung khi làm bài:</strong></p>\r\n    <ul>\r\n        <li>Dùng <code>cin &gt;&gt; ws; getline(cin, ...)</code> để nhập chuỗi ký tự nhằm tránh lỗi trôi lệnh (không sử dụng <code>cin.ignore()</code>).</li>\r\n        <li>Giả sử số lượng phần tử <var>n</var> &gt;= 1 khi thực hiện các thao tác tìm giá trị lớn nhất (max) hoặc nhỏ nhất (min).</li>\r\n    </ul>\r\n</blockquote>\r\n\r\n<hr />\r\n\r\n<!-- ĐỀ 1 -->\r\n<section id=\"de-1\">\r\n    <h2>Đề 1: Lớp Người và lớp Sinh viên</h2>\r\n    <p><strong>Yêu cầu:</strong></p>\r\n    <ol>\r\n        <li>Thiết lập lớp cha <code>Nguoi</code> gồm các thuộc tính <code>private</code>: họ tên, năm sinh. Cung cấp hàm nhập, xuất và getter cho năm sinh.</li>\r\n        <li>Xây dựng lớp con <code>SinhVien</code> kế thừa từ lớp <code>Nguoi</code>, bổ sung thuộc tính điểm số. Tái sử dụng hàm nhập/xuất của lớp cha và bổ sung getter cho điểm.</li>\r\n        <li>Viết hàm <code>main</code> nhập vào danh sách gồm <var>n</var> sinh viên. Thực hiện xuất ra màn hình thông tin các sinh viên qua môn (có điểm số &gt;= 6).</li>\r\n    </ol>\r\n</section>",
+  "lessonSampleSolution": "",
+  "answerHtml": "// (Kiểm tra ngắn OOP C++) Đề 3 05/10/2026\n\n#include<bits/stdc++.h>\n\nusing namespace std;\n\nclass Nguoi{\n\tprivate:\n\t\tstring hoTen;\n\t\tint namSinh;\n\tpublic:\n\t\tNguoi() : hoTen(\"\"), namSinh(0) {}\n\t\tNguoi(string ht, int ns) : hoTen(ht), namSinh(ns) {}\n\t\tfriend istream& operator >> (istream &is, Nguoi &n){\n\t\t\tcout << \"Nhap ho ten: \";\n\t\t\tis >> ws;\n\t\t\tgetline(is, n.hoTen);\n\t\t\tcout << \"Nhap nam sinh: \";\n\t\t\tis >> n.namSinh;\n            return is;\n\t\t}\n        friend ostream& operator << (ostream &os, const Nguoi &n) {\n            os << \"Ho ten: \" << n.hoTen << \", Nam sinh: \" << n.namSinh;\n            return os;\n        }\n        int getNS() const {\n            return namSinh;\n        }\n        int getTuoi() const {\n            return 2026 - namSinh;\n        }\n};\n\n\n//class NhanVien : public Nguoi {\n//    private:\n//        double heSoLuong;\n//    public:\n//        NhanVien() : Nguoi(), heSoLuong(0.0) {}\n//        NhanVien(string ht, int ns, double hsl) : Nguoi(ht, ns), heSoLuong(hsl) {}\n//        double luong() const {\n//            return heSoLuong * 2570;\n//        }\n//        friend istream& operator >> (istream &is, NhanVien &nv) {\n//            is >> (Nguoi&)nv;\n//            cout << \"Nhap he so luong: \";\n//            is >> nv.heSoLuong;\n//            return is;\n//        }\n//        friend ostream& operator << (ostream &os, const NhanVien &nv) {\n//            os << (const Nguoi&)nv;\n//            os << \", He so luong: \" << nv.heSoLuong << \", Luong: \" << nv.luong();\n//            return os;\n//        }\n//};\n\nclass SinhVien : public Nguoi {\n    private:\n        double diemSo;\n    public:\n        SinhVien() : Nguoi(), diemSo(0.0) {}\n        SinhVien(string ht, int ns, double d) : Nguoi(ht, ns), diemSo(d) {}\n        bool quaMon() const {\n            return diemSo >= 6;\n        }\n        friend istream& operator >> (istream &is, SinhVien &sv) {\n            is >> (Nguoi&)sv;\n            cout << \"Nhap diem: \";\n            is >> sv.diemSo;\n            return is;\n        }\n        friend ostream& operator << (ostream &os, const SinhVien &sv) {\n            os << (const Nguoi&)sv; \n            os << \", Diem: \" << sv.diemSo;\n            if (sv.quaMon()) {\n                os << \" (Qua mon)\";\n            } else {\n                os << \" (Hoc lai)\";\n            }\n            return os;\n        }\n};\n\nint main() {\n    int n;\n    cout << \"Nhap n: \";\n    cin >> n;\n    vector<NhanVien> nv(n);\n//    cout << \"\\n--- NHAP THONG TIN CHO NHAN VIEN ---\\n\";\n//    for (int i = 0; i < n; i++) {\n//        cout << \"\\nNhap nhan vien thu \" << i + 1 << \":\\n\";\n//        cin >> nv[i];\n//    }\n//    cout << \"\\n--- DANH SACH NHAN VIEN VUA NHAP ---\\n\";\n//    for (int i = 0; i < n; i++) {\n//        cout << \"[\" << i + 1 << \"] \" << nv[i] << endl; \n//    }\n    vector<SinhVien> sv(n);\n    cout << \"\\n--- NHAP THONG TIN CHO SINH VIEN ---\\n\";\n    for (int i = 0; i < n; i++) {\n        cout << \"\\Sinh nhan vien thu \" << i + 1 << \":\\n\";\n        cin >> sv[i];\n    }\n    cout << \"\\n--- DANH SACH SINH VIEN VUA NHAP ---\\n\";\n    for (int i = 0; i < n; i++) {\n        cout << \"[\" << i + 1 << \"] \" << sv[i] << endl; \n    }\n    return 0;\n}",
+  "score": 8.2,
+  "feedback": "Bài làm có tư duy hướng đối tượng tốt, tái sử dụng toán tử nhập/xuất của lớp cha chính xác. Tuy nhiên, bài nộp KHÔNG BIÊN DỊCH ĐƯỢC do bạn đã comment class NhanVien nhưng trong hàm main vẫn còn dòng lệnh 'vector<NhanVien> nv(n);'. Ngoài ra, lớp SinhVien chưa có getter cho điểm theo yêu cầu đề bài, và hàm main chưa lọc xuất danh sách các sinh viên qua môn mà in toàn bộ danh sách.",
+  "breakdown": [
+    {
+      "criterion": "Khai báo lớp, thuộc tính private, hàm tạo/hàm hủy đúng",
+      "score": 1.3,
+      "comment": "Khai báo các lớp Nguoi và SinhVien đúng cấu trúc, thuộc tính private và hàm tạo đầy đủ."
+    },
+    {
+      "criterion": "Nạp chồng toán tử nhập >> là friend, nhập đúng dữ liệu",
+      "score": 1.3,
+      "comment": "Cài đặt operator>> chính xác, có dùng 'is >> ws' chống trôi lệnh và tái sử dụng toán tử của lớp cha."
+    },
+    {
+      "criterion": "Nạp chồng toán tử xuất << là friend, xuất đúng dữ liệu",
+      "score": 0.9,
+      "comment": "Cài đặt operator<< đúng, tái sử dụng tốt toán tử xuất của lớp cha."
+    },
+    {
+      "criterion": "Các phương thức getter/setter hoặc phương thức phụ trợ đúng",
+      "score": 0.3,
+      "comment": "Đã có getter nam sinh ở Nguoi, phương thức phụ trợ quaMon() ở SinhVien nhưng thiếu getter cho điểm số theo yêu cầu."
+    },
+    {
+      "criterion": "Nạp chồng toán tử một ngôi (nếu đề yêu cầu +, -, !, ...)",
+      "score": 1.4,
+      "comment": "Đề bài không yêu cầu toán tử một ngôi."
+    },
+    {
+      "criterion": "Nạp chồng toán tử hai ngôi / so sánh (nếu đề yêu cầu +, -, >, <, ==, ...)",
+      "score": 1.4,
+      "comment": "Đề bài không yêu cầu toán tử hai ngôi."
+    },
+    {
+      "criterion": "Hàm main nhập/xuất/xử lý đầy đủ theo đề",
+      "score": 0.5,
+      "comment": "Hàm main chưa lọc và chỉ in các sinh viên qua môn (điểm >= 6) mà in toàn bộ; tồn tại dòng khai báo NhanVien không hợp lệ."
+    },
+    {
+      "criterion": "Quản lý bộ nhớ động đúng, không rò rỉ",
+      "score": 0.9,
+      "comment": "Sử dụng std::vector để quản lý danh sách an toàn, không có rò rỉ bộ nhớ."
+    },
+    {
+      "criterion": "Phong cách, đặt tên, chú thích, không lỗi biên dịch",
+      "score": 0.2,
+      "comment": "Chương trình dính lỗi biên dịch: 'NhanVien' was not declared in this scope (do comment class nhưng sót dòng khai báo trong main)."
+    }
+  ],
+  "grammar": null,
+  "sampleComparison": null,
+  "model": "gemini-flash-latest",
+  "aiKeyId": "6ac12b148a8b0b9b0a1c499c",
+  "aiKeyName": "hunganh.okokok.0@gmail.com",
+  "aiProvider": "gemini",
+  "latencyMs": 8664,
+  "promptSnapshot": {
+    "kind": "essay",
+    "promptId": "6ab736bee5d88208e9117c70",
+    "name": "Prompt Kiểm tra ngắn OOP C++",
+    "content": "Bạn là giảng viên chấm bài môn Lập trình hướng đối tượng (C++).\r\nHãy chấm bài làm của sinh viên theo đúng rubric dưới đây. Chỉ đánh giá dựa trên mã nguồn được cung cấp và yêu cầu đề bài. Không suy diễn thêm. Nếu bài không biên dịch được, ghi rõ trong feedback và chỉ cho điểm các phần có thể xác minh.\r\n\r\nTên sinh viên: {student_name}\r\nĐiểm tối đa: {max_score}\r\n\r\nĐỀ BÀI:\r\n{đề_bài}\r\n\r\nRUBRIC:\r\n{rubric}\r\n\r\nLỜI GIẢI MẪU THAM KHẢO (nếu cần đối chiếu):\r\n{lời_giải_mẫu}\r\n\r\nBÀI LÀM SINH VIÊN:\r\n{bài_làm}\r\n\r\nYÊU CẦU TRẢ VỀ:\r\nTrả về DUY NHẤT một object JSON hợp lệ, không thêm văn bản ngoài JSON:\r\n{\r\n  \"score\": number,\r\n  \"feedback\": string,\r\n  \"breakdown\": [{\"criterion\": string, \"score\": number, \"comment\": string}]\r\n}\r\n\r\nVariables:\r\n{\r\n  \"variables\": [\r\n    \"{đề_bài}\",\r\n    \"{bài_làm}\",\r\n    \"{rubric}\",\r\n    \"{max_score}\",\r\n    \"{student_name}\",\r\n    \"{lời_giải_mẫu}\"\r\n  ]\r\n}",
+    "rubric": [
+      {
+        "criterion": "Khai báo lớp, thuộc tính private, hàm tạo/hàm hủy đúng",
+        "weight": 13,
+        "description": "Lớp có các thuộc tính private theo đề; hàm tạo mặc định/hàm tạo có đối; hàm hủy nếu có cấp phát động."
+      },
+      {
+        "criterion": "Nạp chồng toán tử nhập >> là friend, nhập đúng dữ liệu",
+        "weight": 13,
+        "description": "operator>> là friend, nhập đúng các trường theo đề; xử lý khoảng trắng hợp lý nếu cần."
+      },
+      {
+        "criterion": "Nạp chồng toán tử xuất << là friend, xuất đúng dữ liệu",
+        "weight": 9,
+        "description": "operator<< là friend, in ra thông tin rõ ràng, đúng định dạng đề yêu cầu."
+      },
+      {
+        "criterion": "Các phương thức getter/setter hoặc phương thức phụ trợ đúng",
+        "weight": 5,
+        "description": "Cung cấp đủ getter/setter hoặc phương thức mà đề yêu cầu."
+      },
+      {
+        "criterion": "Nạp chồng toán tử một ngôi (nếu đề yêu cầu +, -, !, ...)",
+        "weight": 14,
+        "description": "Cài đặt đúng toán tử một ngôi theo đề, ví dụ operator+() tính tổng, operator-() đổi dấu, operator!() đảo ngược."
+      },
+      {
+        "criterion": "Nạp chồng toán tử hai ngôi / so sánh (nếu đề yêu cầu +, -, >, <, ==, ...)",
+        "weight": 14,
+        "description": "Cài đặt đúng toán tử hai ngôi hoặc toán tử so sánh theo đề, xử lý đúng ngữ nghĩa."
+      },
+      {
+        "criterion": "Hàm main nhập/xuất/xử lý đầy đủ theo đề",
+        "weight": 14,
+        "description": "main thực hiện đủ các bước: nhập, xuất, tính toán, so sánh, sắp xếp, tìm kiếm, ... theo đề."
+      },
+      {
+        "criterion": "Quản lý bộ nhớ động đúng, không rò rỉ",
+        "weight": 9,
+        "description": "Nếu dùng new/delete, cấp phát và giải phóng đúng; không rò rỉ bộ nhớ."
+      },
+      {
+        "criterion": "Phong cách, đặt tên, chú thích, không lỗi biên dịch",
+        "weight": 9,
+        "description": "Code rõ ràng, đặt tên hợp lý, có chú thích, biên dịch thành công."
+      }
+    ],
+    "strictness": "strict",
+    "maxScore": 10,
+    "scope": "lesson",
+    "version": 4,
+    "isFallback": false,
+    "unknownPlaceholders": [],
+    "snapshotAt": "2026-10-05T16:15:02.070Z"
+  },
+  "raw": {
+    "score": 8.2,
+    "feedback": "Bài làm có tư duy hướng đối tượng tốt, tái sử dụng toán tử nhập/xuất của lớp cha chính xác. Tuy nhiên, bài nộp KHÔNG BIÊN DỊCH ĐƯỢC do bạn đã comment class NhanVien nhưng trong hàm main vẫn còn dòng lệnh 'vector<NhanVien> nv(n);'. Ngoài ra, lớp SinhVien chưa có getter cho điểm theo yêu cầu đề bài, và hàm main chưa lọc xuất danh sách các sinh viên qua môn mà in toàn bộ danh sách.",
+    "breakdown": [
+      {
+        "criterion": "Khai báo lớp, thuộc tính private, hàm tạo/hàm hủy đúng",
+        "score": 1.3,
+        "comment": "Khai báo các lớp Nguoi và SinhVien đúng cấu trúc, thuộc tính private và hàm tạo đầy đủ."
+      },
+      {
+        "criterion": "Nạp chồng toán tử nhập >> là friend, nhập đúng dữ liệu",
+        "score": 1.3,
+        "comment": "Cài đặt operator>> chính xác, có dùng 'is >> ws' chống trôi lệnh và tái sử dụng toán tử của lớp cha."
+      },
+      {
+        "criterion": "Nạp chồng toán tử xuất << là friend, xuất đúng dữ liệu",
+        "score": 0.9,
+        "comment": "Cài đặt operator<< đúng, tái sử dụng tốt toán tử xuất của lớp cha."
+      },
+      {
+        "criterion": "Các phương thức getter/setter hoặc phương thức phụ trợ đúng",
+        "score": 0.3,
+        "comment": "Đã có getter nam sinh ở Nguoi, phương thức phụ trợ quaMon() ở SinhVien nhưng thiếu getter cho điểm số theo yêu cầu."
+      },
+      {
+        "criterion": "Nạp chồng toán tử một ngôi (nếu đề yêu cầu +, -, !, ...)",
+        "score": 1.4,
+        "comment": "Đề bài không yêu cầu toán tử một ngôi."
+      },
+      {
+        "criterion": "Nạp chồng toán tử hai ngôi / so sánh (nếu đề yêu cầu +, -, >, <, ==, ...)",
+        "score": 1.4,
+        "comment": "Đề bài không yêu cầu toán tử hai ngôi."
+      },
+      {
+        "criterion": "Hàm main nhập/xuất/xử lý đầy đủ theo đề",
+        "score": 0.5,
+        "comment": "Hàm main chưa lọc và chỉ in các sinh viên qua môn (điểm >= 6) mà in toàn bộ; tồn tại dòng khai báo NhanVien không hợp lệ."
+      },
+      {
+        "criterion": "Quản lý bộ nhớ động đúng, không rò rỉ",
+        "score": 0.9,
+        "comment": "Sử dụng std::vector để quản lý danh sách an toàn, không có rò rỉ bộ nhớ."
+      },
+      {
+        "criterion": "Phong cách, đặt tên, chú thích, không lỗi biên dịch",
+        "score": 0.2,
+        "comment": "Chương trình dính lỗi biên dịch: 'NhanVien' was not declared in this scope (do comment class nhưng sót dòng khai báo trong main)."
+      }
+    ]
+  }
+}

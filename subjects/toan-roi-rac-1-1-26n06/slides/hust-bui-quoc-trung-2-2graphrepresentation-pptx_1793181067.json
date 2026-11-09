@@ -1,0 +1,29 @@
+{
+  "type": "slide",
+  "slideId": "6ae1c592efc410fc851087c6",
+  "title": "HUST_Bùi Quốc Trung_2-2GraphRepresentation.pptx",
+  "slug": "hust-bui-quoc-trung-2-2graphrepresentation-pptx",
+  "subjectSlug": "toan-roi-rac-1-1-26n06",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/toan-roi-rac-1-1-26n06/slides/hust-bui-quoc-trung-2-2graphrepresentation-pptx_1793181067.pdf",
+      "enc": 829337,
+      "plain": 829277
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 829277,
+  "originalName": "HUST_Bùi Quốc Trung_2-2GraphRepresentation.pptx.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-28T09:51:14.507Z",
+  "updatedAt": "2026-10-28T09:51:14.507Z"
+}

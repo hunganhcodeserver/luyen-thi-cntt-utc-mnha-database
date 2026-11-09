@@ -1,0 +1,29 @@
+{
+  "type": "document",
+  "documentId": "6adf7963246e7c462e1ae5bc",
+  "title": "HUST_gk",
+  "slug": "hust-gk",
+  "subjectSlug": "cac-phuong-phap-toi-uu-1-1-26n02",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/cac-phuong-phap-toi-uu-1-1-26n02/documents/hust-gk_1793030470.pdf",
+      "enc": 243975,
+      "plain": 243915
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 243915,
+  "originalName": "HUST_gk.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-26T16:01:39.727Z",
+  "updatedAt": "2026-10-26T16:01:39.727Z"
+}

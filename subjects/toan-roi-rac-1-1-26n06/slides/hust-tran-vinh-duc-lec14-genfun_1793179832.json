@@ -1,0 +1,29 @@
+{
+  "type": "slide",
+  "slideId": "6ae1c0bda13b85b49a981ad5",
+  "title": "HUST_Trần Vĩnh Đức_lec14-genfun",
+  "slug": "hust-tran-vinh-duc-lec14-genfun",
+  "subjectSlug": "toan-roi-rac-1-1-26n06",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/toan-roi-rac-1-1-26n06/slides/hust-tran-vinh-duc-lec14-genfun_1793179832.pdf",
+      "enc": 78646,
+      "plain": 78586
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 78586,
+  "originalName": "HUST_Trần Vĩnh Đức_lec14-genfun.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-28T09:30:37.658Z",
+  "updatedAt": "2026-10-28T09:30:37.658Z"
+}

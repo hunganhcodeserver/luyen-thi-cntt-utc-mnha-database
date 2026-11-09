@@ -1,0 +1,29 @@
+{
+  "type": "slide",
+  "slideId": "6aed9cb62f9b6ad7e3fb5648",
+  "title": "UIT_DSA_03-03-2019_06. Sắp Xếp (tt)",
+  "slug": "uit-dsa-03-03-2019-06-sap-xep-tt",
+  "subjectSlug": "cau-truc-du-lieu-va-giai-thuat-1-1-26n06",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/cau-truc-du-lieu-va-giai-thuat-1-1-26n06/slides/uit-dsa-03-03-2019-06-sap-xep-tt_1793957006.pdf",
+      "enc": 9520098,
+      "plain": 9519814
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 9519814,
+  "originalName": "06. Sắp Xếp (tt).pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-11-06T09:24:06.507Z",
+  "updatedAt": "2026-11-06T09:24:06.507Z"
+}

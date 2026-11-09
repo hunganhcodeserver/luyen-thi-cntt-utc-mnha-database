@@ -1,0 +1,27 @@
+{
+  "type": "video",
+  "videoId": "6ae37bb6adda44ce87200f91",
+  "title": "Vũ Nguyễn Coder _ Chương 03 Nguyên tắc đóng gói (Encapsulation)",
+  "slug": "vu-nguyen-coder-chuong-03-nguyen-tac-dong-goi-encapsulation",
+  "subjectSlug": "lap-trinh-huong-doi-tuong-1-1-26n04",
+  "description": "",
+  "videos": [
+    {
+      "id": "vccf21c69",
+      "title": "Bài 12 Tính đóng gói (website khoahocgiahoi.com zalo 0583953426)",
+      "enc": "v1.sZe2ktMX4O1kw5rx.7VMF2UAydvKP9SO-TeHd9A.9vxewaAS04s8QSod6kxGkq1ZRvotPiE4vqomMHdn06SV96a53eFJ6mYbdTuwpnRPSumrIQ3vwZOoXpN1HiShvoyH2IZCenNDdioojKVURETcem8fONpGd3T27qZk0531TP2dhCtAydZw1wyrw95w4lj8QEgynf11StCOZiR5Y7Iy1MqcwdtuGl7HJ_IgQ_ARf5En0Rivg4bPZ-0yq2IL8RL0i_b7EPiSnxooWABu6iaMoiSBYMhibaG3tseroIluRxjkCJBDmyqbEwqINx8pwnSqqPPBL0enwecVMukN6eAULO85zO62YAV8r0MzJ1NPLCqt8DuoI-Vn_eIT0B2_R7aT3g7Kd-TsSG7HHGVTOzANthaCALB3asWxOPeSrdOPuhvDCgmJn4Y-QZloyUnVHl2awVHpqDFfmheBTm6HtKGdYO29mEdCFw"
+    }
+  ],
+  "videoCount": 1,
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-29T17:00:38.613Z",
+  "updatedAt": "2026-10-29T17:00:38.613Z"
+}

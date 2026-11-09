@@ -1,0 +1,186 @@
+{
+  "submissionId": "6abc8336766f1570dcea3d02",
+  "submittedAt": "2026-09-30T03:34:14.665Z",
+  "gradedAt": "2026-09-30T03:35:17.840Z",
+  "status": "graded",
+  "errorMessage": null,
+  "userId": "6ab3d694415010bf620349e5",
+  "userName": "Mai Ngọc Hùng Anh",
+  "userEmail": "hunganh.okokok.0@gmail.com",
+  "subjectId": "6ab5aeac813f0f6c24604455",
+  "subjectName": "Lập trình hướng đối tượng-1-1-26(N04)",
+  "subjectCode": "IT1.108.3",
+  "subjectSlug": "lap-trinh-huong-doi-tuong-1-1-26n04",
+  "lessonId": "6ab6afb4ccacc564d40110d2",
+  "lessonTitle": "(Kiểm tra ngắn OOP C++) ĐỀ SỐ 1 - Chủ đề: PHÂN SỐ",
+  "lessonSlug": "kiem-tra-ngan-oop-c-de-so-1-chu-de-phan-so",
+  "lessonDuration": 30,
+  "lessonContentHtml": "<h2>ĐỀ SỐ 1</h2>\r\n<p><strong>Chủ đề: PHÂN SỐ • Thời gian: 30 phút • C++</strong></p>\r\n\r\n<ul>\r\n    <li>\r\n        <strong>Yêu cầu: Xây dựng lớp PhanSo bao gồm:</strong>\r\n        <ol>\r\n            <li>Khai báo hai thuộc tính kiểu int: tuSo, mauSo.</li>\r\n            <li>Viết cấu tử có đối mặc định: tuSo = 0, mauSo = 1; không cho phép mẫu số bằng 0.</li>\r\n            <li>Viết phương thức void rutGon() để đưa phân số về dạng tối giản và chuẩn hóa mẫu số dương.</li>\r\n            <li>Nạp chồng toán tử == để so sánh hai phân số.</li>\r\n            <li>Viết hàm bạn nạp chồng toán tử &gt;&gt; để nhập một phân số từ bàn phím.</li>\r\n        </ol>\r\n    </li>\r\n    <li>\r\n        <strong>Yêu cầu trong hàm main ():</strong> Trong main(), tạo p1 bằng hàm tạo và nhập p2 bằng cin &gt;&gt; p2. Kiểm tra p1 == p2; nếu đúng in “Bang nhau”, ngược lại in “Khong bang nhau”.\r\n    </li>\r\n</ul>\r\n\r\n<p><em>Lưu ý: Có thể bổ sung hàm/phương thức hỗ trợ hợp lý.</em></p>\r\n",
+  "lessonSampleSolution": "",
+  "answerHtml": "#include<bits/stdc++.h>\n\nusing namespace std;\n\nclass PhanSo {\n\tprivate:\n\t\tint tuSo; \n\t\tint mauSo;\n\tpublic:\n\t\tPhanSo:{\n\t\t\ttuSo = 0;\n\t\t\tmauSo = 1;\n\t\t}\n\t    friend istream& operator >>(istream &is, const PhanSo &ps) {\n\t        cout << \"\\nNhap phan so: \";\n\t        is >> ps.ts >> ps.ms;\n\t        return is;\n\t    }\n\t\tostream& operator <<(ostream &os, const PhanSo &ps) {\n\t\t    os << ps.ts << \"/\" << ps.ms;\n\t\t    return os;\n\t\t}\n\t\tvoid rutGon() {\n\t        // 1. Tìm ước chung lớn nhất (UCLN) của tử và mẫu\n\t        int ucln = gcd(tuSo, mauSo); \n\t        // 2. Chia cả tử và mẫu cho UCLN\n\t        tuSo /= ucln;\n\t        mauSo /= ucln;\n\t        // 3. Chuẩn hóa dấu (đảm bảo mẫu số luôn dương)\n\t        if (tuSo < 0) {\n\t            tuSo = -tuSo;\n\t            mauSo = -mauSo;\n\t        }\n\t    }\n\t    bool operator ==(const PhanSo& ps) const {\n\t\t    return (this->ts * ps.ms == this->ms * ps.ts);\n\t\t}\n};\n\n// Hàm này đặt bên ngoài, phía dưới Class PhanSo\nvoid soSanh(const PhanSo& ps1, const PhanSo& ps2) {\n    // Gọi toán tử == để lấy kết quả so sánh giữa ps1 và ps2\n    if (ps1 == ps2) { \n        cout << \"Hai phan so bang nhau.\\n\";\n    } \n    else {\n        cout << \"Hai phan so khong bang nhau.\\n\";\n    }\n}\n\nint main(){\n\tPhanSo ps1, ps2;\n\tps1(10, 12); // Định nghĩa và gán giá trị ngay từ đầu\n    cout << \"--- Nhap phan so ps2 ---\\n\";\n    cin >> ps2; \n    cout << \"ps1 = \" << ps1 << endl;\n    cout << \"ps2 = \" << ps2 << endl;\n    cout << \"\\n--- Ket qua so sanh ---\\n\";\n    soSanh(ps1, ps2); \n}",
+  "score": 4.9,
+  "feedback": "Bài làm có nhiều lỗi biên dịch nghiêm trọng và không thể biên dịch được. Sinh viên nắm được một số ý tưởng cơ bản (nhân chéo khi so sánh phân số, rút gọn bằng gcd) nhưng sai cú pháp C++ cơ bản rất nhiều: khai báo constructor sai cú pháp, đặt tên biến thuộc tính là tuSo/mauSo nhưng bên dưới lại truy cập ps.ts/ps.ms, truyền const PhanSo vào toán tử nhập >>, thiếu từ khóa friend ở operator<<, và khởi tạo đối tượng sai cú pháp trong main (ps1(10, 12)).",
+  "breakdown": [
+    {
+      "criterion": "Khai báo lớp, thuộc tính private, hàm tạo/hàm hủy đúng",
+      "score": 5,
+      "comment": "Khai báo đúng 2 thuộc tính private tuSo, mauSo. Tuy nhiên, constructor viết sai hoàn toàn cú pháp (PhanSo:{...}), không có tham số mặc định theo yêu cầu (tuSo = 0, mauSo = 1) và không kiểm tra điều kiện mauSo != 0."
+    },
+    {
+      "criterion": "Nạp chồng toán tử nhập >> là friend, nhập đúng dữ liệu",
+      "score": 4,
+      "comment": "Có khai báo friend cho operator>>, nhưng tham số lại để 'const PhanSo &ps' dẫn tới không thể ghi dữ liệu; đồng thời truy cập ps.ts, ps.ms (thuộc tính không tồn tại) gây lỗi biên dịch."
+    },
+    {
+      "criterion": "Nạp chồng toán tử xuất << là friend, xuất đúng dữ liệu",
+      "score": 2,
+      "comment": "Định nghĩa operator<< trong class nhận 2 tham số nhưng thiếu từ khóa friend; truy cập ps.ts, ps.ms không tồn tại dẫn đến lỗi biên dịch."
+    },
+    {
+      "criterion": "Các phương thức getter/setter hoặc phương thức phụ trợ đúng",
+      "score": 2.5,
+      "comment": "Phương thức rutGon() có ý tưởng tìm gcd và rút gọn, nhưng logic chuẩn hóa mẫu dương bị sai (kiểm tra tuSo < 0 thay vì mauSo < 0)."
+    },
+    {
+      "criterion": "Nạp chồng toán tử một ngôi (nếu đề yêu cầu +, -, !, ...)",
+      "score": 14,
+      "comment": "Đề bài không yêu cầu toán tử một ngôi, tính điểm tối đa."
+    },
+    {
+      "criterion": "Nạp chồng toán tử hai ngôi / so sánh (nếu đề yêu cầu +, -, >, <, ==, ...)",
+      "score": 7,
+      "comment": "Toán tử == cài đặt đúng giải thuật nhân chéo, nhưng sử dụng sai tên thuộc tính (ts, ms thay vì tuSo, mauSo) gây lỗi biên dịch."
+    },
+    {
+      "criterion": "Hàm main nhập/xuất/xử lý đầy đủ theo đề",
+      "score": 4,
+      "comment": "Dòng lệnh ps1(10, 12); sai cú pháp trong C++. Thông báo kết quả không đúng chuỗi yêu cầu của đề ('Bang nhau' / 'Khong bang nhau')."
+    },
+    {
+      "criterion": "Quản lý bộ nhớ động đúng, không rò rỉ",
+      "score": 9,
+      "comment": "Bài làm không sử dụng bộ nhớ động, đạt điểm phần này."
+    },
+    {
+      "criterion": "Phong cách, đặt tên, chú thích, không lỗi biên dịch",
+      "score": 1,
+      "comment": "Chương trình không thể biên dịch do rất nhiều lỗi cú pháp nghiêm trọng (constructor, tên biến, nạp chồng toán tử)."
+    }
+  ],
+  "grammar": null,
+  "sampleComparison": null,
+  "model": "gemini-flash-latest",
+  "aiKeyId": "6ab7116dc878bedb86de26dc",
+  "aiKeyName": "VMK1",
+  "latencyMs": 62312,
+  "promptSnapshot": {
+    "promptId": "6ab736bee5d88208e9117c70",
+    "name": "Prompt Kiểm tra ngắn OOP C++",
+    "content": "Bạn là giảng viên chấm bài môn Lập trình hướng đối tượng (C++).\r\nHãy chấm bài làm của sinh viên theo đúng rubric dưới đây. Chỉ đánh giá dựa trên mã nguồn được cung cấp và yêu cầu đề bài. Không suy diễn thêm. Nếu bài không biên dịch được, ghi rõ trong feedback và chỉ cho điểm các phần có thể xác minh.\r\n\r\nTên sinh viên: {student_name}\r\nĐiểm tối đa: {max_score}\r\n\r\nĐỀ BÀI:\r\n{đề_bài}\r\n\r\nRUBRIC:\r\n{rubric}\r\n\r\nLỜI GIẢI MẪU THAM KHẢO (nếu cần đối chiếu):\r\n{lời_giải_mẫu}\r\n\r\nBÀI LÀM SINH VIÊN:\r\n{bài_làm}\r\n\r\nYÊU CẦU TRẢ VỀ:\r\nTrả về DUY NHẤT một object JSON hợp lệ, không thêm văn bản ngoài JSON:\r\n{\r\n  \"score\": number,\r\n  \"feedback\": string,\r\n  \"breakdown\": [{\"criterion\": string, \"score\": number, \"comment\": string}]\r\n}\r\n\r\nVariables:\r\n{\r\n  \"variables\": [\r\n    \"{đề_bài}\",\r\n    \"{bài_làm}\",\r\n    \"{rubric}\",\r\n    \"{max_score}\",\r\n    \"{student_name}\",\r\n    \"{lời_giải_mẫu}\"\r\n  ]\r\n}",
+    "rubric": [
+      {
+        "criterion": "Khai báo lớp, thuộc tính private, hàm tạo/hàm hủy đúng",
+        "weight": 13,
+        "description": "Lớp có các thuộc tính private theo đề; hàm tạo mặc định/hàm tạo có đối; hàm hủy nếu có cấp phát động."
+      },
+      {
+        "criterion": "Nạp chồng toán tử nhập >> là friend, nhập đúng dữ liệu",
+        "weight": 13,
+        "description": "operator>> là friend, nhập đúng các trường theo đề; xử lý khoảng trắng hợp lý nếu cần."
+      },
+      {
+        "criterion": "Nạp chồng toán tử xuất << là friend, xuất đúng dữ liệu",
+        "weight": 9,
+        "description": "operator<< là friend, in ra thông tin rõ ràng, đúng định dạng đề yêu cầu."
+      },
+      {
+        "criterion": "Các phương thức getter/setter hoặc phương thức phụ trợ đúng",
+        "weight": 5,
+        "description": "Cung cấp đủ getter/setter hoặc phương thức mà đề yêu cầu."
+      },
+      {
+        "criterion": "Nạp chồng toán tử một ngôi (nếu đề yêu cầu +, -, !, ...)",
+        "weight": 14,
+        "description": "Cài đặt đúng toán tử một ngôi theo đề, ví dụ operator+() tính tổng, operator-() đổi dấu, operator!() đảo ngược."
+      },
+      {
+        "criterion": "Nạp chồng toán tử hai ngôi / so sánh (nếu đề yêu cầu +, -, >, <, ==, ...)",
+        "weight": 14,
+        "description": "Cài đặt đúng toán tử hai ngôi hoặc toán tử so sánh theo đề, xử lý đúng ngữ nghĩa."
+      },
+      {
+        "criterion": "Hàm main nhập/xuất/xử lý đầy đủ theo đề",
+        "weight": 14,
+        "description": "main thực hiện đủ các bước: nhập, xuất, tính toán, so sánh, sắp xếp, tìm kiếm, ... theo đề."
+      },
+      {
+        "criterion": "Quản lý bộ nhớ động đúng, không rò rỉ",
+        "weight": 9,
+        "description": "Nếu dùng new/delete, cấp phát và giải phóng đúng; không rò rỉ bộ nhớ."
+      },
+      {
+        "criterion": "Phong cách, đặt tên, chú thích, không lỗi biên dịch",
+        "weight": 9,
+        "description": "Code rõ ràng, đặt tên hợp lý, có chú thích, biên dịch thành công."
+      }
+    ],
+    "strictness": "strict",
+    "maxScore": 10,
+    "scope": "lesson",
+    "version": 4,
+    "isFallback": false,
+    "unknownPlaceholders": [],
+    "snapshotAt": "2026-09-30T03:35:17.633Z"
+  },
+  "raw": {
+    "score": 4.9,
+    "feedback": "Bài làm có nhiều lỗi biên dịch nghiêm trọng và không thể biên dịch được. Sinh viên nắm được một số ý tưởng cơ bản (nhân chéo khi so sánh phân số, rút gọn bằng gcd) nhưng sai cú pháp C++ cơ bản rất nhiều: khai báo constructor sai cú pháp, đặt tên biến thuộc tính là tuSo/mauSo nhưng bên dưới lại truy cập ps.ts/ps.ms, truyền const PhanSo vào toán tử nhập >>, thiếu từ khóa friend ở operator<<, và khởi tạo đối tượng sai cú pháp trong main (ps1(10, 12)).",
+    "breakdown": [
+      {
+        "criterion": "Khai báo lớp, thuộc tính private, hàm tạo/hàm hủy đúng",
+        "score": 5,
+        "comment": "Khai báo đúng 2 thuộc tính private tuSo, mauSo. Tuy nhiên, constructor viết sai hoàn toàn cú pháp (PhanSo:{...}), không có tham số mặc định theo yêu cầu (tuSo = 0, mauSo = 1) và không kiểm tra điều kiện mauSo != 0."
+      },
+      {
+        "criterion": "Nạp chồng toán tử nhập >> là friend, nhập đúng dữ liệu",
+        "score": 4,
+        "comment": "Có khai báo friend cho operator>>, nhưng tham số lại để 'const PhanSo &ps' dẫn tới không thể ghi dữ liệu; đồng thời truy cập ps.ts, ps.ms (thuộc tính không tồn tại) gây lỗi biên dịch."
+      },
+      {
+        "criterion": "Nạp chồng toán tử xuất << là friend, xuất đúng dữ liệu",
+        "score": 2,
+        "comment": "Định nghĩa operator<< trong class nhận 2 tham số nhưng thiếu từ khóa friend; truy cập ps.ts, ps.ms không tồn tại dẫn đến lỗi biên dịch."
+      },
+      {
+        "criterion": "Các phương thức getter/setter hoặc phương thức phụ trợ đúng",
+        "score": 2.5,
+        "comment": "Phương thức rutGon() có ý tưởng tìm gcd và rút gọn, nhưng logic chuẩn hóa mẫu dương bị sai (kiểm tra tuSo < 0 thay vì mauSo < 0)."
+      },
+      {
+        "criterion": "Nạp chồng toán tử một ngôi (nếu đề yêu cầu +, -, !, ...)",
+        "score": 14,
+        "comment": "Đề bài không yêu cầu toán tử một ngôi, tính điểm tối đa."
+      },
+      {
+        "criterion": "Nạp chồng toán tử hai ngôi / so sánh (nếu đề yêu cầu +, -, >, <, ==, ...)",
+        "score": 7,
+        "comment": "Toán tử == cài đặt đúng giải thuật nhân chéo, nhưng sử dụng sai tên thuộc tính (ts, ms thay vì tuSo, mauSo) gây lỗi biên dịch."
+      },
+      {
+        "criterion": "Hàm main nhập/xuất/xử lý đầy đủ theo đề",
+        "score": 4,
+        "comment": "Dòng lệnh ps1(10, 12); sai cú pháp trong C++. Thông báo kết quả không đúng chuỗi yêu cầu của đề ('Bang nhau' / 'Khong bang nhau')."
+      },
+      {
+        "criterion": "Quản lý bộ nhớ động đúng, không rò rỉ",
+        "score": 9,
+        "comment": "Bài làm không sử dụng bộ nhớ động, đạt điểm phần này."
+      },
+      {
+        "criterion": "Phong cách, đặt tên, chú thích, không lỗi biên dịch",
+        "score": 1,
+        "comment": "Chương trình không thể biên dịch do rất nhiều lỗi cú pháp nghiêm trọng (constructor, tên biến, nạp chồng toán tử)."
+      }
+    ]
+  }
+}

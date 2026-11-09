@@ -1,0 +1,29 @@
+{
+  "type": "document",
+  "documentId": "6ad7f374ea489986ba009d2f",
+  "title": "Chuong2_ Counting",
+  "slug": "chuong2-counting",
+  "subjectSlug": "toan-roi-rac-1-1-26n06",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/toan-roi-rac-1-1-26n06/documents/chuong2-counting_1792537454.pdf",
+      "enc": 228160,
+      "plain": 228100
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 228100,
+  "originalName": "Chuong2_ Counting.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-20T23:04:20.479Z",
+  "updatedAt": "2026-10-20T23:04:20.479Z"
+}

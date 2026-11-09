@@ -1,0 +1,29 @@
+{
+  "type": "slide",
+  "slideId": "6ae1c0a3a13b85b49a981ad4",
+  "title": "HUST_Trần Vĩnh Đức_lec13-counting",
+  "slug": "hust-tran-vinh-duc-lec13-counting",
+  "subjectSlug": "toan-roi-rac-1-1-26n06",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/toan-roi-rac-1-1-26n06/slides/hust-tran-vinh-duc-lec13-counting_1793179806.pdf",
+      "enc": 80888,
+      "plain": 80828
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 80828,
+  "originalName": "HUST_Trần Vĩnh Đức_lec13-counting.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-28T09:30:11.468Z",
+  "updatedAt": "2026-10-28T09:30:11.468Z"
+}

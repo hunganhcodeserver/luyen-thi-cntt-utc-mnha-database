@@ -1,0 +1,27 @@
+{
+  "type": "video",
+  "videoId": "6ae12dbf3e8648e84b0a0d10",
+  "title": "Cấu Trúc Dữ Liệu Và Giải Thuật 28tech (T4.2024) - VIDEO (P00).mp4.mkv",
+  "slug": "cau-truc-du-lieu-va-giai-thuat-28tech-t4-2024-video-p00-mp4",
+  "subjectSlug": "cau-truc-du-lieu-va-giai-thuat-1-1-26n06",
+  "description": "",
+  "videos": [
+    {
+      "id": "vf62ddf36",
+      "title": "",
+      "enc": "v1.YbnugU4fs_8n_VxK.GYJhu-bpDyLfyVuk3FkRhQ.wqxDSUeN1YgPcv-UVsNZWjZq5oZWPFWV1qoOKXJpHScvyERYqrHiJYSWv3QdeVH9wChfqmNEGsOFFUsVTOTQDEtPqXAw7PLDJD6xbFmOLxvpxXwbXaOc_-iTNwZWJF5zP_Xuy9mn3EkWQv38Vj1VB8j78bT-wimrEiTIQnQn1PqvwEBgIvgfe9uDCzzF5YbsmzcfzojaY_sHkHhGzKlmOoln8J9LsB9RqjuObnMQc5V7eL81Zp-C5ofUTqAWuAAG7uy77guBs06KguBgyiCyLh5aRwI4YT8CyT-Ea8cB569YQfDgGovx5fgUT2ET-YVIC_5Xfx7BmQa01NYcDY29tAIwOiFdia1kjJ3IvBj46LZwRm-es6RqsbneVU1-E21OdXylTM6SDvOwmdojdr5zHUpjx9z5wdMdgsIPvPjP2YKnkHFzpSeOig"
+    }
+  ],
+  "videoCount": 1,
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-27T23:03:27.395Z",
+  "updatedAt": "2026-10-27T23:03:27.395Z"
+}

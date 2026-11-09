@@ -1,0 +1,967 @@
+{
+  "type": "quiz",
+  "submissionId": "6ae4bc3528f51bce55e1f329",
+  "userId": "6ab3f4bf3a25e0e165cf42d5",
+  "lessonId": "6ae45bc2ff6255ef8c60cc40",
+  "lessonTitle": "(Tài liệu B+) Giữa kì ĐSTT (2302 + 2301)",
+  "subjectSlug": "dai-so-tuyen-tinh-2-1-26n02",
+  "lessonSlug": "2302-2301-giua-ki-dstt",
+  "submittedAt": "2026-10-30T15:48:05.642Z",
+  "answers": {
+    "mcq-1": [
+      "B"
+    ],
+    "mcq-2": [
+      "C"
+    ],
+    "mcq-3": [
+      "C"
+    ],
+    "mcq-4": [
+      "C"
+    ]
+  },
+  "quizSnapshot": {
+    "version": 1,
+    "maxScore": 10,
+    "parts": {
+      "mcq": {
+        "pointsPerQuestion": 0.5,
+        "questions": [
+          {
+            "startLine": 1,
+            "text": "(Mã đề 2301) Ánh xạ f: R² → R³ nào dưới đây là ánh xạ tuyến tính?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "$f(x_1,x_2)=(x_1^2+2x_2,\\ 4x_1+x_2,\\ -x_2)$"
+              },
+              {
+                "key": "B",
+                "text": "$f(x_1,x_2)=(x_1-x_2,\\ 0,\\ 2x_1+x_2)$"
+              },
+              {
+                "key": "C",
+                "text": "$f(x_1,x_2)=(2+x_1,\\ x_1+2x_2,\\ 5x_1-x_2)$"
+              },
+              {
+                "key": "D",
+                "text": "$f(x_1,x_2)=(0,\\ -x_1^2,\\ x_1+x_2)$"
+              },
+              {
+                "key": "E",
+                "text": "$f(x_1,x_2)=(2x_1-x_2,\\ -x_1,\\ 3x_1x_2)$"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-1",
+            "clusterId": null
+          },
+          {
+            "startLine": 8,
+            "text": "(Mã đề 2301) Cho ánh xạ f: R² → R³ xác định bởi công thức f(x) = (x₁ + 8x₂ + 2a + 2, −3x₁ + 4x₂, x₁ − 5x₂), với x = (x₁, x₂) ∈ R². Tìm a để f là một ánh xạ tuyến tính.",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "a = 1"
+              },
+              {
+                "key": "B",
+                "text": "a = −2"
+              },
+              {
+                "key": "C",
+                "text": "a = −1"
+              },
+              {
+                "key": "D",
+                "text": "a = 2"
+              },
+              {
+                "key": "E",
+                "text": "a = 0"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "f tuyến tính thì f(0) = 0, nên 2a + 2 = 0, suy ra a = −1.",
+            "multi": false,
+            "id": "mcq-2",
+            "clusterId": null
+          },
+          {
+            "startLine": 16,
+            "text": "(Mã đề 2301) Phát biểu nào sau đây sai về cơ sở của không gian R⁴?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Có những hệ sinh của R⁴ có năm phần tử"
+              },
+              {
+                "key": "B",
+                "text": "Hai cơ sở khác nhau của R⁴ có thể có giao khác rỗng"
+              },
+              {
+                "key": "C",
+                "text": "Tồn tại một cơ sở nào đó của R⁴ có chứa véc-tơ (0,0,0,0)"
+              },
+              {
+                "key": "D",
+                "text": "Một hệ sinh của R⁴ có 4 véc-tơ thì tạo thành một cơ sở của R⁴"
+              },
+              {
+                "key": "E",
+                "text": "Một hệ có 4 véc-tơ độc lập tuyến tính thì tạo thành một cơ sở R⁴"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "Một cơ sở không thể chứa véc-tơ không vì khi đó hệ phụ thuộc tuyến tính.",
+            "multi": false,
+            "id": "mcq-3",
+            "clusterId": null
+          },
+          {
+            "startLine": 24,
+            "text": "(Mã đề 2301) Hệ véc-tơ nào dưới đây là hệ véc-tơ độc lập tuyến tính trong không gian R³?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "{a₁ = (1,1,1); a₂ = (1,1,0); a₃ = (0,0,1)}"
+              },
+              {
+                "key": "B",
+                "text": "{a₁ = (1,0,0); a₂ = (0,1,1); a₃ = (1,1,1)}"
+              },
+              {
+                "key": "C",
+                "text": "{a₁ = (1,0,0); a₂ = (0,1,0); a₃ = (1,1,1)}"
+              },
+              {
+                "key": "D",
+                "text": "{a₁ = (1,0,0); a₂ = (0,1,0); a₃ = (1,1,0)}"
+              },
+              {
+                "key": "E",
+                "text": "{a₁ = (0,1,0); a₂ = (1,0,1); a₃ = (1,1,1)}"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "Ở các phương án A, B, D, E đều có một véc-tơ là tổ hợp tuyến tính của hai véc-tơ còn lại, nên các hệ đó phụ thuộc tuyến tính.",
+            "multi": false,
+            "id": "mcq-4",
+            "clusterId": null
+          },
+          {
+            "startLine": 32,
+            "text": "(Mã đề 2301) Cho ánh xạ tuyến tính f: R³ → R³ và a, b ∈ R³ sao cho f(3a) = (3,−3,0) và f(−2b) = (4,0,−4). Khi đó f(a − b) bằng:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "(3, −1, 2)"
+              },
+              {
+                "key": "B",
+                "text": "(3, 1, 2)"
+              },
+              {
+                "key": "C",
+                "text": "(1, 1, 2)"
+              },
+              {
+                "key": "D",
+                "text": "(−1, −1, 2)"
+              },
+              {
+                "key": "E",
+                "text": "(3, −1, −2)"
+              }
+            ],
+            "correct": [
+              "E"
+            ],
+            "explanationHtml": "f(a) = (1,−1,0); f(b) = (−2,0,2), nên f(a − b) = (3,−1,−2).",
+            "multi": false,
+            "id": "mcq-5",
+            "clusterId": null
+          },
+          {
+            "startLine": 40,
+            "text": "(Mã đề 2301) Cho ánh xạ tuyến tính f: R³ → R² và (e) = {e₁, e₂, e₃} là cơ sở chính tắc của R³, biết f(e₁) = (1,2); f(e₂) = (−1,3); f(e₃) = (2,3). Khi đó f(1,2,3) là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "(1, 6)"
+              },
+              {
+                "key": "B",
+                "text": "(3, 7)"
+              },
+              {
+                "key": "C",
+                "text": "(5, 17)"
+              },
+              {
+                "key": "D",
+                "text": "(−4, 2)"
+              },
+              {
+                "key": "E",
+                "text": "(2, 5)"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "f(1,2,3) = f(e₁) + 2f(e₂) + 3f(e₃) = (1 − 2 + 6; 2 + 6 + 9) = (5, 17).",
+            "multi": false,
+            "id": "mcq-6",
+            "clusterId": null
+          },
+          {
+            "startLine": 48,
+            "text": "(Mã đề 2301) Trong R⁴ cho cơ sở (a) = {a₁, a₂, a₃, a₄}. Biết x, y ∈ R⁴ và x = −2a₁ + 3a₂ − a₃, y = 5a₁ + 4a₃ − a₄. Khi đó 2x + 3y có tọa độ trong cơ sở (a) là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "(19, 6, 10, 3)"
+              },
+              {
+                "key": "B",
+                "text": "(11, 18, 0, −5)"
+              },
+              {
+                "key": "C",
+                "text": "(11, 6, 10, −3)"
+              },
+              {
+                "key": "D",
+                "text": "(9, 6, 14, −3)"
+              },
+              {
+                "key": "E",
+                "text": "(11, 6, −5)"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "2x + 3y = (−4 + 15)a₁ + 6a₂ + (−2 + 12)a₃ − 3a₄ = 11a₁ + 6a₂ + 10a₃ − 3a₄.",
+            "multi": false,
+            "id": "mcq-7",
+            "clusterId": null
+          },
+          {
+            "startLine": 56,
+            "text": "(Mã đề 2301) Trong không gian tuyến tính R⁴, cho hệ gồm m véc-tơ. Biết rằng hệ véc-tơ trên phụ thuộc tuyến tính. Chọn phát biểu đúng trong các phát biểu sau:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "m > 4"
+              },
+              {
+                "key": "B",
+                "text": "m = 4"
+              },
+              {
+                "key": "C",
+                "text": "Có một véc-tơ là tổ hợp tuyến tính của các véc-tơ còn lại"
+              },
+              {
+                "key": "D",
+                "text": "Mọi véc-tơ trong R⁴ có biểu diễn tuyến tính duy nhất qua hệ véc-tơ trên"
+              },
+              {
+                "key": "E",
+                "text": "m < 4"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-8",
+            "clusterId": null
+          },
+          {
+            "startLine": 63,
+            "text": "(Mã đề 2301) Cho ma trận $A=\\begin{pmatrix}4&-4&-4\\\\1&0&-1\\\\1&-2&-1\\end{pmatrix}$. Véc-tơ nào sau đây không phải là véc-tơ riêng của ma trận A?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "(1, 0, 1)"
+              },
+              {
+                "key": "B",
+                "text": "(3, 1, −1)"
+              },
+              {
+                "key": "C",
+                "text": "(−2, −1, 0)"
+              },
+              {
+                "key": "D",
+                "text": "(0, 1, −1)"
+              },
+              {
+                "key": "E",
+                "text": "(2, 1, 0)"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "A·(3,1,−1)ᵀ = (12, 4, 2)ᵀ không cùng phương với (3,1,−1)ᵀ. Các véc-tơ còn lại đều là véc-tơ riêng (ứng với các giá trị riêng 0, 2, 1, 2).",
+            "multi": false,
+            "id": "mcq-9",
+            "clusterId": null
+          },
+          {
+            "startLine": 71,
+            "text": "(Mã đề 2301) Trong R³ cho cơ sở (a) = {a₁, a₂, a₃}. Trong các hệ sau, hệ véc-tơ nào phụ thuộc tuyến tính?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "{a₁ + a₂ + a₃, a₂, a₃}"
+              },
+              {
+                "key": "B",
+                "text": "{a₁, a₂, a₂ + a₃}"
+              },
+              {
+                "key": "C",
+                "text": "{a₁ + a₂, a₂ + a₃, a₁ + a₃}"
+              },
+              {
+                "key": "D",
+                "text": "{a₁ − a₂, a₂ + a₃, a₁ + a₃}"
+              },
+              {
+                "key": "E",
+                "text": "{a₁ − a₂, a₂, a₃}"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "(a₁ + a₃) = (a₁ − a₂) + (a₂ + a₃), nên hệ ở phương án D phụ thuộc tuyến tính.",
+            "multi": false,
+            "id": "mcq-10",
+            "clusterId": null
+          },
+          {
+            "startLine": 79,
+            "text": "(Mã đề 2302) Cho ánh xạ tuyến tính f: R² → R³ có ma trận trong cơ sở chính tắc của R² và R³ là $\\begin{pmatrix}1&-1\\\\-2&4\\\\3&7\\end{pmatrix}$. Ảnh của phần tử x = (−5, 4) qua ánh xạ f là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "(8, −6, 13)"
+              },
+              {
+                "key": "B",
+                "text": "(−9, 26, 13)"
+              },
+              {
+                "key": "C",
+                "text": "(−9, −6, 13)"
+              },
+              {
+                "key": "D",
+                "text": "(−9, −6, 43)"
+              },
+              {
+                "key": "E",
+                "text": "(−1, −6, 13)"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "f(x) = (1·(−5) − 1·4; −2·(−5) + 4·4; 3·(−5) + 7·4) = (−9, 26, 13).",
+            "multi": false,
+            "id": "mcq-11",
+            "clusterId": null
+          },
+          {
+            "startLine": 87,
+            "text": "(Mã đề 2302) Cho ánh xạ f: R² → R³ xác định bởi công thức f(x) = (x₁ + 8x₂ + 2a + 2, −3x₁ + 4x₂, x₁ − 5x₂), với x = (x₁, x₂) ∈ R². Tìm a để f là một ánh xạ tuyến tính.",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "a = 2"
+              },
+              {
+                "key": "B",
+                "text": "a = 0"
+              },
+              {
+                "key": "C",
+                "text": "a = 1"
+              },
+              {
+                "key": "D",
+                "text": "a = −1"
+              },
+              {
+                "key": "E",
+                "text": "a = −2"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "f tuyến tính thì f(0) = 0, nên 2a + 2 = 0, suy ra a = −1.",
+            "multi": false,
+            "id": "mcq-12",
+            "clusterId": null
+          },
+          {
+            "startLine": 95,
+            "text": "(Mã đề 2302) Hệ véc-tơ nào dưới đây là cơ sở chính tắc của không gian R³?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "{e₁ = (0,0,1); e₂ = (0,1,0); e₃ = (1,0,0)}"
+              },
+              {
+                "key": "B",
+                "text": "{e₁ = (1,0,0); e₂ = (0,1,0); e₃ = (1,0,0)}"
+              },
+              {
+                "key": "C",
+                "text": "{e₁ = (1,0,0); e₂ = (1,1,0); e₃ = (1,1,1)}"
+              },
+              {
+                "key": "D",
+                "text": "{e₁ = (1,0,0); e₂ = (0,1,0); e₃ = (0,0,1)}"
+              },
+              {
+                "key": "E",
+                "text": "{e₁ = (1,0,1); e₂ = (1,1,0); e₃ = (0,1,1)}"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-13",
+            "clusterId": null
+          },
+          {
+            "startLine": 102,
+            "text": "(Mã đề 2302) Trong không gian tuyến tính R³, cho hệ véc-tơ u₁ = (2,2,−1), u₂ = (1,−1,1), u₃ = (1,−2,3), u₄ = (3,6,−5). Tìm tổ hợp tuyến tính 2u₁ + 2u₂ − 3u₃ + u₄.",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "(6, −14, −14)"
+              },
+              {
+                "key": "B",
+                "text": "(−6, −14, 14)"
+              },
+              {
+                "key": "C",
+                "text": "(6, 14, −14)"
+              },
+              {
+                "key": "D",
+                "text": "(−6, 14, −14)"
+              },
+              {
+                "key": "E",
+                "text": "(6, −14, 14)"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "Thành phần thứ nhất: 4 + 2 − 3 + 3 = 6; thứ hai: 4 − 2 + 6 + 6 = 14; thứ ba: −2 + 2 − 9 − 5 = −14.",
+            "multi": false,
+            "id": "mcq-14",
+            "clusterId": null
+          },
+          {
+            "startLine": 110,
+            "text": "(Mã đề 2302) Ma trận $A=\\begin{pmatrix}3&1&3\\\\2&2&3\\\\4&2&7\\end{pmatrix}$ có các giá trị riêng λ₁, λ₂, λ₃. Hỏi tổng λ₁ + λ₂ + λ₃ bằng bao nhiêu?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "12"
+              },
+              {
+                "key": "B",
+                "text": "10"
+              },
+              {
+                "key": "C",
+                "text": "21"
+              },
+              {
+                "key": "D",
+                "text": "20"
+              },
+              {
+                "key": "E",
+                "text": "11"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "Tổng các giá trị riêng bằng vết của ma trận: 3 + 2 + 7 = 12.",
+            "multi": false,
+            "id": "mcq-15",
+            "clusterId": null
+          },
+          {
+            "startLine": 118,
+            "text": "(Mã đề 2302) Cho ánh xạ tuyến tính f: R³ → R⁴ và cho a₁, a₂, a₃, a₄ là các phần tử của R³ sao cho f(a₁ + a₂) = (2,1,2,1), f(a₃ + a₄) = (1,4,−2,2), f(a₁ + a₃) = (−1,1,1,1). Khi đó f(a₂ + a₄) là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "f(a₂ + a₄) = (2,3,1,3)"
+              },
+              {
+                "key": "B",
+                "text": "f(a₂ + a₄) = (4,4,−1,2)"
+              },
+              {
+                "key": "C",
+                "text": "Không xác định được"
+              },
+              {
+                "key": "D",
+                "text": "f(a₂ + a₄) = (1,0,0,5)"
+              },
+              {
+                "key": "E",
+                "text": "f(a₂ + a₄) = (2,6,1,4)"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "a₂ + a₄ = (a₁ + a₂) + (a₃ + a₄) − (a₁ + a₃), nên f(a₂ + a₄) = (2,1,2,1) + (1,4,−2,2) − (−1,1,1,1) = (4,4,−1,2).",
+            "multi": false,
+            "id": "mcq-16",
+            "clusterId": null
+          },
+          {
+            "startLine": 126,
+            "text": "(Mã đề 2302) Trong không gian tuyến tính R², cho hệ véc-tơ (a) = {a₁ = (1,2), a₂ = (−2,3)} và x = 3a₁ − a₂ là một biểu diễn tuyến tính qua (a). Khi đó:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "x = (−5, −3)"
+              },
+              {
+                "key": "B",
+                "text": "x = (5, 3)"
+              },
+              {
+                "key": "C",
+                "text": "x = (5, −3)"
+              },
+              {
+                "key": "D",
+                "text": "x = (5, 3, 0)"
+              },
+              {
+                "key": "E",
+                "text": "x = (0, −4)"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "x = 3(1,2) − (−2,3) = (3 + 2, 6 − 3) = (5, 3).",
+            "multi": false,
+            "id": "mcq-17",
+            "clusterId": null
+          },
+          {
+            "startLine": 134,
+            "text": "(Mã đề 2302) Trong không gian tuyến tính R⁴, cho hệ gồm m véc-tơ. Biết rằng hệ véc-tơ trên phụ thuộc tuyến tính. Chọn phát biểu đúng trong các phát biểu sau:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "m > 4"
+              },
+              {
+                "key": "B",
+                "text": "Mọi véc-tơ trong R⁴ có biểu diễn tuyến tính duy nhất qua hệ véc-tơ trên"
+              },
+              {
+                "key": "C",
+                "text": "m = 4"
+              },
+              {
+                "key": "D",
+                "text": "Có một véc-tơ là tổ hợp tuyến tính của các véc-tơ còn lại"
+              },
+              {
+                "key": "E",
+                "text": "m < 4"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "Hệ phụ thuộc tuyến tính khi và chỉ khi có một véc-tơ là tổ hợp tuyến tính của các véc-tơ còn lại.",
+            "multi": false,
+            "id": "mcq-18",
+            "clusterId": null
+          },
+          {
+            "startLine": 142,
+            "text": "(Mã đề 2302) Cho ánh xạ tuyến tính f: R³ → R² và f(2,0,0) = (−2,6), f(0,0,−3) = (3,−6), f(0,2,−1) = (−1,6). Ma trận của f trong cơ sở chính tắc của R³, R² là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "$\\begin{pmatrix}-2&6\\\\3&-6\\\\-1&6\\end{pmatrix}$"
+              },
+              {
+                "key": "B",
+                "text": "$\\begin{pmatrix}-2&3&-1\\\\6&-6&6\\end{pmatrix}$"
+              },
+              {
+                "key": "C",
+                "text": "$\\begin{pmatrix}-1&3\\\\-2&4\\\\1&2\\end{pmatrix}$"
+              },
+              {
+                "key": "D",
+                "text": "$\\begin{pmatrix}-1&-1&-1\\\\3&4&2\\end{pmatrix}$"
+              },
+              {
+                "key": "E",
+                "text": "$\\begin{pmatrix}2&0&0\\\\0&0&2\\\\0&-3&-1\\end{pmatrix}$"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "f(e₁) = (−1,3); f(e₃) = (−1,2); 2f(e₂) − f(e₃) = (−1,6), suy ra f(e₂) = (−1,4). Các cột của ma trận lần lượt là f(e₁), f(e₂), f(e₃).",
+            "multi": false,
+            "id": "mcq-19",
+            "clusterId": null
+          },
+          {
+            "startLine": 150,
+            "text": "(Mã đề 2302) Trong R⁴ cho các véc-tơ a₁ = (2,−1,3,1), a₂ = (1,−3,4,2), a₃ = (α,−10,15,7). Tìm α để hệ {a₁, a₂, a₃} độc lập tuyến tính:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "α = 3"
+              },
+              {
+                "key": "B",
+                "text": "α ≠ 5"
+              },
+              {
+                "key": "C",
+                "text": "α ≠ −5"
+              },
+              {
+                "key": "D",
+                "text": "α = −3"
+              },
+              {
+                "key": "E",
+                "text": "α = 5"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "a₃ = a₁ + 3a₂ khi và chỉ khi α = 2 + 3·1 = 5. Vậy hệ độc lập tuyến tính khi α ≠ 5.",
+            "multi": false,
+            "id": "mcq-20",
+            "clusterId": null
+          }
+        ]
+      }
+    }
+  },
+  "result": {
+    "score": 2,
+    "maxScore": 10,
+    "earnedPoints": 2,
+    "totalPoints": 10,
+    "correctCount": 4,
+    "totalCount": 20,
+    "parts": {
+      "mcq": {
+        "correct": 4,
+        "total": 20,
+        "earned": 2,
+        "points": 10
+      }
+    },
+    "tfQuestions": [],
+    "items": [
+      {
+        "id": "mcq-1",
+        "part": "mcq",
+        "correct": true,
+        "earned": 0.5,
+        "points": 0.5,
+        "studentAnswer": [
+          "B"
+        ],
+        "correctAnswer": [
+          "B"
+        ]
+      },
+      {
+        "id": "mcq-2",
+        "part": "mcq",
+        "correct": true,
+        "earned": 0.5,
+        "points": 0.5,
+        "studentAnswer": [
+          "C"
+        ],
+        "correctAnswer": [
+          "C"
+        ]
+      },
+      {
+        "id": "mcq-3",
+        "part": "mcq",
+        "correct": true,
+        "earned": 0.5,
+        "points": 0.5,
+        "studentAnswer": [
+          "C"
+        ],
+        "correctAnswer": [
+          "C"
+        ]
+      },
+      {
+        "id": "mcq-4",
+        "part": "mcq",
+        "correct": true,
+        "earned": 0.5,
+        "points": 0.5,
+        "studentAnswer": [
+          "C"
+        ],
+        "correctAnswer": [
+          "C"
+        ]
+      },
+      {
+        "id": "mcq-5",
+        "part": "mcq",
+        "correct": false,
+        "earned": 0,
+        "points": 0.5,
+        "studentAnswer": null,
+        "correctAnswer": [
+          "E"
+        ]
+      },
+      {
+        "id": "mcq-6",
+        "part": "mcq",
+        "correct": false,
+        "earned": 0,
+        "points": 0.5,
+        "studentAnswer": null,
+        "correctAnswer": [
+          "C"
+        ]
+      },
+      {
+        "id": "mcq-7",
+        "part": "mcq",
+        "correct": false,
+        "earned": 0,
+        "points": 0.5,
+        "studentAnswer": null,
+        "correctAnswer": [
+          "C"
+        ]
+      },
+      {
+        "id": "mcq-8",
+        "part": "mcq",
+        "correct": false,
+        "earned": 0,
+        "points": 0.5,
+        "studentAnswer": null,
+        "correctAnswer": [
+          "C"
+        ]
+      },
+      {
+        "id": "mcq-9",
+        "part": "mcq",
+        "correct": false,
+        "earned": 0,
+        "points": 0.5,
+        "studentAnswer": null,
+        "correctAnswer": [
+          "B"
+        ]
+      },
+      {
+        "id": "mcq-10",
+        "part": "mcq",
+        "correct": false,
+        "earned": 0,
+        "points": 0.5,
+        "studentAnswer": null,
+        "correctAnswer": [
+          "D"
+        ]
+      },
+      {
+        "id": "mcq-11",
+        "part": "mcq",
+        "correct": false,
+        "earned": 0,
+        "points": 0.5,
+        "studentAnswer": null,
+        "correctAnswer": [
+          "B"
+        ]
+      },
+      {
+        "id": "mcq-12",
+        "part": "mcq",
+        "correct": false,
+        "earned": 0,
+        "points": 0.5,
+        "studentAnswer": null,
+        "correctAnswer": [
+          "D"
+        ]
+      },
+      {
+        "id": "mcq-13",
+        "part": "mcq",
+        "correct": false,
+        "earned": 0,
+        "points": 0.5,
+        "studentAnswer": null,
+        "correctAnswer": [
+          "D"
+        ]
+      },
+      {
+        "id": "mcq-14",
+        "part": "mcq",
+        "correct": false,
+        "earned": 0,
+        "points": 0.5,
+        "studentAnswer": null,
+        "correctAnswer": [
+          "C"
+        ]
+      },
+      {
+        "id": "mcq-15",
+        "part": "mcq",
+        "correct": false,
+        "earned": 0,
+        "points": 0.5,
+        "studentAnswer": null,
+        "correctAnswer": [
+          "A"
+        ]
+      },
+      {
+        "id": "mcq-16",
+        "part": "mcq",
+        "correct": false,
+        "earned": 0,
+        "points": 0.5,
+        "studentAnswer": null,
+        "correctAnswer": [
+          "B"
+        ]
+      },
+      {
+        "id": "mcq-17",
+        "part": "mcq",
+        "correct": false,
+        "earned": 0,
+        "points": 0.5,
+        "studentAnswer": null,
+        "correctAnswer": [
+          "B"
+        ]
+      },
+      {
+        "id": "mcq-18",
+        "part": "mcq",
+        "correct": false,
+        "earned": 0,
+        "points": 0.5,
+        "studentAnswer": null,
+        "correctAnswer": [
+          "D"
+        ]
+      },
+      {
+        "id": "mcq-19",
+        "part": "mcq",
+        "correct": false,
+        "earned": 0,
+        "points": 0.5,
+        "studentAnswer": null,
+        "correctAnswer": [
+          "D"
+        ]
+      },
+      {
+        "id": "mcq-20",
+        "part": "mcq",
+        "correct": false,
+        "earned": 0,
+        "points": 0.5,
+        "studentAnswer": null,
+        "correctAnswer": [
+          "B"
+        ]
+      }
+    ]
+  },
+  "gradedAt": "2026-10-30T15:48:05.642Z",
+  "gradedBy": "auto",
+  "teacherComment": null,
+  "teacherCommentHistory": [],
+  "aiAnalyses": []
+}

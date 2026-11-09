@@ -1,0 +1,118 @@
+{
+  "submissionId": "6accf9a10eea50996c5395e6",
+  "submittedAt": "2026-10-12T15:15:45.734Z",
+  "gradedAt": "2026-10-12T15:16:31.187Z",
+  "status": "graded",
+  "errorMessage": null,
+  "userId": "6ab3d694415010bf620349e5",
+  "userName": "Mai Ngọc Hùng Anh",
+  "userEmail": "hunganh.okokok.0@gmail.com",
+  "subjectId": "6ab5aeec813f0f6c24604456",
+  "subjectName": "Kiến trúc và tổ chức máy tính-1-1-26(N06)",
+  "subjectCode": "IT1.107.3",
+  "subjectSlug": "kien-truc-va-to-chuc-may-tinh-1-1-26n06",
+  "lessonId": "6acc3fb09cf20414d9272d48",
+  "lessonTitle": "(12/10/2026 - Code 8086 - Giữa kì) Bài 4: Nhập một số bất kỳ rồi in ra",
+  "lessonSlug": "12102026-code-8086-giua-ki-bai-4-nhap-mot-so-bat-ky-roi-in-ra",
+  "lessonDuration": 60,
+  "lessonContentHtml": "<div class=\"de-bai\">\n  <h3>Bài 4: Nhập một số bất kỳ rồi in ra</h3>\n  <p>Viết chương trình hợp ngữ 8086 yêu cầu nhập một số (nhiều chữ số, nhập đến khi nhấn Enter) rồi in lại số vừa nhập.</p>\n  <p><b>Ví dụ:</b></p>\n  <pre>nhap so: 125\nso vua nhap 125</pre>\n  <p><b>Cách làm:</b></p>\n  <ul>\n    <li>Nhập từng ký tự bằng hàm 1 của ngắt 21h. Nếu ký tự là 13 (phím Enter) thì dừng nhập.</li>\n    <li>Với mỗi chữ số nhập vào: trừ 48 để đổi sang số, lấy số đang lưu nhân 10 rồi cộng chữ số mới. Số đang lưu ban đầu bằng 0.</li>\n    <li>Để in số: chia số cho 10 liên tục, mỗi lần chia xong thì đẩy (push) số dư vào ngăn xếp và đếm số lần đẩy bằng CX. Dừng khi thương bằng 0.</li>\n    <li>Lấy các chữ số ra bằng pop. Do ngăn xếp là cấu trúc vào sau ra trước nên chữ số đầu tiên lấy ra là chữ số hàng cao nhất. In từng chữ số (cộng 48) bằng vòng lặp loop.</li>\n  </ul>\n</div>",
+  "lessonSampleSolution": "<div class=\"loi-giai\">\n  <h3>Lời giải Bài 4</h3>\n<pre><code>; nhap n, tinh s = 1 + 2 + 3...\n.model small\n.stack 100h\n.data\n\n    ms1 db  10, 13, \"nhap so: $\"\n    ms2 db  10, 13, \"so vua nhap $\"\n    a   db  0\n.code\n    main proc\n        mov ax, @data\n        mov ds, ax\n        \n        \n        mov ah, 9\n        lea dx, ms1\n        int 21h\n        \n        mov bl, 10\n        mov bh, 0   ; so dau tien = 0\nnhaptiep:        \n        mov ah,1\n        int 21h\n        cmp al, 13\n        je  stop1\n        sub al, 48\n        mov a, al\n        mov al, bh\n        mul bl\n        add al, a\n        mov bh, al\n        jmp nhaptiep\nstop1:\n        \n        mov ah, 9\n        lea dx, ms2\n        int 21h\n        \n        mov al, bh\n        mov cx , 0\n        \n        mov bl, 10\nchiatiep:\n        mov ah, 0        \n        div bl          ; thuong: al, du: ah\n        \n        cmp al, 0\n        \n        je  stop2        ; neu thuong = 0 -> in\n        \n        push ax\n        inc cl\n        \n        jmp chiatiep\nstop2:\n        push ax\n        inc cl\ninso:\n        mov ah, 2\n        pop dx\n        mov dl, dh\n        add dl, 48\n        int 21h\n        loop inso\n        \n                \n            \n           \n        mov ah, 4ch\n        int 21h\n        main endp\n    end main</code></pre>\n  <p><b>Nhận xét:</b> dòng comment đầu chương trình ghi \"tính s = 1 + 2 + 3...\" nhưng chương trình thực tế không tính tổng; nó chỉ nhập một số rồi in lại số đó. Số được lưu trong một thanh ghi 8 bit nên chỉ nhập được giá trị tối đa 255. Khi gọi <code>pop dx</code>, số dư (nằm ở AH lúc push) trở về DH nên mới có lệnh <code>mov dl, dh</code> trước khi in.</p>\n</div>",
+  "answerHtml": ".model small\n.stack 100h\n.data\n    ms1 db, \"nhap so: $\"\n    ms2 db, \"so vua nhap $\"\n    a   db  0\n\n.code\n    main proc\n\n        ;khoi tao doan du lieu\n        mov ax, @data\n        mov ds, ax\n\n        ;in thong bao nhap so\n        mov ah, 9           ;ham 9: hien thi chuoi ket thuc bang $\n        lea dx, ms1\n        int 21h\n\n        mov bl, 10          ;nhap so (2 chu so)\n        ;SUA: doi mov bh, 1 thanh mov bh, 0 (so ghep bat dau tu 0)\n        mov bh, 0           ;so dau tien = 0\n\n    nhaptiep:                   ;nhan vong lap: doc tung ky tu cho den khi bam Enter\n        mov ah, 1               ;ham 1: doc 1 ky tu, luu vao al\n        int 21h\n        cmp al, 13              ;kiem tra xem co phai la phim enter khong (ma ASCII 13)\n        je stop1                ;neu la enter thi nhay ra ngoai vong lap (nhan stop1)\n        sub al, 48              ;doi ky tu ASCII thanh so (chu so vua nhap)\n        mov a, al               ;luu so vua nhap vao bien a\n        mov al, bh              ;gan so dau tien vao al\n        mul bl                  ;ax = al * bl (bl phai = 10 thi moi la nhan 10)\n        add al, a               ;al = al + a\n        ;SUA: doi mov bl, al thanh mov bh, al (cat so ghep vao bh, giu bl = 10)\n        mov bh, al              ;gan ket qua vao bh\n        jmp nhaptiep            ;quay lai doc ky tu tiep theo\n\n    stop1:\n        ;in thong bao so vua nhap\n        mov ah, 9\n        lea dx, ms2\n        int 21h\n        mov al, bh              ;gan so vua nhap vao al\n        mov cx, 0               ;khoi tao bien dem cx = 0\n        mov bl, 10              ;gan bl = 10 de chuan bi chia lay tung chu so\n\n    ;[LIFO] stack vao sau ra truoc: chia 10 se lay chu so tu PHAI sang TRAI (5, 2, 1)\n    ;[LIFO] push lan luot 5, 2, 1 -> khi pop se ra nguoc lai 1, 2, 5 dung thu tu can in\n    chiatiep:\n        mov ah, 0               ;gan ah = 0 de thuc hien phep chia\n        div bl                  ;chia ax cho bl, ket qua trong al, so du trong ah (thuong: al, du: ah)\n        cmp al, 0               ;kiem tra xem ket qua co bang 0 khong\n        je stop2                ;neu ket qua = 0 thi nhay ra ngoai vong lap (nhan stop2)\n        push ax                 ;luu ket qua vao stack\n                                ;[LIFO] ah = du = chu so vua tach, duoc day vao dinh stack\n        inc cx                  ;tang bien dem cx len 1\n        jmp chiatiep            ;quay lai vong lap chia tiep\n\n    stop2:\n        push ax                 ;luu ket qua vao stack\n                                ;[LIFO] day chu so cuoi cung (hang cao nhat, vd 1) vao dinh stack\n        inc cl                  ;tang bien dem cx len 1\n\n    ;[LIFO] pop lay phan tu tren dinh stack truoc: 1 roi 2 roi 5, cx lan lap = so chu so\n    inso:\n        mov ah, 2               ;ham 2: in ky tu\n        pop dx                  ;lay ket qua tu stack vao dx\n                                ;[LIFO] pop ra dung phan tu push sau cung, dh = ah luc push = chu so\n        mov dl, dh              ;gan ky tu vao dl de in ra man hinh\n        add dl, 48              ;doi so thanh ky tu ASCII\n        int 21h                 ;goi ham in ky tu\n        loop inso                ;lap lai cho den khi cx = 0\n\n        ;xuong dong sau khi in so\n        call xuong_dong\n\n        main endp\n\n\n;ham xuong dong\nxuong_dong proc\n    push ax\n    push dx\n    mov ah, 2           ;ham 2: in ky tu\n    mov dl, 13          ;ve dau dong (carriage return)\n    int 21h\n    mov dl, 10          ;xuong dong (line feed)\n    int 21h\n    pop dx\n    pop ax\n    ret\nxuong_dong endp\n\nend main",
+  "hasDrawing": false,
+  "drawingFile": null,
+  "drawingMime": null,
+  "drawingAnalysis": null,
+  "score": 8,
+  "feedback": "Thuật toán đúng và đầy đủ theo yêu cầu đề bài: nhập từng ký tự bằng hàm 1 ngắt 21h, dừng khi gặp mã 13, ghép số theo công thức số_cũ*10 + chữ_số_mới, sau đó tách chữ số bằng div 10, push số dư vào stack, đếm bằng CX và pop ra in bằng loop. Phần comment giải thích cơ chế LIFO rất rõ ràng, cho thấy hiểu bản chất vì sao chữ số hàng cao nhất lại được pop ra trước và vì sao phải mov dl, dh. Hai nhược điểm cần sửa: (1) khai báo chuỗi có dấu phẩy sai sau 'db' làm chương trình không dịch được, (2) thiếu lệnh kết thúc chương trình (mov ah,4ch / int 21h) nên sau khi in xong CPU chạy lạc vào thân proc xuong_dong. Ngoài ra số được lưu trong thanh ghi 8 bit (BH) nên chỉ nhập được tối đa 255, có thể nêu rõ hạn chế này hoặc chuyển sang thanh ghi 16 bit để tổng quát hơn.",
+  "breakdown": [
+    {
+      "criterion": "Khai báo dữ liệu và khởi tạo đoạn dữ liệu",
+      "score": 1,
+      "comment": "Khởi tạo DS đúng, có đủ ms1, ms2, biến a; nhưng khai báo chuỗi sai cú pháp (db,) nên không dịch được. Thiếu 10,13 đầu chuỗi (không bắt buộc)."
+    },
+    {
+      "criterion": "Nhập số nhiều chữ số và ghép giá trị",
+      "score": 3,
+      "comment": "Vòng nhaptiep đúng: đọc ký tự, so sánh 13, sub 48, mul 10 rồi cộng chữ số mới, bắt đầu từ 0. Chính xác hoàn toàn."
+    },
+    {
+      "criterion": "Tách chữ số và in bằng stack + loop",
+      "score": 3.5,
+      "comment": "Chia 10 liên tục, push AX, đếm CX, pop và mov dl,dh trước khi add 48 — đúng và được giải thích tốt bằng comment LIFO."
+    },
+    {
+      "criterion": "Kết thúc chương trình, trình bày",
+      "score": 0.5,
+      "comment": "Có thêm proc xuong_dong gọn gàng, nhưng thiếu lệnh thoát về DOS; một comment còn ghi sai là 'nhap so (2 chu so)'."
+    }
+  ],
+  "grammar": null,
+  "sampleComparison": null,
+  "model": "occ/claude-opus-5",
+  "aiKeyId": "6abfdf08b29c124d59ccc66b",
+  "aiKeyName": "hunganh2006",
+  "aiProvider": "vilao",
+  "latencyMs": 44886,
+  "promptSnapshot": {
+    "kind": "essay",
+    "promptId": null,
+    "name": "Fallback mặc định (hardcoded)",
+    "content": "Bạn là giáo viên chấm bài. Hãy chấm bài viết sau dựa trên đề bài và rubric.\n\nĐề bài:\n{đề_bài}\n\nBài làm sinh viên (phần nhập chữ):\n{bài_làm}\n\nPhần vẽ tay của sinh viên (đã được bước phân tích hình ảnh đọc trước):\n{hình_vẽ}\n\nLời giải mẫu (nếu có, chỉ dùng để đối chiếu ý, không chép nguyên văn vào feedback):\n{lời_giải_mẫu}\n\nRubric: {rubric}\nĐiểm tối đa: {max_score}\n\nQUY TẮC CHẤM KẾT HỢP CHỮ + HÌNH VẼ:\n- Nếu có cả phần nhập chữ và phần vẽ tay: chấm CẢ HAI theo đề bài/rubric, cho một điểm tổng duy nhất.\n- Nếu chỉ có một phần: chỉ chấm phần đó, KHÔNG trừ điểm vì phần sinh viên không nộp.\n\nQUY TẮC PHÁT HIỆN LỖI:\n- Chỉ liệt kê lỗi khi lỗi thực sự tồn tại trong bài làm, không tự bịa.\n- Nếu đề bài/rubric không đủ căn cứ để xác định một lỗi cụ thể, bỏ qua, không đoán.\n- Mỗi lỗi nêu rõ: câu gốc sai, câu đã sửa, giải thích ngắn gọn.\n\nChỉ trả về JSON hợp lệ, không Markdown, không giải thích ngoài JSON:\n{\n  \"score\": number,\n  \"feedback\": string,\n  \"breakdown\": [{ \"criterion\": string, \"score\": number, \"comment\": string }],\n  \"errors\": [{ \"original\": string, \"corrected\": string, \"explanation\": string }]\n}",
+    "rubric": null,
+    "strictness": "normal",
+    "maxScore": 10,
+    "scope": "fallback",
+    "version": 0,
+    "isFallback": true,
+    "unknownPlaceholders": [],
+    "snapshotAt": "2026-10-12T15:16:30.624Z"
+  },
+  "raw": {
+    "score": 8,
+    "feedback": "Thuật toán đúng và đầy đủ theo yêu cầu đề bài: nhập từng ký tự bằng hàm 1 ngắt 21h, dừng khi gặp mã 13, ghép số theo công thức số_cũ*10 + chữ_số_mới, sau đó tách chữ số bằng div 10, push số dư vào stack, đếm bằng CX và pop ra in bằng loop. Phần comment giải thích cơ chế LIFO rất rõ ràng, cho thấy hiểu bản chất vì sao chữ số hàng cao nhất lại được pop ra trước và vì sao phải mov dl, dh. Hai nhược điểm cần sửa: (1) khai báo chuỗi có dấu phẩy sai sau 'db' làm chương trình không dịch được, (2) thiếu lệnh kết thúc chương trình (mov ah,4ch / int 21h) nên sau khi in xong CPU chạy lạc vào thân proc xuong_dong. Ngoài ra số được lưu trong thanh ghi 8 bit (BH) nên chỉ nhập được tối đa 255, có thể nêu rõ hạn chế này hoặc chuyển sang thanh ghi 16 bit để tổng quát hơn.",
+    "breakdown": [
+      {
+        "criterion": "Khai báo dữ liệu và khởi tạo đoạn dữ liệu",
+        "score": 1,
+        "comment": "Khởi tạo DS đúng, có đủ ms1, ms2, biến a; nhưng khai báo chuỗi sai cú pháp (db,) nên không dịch được. Thiếu 10,13 đầu chuỗi (không bắt buộc)."
+      },
+      {
+        "criterion": "Nhập số nhiều chữ số và ghép giá trị",
+        "score": 3,
+        "comment": "Vòng nhaptiep đúng: đọc ký tự, so sánh 13, sub 48, mul 10 rồi cộng chữ số mới, bắt đầu từ 0. Chính xác hoàn toàn."
+      },
+      {
+        "criterion": "Tách chữ số và in bằng stack + loop",
+        "score": 3.5,
+        "comment": "Chia 10 liên tục, push AX, đếm CX, pop và mov dl,dh trước khi add 48 — đúng và được giải thích tốt bằng comment LIFO."
+      },
+      {
+        "criterion": "Kết thúc chương trình, trình bày",
+        "score": 0.5,
+        "comment": "Có thêm proc xuong_dong gọn gàng, nhưng thiếu lệnh thoát về DOS; một comment còn ghi sai là 'nhap so (2 chu so)'."
+      }
+    ],
+    "errors": [
+      {
+        "original": "ms1 db, \"nhap so: $\"",
+        "corrected": "ms1 db \"nhap so: $\"",
+        "explanation": "Sau chỉ thị db không được có dấu phẩy; viết như bài làm sẽ gây lỗi cú pháp khi dịch."
+      },
+      {
+        "original": "ms2 db, \"so vua nhap $\"",
+        "corrected": "ms2 db \"so vua nhap $\"",
+        "explanation": "Cùng lỗi dấu phẩy thừa sau db."
+      },
+      {
+        "original": "        call xuong_dong\n\n        main endp",
+        "corrected": "        call xuong_dong\n\n        mov ah, 4ch\n        int 21h\n        main endp",
+        "explanation": "Thiếu lệnh kết thúc chương trình trả quyền về DOS; nếu không có, sau khi in xong CPU tiếp tục thực thi các lệnh của proc xuong_dong và gặp ret không hợp lệ gây treo."
+      },
+      {
+        "original": "        mov bl, 10          ;nhap so (2 chu so)",
+        "corrected": "        mov bl, 10          ;bl = 10 de ghep so (nhan 10)",
+        "explanation": "Comment mô tả sai: đoạn này nhập số nhiều chữ số (giới hạn bởi 8 bit là 255), không phải chỉ 2 chữ số."
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "slide",
+  "slideId": "6aed9d942f9b6ad7e3fb5649",
+  "title": "UIT_DSA_03-03-2019_07. Danh Sách Liên Kết Đơn",
+  "slug": "uit-dsa-03-03-2019-07-danh-sach-lien-ket-don",
+  "subjectSlug": "cau-truc-du-lieu-va-giai-thuat-1-1-26n06",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/cau-truc-du-lieu-va-giai-thuat-1-1-26n06/slides/uit-dsa-03-03-2019-07-danh-sach-lien-ket-don_1793957194.pdf",
+      "enc": 18946458,
+      "plain": 18945894
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 18945894,
+  "originalName": "07. Danh Sách Liên Kết Đơn.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-11-06T09:27:48.349Z",
+  "updatedAt": "2026-11-06T09:27:48.349Z"
+}

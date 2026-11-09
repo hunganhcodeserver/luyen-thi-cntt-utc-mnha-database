@@ -1,0 +1,29 @@
+{
+  "type": "slide",
+  "slideId": "6ad80249f933fee991ea3b53",
+  "title": "28tech\\MẢNG 2 CHIỀU_NoCopy.pdf",
+  "slug": "28tech-mang-2-chieu-nocopy-pdf",
+  "subjectSlug": "cau-truc-du-lieu-va-giai-thuat-1-1-26n06",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/cau-truc-du-lieu-va-giai-thuat-1-1-26n06/slides/28tech-mang-2-chieu-nocopy-pdf_1792541249.pdf",
+      "enc": 477087,
+      "plain": 477027
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 477027,
+  "originalName": "MẢNG 2 CHIỀU_NoCopy.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-21T00:07:37.105Z",
+  "updatedAt": "2026-10-21T00:07:37.105Z"
+}

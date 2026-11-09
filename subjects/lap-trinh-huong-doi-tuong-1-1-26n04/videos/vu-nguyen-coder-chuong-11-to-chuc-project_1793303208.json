@@ -1,0 +1,27 @@
+{
+  "type": "video",
+  "videoId": "6ae3a2a823700d1296c5fd68",
+  "title": "Vũ Nguyễn Coder _ Chương 11 Tổ chức project",
+  "slug": "vu-nguyen-coder-chuong-11-to-chuc-project",
+  "subjectSlug": "lap-trinh-huong-doi-tuong-1-1-26n04",
+  "description": "",
+  "videos": [
+    {
+      "id": "va79c7bdd",
+      "title": "Bài 35 Chia class thành các file (website khoahocgiahoi.com zalo 0583953426)",
+      "enc": "v1.zIDEVyOouqCHzpf8.X_f1F-vixmNcY6EFPT3Wrw.g0zEB5QjBY6qjQXZhRByUVXqfdozttjHFLny81NVXgOp0ldUw2KCmk4kr0cxpo74Ln2EfBHBWmSFt1OAZGFwKChIC5dXX4y1zu1R4hKDoiJPSMWcWH7fGo5AZNsYalHiGP80wHLu0o7k40tVXY2rhyUKBxQ3ZItC6QxP62WYEJTVlGgwVTtmltDZ-3w6qYKQn6cy7kIqlVKNPhTWKU2Idl3n_vG3kC-sGvzVSTbL-eiKff31_K1-o2Gubd2olgcra5hGHUUI8mJDp7EY-23vz4P-XIbdDrr1-RU_dIXQ02n9UI23dzJB1p-FouFcDNw3Dx4dyDkArAeQ5yFuGbfOVGLn3Zst19V7DVKdtMp59W5jUKgZBxoP5Yg2NAA3_kSN8kfophZgrBdVulymIq93o41sSD9jCrF4v3Z5WE8H6lu2DHrCa-SGCQ"
+    }
+  ],
+  "videoCount": 1,
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-29T19:46:48.573Z",
+  "updatedAt": "2026-10-29T19:46:48.573Z"
+}

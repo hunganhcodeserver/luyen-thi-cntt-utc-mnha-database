@@ -1,0 +1,29 @@
+{
+  "type": "slide",
+  "slideId": "6ae1c101a13b85b49a981ad8",
+  "title": "HUST_Trần Vĩnh Đức_lec17-dfs",
+  "slug": "hust-tran-vinh-duc-lec17-dfs",
+  "subjectSlug": "toan-roi-rac-1-1-26n06",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/toan-roi-rac-1-1-26n06/slides/hust-tran-vinh-duc-lec17-dfs_1793179899.pdf",
+      "enc": 990600,
+      "plain": 990540
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 990540,
+  "originalName": "HUST_Trần Vĩnh Đức_lec17-dfs.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-28T09:31:45.899Z",
+  "updatedAt": "2026-10-28T09:31:45.899Z"
+}

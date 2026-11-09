@@ -1,0 +1,39 @@
+{
+  "type": "slide",
+  "slideId": "6aecc35c6efa7056c876064a",
+  "title": "hust-nhap-mon-cong-nghe-thong-tin-tuyen-thong",
+  "slug": "hust-nhap-mon-cong-nghe-thong-tin-tuyen-thong",
+  "subjectSlug": "nhap-mon-nganh-cntt-1-1-25n05-cong-nghe-so-va-ai",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/nhap-mon-nganh-cntt-1-1-25n05-cong-nghe-so-va-ai/slides/hust-nhap-mon-cong-nghe-thong-tin-tuyen-thong_1793901240-1.pdf",
+      "enc": 22000620,
+      "plain": 22000000
+    },
+    {
+      "path": "subjects/nhap-mon-nganh-cntt-1-1-25n05-cong-nghe-so-va-ai/slides/hust-nhap-mon-cong-nghe-thong-tin-tuyen-thong_1793901240-2.pdf",
+      "enc": 22000620,
+      "plain": 22000000
+    },
+    {
+      "path": "subjects/nhap-mon-nganh-cntt-1-1-25n05-cong-nghe-so-va-ai/slides/hust-nhap-mon-cong-nghe-thong-tin-tuyen-thong_1793901240-3.pdf",
+      "enc": 4558996,
+      "plain": 4558824
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 48558824,
+  "originalName": "hust-nhap-mon-cong-nghe-thong-tin-tuyen-thong.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-11-05T17:56:44.424Z",
+  "updatedAt": "2026-11-05T17:56:44.424Z"
+}

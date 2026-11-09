@@ -1,0 +1,29 @@
+{
+  "type": "document",
+  "documentId": "6ad8c90f381ad9ce0c3319a3",
+  "title": "bai-ghi-2026-10-20",
+  "slug": "bai-ghi-2026-10-20",
+  "subjectSlug": "nguyen-ly-he-dieu-hanh-1-1-26n01",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/nguyen-ly-he-dieu-hanh-1-1-26n01/documents/bai-ghi-2026-10-20_1792592090.pdf",
+      "enc": 499366,
+      "plain": 499306
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 499306,
+  "originalName": "bai-ghi-2026-10-20.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-21T14:15:43.762Z",
+  "updatedAt": "2026-10-21T14:15:43.762Z"
+}

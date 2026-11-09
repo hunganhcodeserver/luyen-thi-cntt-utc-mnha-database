@@ -1,0 +1,12 @@
+{
+  "lessonId": "6ab6afb4ccacc564d40110d2",
+  "title": "(Kiểm tra ngắn OOP C++) ĐỀ SỐ 1 - Chủ đề: PHÂN SỐ",
+  "slug": "kiem-tra-ngan-oop-c-de-so-1-chu-de-phan-so",
+  "description": "",
+  "contentHtml": "<h2>ĐỀ SỐ 1</h2>\r\n<p><strong>Chủ đề: PHÂN SỐ • Thời gian: 30 phút • C++</strong></p>\r\n\r\n<ul>\r\n    <li>\r\n        <strong>Yêu cầu: Xây dựng lớp PhanSo bao gồm:</strong>\r\n        <ol>\r\n            <li>Khai báo hai thuộc tính kiểu int: tuSo, mauSo.</li>\r\n            <li>Viết cấu tử có đối mặc định: tuSo = 0, mauSo = 1; không cho phép mẫu số bằng 0.</li>\r\n            <li>Viết phương thức void rutGon() để đưa phân số về dạng tối giản và chuẩn hóa mẫu số dương.</li>\r\n            <li>Nạp chồng toán tử == để so sánh hai phân số.</li>\r\n            <li>Viết hàm bạn nạp chồng toán tử &gt;&gt; để nhập một phân số từ bàn phím.</li>\r\n        </ol>\r\n    </li>\r\n    <li>\r\n        <strong>Yêu cầu trong hàm main ():</strong> Trong main(), tạo p1 bằng hàm tạo và nhập p2 bằng cin &gt;&gt; p2. Kiểm tra p1 == p2; nếu đúng in “Bang nhau”, ngược lại in “Khong bang nhau”.\r\n    </li>\r\n</ul>\r\n\r\n<p><em>Lưu ý: Có thể bổ sung hàm/phương thức hỗ trợ hợp lý.</em></p>\r\n",
+  "sampleSolution": "",
+  "duration": 30,
+  "model": null,
+  "isPublished": true,
+  "updatedAt": "2026-09-30T03:04:15.898Z"
+}

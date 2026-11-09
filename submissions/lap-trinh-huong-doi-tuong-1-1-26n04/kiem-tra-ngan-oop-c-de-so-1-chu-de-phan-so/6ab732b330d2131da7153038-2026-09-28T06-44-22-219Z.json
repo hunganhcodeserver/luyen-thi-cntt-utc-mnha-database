@@ -1,0 +1,186 @@
+{
+  "submissionId": "6aba0cc620d9765ac1acaf99",
+  "submittedAt": "2026-09-28T06:44:22.219Z",
+  "gradedAt": "2026-09-28T06:44:53.545Z",
+  "status": "graded",
+  "errorMessage": null,
+  "userId": "6ab732b330d2131da7153038",
+  "userName": "Phạm Công Đoan",
+  "userEmail": "congdoan7171@gmail.com",
+  "subjectId": "6ab5aeac813f0f6c24604455",
+  "subjectName": "Lập trình hướng đối tượng-1-1-26(N04)",
+  "subjectCode": "IT1.108.3",
+  "subjectSlug": "lap-trinh-huong-doi-tuong-1-1-26n04",
+  "lessonId": "6ab6afb4ccacc564d40110d2",
+  "lessonTitle": "(Kiểm tra ngắn OOP C++) ĐỀ SỐ 1 - Chủ đề: PHÂN SỐ",
+  "lessonSlug": "kiem-tra-ngan-oop-c-de-so-1-chu-de-phan-so",
+  "lessonDuration": 30,
+  "lessonContentHtml": "<div class=\"flex-container flex-1-2-1-0\" style=\"display: flex; flex-direction: column;\"><div class=\"flex-container flex-1-2-1-0-0\" style=\"display: flex; flex-direction: column;\"><div class=\"flex-container flex-1-2-1-0-0-0\" style=\"display: flex; flex-direction: column;\"><div style=\"width: 100%; height: 100%;\"><p data-path-to-node=\"1,2,1,0,0,0,0\">ĐỀ SỐ 1\r\nPHÂN SỐ</p></div></div><div class=\"flex-container flex-1-2-1-0-0-1\" style=\"display: flex; flex-direction: column;\"><div style=\"width: 100%; height: 100%;\"><p data-path-to-node=\"1,2,1,0,0,1,0\">⏱ 30 phút | 💻 C++</p></div></div><div class=\"flex-container flex-1-2-1-0-0-2\" style=\"display: flex; flex-direction: column;\"><div style=\"width: 100%; height: 100%;\"><p data-path-to-node=\"1,2,1,0,0,2,0\"><b data-path-to-node=\"1,2,1,0,0,2,0\" data-index-in-node=\"0\">Lớp PhanSo:</b></p></div><div style=\"width: 100%; height: 100%;\"><ul data-path-to-node=\"1,2,1,0,0,2,1\"><li><p data-path-to-node=\"1,2,1,0,0,2,1,0,0\">Thuộc tính: <code data-path-to-node=\"1,2,1,0,0,2,1,0,0\" data-index-in-node=\"12\">tuSo</code>, <code data-path-to-node=\"1,2,1,0,0,2,1,0,0\" data-index-in-node=\"18\">mauSo</code> (int)</p></li><li><p data-path-to-node=\"1,2,1,0,0,2,1,1,0\">Cấu tử mặc định (tuSo=0, mauSo=1, mẫu != 0)</p></li><li><p data-path-to-node=\"1,2,1,0,0,2,1,2,0\">Phương thức <code data-path-to-node=\"1,2,1,0,0,2,1,2,0\" data-index-in-node=\"12\">rutGon()</code> chuẩn hóa mẫu dương</p></li><li><p data-path-to-node=\"1,2,1,0,0,2,1,3,0\">Nạp chồng toán tử <code data-path-to-node=\"1,2,1,0,0,2,1,3,0\" data-index-in-node=\"18\">==</code></p></li><li><p data-path-to-node=\"1,2,1,0,0,2,1,4,0\">Hàm bạn nạp chồng toán tử <code data-path-to-node=\"1,2,1,0,0,2,1,4,0\" data-index-in-node=\"26\">&gt;&gt;</code></p></li></ul></div><div class=\"flex-container flex-1-2-1-0-0-2-2\" style=\"display: flex; flex-direction: column;\"><div style=\"width: 100%; height: 100%;\"><p data-path-to-node=\"1,2,1,0,0,2,2,0\"><b data-path-to-node=\"1,2,1,0,0,2,2,0\" data-index-in-node=\"0\">main():</b> Tạo p1, nhập p2. So sánh p1 == p2 và in \"Bang nhau\" / \"Khong bang nhau\".</p></div></div></div></div></div>",
+  "lessonSampleSolution": "",
+  "answerHtml": "#include<bits/stdc++.h>\nusing namespace std;\nclass PhanSo{\n\tprivate:\n\t\tint ts;\n\t\tint ms;\n\tpublic:\n\t\tPhanSo(){\n\t\t\tthis->ts = 0;\n\t\t\tthis->ms = 0;\n\t\t}\n\t\tPhanSo(int ts,int ms){\n\t\t\tthis->ts = ts;\n\t\t\tthis->ms = ms;\n\t\t}\n\t\tvoid Rutgon(){\n\t\t\tint g = gcd(this->ts, this->ms);\n\t\t\tthis->ts = this->ts / g;\n\t\t\tthis->ms = this->ms / g;\n\t\t}\n\t\tbool operator == (const PhanSo &t)const{\n\t\t\treturn ts == t.ts && ms == t.ms;\n\t\t}\n\t\tfriend istream &operator >> (istream &is,PhanSo &t){\n\t\t\tcout<<\"Nhap phan so\";\n\t\t\tis>>t.ts>>t.ms;\n\t\t\treturn is;\n\t\t}\n};\nint main(){\n\tPhanSo *ps1 = new PhanSo(3,4);\n\tPhanSo *ps2 = new PhanSo();\n\tcin>>ps2;\n\tps1.Rutgon();\n\tps2.Rutgon();\n\tif(ps1 == ps2){\n\t\tcout<<\"Bang nhau\"<<endl;\n\t}else{\n\t\tcout<<\"Khong bang nhau\"<<endl;\n\t}\n\treturn 0;\n}",
+  "score": 6.2,
+  "feedback": "Bài làm KHÔNG BIÊN DỊCH ĐƯỢC do lỗi cú pháp nghiêm trọng trong hàm main khi làm việc với con trỏ: dùng 'cin >> ps2' thay vì 'cin >> *ps2', và dùng toán tử '.' với con trỏ ('ps1.Rutgon()') thay vì '->'. Ngoài ra, constructor mặc định gán mẫu số bằng 0 (đề yêu cầu mauSo = 1, khác 0), hàm rút gọn chưa chuẩn hóa mẫu dương, biểu thức so sánh 'ps1 == ps2' trong main đang so sánh địa chỉ con trỏ chứ không so sánh giá trị phân số, và chương trình bị rò rỉ bộ nhớ do không giải phóng các vùng nhớ đã cấp phát bằng new.",
+  "breakdown": [
+    {
+      "criterion": "Khai báo lớp, thuộc tính private, hàm tạo/hàm hủy đúng",
+      "score": 0.8,
+      "comment": "Khai báo thuộc tính private đúng. Tuy nhiên, cấu tử mặc định lại gán mauSo = 0 (vi phạm yêu cầu đề bài: mauSo = 1, mẫu khác 0). Đặt tên thuộc tính là ts, ms thay vì tuSo, mauSo."
+    },
+    {
+      "criterion": "Nạp chồng toán tử nhập >> là friend, nhập đúng dữ liệu",
+      "score": 1.3,
+      "comment": "Cài đặt đúng toán tử nhập >> dưới dạng hàm bạn (friend), trả về tham chiếu istream."
+    },
+    {
+      "criterion": "Nạp chồng toán tử xuất << là friend, xuất đúng dữ liệu",
+      "score": 0.9,
+      "comment": "Đề bài không yêu cầu nạp chồng toán tử xuất <<, đạt điểm tối đa tiêu chí này."
+    },
+    {
+      "criterion": "Các phương thức getter/setter hoặc phương thức phụ trợ đúng",
+      "score": 0.3,
+      "comment": "Phương thức rút gọn có tìm gcd để tối giản nhưng chưa xử lý chuẩn hóa mẫu số dương khi mẫu âm theo yêu cầu đề bài."
+    },
+    {
+      "criterion": "Nạp chồng toán tử một ngôi (nếu đề yêu cầu +, -, !, ...)",
+      "score": 1.4,
+      "comment": "Đề bài không yêu cầu toán tử một ngôi, đạt điểm tối đa tiêu chí này."
+    },
+    {
+      "criterion": "Nạp chồng toán tử hai ngôi / so sánh (nếu đề yêu cầu +, -, >, <, ==, ...)",
+      "score": 1.1,
+      "comment": "Toán tử == được nạp chồng đúng cú pháp, nhưng chỉ so sánh ts == t.ts && ms == t.ms (phụ thuộc vào việc đã rút gọn trước đó thay vì so sánh chéo ts * t.ms == ms * t.ts)."
+    },
+    {
+      "criterion": "Hàm main nhập/xuất/xử lý đầy đủ theo đề",
+      "score": 0.2,
+      "comment": "Hàm main gặp nhiều lỗi: cin >> ps2 sai cú pháp với con trỏ; ps1.Rutgon() và ps2.Rutgon() sai cú pháp truy xuất con trỏ; if (ps1 == ps2) đang so sánh 2 địa chỉ vùng nhớ chứ không kích hoạt toán tử == của lớp."
+    },
+    {
+      "criterion": "Quản lý bộ nhớ động đúng, không rò rỉ",
+      "score": 0.2,
+      "comment": "Cấp phát động bằng new nhưng không hề gọi delete để giải phóng bộ nhớ, gây memory leak."
+    },
+    {
+      "criterion": "Phong cách, đặt tên, chú thích, không lỗi biên dịch",
+      "score": 0,
+      "comment": "Mã nguồn không biên dịch được do các lỗi cú pháp con trỏ trong hàm main."
+    }
+  ],
+  "grammar": null,
+  "sampleComparison": null,
+  "model": "gemini-flash-latest",
+  "aiKeyId": "6ab555d45d6ff92ba4d7b934",
+  "aiKeyName": "hufng nguyễn",
+  "latencyMs": 30574,
+  "promptSnapshot": {
+    "promptId": "6ab736bee5d88208e9117c70",
+    "name": "Prompt Kiểm tra ngắn OOP C++",
+    "content": "Bạn là giảng viên chấm bài môn Lập trình hướng đối tượng (C++).\r\nHãy chấm bài làm của sinh viên theo đúng rubric dưới đây. Chỉ đánh giá dựa trên mã nguồn được cung cấp và yêu cầu đề bài. Không suy diễn thêm. Nếu bài không biên dịch được, ghi rõ trong feedback và chỉ cho điểm các phần có thể xác minh.\r\n\r\nTên sinh viên: {student_name}\r\nĐiểm tối đa: {max_score}\r\n\r\nĐỀ BÀI:\r\n{đề_bài}\r\n\r\nRUBRIC:\r\n{rubric}\r\n\r\nLỜI GIẢI MẪU THAM KHẢO (nếu cần đối chiếu):\r\n{lời_giải_mẫu}\r\n\r\nBÀI LÀM SINH VIÊN:\r\n{bài_làm}\r\n\r\nYÊU CẦU TRẢ VỀ:\r\nTrả về DUY NHẤT một object JSON hợp lệ, không thêm văn bản ngoài JSON:\r\n{\r\n  \"score\": number,\r\n  \"feedback\": string,\r\n  \"breakdown\": [{\"criterion\": string, \"score\": number, \"comment\": string}]\r\n}\r\n\r\nVariables:\r\n{\r\n  \"variables\": [\r\n    \"{đề_bài}\",\r\n    \"{bài_làm}\",\r\n    \"{rubric}\",\r\n    \"{max_score}\",\r\n    \"{student_name}\",\r\n    \"{lời_giải_mẫu}\"\r\n  ]\r\n}",
+    "rubric": [
+      {
+        "criterion": "Khai báo lớp, thuộc tính private, hàm tạo/hàm hủy đúng",
+        "weight": 13,
+        "description": "Lớp có các thuộc tính private theo đề; hàm tạo mặc định/hàm tạo có đối; hàm hủy nếu có cấp phát động."
+      },
+      {
+        "criterion": "Nạp chồng toán tử nhập >> là friend, nhập đúng dữ liệu",
+        "weight": 13,
+        "description": "operator>> là friend, nhập đúng các trường theo đề; xử lý khoảng trắng hợp lý nếu cần."
+      },
+      {
+        "criterion": "Nạp chồng toán tử xuất << là friend, xuất đúng dữ liệu",
+        "weight": 9,
+        "description": "operator<< là friend, in ra thông tin rõ ràng, đúng định dạng đề yêu cầu."
+      },
+      {
+        "criterion": "Các phương thức getter/setter hoặc phương thức phụ trợ đúng",
+        "weight": 5,
+        "description": "Cung cấp đủ getter/setter hoặc phương thức mà đề yêu cầu."
+      },
+      {
+        "criterion": "Nạp chồng toán tử một ngôi (nếu đề yêu cầu +, -, !, ...)",
+        "weight": 14,
+        "description": "Cài đặt đúng toán tử một ngôi theo đề, ví dụ operator+() tính tổng, operator-() đổi dấu, operator!() đảo ngược."
+      },
+      {
+        "criterion": "Nạp chồng toán tử hai ngôi / so sánh (nếu đề yêu cầu +, -, >, <, ==, ...)",
+        "weight": 14,
+        "description": "Cài đặt đúng toán tử hai ngôi hoặc toán tử so sánh theo đề, xử lý đúng ngữ nghĩa."
+      },
+      {
+        "criterion": "Hàm main nhập/xuất/xử lý đầy đủ theo đề",
+        "weight": 14,
+        "description": "main thực hiện đủ các bước: nhập, xuất, tính toán, so sánh, sắp xếp, tìm kiếm, ... theo đề."
+      },
+      {
+        "criterion": "Quản lý bộ nhớ động đúng, không rò rỉ",
+        "weight": 9,
+        "description": "Nếu dùng new/delete, cấp phát và giải phóng đúng; không rò rỉ bộ nhớ."
+      },
+      {
+        "criterion": "Phong cách, đặt tên, chú thích, không lỗi biên dịch",
+        "weight": 9,
+        "description": "Code rõ ràng, đặt tên hợp lý, có chú thích, biên dịch thành công."
+      }
+    ],
+    "strictness": "strict",
+    "maxScore": 10,
+    "scope": "lesson",
+    "version": 4,
+    "isFallback": false,
+    "unknownPlaceholders": [],
+    "snapshotAt": "2026-09-28T06:44:53.334Z"
+  },
+  "raw": {
+    "score": 6.2,
+    "feedback": "Bài làm KHÔNG BIÊN DỊCH ĐƯỢC do lỗi cú pháp nghiêm trọng trong hàm main khi làm việc với con trỏ: dùng 'cin >> ps2' thay vì 'cin >> *ps2', và dùng toán tử '.' với con trỏ ('ps1.Rutgon()') thay vì '->'. Ngoài ra, constructor mặc định gán mẫu số bằng 0 (đề yêu cầu mauSo = 1, khác 0), hàm rút gọn chưa chuẩn hóa mẫu dương, biểu thức so sánh 'ps1 == ps2' trong main đang so sánh địa chỉ con trỏ chứ không so sánh giá trị phân số, và chương trình bị rò rỉ bộ nhớ do không giải phóng các vùng nhớ đã cấp phát bằng new.",
+    "breakdown": [
+      {
+        "criterion": "Khai báo lớp, thuộc tính private, hàm tạo/hàm hủy đúng",
+        "score": 0.8,
+        "comment": "Khai báo thuộc tính private đúng. Tuy nhiên, cấu tử mặc định lại gán mauSo = 0 (vi phạm yêu cầu đề bài: mauSo = 1, mẫu khác 0). Đặt tên thuộc tính là ts, ms thay vì tuSo, mauSo."
+      },
+      {
+        "criterion": "Nạp chồng toán tử nhập >> là friend, nhập đúng dữ liệu",
+        "score": 1.3,
+        "comment": "Cài đặt đúng toán tử nhập >> dưới dạng hàm bạn (friend), trả về tham chiếu istream."
+      },
+      {
+        "criterion": "Nạp chồng toán tử xuất << là friend, xuất đúng dữ liệu",
+        "score": 0.9,
+        "comment": "Đề bài không yêu cầu nạp chồng toán tử xuất <<, đạt điểm tối đa tiêu chí này."
+      },
+      {
+        "criterion": "Các phương thức getter/setter hoặc phương thức phụ trợ đúng",
+        "score": 0.3,
+        "comment": "Phương thức rút gọn có tìm gcd để tối giản nhưng chưa xử lý chuẩn hóa mẫu số dương khi mẫu âm theo yêu cầu đề bài."
+      },
+      {
+        "criterion": "Nạp chồng toán tử một ngôi (nếu đề yêu cầu +, -, !, ...)",
+        "score": 1.4,
+        "comment": "Đề bài không yêu cầu toán tử một ngôi, đạt điểm tối đa tiêu chí này."
+      },
+      {
+        "criterion": "Nạp chồng toán tử hai ngôi / so sánh (nếu đề yêu cầu +, -, >, <, ==, ...)",
+        "score": 1.1,
+        "comment": "Toán tử == được nạp chồng đúng cú pháp, nhưng chỉ so sánh ts == t.ts && ms == t.ms (phụ thuộc vào việc đã rút gọn trước đó thay vì so sánh chéo ts * t.ms == ms * t.ts)."
+      },
+      {
+        "criterion": "Hàm main nhập/xuất/xử lý đầy đủ theo đề",
+        "score": 0.2,
+        "comment": "Hàm main gặp nhiều lỗi: cin >> ps2 sai cú pháp với con trỏ; ps1.Rutgon() và ps2.Rutgon() sai cú pháp truy xuất con trỏ; if (ps1 == ps2) đang so sánh 2 địa chỉ vùng nhớ chứ không kích hoạt toán tử == của lớp."
+      },
+      {
+        "criterion": "Quản lý bộ nhớ động đúng, không rò rỉ",
+        "score": 0.2,
+        "comment": "Cấp phát động bằng new nhưng không hề gọi delete để giải phóng bộ nhớ, gây memory leak."
+      },
+      {
+        "criterion": "Phong cách, đặt tên, chú thích, không lỗi biên dịch",
+        "score": 0,
+        "comment": "Mã nguồn không biên dịch được do các lỗi cú pháp con trỏ trong hàm main."
+      }
+    ]
+  }
+}

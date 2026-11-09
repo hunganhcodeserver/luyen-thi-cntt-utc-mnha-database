@@ -1,0 +1,23 @@
+{
+  "lessonId": "6ac99d254949445c2944744c",
+  "type": "essay",
+  "title": "(10/10/2026) Đề 10",
+  "slug": "10102026-de-10",
+  "subjectSlug": "lap-trinh-huong-doi-tuong-1-1-26n04",
+  "description": "",
+  "contentHtml": "<div class=\"de-bai\">\n\n\n<div class=\"bai\">\n  <h3>Bài 10:</h3>\n  <p>Xây dựng lớp môn học gồm mã môn, tên môn và số tín chỉ. Xây dựng lớp đăng ký học phần gồm có mã sinh viên, tên sinh viên và danh sách các môn học. Viết chương trình nhập vào số các môn học, số sinh viên. In ra số lượng tín chỉ các sinh viên đã đăng ký. Nhập vào một môn học, in ra các bạn đã đăng ký môn đó.</p>\n</div>\n\n\n\n</div>",
+  "sampleSolution": "",
+  "duration": 30,
+  "model": null,
+  "promptId": null,
+  "aiKeyId": null,
+  "isPublished": true,
+  "isDeleted": false,
+  "createdBy": {
+    "id": "6ab3d694415010bf620349e5",
+    "name": "Mai Ngọc Hùng Anh",
+    "email": "hunganh.okokok.0@gmail.com"
+  },
+  "createdAt": "2026-10-10T02:04:21.083Z",
+  "updatedAt": "2026-10-10T02:04:21.083Z"
+}

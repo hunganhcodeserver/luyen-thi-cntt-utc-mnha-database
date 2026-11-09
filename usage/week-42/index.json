@@ -1,0 +1,117 @@
+{
+  "nodes": {
+    "main": {
+      "days": {
+        "2026-10-25": {
+          "in": 28013466,
+          "out": 18571820,
+          "originIn": 42543410,
+          "originOut": 42082520,
+          "req": 49
+        }
+      },
+      "updatedAt": "2026-10-25T18:20:42.923Z"
+    },
+    "data-node-1": {
+      "days": {
+        "2026-10-25": {
+          "in": 56,
+          "out": 214788,
+          "originIn": 100768,
+          "originOut": 15531,
+          "req": 28
+        }
+      },
+      "updatedAt": "2026-10-25T16:50:37.230Z"
+    },
+    "data-node-2": {
+      "days": {
+        "2026-10-25": {
+          "in": 56,
+          "out": 152162,
+          "originIn": 70639,
+          "originOut": 18003,
+          "req": 22
+        }
+      },
+      "updatedAt": "2026-10-25T16:55:56.173Z"
+    },
+    "data-node-3": {
+      "days": {
+        "2026-10-25": {
+          "in": 56,
+          "out": 202599,
+          "originIn": 113730,
+          "originOut": 19709,
+          "req": 30
+        }
+      },
+      "updatedAt": "2026-10-25T16:54:59.946Z"
+    },
+    "data-node-4": {
+      "days": {
+        "2026-10-25": {
+          "in": 0,
+          "out": 67787,
+          "originIn": 50553,
+          "originOut": 0,
+          "req": 15
+        }
+      },
+      "updatedAt": "2026-10-25T16:55:47.023Z"
+    },
+    "data-node-5": {
+      "days": {
+        "2026-10-25": {
+          "in": 0,
+          "out": 29093,
+          "originIn": 16851,
+          "originOut": 0,
+          "req": 7
+        }
+      },
+      "updatedAt": "2026-10-25T16:49:39.709Z"
+    },
+    "data-node-6": {
+      "days": {
+        "2026-10-25": {
+          "in": 0,
+          "out": 33843,
+          "originIn": 33702,
+          "originOut": 0,
+          "req": 7
+        }
+      },
+      "updatedAt": "2026-10-25T16:50:42.414Z"
+    },
+    "data-node-7": {
+      "days": {
+        "2026-10-25": {
+          "in": 0,
+          "out": 53539,
+          "originIn": 39319,
+          "originOut": 0,
+          "req": 13
+        }
+      },
+      "updatedAt": "2026-10-25T16:55:01.878Z"
+    },
+    "data-node-8": {
+      "days": {
+        "2026-10-25": {
+          "in": 0,
+          "out": 77177,
+          "originIn": 44936,
+          "originOut": 0,
+          "req": 11
+        }
+      },
+      "updatedAt": "2026-10-25T17:00:43.377Z"
+    }
+  },
+  "v": 2,
+  "week": 42,
+  "from": "2026-10-19",
+  "to": "2026-10-25",
+  "updatedAt": "2026-10-25T18:20:42.923Z"
+}

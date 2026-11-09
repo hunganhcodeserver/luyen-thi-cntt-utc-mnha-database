@@ -1,0 +1,29 @@
+{
+  "type": "document",
+  "documentId": "6ae004074648bc99281d155c",
+  "title": "(HUST) FaMI_2025_MI1140Q_Slides_BTTK-1",
+  "slug": "hust-fami-2025-mi1140q-slides-bttk-1",
+  "subjectSlug": "dai-so-tuyen-tinh-2-1-26n02",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/dai-so-tuyen-tinh-2-1-26n02/documents/hust-fami-2025-mi1140q-slides-bttk-1_1793065964.pdf",
+      "enc": 216316,
+      "plain": 216256
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 216256,
+  "originalName": "(HUST) FaMI_2025_MI1140Q_Slides_BTTK-1.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-27T01:53:11.697Z",
+  "updatedAt": "2026-10-27T01:53:11.697Z"
+}

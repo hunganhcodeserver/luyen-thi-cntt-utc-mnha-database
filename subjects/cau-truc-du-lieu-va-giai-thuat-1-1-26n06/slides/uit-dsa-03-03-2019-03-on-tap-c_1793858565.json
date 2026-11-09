@@ -1,0 +1,29 @@
+{
+  "type": "slide",
+  "slideId": "6aec1c668fd376671b6719b5",
+  "title": "UIT_DSA_03-03-2019_03. Ôn Tập C++",
+  "slug": "uit-dsa-03-03-2019-03-on-tap-c",
+  "subjectSlug": "cau-truc-du-lieu-va-giai-thuat-1-1-26n06",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/cau-truc-du-lieu-va-giai-thuat-1-1-26n06/slides/uit-dsa-03-03-2019-03-on-tap-c_1793858565.pdf",
+      "enc": 4173580,
+      "plain": 4173408
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 4173408,
+  "originalName": "UIT_DSA_03-03-2019_03. Ôn Tập C++.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-11-05T06:04:22.557Z",
+  "updatedAt": "2026-11-05T06:04:22.557Z"
+}

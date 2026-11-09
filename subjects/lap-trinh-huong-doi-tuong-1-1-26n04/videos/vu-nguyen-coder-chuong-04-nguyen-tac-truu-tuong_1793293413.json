@@ -1,0 +1,32 @@
+{
+  "type": "video",
+  "videoId": "6ae37c65adda44ce87200f92",
+  "title": "Vũ Nguyễn Coder _ Chương 04 Nguyên tắc trừu tượng",
+  "slug": "vu-nguyen-coder-chuong-04-nguyen-tac-truu-tuong",
+  "subjectSlug": "lap-trinh-huong-doi-tuong-1-1-26n04",
+  "description": "",
+  "videos": [
+    {
+      "id": "vbfa89ea3",
+      "title": "Bài 13 Tính trừu tượng (website khoahocgiahoi.com zalo 0583953426)",
+      "enc": "v1.cTPpi9tUbyYkSSBH.MXnL1fsbytVmxTt7NdgaJA.2gH2b4JvHB1K35YUP3tA8JVEtnVVepiAVGaWrB81HYZMtwz24ucKu45YbeLJh8lop_ddWYmX5PZhAxrifkFYUbrFdvlNRUIQSF3pBPfJdoCaRA6lbFDg45hoFFNzc_6U4iexP4l5Wi2piSYIUwyj2M4tCvOcOmxqnx3NQlfnwAjn_iQ9ic3D9KR6PsXFkSchmLXe3J1e_rd5lw_b6ae8tiXRDNv-w-puviWCiDhgfQcBYA0eUhX5FRLmF3cimslfYjnbjMHXCIHihnYPIid-4SBwcBOIAQZL1pOSj0WnJb29PwghI0oTfL9fD9_NGJ7kFe4WWGW6rYfgU5fBHCZBk76MFAIS2HQt1F2a-KVW4XvqjCK3mb5Ny4mpYjSuAaB38AIafuXiZDbG8VY8lSX4SyL8UNi8TNh7g57MzqeLEjJHeQ1wYgxykA"
+    },
+    {
+      "id": "v8e05092b",
+      "title": "Bài 14 Tính trừu tượng p2 (website khoahocgiahoi.com zalo 0583953426)",
+      "enc": "v1.i4LyGcfWkpTZfdgx.q40XZL-ODueWKQirLbfI6g.uKqBmLaRCx5Qt7Bmux92jTb8s0LOb0RXHxA7fsvIAXjLBLBRHi5CfwNm28GpaFkzu6yH2U66cMvJkfAc-Z8R28SwRcCC0AC0zWdLw0TEuJWkeO2uDF-8Dl1hFTNFtisQxzal4EkGIh1XSPZ03iULaw-nblBgATKlPGvgmzXS4htBkuuepFBfJcXQHFlz3dEHSZBqMRO5cd2PKXQk0azsnucTLCxOtSDFZgS0yJfC1Y-L-y-mb7ozvtwDhEp_SsWD1LDr6OhJei57Ut73ZkkCGmnVyK3VwgX9dUeZjfVDZ6jlYJuDqIuK2RbRrVENDe4_NXAQqcD1_nhgJ__m7GXCI5x_QncOQVdKrzWaTdx97jxmQQosFfv_RqALYEqNu6gqdanyDOQGUf-coweQrJbiSvri7Id7PJ6uoNa7VfA1ZgqRYryOR0fUjA"
+    }
+  ],
+  "videoCount": 2,
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-29T17:03:33.724Z",
+  "updatedAt": "2026-10-29T17:03:33.724Z"
+}

@@ -1,0 +1,99 @@
+{
+  "submissionId": "6ac99d3f4949445c2944744d",
+  "submittedAt": "2026-10-10T02:04:47.828Z",
+  "gradedAt": "2026-10-10T02:05:01.583Z",
+  "status": "graded",
+  "errorMessage": null,
+  "userId": "6ab3d694415010bf620349e5",
+  "userName": "Mai Ngọc Hùng Anh",
+  "userEmail": "hunganh.okokok.0@gmail.com",
+  "subjectId": "6ab5aeac813f0f6c24604455",
+  "subjectName": "Lập trình hướng đối tượng-1-1-26(N04)",
+  "subjectCode": "IT1.108.3",
+  "subjectSlug": "lap-trinh-huong-doi-tuong-1-1-26n04",
+  "lessonId": "6ac989be57e868224b5f3c8a",
+  "lessonTitle": "(10/10/2026) Đề 9",
+  "lessonSlug": "10102026-de-9",
+  "lessonDuration": 30,
+  "lessonContentHtml": "<div class=\"de-bai\">\n\n<div class=\"bai\">\n  <h3>Bài 9:</h3>\n  <p>Xây dựng lớp môn học gồm các thuộc tính mã môn, tên môn và số tín chỉ. Xây dựng lớp quản lý môn học bao gồm các thuộc tính mã kỳ học, số môn học và danh sách các môn học. Viết chương trình nhập vào số các môn học, số kỳ học. Tính tổng số tín chỉ của từng kỳ học. In ra kỳ nào có nhiều tín chỉ nhất.</p>\n</div>\n\n</div>",
+  "lessonSampleSolution": "",
+  "answerHtml": "#include <bits/stdc++.h>\n\nusing namespace std;\n\n\nclass LopMon {\n\tprivate:\n\t\tstring maMon;\n\t\tstring tenMon;\n\t\tint soTin;\n\tpublic:\n\t\tLopMon(string hoTen = \"\", string tenMon = \"\", double soTin = 0.0){\n\t\t\tthis->maMon = hoTen;\n\t\t\tthis->tenMon = tenMon;\n\t\t\tthis->soTin = (int)soTin;\n\t\t}\n\t\tvoid nhap() {\n\t\t\tcout << \"Nhap ma mon: \";\n\t\t\tgetline(cin >> ws, maMon);\n\t\t\tcout << \"Nhap ten mon: \";\n\t\t\tgetline(cin, tenMon);\n\t\t\tcout << \"Nhap so tin chi: \";\n\t\t\tcin >> soTin;\n\t\t}\n\t\tvoid xuat() {\n\t\t\tcout << \"Ma mon: \" << maMon << \", Ten mon: \" << tenMon << \", So tin chi: \" << soTin << endl;\n\t\t}\n\t\tint getSoTin() {\n\t\t\treturn this->soTin;\n\t\t}\n};\n\n\nclass quanLyMon {\n\tprivate:\n\t\tstring maKyHoc;\n\t\tint soMonHoc;\n\t\tLopMon* dsMonHoc; \n\tpublic:\n\t\tquanLyMon(string maKyHoc = \"\", int soMonHoc = 0) {\n\t\t\tthis->maKyHoc = maKyHoc;\n\t\t\tthis->soMonHoc = soMonHoc;\n\t\t\tthis->dsMonHoc = nullptr;\n\t\t}\n\t\t~quanLyMon() {\n\t\t\tdelete[] dsMonHoc;\n\t\t}\n\t\tvoid nhap(){\n\t\t\tcout << \"Nhap ma ky hoc: \";\n\t\t\tgetline(cin >> ws, maKyHoc);\n\t\t\tcout << \"Nhap so mon hoc: \";\n\t\t\tcin >> soMonHoc;\n\t\t\tdsMonHoc = new LopMon[soMonHoc];\n\t\t\tfor(int i = 0; i < soMonHoc; i++) {\n\t\t\t\tcout << \"Nhap thong tin mon hoc thu \" << i + 1 << \":\\n\";\n\t\t\t\tdsMonHoc[i].nhap(); \n\t\t\t}\n\t\t}\n\t\tint tongTinChi() {\n\t\t\tint tong = 0;\n\t\t\tfor(int i = 0; i < soMonHoc; i++) {\n\t\t\t\tif(dsMonHoc != nullptr) {\n\t\t\t\t\ttong += dsMonHoc[i].getSoTin();\n\t\t\t\t}\n\t\t\t}\n\t\t\treturn tong;\n\t\t}\n\t\tvoid xuat(){\n\t\t\tcout << \"Ma ky hoc: \" << maKyHoc << \", So mon hoc: \" << soMonHoc << \", Tong so tin chi: \" << tongTinChi() << endl;\n\t\t\tcout << \"Danh sach cac mon hoc:\\n\";\n\t\t\tfor(int i = 0; i < soMonHoc; i++) {\n\t\t\t\tdsMonHoc[i].xuat();\n\t\t\t}\n\t\t}\n};\n\n\nint main() {\n    int soKy;\n    cout << \"Nhap so luong ky hoc: \";\n    cin >> soKy;\n    quanLyMon* dsKyHoc = new quanLyMon[soKy];\n    for (int i = 0; i < soKy; i++) {\n        cout << \"\\nNhap thong tin cho ky hoc thu \" << i + 1 << \":\\n\";\n        dsKyHoc[i].nhap();\n    }\n    cout << \"\\n--- THONG TIN CAC KY HOC ---\\n\";\n    for (int i = 0; i < soKy; i++) {\n        dsKyHoc[i].xuat();\n    }\n    if (soKy > 0) {\n        int maxTongTin = dsKyHoc[0].tongTinChi();\n        for (int i = 1; i < soKy; i++) {\n            if (dsKyHoc[i].tongTinChi() > maxTongTin) {\n                maxTongTin = dsKyHoc[i].tongTinChi();\n            }\n        }\n        cout << \"\\n--- KY HOC CO NHIEU TIN CHI NHAT ---\\n\";\n        for (int i = 0; i < soKy; i++) {\n            if (dsKyHoc[i].tongTinChi() == maxTongTin) {\n                dsKyHoc[i].xuat();\n            }\n        }\n    }\n    delete[] dsKyHoc;\n    return 0;\n}",
+  "score": 9.5,
+  "feedback": "Bài làm rất tốt, đáp ứng đầy đủ và chính xác các yêu cầu của đề bài. Sinh viên nắm vững kiến thức Lập trình hướng đối tượng (OOP), biết cách tổ chức lớp, khai báo thuộc tính private, sử dụng con trỏ, cấp phát động và viết hàm hủy (destructor) để dọn dẹp bộ nhớ đúng cách. Thuật toán tìm kỳ học có nhiều tín chỉ nhất xử lý tốt trường hợp có nhiều kỳ cùng đạt số tín chỉ cực đại.",
+  "breakdown": [
+    {
+      "criterion": "Cấu trúc các lớp (OOP & Encapsulation)",
+      "score": 2.8,
+      "comment": "Tạo đúng 2 lớp LopMon và quanLyMon với đầy đủ các thuộc tính và phương thức theo yêu cầu. Có sử dụng hàm khởi tạo và hàm hủy."
+    },
+    {
+      "criterion": "Xử lý logic và Yêu cầu bài toán",
+      "score": 3.5,
+      "comment": "Tính chính xác tổng số tín chỉ từng kỳ. Thuật toán tìm kỳ học có số tín chỉ cao nhất hoàn chỉnh và in ra đầy đủ."
+    },
+    {
+      "criterion": "Quản lý bộ nhớ và Quản lý con trỏ",
+      "score": 3,
+      "comment": "Sử dụng cấp phát động hợp lý, giải phóng bộ nhớ đầy đủ ở cả destructors và trong hàm main."
+    },
+    {
+      "criterion": "Trình bày và Kỹ thuật lập trình",
+      "score": 0.2,
+      "comment": "Code sạch sẽ, rõ ràng. Tuy nhiên có một vài lỗi đặt tên tham số chưa sát nghĩa."
+    }
+  ],
+  "grammar": null,
+  "sampleComparison": null,
+  "model": "gemini-3.6-flash",
+  "aiKeyId": "6ab7116dc878bedb86de26dc",
+  "aiKeyName": "VMK1",
+  "aiProvider": "gemini",
+  "latencyMs": 13209,
+  "promptSnapshot": {
+    "kind": "essay",
+    "promptId": null,
+    "name": "Fallback mặc định (hardcoded)",
+    "content": "Bạn là giáo viên chấm bài. Hãy chấm bài viết sau dựa trên đề bài và rubric.\n\nĐề bài:\n{đề_bài}\n\nBài làm sinh viên:\n{bài_làm}\n\nLời giải mẫu (nếu có, chỉ dùng để đối chiếu ý, không chép nguyên văn vào feedback):\n{lời_giải_mẫu}\n\nRubric: {rubric}\nĐiểm tối đa: {max_score}\n\nQUY TẮC PHÁT HIỆN LỖI:\n- Chỉ liệt kê lỗi khi lỗi thực sự tồn tại trong bài làm, không tự bịa.\n- Nếu đề bài/rubric không đủ căn cứ để xác định một lỗi cụ thể, bỏ qua, không đoán.\n- Mỗi lỗi nêu rõ: câu gốc sai, câu đã sửa, giải thích ngắn gọn.\n\nChỉ trả về JSON hợp lệ, không Markdown, không giải thích ngoài JSON:\n{\n  \"score\": number,\n  \"feedback\": string,\n  \"breakdown\": [{ \"criterion\": string, \"score\": number, \"comment\": string }],\n  \"errors\": [{ \"original\": string, \"corrected\": string, \"explanation\": string }]\n}",
+    "rubric": null,
+    "strictness": "normal",
+    "maxScore": 10,
+    "scope": "fallback",
+    "version": 0,
+    "isFallback": true,
+    "unknownPlaceholders": [],
+    "snapshotAt": "2026-10-10T02:05:01.173Z"
+  },
+  "raw": {
+    "score": 9.5,
+    "feedback": "Bài làm rất tốt, đáp ứng đầy đủ và chính xác các yêu cầu của đề bài. Sinh viên nắm vững kiến thức Lập trình hướng đối tượng (OOP), biết cách tổ chức lớp, khai báo thuộc tính private, sử dụng con trỏ, cấp phát động và viết hàm hủy (destructor) để dọn dẹp bộ nhớ đúng cách. Thuật toán tìm kỳ học có nhiều tín chỉ nhất xử lý tốt trường hợp có nhiều kỳ cùng đạt số tín chỉ cực đại.",
+    "breakdown": [
+      {
+        "criterion": "Cấu trúc các lớp (OOP & Encapsulation)",
+        "score": 2.8,
+        "comment": "Tạo đúng 2 lớp LopMon và quanLyMon với đầy đủ các thuộc tính và phương thức theo yêu cầu. Có sử dụng hàm khởi tạo và hàm hủy."
+      },
+      {
+        "criterion": "Xử lý logic và Yêu cầu bài toán",
+        "score": 3.5,
+        "comment": "Tính chính xác tổng số tín chỉ từng kỳ. Thuật toán tìm kỳ học có số tín chỉ cao nhất hoàn chỉnh và in ra đầy đủ."
+      },
+      {
+        "criterion": "Quản lý bộ nhớ và Quản lý con trỏ",
+        "score": 3,
+        "comment": "Sử dụng cấp phát động hợp lý, giải phóng bộ nhớ đầy đủ ở cả destructors và trong hàm main."
+      },
+      {
+        "criterion": "Trình bày và Kỹ thuật lập trình",
+        "score": 0.2,
+        "comment": "Code sạch sẽ, rõ ràng. Tuy nhiên có một vài lỗi đặt tên tham số chưa sát nghĩa."
+      }
+    ],
+    "errors": [
+      {
+        "original": "LopMon(string hoTen = \"\", string tenMon = \"\", double soTin = 0.0)",
+        "corrected": "LopMon(string maMon = \"\", string tenMon = \"\", int soTin = 0)",
+        "explanation": "Tham số đầu tiên `hoTen` bị sai ngữ nghĩa so với thuộc tính `maMon`. Ngoài ra thuộc tính `soTin` khai báo dạng `int` nên tham số hàm tạo cũng nên đồng nhất là `int` thay vì `double`."
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "document",
+  "documentId": "6ae1c329ca7b8373838be2c4",
+  "title": "HUST_toan-roi-rac-nguyen-duc-nghia-bach-khoa-ha-noi - [cuuduongthancong.com]",
+  "slug": "hust-toan-roi-rac-nguyen-duc-nghia-bach-khoa-ha-noi-cuuduong",
+  "subjectSlug": "toan-roi-rac-1-1-26n06",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/toan-roi-rac-1-1-26n06/documents/hust-toan-roi-rac-nguyen-duc-nghia-bach-khoa-ha-noi-cuuduong_1793180417.pdf",
+      "enc": 12820490,
+      "plain": 12820094
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 12820094,
+  "originalName": "HUST_toan-roi-rac-nguyen-duc-nghia-bach-khoa-ha-noi - [cuuduongthancong.com].pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-28T09:40:57.574Z",
+  "updatedAt": "2026-10-28T09:40:57.574Z"
+}

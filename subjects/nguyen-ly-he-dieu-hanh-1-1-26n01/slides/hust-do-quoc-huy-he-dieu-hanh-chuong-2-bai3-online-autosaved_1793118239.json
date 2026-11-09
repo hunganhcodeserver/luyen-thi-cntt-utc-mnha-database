@@ -1,0 +1,34 @@
+{
+  "type": "slide",
+  "slideId": "6ae0d2679d70743d0d17c377",
+  "title": "HUST_Đỗ Quốc Huy_Hệ Điều Hành-Chuong 2_bai3_online [Autosaved]",
+  "slug": "hust-do-quoc-huy-he-dieu-hanh-chuong-2-bai3-online-autosaved",
+  "subjectSlug": "nguyen-ly-he-dieu-hanh-1-1-26n01",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/nguyen-ly-he-dieu-hanh-1-1-26n01/slides/hust-do-quoc-huy-he-dieu-hanh-chuong-2-bai3-online-autosaved_1793118239-1.pptx",
+      "enc": 22000620,
+      "plain": 22000000
+    },
+    {
+      "path": "subjects/nguyen-ly-he-dieu-hanh-1-1-26n01/slides/hust-do-quoc-huy-he-dieu-hanh-chuong-2-bai3-online-autosaved_1793118239-2.pptx",
+      "enc": 19522888,
+      "plain": 19522324
+    }
+  ],
+  "fileExt": "pptx",
+  "fileSize": 41522324,
+  "originalName": "HUST_Đỗ Quốc Huy_Hệ Điều Hành-Chuong 2_bai3_online [Autosaved].pptx",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-27T16:33:43.684Z",
+  "updatedAt": "2026-10-27T16:33:43.684Z"
+}

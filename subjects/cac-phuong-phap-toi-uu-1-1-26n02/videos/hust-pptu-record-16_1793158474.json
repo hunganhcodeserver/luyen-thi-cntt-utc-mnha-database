@@ -1,0 +1,27 @@
+{
+  "type": "video",
+  "videoId": "6ae16d4b56a8142b01bd71c5",
+  "title": "HUST_PPTU_Record_16",
+  "slug": "hust-pptu-record-16",
+  "subjectSlug": "cac-phuong-phap-toi-uu-1-1-26n02",
+  "description": "",
+  "videos": [
+    {
+      "id": "vb00ae855",
+      "title": "",
+      "enc": "v1.7qSg2kYBbBD1hAOt.gs0H9nthRXDEOj21Fx76BA.vEVGkfPM4wxjdRHir3fQkj-6CICaYI-FqQOqGyvmlyOEN6BlQrQY7w6N1cWcG2EYR50T7KXb2IHoyJ1jsgvEUjECSwqhcHKPnQcLW4OmvUihXk_xzVJ4J3fQIiTifEbLEgfHHkhsLoqRSL5d6BAW6kGSmhcB8RTNwQ1nFJWc_nv40xPLRwI-KKNszkQLM6LjCIk0D3U-eqW1pNkzibeLtZFb9UIzf01nt94UB59h3oI2fRxJV5Wx6Iw51EMdy0sC-sKRX5OGYdcJQBRWGmG6QnqZIjvb57Rr6uvawma_VXzJl0KYqRmnAXGxZVLNwmkhk-DkpduZ5aAYzZ8i4YYHaLiwsHK79mOzJcHwH-4lvvgwEM_2aLECL8zVjneZ-WIkfGOd40jtIqFGZL2iENxqf0ip1nCcMSvm-rIgWI5OAt80FavU1DWYjA"
+    }
+  ],
+  "videoCount": 1,
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-28T03:34:35.010Z",
+  "updatedAt": "2026-10-28T03:34:35.010Z"
+}

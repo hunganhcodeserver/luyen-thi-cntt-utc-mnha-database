@@ -1,0 +1,97 @@
+{
+  "submissionId": "6acc61428439ecc110124c0d",
+  "submittedAt": "2026-10-12T04:25:38.608Z",
+  "gradedAt": "2026-10-12T04:25:53.256Z",
+  "status": "graded",
+  "errorMessage": null,
+  "userId": "6ab3d694415010bf620349e5",
+  "userName": "Mai Ngọc Hùng Anh",
+  "userEmail": "hunganh.okokok.0@gmail.com",
+  "subjectId": "6ab5aeec813f0f6c24604456",
+  "subjectName": "Kiến trúc và tổ chức máy tính-1-1-26(N06)",
+  "subjectCode": "IT1.107.3",
+  "subjectSlug": "kien-truc-va-to-chuc-may-tinh-1-1-26n06",
+  "lessonId": "6acc3d6299efe282d88ee9ca",
+  "lessonTitle": "(12/10/2026 - Code 8086 - Giữa kì) Bài 2: Cộng hai số có hai chữ số",
+  "lessonSlug": "12102026-code-8086-giua-ki-bai-2-cong-hai-so-co-hai-chu-so",
+  "lessonDuration": 60,
+  "lessonContentHtml": "<div class=\"de-bai\">\n  <h3>Bài 2: Cộng hai số có hai chữ số</h3>\n  <p>Viết chương trình hợp ngữ 8086 yêu cầu nhập vào hai số, mỗi số có <b>hai chữ số</b>, rồi in ra tổng của hai số đó.</p>\n  <p><b>Ví dụ:</b></p>\n  <pre>nhap so thu nhat: 23\nnhap so thu hai: 45\ntong hai so: 68</pre>\n  <p><b>Cách làm:</b></p>\n  <ul>\n    <li>Mỗi số nhập hai lần (chữ số hàng chục trước, hàng đơn vị sau); mỗi lần trừ 48 để đổi sang số.</li>\n    <li>Ghép số: lấy chữ số hàng chục nhân với 10 (lệnh mul, kết quả nằm trong AX), rồi cộng chữ số hàng đơn vị.</li>\n    <li>Lưu số thứ nhất vào BL, số thứ hai vào BH. Cộng hai thanh ghi để được tổng.</li>\n    <li>Trước khi chia cho 10 phải gán AH = 0 để phép chia byte chính xác. Thương là chữ số hàng chục, số dư là chữ số hàng đơn vị.</li>\n    <li>In hai chữ số bằng hàm 2 của ngắt 21h (cộng 48 để đổi sang ký tự).</li>\n  </ul>\n</div>",
+  "lessonSampleSolution": "<div class=\"loi-giai\">\n  <h3>Lời giải Bài 2</h3>\n<pre><code>.model small\n.stack 100h\n.data\n    ms1 db  'nhap so thu nhat: $'\n    ms2 db  10, 13, 'nhap so thu hai: $'\n    ms3 db  10, 13, 'tong hai so: $'\n\n.code\nmain proc\n    mov ax, @data\n    mov ds, ax\n    \n    mov ah, 9\n    lea dx, ms1\n    int 21h\n\n; nhap so thu nhat    \n    mov ah, 1\n    int 21h\n    \n    sub al, 48  ; doi thanh so\n    \n    mov bl, 10\n    mul bl      ; ket qua trong ax\n    \n    mov bx, ax  ; luu tam vao bl/bx\n    \n    mov ah, 1\n    int 21h\n    sub al, 48\n    add bl, al  ; luu so thu nhat\n    \n    \n    mov ah, 9\n    lea dx, ms2\n    int 21h    \n    \n; nhap so thu 2    \n    mov ah, 1\n    int 21h\n    sub al, 48\n    \n    mov bh, 10\n    mul bh\n    \n    mov bh, al\n    \n    mov ah, 1\n    int 21h\n    sub al, 48\n    add bh, al  ; luu so thu 2\n    \n    \n    add bl, bh  ; tong luu trong bl\n    \n    mov ah, 9\n    lea dx, ms3\n    int 21h\n    \n    mov ah, 0\n    mov al, bl\n    mov bh, 10\n    div bh      ; al: thuong, ah: du\n    \n    mov bh, ah\n    \n    mov ah, 2\n    mov dl, al\n    add dl, 48\n    int 21h\n    \n    mov dl, bh\n    add dl, 48\n    int 21h\n    \n    \n    mov ah, 4ch\n    int 21h\n    \n    main endp\nend main</code></pre>\n  <p><b>Nhận xét:</b> chương trình in đúng khi tổng nhỏ hơn 100. Nếu tổng từ 100 trở lên, thương lớn hơn 9 nên ký tự in ra không còn là chữ số.</p>\n</div>",
+  "answerHtml": ".model small\n.stack 100h\n.data\n    ms1 db  'nhap so thu nhat: $'      ;thong bao nhap so thu nhat\n    ms2 db  'nhap so thu hai: $'       ;thong bao nhap so thu hai\n    ms3 db  'tong hai so: $'           ;thong bao hien thi ket qua\n\n.code\nmain proc\n    ;khoi tao doan du lieu\n    mov ax, @data\n    mov ds, ax\n\n    ;in thong bao nhap so thu nhat\n    mov ah, 9           ;ham 9: hien thi chuoi ket thuc bang $\n    lea dx, ms1\n    int 21h\n\n    ;nhap so thu nhat (2 chu so)\n    mov ah, 1           ;ham 1: doc 1 ky tu, luu vao al\n    int 21h\n    sub al, 48          ;doi thanh so (chu so hang chuc)\n    mov bl, 10\n    mul bl              ;ax = al * 10 (hang chuc * 10)\n    mov bx, ax          ;luu ket qua tam vao bl/bx\n\n    mov ah, 1\n    int 21h\n    sub al, 48          ;doi thanh so (chu so hang don vi)\n    add bl, al          ;luu so thu nhat                //bl = so thu nhat\n\n    ;xuong dong\n    call xuong_dong\n\n    ;in thong bao nhap so thu hai\n    mov ah, 9\n    lea dx, ms2\n    int 21h\n\n    ;nhap so thu hai (2 chu so)\n    mov ah, 1\n    int 21h\n    sub al, 48          ;doi thanh so (chu so hang chuc)\n    mov bh, 10\n    mul bh              ;ax = al * 10 (hang chuc * 10)\n    mov bh, al          ;luu tam vao bh\n\n    mov ah, 1\n    int 21h\n    sub al, 48          ;doi thanh so (chu so hang don vi)\n    add bh, al          ;luu so thu hai                 //bh = so thu hai\n\n    ;tinh tong\n    add bl, bh          ;tong luu trong bl\n\n    ;xuong dong\n    call xuong_dong\n\n    ;in thong bao ket qua ms3\n    mov ah, 9\n    lea dx, ms3\n    int 21h\n\n    ;tach tong thanh chu so hang chuc va hang don vi\n    mov ah, 0           ;xoa ah de ax = tong\n    mov al, bl          ;al = tong\n    mov bh, 10          ;bh = so chia\n    div bh              ;al: thuong (hang chuc), ah: du (hang don vi)\n    mov bh, ah          ;cat chu so hang don vi vao bh\n\n    ;hien thi chu so hang chuc\n    mov ah, 2           ;ham 2: hien thi 1 ky tu trong dl\n    mov dl, al\n    add dl, 48          ;doi thanh ky tu ASCII\n    int 21h\n\n    ;hien thi chu so hang don vi\n    mov dl, bh\n    add dl, 48          ;doi thanh ky tu ASCII\n    int 21h\n\n    ;xuong dong sau khi in tong\n    call xuong_dong\n\n    ;ket thuc chuong trinh\n    mov ah, 4ch         ;ham 4ch: thoat ve he dieu hanh\n    int 21h\n\n    main endp\n\n;ham xuong dong: in ky tu 13 (ve dau dong) va 10 (xuong dong)\nxuong_dong proc\n    push ax             ;cat ax, dx de khong lam hong gia tri ben ngoai\n    push dx\n\n    mov ah, 2           ;ham 2: hien thi 1 ky tu\n    mov dl, 13          ;ve dau dong\n    int 21h\n    mov dl, 10          ;xuong dong\n    int 21h\n\n    pop dx              ;lay lai dx, ax\n    pop ax\n    ret\nxuong_dong endp\n\nend main",
+  "hasDrawing": false,
+  "drawingFile": null,
+  "drawingMime": null,
+  "drawingAnalysis": null,
+  "score": 10,
+  "feedback": "Bài làm rất tốt và chỉn chu. Code viết rõ ràng, logic ghép số và tính toán chính xác theo đúng hướng dẫn của đề bài. Việc tách riêng hàm `xuong_dong` kèm theo bảo toàn thanh ghi (`push`/`pop`) thể hiện tư duy lập trình hợp ngữ tốt.",
+  "breakdown": [
+    {
+      "criterion": "Cấu trúc chương trình và khai báo dữ liệu",
+      "score": 2,
+      "comment": "Khai báo đầy đủ các phân đoạn, chuỗi thông báo kết thúc bằng ký tự '$' đúng chuẩn."
+    },
+    {
+      "criterion": "Nhập và ghép hai số có hai chữ số",
+      "score": 3,
+      "comment": "Xử lý nhập ký tự, chuyển sang số và ghép hàng chục - hàng đơn vị vào BL, BH hoàn toàn chính xác."
+    },
+    {
+      "criterion": "Tính tổng và in kết quả",
+      "score": 3,
+      "comment": "Cộng hai số và chia cho 10 (có khởi tạo AH = 0) để tách chữ số hàng chục và đơn vị in ra màn hình chính xác."
+    },
+    {
+      "criterion": "Kỹ thuật lập trình và tổ chức mã nguồn",
+      "score": 2,
+      "comment": "Có viết chương trình con `xuong_dong` sạch sẽ, biết bảo toàn giá trị thanh ghi bằng push/pop, chú thích đầy đủ."
+    }
+  ],
+  "grammar": null,
+  "sampleComparison": null,
+  "model": "gemini-flash-latest",
+  "aiKeyId": "6ab555d45d6ff92ba4d7b934",
+  "aiKeyName": "hufng nguyễn",
+  "aiProvider": "gemini",
+  "latencyMs": 14246,
+  "promptSnapshot": {
+    "kind": "essay",
+    "promptId": null,
+    "name": "Fallback mặc định (hardcoded)",
+    "content": "Bạn là giáo viên chấm bài. Hãy chấm bài viết sau dựa trên đề bài và rubric.\n\nĐề bài:\n{đề_bài}\n\nBài làm sinh viên (phần nhập chữ):\n{bài_làm}\n\nPhần vẽ tay của sinh viên (đã được bước phân tích hình ảnh đọc trước):\n{hình_vẽ}\n\nLời giải mẫu (nếu có, chỉ dùng để đối chiếu ý, không chép nguyên văn vào feedback):\n{lời_giải_mẫu}\n\nRubric: {rubric}\nĐiểm tối đa: {max_score}\n\nQUY TẮC CHẤM KẾT HỢP CHỮ + HÌNH VẼ:\n- Nếu có cả phần nhập chữ và phần vẽ tay: chấm CẢ HAI theo đề bài/rubric, cho một điểm tổng duy nhất.\n- Nếu chỉ có một phần: chỉ chấm phần đó, KHÔNG trừ điểm vì phần sinh viên không nộp.\n\nQUY TẮC PHÁT HIỆN LỖI:\n- Chỉ liệt kê lỗi khi lỗi thực sự tồn tại trong bài làm, không tự bịa.\n- Nếu đề bài/rubric không đủ căn cứ để xác định một lỗi cụ thể, bỏ qua, không đoán.\n- Mỗi lỗi nêu rõ: câu gốc sai, câu đã sửa, giải thích ngắn gọn.\n\nChỉ trả về JSON hợp lệ, không Markdown, không giải thích ngoài JSON:\n{\n  \"score\": number,\n  \"feedback\": string,\n  \"breakdown\": [{ \"criterion\": string, \"score\": number, \"comment\": string }],\n  \"errors\": [{ \"original\": string, \"corrected\": string, \"explanation\": string }]\n}",
+    "rubric": null,
+    "strictness": "normal",
+    "maxScore": 10,
+    "scope": "fallback",
+    "version": 0,
+    "isFallback": true,
+    "unknownPlaceholders": [],
+    "snapshotAt": "2026-10-12T04:25:52.857Z"
+  },
+  "raw": {
+    "score": 10,
+    "feedback": "Bài làm rất tốt và chỉn chu. Code viết rõ ràng, logic ghép số và tính toán chính xác theo đúng hướng dẫn của đề bài. Việc tách riêng hàm `xuong_dong` kèm theo bảo toàn thanh ghi (`push`/`pop`) thể hiện tư duy lập trình hợp ngữ tốt.",
+    "breakdown": [
+      {
+        "criterion": "Cấu trúc chương trình và khai báo dữ liệu",
+        "score": 2,
+        "comment": "Khai báo đầy đủ các phân đoạn, chuỗi thông báo kết thúc bằng ký tự '$' đúng chuẩn."
+      },
+      {
+        "criterion": "Nhập và ghép hai số có hai chữ số",
+        "score": 3,
+        "comment": "Xử lý nhập ký tự, chuyển sang số và ghép hàng chục - hàng đơn vị vào BL, BH hoàn toàn chính xác."
+      },
+      {
+        "criterion": "Tính tổng và in kết quả",
+        "score": 3,
+        "comment": "Cộng hai số và chia cho 10 (có khởi tạo AH = 0) để tách chữ số hàng chục và đơn vị in ra màn hình chính xác."
+      },
+      {
+        "criterion": "Kỹ thuật lập trình và tổ chức mã nguồn",
+        "score": 2,
+        "comment": "Có viết chương trình con `xuong_dong` sạch sẽ, biết bảo toàn giá trị thanh ghi bằng push/pop, chú thích đầy đủ."
+      }
+    ],
+    "errors": []
+  }
+}

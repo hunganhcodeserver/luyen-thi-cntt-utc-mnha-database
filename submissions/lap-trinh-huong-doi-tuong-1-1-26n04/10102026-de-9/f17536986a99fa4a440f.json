@@ -1,0 +1,129 @@
+{
+  "submissionId": "6ac996c7bfe66c4972e1026f",
+  "submittedAt": "2026-10-10T01:37:11.552Z",
+  "gradedAt": "2026-10-10T01:37:56.519Z",
+  "status": "graded",
+  "errorMessage": null,
+  "userId": "6ab3d694415010bf620349e5",
+  "userName": "Mai Ngọc Hùng Anh",
+  "userEmail": "hunganh.okokok.0@gmail.com",
+  "subjectId": "6ab5aeac813f0f6c24604455",
+  "subjectName": "Lập trình hướng đối tượng-1-1-26(N04)",
+  "subjectCode": "IT1.108.3",
+  "subjectSlug": "lap-trinh-huong-doi-tuong-1-1-26n04",
+  "lessonId": "6ac989be57e868224b5f3c8a",
+  "lessonTitle": "(10/10/2026) Đề 9",
+  "lessonSlug": "10102026-de-9",
+  "lessonDuration": 30,
+  "lessonContentHtml": "<div class=\"de-bai\">\n\n<div class=\"bai\">\n  <h3>Bài 9:</h3>\n  <p>Xây dựng lớp môn học gồm các thuộc tính mã môn, tên môn và số tín chỉ. Xây dựng lớp quản lý môn học bao gồm các thuộc tính mã kỳ học, số môn học và danh sách các môn học. Viết chương trình nhập vào số các môn học, số kỳ học. Tính tổng số tín chỉ của từng kỳ học. In ra kỳ nào có nhiều tín chỉ nhất.</p>\n</div>\n\n</div>",
+  "lessonSampleSolution": "",
+  "answerHtml": "#include<bits/stdc++.h>\n\nusing namespace std;\nusing ll = long long;\n\nclass LopMon {\n\tprivate:\n\t\tstring maMon;\n\t\tstring tenMon;\n\t\tint soTin;\n\tpublic:\n\t\tLopMon(string hoTen = \"\", string tenMon = \"\", double soTin = 0.0){\n\t\t\tthis->maMon = hoTen;\n\t\t\tthis->tenMon = tenMon;\n\t\t\tthis->soTin = (int)soTin;\n\t\t}\n\t\tvoid nhap() {\n\t\t\tcout << \"Nhap ma mon: \";\n\t\t\tgetline(cin >> ws, maMon);\n\t\t\tcout << \"Nhap ten mon: \";\n\t\t\tgetline(cin, tenMon);\n\t\t\tcout << \"Nhap so tin chi: \";\n\t\t\tcin >> soTin;\n\t\t}\n\t\tvoid xuat() {\n\t\t\tcout << \"Ma mon: \" << maMon << \", Ten mon: \" << tenMon << \", So tin chi: \" << soTin << endl;\n\t\t}\n\t\tint getSoTin() {\n\t\t\treturn this->soTin;\n\t\t}\n};\n\nclass quanLyMon {\n\tprivate:\n\t\tstring maKyHoc;\n\t\tint soMonHoc;\n\t\tLopMon* dsMonHoc; \n\tpublic:\n\t\tquanLyMon(string maKyHoc = \"\", int soMonHoc = 0) {\n\t\t\tthis->maKyHoc = maKyHoc;\n\t\t\tthis->soMonHoc = soMonHoc;\n\t\t\tthis->dsMonHoc = nullptr;\n\t\t}\n\t\t~quanLyMon() {\n\t\t\tif (dsMonHoc != nullptr) {\n\t\t\t\tdelete[] dsMonHoc;\n\t\t\t}\n\t\t}\n\t\tvoid nhap(){\n\t\t\tcout << \"Nhap ma ky hoc: \";\n\t\t\tgetline(cin >> ws, maKyHoc);\n\t\t\tcout << \"Nhap so mon hoc: \";\n\t\t\tcin >> soMonHoc;\n\t\t\tdsMonHoc = new LopMon[soMonHoc];\n\t\t\tfor(int i = 0; i < soMonHoc; i++) {\n\t\t\t\tcout << \"\\n--- Nhap thong tin mon hoc thu \" << i + 1 << \" ---\\n\";\n\t\t\t\tdsMonHoc[i].nhap(); \n\t\t\t}\n\t\t}\n\t\tvoid monMaxTin() {\n\t\t\tif (soMonHoc <= 0 || dsMonHoc == nullptr) {\n\t\t\t\tcout << \"\\nDanh sach mon hoc trong!\" << endl;\n\t\t\t\treturn;\n\t\t\t}\n\t\t\tint maxTin = dsMonHoc[0].getSoTin();\n\t\t\tfor (int i = 1; i < soMonHoc; i++) {\n\t\t\t\tif (dsMonHoc[i].getSoTin() > maxTin) {\n\t\t\t\t\tmaxTin = dsMonHoc[i].getSoTin();\n\t\t\t\t}\n\t\t\t}\n\t\t\tcout << \"\\n--- CAC MON HOC CO SO TIN CHI LON NHAT (\" << maxTin << \" tin chi) ---\\n\";\n\t\t\tfor (int i = 0; i < soMonHoc; i++) {\n\t\t\t\tif (dsMonHoc[i].getSoTin() == maxTin) {\n\t\t\t\t\tdsMonHoc[i].xuat();\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\t\tint tongTinChi() {\n\t\t\tint tong = 0;\n\t\t\tfor(int i = 0; i < soMonHoc; i++) {\n\t\t\t\tif(dsMonHoc != nullptr) {\n\t\t\t\t\ttong += dsMonHoc[i].getSoTin();\n\t\t\t\t}\n\t\t\t}\n\t\t\treturn tong;\n\t\t}\n\t\tvoid xuat(){\n\t\t\tcout << \"\\n=========================================\\n\";\n\t\t\tcout << \"Ma ky hoc: \" << maKyHoc << \", So mon hoc: \" << soMonHoc << \" | Tong so tin chi cua ky: \" << tongTinChi() << endl;\n\t\t\tcout << \"--- DANH SACH CAC MON HOC ---\\n\";\n\t\t\tfor(int i = 0; i < soMonHoc; i++) {\n\t\t\t\tcout << i + 1 << \". \";\n\t\t\t\tdsMonHoc[i].xuat();\n\t\t\t}\n\n\t\t\tthis->monMaxTin(); \n\t\t}\n};\n\nint main() {\n    int soKy;\n    cout << \"Nhap so luong ky hoc: \";\n    cin >> soKy;\n    quanLyMon* dsKyHoc = new quanLyMon[soKy];\n    for (int i = 0; i < soKy; i++) {\n        cout << \"\\n=========================================\" << endl;\n        cout << \"NHAP THONG TIN CHO KY HOC THU \" << i + 1 << endl;\n        dsKyHoc[i].nhap();\n    }\n    cout << \"\\n\\n>>>>>>>>> THONG TIN CHI TIET CAC KY HOC <<<<<<<<<\" << endl;\n    for (int i = 0; i < soKy; i++) {\n        dsKyHoc[i].xuat();\n    }\n    if (soKy > 0) {\n        int maxTongTin = dsKyHoc[0].tongTinChi();\n        for (int i = 1; i < soKy; i++) {\n            if (dsKyHoc[i].tongTinChi() > maxTongTin) {\n                maxTongTin = dsKyHoc[i].tongTinChi();\n            }\n        }\n        cout << \"\\n\\n==================================================\" << endl;\n        cout << \">>>> KY HOC CO TONG SO TIN CHI LON NHAT (\" << maxTongTin << \" tin chi) <<<<\" << endl;\n        for (int i = 0; i < soKy; i++) {\n            if (dsKyHoc[i].tongTinChi() == maxTongTin) {\n                dsKyHoc[i].xuat();\n            }\n        }\n    }\n    delete[] dsKyHoc;\n    return 0;\n}",
+  "score": 8.5,
+  "feedback": "Bài làm đáp ứng đúng các yêu cầu chính của đề: lớp LopMon có đủ 3 thuộc tính (mã môn, tên môn, số tín chỉ), lớp quanLyMon có mã kỳ học, số môn học và danh sách môn học (cấp phát động), có nhập liệu, tính tổng tín chỉ từng kỳ và tìm kỳ có tổng tín chỉ lớn nhất (xử lý đúng cả trường hợp nhiều kỳ bằng nhau). Cách dùng encapsulation, getter, destructor là hợp lý. Cần cải thiện: lớp có con trỏ thành viên nhưng thiếu copy constructor/toán tử gán (vi phạm Rule of Three — rất dễ gây lỗi double free nếu sau này có sao chép đối tượng), tham số constructor đặt tên sai ngữ nghĩa (hoTen, soTin kiểu double), thiếu kiểm tra dữ liệu nhập (số kỳ, số môn <= 0) trước khi cấp phát, và phần in kỳ nhiều tín chỉ nhất gọi lại xuat() khiến in trùng toàn bộ danh sách môn. Ngoài ra hàm monMaxTin() là chức năng đề không yêu cầu.",
+  "breakdown": [
+    {
+      "criterion": "Lớp môn học (mã môn, tên môn, số tín chỉ)",
+      "score": 2,
+      "comment": "Đủ thuộc tính, có nhập/xuất, getter, dữ liệu private đúng chuẩn."
+    },
+    {
+      "criterion": "Lớp quản lý môn học (mã kỳ, số môn, danh sách môn)",
+      "score": 1.5,
+      "comment": "Đủ thuộc tính và cấp phát động hợp lý, nhưng thiếu copy constructor/toán tử gán khi đã có con trỏ + destructor; nhập lại sẽ gây rò rỉ bộ nhớ vì không delete mảng cũ."
+    },
+    {
+      "criterion": "Nhập số môn học, số kỳ học",
+      "score": 1.5,
+      "comment": "Nhập đúng luồng, xử lý tốt getline với cin >> ws; nhưng không kiểm tra giá trị âm/bằng 0 trước khi new."
+    },
+    {
+      "criterion": "Tính tổng tín chỉ từng kỳ",
+      "score": 2,
+      "comment": "Hàm tongTinChi() tính đúng và được in kèm thông tin từng kỳ."
+    },
+    {
+      "criterion": "In ra kỳ có nhiều tín chỉ nhất & chất lượng code",
+      "score": 1.5,
+      "comment": "Tìm max đúng, xử lý được nhiều kỳ đồng hạng; tuy nhiên in lại toàn bộ danh sách môn gây trùng lặp, có hàm dư thừa và một số đặt tên chưa chuẩn."
+    }
+  ],
+  "grammar": null,
+  "sampleComparison": null,
+  "model": "occ/claude-opus-5",
+  "aiKeyId": "6abfdf08b29c124d59ccc66b",
+  "aiKeyName": "hunganh2006",
+  "aiProvider": "vilao",
+  "latencyMs": 44589,
+  "promptSnapshot": {
+    "kind": "essay",
+    "promptId": null,
+    "name": "Fallback mặc định (hardcoded)",
+    "content": "Bạn là giáo viên chấm bài. Hãy chấm bài viết sau dựa trên đề bài và rubric.\n\nĐề bài:\n{đề_bài}\n\nBài làm sinh viên:\n{bài_làm}\n\nLời giải mẫu (nếu có, chỉ dùng để đối chiếu ý, không chép nguyên văn vào feedback):\n{lời_giải_mẫu}\n\nRubric: {rubric}\nĐiểm tối đa: {max_score}\n\nQUY TẮC PHÁT HIỆN LỖI:\n- Chỉ liệt kê lỗi khi lỗi thực sự tồn tại trong bài làm, không tự bịa.\n- Nếu đề bài/rubric không đủ căn cứ để xác định một lỗi cụ thể, bỏ qua, không đoán.\n- Mỗi lỗi nêu rõ: câu gốc sai, câu đã sửa, giải thích ngắn gọn.\n\nChỉ trả về JSON hợp lệ, không Markdown, không giải thích ngoài JSON:\n{\n  \"score\": number,\n  \"feedback\": string,\n  \"breakdown\": [{ \"criterion\": string, \"score\": number, \"comment\": string }],\n  \"errors\": [{ \"original\": string, \"corrected\": string, \"explanation\": string }]\n}",
+    "rubric": null,
+    "strictness": "normal",
+    "maxScore": 10,
+    "scope": "fallback",
+    "version": 0,
+    "isFallback": true,
+    "unknownPlaceholders": [],
+    "snapshotAt": "2026-10-10T01:37:56.141Z"
+  },
+  "raw": {
+    "score": 8.5,
+    "feedback": "Bài làm đáp ứng đúng các yêu cầu chính của đề: lớp LopMon có đủ 3 thuộc tính (mã môn, tên môn, số tín chỉ), lớp quanLyMon có mã kỳ học, số môn học và danh sách môn học (cấp phát động), có nhập liệu, tính tổng tín chỉ từng kỳ và tìm kỳ có tổng tín chỉ lớn nhất (xử lý đúng cả trường hợp nhiều kỳ bằng nhau). Cách dùng encapsulation, getter, destructor là hợp lý. Cần cải thiện: lớp có con trỏ thành viên nhưng thiếu copy constructor/toán tử gán (vi phạm Rule of Three — rất dễ gây lỗi double free nếu sau này có sao chép đối tượng), tham số constructor đặt tên sai ngữ nghĩa (hoTen, soTin kiểu double), thiếu kiểm tra dữ liệu nhập (số kỳ, số môn <= 0) trước khi cấp phát, và phần in kỳ nhiều tín chỉ nhất gọi lại xuat() khiến in trùng toàn bộ danh sách môn. Ngoài ra hàm monMaxTin() là chức năng đề không yêu cầu.",
+    "breakdown": [
+      {
+        "criterion": "Lớp môn học (mã môn, tên môn, số tín chỉ)",
+        "score": 2,
+        "comment": "Đủ thuộc tính, có nhập/xuất, getter, dữ liệu private đúng chuẩn."
+      },
+      {
+        "criterion": "Lớp quản lý môn học (mã kỳ, số môn, danh sách môn)",
+        "score": 1.5,
+        "comment": "Đủ thuộc tính và cấp phát động hợp lý, nhưng thiếu copy constructor/toán tử gán khi đã có con trỏ + destructor; nhập lại sẽ gây rò rỉ bộ nhớ vì không delete mảng cũ."
+      },
+      {
+        "criterion": "Nhập số môn học, số kỳ học",
+        "score": 1.5,
+        "comment": "Nhập đúng luồng, xử lý tốt getline với cin >> ws; nhưng không kiểm tra giá trị âm/bằng 0 trước khi new."
+      },
+      {
+        "criterion": "Tính tổng tín chỉ từng kỳ",
+        "score": 2,
+        "comment": "Hàm tongTinChi() tính đúng và được in kèm thông tin từng kỳ."
+      },
+      {
+        "criterion": "In ra kỳ có nhiều tín chỉ nhất & chất lượng code",
+        "score": 1.5,
+        "comment": "Tìm max đúng, xử lý được nhiều kỳ đồng hạng; tuy nhiên in lại toàn bộ danh sách môn gây trùng lặp, có hàm dư thừa và một số đặt tên chưa chuẩn."
+      }
+    ],
+    "errors": [
+      {
+        "original": "LopMon(string hoTen = \"\", string tenMon = \"\", double soTin = 0.0){ this->maMon = hoTen; ... this->soTin = (int)soTin; }",
+        "corrected": "LopMon(string maMon = \"\", string tenMon = \"\", int soTin = 0) { this->maMon = maMon; this->tenMon = tenMon; this->soTin = soTin; }",
+        "explanation": "Tham số đặt tên hoTen không đúng ngữ nghĩa mã môn, và số tín chỉ nên khai báo kiểu int ngay thay vì nhận double rồi ép kiểu."
+      },
+      {
+        "original": "~quanLyMon() { if (dsMonHoc != nullptr) delete[] dsMonHoc; }  // không có copy constructor và operator=",
+        "corrected": "quanLyMon(const quanLyMon& other); quanLyMon& operator=(const quanLyMon& other); // cấp phát và sao chép sâu dsMonHoc",
+        "explanation": "Lớp quản lý con trỏ cấp phát động nhưng thiếu Rule of Three: nếu đối tượng bị sao chép sẽ xảy ra double free / hỏng bộ nhớ."
+      },
+      {
+        "original": "cin >> soMonHoc;\ndsMonHoc = new LopMon[soMonHoc];",
+        "corrected": "cin >> soMonHoc;\nif (soMonHoc <= 0) { soMonHoc = 0; dsMonHoc = nullptr; return; }\nif (dsMonHoc) delete[] dsMonHoc;\ndsMonHoc = new LopMon[soMonHoc];",
+        "explanation": "Chưa kiểm tra số môn không hợp lệ (âm/0) trước khi cấp phát, và nếu gọi nhap() lần hai sẽ rò rỉ mảng cũ."
+      },
+      {
+        "original": "int tong = 0;\nfor(int i = 0; i < soMonHoc; i++) { if(dsMonHoc != nullptr) { tong += dsMonHoc[i].getSoTin(); } }",
+        "corrected": "if (dsMonHoc == nullptr) return 0;\nint tong = 0;\nfor (int i = 0; i < soMonHoc; i++) tong += dsMonHoc[i].getSoTin();",
+        "explanation": "Kiểm tra con trỏ null nên đặt một lần trước vòng lặp, không nên kiểm tra lặp lại ở mỗi vòng."
+      },
+      {
+        "original": "for (int i = 0; i < soKy; i++) { if (dsKyHoc[i].tongTinChi() == maxTongTin) { dsKyHoc[i].xuat(); } }",
+        "corrected": "for (int i = 0; i < soKy; i++) if (dsKyHoc[i].tongTinChi() == maxTongTin) cout << \"Ky: \" << dsKyHoc[i].getMaKy() << \" - Tong tin chi: \" << maxTongTin << endl;",
+        "explanation": "Gọi lại xuat() in trùng toàn bộ danh sách môn đã in ở trên; phần kết luận chỉ cần in mã kỳ và tổng tín chỉ."
+      }
+    ]
+  }
+}

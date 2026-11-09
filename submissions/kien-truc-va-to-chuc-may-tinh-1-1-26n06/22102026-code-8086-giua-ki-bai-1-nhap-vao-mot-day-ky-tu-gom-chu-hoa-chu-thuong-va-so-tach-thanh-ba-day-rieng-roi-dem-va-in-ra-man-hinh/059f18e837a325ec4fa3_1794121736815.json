@@ -1,0 +1,131 @@
+{
+  "submissionId": "6af01fec1cc835ef4d57137f",
+  "submittedAt": "2026-11-08T07:08:28.927Z",
+  "gradedAt": "2026-11-08T07:08:56.518Z",
+  "status": "graded",
+  "errorMessage": null,
+  "userId": "6ab3d694415010bf620349e5",
+  "userName": "Mai Ngọc Hùng Anh",
+  "userEmail": "hunganh.okokok.0@gmail.com",
+  "subjectId": "6ab5aeec813f0f6c24604456",
+  "subjectName": "Kiến trúc và tổ chức máy tính-1-1-26(N06)",
+  "subjectCode": "IT1.107.3",
+  "subjectSlug": "kien-truc-va-to-chuc-may-tinh-1-1-26n06",
+  "lessonId": "6ad9600cdd71d94e61e7885b",
+  "lessonTitle": "(22/10/2026 - Code 8086 - Giữa kì) Bài 1: Nhập vào một dãy ký tự gồm chữ hoa, chữ thường và số, tách thành ba dãy riêng rồi đếm và in ra màn hình",
+  "lessonSlug": "22102026-code-8086-giua-ki-bai-1-nhap-vao-mot-day-ky-tu-gom-chu-hoa-chu-thuong-va-so-tach-thanh-ba-day-rieng-roi-dem-va-in-ra-man-hinh",
+  "lessonDuration": 30,
+  "lessonContentHtml": "<div class=\"de-bai\">\n  <h3>(22/10/2026 - Code 8086 - Giữa kì) Bài 1: Nhập vào một dãy ký tự gồm chữ hoa, chữ thường và số, tách thành ba dãy riêng rồi đếm và in ra màn hình</h3>\n  <p>Đây là bài nâng cấp của bài tách chữ hoa, chữ thường và số. Viết chương trình hợp ngữ 8086 yêu cầu nhập một dãy ký tự bất kỳ gồm chữ hoa, chữ thường và chữ số (tối đa 20 ký tự, nhập đến khi nhấn Enter), in lại dãy vừa nhập, sau đó tách thành ba dãy: dãy chữ hoa, dãy chữ thường và dãy số. Chương trình in ba dãy này ra màn hình, <b>kèm số lượng ký tự của mỗi dãy</b>. Nếu dãy nào không có ký tự nào thì in thông báo cho biết dãy đó không có, và số lượng là 0.</p>\n  <p><b>Ví dụ:</b></p>\n  <pre>nhap day ky tu: Ab1Cd23\nday ky tu vua nhap: Ab1Cd23\nday chu hoa: AC\nso chu hoa: 2\nday chu thuong: bd\nso chu thuong: 2\nday so: 123\nso chu so: 3\n\nnhap day ky tu: abc123\nday ky tu vua nhap: abc123\nday chu hoa: khong co chu hoa\nso chu hoa: 0\nday chu thuong: abc\nso chu thuong: 3\nday so: 123\nso chu so: 3\n\nnhap day ky tu: HELLO\nday ky tu vua nhap: HELLO\nday chu hoa: HELLO\nso chu hoa: 5\nday chu thuong: khong co chu thuong\nso chu thuong: 0\nday so: khong co so\nso chu so: 0</pre>\n  <p><b>Cách làm:</b></p>\n  <ul>\n    <li>Khai báo 4 mảng ký tự: <code>s</code> lưu dãy nhập vào, <code>s1</code> lưu dãy chữ thường, <code>s2</code> lưu dãy chữ hoa, <code>s3</code> lưu dãy số (mỗi mảng 21 byte: 20 ký tự và 1 byte cho ký tự <code>$</code>).</li>\n    <li>Nhập từng ký tự bằng hàm 1 của ngắt 21h, cất vào mảng <code>s</code>. Nếu ký tự là 13 (phím Enter) thì dừng nhập.</li>\n    <li>Thêm ký tự <code>$</code> vào cuối mảng <code>s</code> rồi in dãy vừa nhập bằng hàm 9 của ngắt 21h.</li>\n    <li>Duyệt từng ký tự của <code>s</code> và phân loại theo mã ASCII:\n      <ul>\n        <li>từ '0' (48) đến '9' (57): là chữ số, chép sang <code>s3</code>;</li>\n        <li>từ 'A' (65) đến 'Z' (90): là chữ hoa, chép sang <code>s2</code>;</li>\n        <li>từ 'a' (97) đến 'z' (122): là chữ thường, chép sang <code>s1</code>.</li>\n      </ul>\n    </li>\n    <li>Dùng ba biến đếm (ví dụ <code>si</code>, <code>di</code>, <code>bp</code>) để lưu số ký tự đã chép vào mỗi mảng <code>s1</code>, <code>s2</code>, <code>s3</code>. Chính các biến đếm này là kết quả đếm cần in.</li>\n    <li>Với mỗi dãy: nếu biến đếm bằng 0 thì in thông báo \"khong co ...\" tương ứng; ngược lại thêm ký tự <code>$</code> vào cuối dãy rồi in dãy ra màn hình bằng hàm 9 của ngắt 21h.</li>\n    <li>Sau mỗi dãy, in dòng \"so ...: \" rồi in giá trị biến đếm ra màn hình dưới dạng số thập phân:\n      <ul>\n        <li>số lượng tối đa là 20 nên có thể có 2 chữ số;</li>\n        <li>chia số đếm cho 10 (<code>DIV</code>): thương là chữ số hàng chục, số dư là chữ số hàng đơn vị;</li>\n        <li>nếu thương bằng 0 thì bỏ qua chữ số hàng chục, không in số 0 đứng đầu;</li>\n        <li>cộng 30h vào từng chữ số để đổi sang mã ASCII rồi in bằng hàm 2 của ngắt 21h.</li>\n      </ul>\n    </li>\n    <li>Nên viết một thủ tục <code>IN_SO</code> (nhận số cần in trong <code>AL</code>) và gọi lại 3 lần cho ba biến đếm.</li>\n  </ul>\n</div>",
+  "lessonSampleSolution": "",
+  "answerHtml": ".model small\n.stack 100h\n.data\n    s db 21 dup(?)\n    s1 db 21 dup(?)\n    s2 db 21 dup(?)\n    s3 db 21 dup(?)\n    ms1 db 'nhap day ki tu : $'\n    ms2 db 10, 13, 'day ki tu vua nhap la : $'\n    ms3 db 10, 13, 'day chu hoa la : $'\n    ms4 db 10, 13, 'khong co chu hoa$'\n    ms5 db 10, 13, 'day chu thuong la : $'\n    ms6 db 10, 13, 'khong co chu thuong$'\n    ms7 db 10, 13, 'day chu so la : $'\n    ms8 db 10, 13, 'khong co chu so$'\n\n.code\n    main proc\n\n        mov ax, @data\n        mov ds, ax\n\n        mov ah, 9\n        lea dx, ms1\n        int 21h\n        xor si, si\n\n    nhap1:\n        mov ah, 1\n        int 21h\n        cmp al, 13\n        je stop1\n        mov s[si], al\n        inc si\n        jmp nhap1\n\n    stop1:\n        mov s[si], '$'\n        mov cx, si\n        mov ah, 9\n        lea dx, ms2\n        int 21h\n        lea dx, s\n        int 21h\n\n    locchuhoa:\n        xor si, si  ;doc s\n        xor di, di  ;ghi s2\n    \n    lochoa:\n        cmp si, cx\n        jae stop2\n        mov al, s[si]\n        cmp al, 'A'\n        jb boquahoa\n        cmp al, 'Z'\n        ja boquahoa\n        mov s2[di], al\n        inc di\n\n    boquahoa:\n        inc si\n        jmp lochoa\n\n    stop2:\n        mov s2[di], '$'\n        cmp di, 0\n        je khongcochuhoa\n        mov ah, 9\n        lea dx, ms3\n        int 21h\n        lea dx, s2\n        int 21h\n        jmp locchuthuong\n\n    khongcochuhoa:\n        mov ah, 9\n        lea dx, ms4\n        int 21h\n\n    locchuthuong:\n        xor si, si  ;doc s\n        xor di, di  ;ghi s1\n\n    locthuong:\n        cmp si, cx\n        jae stop3\n        mov al, s[si]\n        cmp al, 'a'\n        jb boquathuong\n        cmp al, 'z'\n        ja boquathuong\n        mov s1[di], al\n        inc di\n\n    boquathuong:\n        inc si\n        jmp locthuong\n\n    stop3:\n        mov s1[di], '$'\n        cmp di, 0\n        je khongcochuthuong\n        mov ah, 9\n        lea dx, ms5\n        int 21h\n        lea dx, s1\n        int 21h\n        jmp locchuso\n    \n    khongcochuthuong:\n        mov ah, 9\n        lea dx, ms6\n        int 21h\n\n    locchuso:\n        xor si, si  ;doc s\n        xor di, di  ;ghi s3\n\n    locso:\n        cmp si, cx\n        jae stop4\n        mov al, s[si]\n        cmp al, '0'\n        jb boquaso\n        cmp al, '9'\n        ja boquaso\n        mov s3[di], al\n        inc di\n\n    boquaso:\n        inc si\n        jmp locso\n\n    stop4:\n        mov s3[di], '$'\n        cmp di, 0\n        je khongcochuso\n        mov ah, 9\n        lea dx, ms7\n        int 21h\n        lea dx, s3\n        int 21h\n        jmp ketthuc\n\n    khongcochuso:\n        mov ah, 9\n        lea dx, ms8\n        int 21h\n\n\n    ketthuc:\n        mov ah, 4ch\n        int 21h\n\n    main endp\nend main",
+  "hasDrawing": false,
+  "drawingFile": null,
+  "drawingMime": null,
+  "drawingAnalysis": null,
+  "score": 6,
+  "feedback": "Bài làm đã đúng phần nền tảng: khai báo 4 mảng 21 byte, nhập từng ký tự bằng hàm 1 đến khi gặp Enter, thêm '$' rồi in lại dãy. Ba vòng lặp tách chữ hoa, chữ thường và chữ số đều so sánh mã ASCII chính xác. Trường hợp dãy rỗng cũng đã in thông báo 'khong co ...'. Tuy nhiên, bài chưa làm phần nâng cấp chính của đề: in số lượng ký tự của mỗi dãy ('so chu hoa: n', 'so chu thuong: n', 'so chu so: n'). Bài cũng chưa có thủ tục IN_SO để đổi biến đếm sang số thập phân (DIV 10, bỏ số 0 đứng đầu, cộng 30h, in bằng hàm 2). Thực ra biến đếm DI đã có sẵn sau mỗi vòng lọc, chỉ cần in ra. Ngoài ra, vòng nhập chưa giới hạn tối đa 20 ký tự nên có thể ghi tràn mảng s. Thông báo khi dãy rỗng in trên dòng riêng, không có tiêu đề 'day chu hoa: ' như ví dụ.",
+  "breakdown": [
+    {
+      "criterion": "Khai báo dữ liệu (4 mảng 21 byte, các chuỗi thông báo)",
+      "score": 1,
+      "comment": "Đầy đủ, đúng kích thước theo đề."
+    },
+    {
+      "criterion": "Nhập dãy ký tự và in lại",
+      "score": 1.5,
+      "comment": "Nhập bằng hàm 1, dừng khi gặp 13, thêm '$' và in bằng hàm 9 đúng. Chưa giới hạn 20 ký tự nên có nguy cơ tràn bộ đệm."
+    },
+    {
+      "criterion": "Tách dãy chữ hoa, chữ thường, chữ số",
+      "score": 3,
+      "comment": "Ba vòng lọc so sánh khoảng ASCII đúng, chép vào s2, s1, s3 và kết thúc bằng '$' chính xác."
+    },
+    {
+      "criterion": "Xử lý trường hợp dãy rỗng",
+      "score": 0.5,
+      "comment": "Có kiểm tra DI = 0 và in thông báo. Định dạng chưa đúng ví dụ vì thiếu tiêu đề 'day chu ...: ' trước 'khong co ...'."
+    },
+    {
+      "criterion": "Đếm và in số lượng mỗi dãy (thủ tục IN_SO)",
+      "score": 0,
+      "comment": "Hoàn toàn chưa làm. Không in số lượng và không có thủ tục đổi số sang thập phân, dù DI đã chứa sẵn số đếm."
+    }
+  ],
+  "grammar": null,
+  "sampleComparison": null,
+  "model": "occ/claude-opus-5-5",
+  "aiKeyId": "6abfdf08b29c124d59ccc66b",
+  "aiKeyName": "hunganh2006",
+  "aiProvider": "vilao",
+  "latencyMs": 27588,
+  "promptSnapshot": {
+    "kind": "essay",
+    "promptId": null,
+    "name": "Fallback mặc định (hardcoded)",
+    "content": "Bạn là giáo viên chấm bài. Hãy chấm bài viết sau dựa trên đề bài và rubric.\n\nĐề bài:\n{đề_bài}\n\nBài làm sinh viên (phần nhập chữ):\n{bài_làm}\n\nPhần vẽ tay của sinh viên (đã được bước phân tích hình ảnh đọc trước):\n{hình_vẽ}\n\nLời giải mẫu (nếu có, chỉ dùng để đối chiếu ý, không chép nguyên văn vào feedback):\n{lời_giải_mẫu}\n\nRubric: {rubric}\nĐiểm tối đa: {max_score}\n\nQUY TẮC CHẤM KẾT HỢP CHỮ + HÌNH VẼ:\n- Nếu có cả phần nhập chữ và phần vẽ tay: chấm CẢ HAI theo đề bài/rubric, cho một điểm tổng duy nhất.\n- Nếu chỉ có một phần: chỉ chấm phần đó, KHÔNG trừ điểm vì phần sinh viên không nộp.\n\nQUY TẮC PHÁT HIỆN LỖI:\n- Chỉ liệt kê lỗi khi lỗi thực sự tồn tại trong bài làm, không tự bịa.\n- Nếu đề bài/rubric không đủ căn cứ để xác định một lỗi cụ thể, bỏ qua, không đoán.\n- Mỗi lỗi nêu rõ: câu gốc sai, câu đã sửa, giải thích ngắn gọn.\n\nChỉ trả về JSON hợp lệ, không Markdown, không giải thích ngoài JSON:\n{\n  \"score\": number,\n  \"feedback\": string,\n  \"breakdown\": [{ \"criterion\": string, \"score\": number, \"comment\": string }],\n  \"errors\": [{ \"original\": string, \"corrected\": string, \"explanation\": string }]\n}",
+    "rubric": null,
+    "strictness": "normal",
+    "maxScore": 10,
+    "scope": "fallback",
+    "version": 0,
+    "isFallback": true,
+    "unknownPlaceholders": [],
+    "snapshotAt": "2026-11-08T07:08:56.518Z"
+  },
+  "raw": {
+    "score": 6,
+    "feedback": "Bài làm đã đúng phần nền tảng: khai báo 4 mảng 21 byte, nhập từng ký tự bằng hàm 1 đến khi gặp Enter, thêm '$' rồi in lại dãy. Ba vòng lặp tách chữ hoa, chữ thường và chữ số đều so sánh mã ASCII chính xác. Trường hợp dãy rỗng cũng đã in thông báo 'khong co ...'. Tuy nhiên, bài chưa làm phần nâng cấp chính của đề: in số lượng ký tự của mỗi dãy ('so chu hoa: n', 'so chu thuong: n', 'so chu so: n'). Bài cũng chưa có thủ tục IN_SO để đổi biến đếm sang số thập phân (DIV 10, bỏ số 0 đứng đầu, cộng 30h, in bằng hàm 2). Thực ra biến đếm DI đã có sẵn sau mỗi vòng lọc, chỉ cần in ra. Ngoài ra, vòng nhập chưa giới hạn tối đa 20 ký tự nên có thể ghi tràn mảng s. Thông báo khi dãy rỗng in trên dòng riêng, không có tiêu đề 'day chu hoa: ' như ví dụ.",
+    "breakdown": [
+      {
+        "criterion": "Khai báo dữ liệu (4 mảng 21 byte, các chuỗi thông báo)",
+        "score": 1,
+        "comment": "Đầy đủ, đúng kích thước theo đề."
+      },
+      {
+        "criterion": "Nhập dãy ký tự và in lại",
+        "score": 1.5,
+        "comment": "Nhập bằng hàm 1, dừng khi gặp 13, thêm '$' và in bằng hàm 9 đúng. Chưa giới hạn 20 ký tự nên có nguy cơ tràn bộ đệm."
+      },
+      {
+        "criterion": "Tách dãy chữ hoa, chữ thường, chữ số",
+        "score": 3,
+        "comment": "Ba vòng lọc so sánh khoảng ASCII đúng, chép vào s2, s1, s3 và kết thúc bằng '$' chính xác."
+      },
+      {
+        "criterion": "Xử lý trường hợp dãy rỗng",
+        "score": 0.5,
+        "comment": "Có kiểm tra DI = 0 và in thông báo. Định dạng chưa đúng ví dụ vì thiếu tiêu đề 'day chu ...: ' trước 'khong co ...'."
+      },
+      {
+        "criterion": "Đếm và in số lượng mỗi dãy (thủ tục IN_SO)",
+        "score": 0,
+        "comment": "Hoàn toàn chưa làm. Không in số lượng và không có thủ tục đổi số sang thập phân, dù DI đã chứa sẵn số đếm."
+      }
+    ],
+    "errors": [
+      {
+        "original": "stop2:\n    mov s2[di], '$'\n    cmp di, 0\n    je khongcochuhoa\n    ...\n    jmp locchuthuong\nkhongcochuhoa:\n    mov ah, 9\n    lea dx, ms4\n    int 21h\nlocchuthuong:",
+        "corrected": "khongcochuhoa:\n    mov ah, 9\n    lea dx, ms4\n    int 21h\ninsohoa:\n    mov ah, 9\n    lea dx, ms9      ; ms9 db 10,13,'so chu hoa: $'\n    int 21h\n    mov ax, di\n    call IN_SO\nlocchuthuong:\n; (nhánh có chữ hoa đổi 'jmp locchuthuong' thành 'jmp insohoa'; làm tương tự cho chữ thường và chữ số)",
+        "explanation": "Đề yêu cầu in số lượng ký tự của mỗi dãy, kể cả khi bằng 0. DI chính là biến đếm nên chỉ cần đưa vào AL rồi gọi thủ tục in số."
+      },
+      {
+        "original": "(không có thủ tục IN_SO)",
+        "corrected": "IN_SO proc\n    push ax\n    push bx\n    push dx\n    mov ah, 0\n    mov bl, 10\n    div bl          ; AL = hang chuc, AH = don vi\n    mov bh, ah\n    cmp al, 0\n    je donvi\n    mov dl, al\n    add dl, 30h\n    mov ah, 2\n    int 21h\ndonvi:\n    mov dl, bh\n    add dl, 30h\n    mov ah, 2\n    int 21h\n    pop dx\n    pop bx\n    pop ax\n    ret\nIN_SO endp",
+        "explanation": "Cần thủ tục đổi số đếm (tối đa 20) sang thập phân: chia cho 10, bỏ chữ số hàng chục nếu bằng 0, cộng 30h và in bằng hàm 2 của ngắt 21h."
+      },
+      {
+        "original": "nhap1:\n    mov ah, 1\n    int 21h\n    cmp al, 13\n    je stop1",
+        "corrected": "nhap1:\n    cmp si, 20\n    jae stop1\n    mov ah, 1\n    int 21h\n    cmp al, 13\n    je stop1",
+        "explanation": "Đề giới hạn tối đa 20 ký tự. Nếu không kiểm tra SI, người dùng nhập quá 20 ký tự sẽ ghi tràn sang mảng s1 phía sau."
+      },
+      {
+        "original": "ms4 db 10, 13, 'khong co chu hoa$'",
+        "corrected": "ms4 db 'khong co chu hoa$'  ; in sau ms3 ('day chu hoa la : ')",
+        "explanation": "Theo ví dụ, khi dãy rỗng vẫn in tiêu đề 'day chu hoa: ' rồi mới đến 'khong co chu hoa' trên cùng dòng. Tương tự cho ms6 và ms8."
+      }
+    ]
+  },
+  "type": "essay",
+  "teacherComment": null,
+  "updatedAt": "2026-11-08T07:08:58.385Z"
+}

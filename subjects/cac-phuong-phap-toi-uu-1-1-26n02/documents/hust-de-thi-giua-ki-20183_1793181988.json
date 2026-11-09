@@ -1,0 +1,29 @@
+{
+  "type": "document",
+  "documentId": "6ae1c93aefc410fc851087cd",
+  "title": "HUST_De-thi-giua-ki-20183",
+  "slug": "hust-de-thi-giua-ki-20183",
+  "subjectSlug": "cac-phuong-phap-toi-uu-1-1-26n02",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/cac-phuong-phap-toi-uu-1-1-26n02/documents/hust-de-thi-giua-ki-20183_1793181988.pdf",
+      "enc": 451864,
+      "plain": 451804
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 451804,
+  "originalName": "HUST_De-thi-giua-ki-20183.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-28T10:06:50.158Z",
+  "updatedAt": "2026-10-28T10:06:50.158Z"
+}

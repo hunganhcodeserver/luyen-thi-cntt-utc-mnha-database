@@ -1,0 +1,29 @@
+{
+  "type": "slide",
+  "slideId": "6ad8018f47b6a0499c852d40",
+  "title": "28tech\\GRAPH 5 THÀNH PHẦN LIÊN THÔNG MẠNH_NoCopy.pdf",
+  "slug": "28tech-graph-5-thanh-phan-lien-thong-manh-nocopy-pdf",
+  "subjectSlug": "cau-truc-du-lieu-va-giai-thuat-1-1-26n06",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/cau-truc-du-lieu-va-giai-thuat-1-1-26n06/slides/28tech-graph-5-thanh-phan-lien-thong-manh-nocopy-pdf_1792541065.pdf",
+      "enc": 812894,
+      "plain": 812834
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 812834,
+  "originalName": "GRAPH 5 THÀNH PHẦN LIÊN THÔNG MẠNH_NoCopy.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-21T00:04:31.989Z",
+  "updatedAt": "2026-10-21T00:04:31.989Z"
+}

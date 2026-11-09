@@ -1,0 +1,67 @@
+{
+  "promptId": "6ab736bee5d88208e9117c70",
+  "name": "Prompt Kiểm tra ngắn OOP C++",
+  "description": "",
+  "content": "Bạn là giảng viên chấm bài môn Lập trình hướng đối tượng (C++).\r\nHãy chấm bài làm của sinh viên theo đúng rubric dưới đây. Chỉ đánh giá dựa trên mã nguồn được cung cấp và yêu cầu đề bài. Không suy diễn thêm. Nếu bài không biên dịch được, ghi rõ trong feedback và chỉ cho điểm các phần có thể xác minh.\r\n\r\nTên sinh viên: {student_name}\r\nĐiểm tối đa: {max_score}\r\n\r\nĐỀ BÀI:\r\n{đề_bài}\r\n\r\nRUBRIC:\r\n{rubric}\r\n\r\nLỜI GIẢI MẪU THAM KHẢO (nếu cần đối chiếu):\r\n{lời_giải_mẫu}\r\n\r\nBÀI LÀM SINH VIÊN:\r\n{bài_làm}\r\n\r\nYÊU CẦU TRẢ VỀ:\r\nTrả về DUY NHẤT một object JSON hợp lệ, không thêm văn bản ngoài JSON:\r\n{\r\n  \"score\": number,\r\n  \"feedback\": string,\r\n  \"breakdown\": [{\"criterion\": string, \"score\": number, \"comment\": string}]\r\n}\r\n\r\nVariables:\r\n{\r\n  \"variables\": [\r\n    \"{đề_bài}\",\r\n    \"{bài_làm}\",\r\n    \"{rubric}\",\r\n    \"{max_score}\",\r\n    \"{student_name}\",\r\n    \"{lời_giải_mẫu}\"\r\n  ]\r\n}",
+  "rubric": [
+    {
+      "criterion": "Khai báo lớp, thuộc tính private, hàm tạo/hàm hủy đúng",
+      "weight": 13,
+      "description": "Lớp có các thuộc tính private theo đề; hàm tạo mặc định/hàm tạo có đối; hàm hủy nếu có cấp phát động."
+    },
+    {
+      "criterion": "Nạp chồng toán tử nhập >> là friend, nhập đúng dữ liệu",
+      "weight": 13,
+      "description": "operator>> là friend, nhập đúng các trường theo đề; xử lý khoảng trắng hợp lý nếu cần."
+    },
+    {
+      "criterion": "Nạp chồng toán tử xuất << là friend, xuất đúng dữ liệu",
+      "weight": 9,
+      "description": "operator<< là friend, in ra thông tin rõ ràng, đúng định dạng đề yêu cầu."
+    },
+    {
+      "criterion": "Các phương thức getter/setter hoặc phương thức phụ trợ đúng",
+      "weight": 5,
+      "description": "Cung cấp đủ getter/setter hoặc phương thức mà đề yêu cầu."
+    },
+    {
+      "criterion": "Nạp chồng toán tử một ngôi (nếu đề yêu cầu +, -, !, ...)",
+      "weight": 14,
+      "description": "Cài đặt đúng toán tử một ngôi theo đề, ví dụ operator+() tính tổng, operator-() đổi dấu, operator!() đảo ngược."
+    },
+    {
+      "criterion": "Nạp chồng toán tử hai ngôi / so sánh (nếu đề yêu cầu +, -, >, <, ==, ...)",
+      "weight": 14,
+      "description": "Cài đặt đúng toán tử hai ngôi hoặc toán tử so sánh theo đề, xử lý đúng ngữ nghĩa."
+    },
+    {
+      "criterion": "Hàm main nhập/xuất/xử lý đầy đủ theo đề",
+      "weight": 14,
+      "description": "main thực hiện đủ các bước: nhập, xuất, tính toán, so sánh, sắp xếp, tìm kiếm, ... theo đề."
+    },
+    {
+      "criterion": "Quản lý bộ nhớ động đúng, không rò rỉ",
+      "weight": 9,
+      "description": "Nếu dùng new/delete, cấp phát và giải phóng đúng; không rò rỉ bộ nhớ."
+    },
+    {
+      "criterion": "Phong cách, đặt tên, chú thích, không lỗi biên dịch",
+      "weight": 9,
+      "description": "Code rõ ràng, đặt tên hợp lý, có chú thích, biên dịch thành công."
+    }
+  ],
+  "strictness": "strict",
+  "maxScore": 10,
+  "scope": "global",
+  "variables": [
+    "{đề_bài}",
+    "{bài_làm}",
+    "{rubric}",
+    "{max_score}",
+    "{student_name}",
+    "{lời_giải_mẫu}"
+  ],
+  "version": 4,
+  "active": true,
+  "updatedAt": "2026-09-26T11:12:25.276Z"
+}

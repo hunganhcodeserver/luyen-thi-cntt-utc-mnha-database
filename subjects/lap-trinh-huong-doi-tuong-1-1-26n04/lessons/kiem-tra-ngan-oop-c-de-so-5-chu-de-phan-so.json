@@ -1,0 +1,12 @@
+{
+  "lessonId": "6ab6b138ccacc564d40110d4",
+  "title": "(Kiểm tra ngắn OOP C++) ĐỀ SỐ 5 - Chủ đề: PHÂN SỐ",
+  "slug": "kiem-tra-ngan-oop-c-de-so-5-chu-de-phan-so",
+  "description": "",
+  "contentHtml": "<h2>ĐỀ SỐ 5</h2>\r\n<p><strong>Chủ đề: PHÂN SỐ • Thời gian: 30 phút • C++</strong></p>\r\n\r\n<ul>\r\n    <li>\r\n        <strong>Yêu cầu: Xây dựng lớp PhanSo bao gồm:</strong>\r\n        <ol>\r\n            <li>Khai báo tuSo, mauSo kiểu int và cấu tử có đối mặc định.</li>\r\n            <li>Viết rutGon() và gọi rút gọn khi cần thiết.</li>\r\n            <li>Nạp chồng toán tử + để cộng hai phân số.</li>\r\n            <li>Nạp chồng toán tử != để so sánh hai phân số.</li>\r\n            <li>Viết hàm bạn &gt;&gt; và &lt;&lt; để nhập/xuất phân số.</li>\r\n        </ol>\r\n    </li>\r\n    <li>\r\n        <strong>Yêu cầu trong hàm main():</strong> Nhập p1, p2; tính p3 = p1 + p2, in p3 ở dạng rút gọn. Nếu p1 != p2 thì in “Khac nhau”.\r\n    </li>\r\n</ul>\r\n\r\n<p><em>Lưu ý: Có thể bổ sung hàm/phương thức hỗ trợ hợp lý</em></p>\r\n",
+  "sampleSolution": "",
+  "duration": 30,
+  "model": null,
+  "isPublished": true,
+  "updatedAt": "2026-09-30T03:57:43.014Z"
+}

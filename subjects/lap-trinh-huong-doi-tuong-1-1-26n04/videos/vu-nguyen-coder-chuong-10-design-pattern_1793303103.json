@@ -1,0 +1,37 @@
+{
+  "type": "video",
+  "videoId": "6ae3a24023700d1296c5fd67",
+  "title": "Vũ Nguyễn Coder _ Chương 10 Design pattern",
+  "slug": "vu-nguyen-coder-chuong-10-design-pattern",
+  "subjectSlug": "lap-trinh-huong-doi-tuong-1-1-26n04",
+  "description": "",
+  "videos": [
+    {
+      "id": "v1fe6f2d6",
+      "title": "Bài 32 Design patern (website khoahocgiahoi.com zalo 0583953426)",
+      "enc": "v1.OWmvPyHE1OApXlgV.2rvvxpkz4BmNd7DMpmMyPQ.KvZ3o64TJ6VLgNqSEof8XY5UoWVQ_iu3hXMIpdcWiRUVRIB9bBGz542XjUic2YMH4dCzl1ohJAwPgc3qtyuxrv8N2fFzWlOXMjx7r-qa8JqiuOFO9q5yFrTDfb6TEEFEllNrCzP0A31Ke61puDdET9McO80CCb9tzmUEOW9RGjaEtBbXElXtJ_4GdiWTRKkmQM77gVpKKbgAj2dwcgHQ79GH5EQpGceMeIanZZiUfLWNmzYQhU8lKCw8bFQzSz3E7Z9qvBuX6NSWmdFfkhZkSKrcpPyloRjLnZMlA0tns0nYB5CIbCSDFArBgD1FCjfrqOk86-YBqDTEsBUw_EuHNkGqbATuBoUgcI9IDF56gidEhImFXv5TicYxepg31j-sDdf__Gmo4aQDHKEG079djoYRHeVBSIDre3ma8BfqF4RVEJ4TjMe89A"
+    },
+    {
+      "id": "vf453150e",
+      "title": "Bài 33 Singleton (website khoahocgiahoi.com zalo 0583953426)",
+      "enc": "v1.O19Gh5N91hpSlvzn.72g_8m9TPTWyOL8ag_pzng.qsp9NKWyep2aafrIRhd7a2_LzqjDFmZXx-zIIjlldqfw4rZuZEsh5yl3BZzA99dtedy50PL35BmNymIZg3iByq7-1gIB60prbeUw3qz8Kd1HMX-1ja6wKxhWkfRbCdLhdlHeoGWi8w7rfvHLBwlkN4ZXZFoq0_1numtMiU3qRq-WDpirP636HceYmc5Funvl_37iashxIUax7zs72ABFPDLS7do_WMBqTyHvfjdkKBRRTcknj_KiycwOHHRid5EjzGCpwMLW3mBIX89vxt82TMmAx5R9X0j0WYLr01TpdFXa7An-Brf2JToLTQM13gtLqrw2AatuM1kd4GAk789ksT9qitoe0a900-yfKYS4wx3Y8zsb364WqddDTuVp9VHTe9u1sc6v1ORd4-k_keBUwirCbMUB8ZhALwYZCWxN-uiE7sC9a2-ivg"
+    },
+    {
+      "id": "v04e11681",
+      "title": "Bài 34 Facade (website khoahocgiahoi.com zalo 0583953426)",
+      "enc": "v1.wtTnHnuJeOMDOkru.DOeQIXtz7qSitupeL7SSfQ.7_jaEHPUZgoLeLgIR70x9rjPdSdJYEFUWOJlxzA1neVj6JhK-RNyKmTS6XqQtCC6yVvH6uJ5aMbmr1jufu93QVulwsua7n8AR6cB5oweuT64XNVYGNfilfOlFm1g10f16trqSOG8kxWq5AJjzBTusfqSlxtroxb2-8WONCbEi2nKgFnxGZQC9pbnYmPJlS1apA5QAu8pmRDL6SLBHno2pFJC39rxv2Y_3VFTBk4GrY6372NgOY8xdTdhKk14x4nLg8q8tbD5iFVsuY2V7EhMrMwQV5KdtKo-4iK0DApebIp_b82LgOnu59XhIpssT0AKv1NxKZagbWwDzNfTTq7Y9sDMcczINAefFexAfwFPsZBZXOuNpPb5cy2dLgZ3QNT5Ei-O-8VITRL9H6Fx3YETHoMWoujfcL-umXOys2y70XtHDA3cV6FiYQ"
+    }
+  ],
+  "videoCount": 3,
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-29T19:45:04.103Z",
+  "updatedAt": "2026-10-29T19:45:04.103Z"
+}

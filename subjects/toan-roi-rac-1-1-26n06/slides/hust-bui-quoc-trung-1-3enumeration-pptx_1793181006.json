@@ -1,0 +1,29 @@
+{
+  "type": "slide",
+  "slideId": "6ae1c554efc410fc851087c3",
+  "title": "HUST_Bùi Quốc Trung_1-3Enumeration.pptx",
+  "slug": "hust-bui-quoc-trung-1-3enumeration-pptx",
+  "subjectSlug": "toan-roi-rac-1-1-26n06",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/toan-roi-rac-1-1-26n06/slides/hust-bui-quoc-trung-1-3enumeration-pptx_1793181006.pdf",
+      "enc": 921271,
+      "plain": 921211
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 921211,
+  "originalName": "HUST_Bùi Quốc Trung_1-3Enumeration.pptx.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-28T09:50:12.736Z",
+  "updatedAt": "2026-10-28T09:50:12.736Z"
+}

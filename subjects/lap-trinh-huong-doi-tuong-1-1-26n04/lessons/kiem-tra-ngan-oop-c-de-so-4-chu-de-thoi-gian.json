@@ -1,0 +1,12 @@
+{
+  "lessonId": "6ab6b0df2d6b83932084d715",
+  "title": "(Kiểm tra ngắn OOP C++) ĐỀ SỐ 4 - Chủ đề: THỜI GIAN",
+  "slug": "kiem-tra-ngan-oop-c-de-so-4-chu-de-thoi-gian",
+  "description": "",
+  "contentHtml": "<h2>ĐỀ SỐ 4</h2>\r\n<p><strong>Chủ đề: THỜI GIAN • Thời gian: 30 phút • C++</strong></p>\r\n\r\n<ul>\r\n    <li>\r\n        <strong>Yêu cầu: Xây dựng lớp ThoiGian bao gồm:</strong>\r\n        <ol>\r\n            <li>Khai báo ba thuộc tính int: gio, phut, giay.</li>\r\n            <li>Viết cấu tử có đối mặc định 0 giờ 0 phút 0 giây.</li>\r\n            <li>Viết phương thức void chuanHoa() để đưa phút, giây về miền hợp lệ.</li>\r\n            <li>Nạp chồng toán tử == để so sánh hai thời điểm.</li>\r\n            <li>Viết hàm bạn nạp chồng &gt;&gt; và &lt;&lt; để nhập/xuất thời gian.</li>\r\n        </ol>\r\n    </li>\r\n    <li>\r\n        <strong>Yêu cầu trong hàm main():</strong> Trong main(), tạo t1 = ThoiGian(8, 30, 0), nhập t2. In t2 sau chuẩn hóa và kiểm tra t1 == t2.\r\n    </li>\r\n</ul>\r\n\r\n<p><em>Lưu ý: Có thể bổ sung hàm/phương thức hỗ trợ hợp lý</em></p>\r\n",
+  "sampleSolution": "",
+  "duration": 30,
+  "model": null,
+  "isPublished": true,
+  "updatedAt": "2026-09-30T03:56:45.025Z"
+}

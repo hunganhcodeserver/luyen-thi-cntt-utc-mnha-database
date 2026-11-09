@@ -1,0 +1,37 @@
+{
+  "type": "video",
+  "videoId": "6ae4d9dd4ecfd6660ebe7edd",
+  "title": "UTC_LMS - 8. CÁC CẤU TRÚC DỮ LIỆU NÂNG CAO",
+  "slug": "utc-lms-8-cac-cau-truc-du-lieu-nang-cao",
+  "subjectSlug": "cau-truc-du-lieu-va-giai-thuat-1-1-26n06",
+  "description": "",
+  "videos": [
+    {
+      "id": "va5e9ff75",
+      "title": "8.4.1. Ứng dụng cấu trúc map",
+      "enc": "v1.LQ6KDCjlyWK75MMY.VyRK1ilASzyDh0bBsLQEqg.kS9qnbLXqvMb55u1gARsrItVnOSB5N8zoCUxJShI4ap5Yom9Iptj5X9pdTp6v8O1lNHHF_mSmhgiOKfsPG7ZPuk2IFYIMFSrmXjjemiU8xzPant2cFSnsEp-J42KxFDVu4Ih5cg69cgzTOTO60Agw5eBph7UdYK8bh42YyBknv2Vjo8IabD06JhMkT6oP7vvITKq_PAQ9NMBPnVq0o0wQRuLBRoKngtRPm0oWZgICxHB_ut5NLVaiMLTD5RF7AUtsyZ8D9593pCsYcZfANlyG2A-69tDowQqu9ZRhbZnwTgciX2DA2Ske5xKUG1GnSFkNNIV9EpRz9xZ5PrIS98qYIzhiIwWZdXERlI1uCQdFWFI9TV1CGrtF4JBbVaGTyFHRv8JPhRk_8E9CkynIMq5p2jkfMH8e9idHWkVxxH9KFoJaDlZuTg-Zg"
+    },
+    {
+      "id": "v395445ad",
+      "title": "8.4.2 Ứng dụng cấu trúc set",
+      "enc": "v1.lEE7lUfglQEWYXIO.7YD3-myE23uNU-8C4aH72A.Ps-KLGPF5o4UKntaV3OY2JrF5s8z6g59IlxCP5qFPGrncr2Gb6zRBNBzhd-dOOvd8w7BwGGuJJqv1N56R9050DmQybAZM5g1BYBU12nYdEr7EunFYtKLL4J_Los1QM8V4QLq-pGrXJaMmVtQBnijrqDaxa-AhYw7q_rN-Q2vlaBHsh1gPycoyfGpQ3VjZ9PbpMQQpqGxSXLVhFY4vOc4nYNcehCjp_qACtiIep1G8cIPH5QHao5GHM4XAeJwfHsVJPjSrGBojCLF84W-k81w3o9HwCFxfhVJXdZgjMvEJYgjci47Id7QJm-G3yWDn19cLkicMt6vEhoxyLkzihC2oTAE0EZb6A3rEYVZLgZxqB882fIQxBH4dPMTZFF6lw4JHJonr-PPLz0nfkS6JFI7ZthwqT3DueZxPiJXp8krOXKnAUFZuMDC0w"
+    },
+    {
+      "id": "vf6ce5292",
+      "title": "8.4.3. Ứng dụng cấu trúc hàng đợi ưu tiên",
+      "enc": "v1.qk9T-UyUJnOGfq-D.eWPbVdHnPapMD1dl3rfFwA.GZTZL0BpdGN7wkbQ8jv0B9AWZGnbykX7fCZr9-zezbT8bk16LWRvrUhmMR1dvfV-t9SIU3d6BF-TObpaGPjdgBu0fjsX6zPh4dRTr3rLEiVLE3KOrxDF4LPRttXfTHLwsV7f0qqM_neG77biPCUvA7jksm0mvR8TY_l_U81y561-oIDcIu7rKbp3Li0sgmM2ju1RjEGBOXKZamJzBxEmNNemB_DnL8qwSnhyUhwKoKDr6x735Vhu2tkRe105YSztKeNC2pGJYmVTccLqz7y8X5vOOVYoyMy5wPe-Fw2FQP3lWgTSYmkTX8-sPpLdPVS3aKuDmAp7DEZyfL3G1am7ZNNz2q8oy-xm8loXN064bxe5rx0FcAbOUF9sRfwB-umDTNuxCgU41e_iioi0nbq20uhwj6iErzjP50nTybcbWCfDwkOE9JLrLA"
+    }
+  ],
+  "videoCount": 3,
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-30T17:54:37.187Z",
+  "updatedAt": "2026-10-30T17:54:37.187Z"
+}

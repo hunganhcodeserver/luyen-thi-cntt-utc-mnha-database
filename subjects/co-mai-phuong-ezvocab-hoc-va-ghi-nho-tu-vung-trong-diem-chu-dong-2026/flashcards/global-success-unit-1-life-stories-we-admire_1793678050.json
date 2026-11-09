@@ -1,0 +1,372 @@
+{
+  "type": "flashcard",
+  "flashcardId": "6ae95ae2d12e5592d07ba0de",
+  "title": "GLOBAL SUCCESS - Unit 1 Life Stories We Admire",
+  "slug": "global-success-unit-1-life-stories-we-admire",
+  "subjectSlug": "co-mai-phuong-ezvocab-hoc-va-ghi-nho-tu-vung-trong-diem-chu-dong-2026",
+  "description": "",
+  "mode": "language",
+  "language": "en-US",
+  "cardCount": 50,
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ae951541fd5f2f73453e2e6",
+  "updatedBy": "6ae951541fd5f2f73453e2e6",
+  "createdAt": "2026-11-03T03:54:10.219Z",
+  "updatedAt": "2026-11-03T03:54:10.219Z",
+  "cards": [
+    {
+      "id": "c1",
+      "front": "biography",
+      "back": "tiểu sử",
+      "ipa": "baɪˈɒɡrəfi",
+      "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-3/main/cache/image/1793677973183.jpg"
+    },
+    {
+      "id": "c2",
+      "front": "enemy",
+      "back": "kẻ thù",
+      "ipa": "ˈenəmi",
+      "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-3/main/cache/image/1793678039950.webp"
+    },
+    {
+      "id": "c3",
+      "front": "drop out",
+      "back": "bỏ học",
+      "ipa": "",
+      "image": ""
+    },
+    {
+      "id": "c4",
+      "front": "attend college",
+      "back": "đi học",
+      "ipa": "attend school",
+      "image": ""
+    },
+    {
+      "id": "c5",
+      "front": "childhood",
+      "back": "tuổi thơ ấu",
+      "ipa": "ˈtʃaɪldhʊd",
+      "image": ""
+    },
+    {
+      "id": "c6",
+      "front": "field hospital",
+      "back": "bệnh viện tạm thời gần chiến trường",
+      "ipa": "ˈfiːld hɒspɪtl",
+      "image": ""
+    },
+    {
+      "id": "c7",
+      "front": "accessible",
+      "back": "dễ tiếp cận",
+      "ipa": "əkˈsesəbl",
+      "image": ""
+    },
+    {
+      "id": "c8",
+      "front": "rule",
+      "back": "trị vì, cai trị",
+      "ipa": "ruːl",
+      "image": ""
+    },
+    {
+      "id": "c9",
+      "front": "the Communist Party",
+      "back": "Đảng Cộng sản",
+      "ipa": "ðə ˈkɒmjənɪst pɑːti",
+      "image": ""
+    },
+    {
+      "id": "c10",
+      "front": "defeat",
+      "back": "đánh bại",
+      "ipa": "dɪˈfiːt",
+      "image": ""
+    },
+    {
+      "id": "c11",
+      "front": "experience",
+      "back": "trải nghiệm",
+      "ipa": "ɪkˈspɪəriəns",
+      "image": ""
+    },
+    {
+      "id": "c12",
+      "front": "cancer",
+      "back": "ung thư",
+      "ipa": "ˈkænsə (r)",
+      "image": ""
+    },
+    {
+      "id": "c13",
+      "front": "Military",
+      "back": "quân sự",
+      "ipa": "ˈmɪlətri",
+      "image": ""
+    },
+    {
+      "id": "c14",
+      "front": "devote",
+      "back": "cống hiến",
+      "ipa": "dɪˈvəʊt",
+      "image": ""
+    },
+    {
+      "id": "c15",
+      "front": "stylish",
+      "back": "kiểu cách",
+      "ipa": "ˈstaɪlɪʃ",
+      "image": ""
+    },
+    {
+      "id": "c16",
+      "front": "genius",
+      "back": "thiên tài",
+      "ipa": "ˈdʒiːniəs",
+      "image": ""
+    },
+    {
+      "id": "c17",
+      "front": "admire",
+      "back": "ngưỡng mộ",
+      "ipa": "ədˈmaɪə (r)",
+      "image": ""
+    },
+    {
+      "id": "c18",
+      "front": "duty",
+      "back": "nghĩa vụ, nhiệm vụ",
+      "ipa": "ˈdjuːti",
+      "image": ""
+    },
+    {
+      "id": "c19",
+      "front": "creative",
+      "back": "sáng tạo",
+      "ipa": "kriˈeɪtɪv",
+      "image": ""
+    },
+    {
+      "id": "c20",
+      "front": "battle",
+      "back": "trận chiến",
+      "ipa": "ˈbætl",
+      "image": ""
+    },
+    {
+      "id": "c21",
+      "front": "adopt",
+      "back": "nhận con nuôi",
+      "ipa": "əˈdɒpt",
+      "image": ""
+    },
+    {
+      "id": "c22",
+      "front": "touchscreen",
+      "back": "màn hình chạm",
+      "ipa": "ˈtʌtʃskriːn",
+      "image": ""
+    },
+    {
+      "id": "c23",
+      "front": "diagnose",
+      "back": "chẩn đoán",
+      "ipa": "ˌdaɪəɡˈnəʊz",
+      "image": ""
+    },
+    {
+      "id": "c24",
+      "front": "impressive",
+      "back": "đầy ấn tượng",
+      "ipa": "ɪmˈpresɪv",
+      "image": ""
+    },
+    {
+      "id": "c25",
+      "front": "hero",
+      "back": "anh hùng",
+      "ipa": "ˈhɪərəʊ",
+      "image": ""
+    },
+    {
+      "id": "c26",
+      "front": "blockbuster",
+      "back": "phim bom tấn",
+      "ipa": "ˈblɒkbʌstə (r)",
+      "image": ""
+    },
+    {
+      "id": "c27",
+      "front": "rare",
+      "back": "hiếm",
+      "ipa": "reə (r)",
+      "image": ""
+    },
+    {
+      "id": "c28",
+      "front": "pass away",
+      "back": "qua đời",
+      "ipa": "",
+      "image": ""
+    },
+    {
+      "id": "c29",
+      "front": "account",
+      "back": "câu chuyện",
+      "ipa": "əˈkaʊnt",
+      "image": ""
+    },
+    {
+      "id": "c30",
+      "front": "cutting-edge",
+      "back": "hiện đại",
+      "ipa": "ˌkʌtɪŋ ˈedʒ",
+      "image": ""
+    },
+    {
+      "id": "c31",
+      "front": "achievement",
+      "back": "thành tựu",
+      "ipa": "əˈtʃiːvmənt",
+      "image": ""
+    },
+    {
+      "id": "c32",
+      "front": "surgeon",
+      "back": "bác sĩ phẫu thuật",
+      "ipa": "ˈsɜːdʒən",
+      "image": ""
+    },
+    {
+      "id": "c33",
+      "front": "attend",
+      "back": "đi học, tham dự",
+      "ipa": "əˈtend",
+      "image": ""
+    },
+    {
+      "id": "c34",
+      "front": "army",
+      "back": "quân đội",
+      "ipa": "ˈɑːmi",
+      "image": ""
+    },
+    {
+      "id": "c35",
+      "front": "biological",
+      "back": "(quan hệ) ruột thịt",
+      "ipa": "ˌbaɪə ˈlɒdʒɪkl",
+      "image": ""
+    },
+    {
+      "id": "c36",
+      "front": "visionary",
+      "back": "có tầm nhìn",
+      "ipa": "ˈvɪʒənri",
+      "image": ""
+    },
+    {
+      "id": "c37",
+      "front": "volunteer",
+      "back": "tình nguyện",
+      "ipa": "ˌvɒlənˈtɪə (r)",
+      "image": ""
+    },
+    {
+      "id": "c38",
+      "front": "resistance war",
+      "back": "cuộc kháng chiến",
+      "ipa": "rɪˈzɪstəns wɔː (r)",
+      "image": ""
+    },
+    {
+      "id": "c39",
+      "front": "youth",
+      "back": "tuổi trẻ",
+      "ipa": "juːθ",
+      "image": ""
+    },
+    {
+      "id": "c40",
+      "front": "be admired for something",
+      "back": "được ngưỡng mộ vì điều gì",
+      "ipa": "",
+      "image": ""
+    },
+    {
+      "id": "c41",
+      "front": "bond",
+      "back": "kết thân, kết nối",
+      "ipa": "bɒnd",
+      "image": ""
+    },
+    {
+      "id": "c42",
+      "front": "marriage",
+      "back": "cuộc hôn nhân",
+      "ipa": "ˈmærɪdʒ",
+      "image": ""
+    },
+    {
+      "id": "c43",
+      "front": "be dedicated to something",
+      "back": "cống hiến cho thứ gì",
+      "ipa": "",
+      "image": ""
+    },
+    {
+      "id": "c44",
+      "front": "be diagnosed with something",
+      "back": "được chẩn đoán mắc bệnh gì",
+      "ipa": "",
+      "image": ""
+    },
+    {
+      "id": "c45",
+      "front": "ambitious",
+      "back": "tham vọng",
+      "ipa": "æmˈbɪʃəs",
+      "image": ""
+    },
+    {
+      "id": "c46",
+      "front": "animated",
+      "back": "hoạt hình",
+      "ipa": "ˈænɪmeɪtɪd",
+      "image": ""
+    },
+    {
+      "id": "c47",
+      "front": "devote something to doing something",
+      "back": "cống hiến thứ gì cho việc gì / thứ gì",
+      "ipa": "devote something to something",
+      "image": ""
+    },
+    {
+      "id": "c48",
+      "front": "death",
+      "back": "cái chết",
+      "ipa": "deθ",
+      "image": ""
+    },
+    {
+      "id": "c49",
+      "front": "diary",
+      "back": "nhật ký",
+      "ipa": "ˈdaɪəri",
+      "image": ""
+    },
+    {
+      "id": "c50",
+      "front": "determination",
+      "back": "lòng quyết tâm",
+      "ipa": "dɪˌtɜːmɪˈneɪʃn",
+      "image": ""
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "submissionId": "6ac3c2e5addf8c64e1c91a29",
+  "submittedAt": "2026-10-05T15:31:49.212Z",
+  "gradedAt": "2026-10-05T15:32:23.141Z",
+  "status": "graded",
+  "errorMessage": null,
+  "userId": "6ab3d694415010bf620349e5",
+  "userName": "Mai Ngọc Hùng Anh",
+  "userEmail": "hunganh.okokok.0@gmail.com",
+  "subjectId": "6ab5aeac813f0f6c24604455",
+  "subjectName": "Lập trình hướng đối tượng-1-1-26(N04)",
+  "subjectCode": "IT1.108.3",
+  "subjectSlug": "lap-trinh-huong-doi-tuong-1-1-26n04",
+  "lessonId": "6ac33e6160a3636c8e36759a",
+  "lessonTitle": "(Kiểm tra ngắn OOP C++) Đề 2 05/10/2026",
+  "lessonSlug": "kiem-tra-ngan-oop-c-de-2-05102026",
+  "lessonDuration": 30,
+  "lessonContentHtml": "\r\n\r\n<blockquote>\r\n    <p><strong>Lưu ý chung khi làm bài:</strong></p>\r\n    <ul>\r\n        <li>Dùng <code>cin &gt;&gt; ws; getline(cin, ...)</code> để nhập chuỗi ký tự nhằm tránh lỗi trôi lệnh (không sử dụng <code>cin.ignore()</code>).</li>\r\n        <li>Giả sử số lượng phần tử <var>n</var> &gt;= 1 khi thực hiện các thao tác tìm giá trị lớn nhất (max) hoặc nhỏ nhất (min).</li>\r\n    </ul>\r\n</blockquote>\r\n\r\n\r\n\r\n\r\n<!-- ĐỀ 2 -->\r\n<section id=\"de-2\">\r\n    <h2>Đề 2: Lớp Người và lớp Nhân viên</h2>\r\n    <p><strong>Yêu cầu:</strong></p>\r\n    <ol>\r\n        <li>Thiết lập lớp cha <code>Nguoi</code> gồm các thuộc tính <code>private</code>: họ tên, năm sinh. Cung cấp hàm nhập, xuất và getter cho năm sinh.</li>\r\n        <li>Xây dựng lớp con <code>NhanVien</code> kế thừa từ lớp <code>Nguoi</code>, bổ sung thuộc tính hệ số lương. Thiết lập hàm tính lương theo công thức: <code>Luong = heSoLuong * 2570</code>.</li>\r\n        <li>Viết hàm <code>main</code> nhập vào danh sách gồm <var>n</var> nhân viên. Thực hiện tính và in ra màn hình thông tin kèm số lương cụ thể của từng nhân viên.</li>\r\n    </ol>\r\n</section>",
+  "lessonSampleSolution": "",
+  "answerHtml": "#include<bits/stdc++.h>\n\nusing namespace std;\nusing ll = long long;\n\nclass Nguoi{\n\tprivate:\n\t\tstring hoTen;\n\t\tint namSinh;\n\tpublic:\n//\t\tvoid nhap(){\n//\t\t\tcout << \"Nhap ho ten: \";\n//\t\t\tcin.ignore();\n//\t\t\tgetline(cin, hoTen);\n//\t\t\tcin << \"Nhap nam sinh: \";\n//\t\t\tcin << namSinh;\n//\t\t}\n//\t\tvoid xuat(){\n//\t\t\tcout << \"Ho ten: \" << hoTen << \", nam sinh: \" << namSinh << endl;\n//\t\t}\n        // Nạp chồng toán tử nhập cho lớp Nguoi\n        friend istream& operator >> (istream &is, Nguoi &n) {\n            cout << \"Nhap ho ten: \";\n            is.ignore(); // Xóa bộ nhớ đệm trước khi dùng getline\n            getline(is, n.hoTen);\n            cout << \"Nhap nam sinh: \";\n            is >> n.namSinh;\n            return is;\n        }\n        // Nạp chồng toán tử xuất cho lớp Nguoi\n        friend ostream& operator << (ostream &os, const Nguoi &n){\n        \tos << \"Ho ten: \" << n.hoTen << \", Nam sinh: \" << n.namSinh;\n        \treturn os;\n\t\t}\n        int getNS() {\n            return namSinh;\n        }\n\t\tint getTuoi(){\n\t\t\treturn 2026 - namSinh;\n\t\t}\n};\n\nclass NhanVien : public Nguoi{\n\tprivate:\n\t\tdouble heSoLuong;\n\tpublic:\n\t\tdouble luong() const{\n\t\t\treturn heSoLuong * 2570;\n\t\t}\n//\t\tvoid nhap(){\n//\t\t\tNguoi::nhap();\n//\t\t\tcout<<\"Nhap he so luong: \";\n//\t\t\tcin>>luong;\n//\t\t}\n//\t\tvoid xuat(){\n//\t\t\tNguoi::xuat();\n//\t\t\tcout<<\", luong: \"<<luong;\n//\t\t}\n        // Nạp chồng toán tử nhập cho lớp NhanVien (gọi lại toán tử của Nguoi)\n        friend istream& operator >> (istream &is, NhanVien &nv){\n        \tis >> (Nguoi&)nv;\n        \tcout << \"Nhap he so luong: \";\n        \tis >> nv.heSoLuong;\n        \treturn is;\n\t\t}\n        // Nạp chồng toán tử xuất cho lớp NhanVien (gọi lại toán tử của Nguoi)\n        friend ostream& operator << (ostream &os, const NhanVien &nv){\n        \tos << (const Nguoi&)nv;\n        \tos << \", He so luong: \" << nv.heSoLuong << \", Luong: \" << nv.luong() << endl;\n        \treturn os;\n\t\t}\n};\n\nint main(){\n\tint n;\n\tcout<<\"Nhap n: \";\n\tcin>>n;\n\tNhanVien nv[n];\n\tcout << \"\\n--- NHAP THONG TIN CHO NHAN VIEN ---\\n\";\n\tfor(int i = 0; i < n; i++){\n        cout << \"\\nNhap nhan vien thu \" << i + 1 << \":\\n\";\n        cin >> nv[i];\n\t}\n    cout << \"\\n--- DANH SACH NHAN VIEN VUA NHAP ---\\n\";\n    for (int i = 0; i < n; i++) {\n        cout << \"[\" << i + 1 << \"] \" << nv[i] << endl; \n    }\n    return 0;\n}",
+  "score": 9,
+  "feedback": "Bài làm đáp ứng tốt các yêu cầu cốt lõi của Đề 2: lớp Nguoi có thuộc tính private (hoTen, namSinh), getter năm sinh (getNS), nạp chồng >> và << dạng friend; lớp NhanVien kế thừa public, bổ sung heSoLuong private và hàm luong() đúng công thức heSoLuong * 2570; toán tử của lớp con gọi lại toán tử lớp cha qua ép kiểu (Nguoi&) — cách làm hợp lý. Hàm main nhập n, nhập danh sách và in đầy đủ thông tin kèm lương. Nhược điểm: (1) vi phạm lưu ý của đề — dùng is.ignore() thay vì cin >> ws; getline(...); cách này tuy chạy đúng trong luồng nhập hiện tại nhưng dễ lỗi nếu thứ tự nhập thay đổi; (2) dùng mảng có kích thước động NhanVien nv[n] (VLA) — không chuẩn C++, chỉ biên dịch được với g++ mở rộng; nên dùng vector hoặc new/delete; (3) operator<< của NhanVien có endl bên trong, lại thêm endl ở main gây thừa dòng trống — toán tử xuất không nên tự xuống dòng; (4) không có hàm tạo (mặc dù không cấp phát động nên không bắt buộc hàm hủy); (5) còn sót code cũ bị comment, dùng bits/stdc++.h và alias 'll' không dùng đến. Các tiêu chí về toán tử một ngôi và hai ngôi/so sánh không được đề bài yêu cầu nên được tính đủ điểm. Chương trình biên dịch được với g++.",
+  "breakdown": [
+    {
+      "criterion": "Khai báo lớp, thuộc tính private, hàm tạo/hàm hủy đúng",
+      "score": 1.1,
+      "comment": "Hai lớp đúng cấu trúc, thuộc tính private đúng đề, kế thừa public hợp lý. Trừ nhẹ do không có hàm tạo mặc định/có đối (không cấp phát động nên không cần hàm hủy)."
+    },
+    {
+      "criterion": "Nạp chồng toán tử nhập >> là friend, nhập đúng dữ liệu",
+      "score": 0.95,
+      "comment": "operator>> là friend cho cả Nguoi và NhanVien, nhập đúng 3 trường, lớp con gọi lại lớp cha. Trừ điểm vì dùng is.ignore() thay vì cin >> ws; getline(...) như đề yêu cầu (dễ trôi lệnh khi đổi thứ tự nhập)."
+    },
+    {
+      "criterion": "Nạp chồng toán tử xuất << là friend, xuất đúng dữ liệu",
+      "score": 0.8,
+      "comment": "operator<< là friend, in họ tên, năm sinh, hệ số lương và lương cụ thể. Trừ nhẹ do tự thêm endl trong toán tử gây thừa dòng khi main cũng endl."
+    },
+    {
+      "criterion": "Các phương thức getter/setter hoặc phương thức phụ trợ đúng",
+      "score": 0.5,
+      "comment": "Có getNS() theo yêu cầu, thêm getTuoi() và luong() const đúng công thức."
+    },
+    {
+      "criterion": "Nạp chồng toán tử một ngôi (nếu đề yêu cầu +, -, !, ...)",
+      "score": 1.4,
+      "comment": "Đề 2 không yêu cầu toán tử một ngôi — tính đủ điểm."
+    },
+    {
+      "criterion": "Nạp chồng toán tử hai ngôi / so sánh (nếu đề yêu cầu +, -, >, <, ==, ...)",
+      "score": 1.4,
+      "comment": "Đề 2 không yêu cầu toán tử hai ngôi/so sánh — tính đủ điểm."
+    },
+    {
+      "criterion": "Hàm main nhập/xuất/xử lý đầy đủ theo đề",
+      "score": 1.25,
+      "comment": "Nhập n, nhập danh sách, tính và in thông tin kèm lương từng nhân viên đầy đủ. Trừ do dùng mảng VLA NhanVien nv[n] không chuẩn C++."
+    },
+    {
+      "criterion": "Quản lý bộ nhớ động đúng, không rò rỉ",
+      "score": 0.9,
+      "comment": "Không dùng new/delete nên không có rò rỉ bộ nhớ."
+    },
+    {
+      "criterion": "Phong cách, đặt tên, chú thích, không lỗi biên dịch",
+      "score": 0.7,
+      "comment": "Đặt tên rõ ràng, có chú thích cho các toán tử, biên dịch được với g++. Trừ do còn nhiều code comment dư, dùng bits/stdc++.h và alias 'll' không dùng."
+    }
+  ],
+  "grammar": null,
+  "sampleComparison": null,
+  "model": "occ/claude-opus-5",
+  "aiKeyId": "6abfdf08b29c124d59ccc66b",
+  "aiKeyName": "hunganh2006",
+  "aiProvider": "vilao",
+  "latencyMs": 33166,
+  "promptSnapshot": {
+    "kind": "essay",
+    "promptId": "6ab736bee5d88208e9117c70",
+    "name": "Prompt Kiểm tra ngắn OOP C++",
+    "content": "Bạn là giảng viên chấm bài môn Lập trình hướng đối tượng (C++).\r\nHãy chấm bài làm của sinh viên theo đúng rubric dưới đây. Chỉ đánh giá dựa trên mã nguồn được cung cấp và yêu cầu đề bài. Không suy diễn thêm. Nếu bài không biên dịch được, ghi rõ trong feedback và chỉ cho điểm các phần có thể xác minh.\r\n\r\nTên sinh viên: {student_name}\r\nĐiểm tối đa: {max_score}\r\n\r\nĐỀ BÀI:\r\n{đề_bài}\r\n\r\nRUBRIC:\r\n{rubric}\r\n\r\nLỜI GIẢI MẪU THAM KHẢO (nếu cần đối chiếu):\r\n{lời_giải_mẫu}\r\n\r\nBÀI LÀM SINH VIÊN:\r\n{bài_làm}\r\n\r\nYÊU CẦU TRẢ VỀ:\r\nTrả về DUY NHẤT một object JSON hợp lệ, không thêm văn bản ngoài JSON:\r\n{\r\n  \"score\": number,\r\n  \"feedback\": string,\r\n  \"breakdown\": [{\"criterion\": string, \"score\": number, \"comment\": string}]\r\n}\r\n\r\nVariables:\r\n{\r\n  \"variables\": [\r\n    \"{đề_bài}\",\r\n    \"{bài_làm}\",\r\n    \"{rubric}\",\r\n    \"{max_score}\",\r\n    \"{student_name}\",\r\n    \"{lời_giải_mẫu}\"\r\n  ]\r\n}",
+    "rubric": [
+      {
+        "criterion": "Khai báo lớp, thuộc tính private, hàm tạo/hàm hủy đúng",
+        "weight": 13,
+        "description": "Lớp có các thuộc tính private theo đề; hàm tạo mặc định/hàm tạo có đối; hàm hủy nếu có cấp phát động."
+      },
+      {
+        "criterion": "Nạp chồng toán tử nhập >> là friend, nhập đúng dữ liệu",
+        "weight": 13,
+        "description": "operator>> là friend, nhập đúng các trường theo đề; xử lý khoảng trắng hợp lý nếu cần."
+      },
+      {
+        "criterion": "Nạp chồng toán tử xuất << là friend, xuất đúng dữ liệu",
+        "weight": 9,
+        "description": "operator<< là friend, in ra thông tin rõ ràng, đúng định dạng đề yêu cầu."
+      },
+      {
+        "criterion": "Các phương thức getter/setter hoặc phương thức phụ trợ đúng",
+        "weight": 5,
+        "description": "Cung cấp đủ getter/setter hoặc phương thức mà đề yêu cầu."
+      },
+      {
+        "criterion": "Nạp chồng toán tử một ngôi (nếu đề yêu cầu +, -, !, ...)",
+        "weight": 14,
+        "description": "Cài đặt đúng toán tử một ngôi theo đề, ví dụ operator+() tính tổng, operator-() đổi dấu, operator!() đảo ngược."
+      },
+      {
+        "criterion": "Nạp chồng toán tử hai ngôi / so sánh (nếu đề yêu cầu +, -, >, <, ==, ...)",
+        "weight": 14,
+        "description": "Cài đặt đúng toán tử hai ngôi hoặc toán tử so sánh theo đề, xử lý đúng ngữ nghĩa."
+      },
+      {
+        "criterion": "Hàm main nhập/xuất/xử lý đầy đủ theo đề",
+        "weight": 14,
+        "description": "main thực hiện đủ các bước: nhập, xuất, tính toán, so sánh, sắp xếp, tìm kiếm, ... theo đề."
+      },
+      {
+        "criterion": "Quản lý bộ nhớ động đúng, không rò rỉ",
+        "weight": 9,
+        "description": "Nếu dùng new/delete, cấp phát và giải phóng đúng; không rò rỉ bộ nhớ."
+      },
+      {
+        "criterion": "Phong cách, đặt tên, chú thích, không lỗi biên dịch",
+        "weight": 9,
+        "description": "Code rõ ràng, đặt tên hợp lý, có chú thích, biên dịch thành công."
+      }
+    ],
+    "strictness": "strict",
+    "maxScore": 10,
+    "scope": "lesson",
+    "version": 4,
+    "isFallback": false,
+    "unknownPlaceholders": [],
+    "snapshotAt": "2026-10-05T15:32:22.927Z"
+  },
+  "raw": {
+    "score": 9,
+    "feedback": "Bài làm đáp ứng tốt các yêu cầu cốt lõi của Đề 2: lớp Nguoi có thuộc tính private (hoTen, namSinh), getter năm sinh (getNS), nạp chồng >> và << dạng friend; lớp NhanVien kế thừa public, bổ sung heSoLuong private và hàm luong() đúng công thức heSoLuong * 2570; toán tử của lớp con gọi lại toán tử lớp cha qua ép kiểu (Nguoi&) — cách làm hợp lý. Hàm main nhập n, nhập danh sách và in đầy đủ thông tin kèm lương. Nhược điểm: (1) vi phạm lưu ý của đề — dùng is.ignore() thay vì cin >> ws; getline(...); cách này tuy chạy đúng trong luồng nhập hiện tại nhưng dễ lỗi nếu thứ tự nhập thay đổi; (2) dùng mảng có kích thước động NhanVien nv[n] (VLA) — không chuẩn C++, chỉ biên dịch được với g++ mở rộng; nên dùng vector hoặc new/delete; (3) operator<< của NhanVien có endl bên trong, lại thêm endl ở main gây thừa dòng trống — toán tử xuất không nên tự xuống dòng; (4) không có hàm tạo (mặc dù không cấp phát động nên không bắt buộc hàm hủy); (5) còn sót code cũ bị comment, dùng bits/stdc++.h và alias 'll' không dùng đến. Các tiêu chí về toán tử một ngôi và hai ngôi/so sánh không được đề bài yêu cầu nên được tính đủ điểm. Chương trình biên dịch được với g++.",
+    "breakdown": [
+      {
+        "criterion": "Khai báo lớp, thuộc tính private, hàm tạo/hàm hủy đúng",
+        "score": 1.1,
+        "comment": "Hai lớp đúng cấu trúc, thuộc tính private đúng đề, kế thừa public hợp lý. Trừ nhẹ do không có hàm tạo mặc định/có đối (không cấp phát động nên không cần hàm hủy)."
+      },
+      {
+        "criterion": "Nạp chồng toán tử nhập >> là friend, nhập đúng dữ liệu",
+        "score": 0.95,
+        "comment": "operator>> là friend cho cả Nguoi và NhanVien, nhập đúng 3 trường, lớp con gọi lại lớp cha. Trừ điểm vì dùng is.ignore() thay vì cin >> ws; getline(...) như đề yêu cầu (dễ trôi lệnh khi đổi thứ tự nhập)."
+      },
+      {
+        "criterion": "Nạp chồng toán tử xuất << là friend, xuất đúng dữ liệu",
+        "score": 0.8,
+        "comment": "operator<< là friend, in họ tên, năm sinh, hệ số lương và lương cụ thể. Trừ nhẹ do tự thêm endl trong toán tử gây thừa dòng khi main cũng endl."
+      },
+      {
+        "criterion": "Các phương thức getter/setter hoặc phương thức phụ trợ đúng",
+        "score": 0.5,
+        "comment": "Có getNS() theo yêu cầu, thêm getTuoi() và luong() const đúng công thức."
+      },
+      {
+        "criterion": "Nạp chồng toán tử một ngôi (nếu đề yêu cầu +, -, !, ...)",
+        "score": 1.4,
+        "comment": "Đề 2 không yêu cầu toán tử một ngôi — tính đủ điểm."
+      },
+      {
+        "criterion": "Nạp chồng toán tử hai ngôi / so sánh (nếu đề yêu cầu +, -, >, <, ==, ...)",
+        "score": 1.4,
+        "comment": "Đề 2 không yêu cầu toán tử hai ngôi/so sánh — tính đủ điểm."
+      },
+      {
+        "criterion": "Hàm main nhập/xuất/xử lý đầy đủ theo đề",
+        "score": 1.25,
+        "comment": "Nhập n, nhập danh sách, tính và in thông tin kèm lương từng nhân viên đầy đủ. Trừ do dùng mảng VLA NhanVien nv[n] không chuẩn C++."
+      },
+      {
+        "criterion": "Quản lý bộ nhớ động đúng, không rò rỉ",
+        "score": 0.9,
+        "comment": "Không dùng new/delete nên không có rò rỉ bộ nhớ."
+      },
+      {
+        "criterion": "Phong cách, đặt tên, chú thích, không lỗi biên dịch",
+        "score": 0.7,
+        "comment": "Đặt tên rõ ràng, có chú thích cho các toán tử, biên dịch được với g++. Trừ do còn nhiều code comment dư, dùng bits/stdc++.h và alias 'll' không dùng."
+      }
+    ]
+  }
+}

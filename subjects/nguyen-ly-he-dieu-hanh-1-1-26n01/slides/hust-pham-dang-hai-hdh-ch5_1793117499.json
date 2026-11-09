@@ -1,0 +1,29 @@
+{
+  "type": "slide",
+  "slideId": "6ae0cd67ef54c9b30a69789b",
+  "title": "HUST_Phạm Đăng Hải_HDH-Ch5",
+  "slug": "hust-pham-dang-hai-hdh-ch5",
+  "subjectSlug": "nguyen-ly-he-dieu-hanh-1-1-26n01",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/nguyen-ly-he-dieu-hanh-1-1-26n01/slides/hust-pham-dang-hai-hdh-ch5_1793117499.pdf",
+      "enc": 1605239,
+      "plain": 1605179
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 1605179,
+  "originalName": "HUST_Phạm Đăng Hải_HDH-Ch5.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-27T16:12:23.925Z",
+  "updatedAt": "2026-10-27T16:12:23.925Z"
+}
