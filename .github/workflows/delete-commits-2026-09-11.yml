@@ -1,0 +1,90 @@
+# Đặt vào repo dữ liệu tại: .github/workflows/delete-commits.yml  (cần secret PRUNE_TOKEN như workflow prune-history)
+# Xoá khỏi lịch sử các commit "connect: lưu lượng tuần…" / "connect: chốt lưu lượng tuần…", TRỪ commit dfb7b5e và commit mới nhất của nhánh.
+# Nội dung file cuối cùng không đổi (thay đổi của commit bị xoá được gộp vào commit kế tiếp).
+# Chạy: tab Actions → "Delete commits" → Run workflow (nên chạy dry = true trước).
+name: Delete commits
+on:
+  workflow_dispatch:
+    inputs:
+      pattern:
+        description: 'Regex (grep -E) khớp message commit cần xoá'
+        default: '^connect: (chốt )?lưu lượng tuần'
+      keep:
+        description: 'SHA commit được giữ lại'
+        default: 'dfb7b5e23d2c52d24e0a37ee0d31270874dc6152'
+      dry:
+        description: 'Chỉ xem trước, không sửa (true/false)'
+        default: 'true'
+permissions:
+  contents: read
+concurrency:
+  group: delete-commits
+  cancel-in-progress: false
+jobs:
+  delete:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - name: Delete commits
+        env:
+          TOKEN: ${{ secrets.PRUNE_TOKEN }}
+          OWNER: ${{ github.repository_owner }}
+          REPO: ${{ github.event.repository.name }}
+          PATTERN: ${{ inputs.pattern }}
+          KEEP: ${{ inputs.keep }}
+          DRY: ${{ inputs.dry }}
+        run: |
+          #!/usr/bin/env bash
+          # Xoá khỏi lịch sử các commit có message khớp PATTERN (trừ commit KEEP). Nội dung file cuối cùng KHÔNG đổi:
+          # thay đổi của commit bị xoá được gộp vào commit kế tiếp (các commit còn lại giữ nguyên cây, message, tác giả, ngày).
+          # Env: TOKEN · OWNER · REPO · PATTERN (regex -E) · KEEP (sha, đủ hoặc rút gọn) · DRY=true|false · REMOTE_URL (chỉ để test)
+          set -uo pipefail
+          DRY="${DRY:-false}"; export GIT_TERMINAL_PROMPT=0
+          URL="${REMOTE_URL:-https://x-access-token:${TOKEN:-}@github.com/${OWNER}/${REPO}.git}"
+          if [ -z "${TOKEN:-}" ] && [ -z "${REMOTE_URL:-}" ]; then echo "❌ Thiếu secret PRUNE_TOKEN (Settings → Secrets and variables → Actions)."; exit 1; fi
+
+          copy_commit() {  # <commit> <parent|rỗng> → sha commit mới (cùng cây/message/tác giả/ngày)
+            local c="$1" p="${2:-}" an ae ad cn ce cd t
+            IFS=$'\x1f' read -r an ae ad cn ce cd < <(git log -1 --format='%an%x1f%ae%x1f%aI%x1f%cn%x1f%ce%x1f%cI' "$c")
+            t="$(git rev-parse "$c^{tree}")"
+            git log -1 --format=%B "$c" | GIT_AUTHOR_NAME="$an" GIT_AUTHOR_EMAIL="$ae" GIT_AUTHOR_DATE="$ad" GIT_COMMITTER_NAME="$cn" GIT_COMMITTER_EMAIL="$ce" GIT_COMMITTER_DATE="$cd" git commit-tree "$t" ${p:+-p "$p"}
+          }
+
+          d="$(mktemp -d)"
+          git clone -q --bare --single-branch --filter=blob:none "$URL" "$d" || { echo "❌ Không clone được repo"; exit 1; }
+          cd "$d" || exit 1
+          BR="$(git symbolic-ref --short HEAD)"; head="$(git rev-parse HEAD)"
+
+          # Danh sách commit (cũ → mới) theo nhánh chính; đánh dấu commit cần xoá
+          mapfile -t ALL < <(git rev-list --first-parent --reverse HEAD)
+          declare -A DEL=()
+          first=-1; n=0
+          while IFS=$'\x1f' read -r sha subj; do
+            # Commit đầu nhánh (mới nhất) luôn được giữ: không có commit sau nó để gộp thay đổi vào, xoá sẽ làm mất nội dung.
+            [ "$sha" = "$head" ] && continue
+            if [[ "$subj" =~ $PATTERN ]] && [[ -z "${KEEP:-}" || "$sha" != "$KEEP"* ]]; then DEL[$sha]=1; n=$((n+1)); fi
+          done < <(git log --first-parent --reverse --format='%H%x1f%s' HEAD)
+          echo "• Tổng ${#ALL[@]} commit; khớp \"$PATTERN\" (trừ ${KEEP:-không}) → sẽ xoá $n commit."
+          [ "$n" -eq 0 ] && { echo "Không có gì để xoá."; exit 0; }
+          if [ "$DRY" = "true" ]; then git log --first-parent --format='%h %s' HEAD | grep -E "$PATTERN" | head -5; echo "(xem trước — chưa sửa gì)"; exit 0; fi
+
+          # Giữ nguyên các commit trước commit bị xoá đầu tiên; phát lại phần còn lại, bỏ qua commit bị xoá
+          prev=""; started=0; skipped_root=0
+          for c in "${ALL[@]}"; do
+            if [ $started -eq 0 ]; then
+              if [ -n "${DEL[$c]:-}" ]; then started=1; else prev="$c"; continue; fi
+            fi
+            [ -n "${DEL[$c]:-}" ] && continue
+            prev="$(copy_commit "$c" "$prev")" || { echo "❌ lỗi tạo commit"; exit 1; }
+          done
+          [ "$(git rev-parse "$prev^{tree}")" = "$(git rev-parse "$head^{tree}")" ] || { echo "❌ cây thư mục mới khác cũ — HUỶ, chưa sửa gì."; exit 1; }
+
+          for try in 1 2 3 4 5 6; do
+            if git push -q --force-with-lease="refs/heads/$BR:$head" origin "$prev:refs/heads/$BR" 2>/dev/null; then echo "✅ Xong: đã xoá $n commit → ${prev:0:7}"; exit 0; fi
+            git fetch -q origin "+refs/heads/$BR:refs/prune/remote" || exit 1
+            cur="$(git rev-parse refs/prune/remote)"
+            git merge-base --is-ancestor "$head" "$cur" || { echo "❌ Nhánh bị ghi đè trong lúc chạy — chạy lại."; exit 1; }
+            while read -r c; do prev="$(copy_commit "$c" "$prev")" || exit 1; done < <(git rev-list --first-parent --reverse "$head..$cur")
+            head="$cur"
+          done
+          echo "❌ Đẩy lỗi nhiều lần"; exit 1
