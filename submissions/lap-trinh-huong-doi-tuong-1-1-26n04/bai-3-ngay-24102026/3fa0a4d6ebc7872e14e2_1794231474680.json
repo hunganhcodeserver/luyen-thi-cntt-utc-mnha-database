@@ -1,7 +1,7 @@
 {
   "submissionId": "6af1ccb05ebe007f0e141a15",
   "submittedAt": "2026-11-09T13:37:52.025Z",
-  "gradedAt": "2026-11-09T13:37:54.793Z",
+  "gradedAt": "2026-11-09T13:37:54.256Z",
   "status": "graded",
   "errorMessage": null,
   "userId": "6aeb2daa6fb2175f94d64c9d",
@@ -109,5 +109,8 @@
         "explanation": "Vòng lặp tìm điểm gần gốc phải bắt đầu từ 1 (điểm thứ hai), không phải 12, vì 12 có thể vượt ngoài vùng nhớ khi n<12."
       }
     ]
-  }
+  },
+  "type": "essay",
+  "teacherComment": null,
+  "updatedAt": "2026-11-09T13:37:56.067Z"
 }
