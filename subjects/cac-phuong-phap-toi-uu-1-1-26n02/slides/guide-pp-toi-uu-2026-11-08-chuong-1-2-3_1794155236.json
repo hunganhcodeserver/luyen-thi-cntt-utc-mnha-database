@@ -7,13 +7,13 @@
   "description": "",
   "parts": [
     {
-      "path": "subjects/cac-phuong-phap-toi-uu-1-1-26n02/slides/guide-pp-toi-uu-2026-11-08-chuong-1-2-3_1794161076.pdf",
-      "enc": 1656265,
-      "plain": 1656205
+      "path": "subjects/cac-phuong-phap-toi-uu-1-1-26n02/slides/guide-pp-toi-uu-2026-11-08-chuong-1-2-3_1794208000.pdf",
+      "enc": 2181899,
+      "plain": 2181783
     }
   ],
   "fileExt": "pdf",
-  "fileSize": 1656205,
+  "fileSize": 2181783,
   "originalName": "guide_pp-toi-uu_2026-11-08_chuong-1-2-3.pdf",
   "encrypted": true,
   "encryption": "aes-256-gcm",
@@ -25,5 +25,5 @@
   "createdBy": "6ab3d694415010bf620349e5",
   "updatedBy": "6ab3d694415010bf620349e5",
   "createdAt": "2026-11-08T16:27:31.932Z",
-  "updatedAt": "2026-11-08T18:04:50.984Z"
+  "updatedAt": "2026-11-09T07:06:59.739Z"
 }
