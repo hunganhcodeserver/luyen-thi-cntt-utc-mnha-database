@@ -1,7 +1,7 @@
 {
   "submissionId": "6af1c4ba844d0ac11f48a9e1",
   "submittedAt": "2026-11-09T13:03:54.366Z",
-  "gradedAt": "2026-11-09T13:03:58.841Z",
+  "gradedAt": "2026-11-09T13:03:58.370Z",
   "status": "graded",
   "errorMessage": null,
   "userId": "6aeb2daa6fb2175f94d64c9d",
@@ -124,5 +124,8 @@
         "explanation": "The specification restricts mau to values 1,2,3; validation ensures correct input."
       }
     ]
-  }
+  },
+  "type": "essay",
+  "teacherComment": null,
+  "updatedAt": "2026-11-09T13:03:59.972Z"
 }
