@@ -1,0 +1,29 @@
+{
+  "type": "slide",
+  "slideId": "6af32eae1695cb74b35fde3b",
+  "title": "Ôn cấp tốc Hệ điều hành – giữa kỳ",
+  "slug": "on-cap-toc-he-dieu-hanh-giua-ky",
+  "subjectSlug": "nguyen-ly-he-dieu-hanh-1-1-26n01",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/nguyen-ly-he-dieu-hanh-1-1-26n01/slides/on-cap-toc-he-dieu-hanh-giua-ky_1794322059.pptx",
+      "enc": 474863,
+      "plain": 474803
+    }
+  ],
+  "fileExt": "pptx",
+  "fileSize": 474803,
+  "originalName": "Ôn cấp tốc Hệ điều hành – giữa kỳ.pptx",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-11-10T14:48:14.566Z",
+  "updatedAt": "2026-11-10T14:48:14.566Z"
+}
