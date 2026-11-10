@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-08T10:56:03.518Z",
-  "total": 39,
+  "updatedAt": "2026-11-10T14:58:49.798Z",
+  "total": 40,
   "logs": [
     {
       "id": "6ac45a48c3fe67bf29ff941c",
@@ -790,6 +790,28 @@
       "ipAddress": "42.117.149.238",
       "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_7_16 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/20H392 [FBAN/FBIOS;FBAV/575.0.0.28.104;FBBV/1043783737;FBDV/iPhone10,2;FBMD/iPhone;FBSN/iOS;FBSV/16.7.16;FBSS/3;FBCR/;FBID/phone;FBLC/vi_VN;FBOP/80]",
       "createdAt": "2026-11-08T10:56:02.669Z"
+    },
+    {
+      "id": "6af3312962724b2e7055bb6b",
+      "actor": null,
+      "actorEmail": "pthanhthuy9669@gmail.com",
+      "action": "login_failed_locked",
+      "entity": "Auth",
+      "entityId": null,
+      "description": "Đăng nhập sai 5/5 lần với email \"pthanhthuy9669@gmail.com\" lúc 21:58:48 10/11/2026 (IP 118.68.41.169, Safari 26 · iOS). Thiết bị này bị khoá 1 phút.",
+      "metadata": {
+        "email": "pthanhthuy9669@gmail.com",
+        "ip": "118.68.41.169",
+        "device": "Safari 26 · iOS",
+        "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Mobile/15E148 Safari/604.1",
+        "attempts": 5,
+        "failedAt": "2026-11-10T14:58:48.989Z",
+        "lockedUntil": "2026-11-10T14:59:48.989Z",
+        "accountExists": false
+      },
+      "ipAddress": "118.68.41.169",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Mobile/15E148 Safari/604.1",
+      "createdAt": "2026-11-10T14:58:48.989Z"
     }
   ]
 }
