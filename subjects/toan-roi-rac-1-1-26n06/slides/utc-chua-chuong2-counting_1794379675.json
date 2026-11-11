@@ -1,0 +1,29 @@
+{
+  "type": "slide",
+  "slideId": "6af40fb5bd84ec63ff984d43",
+  "title": "UTC_Chua_Chuong2_Counting",
+  "slug": "utc-chua-chuong2-counting",
+  "subjectSlug": "toan-roi-rac-1-1-26n06",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/toan-roi-rac-1-1-26n06/slides/utc-chua-chuong2-counting_1794379675.pptx",
+      "enc": 298437,
+      "plain": 298377
+    }
+  ],
+  "fileExt": "pptx",
+  "fileSize": 298377,
+  "originalName": "UTC_Chua_Chuong2_Counting.pptx",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-11-11T06:48:21.562Z",
+  "updatedAt": "2026-11-11T06:48:21.562Z"
+}
