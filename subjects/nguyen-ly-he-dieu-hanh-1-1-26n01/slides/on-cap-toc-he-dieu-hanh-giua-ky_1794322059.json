@@ -7,13 +7,13 @@
   "description": "",
   "parts": [
     {
-      "path": "subjects/nguyen-ly-he-dieu-hanh-1-1-26n01/slides/on-cap-toc-he-dieu-hanh-giua-ky_1794322059.pptx",
-      "enc": 474863,
-      "plain": 474803
+      "path": "subjects/nguyen-ly-he-dieu-hanh-1-1-26n01/slides/on-cap-toc-he-dieu-hanh-giua-ky_1794458828.pptx",
+      "enc": 526129,
+      "plain": 526069
     }
   ],
   "fileExt": "pptx",
-  "fileSize": 474803,
+  "fileSize": 526069,
   "originalName": "Ôn cấp tốc Hệ điều hành – giữa kỳ.pptx",
   "encrypted": true,
   "encryption": "aes-256-gcm",
@@ -25,5 +25,5 @@
   "createdBy": "6ab3d694415010bf620349e5",
   "updatedBy": "6ab3d694415010bf620349e5",
   "createdAt": "2026-11-10T14:48:14.566Z",
-  "updatedAt": "2026-11-10T14:48:14.566Z"
+  "updatedAt": "2026-11-12T04:48:04.830Z"
 }
