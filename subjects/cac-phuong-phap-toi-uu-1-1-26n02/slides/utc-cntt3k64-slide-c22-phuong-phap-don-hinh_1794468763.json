@@ -1,0 +1,29 @@
+{
+  "type": "slide",
+  "slideId": "6af56bb88437f51a51de4966",
+  "title": "UTC_CNTT3K64_slide-c22-phuong-phap-don-hinh",
+  "slug": "utc-cntt3k64-slide-c22-phuong-phap-don-hinh",
+  "subjectSlug": "cac-phuong-phap-toi-uu-1-1-26n02",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/cac-phuong-phap-toi-uu-1-1-26n02/slides/utc-cntt3k64-slide-c22-phuong-phap-don-hinh_1794468763.pptx",
+      "enc": 7698388,
+      "plain": 7698160
+    }
+  ],
+  "fileExt": "pptx",
+  "fileSize": 7698160,
+  "originalName": "UTC_CNTT3K64_slide-c22-phuong-phap-don-hinh.pptx",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-11-12T07:33:12.739Z",
+  "updatedAt": "2026-11-12T07:33:12.739Z"
+}
