@@ -1,0 +1,29 @@
+{
+  "type": "slide",
+  "slideId": "6af56a5d8437f51a51de495f",
+  "title": "UTC_CNTT3K64_slide-bai1_2-daohamrieng",
+  "slug": "utc-cntt3k64-slide-bai1-2-daohamrieng",
+  "subjectSlug": "cac-phuong-phap-toi-uu-1-1-26n02",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/cac-phuong-phap-toi-uu-1-1-26n02/slides/utc-cntt3k64-slide-bai1-2-daohamrieng_1794468418.pptx",
+      "enc": 6311529,
+      "plain": 6311301
+    }
+  ],
+  "fileExt": "pptx",
+  "fileSize": 6311301,
+  "originalName": "UTC_CNTT3K64_slide-bai1_2-daohamrieng.pptx",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-11-12T07:27:25.828Z",
+  "updatedAt": "2026-11-12T07:27:25.828Z"
+}
