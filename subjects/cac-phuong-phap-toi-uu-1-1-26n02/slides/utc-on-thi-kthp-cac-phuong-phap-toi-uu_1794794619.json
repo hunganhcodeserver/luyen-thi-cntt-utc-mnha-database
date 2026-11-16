@@ -1,0 +1,29 @@
+{
+  "type": "slide",
+  "slideId": "6afa64896292a32b7da41d0a",
+  "title": "UTC_On_thi_KTHP_Cac_phuong_phap_toi_uu",
+  "slug": "utc-on-thi-kthp-cac-phuong-phap-toi-uu",
+  "subjectSlug": "cac-phuong-phap-toi-uu-1-1-26n02",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/cac-phuong-phap-toi-uu-1-1-26n02/slides/utc-on-thi-kthp-cac-phuong-phap-toi-uu_1794794619.pptx",
+      "enc": 940416,
+      "plain": 940356
+    }
+  ],
+  "fileExt": "pptx",
+  "fileSize": 940356,
+  "originalName": "UTC_On_thi_KTHP_Cac_phuong_phap_toi_uu.pptx",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-11-16T02:03:53.712Z",
+  "updatedAt": "2026-11-16T02:03:53.712Z"
+}
