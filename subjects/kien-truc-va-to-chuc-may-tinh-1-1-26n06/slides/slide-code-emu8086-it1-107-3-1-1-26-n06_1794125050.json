@@ -7,13 +7,13 @@
   "description": "",
   "parts": [
     {
-      "path": "subjects/kien-truc-va-to-chuc-may-tinh-1-1-26n06/slides/slide-code-emu8086-it1-107-3-1-1-26-n06_1794805393.pptx",
-      "enc": 1382034,
-      "plain": 1381974
+      "path": "subjects/kien-truc-va-to-chuc-may-tinh-1-1-26n06/slides/slide-code-emu8086-it1-107-3-1-1-26-n06_1794806603.pptx",
+      "enc": 1239005,
+      "plain": 1238945
     }
   ],
   "fileExt": "pptx",
-  "fileSize": 1381974,
+  "fileSize": 1238945,
   "originalName": "Slide_code_EMU8086_IT1.107.3-1-1-26(N06).pptx",
   "encrypted": true,
   "encryption": "aes-256-gcm",
@@ -25,5 +25,5 @@
   "createdBy": "6ab3d694415010bf620349e5",
   "updatedBy": "6ab3d694415010bf620349e5",
   "createdAt": "2026-11-08T08:04:28.118Z",
-  "updatedAt": "2026-11-16T05:04:14.185Z"
+  "updatedAt": "2026-11-16T05:23:37.890Z"
 }
