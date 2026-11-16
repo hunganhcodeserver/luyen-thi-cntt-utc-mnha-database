@@ -1,0 +1,29 @@
+{
+  "type": "document",
+  "documentId": "6adf79d1246e7c462e1ae5bd",
+  "title": "HUST_Bài tập",
+  "slug": "hust-bai-tap",
+  "subjectSlug": "cac-phuong-phap-toi-uu-1-1-26n02",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/cac-phuong-phap-toi-uu-1-1-26n02/documents/hust-bai-tap_1793030564.pdf",
+      "enc": 4342710,
+      "plain": 4342538
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 4342538,
+  "originalName": "HUST_Bài tập.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-26T16:03:29.446Z",
+  "updatedAt": "2026-10-26T16:03:29.446Z"
+}

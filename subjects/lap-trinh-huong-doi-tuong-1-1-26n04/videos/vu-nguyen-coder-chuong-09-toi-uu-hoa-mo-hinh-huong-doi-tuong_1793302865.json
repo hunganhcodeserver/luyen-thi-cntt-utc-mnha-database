@@ -1,0 +1,37 @@
+{
+  "type": "video",
+  "videoId": "6ae3a15123700d1296c5fd66",
+  "title": "Vũ Nguyễn Coder _ Chương 09 Tối ưu hoá mô hình hướng đối tượng",
+  "slug": "vu-nguyen-coder-chuong-09-toi-uu-hoa-mo-hinh-huong-doi-tuong",
+  "subjectSlug": "lap-trinh-huong-doi-tuong-1-1-26n04",
+  "description": "",
+  "videos": [
+    {
+      "id": "v22f34e2e",
+      "title": "Bài 29 Initialization list (website khoahocgiahoi.com zalo 0583953426)",
+      "enc": "v1.vkywt8pkzEXCjAkf.jzQgju5F6Q9KnWKxlBGVZw.6Bxu7dr0w4oGnYYHmj8n05NcHcHHCl4CKo5VyGQQryo8KjZC2_AFUBFSlnqnImky5GoN2GuBRs-2WBij6-b8mzVFA-adH86KNEU2J4FcqQJ7C18Ffca_ueuOwh6X2JmqRxosmFHFxj7YZ4BVeMcBmxweW3B5QbW1uQxrzezDGdCICYd3_zk2mjpa31tyMUtCKu7qmEO-KZleVeylWuDnD5l3Fb03b4fkCV-weJOazPL50weu0lEpjzBjo0N3Y-7jpWLsFuKuIMzYM-RLJvW--FbAEgTdGNPCzDdIc9DbWqRE6e5g2polzG-8UxT5v1y4XKCjesoMRagdf61XenzE9kv6itSfoOdCum2eZ7McCpsAmuRTTh4jm5hKDM5X9neq-pddixoWpPq9cQWYh7FiZUmtW85_NAL4ChxlHio39AEaQvBgx4oFnQ"
+    },
+    {
+      "id": "v99f81a47",
+      "title": "Bài 30 copy ctor - deep copy - shallow copy (website khoahocgiahoi.com zalo 0583953426)",
+      "enc": "v1.irhVqqSOePpISbHi.WEId1s-zReqCcPgQv9s_9Q.5v2xckHKSRiYxoLjQ2DE3H_I03-JbrRoNH5LNuVXHO68qWlFubtUoMEBZNKVKfmXIRPbzq0gUzf1U3IJk1EfKDwc20iVeMdpSfhOEZ8M6JW_eIfu9SokMH4xXNF84EA_eGJp8GqMRJqxmvWLCNWea2mfXbZ4q4ELpDvpW5bT3b5McGYejcXazSeqkexT7vW1ZDk3K31hPJQRVhR5LQ5BO77aSPob_wuu67-Ty0utw6hTfnWUKIbBhUCqjwCxwiBC4yGCx_6NjS59gRzngnskTlfWDU84ptJgGiqYIMEF_s4T4OQh2BErSmzoliCaGbgafVyeAuZBLFEWqG7XF079RvMbfu0JMGDWOqt1sJBxUfNwX-jvN21EB6omdyAIsvwc4iLW2Pxs_QEARofvu5jNVRCPUe0ENaKrBR--U6vXOWzghRxhWDsFHQ"
+    },
+    {
+      "id": "vb23f751e",
+      "title": "Bài 31 const reference of pointer parameter (website khoahocgiahoi.com zalo 0583953426)",
+      "enc": "v1.A6HBL7bPIA2ldb-k.ROhyFDcU-NAyFItEJaZVRw.jkHiJHx43w0axBzMHjYC-QP3dXMNCFwYCH3ydCYiD6Wd39CsdlXWHkqTwztfVyjgjx6mhLr4iZ4rvmm5pa090uxVwEveRGX7O9BR4dV8s8fS970OqesNbHtraASq_I51GQdjzilkS1b7OFETGnZNxm0GR069oxXh7KFTARve5ojb0iF-LhY7mtLgXwZ4iu3fu3ANwMAg5L-g42FypaE1aouxVRpaxm5Ll4kiin3eCnBCUMj4V6i7zLMWJUVqA9uuiGEMHAF4OyjLbtWFIIK8sn9O-RNb4qRWCTYcqmEPbsjGNz1ZktAAK24SFg9wol3bSgF77qzuUE0CKiuqLA2weRRUPco4X_nhmwLo0pves0z7qw693n2I9sM-JnT3DiuqPwv3aEv2cLbutQlciw4Qf0KHW6OoIiL_xWPTDJvXa6HKkweDYy86YA"
+    }
+  ],
+  "videoCount": 3,
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-29T19:41:05.522Z",
+  "updatedAt": "2026-10-29T19:41:05.522Z"
+}

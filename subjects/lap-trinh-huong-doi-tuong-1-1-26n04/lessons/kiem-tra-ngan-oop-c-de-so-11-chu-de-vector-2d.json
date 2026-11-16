@@ -1,0 +1,12 @@
+{
+  "lessonId": "6aba9391c5cc967daae7d1ee",
+  "title": "(Kiểm tra ngắn OOP C++) ĐỀ SỐ 11 - Chủ đề: VECTOR 2 CHIỀU",
+  "slug": "kiem-tra-ngan-oop-c-de-so-11-chu-de-vector-2-chieu",
+  "description": "",
+  "contentHtml": "<h2>ĐỀ SỐ 11</h2>\r\n<p><strong>Chủ đề: VECTOR 2 CHIỀU • Thời gian: 30 phút • C++</strong></p>\r\n\r\n<ul>\r\n    <li>\r\n        <strong>Yêu cầu: Xây dựng lớp Vector2Chieu bao gồm:</strong>\r\n        <ol>\r\n            <li>Khai báo x, y; cấu tử có đối mặc định.</li>\r\n            <li>Nạp chồng toán tử * giữa hai Vector2Chieu, kết quả là tích vô hướng x1*x2 + y1*y2.</li>\r\n            <li>Nạp chồng toán tử += để cộng gán vector.</li>\r\n            <li>Nạp chồng toán tử !=.</li>\r\n            <li>Viết hàm bạn &gt;&gt; và &lt;&lt;.</li>\r\n        </ol>\r\n    </li>\r\n    <li>\r\n        <strong>Yêu cầu trong hàm main():</strong> Nhập v1, v2; in tích vô hướng v1 * v2. Sau đó thực hiện v1 += v2 và in v1.\r\n    </li>\r\n</ul>\r\n\r\n<p><em>Lưu ý: Có thể bổ sung hàm/phương thức hỗ trợ hợp lý</em></p>\r\n",
+  "sampleSolution": "",
+  "duration": 30,
+  "model": null,
+  "isPublished": true,
+  "updatedAt": "2026-09-30T04:05:23.467Z"
+}

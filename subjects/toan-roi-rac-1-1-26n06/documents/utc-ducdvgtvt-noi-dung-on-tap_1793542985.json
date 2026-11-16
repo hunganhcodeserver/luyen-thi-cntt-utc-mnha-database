@@ -1,0 +1,29 @@
+{
+  "type": "document",
+  "documentId": "6ae74b61549b366b8acdfa62",
+  "title": "UTC ducdvgtvt - Nội dung on_tap",
+  "slug": "utc-ducdvgtvt-noi-dung-on-tap",
+  "subjectSlug": "toan-roi-rac-1-1-26n06",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/toan-roi-rac-1-1-26n06/documents/utc-ducdvgtvt-noi-dung-on-tap_1793542985.pdf",
+      "enc": 170572,
+      "plain": 170512
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 170512,
+  "originalName": "UTC ducdvgtvt - Nội dung on_tap.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-11-01T14:23:29.571Z",
+  "updatedAt": "2026-11-01T14:23:29.571Z"
+}

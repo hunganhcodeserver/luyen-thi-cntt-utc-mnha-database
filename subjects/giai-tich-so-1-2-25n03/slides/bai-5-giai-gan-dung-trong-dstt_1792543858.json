@@ -1,0 +1,29 @@
+{
+  "type": "slide",
+  "slideId": "6ad80c78970bf32e69140a60",
+  "title": "Bai_5_Giai_gan_dung_trong_ĐSTT",
+  "slug": "bai-5-giai-gan-dung-trong-dstt",
+  "subjectSlug": "giai-tich-so-1-2-25n03",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/giai-tich-so-1-2-25n03/slides/bai-5-giai-gan-dung-trong-dstt_1792543858.pdf",
+      "enc": 316231,
+      "plain": 316171
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 316171,
+  "originalName": "Bai_5_Giai_gan_dung_trong_ĐSTT.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-21T00:51:04.436Z",
+  "updatedAt": "2026-10-21T00:51:04.436Z"
+}

@@ -1,0 +1,29 @@
+{
+  "type": "document",
+  "documentId": "6ad8da8a3646ba8fda909e1e",
+  "title": "Cormen Introduction to Algorithms-MIT",
+  "slug": "cormen-introduction-to-algorithms-mit",
+  "subjectSlug": "cau-truc-du-lieu-va-giai-thuat-1-1-26n06",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/cau-truc-du-lieu-va-giai-thuat-1-1-26n06/documents/cormen-introduction-to-algorithms-mit_1792596572.pdf",
+      "enc": 5726757,
+      "plain": 5726585
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 5726585,
+  "originalName": "Cormen Introduction to Algorithms-MIT.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-21T15:30:18.831Z",
+  "updatedAt": "2026-10-21T15:30:18.831Z"
+}

@@ -1,0 +1,29 @@
+{
+  "type": "slide",
+  "slideId": "6ae0cefd9d70743d0d17c370",
+  "title": "HUST_Đỗ Quốc Huy_Hệ Điều Hành-Chuong 1_part3",
+  "slug": "hust-do-quoc-huy-he-dieu-hanh-chuong-1-part3",
+  "subjectSlug": "nguyen-ly-he-dieu-hanh-1-1-26n01",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/nguyen-ly-he-dieu-hanh-1-1-26n01/slides/hust-do-quoc-huy-he-dieu-hanh-chuong-1-part3_1793117917.pptx",
+      "enc": 1792883,
+      "plain": 1792823
+    }
+  ],
+  "fileExt": "pptx",
+  "fileSize": 1792823,
+  "originalName": "HUST_Đỗ Quốc Huy_Hệ Điều Hành-Chuong 1_part3.pptx",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-27T16:19:09.978Z",
+  "updatedAt": "2026-10-27T16:19:09.978Z"
+}

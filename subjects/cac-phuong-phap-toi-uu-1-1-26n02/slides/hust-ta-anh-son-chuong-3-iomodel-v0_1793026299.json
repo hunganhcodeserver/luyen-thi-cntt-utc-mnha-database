@@ -1,0 +1,29 @@
+{
+  "type": "slide",
+  "slideId": "6adf693c8ffa43d24eb3d878",
+  "title": "HUST_Tạ Anh Sơn_Chuong 3 IOmodel_V0",
+  "slug": "hust-ta-anh-son-chuong-3-iomodel-v0",
+  "subjectSlug": "cac-phuong-phap-toi-uu-1-1-26n02",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/cac-phuong-phap-toi-uu-1-1-26n02/slides/hust-ta-anh-son-chuong-3-iomodel-v0_1793026299.pdf",
+      "enc": 631353,
+      "plain": 631293
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 631293,
+  "originalName": "HUST_Tạ Anh Sơn_Chuong 3 IOmodel_V0.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-26T14:52:44.153Z",
+  "updatedAt": "2026-10-26T14:52:44.153Z"
+}

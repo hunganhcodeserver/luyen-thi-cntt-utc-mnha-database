@@ -1,0 +1,29 @@
+{
+  "type": "slide",
+  "slideId": "6aed1141974f00c91d58f3f0",
+  "title": "PTIT_Slide_Dai_So_Tuyen_Tinh_Chuong_1-6",
+  "slug": "ptit-slide-dai-so-tuyen-tinh-chuong-1-6",
+  "subjectSlug": "dai-so-tuyen-tinh-2-1-26n02",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/dai-so-tuyen-tinh-2-1-26n02/slides/ptit-slide-dai-so-tuyen-tinh-chuong-1-6_1793921315.pdf",
+      "enc": 6985591,
+      "plain": 6985363
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 6985363,
+  "originalName": "PTIT_Slide_Dai_So_Tuyen_Tinh_Chuong_1-6.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-11-05T23:29:05.302Z",
+  "updatedAt": "2026-11-05T23:29:05.302Z"
+}

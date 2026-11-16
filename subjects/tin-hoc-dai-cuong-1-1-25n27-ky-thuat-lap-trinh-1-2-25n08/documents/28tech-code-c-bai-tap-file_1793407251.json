@@ -1,0 +1,29 @@
+{
+  "type": "document",
+  "documentId": "6ae5392a9131fbd42a91099f",
+  "title": "28tech_code-c_bài tập file",
+  "slug": "28tech-code-c-bai-tap-file",
+  "subjectSlug": "tin-hoc-dai-cuong-1-1-25n27-ky-thuat-lap-trinh-1-2-25n08",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/tin-hoc-dai-cuong-1-1-25n27-ky-thuat-lap-trinh-1-2-25n08/documents/28tech-code-c-bai-tap-file_1793407251.pdf",
+      "enc": 145662,
+      "plain": 145602
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 145602,
+  "originalName": "28tech_code-c_bài tập file.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-31T00:41:14.587Z",
+  "updatedAt": "2026-10-31T00:41:14.587Z"
+}

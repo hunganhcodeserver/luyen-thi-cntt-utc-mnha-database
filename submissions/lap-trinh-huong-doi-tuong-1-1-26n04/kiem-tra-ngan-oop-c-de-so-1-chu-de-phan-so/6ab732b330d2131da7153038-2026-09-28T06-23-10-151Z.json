@@ -1,0 +1,186 @@
+{
+  "submissionId": "6aba07ce0d39213be2803b5e",
+  "submittedAt": "2026-09-28T06:23:10.151Z",
+  "gradedAt": "2026-09-28T06:23:23.117Z",
+  "status": "graded",
+  "errorMessage": null,
+  "userId": "6ab732b330d2131da7153038",
+  "userName": "Phạm Công Đoan",
+  "userEmail": "congdoan7171@gmail.com",
+  "subjectId": "6ab5aeac813f0f6c24604455",
+  "subjectName": "Lập trình hướng đối tượng-1-1-26(N04)",
+  "subjectCode": "IT1.108.3",
+  "subjectSlug": "lap-trinh-huong-doi-tuong-1-1-26n04",
+  "lessonId": "6ab6afb4ccacc564d40110d2",
+  "lessonTitle": "(Kiểm tra ngắn OOP C++) ĐỀ SỐ 1 - Chủ đề: PHÂN SỐ",
+  "lessonSlug": "kiem-tra-ngan-oop-c-de-so-1-chu-de-phan-so",
+  "lessonDuration": 30,
+  "lessonContentHtml": "<div class=\"flex-container flex-1-2-1-0\" style=\"display: flex; flex-direction: column;\"><div class=\"flex-container flex-1-2-1-0-0\" style=\"display: flex; flex-direction: column;\"><div class=\"flex-container flex-1-2-1-0-0-0\" style=\"display: flex; flex-direction: column;\"><div style=\"width: 100%; height: 100%;\"><p data-path-to-node=\"1,2,1,0,0,0,0\">ĐỀ SỐ 1\r\nPHÂN SỐ</p></div></div><div class=\"flex-container flex-1-2-1-0-0-1\" style=\"display: flex; flex-direction: column;\"><div style=\"width: 100%; height: 100%;\"><p data-path-to-node=\"1,2,1,0,0,1,0\">⏱ 30 phút | 💻 C++</p></div></div><div class=\"flex-container flex-1-2-1-0-0-2\" style=\"display: flex; flex-direction: column;\"><div style=\"width: 100%; height: 100%;\"><p data-path-to-node=\"1,2,1,0,0,2,0\"><b data-path-to-node=\"1,2,1,0,0,2,0\" data-index-in-node=\"0\">Lớp PhanSo:</b></p></div><div style=\"width: 100%; height: 100%;\"><ul data-path-to-node=\"1,2,1,0,0,2,1\"><li><p data-path-to-node=\"1,2,1,0,0,2,1,0,0\">Thuộc tính: <code data-path-to-node=\"1,2,1,0,0,2,1,0,0\" data-index-in-node=\"12\">tuSo</code>, <code data-path-to-node=\"1,2,1,0,0,2,1,0,0\" data-index-in-node=\"18\">mauSo</code> (int)</p></li><li><p data-path-to-node=\"1,2,1,0,0,2,1,1,0\">Cấu tử mặc định (tuSo=0, mauSo=1, mẫu != 0)</p></li><li><p data-path-to-node=\"1,2,1,0,0,2,1,2,0\">Phương thức <code data-path-to-node=\"1,2,1,0,0,2,1,2,0\" data-index-in-node=\"12\">rutGon()</code> chuẩn hóa mẫu dương</p></li><li><p data-path-to-node=\"1,2,1,0,0,2,1,3,0\">Nạp chồng toán tử <code data-path-to-node=\"1,2,1,0,0,2,1,3,0\" data-index-in-node=\"18\">==</code></p></li><li><p data-path-to-node=\"1,2,1,0,0,2,1,4,0\">Hàm bạn nạp chồng toán tử <code data-path-to-node=\"1,2,1,0,0,2,1,4,0\" data-index-in-node=\"26\">&gt;&gt;</code></p></li></ul></div><div class=\"flex-container flex-1-2-1-0-0-2-2\" style=\"display: flex; flex-direction: column;\"><div style=\"width: 100%; height: 100%;\"><p data-path-to-node=\"1,2,1,0,0,2,2,0\"><b data-path-to-node=\"1,2,1,0,0,2,2,0\" data-index-in-node=\"0\">main():</b> Tạo p1, nhập p2. So sánh p1 == p2 và in \"Bang nhau\" / \"Khong bang nhau\".</p></div></div></div></div></div>",
+  "lessonSampleSolution": "",
+  "answerHtml": "#include<bits/stdc++.h>\nusing namespace std;\nclass PhanSo{\n\tprivate:\n\t\tint ts;\n\t\tint ms;\n\tpublic:\n\t\tPhanSo(){\n\t\t\tthis->ts = 0;\n\t\t\tthis->ms = 1;\n\t\t}\n\t\tPhanSo(int ts,int ms){\n\t\t\tthis->ts = ts;\n\t\t\tthis->ms = ms;\n\t\t}\n\t\tvoid RutGon(){\n\t\t\tthis->ts = this->ts / gcd(this->ts,this->ms);\n\t\t\tthis->.ms = this->ms / gcd(this->ts,this->ms);\n\t\t}\n\t\tbool operator == (PhanSo &ps1, PhanSo &ps2){\n\t\t\treturn ps1.ts == ps2.ts && ps1.ms == ps2.ms;\n\t\t}\n\t\tfriend istream &operator >> (istream & is, PhanSo & t){\n\t\t\tcout<<\"Nhap phan so: \";\n\t\t\tis>>t.ts>>t.ms;\n\t\t\treturn is;\n\t\t} \n};\nint main(){\n\tPhanSo ps1(3,4);\n\tps1.RutGon();\n\tPhanSo ps2;\n\tcin<<ps2;\n\tps2.RutGon();\n\tif(ps1 == ps2){\n\t\tcout<<\"Bang nhau\";\n\t}else{\n\t\tcout<<\"Khong bang nhau\";\n\t}\n\treturn 0;\n}",
+  "score": 7.1,
+  "feedback": "Bài làm có khung chương trình và nắm được các khái niệm cơ bản, tuy nhiên KHÔNG BIÊN DỊCH ĐƯỢC do nhiều lỗi cú pháp nghiêm trọng: 1) Trong hàm RutGon() viết nhầm 'this->.ms', tính lại gcd khi tử số đã bị chia làm sai kết quả và chưa chuẩn hóa mẫu dương; 2) Khai báo toán tử '==' dạng hàm thành viên nhưng lại truyền 2 tham số (cần dùng từ khóa 'friend' hoặc chỉ truyền 1 tham số); 3) Trong main dùng sai toán tử nhập luồng 'cin << ps2' thay vì 'cin >> ps2'.",
+  "breakdown": [
+    {
+      "criterion": "Khai báo lớp, thuộc tính private, hàm tạo/hàm hủy đúng",
+      "score": 1.3,
+      "comment": "Khai báo thuộc tính ts, ms private; cài đặt đầy đủ hàm tạo mặc định và hàm tạo có tham số theo yêu cầu."
+    },
+    {
+      "criterion": "Nạp chồng toán tử nhập >> là friend, nhập đúng dữ liệu",
+      "score": 1.3,
+      "comment": "Cài đặt đúng toán tử friend operator>> nhập tử số và mẫu số."
+    },
+    {
+      "criterion": "Nạp chồng toán tử xuất << là friend, xuất đúng dữ liệu",
+      "score": 0.9,
+      "comment": "Đề bài không yêu cầu toán tử xuất <<."
+    },
+    {
+      "criterion": "Các phương thức getter/setter hoặc phương thức phụ trợ đúng",
+      "score": 0.1,
+      "comment": "Phương thức RutGon() bị lỗi cú pháp 'this->.ms', sai logic do thay đổi tử số trước khi tính gcd cho mẫu số, và chưa chuẩn hóa mẫu số dương theo đề bài."
+    },
+    {
+      "criterion": "Nạp chồng toán tử một ngôi (nếu đề yêu cầu +, -, !, ...)",
+      "score": 1.4,
+      "comment": "Đề bài không yêu cầu toán tử một ngôi."
+    },
+    {
+      "criterion": "Nạp chồng toán tử hai ngôi / so sánh (nếu đề yêu cầu +, -, >, <, ==, ...)",
+      "score": 0.5,
+      "comment": "Đã có ý thức so sánh hai phân số, tuy nhiên khai báo operator== là phương thức của lớp nhưng nhận 2 tham số dẫn đến lỗi biên dịch (cần là hàm bạn 'friend' hoặc phương thức nhận 1 tham số)."
+    },
+    {
+      "criterion": "Hàm main nhập/xuất/xử lý đầy đủ theo đề",
+      "score": 0.7,
+      "comment": "Luồng xử lý tạo p1, rút gọn, so sánh đúng nhưng viết nhầm cú pháp nhập 'cin << ps2' thay vì 'cin >> ps2' gây lỗi biên dịch."
+    },
+    {
+      "criterion": "Quản lý bộ nhớ động đúng, không rò rỉ",
+      "score": 0.9,
+      "comment": "Bài không sử dụng cấp phát động."
+    },
+    {
+      "criterion": "Phong cách, đặt tên, chú thích, không lỗi biên dịch",
+      "score": 0,
+      "comment": "Bài không biên dịch được do nhiều lỗi cú pháp (this->.ms, operator== trong class nhận 2 tham số, cin << ps2)."
+    }
+  ],
+  "grammar": null,
+  "sampleComparison": null,
+  "model": "gemini-flash-latest",
+  "aiKeyId": "6ab7116dc878bedb86de26dc",
+  "aiKeyName": "VMK1",
+  "latencyMs": 12076,
+  "promptSnapshot": {
+    "promptId": "6ab736bee5d88208e9117c70",
+    "name": "Prompt Kiểm tra ngắn OOP C++",
+    "content": "Bạn là giảng viên chấm bài môn Lập trình hướng đối tượng (C++).\r\nHãy chấm bài làm của sinh viên theo đúng rubric dưới đây. Chỉ đánh giá dựa trên mã nguồn được cung cấp và yêu cầu đề bài. Không suy diễn thêm. Nếu bài không biên dịch được, ghi rõ trong feedback và chỉ cho điểm các phần có thể xác minh.\r\n\r\nTên sinh viên: {student_name}\r\nĐiểm tối đa: {max_score}\r\n\r\nĐỀ BÀI:\r\n{đề_bài}\r\n\r\nRUBRIC:\r\n{rubric}\r\n\r\nLỜI GIẢI MẪU THAM KHẢO (nếu cần đối chiếu):\r\n{lời_giải_mẫu}\r\n\r\nBÀI LÀM SINH VIÊN:\r\n{bài_làm}\r\n\r\nYÊU CẦU TRẢ VỀ:\r\nTrả về DUY NHẤT một object JSON hợp lệ, không thêm văn bản ngoài JSON:\r\n{\r\n  \"score\": number,\r\n  \"feedback\": string,\r\n  \"breakdown\": [{\"criterion\": string, \"score\": number, \"comment\": string}]\r\n}\r\n\r\nVariables:\r\n{\r\n  \"variables\": [\r\n    \"{đề_bài}\",\r\n    \"{bài_làm}\",\r\n    \"{rubric}\",\r\n    \"{max_score}\",\r\n    \"{student_name}\",\r\n    \"{lời_giải_mẫu}\"\r\n  ]\r\n}",
+    "rubric": [
+      {
+        "criterion": "Khai báo lớp, thuộc tính private, hàm tạo/hàm hủy đúng",
+        "weight": 13,
+        "description": "Lớp có các thuộc tính private theo đề; hàm tạo mặc định/hàm tạo có đối; hàm hủy nếu có cấp phát động."
+      },
+      {
+        "criterion": "Nạp chồng toán tử nhập >> là friend, nhập đúng dữ liệu",
+        "weight": 13,
+        "description": "operator>> là friend, nhập đúng các trường theo đề; xử lý khoảng trắng hợp lý nếu cần."
+      },
+      {
+        "criterion": "Nạp chồng toán tử xuất << là friend, xuất đúng dữ liệu",
+        "weight": 9,
+        "description": "operator<< là friend, in ra thông tin rõ ràng, đúng định dạng đề yêu cầu."
+      },
+      {
+        "criterion": "Các phương thức getter/setter hoặc phương thức phụ trợ đúng",
+        "weight": 5,
+        "description": "Cung cấp đủ getter/setter hoặc phương thức mà đề yêu cầu."
+      },
+      {
+        "criterion": "Nạp chồng toán tử một ngôi (nếu đề yêu cầu +, -, !, ...)",
+        "weight": 14,
+        "description": "Cài đặt đúng toán tử một ngôi theo đề, ví dụ operator+() tính tổng, operator-() đổi dấu, operator!() đảo ngược."
+      },
+      {
+        "criterion": "Nạp chồng toán tử hai ngôi / so sánh (nếu đề yêu cầu +, -, >, <, ==, ...)",
+        "weight": 14,
+        "description": "Cài đặt đúng toán tử hai ngôi hoặc toán tử so sánh theo đề, xử lý đúng ngữ nghĩa."
+      },
+      {
+        "criterion": "Hàm main nhập/xuất/xử lý đầy đủ theo đề",
+        "weight": 14,
+        "description": "main thực hiện đủ các bước: nhập, xuất, tính toán, so sánh, sắp xếp, tìm kiếm, ... theo đề."
+      },
+      {
+        "criterion": "Quản lý bộ nhớ động đúng, không rò rỉ",
+        "weight": 9,
+        "description": "Nếu dùng new/delete, cấp phát và giải phóng đúng; không rò rỉ bộ nhớ."
+      },
+      {
+        "criterion": "Phong cách, đặt tên, chú thích, không lỗi biên dịch",
+        "weight": 9,
+        "description": "Code rõ ràng, đặt tên hợp lý, có chú thích, biên dịch thành công."
+      }
+    ],
+    "strictness": "strict",
+    "maxScore": 10,
+    "scope": "lesson",
+    "version": 4,
+    "isFallback": false,
+    "unknownPlaceholders": [],
+    "snapshotAt": "2026-09-28T06:23:22.910Z"
+  },
+  "raw": {
+    "score": 7.1,
+    "feedback": "Bài làm có khung chương trình và nắm được các khái niệm cơ bản, tuy nhiên KHÔNG BIÊN DỊCH ĐƯỢC do nhiều lỗi cú pháp nghiêm trọng: 1) Trong hàm RutGon() viết nhầm 'this->.ms', tính lại gcd khi tử số đã bị chia làm sai kết quả và chưa chuẩn hóa mẫu dương; 2) Khai báo toán tử '==' dạng hàm thành viên nhưng lại truyền 2 tham số (cần dùng từ khóa 'friend' hoặc chỉ truyền 1 tham số); 3) Trong main dùng sai toán tử nhập luồng 'cin << ps2' thay vì 'cin >> ps2'.",
+    "breakdown": [
+      {
+        "criterion": "Khai báo lớp, thuộc tính private, hàm tạo/hàm hủy đúng",
+        "score": 1.3,
+        "comment": "Khai báo thuộc tính ts, ms private; cài đặt đầy đủ hàm tạo mặc định và hàm tạo có tham số theo yêu cầu."
+      },
+      {
+        "criterion": "Nạp chồng toán tử nhập >> là friend, nhập đúng dữ liệu",
+        "score": 1.3,
+        "comment": "Cài đặt đúng toán tử friend operator>> nhập tử số và mẫu số."
+      },
+      {
+        "criterion": "Nạp chồng toán tử xuất << là friend, xuất đúng dữ liệu",
+        "score": 0.9,
+        "comment": "Đề bài không yêu cầu toán tử xuất <<."
+      },
+      {
+        "criterion": "Các phương thức getter/setter hoặc phương thức phụ trợ đúng",
+        "score": 0.1,
+        "comment": "Phương thức RutGon() bị lỗi cú pháp 'this->.ms', sai logic do thay đổi tử số trước khi tính gcd cho mẫu số, và chưa chuẩn hóa mẫu số dương theo đề bài."
+      },
+      {
+        "criterion": "Nạp chồng toán tử một ngôi (nếu đề yêu cầu +, -, !, ...)",
+        "score": 1.4,
+        "comment": "Đề bài không yêu cầu toán tử một ngôi."
+      },
+      {
+        "criterion": "Nạp chồng toán tử hai ngôi / so sánh (nếu đề yêu cầu +, -, >, <, ==, ...)",
+        "score": 0.5,
+        "comment": "Đã có ý thức so sánh hai phân số, tuy nhiên khai báo operator== là phương thức của lớp nhưng nhận 2 tham số dẫn đến lỗi biên dịch (cần là hàm bạn 'friend' hoặc phương thức nhận 1 tham số)."
+      },
+      {
+        "criterion": "Hàm main nhập/xuất/xử lý đầy đủ theo đề",
+        "score": 0.7,
+        "comment": "Luồng xử lý tạo p1, rút gọn, so sánh đúng nhưng viết nhầm cú pháp nhập 'cin << ps2' thay vì 'cin >> ps2' gây lỗi biên dịch."
+      },
+      {
+        "criterion": "Quản lý bộ nhớ động đúng, không rò rỉ",
+        "score": 0.9,
+        "comment": "Bài không sử dụng cấp phát động."
+      },
+      {
+        "criterion": "Phong cách, đặt tên, chú thích, không lỗi biên dịch",
+        "score": 0,
+        "comment": "Bài không biên dịch được do nhiều lỗi cú pháp (this->.ms, operator== trong class nhận 2 tham số, cin << ps2)."
+      }
+    ]
+  }
+}

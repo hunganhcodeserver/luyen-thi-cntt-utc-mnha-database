@@ -1,0 +1,29 @@
+{
+  "type": "document",
+  "documentId": "6aec09628fd376671b6719b1",
+  "title": "UIT_HK2 2024-2025_Đề cương CTDL&GT Cơ bản - Đề thi",
+  "slug": "uit-hk2-2024-2025-de-cuong-ctdl-gt-co-ban-de-thi",
+  "subjectSlug": "cau-truc-du-lieu-va-giai-thuat-1-1-26n06",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/cau-truc-du-lieu-va-giai-thuat-1-1-26n06/documents/uit-hk2-2024-2025-de-cuong-ctdl-gt-co-ban-de-thi_1793853776.pdf",
+      "enc": 4341718,
+      "plain": 4341546
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 4341546,
+  "originalName": "UIT_HK2 2024-2025_Đề cương CTDL&GT Cơ bản - Đề thi.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-11-05T04:43:14.250Z",
+  "updatedAt": "2026-11-05T04:43:14.250Z"
+}

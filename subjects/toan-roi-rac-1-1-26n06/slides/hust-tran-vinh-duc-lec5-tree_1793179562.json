@@ -1,0 +1,29 @@
+{
+  "type": "slide",
+  "slideId": "6ae1bfaea13b85b49a981acd",
+  "title": "HUST_Trần Vĩnh Đức_lec5-tree",
+  "slug": "hust-tran-vinh-duc-lec5-tree",
+  "subjectSlug": "toan-roi-rac-1-1-26n06",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/toan-roi-rac-1-1-26n06/slides/hust-tran-vinh-duc-lec5-tree_1793179562.pdf",
+      "enc": 143942,
+      "plain": 143882
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 143882,
+  "originalName": "HUST_Trần Vĩnh Đức_lec5-tree.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-28T09:26:06.977Z",
+  "updatedAt": "2026-10-28T09:26:06.977Z"
+}

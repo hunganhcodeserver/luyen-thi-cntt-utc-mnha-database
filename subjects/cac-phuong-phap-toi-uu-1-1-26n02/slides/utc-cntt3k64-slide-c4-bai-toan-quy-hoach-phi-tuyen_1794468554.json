@@ -1,0 +1,29 @@
+{
+  "type": "slide",
+  "slideId": "6af56aed8437f51a51de4962",
+  "title": "UTC_CNTT3K64_slide-c4-bai-toan-quy-hoach-phi-tuyen",
+  "slug": "utc-cntt3k64-slide-c4-bai-toan-quy-hoach-phi-tuyen",
+  "subjectSlug": "cac-phuong-phap-toi-uu-1-1-26n02",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/cac-phuong-phap-toi-uu-1-1-26n02/slides/utc-cntt3k64-slide-c4-bai-toan-quy-hoach-phi-tuyen_1794468554.pptx",
+      "enc": 6193688,
+      "plain": 6193460
+    }
+  ],
+  "fileExt": "pptx",
+  "fileSize": 6193460,
+  "originalName": "UTC_CNTT3K64_slide-c4-bai-toan-quy-hoach-phi-tuyen.pptx",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-11-12T07:29:49.610Z",
+  "updatedAt": "2026-11-12T07:29:49.610Z"
+}

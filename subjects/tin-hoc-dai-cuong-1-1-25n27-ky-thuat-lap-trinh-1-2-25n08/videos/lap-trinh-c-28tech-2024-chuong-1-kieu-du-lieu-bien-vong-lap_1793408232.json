@@ -1,0 +1,27 @@
+{
+  "type": "video",
+  "videoId": "6ae53ce8e5f1f630fe34c8dd",
+  "title": "Lập trình C 28tech (2024) - Chương 1 KIỂU DỮ LIỆU, BIỂN, VÒNG LẶP, HÀM",
+  "slug": "lap-trinh-c-28tech-2024-chuong-1-kieu-du-lieu-bien-vong-lap",
+  "subjectSlug": "tin-hoc-dai-cuong-1-1-25n27-ky-thuat-lap-trinh-1-2-25n08",
+  "description": "",
+  "videos": [
+    {
+      "id": "v4783bc7b",
+      "title": "Bài 01 Hướng dẫn cài đặt phần mềm DEV C++ để lập trình (website khoahocgiahoi.com zalo 0583953426).mp4",
+      "enc": "v1.zyPhIEqPg8hxNyUa.sAgzIxwu9qpMuFKUAd3Y1w.dAAoAzPoOAJ3um7UCMe1Bi1GVG5ROPz5Bsfi-1u4b0PRtnaZZpltr-osRYwZ46L3WY9aus1zofBIT-aUl5ppFxilsxJC4rnds94afxMfpOpm0R3HkcPG54mDs0gJAdmu2l7ivzGh_EZybrD7E5wecxFtXvAgEXE0CVqNu-TQu0SV1WMvBnOTnGareStmsA4n-CZrJquHDPQ1AW8NaKhfZZj8C8lz03F475ft68EivP-NuTfZOHcNha6i_iAsq-Fo9R14eLOybD1CR1pZ6wVV4fDBBE5twxRGq2L24flXjAmd_qFowMCrh46H2FNHl8Lq1V9ZGikHX_R98zgry7lDl23749-QqaPfYwztG3AxQ1YiQFUADScRNzR00df8qsebioQE-1gOaoo5Xa1cQqqoZF05blcjGlB4b5abQPDgMflzZ_OiZkgy6w"
+    }
+  ],
+  "videoCount": 1,
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-31T00:57:12.605Z",
+  "updatedAt": "2026-10-31T00:57:12.605Z"
+}

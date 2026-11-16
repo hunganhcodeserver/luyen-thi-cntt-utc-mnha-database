@@ -1,0 +1,29 @@
+{
+  "type": "slide",
+  "slideId": "6ad80bf5970bf32e69140a5c",
+  "title": "Bai_1_Mo_dau",
+  "slug": "bai-1-mo-dau",
+  "subjectSlug": "giai-tich-so-1-2-25n03",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/giai-tich-so-1-2-25n03/slides/bai-1-mo-dau_1792543727.pdf",
+      "enc": 282112,
+      "plain": 282052
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 282052,
+  "originalName": "Bai_1_Mo_dau.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-21T00:48:53.707Z",
+  "updatedAt": "2026-10-21T00:48:53.707Z"
+}

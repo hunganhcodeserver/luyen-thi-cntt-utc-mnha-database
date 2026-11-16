@@ -1,0 +1,29 @@
+{
+  "type": "slide",
+  "slideId": "6aec1b7f8fd376671b6719b3",
+  "title": "UIT_DSA_03-03-2019_00. Giới Thiệu Môn Học",
+  "slug": "uit-dsa-03-03-2019-00-gioi-thieu-mon-hoc",
+  "subjectSlug": "cau-truc-du-lieu-va-giai-thuat-1-1-26n06",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/cau-truc-du-lieu-va-giai-thuat-1-1-26n06/slides/uit-dsa-03-03-2019-00-gioi-thieu-mon-hoc_1793858400.pdf",
+      "enc": 5660748,
+      "plain": 5660576
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 5660576,
+  "originalName": "UIT_DSA_03-03-2019_00. Giới Thiệu Môn Học.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-11-05T06:00:31.857Z",
+  "updatedAt": "2026-11-05T06:00:31.857Z"
+}

@@ -1,0 +1,29 @@
+{
+  "type": "slide",
+  "slideId": "6ad80c0c970bf32e69140a5d",
+  "title": "Bai_2_Noi_suy_ham_so",
+  "slug": "bai-2-noi-suy-ham-so",
+  "subjectSlug": "giai-tich-so-1-2-25n03",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/giai-tich-so-1-2-25n03/slides/bai-2-noi-suy-ham-so_1792543750.pdf",
+      "enc": 464791,
+      "plain": 464731
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 464731,
+  "originalName": "Bai_2_Noi_suy_ham_so.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-21T00:49:16.647Z",
+  "updatedAt": "2026-10-21T00:49:16.647Z"
+}

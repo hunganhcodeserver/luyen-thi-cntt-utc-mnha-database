@@ -1,0 +1,29 @@
+{
+  "type": "document",
+  "documentId": "6adf7e2f935a937d03709cf9",
+  "title": "HUST_Bạch Kim_Phần 1",
+  "slug": "hust-bach-kim-phan-1",
+  "subjectSlug": "cac-phuong-phap-toi-uu-1-1-26n02",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/cac-phuong-phap-toi-uu-1-1-26n02/documents/hust-bach-kim-phan-1_1793031701.pdf",
+      "enc": 3289102,
+      "plain": 3288986
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 3288986,
+  "originalName": "HUST_Bạch Kim_Phần 1.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-26T16:22:07.762Z",
+  "updatedAt": "2026-10-26T16:22:07.762Z"
+}

@@ -1,0 +1,29 @@
+{
+  "type": "slide",
+  "slideId": "6ae1bfeba13b85b49a981ace",
+  "title": "HUST_Trần Vĩnh Đức_lec6-coloring",
+  "slug": "hust-tran-vinh-duc-lec6-coloring",
+  "subjectSlug": "toan-roi-rac-1-1-26n06",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/toan-roi-rac-1-1-26n06/slides/hust-tran-vinh-duc-lec6-coloring_1793179623.pdf",
+      "enc": 96014,
+      "plain": 95954
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 95954,
+  "originalName": "HUST_Trần Vĩnh Đức_lec6-coloring.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-28T09:27:07.894Z",
+  "updatedAt": "2026-10-28T09:27:07.894Z"
+}

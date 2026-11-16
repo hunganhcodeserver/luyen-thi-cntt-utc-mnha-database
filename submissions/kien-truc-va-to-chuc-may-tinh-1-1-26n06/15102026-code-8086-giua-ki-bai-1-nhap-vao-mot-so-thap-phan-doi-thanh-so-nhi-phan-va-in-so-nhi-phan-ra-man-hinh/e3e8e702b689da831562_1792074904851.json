@@ -1,0 +1,93 @@
+{
+  "submissionId": "6ad0e47de7bb371c79231bb2",
+  "submittedAt": "2026-10-15T14:34:37.919Z",
+  "gradedAt": "2026-10-15T14:35:04.984Z",
+  "status": "graded",
+  "errorMessage": null,
+  "userId": "6ab3d694415010bf620349e5",
+  "userName": "Mai Ngọc Hùng Anh",
+  "userEmail": "hunganh.okokok.0@gmail.com",
+  "subjectId": "6ab5aeec813f0f6c24604456",
+  "subjectName": "Kiến trúc và tổ chức máy tính-1-1-26(N06)",
+  "subjectCode": "IT1.107.3",
+  "subjectSlug": "kien-truc-va-to-chuc-may-tinh-1-1-26n06",
+  "lessonId": "6ad01e558556b7b07d70de28",
+  "lessonTitle": "(15/10/2026 - Code 8086 - Giữa kì) Bài 1: Nhập vào một số thập phân, đổi thành số nhị phân và in số nhị phân ra màn hình",
+  "lessonSlug": "15102026-code-8086-giua-ki-bai-1-nhap-vao-mot-so-thap-phan-doi-thanh-so-nhi-phan-va-in-so-nhi-phan-ra-man-hinh",
+  "lessonDuration": 60,
+  "lessonContentHtml": "<div class=\"de-bai\">\n  <h3>Bài 1: Nhập vào một số thập phân, đổi thành số nhị phân và in số nhị phân ra màn hình</h3>\n  <p>Viết chương trình hợp ngữ 8086 yêu cầu nhập một số thập phân (nhiều chữ số, nhập đến khi nhấn Enter), đổi số đó sang hệ nhị phân rồi in dãy số nhị phân ra màn hình.</p>\n  <p><b>Ví dụ:</b></p>\n  <pre>nhap so thap phan: 10\nso nhi phan: 1010\n\nnhap so thap phan: 25\nso nhi phan: 11001</pre>\n  <p><b>Cách làm:</b></p>\n  <ul>\n    <li>Nhập từng ký tự bằng hàm 1 của ngắt 21h. Nếu ký tự là 13 (phím Enter) thì dừng nhập.</li>\n    <li>Với mỗi chữ số nhập vào: trừ 48 để đổi sang số, lấy số đang lưu nhân 10 rồi cộng chữ số mới. Số đang lưu ban đầu bằng 0.</li>\n    <li>Để đổi sang nhị phân: chia số cho 2 liên tục, mỗi lần chia xong thì đẩy (push) số dư (0 hoặc 1) vào ngăn xếp và đếm số lần đẩy bằng CX. Dừng khi thương bằng 0.</li>\n    <li>Lấy các chữ số ra bằng pop. Do ngăn xếp là cấu trúc vào sau ra trước nên chữ số đầu tiên lấy ra là bit cao nhất. In từng bit (cộng 48) bằng vòng lặp loop.</li>\n  </ul>\n</div>",
+  "lessonSampleSolution": "",
+  "answerHtml": ".model small\n.stack 100h\n.data                            \n    ms1 db  'nhap so thap phan: $'\n    ms2 db  10, 13, 'so nhi phan: $'\n    \n.code\n    main proc\n        mov ax, @data\n        mov ds, ax\n        \n        mov ah, 9\n        lea dx, ms1\n        int 21h\n        \n        ;THEM: vong lap nhap so thap phan nhieu chu so, ket thuc bang Enter\n        mov bl, 10              ;THEM: bl = 10 de nhan 10 moi lan nhap them 1 chu so\n        mov bh, 0               ;THEM: bh = so dang ghep, bat dau tu 0\n\n    nhaptiep:                   ;THEM: nhan vong lap doc tung ky tu\n        mov ah, 1               ;ham 1: doc 1 ky tu, luu vao al\n        int 21h\n        cmp al, 13              ;kiem tra co phai phim Enter khong (ma ASCII 13)\n        je stop1                ;neu la Enter thi thoat vong lap nhap\n        sub al, 48              ;doi ky tu ASCII thanh so (chu so vua nhap)\n        mov dl, al              ;cat chu so vua nhap vao dl (vi al sap bi mul ghi de)\n        mov al, bh              ;al = so da ghep duoc tu truoc\n        mul bl                  ;ax = al * 10 (day so cu len 1 hang)\n        add al, dl              ;cong chu so vua nhap vao hang don vi\n        mov bh, al              ;luu so moi vao bh\n        jmp nhaptiep            ;quay lai doc ky tu tiep theo\n\n    stop1:                      ;THEM: nhan thoat vong lap nhap\n        mov ah, 9\n        lea dx, ms2\n        int 21h\n        \n        ;SUA: truoc day la mov bl, al (1 chu so), gio so can doi nam trong bh\n        mov cx, 0               ;cx = bien dem so bit\n        mov al, bh              ;SUA: lay so vua nhap tu bh (truoc la mov al, bl)\n        mov bl, 2               ;bl = 2 de chia lay tung bit\n        \nchiatiep:\n        mov ah, 0\n        div bl                  ;al: thuong, ah: du (bit vua tach)\n        cmp al, 0\n        je  kt\n        push ax                 ;LIFO: day bit (ah) vao stack, bit dau tien la bit thap nhat\n        inc cl\n        jmp chiatiep\n        \nkt:\n        push ax                 ;LIFO: day bit cao nhat vao dinh stack\n        inc cl\n        \nintiep:             \n        mov ah, 2\n        pop dx                  ;LIFO: lay bit cao nhat truoc, dung thu tu nhi phan\n        mov dl, dh\n        add dl, 48\n        int 21h\n        loop intiep\n        \n        mov ah, 4ch\n        int 21h\n        main endp\n        end main",
+  "hasDrawing": false,
+  "drawingFile": null,
+  "drawingMime": null,
+  "drawingAnalysis": null,
+  "score": 7,
+  "feedback": "Bài làm thể hiện hiểu đúng thuật toán: nhập nhiều chữ số kết thúc bằng Enter, ghép số bằng cách nhân 10 cộng chữ số mới, đổi sang nhị phân bằng chia 2 liên tục, dùng ngăn xếp (LIFO) để đảo thứ tự bit và in ra. Cấu trúc chương trình rõ ràng, chú thích tốt, phần push/pop và dùng dh để lấy số dư là chính xác. Hạn chế lớn nhất là dùng thanh ghi 8-bit (bh) để lưu số đã ghép nên chỉ xử lý được số tối đa 255, không đáp ứng tốt yêu cầu 'nhiều chữ số' có thể lớn; nên dùng thanh ghi 16-bit (ví dụ bx/si) và phép nhân/chia 16-bit. Với các số trong phạm vi ví dụ (10, 25) chương trình chạy đúng.",
+  "breakdown": [
+    {
+      "criterion": "Nhập số thập phân nhiều chữ số, kết thúc bằng Enter",
+      "score": 2.5,
+      "comment": "Vòng lặp đọc ký tự, so sánh 13 (Enter), ghép số bằng nhân 10 cộng chữ số mới đều đúng. Trừ điểm nhẹ vì lưu trong bh 8-bit, dễ tràn khi số lớn."
+    },
+    {
+      "criterion": "Đổi sang nhị phân (chia 2 liên tục, lưu vào ngăn xếp)",
+      "score": 2.5,
+      "comment": "Thuật toán chia 2, push số dư, đếm bằng cx đúng. Giới hạn do dùng div bl 8-bit nên không hỗ trợ số lớn."
+    },
+    {
+      "criterion": "In dãy nhị phân (pop, cộng 48, loop)",
+      "score": 2,
+      "comment": "Dùng pop lấy bit cao trước, mov dl,dh để lấy đúng số dư, cộng 48 và loop in đúng thứ tự."
+    }
+  ],
+  "grammar": null,
+  "sampleComparison": null,
+  "model": "occ/claude-opus-4-8",
+  "aiKeyId": "6abfdf08b29c124d59ccc66b",
+  "aiKeyName": "hunganh2006",
+  "aiProvider": "vilao",
+  "latencyMs": 26600,
+  "promptSnapshot": {
+    "kind": "essay",
+    "promptId": null,
+    "name": "Fallback mặc định (hardcoded)",
+    "content": "Bạn là giáo viên chấm bài. Hãy chấm bài viết sau dựa trên đề bài và rubric.\n\nĐề bài:\n{đề_bài}\n\nBài làm sinh viên (phần nhập chữ):\n{bài_làm}\n\nPhần vẽ tay của sinh viên (đã được bước phân tích hình ảnh đọc trước):\n{hình_vẽ}\n\nLời giải mẫu (nếu có, chỉ dùng để đối chiếu ý, không chép nguyên văn vào feedback):\n{lời_giải_mẫu}\n\nRubric: {rubric}\nĐiểm tối đa: {max_score}\n\nQUY TẮC CHẤM KẾT HỢP CHỮ + HÌNH VẼ:\n- Nếu có cả phần nhập chữ và phần vẽ tay: chấm CẢ HAI theo đề bài/rubric, cho một điểm tổng duy nhất.\n- Nếu chỉ có một phần: chỉ chấm phần đó, KHÔNG trừ điểm vì phần sinh viên không nộp.\n\nQUY TẮC PHÁT HIỆN LỖI:\n- Chỉ liệt kê lỗi khi lỗi thực sự tồn tại trong bài làm, không tự bịa.\n- Nếu đề bài/rubric không đủ căn cứ để xác định một lỗi cụ thể, bỏ qua, không đoán.\n- Mỗi lỗi nêu rõ: câu gốc sai, câu đã sửa, giải thích ngắn gọn.\n\nChỉ trả về JSON hợp lệ, không Markdown, không giải thích ngoài JSON:\n{\n  \"score\": number,\n  \"feedback\": string,\n  \"breakdown\": [{ \"criterion\": string, \"score\": number, \"comment\": string }],\n  \"errors\": [{ \"original\": string, \"corrected\": string, \"explanation\": string }]\n}",
+    "rubric": null,
+    "strictness": "normal",
+    "maxScore": 10,
+    "scope": "fallback",
+    "version": 0,
+    "isFallback": true,
+    "unknownPlaceholders": [],
+    "snapshotAt": "2026-10-15T14:35:04.523Z"
+  },
+  "raw": {
+    "score": 7,
+    "feedback": "Bài làm thể hiện hiểu đúng thuật toán: nhập nhiều chữ số kết thúc bằng Enter, ghép số bằng cách nhân 10 cộng chữ số mới, đổi sang nhị phân bằng chia 2 liên tục, dùng ngăn xếp (LIFO) để đảo thứ tự bit và in ra. Cấu trúc chương trình rõ ràng, chú thích tốt, phần push/pop và dùng dh để lấy số dư là chính xác. Hạn chế lớn nhất là dùng thanh ghi 8-bit (bh) để lưu số đã ghép nên chỉ xử lý được số tối đa 255, không đáp ứng tốt yêu cầu 'nhiều chữ số' có thể lớn; nên dùng thanh ghi 16-bit (ví dụ bx/si) và phép nhân/chia 16-bit. Với các số trong phạm vi ví dụ (10, 25) chương trình chạy đúng.",
+    "breakdown": [
+      {
+        "criterion": "Nhập số thập phân nhiều chữ số, kết thúc bằng Enter",
+        "score": 2.5,
+        "comment": "Vòng lặp đọc ký tự, so sánh 13 (Enter), ghép số bằng nhân 10 cộng chữ số mới đều đúng. Trừ điểm nhẹ vì lưu trong bh 8-bit, dễ tràn khi số lớn."
+      },
+      {
+        "criterion": "Đổi sang nhị phân (chia 2 liên tục, lưu vào ngăn xếp)",
+        "score": 2.5,
+        "comment": "Thuật toán chia 2, push số dư, đếm bằng cx đúng. Giới hạn do dùng div bl 8-bit nên không hỗ trợ số lớn."
+      },
+      {
+        "criterion": "In dãy nhị phân (pop, cộng 48, loop)",
+        "score": 2,
+        "comment": "Dùng pop lấy bit cao trước, mov dl,dh để lấy đúng số dư, cộng 48 và loop in đúng thứ tự."
+      }
+    ],
+    "errors": [
+      {
+        "original": "mov bh, 0   ; bh = so dang ghep, bat dau tu 0",
+        "corrected": "mov bx, 0   ; dung thanh ghi 16-bit (vi du si) de ghep so, va dung phep nhan/chia 16-bit",
+        "explanation": "bh chi la thanh ghi 8-bit nen chi luu duoc so toi da 255; yeu cau 'nhieu chu so' can thanh ghi 16-bit (0..65535) va cac lenh mul/div tuong ung de tranh tran."
+      }
+    ]
+  }
+}

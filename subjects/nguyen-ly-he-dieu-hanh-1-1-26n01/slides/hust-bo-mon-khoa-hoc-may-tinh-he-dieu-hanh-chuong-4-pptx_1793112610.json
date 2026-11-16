@@ -1,0 +1,29 @@
+{
+  "type": "slide",
+  "slideId": "6ae0bb763b78cfc531aa9af4",
+  "title": "HUST_Bộ môn Khoa học máy tính_Hệ Điều Hành-Chương 4.pptx",
+  "slug": "hust-bo-mon-khoa-hoc-may-tinh-he-dieu-hanh-chuong-4-pptx",
+  "subjectSlug": "nguyen-ly-he-dieu-hanh-1-1-26n01",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/nguyen-ly-he-dieu-hanh-1-1-26n01/slides/hust-bo-mon-khoa-hoc-may-tinh-he-dieu-hanh-chuong-4-pptx_1793112610.pptx",
+      "enc": 5911842,
+      "plain": 5911670
+    }
+  ],
+  "fileExt": "pptx",
+  "fileSize": 5911670,
+  "originalName": "HUST_Bộ môn Khoa học máy tính_Hệ Điều Hành-Chương 4.pptx",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-27T14:55:50.509Z",
+  "updatedAt": "2026-10-27T14:55:50.509Z"
+}

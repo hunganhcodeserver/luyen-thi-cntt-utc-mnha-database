@@ -1,0 +1,29 @@
+{
+  "type": "slide",
+  "slideId": "6ad8037447b6a0499c852d44",
+  "title": "28tech\\VÒNG LẶP_NoCopy.pdf",
+  "slug": "28tech-vong-lap-nocopy-pdf",
+  "subjectSlug": "cau-truc-du-lieu-va-giai-thuat-1-1-26n06",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/cau-truc-du-lieu-va-giai-thuat-1-1-26n06/slides/28tech-vong-lap-nocopy-pdf_1792541549.pdf",
+      "enc": 472134,
+      "plain": 472074
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 472074,
+  "originalName": "VÒNG LẶP_NoCopy.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-21T00:12:36.020Z",
+  "updatedAt": "2026-10-21T00:12:36.020Z"
+}

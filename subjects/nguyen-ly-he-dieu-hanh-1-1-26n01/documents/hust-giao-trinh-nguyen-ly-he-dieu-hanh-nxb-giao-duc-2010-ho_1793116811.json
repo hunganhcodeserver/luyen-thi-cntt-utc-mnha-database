@@ -1,0 +1,29 @@
+{
+  "type": "document",
+  "documentId": "6ae0cc36ef54c9b30a697899",
+  "title": "HUST_giao-trinh-nguyen-ly-he-dieu-hanh-(nxb-giao-duc-2010)---ho-dac-phuong,-273-trang - [cuuduongthancong.com]",
+  "slug": "hust-giao-trinh-nguyen-ly-he-dieu-hanh-nxb-giao-duc-2010-ho",
+  "subjectSlug": "nguyen-ly-he-dieu-hanh-1-1-26n01",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/nguyen-ly-he-dieu-hanh-1-1-26n01/documents/hust-giao-trinh-nguyen-ly-he-dieu-hanh-nxb-giao-duc-2010-ho_1793116811.pdf",
+      "enc": 8965452,
+      "plain": 8965168
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 8965168,
+  "originalName": "HUST_giao-trinh-nguyen-ly-he-dieu-hanh-(nxb-giao-duc-2010)---ho-dac-phuong,-273-trang - [cuuduongthancong.com].pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-27T16:07:18.873Z",
+  "updatedAt": "2026-10-27T16:07:18.873Z"
+}

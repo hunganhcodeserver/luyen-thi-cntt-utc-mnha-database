@@ -1,0 +1,186 @@
+{
+  "submissionId": "6ab7aa17967b795a6041e1b4",
+  "submittedAt": "2026-09-26T11:18:47.282Z",
+  "gradedAt": "2026-09-26T11:19:04.098Z",
+  "status": "graded",
+  "errorMessage": null,
+  "userId": "6ab3d694415010bf620349e5",
+  "userName": "Mai Ngọc Hùng Anh",
+  "userEmail": "hunganh.okokok.0@gmail.com",
+  "subjectId": "6ab5aeac813f0f6c24604455",
+  "subjectName": "Lập trình hướng đối tượng-1-1-26(N04)",
+  "subjectCode": "IT1.108.3",
+  "subjectSlug": "lap-trinh-huong-doi-tuong-1-1-26n04",
+  "lessonId": "6ab79cab3951e49e5e396f7c",
+  "lessonTitle": "(Kiểm tra ngắn OOP C++) Đề 2 ngày 26/09/2026",
+  "lessonSlug": "kiem-tra-ngan-oop-c-de-2-ngay-26092026",
+  "lessonDuration": 15,
+  "lessonContentHtml": "<div class=\"question\">\r\n    <h3>Câu 0.</h3>\r\n\r\n    <p>\r\n        Xây dựng lớp <strong>CTY</strong> gồm các thuộc tính mã công ty,\r\n        tên công ty, năm thành lập, số nhân viên và các phương thức cần thiết.\r\n    </p>\r\n\r\n    <p>Viết hàm <code>main()</code> thực hiện các công việc sau:</p>\r\n\r\n    <ul>\r\n        <li>Nhập vào n công ty, và in ra màn hình</li>\r\n        <li>Tìm các công ty thành lập lâu năm nhất</li>\r\n        <li>\r\n            In ra màn hình các công ty có nhiều hơn X nhân viên và thành lập\r\n            trước năm Y, với X và Y nhập từ bàn phím\r\n        </li>\r\n    </ul>\r\n</div>",
+  "lessonSampleSolution": "<div class=\"code-container\">\r\n    <pre><code>#include &lt;bits/stdc++.h&gt;\r\nusing namespace std;\r\nusing ll = long long;\r\n\r\n/* ==================== CLASS CTY ==================== */\r\nclass CTY {\r\nprivate:\r\n    string ma;\r\n    string ten;\r\n    int nam;\r\n    int sonv;\r\n\r\npublic:\r\n    // Khởi tạo\r\n    CTY() {\r\n        ma   = \"\";\r\n        ten  = \"\";\r\n        nam  = 0;\r\n        sonv = 0;\r\n    }\r\n\r\n    // Nạp chồng toán tử nhập (Friend Function)\r\n    friend istream&amp; operator&gt;&gt;(istream &amp;is, CTY &amp;cpn) {\r\n        cout &lt;&lt; \"  Nhap ma cong ty: \";\r\n        is &gt;&gt; ws;\r\n        getline(is, cpn.ma);\r\n\r\n        cout &lt;&lt; \"  Nhap ten cong ty: \";\r\n        getline(is, cpn.ten);\r\n\r\n        cout &lt;&lt; \"  Nhap nam thanh lap: \";\r\n        is &gt;&gt; cpn.nam;\r\n\r\n        cout &lt;&lt; \"  Nhap so nhan vien: \";\r\n        is &gt;&gt; cpn.sonv;\r\n\r\n        return is;\r\n    }\r\n\r\n    // Nạp chồng toán tử xuất (Friend Function)\r\n    friend ostream&amp; operator&lt;&lt;(ostream &amp;os, const CTY &amp;cpn) {\r\n        os &lt;&lt; \"  Ma cong ty: \"    &lt;&lt; cpn.ma   &lt;&lt; endl;\r\n        os &lt;&lt; \"  Ten cong ty: \"   &lt;&lt; cpn.ten  &lt;&lt; endl;\r\n        os &lt;&lt; \"  Nam thanh lap: \" &lt;&lt; cpn.nam  &lt;&lt; endl;\r\n        os &lt;&lt; \"  So nhan vien: \"  &lt;&lt; cpn.sonv &lt;&lt; endl;\r\n\r\n        return os;\r\n    }\r\n\r\n    // Getter\r\n    int getNam()  const { return nam; }\r\n    int getSoNV() const { return sonv; }\r\n};\r\n\r\n/* ============ HÀM TỰ DO – CÙNG CẤP VỚI main ============ */\r\n\r\n// Tìm năm thành lập nhỏ nhất\r\nint namNhoNhat(CTY a[], int n) {\r\n    if (n == 0) return -1;\r\n\r\n    int minNam = a[0].getNam();\r\n\r\n    for (int i = 1; i &lt; n; i++) {\r\n        if (a[i].getNam() &lt; minNam)\r\n            minNam = a[i].getNam();\r\n    }\r\n\r\n    return minNam;\r\n}\r\n\r\n// Sắp xếp: NV nhiều hơn lên trước; nếu bằng NV thì năm nhỏ hơn lên trước\r\nvoid sapXep(CTY a[], int n) {\r\n    for (int i = 0; i &lt; n - 1; i++) {\r\n        for (int j = i + 1; j &lt; n; j++) {\r\n            bool doi = false;\r\n\r\n            if (a[j].getSoNV() &gt; a[i].getSoNV()) {\r\n                doi = true; // nhiều NV hơn → đổi\r\n            }\r\n            else if (a[j].getSoNV() == a[i].getSoNV()) {\r\n                if (a[j].getNam() &lt; a[i].getNam())\r\n                    doi = true; // cùng NV, sớm hơn → đổi\r\n            }\r\n\r\n            if (doi) {\r\n                CTY temp = a[i];\r\n                a[i] = a[j];\r\n                a[j] = temp;\r\n            }\r\n        }\r\n    }\r\n}\r\n\r\n/* ==================== MAIN ==================== */\r\nint main() {\r\n    int n;\r\n\r\n    cout &lt;&lt; \"Nhap so luong cong ty: \";\r\n    cin &gt;&gt; n;\r\n\r\n    // Khai báo mảng CTY (thay cho DayCTY)\r\n    CTY *a = new CTY[n];\r\n\r\n    // Nhập từng công ty\r\n    for (int i = 0; i &lt; n; i++) {\r\n        cout &lt;&lt; \"\\nNhap thong tin cua cong ty thu \" &lt;&lt; i &lt;&lt; \":\\n\";\r\n        cin &gt;&gt; a[i];\r\n    }\r\n\r\n    // Xuất danh sách\r\n    cout &lt;&lt; \"\\n-- Danh sach cong ty --\\n\";\r\n\r\n    for (int i = 0; i &lt; n; i++) {\r\n        cout &lt;&lt; \"Cong ty thu \" &lt;&lt; i &lt;&lt; \":\\n\";\r\n        cout &lt;&lt; a[i] &lt;&lt; endl;\r\n    }\r\n\r\n    // Tìm năm nhỏ nhất\r\n    cout &lt;&lt; \"\\nNam thanh lap nho nhat: \"\r\n         &lt;&lt; namNhoNhat(a, n) &lt;&lt; endl;\r\n\r\n    // Sắp xếp\r\n    sapXep(a, n);\r\n\r\n    cout &lt;&lt; \"\\n-- Sau khi sap xep --\\n\";\r\n\r\n    for (int i = 0; i &lt; n; i++) {\r\n        cout &lt;&lt; \"Cong ty thu \" &lt;&lt; i &lt;&lt; \":\\n\";\r\n        cout &lt;&lt; a[i] &lt;&lt; endl;\r\n    }\r\n\r\n    delete[] a; // giải phóng bộ nhớ\r\n\r\n    return 0;\r\n}</code></pre>\r\n</div>",
+  "answerHtml": "#include <bits/stdc++.h>\nusing namespace std;\nusing ll = long long;\n\n/* ==================== CLASS CTY ==================== */\nclass CTY {\nprivate:\n    string ma;\n    string ten;\n    int nam;\n    int sonv;\npublic:\n    // Khởi tạo\n    CTY() {\n        ma   = \"\";\n        ten  = \"\";\n        nam  = 0;\n        sonv = 0;\n    }\n\n    // Nạp chồng toán tử nhập (Friend Function)\n    friend istream& operator>>(istream &is, CTY &cpn) {\n        cout << \"  Nhap ma cong ty: \";\n        is >> ws;\n        getline(is, cpn.ma);\n        cout << \"  Nhap ten cong ty: \";\n        getline(is, cpn.ten);\n        cout << \"  Nhap nam thanh lap: \";\n        is >> cpn.nam;\n        cout << \"  Nhap so nhan vien: \";\n        is >> cpn.sonv;\n        return is;\n    }\n\n    // Nạp chồng toán tử xuất (Friend Function)\n    friend ostream& operator<<(ostream &os, const CTY &cpn) {\n        os << \"  Ma cong ty: \"    << cpn.ma   << endl;\n        os << \"  Ten cong ty: \"   << cpn.ten  << endl;\n        os << \"  Nam thanh lap: \" << cpn.nam  << endl;\n        os << \"  So nhan vien: \"  << cpn.sonv << endl;\n        return os;\n    }\n\n    // Getter\n    int getNam()  const { return nam;  }\n    int getSoNV() const { return sonv; }\n};\n\n/* ============ HÀM TỰ DO – CÙNG CẤP VỚI main ============ */\n\n// Tìm năm thành lập nhỏ nhất\nint namNhoNhat(CTY a[], int n) {\n    if (n == 0) return -1;\n    int minNam = a[0].getNam();\n    for (int i = 1; i < n; i++) {\n        if (a[i].getNam() < minNam)\n            minNam = a[i].getNam();\n    }\n    return minNam;\n}\n\n// Sắp xếp: NV nhiều hơn lên trước; nếu bằng NV thì năm nhỏ hơn lên trước\nvoid sapXep(CTY a[], int n) {\n    for (int i = 0; i < n - 1; i++) {\n        for (int j = i + 1; j < n; j++) {\n            bool doi = false;\n            if (a[j].getSoNV() > a[i].getSoNV()) {\n                doi = true;                              // nhiều NV hơn → đổi\n            }\n            else if (a[j].getSoNV() == a[i].getSoNV()) {\n                if (a[j].getNam() < a[i].getNam())\n                    doi = true;                          // cùng NV, sớm hơn → đổi\n            }\n            if (doi) {\n                CTY temp = a[i];\n                a[i]     = a[j];\n                a[j]     = temp;\n            }\n        }\n    }\n}\n\n/* ==================== MAIN ==================== */\nint main() {\n    int n;\n    cout << \"Nhap so luong cong ty: \";\n    cin >> n;\n    // Khai báo mảng CTY (thay cho DayCTY)\n    CTY *a = new CTY[n];\n    // Nhập từng công ty\n    for (int i = 0; i < n; i++) {\n        cout << \"\\nNhap thong tin cua cong ty thu \" << i << \":\\n\";\n        cin >> a[i];\n    }\n    // Xuất danh sách\n    cout << \"\\n-- Danh sach cong ty --\\n\";\n    for (int i = 0; i < n; i++) {\n        cout << \"Cong ty thu \" << i << \":\\n\";\n        cout << a[i] << endl;\n    }\n    // Tìm năm nhỏ nhất\n    cout << \"\\nNam thanh lap nho nhat: \" << namNhoNhat(a, n) << endl;\n    // Sắp xếp\n    sapXep(a, n);\n    cout << \"\\n-- Sau khi sap xep --\\n\";\n    for (int i = 0; i < n; i++) {\n        cout << \"Cong ty thu \" << i << \":\\n\";\n        cout << a[i] << endl;\n    }\n    delete[] a;   // giải phóng bộ nhớ\n    return 0;\n}",
+  "score": 8.8,
+  "feedback": "Sinh viên nắm vững kiến thức lập trình hướng đối tượng, cú pháp C++ chuẩn, tổ chức lớp và nạp chồng toán tử nhập/xuất rất tốt, quản lý bộ nhớ động chính xác. Tuy nhiên, hàm main chưa bám sát đề bài: chưa in ra thông tin các công ty có năm thành lập lâu nhất (mới chỉ tìm ra năm nhỏ nhất) và hoàn toàn bỏ sót yêu cầu nhập X, Y để lọc các công ty có nhiều hơn X nhân viên và thành lập trước năm Y (lại đi cài đặt thuật toán sắp xếp không có trong yêu cầu).",
+  "breakdown": [
+    {
+      "criterion": "Khai báo lớp, thuộc tính private, hàm tạo/hàm hủy đúng",
+      "score": 1.3,
+      "comment": "Khai báo đúng thuộc tính private, có constructor khởi tạo giá trị mặc định."
+    },
+    {
+      "criterion": "Nạp chồng toán tử nhập >> là friend, nhập đúng dữ liệu",
+      "score": 1.3,
+      "comment": "Nạp chồng operator>> đúng dạng hàm friend, xử lý tốt trôi lệnh với ws."
+    },
+    {
+      "criterion": "Nạp chồng toán tử xuất << là friend, xuất đúng dữ liệu",
+      "score": 0.9,
+      "comment": "Nạp chồng operator<< đúng dạng friend, định dạng in rõ ràng, đầy đủ."
+    },
+    {
+      "criterion": "Các phương thức getter/setter hoặc phương thức phụ trợ đúng",
+      "score": 0.5,
+      "comment": "Có đầy đủ các getter getNam() và getSoNV() hỗ trợ truy xuất dữ liệu."
+    },
+    {
+      "criterion": "Nạp chồng toán tử một ngôi (nếu đề yêu cầu +, -, !, ...)",
+      "score": 1.4,
+      "comment": "Đề bài không yêu cầu toán tử một ngôi."
+    },
+    {
+      "criterion": "Nạp chồng toán tử hai ngôi / so sánh (nếu đề yêu cầu +, -, >, <, ==, ...)",
+      "score": 1.4,
+      "comment": "Đề bài không yêu cầu trực tiếp toán tử hai ngôi."
+    },
+    {
+      "criterion": "Hàm main nhập/xuất/xử lý đầy đủ theo đề",
+      "score": 0.5,
+      "comment": "Chưa hoàn thành đúng các yêu cầu của đề: chỉ in ra giá trị năm nhỏ nhất chứ chưa in danh sách các công ty lâu đời nhất; bỏ sót hoàn toàn yêu cầu nhập X, Y để tìm công ty có > X nhân viên và thành lập trước năm Y."
+    },
+    {
+      "criterion": "Quản lý bộ nhớ động đúng, không rò rỉ",
+      "score": 0.9,
+      "comment": "Cấp phát mảng động new[] và giải phóng bằng delete[] chính xác."
+    },
+    {
+      "criterion": "Phong cách, đặt tên, chú thích, không lỗi biên dịch",
+      "score": 0.9,
+      "comment": "Code trình bày sạch đẹp, thụt lề chuẩn, biên dịch không lỗi."
+    }
+  ],
+  "grammar": null,
+  "sampleComparison": null,
+  "model": "gemini-flash-latest",
+  "aiKeyId": "6ab555d45d6ff92ba4d7b934",
+  "aiKeyName": "hufng nguyễn",
+  "latencyMs": 16045,
+  "promptSnapshot": {
+    "promptId": "6ab736bee5d88208e9117c70",
+    "name": "Prompt Kiểm tra ngắn OOP C++",
+    "content": "Bạn là giảng viên chấm bài môn Lập trình hướng đối tượng (C++).\r\nHãy chấm bài làm của sinh viên theo đúng rubric dưới đây. Chỉ đánh giá dựa trên mã nguồn được cung cấp và yêu cầu đề bài. Không suy diễn thêm. Nếu bài không biên dịch được, ghi rõ trong feedback và chỉ cho điểm các phần có thể xác minh.\r\n\r\nTên sinh viên: {student_name}\r\nĐiểm tối đa: {max_score}\r\n\r\nĐỀ BÀI:\r\n{đề_bài}\r\n\r\nRUBRIC:\r\n{rubric}\r\n\r\nLỜI GIẢI MẪU THAM KHẢO (nếu cần đối chiếu):\r\n{lời_giải_mẫu}\r\n\r\nBÀI LÀM SINH VIÊN:\r\n{bài_làm}\r\n\r\nYÊU CẦU TRẢ VỀ:\r\nTrả về DUY NHẤT một object JSON hợp lệ, không thêm văn bản ngoài JSON:\r\n{\r\n  \"score\": number,\r\n  \"feedback\": string,\r\n  \"breakdown\": [{\"criterion\": string, \"score\": number, \"comment\": string}]\r\n}\r\n\r\nVariables:\r\n{\r\n  \"variables\": [\r\n    \"{đề_bài}\",\r\n    \"{bài_làm}\",\r\n    \"{rubric}\",\r\n    \"{max_score}\",\r\n    \"{student_name}\",\r\n    \"{lời_giải_mẫu}\"\r\n  ]\r\n}",
+    "rubric": [
+      {
+        "criterion": "Khai báo lớp, thuộc tính private, hàm tạo/hàm hủy đúng",
+        "weight": 13,
+        "description": "Lớp có các thuộc tính private theo đề; hàm tạo mặc định/hàm tạo có đối; hàm hủy nếu có cấp phát động."
+      },
+      {
+        "criterion": "Nạp chồng toán tử nhập >> là friend, nhập đúng dữ liệu",
+        "weight": 13,
+        "description": "operator>> là friend, nhập đúng các trường theo đề; xử lý khoảng trắng hợp lý nếu cần."
+      },
+      {
+        "criterion": "Nạp chồng toán tử xuất << là friend, xuất đúng dữ liệu",
+        "weight": 9,
+        "description": "operator<< là friend, in ra thông tin rõ ràng, đúng định dạng đề yêu cầu."
+      },
+      {
+        "criterion": "Các phương thức getter/setter hoặc phương thức phụ trợ đúng",
+        "weight": 5,
+        "description": "Cung cấp đủ getter/setter hoặc phương thức mà đề yêu cầu."
+      },
+      {
+        "criterion": "Nạp chồng toán tử một ngôi (nếu đề yêu cầu +, -, !, ...)",
+        "weight": 14,
+        "description": "Cài đặt đúng toán tử một ngôi theo đề, ví dụ operator+() tính tổng, operator-() đổi dấu, operator!() đảo ngược."
+      },
+      {
+        "criterion": "Nạp chồng toán tử hai ngôi / so sánh (nếu đề yêu cầu +, -, >, <, ==, ...)",
+        "weight": 14,
+        "description": "Cài đặt đúng toán tử hai ngôi hoặc toán tử so sánh theo đề, xử lý đúng ngữ nghĩa."
+      },
+      {
+        "criterion": "Hàm main nhập/xuất/xử lý đầy đủ theo đề",
+        "weight": 14,
+        "description": "main thực hiện đủ các bước: nhập, xuất, tính toán, so sánh, sắp xếp, tìm kiếm, ... theo đề."
+      },
+      {
+        "criterion": "Quản lý bộ nhớ động đúng, không rò rỉ",
+        "weight": 9,
+        "description": "Nếu dùng new/delete, cấp phát và giải phóng đúng; không rò rỉ bộ nhớ."
+      },
+      {
+        "criterion": "Phong cách, đặt tên, chú thích, không lỗi biên dịch",
+        "weight": 9,
+        "description": "Code rõ ràng, đặt tên hợp lý, có chú thích, biên dịch thành công."
+      }
+    ],
+    "strictness": "strict",
+    "maxScore": 10,
+    "scope": "lesson",
+    "version": 4,
+    "isFallback": false,
+    "unknownPlaceholders": [],
+    "snapshotAt": "2026-09-26T11:19:04.040Z"
+  },
+  "raw": {
+    "score": 8.8,
+    "feedback": "Sinh viên nắm vững kiến thức lập trình hướng đối tượng, cú pháp C++ chuẩn, tổ chức lớp và nạp chồng toán tử nhập/xuất rất tốt, quản lý bộ nhớ động chính xác. Tuy nhiên, hàm main chưa bám sát đề bài: chưa in ra thông tin các công ty có năm thành lập lâu nhất (mới chỉ tìm ra năm nhỏ nhất) và hoàn toàn bỏ sót yêu cầu nhập X, Y để lọc các công ty có nhiều hơn X nhân viên và thành lập trước năm Y (lại đi cài đặt thuật toán sắp xếp không có trong yêu cầu).",
+    "breakdown": [
+      {
+        "criterion": "Khai báo lớp, thuộc tính private, hàm tạo/hàm hủy đúng",
+        "score": 1.3,
+        "comment": "Khai báo đúng thuộc tính private, có constructor khởi tạo giá trị mặc định."
+      },
+      {
+        "criterion": "Nạp chồng toán tử nhập >> là friend, nhập đúng dữ liệu",
+        "score": 1.3,
+        "comment": "Nạp chồng operator>> đúng dạng hàm friend, xử lý tốt trôi lệnh với ws."
+      },
+      {
+        "criterion": "Nạp chồng toán tử xuất << là friend, xuất đúng dữ liệu",
+        "score": 0.9,
+        "comment": "Nạp chồng operator<< đúng dạng friend, định dạng in rõ ràng, đầy đủ."
+      },
+      {
+        "criterion": "Các phương thức getter/setter hoặc phương thức phụ trợ đúng",
+        "score": 0.5,
+        "comment": "Có đầy đủ các getter getNam() và getSoNV() hỗ trợ truy xuất dữ liệu."
+      },
+      {
+        "criterion": "Nạp chồng toán tử một ngôi (nếu đề yêu cầu +, -, !, ...)",
+        "score": 1.4,
+        "comment": "Đề bài không yêu cầu toán tử một ngôi."
+      },
+      {
+        "criterion": "Nạp chồng toán tử hai ngôi / so sánh (nếu đề yêu cầu +, -, >, <, ==, ...)",
+        "score": 1.4,
+        "comment": "Đề bài không yêu cầu trực tiếp toán tử hai ngôi."
+      },
+      {
+        "criterion": "Hàm main nhập/xuất/xử lý đầy đủ theo đề",
+        "score": 0.5,
+        "comment": "Chưa hoàn thành đúng các yêu cầu của đề: chỉ in ra giá trị năm nhỏ nhất chứ chưa in danh sách các công ty lâu đời nhất; bỏ sót hoàn toàn yêu cầu nhập X, Y để tìm công ty có > X nhân viên và thành lập trước năm Y."
+      },
+      {
+        "criterion": "Quản lý bộ nhớ động đúng, không rò rỉ",
+        "score": 0.9,
+        "comment": "Cấp phát mảng động new[] và giải phóng bằng delete[] chính xác."
+      },
+      {
+        "criterion": "Phong cách, đặt tên, chú thích, không lỗi biên dịch",
+        "score": 0.9,
+        "comment": "Code trình bày sạch đẹp, thụt lề chuẩn, biên dịch không lỗi."
+      }
+    ]
+  }
+}

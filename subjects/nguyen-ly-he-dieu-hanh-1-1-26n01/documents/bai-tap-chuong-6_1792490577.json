@@ -1,0 +1,29 @@
+{
+  "type": "document",
+  "documentId": "6ad73c586126ed47759d8cf0",
+  "title": "Bai-tap-chuong-6",
+  "slug": "bai-tap-chuong-6",
+  "subjectSlug": "nguyen-ly-he-dieu-hanh-1-1-26n01",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/nguyen-ly-he-dieu-hanh-1-1-26n01/documents/bai-tap-chuong-6_1792490577.pdf",
+      "enc": 121315,
+      "plain": 121255
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 121255,
+  "originalName": "Bai-tap-chuong-6.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-20T10:03:04.008Z",
+  "updatedAt": "2026-10-20T10:03:04.008Z"
+}

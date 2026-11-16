@@ -1,0 +1,29 @@
+{
+  "type": "document",
+  "documentId": "6adf7e89935a937d03709cfa",
+  "title": "HUST_Bạch Kim_Giáo trình các phương pháp tối ưu",
+  "slug": "hust-bach-kim-giao-trinh-cac-phuong-phap-toi-uu",
+  "subjectSlug": "cac-phuong-phap-toi-uu-1-1-26n02",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/cac-phuong-phap-toi-uu-1-1-26n02/documents/hust-bach-kim-giao-trinh-cac-phuong-phap-toi-uu_1793031772.pdf",
+      "enc": 6764532,
+      "plain": 6764304
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 6764304,
+  "originalName": "HUST_Bạch Kim_Giáo trình các phương pháp tối ưu.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-26T16:23:37.076Z",
+  "updatedAt": "2026-10-26T16:23:37.076Z"
+}

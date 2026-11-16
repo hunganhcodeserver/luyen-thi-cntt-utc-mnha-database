@@ -1,0 +1,27 @@
+{
+  "type": "video",
+  "videoId": "6ae170473799b5af93b5557e",
+  "title": "HUST_PPTU_Ôn tập thi giữa kì",
+  "slug": "hust-pptu-on-tap-thi-giua-ki",
+  "subjectSlug": "cac-phuong-phap-toi-uu-1-1-26n02",
+  "description": "",
+  "videos": [
+    {
+      "id": "vdf82f400",
+      "title": "",
+      "enc": "v1.Kx_6nofoJkq14ZiY.S9JTziBVIcHBZMx_jSMeyg.HNShVzU1n1ktcTiF22yE8-PTdIcQPdiVRU6NdL4DDME3m1_GQt-wJGz_xGdBjxFckmlZhenVF1V5LEJ5yuqCPLeaLroxkeNqT-wyoo1lS8LWv6rLt6KnLsucIGsZWPqZwX91KSrKzLrAhg0YnFP3hsZYWpOdsOaAdUlo2wiIzgkkh63RoY6buSuZRoyQy6oGhfZlMTTG2IF-T8IYtr3sPQvLO02z1WHfRr0tUX4gtdTfGX7aoidzHzIESpTj1KbUHzoJ2fGLmltERBKWST_CF9DfTzDCZMWgVZkXnKkMF7bgOqxKoPVgNe6DvFvup4cv_U7Sa2cA3cmWu1ggiy8GD0oBa6T8WtHA1eh1uGJrsUvYCNTxO_BX3LGpX5aOy9nQYDTiJj1fRR2SnQCpHj6mqTwZJt2dxoU_oZNdPT4FuhRQXULYXQSErA"
+    }
+  ],
+  "videoCount": 1,
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-28T03:47:19.826Z",
+  "updatedAt": "2026-10-28T03:47:19.826Z"
+}

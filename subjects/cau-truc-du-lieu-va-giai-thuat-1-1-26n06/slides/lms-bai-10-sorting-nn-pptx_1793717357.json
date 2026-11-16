@@ -1,0 +1,29 @@
+{
+  "type": "slide",
+  "slideId": "6ae9f47695e7f1b04fb052ff",
+  "title": "LMS/Bai 10-Sorting -nn.pptx",
+  "slug": "lms-bai-10-sorting-nn-pptx",
+  "subjectSlug": "cau-truc-du-lieu-va-giai-thuat-1-1-26n06",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/cau-truc-du-lieu-va-giai-thuat-1-1-26n06/slides/lms-bai-10-sorting-nn-pptx_1793717357.pdf",
+      "enc": 270643,
+      "plain": 270583
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 270583,
+  "originalName": "Bai 10-Sorting -nn.pptx.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-11-03T14:49:26.092Z",
+  "updatedAt": "2026-11-03T14:49:26.092Z"
+}

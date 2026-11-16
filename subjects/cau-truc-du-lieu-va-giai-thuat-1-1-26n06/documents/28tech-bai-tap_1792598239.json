@@ -1,0 +1,29 @@
+{
+  "type": "document",
+  "documentId": "6ad8e0ef01c556a643cc082b",
+  "title": "28tech\\Bai_Tap",
+  "slug": "28tech-bai-tap",
+  "subjectSlug": "cau-truc-du-lieu-va-giai-thuat-1-1-26n06",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/cau-truc-du-lieu-va-giai-thuat-1-1-26n06/documents/28tech-bai-tap_1792598239.pdf",
+      "enc": 2001020,
+      "plain": 2000904
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 2000904,
+  "originalName": "bai-tap-28tech.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-21T15:57:35.904Z",
+  "updatedAt": "2026-10-21T15:57:35.904Z"
+}

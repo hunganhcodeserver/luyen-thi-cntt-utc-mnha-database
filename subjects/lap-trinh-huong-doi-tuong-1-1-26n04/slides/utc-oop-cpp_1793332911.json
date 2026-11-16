@@ -1,0 +1,29 @@
+{
+  "type": "slide",
+  "slideId": "6ae4172ffa939cf7f8389704",
+  "title": "UTC_OOP_CPP",
+  "slug": "utc-oop-cpp",
+  "subjectSlug": "lap-trinh-huong-doi-tuong-1-1-26n04",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/lap-trinh-huong-doi-tuong-1-1-26n04/slides/utc-oop-cpp_1793332911.pdf",
+      "enc": 17356955,
+      "plain": 17356447
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 17356447,
+  "originalName": "UTC_OOP_CPP.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-30T04:03:59.440Z",
+  "updatedAt": "2026-10-30T04:03:59.440Z"
+}

@@ -1,0 +1,187 @@
+{
+  "submissionId": "6ac057a7cb08034190809b4e",
+  "submittedAt": "2026-10-03T01:17:27.902Z",
+  "gradedAt": "2026-10-03T01:17:35.543Z",
+  "status": "graded",
+  "errorMessage": null,
+  "userId": "6ab3d694415010bf620349e5",
+  "userName": "Mai Ngọc Hùng Anh",
+  "userEmail": "hunganh.okokok.0@gmail.com",
+  "subjectId": "6ab5aeac813f0f6c24604455",
+  "subjectName": "Lập trình hướng đối tượng-1-1-26(N04)",
+  "subjectCode": "IT1.108.3",
+  "subjectSlug": "lap-trinh-huong-doi-tuong-1-1-26n04",
+  "lessonId": "6ac04afc3f2db7d95bab115a",
+  "lessonTitle": "(Kiểm tra ngắn OOP C++) ĐỀ SỐ 3 (03/10/2026) - Chủ đề: DÃY SỐ HỮU HẠN",
+  "lessonSlug": "kiem-tra-ngan-oop-c-de-so-3-03102026-chu-de-day-so-huu-han",
+  "lessonDuration": 30,
+  "lessonContentHtml": "<div class=\"de-bai\">\r\n    <h2 style=\"text-align: center; text-transform: uppercase;\">Đề số 3</h2>\r\n    <p style=\"text-align: center; font-weight: bold;\">Chủ đề: DÃY SỐ HỮU HẠN &bull; Thời gian: 30 phút &bull; C++</p>\r\n    \r\n    <ul>\r\n        <li>\r\n            <strong>Yêu cầu: Xây dựng lớp DaySo lưu tối đa 50 số nguyên; có cấu tử mặc định và phương thức nhập mảng.</strong>\r\n            <ol>\r\n                <li>Viết phương thức tongDuong() tính tổng các phần tử dương.</li>\r\n                <li>Nạp chồng toán tử [] để truy cập phần tử theo chỉ số hợp lệ.</li>\r\n                <li>Viết hàm bạn nạp chồng &gt;&gt;, &lt;&lt; để nhập/xuất dãy.</li>\r\n                <li>Viết phương thức maxChan() và thông báo khi dãy không có số chẵn.</li>\r\n            </ol>\r\n        </li>\r\n        <li><strong>Yêu cầu trong hàm main(): nhập dãy A; in tổng dương và phần tử chẵn lớn nhất của A.</strong></li>\r\n    </ul>\r\n</div>\r\n",
+  "lessonSampleSolution": "",
+  "answerHtml": "#include<bits/stdc++.h>\n\nusing namespace std;\n\nclass DaySo{\n\tprivate:\n\t\tint n;\n\t\tint *a;\n\tpublic:\n\t\tDaySo(){\n\t\t    n = 0;\n        \ta = new int[50];\n\t\t}\n\t\t~DaySo(){\n\t\t    delete[] a;\n\t\t    a = nullptr;\n\t\t}\n\t    int getN() { \n\t        return n; \n\t    }\n\t\tint* getA() {\n\t\t    return a;\n\t\t}\n\t\t// Nap chong toan tu []\n\t\tint& operator[](int index){\n\t\t    if(index >= 0 && index < n){\n\t\t        return a[index];\n\t\t    }\n\t\t    cout << \"Chi so khong hop le!\" << endl;\n\t\t    throw out_of_range(\"Chi so khong hop le!\");\n\t\t}\n\n\t\tfriend istream& operator >> (istream &is, DaySo &ds) {\n\t\t    cout << \"\\nNhap so phan tu: \";\n\t\t    is >> ds.n;\n\t\t    while(ds.n < 0 || ds.n > 50){\n\t\t        cout << \"So phan tu khong hop le! Nhap lai: \";\n\t\t        is >> ds.n;\n\t\t    }\n\t\t    cout << endl;\n\t\t    for(int i = 0; i < ds.n; i++){\n\t\t        cout << \"Nhap he so cua phan tu \" << i << \": \";\n\t\t        is >> ds[i];\n\t\t    }\n\t\t    cout << endl;\n\t\t    return is;\n\t\t}\n\t\tfriend ostream& operator << (ostream &os, const DaySo &ds){\n\t\t\tos << \"\\n--Gia tri day so luu duoc--\" << endl;\n\t\t\tfor(int i = 0; i < ds.n; i++){\n\t\t\t\tos << \"Phan tu \" << i << \": \";\n\t\t\t\tos << ds.a[i] << endl;\n\t\t\t}\n\t        os << endl;\n\t        return os;\n\t\t}\n\n\t    // Tinh tong cac phan tu duong\n\t    int tongDuong(){\n\t        int tong = 0;\n\n\t        for(int i = 0; i < n; i++){\n\t            if(a[i] > 0){\n\t                tong += a[i];\n\t            }\n\t        }\n\t        return tong;\n\t    }\n\t    // Tim phan tu chan lon nhat\n\t\tint maxChan(){\n\t\t    int tmp;\n\t\t    bool coChan = false;\n\t\t    for(int i = 0; i < n; i++){\n\t\t        if(a[i] % 2 == 0){\n\t\t            if(!coChan || a[i] > tmp){\n\t\t                tmp = a[i];\n\t\t            }\n\n\t\t            coChan = true;\n\t\t        }\n\t\t    }\n\t\t    if(!coChan){\n\t\t        cout << \"Day so khong co so chan!\" << endl;\n\t\t        return 0;\n\t\t    }\n\t\t    return tmp;\n\t\t}\n\t\tvoid giaiPhong(){\n\t\t    delete[] a;\n\t\t    a = nullptr;\n\t\t    n = 0;\n\t\t}\n};\n\n\nint main(){\n    DaySo A;\n    cout << \"=== NHAP DU LIEU DAY SO A ===\" << endl;\n    cin >> A;\n    cout << \"=== XUAT DU LIEU DAY SO A ===\" << endl;\n    cout << A;\n    cout << \"=== KET QUA TINH TOAN ===\" << endl;\n    cout << \"Tong cac phan tu duong: \"\n         << A.tongDuong() << endl;\n    int max_chan = A.maxChan();\n    cout << \"Phan tu chan lon nhat: \"\n         << max_chan << endl;\n    // Giai phong bo nho\n    A.giaiPhong();\n    return 0;\n}",
+  "score": 8.3,
+  "feedback": "Bài làm biên dịch được và đáp ứng phần lớn yêu cầu: lớp DaySo có thuộc tính private, hàm tạo mặc định cấp phát mảng 50 phần tử, hàm hủy giải phóng bộ nhớ, nạp chồng operator[] kiểm tra chỉ số hợp lệ, nạp chồng >> và << là friend, phương thức tongDuong() và maxChan() hoạt động đúng, hàm main nhập/xuất và in kết quả theo đề. Tuy nhiên, đề không yêu cầu nạp chồng toán tử một ngôi hay hai ngôi nên hai tiêu chí tương ứng không được tính điểm (không có gì để đánh giá). Một số điểm trừ nhỏ: hàm giaiPhong() gọi delete[] a trùng với hàm hủy nếu đối tượng bị hủy sau đó (dù trong bài không xảy ra do giaiPhong đặt a = nullptr), thiếu getter/setter cho đầy đủ, hàm maxChan() khi không có số chẵn vẫn trả về 0 có thể gây nhầm lẫn với giá trị chẵn hợp lệ, và chưa xử lý trường hợp n = 0 rõ ràng trong thông báo. Nhìn chung bài làm tốt, cần chú ý hơn đến tính nhất quán khi giải phóng bộ nhớ và thiết kế API.",
+  "breakdown": [
+    {
+      "criterion": "Khai báo lớp, thuộc tính private, hàm tạo/hàm hủy đúng",
+      "score": 13,
+      "comment": "Lớp DaySo có thuộc tính private n và int* a; hàm tạo mặc định khởi tạo n=0 và cấp phát new int[50]; hàm hủy delete[] a và gán nullptr. Đáp ứng đầy đủ."
+    },
+    {
+      "criterion": "Nạp chồng toán tử nhập >> là friend, nhập đúng dữ liệu",
+      "score": 13,
+      "comment": "operator>> là friend, nhập n với kiểm tra 0..50, nhập từng phần tử qua operator[]. Xử lý hợp lý."
+    },
+    {
+      "criterion": "Nạp chồng toán tử xuất << là friend, xuất đúng dữ liệu",
+      "score": 9,
+      "comment": "operator<< là friend, xuất rõ ràng từng phần tử. Đúng yêu cầu."
+    },
+    {
+      "criterion": "Các phương thức getter/setter hoặc phương thức phụ trợ đúng",
+      "score": 4,
+      "comment": "Có getN(), getA(), tongDuong(), maxChan(), giaiPhong(). Chưa có setter nhưng đề không bắt buộc; đủ dùng."
+    },
+    {
+      "criterion": "Nạp chồng toán tử một ngôi (nếu đề yêu cầu +, -, !, ...)",
+      "score": 0,
+      "comment": "Đề không yêu cầu toán tử một ngôi nên không đánh giá."
+    },
+    {
+      "criterion": "Nạp chồng toán tử hai ngôi / so sánh (nếu đề yêu cầu +, -, >, <, ==, ...)",
+      "score": 0,
+      "comment": "Đề không yêu cầu toán tử hai ngôi nên không đánh giá."
+    },
+    {
+      "criterion": "Hàm main nhập/xuất/xử lý đầy đủ theo đề",
+      "score": 14,
+      "comment": "main nhập dãy A, in dãy, in tổng dương và phần tử chẵn lớn nhất. Đầy đủ theo đề."
+    },
+    {
+      "criterion": "Quản lý bộ nhớ động đúng, không rò rỉ",
+      "score": 7,
+      "comment": "Có cấp phát new int[50] và giải phóng delete[] trong hủy và giaiPhong(). Tuy nhiên gọi giaiPhong() rồi hủy sẽ gây double-delete nếu không gán nullptr; ở đây có gán nên tạm ổn, nhưng thiết kế chưa an toàn tuyệt đối."
+    },
+    {
+      "criterion": "Phong cách, đặt tên, chú thích, không lỗi biên dịch",
+      "score": 8,
+      "comment": "Code rõ ràng, có chú thích, đặt tên hợp lý, biên dịch được. Cần chú ý thông báo lỗi chỉ số và xử lý trường hợp không có số chẵn rõ ràng hơn."
+    }
+  ],
+  "grammar": null,
+  "sampleComparison": null,
+  "model": "chib/deepseek-v4.1-flash",
+  "aiKeyId": "6abfdf08b29c124d59ccc66b",
+  "aiKeyName": "hunganh2006",
+  "aiProvider": "vilao",
+  "latencyMs": 6742,
+  "promptSnapshot": {
+    "promptId": "6ab736bee5d88208e9117c70",
+    "name": "Prompt Kiểm tra ngắn OOP C++",
+    "content": "Bạn là giảng viên chấm bài môn Lập trình hướng đối tượng (C++).\r\nHãy chấm bài làm của sinh viên theo đúng rubric dưới đây. Chỉ đánh giá dựa trên mã nguồn được cung cấp và yêu cầu đề bài. Không suy diễn thêm. Nếu bài không biên dịch được, ghi rõ trong feedback và chỉ cho điểm các phần có thể xác minh.\r\n\r\nTên sinh viên: {student_name}\r\nĐiểm tối đa: {max_score}\r\n\r\nĐỀ BÀI:\r\n{đề_bài}\r\n\r\nRUBRIC:\r\n{rubric}\r\n\r\nLỜI GIẢI MẪU THAM KHẢO (nếu cần đối chiếu):\r\n{lời_giải_mẫu}\r\n\r\nBÀI LÀM SINH VIÊN:\r\n{bài_làm}\r\n\r\nYÊU CẦU TRẢ VỀ:\r\nTrả về DUY NHẤT một object JSON hợp lệ, không thêm văn bản ngoài JSON:\r\n{\r\n  \"score\": number,\r\n  \"feedback\": string,\r\n  \"breakdown\": [{\"criterion\": string, \"score\": number, \"comment\": string}]\r\n}\r\n\r\nVariables:\r\n{\r\n  \"variables\": [\r\n    \"{đề_bài}\",\r\n    \"{bài_làm}\",\r\n    \"{rubric}\",\r\n    \"{max_score}\",\r\n    \"{student_name}\",\r\n    \"{lời_giải_mẫu}\"\r\n  ]\r\n}",
+    "rubric": [
+      {
+        "criterion": "Khai báo lớp, thuộc tính private, hàm tạo/hàm hủy đúng",
+        "weight": 13,
+        "description": "Lớp có các thuộc tính private theo đề; hàm tạo mặc định/hàm tạo có đối; hàm hủy nếu có cấp phát động."
+      },
+      {
+        "criterion": "Nạp chồng toán tử nhập >> là friend, nhập đúng dữ liệu",
+        "weight": 13,
+        "description": "operator>> là friend, nhập đúng các trường theo đề; xử lý khoảng trắng hợp lý nếu cần."
+      },
+      {
+        "criterion": "Nạp chồng toán tử xuất << là friend, xuất đúng dữ liệu",
+        "weight": 9,
+        "description": "operator<< là friend, in ra thông tin rõ ràng, đúng định dạng đề yêu cầu."
+      },
+      {
+        "criterion": "Các phương thức getter/setter hoặc phương thức phụ trợ đúng",
+        "weight": 5,
+        "description": "Cung cấp đủ getter/setter hoặc phương thức mà đề yêu cầu."
+      },
+      {
+        "criterion": "Nạp chồng toán tử một ngôi (nếu đề yêu cầu +, -, !, ...)",
+        "weight": 14,
+        "description": "Cài đặt đúng toán tử một ngôi theo đề, ví dụ operator+() tính tổng, operator-() đổi dấu, operator!() đảo ngược."
+      },
+      {
+        "criterion": "Nạp chồng toán tử hai ngôi / so sánh (nếu đề yêu cầu +, -, >, <, ==, ...)",
+        "weight": 14,
+        "description": "Cài đặt đúng toán tử hai ngôi hoặc toán tử so sánh theo đề, xử lý đúng ngữ nghĩa."
+      },
+      {
+        "criterion": "Hàm main nhập/xuất/xử lý đầy đủ theo đề",
+        "weight": 14,
+        "description": "main thực hiện đủ các bước: nhập, xuất, tính toán, so sánh, sắp xếp, tìm kiếm, ... theo đề."
+      },
+      {
+        "criterion": "Quản lý bộ nhớ động đúng, không rò rỉ",
+        "weight": 9,
+        "description": "Nếu dùng new/delete, cấp phát và giải phóng đúng; không rò rỉ bộ nhớ."
+      },
+      {
+        "criterion": "Phong cách, đặt tên, chú thích, không lỗi biên dịch",
+        "weight": 9,
+        "description": "Code rõ ràng, đặt tên hợp lý, có chú thích, biên dịch thành công."
+      }
+    ],
+    "strictness": "strict",
+    "maxScore": 10,
+    "scope": "lesson",
+    "version": 4,
+    "isFallback": false,
+    "unknownPlaceholders": [],
+    "snapshotAt": "2026-10-03T01:17:35.329Z"
+  },
+  "raw": {
+    "score": 8.3,
+    "feedback": "Bài làm biên dịch được và đáp ứng phần lớn yêu cầu: lớp DaySo có thuộc tính private, hàm tạo mặc định cấp phát mảng 50 phần tử, hàm hủy giải phóng bộ nhớ, nạp chồng operator[] kiểm tra chỉ số hợp lệ, nạp chồng >> và << là friend, phương thức tongDuong() và maxChan() hoạt động đúng, hàm main nhập/xuất và in kết quả theo đề. Tuy nhiên, đề không yêu cầu nạp chồng toán tử một ngôi hay hai ngôi nên hai tiêu chí tương ứng không được tính điểm (không có gì để đánh giá). Một số điểm trừ nhỏ: hàm giaiPhong() gọi delete[] a trùng với hàm hủy nếu đối tượng bị hủy sau đó (dù trong bài không xảy ra do giaiPhong đặt a = nullptr), thiếu getter/setter cho đầy đủ, hàm maxChan() khi không có số chẵn vẫn trả về 0 có thể gây nhầm lẫn với giá trị chẵn hợp lệ, và chưa xử lý trường hợp n = 0 rõ ràng trong thông báo. Nhìn chung bài làm tốt, cần chú ý hơn đến tính nhất quán khi giải phóng bộ nhớ và thiết kế API.",
+    "breakdown": [
+      {
+        "criterion": "Khai báo lớp, thuộc tính private, hàm tạo/hàm hủy đúng",
+        "score": 13,
+        "comment": "Lớp DaySo có thuộc tính private n và int* a; hàm tạo mặc định khởi tạo n=0 và cấp phát new int[50]; hàm hủy delete[] a và gán nullptr. Đáp ứng đầy đủ."
+      },
+      {
+        "criterion": "Nạp chồng toán tử nhập >> là friend, nhập đúng dữ liệu",
+        "score": 13,
+        "comment": "operator>> là friend, nhập n với kiểm tra 0..50, nhập từng phần tử qua operator[]. Xử lý hợp lý."
+      },
+      {
+        "criterion": "Nạp chồng toán tử xuất << là friend, xuất đúng dữ liệu",
+        "score": 9,
+        "comment": "operator<< là friend, xuất rõ ràng từng phần tử. Đúng yêu cầu."
+      },
+      {
+        "criterion": "Các phương thức getter/setter hoặc phương thức phụ trợ đúng",
+        "score": 4,
+        "comment": "Có getN(), getA(), tongDuong(), maxChan(), giaiPhong(). Chưa có setter nhưng đề không bắt buộc; đủ dùng."
+      },
+      {
+        "criterion": "Nạp chồng toán tử một ngôi (nếu đề yêu cầu +, -, !, ...)",
+        "score": 0,
+        "comment": "Đề không yêu cầu toán tử một ngôi nên không đánh giá."
+      },
+      {
+        "criterion": "Nạp chồng toán tử hai ngôi / so sánh (nếu đề yêu cầu +, -, >, <, ==, ...)",
+        "score": 0,
+        "comment": "Đề không yêu cầu toán tử hai ngôi nên không đánh giá."
+      },
+      {
+        "criterion": "Hàm main nhập/xuất/xử lý đầy đủ theo đề",
+        "score": 14,
+        "comment": "main nhập dãy A, in dãy, in tổng dương và phần tử chẵn lớn nhất. Đầy đủ theo đề."
+      },
+      {
+        "criterion": "Quản lý bộ nhớ động đúng, không rò rỉ",
+        "score": 7,
+        "comment": "Có cấp phát new int[50] và giải phóng delete[] trong hủy và giaiPhong(). Tuy nhiên gọi giaiPhong() rồi hủy sẽ gây double-delete nếu không gán nullptr; ở đây có gán nên tạm ổn, nhưng thiết kế chưa an toàn tuyệt đối."
+      },
+      {
+        "criterion": "Phong cách, đặt tên, chú thích, không lỗi biên dịch",
+        "score": 8,
+        "comment": "Code rõ ràng, có chú thích, đặt tên hợp lý, biên dịch được. Cần chú ý thông báo lỗi chỉ số và xử lý trường hợp không có số chẵn rõ ràng hơn."
+      }
+    ]
+  }
+}

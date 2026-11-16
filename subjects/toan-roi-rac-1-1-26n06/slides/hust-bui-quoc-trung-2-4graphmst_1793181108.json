@@ -1,0 +1,29 @@
+{
+  "type": "slide",
+  "slideId": "6ae1c5beefc410fc851087c8",
+  "title": "HUST_Bùi Quốc Trung_2-4GraphMST",
+  "slug": "hust-bui-quoc-trung-2-4graphmst",
+  "subjectSlug": "toan-roi-rac-1-1-26n06",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/toan-roi-rac-1-1-26n06/slides/hust-bui-quoc-trung-2-4graphmst_1793181108.pdf",
+      "enc": 2224859,
+      "plain": 2224743
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 2224743,
+  "originalName": "HUST_Bùi Quốc Trung_2-4GraphMST.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-28T09:51:58.675Z",
+  "updatedAt": "2026-10-28T09:51:58.675Z"
+}
