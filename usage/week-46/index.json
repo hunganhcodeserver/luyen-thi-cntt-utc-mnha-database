@@ -1,0 +1,129 @@
+{
+  "nodes": {
+    "luyen-thi-cntt-utc-mnha": {
+      "days": {
+        "2026-11-16": {
+          "in": 2172702,
+          "out": 5225144,
+          "originIn": 31497624,
+          "originOut": 10878582,
+          "req": 509
+        }
+      },
+      "updatedAt": "2026-11-17T00:07:51.052Z"
+    },
+    "data-node-3": {
+      "days": {
+        "2026-11-16": {
+          "in": 0,
+          "out": 1885,
+          "originIn": 2665,
+          "originOut": 0,
+          "req": 2
+        }
+      },
+      "updatedAt": "2026-11-17T00:07:51.052Z"
+    },
+    "data-node-4": {
+      "days": {
+        "2026-11-16": {
+          "in": 0,
+          "out": 1885,
+          "originIn": 2665,
+          "originOut": 0,
+          "req": 2
+        }
+      },
+      "updatedAt": "2026-11-17T00:07:51.052Z"
+    },
+    "data-node-6": {
+      "days": {
+        "2026-11-16": {
+          "in": 0,
+          "out": 1885,
+          "originIn": 2665,
+          "originOut": 0,
+          "req": 2
+        }
+      },
+      "updatedAt": "2026-11-17T00:07:51.052Z"
+    },
+    "data-node-2": {
+      "days": {
+        "2026-11-16": {
+          "in": 0,
+          "out": 6908,
+          "originIn": 32182,
+          "originOut": 3649,
+          "req": 4
+        }
+      },
+      "updatedAt": "2026-11-17T00:07:51.052Z"
+    },
+    "data-node-8": {
+      "days": {
+        "2026-11-16": {
+          "in": 0,
+          "out": 1885,
+          "originIn": 2665,
+          "originOut": 0,
+          "req": 2
+        }
+      },
+      "updatedAt": "2026-11-17T00:07:51.052Z"
+    },
+    "data-node-1": {
+      "days": {
+        "2026-11-16": {
+          "in": 5117831,
+          "out": 30694,
+          "originIn": 5137108,
+          "originOut": 12770213,
+          "req": 61
+        }
+      },
+      "updatedAt": "2026-11-17T00:07:51.052Z"
+    },
+    "data-node-5": {
+      "days": {
+        "2026-11-16": {
+          "in": 0,
+          "out": 1885,
+          "originIn": 2665,
+          "originOut": 0,
+          "req": 2
+        }
+      },
+      "updatedAt": "2026-11-17T00:07:51.052Z"
+    },
+    "data-node-7": {
+      "days": {
+        "2026-11-16": {
+          "in": 0,
+          "out": 1885,
+          "originIn": 2665,
+          "originOut": 0,
+          "req": 2
+        }
+      },
+      "updatedAt": "2026-11-17T00:07:51.052Z"
+    },
+    "localhost": {
+      "days": {
+        "2026-11-16": {
+          "in": 12082387,
+          "out": 1304783,
+          "originIn": 5087225,
+          "originOut": 25507364,
+          "req": 362
+        }
+      },
+      "updatedAt": "2026-11-17T00:07:51.052Z"
+    }
+  },
+  "v": 2,
+  "week": 46,
+  "from": "2026-11-16",
+  "to": "2026-11-22",
+  "updatedAt": "2026-11-17T00:07:51.052Z"
+}
