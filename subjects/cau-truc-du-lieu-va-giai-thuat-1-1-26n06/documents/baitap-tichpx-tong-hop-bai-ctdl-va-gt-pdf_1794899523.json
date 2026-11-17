@@ -1,0 +1,29 @@
+{
+  "type": "document",
+  "documentId": "6afbfe616322643e62c59a57",
+  "title": "BAITAP /Tichpx _ Tổng hợp bài CTDL và GT.pdf",
+  "slug": "baitap-tichpx-tong-hop-bai-ctdl-va-gt-pdf",
+  "subjectSlug": "cau-truc-du-lieu-va-giai-thuat-1-1-26n06",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/cau-truc-du-lieu-va-giai-thuat-1-1-26n06/documents/baitap-tichpx-tong-hop-bai-ctdl-va-gt-pdf_1794899523.pdf",
+      "enc": 1047862,
+      "plain": 1047802
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 1047802,
+  "originalName": "Tichpx _ Tổng hợp bài CTDL và GT.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-11-17T07:12:33.333Z",
+  "updatedAt": "2026-11-17T07:12:33.333Z"
+}
