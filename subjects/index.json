@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-07T03:57:07.595Z",
+  "updatedAt": "2026-11-17T02:38:45.181Z",
   "subjects": [
     {
       "_id": "6ab3df063c59c9d02fe14887",
@@ -301,6 +301,26 @@
       "deletedForever": false,
       "createdAt": "2026-11-07T03:57:07.476Z",
       "updatedAt": "2026-11-07T03:57:07.476Z"
+    },
+    {
+      "_id": "6afbbe35c288bd5b1d8310e2",
+      "name": "VAP. PI_1059 T2.5 17h40 - 19h40",
+      "code": null,
+      "slug": "vap-pi1059-t25-17h40-19h40",
+      "description": "",
+      "order": 0,
+      "githubFolder": null,
+      "promptId": null,
+      "quizPromptId": null,
+      "isPublished": true,
+      "userKey": "6ac1d28fa3ad662865bb16f4",
+      "createdBy": "6ac1d25d7d8ec4035a2f1e84",
+      "updatedBy": "6ac1d25d7d8ec4035a2f1e84",
+      "deletedAt": null,
+      "deletedBy": null,
+      "deletedForever": false,
+      "createdAt": "2026-11-17T02:38:45.041Z",
+      "updatedAt": "2026-11-17T02:38:45.041Z"
     }
   ]
 }
