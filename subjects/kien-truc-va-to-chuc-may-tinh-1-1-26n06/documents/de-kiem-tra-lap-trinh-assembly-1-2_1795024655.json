@@ -1,0 +1,29 @@
+{
+  "type": "document",
+  "documentId": "6afde71a97affac40bb7bc6e",
+  "title": "ĐỀ-KIỂM-TRA-LẬP-TRÌNH-ASSEMBLY-1-2",
+  "slug": "de-kiem-tra-lap-trinh-assembly-1-2",
+  "subjectSlug": "kien-truc-va-to-chuc-may-tinh-1-1-26n06",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/kien-truc-va-to-chuc-may-tinh-1-1-26n06/documents/de-kiem-tra-lap-trinh-assembly-1-2_1795024655.pdf",
+      "enc": 208108,
+      "plain": 208048
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 208048,
+  "originalName": "ĐỀ-KIỂM-TRA-LẬP-TRÌNH-ASSEMBLY-1-2.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-11-18T17:57:46.629Z",
+  "updatedAt": "2026-11-18T17:57:46.629Z"
+}
