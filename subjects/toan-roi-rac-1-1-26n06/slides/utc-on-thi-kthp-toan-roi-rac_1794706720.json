@@ -7,13 +7,13 @@
   "description": "",
   "parts": [
     {
-      "path": "subjects/toan-roi-rac-1-1-26n06/slides/utc-on-thi-kthp-toan-roi-rac_1794974576.pptx",
-      "enc": 1189865,
-      "plain": 1189805
+      "path": "subjects/toan-roi-rac-1-1-26n06/slides/utc-on-thi-kthp-toan-roi-rac_1794979103.pptx",
+      "enc": 1214784,
+      "plain": 1214724
     }
   ],
   "fileExt": "pptx",
-  "fileSize": 1189805,
+  "fileSize": 1214724,
   "originalName": "UTC_On_thi_KTHP_Toan_roi_rac.pptx",
   "encrypted": true,
   "encryption": "aes-256-gcm",
@@ -25,5 +25,5 @@
   "createdBy": "6ab3d694415010bf620349e5",
   "updatedBy": "6ab3d694415010bf620349e5",
   "createdAt": "2026-11-15T01:38:51.628Z",
-  "updatedAt": "2026-11-18T04:03:08.154Z"
+  "updatedAt": "2026-11-18T05:18:51.223Z"
 }
