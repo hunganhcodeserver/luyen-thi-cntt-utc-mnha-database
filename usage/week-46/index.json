@@ -15,9 +15,16 @@
           "originIn": 44402661,
           "originOut": 11869616,
           "req": 654
+        },
+        "2026-11-18": {
+          "in": 2921397,
+          "out": 10426103,
+          "originIn": 120029037,
+          "originOut": 37496268,
+          "req": 1092
         }
       },
-      "updatedAt": "2026-11-18T00:07:51.056Z"
+      "updatedAt": "2026-11-19T00:07:50.947Z"
     },
     "data-node-3": {
       "days": {
@@ -34,9 +41,16 @@
           "originIn": 146992,
           "originOut": 3760,
           "req": 18
+        },
+        "2026-11-18": {
+          "in": 0,
+          "out": 27014,
+          "originIn": 127354,
+          "originOut": 6053,
+          "req": 15
         }
       },
-      "updatedAt": "2026-11-18T00:07:51.056Z"
+      "updatedAt": "2026-11-19T00:07:50.947Z"
     },
     "data-node-4": {
       "days": {
@@ -53,9 +67,16 @@
           "originIn": 153200,
           "originOut": 0,
           "req": 20
+        },
+        "2026-11-18": {
+          "in": 0,
+          "out": 36739,
+          "originIn": 135490,
+          "originOut": 0,
+          "req": 17
         }
       },
-      "updatedAt": "2026-11-18T00:07:51.056Z"
+      "updatedAt": "2026-11-19T00:07:50.947Z"
     },
     "data-node-6": {
       "days": {
@@ -72,9 +93,16 @@
           "originIn": 135490,
           "originOut": 0,
           "req": 17
+        },
+        "2026-11-18": {
+          "in": 0,
+          "out": 31875,
+          "originIn": 117780,
+          "originOut": 0,
+          "req": 16
         }
       },
-      "updatedAt": "2026-11-18T00:07:51.056Z"
+      "updatedAt": "2026-11-19T00:07:50.947Z"
     },
     "data-node-2": {
       "days": {
@@ -91,9 +119,16 @@
           "originIn": 203524,
           "originOut": 15108,
           "req": 21
+        },
+        "2026-11-18": {
+          "in": 0,
+          "out": 27011,
+          "originIn": 117780,
+          "originOut": 0,
+          "req": 15
         }
       },
-      "updatedAt": "2026-11-18T00:07:51.056Z"
+      "updatedAt": "2026-11-19T00:07:50.947Z"
     },
     "data-node-8": {
       "days": {
@@ -110,9 +145,16 @@
           "originIn": 144345,
           "originOut": 0,
           "req": 18
+        },
+        "2026-11-18": {
+          "in": 0,
+          "out": 22147,
+          "originIn": 108925,
+          "originOut": 0,
+          "req": 14
         }
       },
-      "updatedAt": "2026-11-18T00:07:51.056Z"
+      "updatedAt": "2026-11-19T00:07:50.947Z"
     },
     "data-node-1": {
       "days": {
@@ -129,9 +171,16 @@
           "originIn": 5572844,
           "originOut": 92724803,
           "req": 98
+        },
+        "2026-11-18": {
+          "in": 0,
+          "out": 5752593,
+          "originIn": 11231839,
+          "originOut": 5013495,
+          "req": 92
         }
       },
-      "updatedAt": "2026-11-18T00:07:51.056Z"
+      "updatedAt": "2026-11-19T00:07:50.947Z"
     },
     "data-node-5": {
       "days": {
@@ -148,9 +197,16 @@
           "originIn": 135490,
           "originOut": 0,
           "req": 17
+        },
+        "2026-11-18": {
+          "in": 0,
+          "out": 22147,
+          "originIn": 108925,
+          "originOut": 0,
+          "req": 14
         }
       },
-      "updatedAt": "2026-11-18T00:07:51.056Z"
+      "updatedAt": "2026-11-19T00:07:50.947Z"
     },
     "data-node-7": {
       "days": {
@@ -167,9 +223,16 @@
           "originIn": 180787,
           "originOut": 13451,
           "req": 18
+        },
+        "2026-11-18": {
+          "in": 0,
+          "out": 27011,
+          "originIn": 117780,
+          "originOut": 0,
+          "req": 15
         }
       },
-      "updatedAt": "2026-11-18T00:07:51.056Z"
+      "updatedAt": "2026-11-19T00:07:50.947Z"
     },
     "localhost": {
       "days": {
@@ -191,14 +254,21 @@
           "originIn": 44275,
           "originOut": 0,
           "req": 15
+        },
+        "2026-11-18": {
+          "in": 0,
+          "out": 19588,
+          "originIn": 35420,
+          "originOut": 0,
+          "req": 12
         }
       },
-      "updatedAt": "2026-11-18T00:07:51.056Z"
+      "updatedAt": "2026-11-19T00:07:50.947Z"
     }
   },
   "v": 2,
   "week": 46,
   "from": "2026-11-16",
   "to": "2026-11-22",
-  "updatedAt": "2026-11-18T00:07:51.056Z"
+  "updatedAt": "2026-11-19T00:07:50.947Z"
 }
