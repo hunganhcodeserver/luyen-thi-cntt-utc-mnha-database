@@ -1,0 +1,218 @@
+{
+  "type": "flashcard",
+  "flashcardId": "6affe1828be94d041cc384f2",
+  "title": "[Online - Ver 4] Pre - Lesson 2",
+  "slug": "online-ver-4-pre-lesson-2",
+  "subjectSlug": "vap-pi1059-t25-17h40-19h40",
+  "description": "",
+  "mode": "language",
+  "language": "en-US",
+  "cardCount": 28,
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ac1d25d7d8ec4035a2f1e84",
+  "updatedBy": "6ac1d25d7d8ec4035a2f1e84",
+  "createdAt": "2026-11-20T05:58:26.557Z",
+  "updatedAt": "2026-11-20T05:58:26.557Z",
+  "cards": [
+    {
+      "id": "c1",
+      "front": "Hometown",
+      "back": "Quê hương",
+      "ipa": "ˈhəʊm.taʊn",
+      "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-8/main/cache/image/1795154154603.png"
+    },
+    {
+      "id": "c2",
+      "front": "Japan",
+      "back": "Nhật Bản",
+      "ipa": "dʒəˈpæn",
+      "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-8/main/cache/image/1795154165719.png"
+    },
+    {
+      "id": "c3",
+      "front": "Japanese",
+      "back": "Người Nhật Bản",
+      "ipa": "ˌdʒæp.ənˈiːz",
+      "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-8/main/cache/image/1795154175325.png"
+    },
+    {
+      "id": "c4",
+      "front": "Poland",
+      "back": "Ba Lan",
+      "ipa": "ˈpəʊ.lənd",
+      "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-8/main/cache/image/1795154185703.png"
+    },
+    {
+      "id": "c5",
+      "front": "Polish",
+      "back": "Người Ba Lan",
+      "ipa": "ˈpəʊ.lɪʃ",
+      "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-8/main/cache/image/1795154194676.png"
+    },
+    {
+      "id": "c6",
+      "front": "Argentina",
+      "back": "Argentina",
+      "ipa": "ˌɑː.dʒənˈtiː.nə",
+      "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-8/main/cache/image/1795154220853.png"
+    },
+    {
+      "id": "c7",
+      "front": "Argentinian",
+      "back": "Người Argentina",
+      "ipa": "ˌɑː.dʒənˈtɪn.i.ən",
+      "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-8/main/cache/image/1795154236992.png"
+    },
+    {
+      "id": "c8",
+      "front": "Birthplace",
+      "back": "Nơi sinh",
+      "ipa": "ˈbɜːθ.pleɪs",
+      "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-8/main/cache/image/1795154249483.png"
+    },
+    {
+      "id": "c9",
+      "front": "Brazil",
+      "back": "Brazil",
+      "ipa": "brəˈzɪl",
+      "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-8/main/cache/image/1795154259890.png"
+    },
+    {
+      "id": "c10",
+      "front": "Brazilian",
+      "back": "Người Brazil",
+      "ipa": "brəˈzɪl.jən",
+      "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-8/main/cache/image/1795154268974.png"
+    },
+    {
+      "id": "c11",
+      "front": "Nationality",
+      "back": "Quốc tịch",
+      "ipa": "ˌnæʃ.ənˈæl.ə.ti",
+      "image": ""
+    },
+    {
+      "id": "c12",
+      "front": "France",
+      "back": "Pháp",
+      "ipa": "frɑːns",
+      "image": ""
+    },
+    {
+      "id": "c13",
+      "front": "French",
+      "back": "Người Pháp",
+      "ipa": "frentʃ",
+      "image": ""
+    },
+    {
+      "id": "c14",
+      "front": "Canada",
+      "back": "Canada",
+      "ipa": "ˈkæn.ə.də",
+      "image": ""
+    },
+    {
+      "id": "c15",
+      "front": "Canadian",
+      "back": "Người Canada",
+      "ipa": "kəˈneɪ.di.ən",
+      "image": ""
+    },
+    {
+      "id": "c16",
+      "front": "Turkey",
+      "back": "Thổ Nhĩ Kỳ",
+      "ipa": "ˈtɜː.ki",
+      "image": ""
+    },
+    {
+      "id": "c17",
+      "front": "Turkish",
+      "back": "Người Thổ Nhĩ Kỳ",
+      "ipa": "ˈtɜː.kɪʃ",
+      "image": ""
+    },
+    {
+      "id": "c18",
+      "front": "Australia",
+      "back": "Úc",
+      "ipa": "ɒsˈtreɪ.li.ə",
+      "image": ""
+    },
+    {
+      "id": "c19",
+      "front": "Australian",
+      "back": "Người Úc",
+      "ipa": "ɒsˈtreɪ.li.ən",
+      "image": ""
+    },
+    {
+      "id": "c20",
+      "front": "curly (hair)",
+      "back": "(tóc) xoăn",
+      "ipa": "ˈkɜː.li",
+      "image": ""
+    },
+    {
+      "id": "c21",
+      "front": "oval (face)",
+      "back": "(mặt) trái xoan",
+      "ipa": "ˈəʊ.vəl",
+      "image": ""
+    },
+    {
+      "id": "c22",
+      "front": "straight (hair)",
+      "back": "(tóc) thẳng",
+      "ipa": "streɪt",
+      "image": ""
+    },
+    {
+      "id": "c23",
+      "front": "square (face)",
+      "back": "(mặt) vuông",
+      "ipa": "skweər",
+      "image": ""
+    },
+    {
+      "id": "c24",
+      "front": "slim (body)",
+      "back": "(thân hình) mảnh mai",
+      "ipa": "slɪm",
+      "image": ""
+    },
+    {
+      "id": "c25",
+      "front": "sparkling (eyes)",
+      "back": "(đôi mắt) lấp lánh",
+      "ipa": "ˈspɑː.klɪŋ",
+      "image": ""
+    },
+    {
+      "id": "c26",
+      "front": "muscular (body)",
+      "back": "(thân hình) vạm vỡ",
+      "ipa": "ˈmʌs.kjə.lər",
+      "image": ""
+    },
+    {
+      "id": "c27",
+      "front": "bright (smile)",
+      "back": "(nụ cười) rạng rỡ",
+      "ipa": "braɪt",
+      "image": ""
+    },
+    {
+      "id": "c28",
+      "front": "glowing (skin)",
+      "back": "(làn da) sáng khỏe",
+      "ipa": "ˈɡləʊ.ɪŋ",
+      "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-8/main/cache/image/1795154277905.png"
+    }
+  ]
+}
