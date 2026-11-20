@@ -7,23 +7,23 @@
   "description": "",
   "parts": [
     {
-      "path": "subjects/vap-pi1059-t25-17h40-19h40/slides/online-ver-4-pre-lesson-2_1795152751-1.pptx",
+      "path": "subjects/vap-pi1059-t25-17h40-19h40/slides/online-ver-4-pre-lesson-2_1795157878-1.pptx",
       "enc": 22000620,
       "plain": 22000000
     },
     {
-      "path": "subjects/vap-pi1059-t25-17h40-19h40/slides/online-ver-4-pre-lesson-2_1795152751-2.pptx",
+      "path": "subjects/vap-pi1059-t25-17h40-19h40/slides/online-ver-4-pre-lesson-2_1795157878-2.pptx",
       "enc": 22000620,
       "plain": 22000000
     },
     {
-      "path": "subjects/vap-pi1059-t25-17h40-19h40/slides/online-ver-4-pre-lesson-2_1795152751-3.pptx",
-      "enc": 3894494,
-      "plain": 3894378
+      "path": "subjects/vap-pi1059-t25-17h40-19h40/slides/online-ver-4-pre-lesson-2_1795157878-3.pptx",
+      "enc": 3889522,
+      "plain": 3889406
     }
   ],
   "fileExt": "pptx",
-  "fileSize": 47894378,
+  "fileSize": 47889406,
   "originalName": "[Online - Ver 4] Pre - Lesson 2.pptx",
   "encrypted": true,
   "encryption": "aes-256-gcm",
@@ -35,5 +35,5 @@
   "createdBy": "6ac1d25d7d8ec4035a2f1e84",
   "updatedBy": "6ac1d25d7d8ec4035a2f1e84",
   "createdAt": "2026-11-20T05:33:11.659Z",
-  "updatedAt": "2026-11-20T05:33:11.659Z"
+  "updatedAt": "2026-11-20T06:58:26.468Z"
 }
