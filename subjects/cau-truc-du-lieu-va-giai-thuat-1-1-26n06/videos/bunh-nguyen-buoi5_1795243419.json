@@ -19,7 +19,8 @@
   "isPublished": true,
   "visibility": "users",
   "allowedUserIds": [
-    "6ab6ea62461cb184bc25a92d"
+    "6ab6ea62461cb184bc25a92d",
+    "6ae9ff2917ca8900c154859a"
   ],
   "isDeleted": false,
   "deletedAt": null,
@@ -27,5 +28,5 @@
   "createdBy": "6ab3d694415010bf620349e5",
   "updatedBy": "6ab3d694415010bf620349e5",
   "createdAt": "2026-11-21T06:43:39.630Z",
-  "updatedAt": "2026-11-21T07:09:25.719Z"
+  "updatedAt": "2026-11-21T11:08:57.173Z"
 }
