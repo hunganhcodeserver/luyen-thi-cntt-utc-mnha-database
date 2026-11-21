@@ -1,0 +1,32 @@
+{
+  "type": "video",
+  "videoId": "6b013624fa3876342cc7ca62",
+  "title": "Bunh Nguyen _ Buoi4-DoPhucТар",
+  "slug": "bunh-nguyen-buoi4-dophuc",
+  "subjectSlug": "cau-truc-du-lieu-va-giai-thuat-1-1-26n06",
+  "description": "",
+  "videos": [
+    {
+      "id": "vbaa0b308",
+      "title": "",
+      "enc": "v1.gKytEVdjHz85eQ65.y_dD4_UFh-zqyDglNfQm8Q.GQUl6H8c5agtdffK2l5ih4PTOCMWu6OENE6PWCoivaIXHn_ofpJX61Ryq700F2YmBtE9RuRgug3-588pPhiY3Fss5Jrpmg4Gr4Ghv98SXUBSfNnK4KVpoRDTXIztp4bCuFGNCOjAq6ae9Fbr8kGwSNbtslNZNzBh_l1RcOUQrNaJvtO6UEYRSfuKN3ocQhcqj5U2HoPBm_nP5qSjGmDfmUGeDryFQs6poDThw9kB7d2SlQ03NG1KjNOVmVmkail4PCWDCJ5dxkPjZhCtM5MUp3m_pLv3-CIvIWEV_QryN2Xy4U22rxFP6rr_eNbDj56vV30hojVIALOewXsAMR7yBArIgrQKhydPj2VjWSH47FoQAEW-aLdhB7iphLAYWdvxCpo3pHu0k1MXA9I2XIRwR9utPoH2og_v5wajq8XnqZ084RmV7tFl8Q"
+    },
+    {
+      "id": "vf55133a2",
+      "title": "",
+      "enc": "v1.jD77IZNb_dBf-35J.HshBgcAuajcUFc6Nb9nMMA.tFYprAZeK-zuxFG5iLhfCORLpxGK83KOMGWxGjRWrkSnPjU-hw_5G9fkaR5KFmqPXexKkHo3cEcdrfquD8tCvOasx42MUr-43XYenr_SOnlB0CZw9EhAhupGWvJLk6-uAVI4q3VgtGwdbuVVK0m89EAm0IrbZKRafRCFbqplKMaPo8hp62oaE3V-UErlJiSKj89O4Kx5tZaBQZFwj3u0ZXc4AbEWDLLWd2M-JhybJYGtUSamMeYSCFdDQxO_s55277MyYe5BFsbftPrLQqRh_ioQxZ1aIjRUdYQU4CslGQ31P6WSqveQ17a_o0Vkd-G7TBoKSLQWBsk-xk7sNy9-VkDnI3XqH3DZN9_tDb4wdWG_n_bMN018vGP5B_lXpILK34YLlnS5qeWjdUiXQdySLUh4izVPliwYBK3BohO4ZPWJACkGjVrWBA"
+    }
+  ],
+  "videoCount": 2,
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-11-21T06:11:48.803Z",
+  "updatedAt": "2026-11-21T06:11:48.803Z"
+}
