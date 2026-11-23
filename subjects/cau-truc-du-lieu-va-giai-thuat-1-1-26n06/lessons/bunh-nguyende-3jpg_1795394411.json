@@ -15,13 +15,9 @@
   "visibility": "users",
   "allowedUserIds": [],
   "isDeleted": false,
-  "createdBy": {
-    "id": "6ab3d694415010bf620349e5",
-    "name": "Mai Ngọc Hùng Anh",
-    "email": "hunganh.okokok.0@gmail.com"
-  },
+  "createdBy": "6ab3d694415010bf620349e5",
   "createdAt": "2026-11-23T00:40:11.084Z",
-  "updatedAt": "2026-11-23T16:07:43.478Z",
+  "updatedAt": "2026-11-23T16:07:48.447Z",
   "order": 0,
   "analysisAiKeyIds": [],
   "updatedBy": "6ab3d694415010bf620349e5",
