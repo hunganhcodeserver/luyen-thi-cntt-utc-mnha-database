@@ -18,18 +18,15 @@
   "order": 0,
   "isPublished": true,
   "visibility": "users",
-  "allowedUserIds": [
-    "6ab6ea62461cb184bc25a92d",
-    "6ae9ff2917ca8900c154859a",
-    "6aeaca48a3be4418cd51392c",
-    "6abe6f118083c6c9eabfee34",
-    "6aeb2daa6fb2175f94d64c9d"
-  ],
+  "allowedUserIds": [],
   "isDeleted": false,
   "deletedAt": null,
   "deletedBy": null,
   "createdBy": "6ab3d694415010bf620349e5",
   "updatedBy": "6ab3d694415010bf620349e5",
   "createdAt": "2026-11-21T06:43:39.630Z",
-  "updatedAt": "2026-11-22T15:08:59.221Z"
+  "updatedAt": "2026-11-23T16:18:43.329Z",
+  "allowedGroupIds": [
+    "6b0462d04d05372406b42a24"
+  ]
 }
