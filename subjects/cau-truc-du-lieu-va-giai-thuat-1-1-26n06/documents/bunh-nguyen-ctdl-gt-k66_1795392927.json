@@ -1,0 +1,65 @@
+{
+  "type": "document",
+  "documentId": "6b0385a82558d162fd786726",
+  "title": "Bunh Nguyen_CTDL&GT K66",
+  "slug": "bunh-nguyen-ctdl-gt-k66",
+  "subjectSlug": "cau-truc-du-lieu-va-giai-thuat-1-1-26n06",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/cau-truc-du-lieu-va-giai-thuat-1-1-26n06/documents/bunh-nguyen-ctdl-gt-k66_1795392927.pdf",
+      "enc": 92972,
+      "plain": 92912
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 1426106,
+  "originalName": "Buoi17_Bai4_Câu4.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "visibility": "users",
+  "allowedUserIds": [
+    "6ab6ea62461cb184bc25a92d",
+    "6aeaca48a3be4418cd51392c",
+    "6ae9ff2917ca8900c154859a",
+    "6aeb2daa6fb2175f94d64c9d",
+    "6abe6f118083c6c9eabfee34"
+  ],
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-11-23T00:15:36.536Z",
+  "updatedAt": "2026-11-23T00:31:57.219Z",
+  "files": [
+    {
+      "id": "f7c02ebf8",
+      "name": "Buoi17_Bai4_Câu4.pdf",
+      "ext": "pdf",
+      "size": 92912,
+      "parts": [
+        {
+          "path": "subjects/cau-truc-du-lieu-va-giai-thuat-1-1-26n06/documents/bunh-nguyen-ctdl-gt-k66_1795392927.pdf",
+          "enc": 92972,
+          "plain": 92912
+        }
+      ]
+    },
+    {
+      "id": "f67bdb1dc",
+      "name": "Bunh Nguyen_BaiTap_DE_THI_1.pdf",
+      "ext": "pdf",
+      "size": 1333194,
+      "parts": [
+        {
+          "path": "subjects/cau-truc-du-lieu-va-giai-thuat-1-1-26n06/documents/bunh-nguyen-ctdl-gt-k66_1795393907.pdf",
+          "enc": 1333254,
+          "plain": 1333194
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "type": "slide",
+  "slideId": "6afc6d5b88167443e7c09435",
+  "title": "[Offline] IM_Slide BTVN khai giảng Pre",
+  "slug": "offline-im-slide-btvn-khai-giang-pre",
+  "subjectSlug": "vap-pi1059-t25-17h40-19h40",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/vap-pi1059-t25-17h40-19h40/slides/offline-im-slide-btvn-khai-giang-pre_1794929163.pptx",
+      "enc": 6140348,
+      "plain": 6140120
+    }
+  ],
+  "fileExt": "pptx",
+  "fileSize": 6140120,
+  "originalName": "[Offline] IM_Slide BTVN khai giảng Pre.pptx",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-11-17T15:06:03.860Z",
+  "updatedAt": "2026-11-17T15:26:39.383Z"
+}

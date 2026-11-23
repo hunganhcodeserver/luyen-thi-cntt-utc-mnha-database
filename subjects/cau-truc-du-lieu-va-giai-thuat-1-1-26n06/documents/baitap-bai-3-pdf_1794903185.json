@@ -1,0 +1,29 @@
+{
+  "type": "document",
+  "documentId": "6afc0c9bd572f5680ed606fd",
+  "title": "BAITAP /Bai 3.pdf",
+  "slug": "baitap-bai-3-pdf",
+  "subjectSlug": "cau-truc-du-lieu-va-giai-thuat-1-1-26n06",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/cau-truc-du-lieu-va-giai-thuat-1-1-26n06/documents/baitap-bai-3-pdf_1794903185.pdf",
+      "enc": 126393,
+      "plain": 126333
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 126333,
+  "originalName": "Bai 3.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-11-17T08:13:15.036Z",
+  "updatedAt": "2026-11-17T08:13:15.036Z"
+}

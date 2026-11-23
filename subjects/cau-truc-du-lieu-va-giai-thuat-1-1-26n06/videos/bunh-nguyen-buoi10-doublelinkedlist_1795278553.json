@@ -1,0 +1,35 @@
+{
+  "type": "video",
+  "videoId": "6b01c6dae99b957a7fad6ec9",
+  "title": "Bunh Nguyen _ Buoi10-DoubleLinkedList",
+  "slug": "bunh-nguyen-buoi10-doublelinkedlist",
+  "subjectSlug": "cau-truc-du-lieu-va-giai-thuat-1-1-26n06",
+  "description": "",
+  "videos": [
+    {
+      "id": "v3995a089",
+      "title": "",
+      "enc": "v1.tClO7b7eHoDTzzhR.W3doFtZ1iVUrCHBheh--GA.NEg7YUsRrnaAMc_YZ7z57mbmzr6Xj1gwvsy_1yuwRNCFbfA0Cb-N1-6txhuIdSq5j7-xT9y0a1owVDZHM9_z5D_T2TP5IROAcvCMKsl9_XxG9HCRJlKQ2Fe8hvyslWzTf_LuAxQ5G2MQY3xuRueKoY27a0n1D9u7mySMCNfqLC5333YnpfZrDBNvjarg5mcMf3yqKm-GkQlWWGBzSxwKljmMGm80V_etArU9ZudxyYJsCQhflHDPMpg3e5fE8LiJVUXio7td7o54ArKaMHUSibbF91QZVaKFtThiU1kvkAYKYyav_RBy8RTZL0T27Qehop92MsLNzJlYcbFqCfi5pui6whqKRvPg4AP81_h7dwhdXFnUx98tBypGq7hNjt2dHnO8qkkISFpzuA4p3O2PyoqViYQi1L8I1VSc6Q9C4l5hTPACIfSe9w"
+    }
+  ],
+  "videoCount": 1,
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "visibility": "users",
+  "allowedUserIds": [
+    "6ab6ea62461cb184bc25a92d",
+    "6aeaca48a3be4418cd51392c",
+    "6ae9ff2917ca8900c154859a",
+    "6aeb2daa6fb2175f94d64c9d",
+    "6abe6f118083c6c9eabfee34"
+  ],
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-11-21T16:29:14.045Z",
+  "updatedAt": "2026-11-22T15:10:12.696Z"
+}

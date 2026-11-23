@@ -1,0 +1,29 @@
+{
+  "type": "slide",
+  "slideId": "6ad8011647b6a0499c852d3a",
+  "title": "28tech\\ĐỆ QUY_NoCopy.pdf",
+  "slug": "28tech-de-quy-nocopy-pdf",
+  "subjectSlug": "cau-truc-du-lieu-va-giai-thuat-1-1-26n06",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/cau-truc-du-lieu-va-giai-thuat-1-1-26n06/slides/28tech-de-quy-nocopy-pdf_1792540942.pdf",
+      "enc": 963708,
+      "plain": 963648
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 963648,
+  "originalName": "ĐỆ QUY_NoCopy.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-21T00:02:30.573Z",
+  "updatedAt": "2026-10-21T00:02:30.573Z"
+}

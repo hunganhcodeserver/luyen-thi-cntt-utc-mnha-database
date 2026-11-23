@@ -1,0 +1,32 @@
+{
+  "lessonId": "6b03877b72d894dbd7ad50a4",
+  "type": "essay",
+  "title": "Bunh Nguyen_ctdl-18.jpg",
+  "slug": "bunh-nguyenctdl-18jpg",
+  "subjectSlug": "cau-truc-du-lieu-va-giai-thuat-1-1-26n06",
+  "description": "",
+  "contentHtml": "<table border=\"1\" cellpadding=\"6\" cellspacing=\"0\" style=\"width:100%; border-collapse:collapse;\">\n  <tr>\n    <td>\n      <b>Khoa Công nghệ thông tin</b><br>\n      Bộ môn Khoa học máy tính\n    </td>\n    <td>\n      Môn thi: <b>Cấu trúc dữ liệu và giải thuật</b><br>\n      Mã đề: 18<br>\n      Thời gian: 90 phút\n    </td>\n    <td>\n      Trưởng Bộ môn<br>\n      Kí duyệt\n    </td>\n  </tr>\n  <tr>\n    <td colspan=\"3\" style=\"text-align:center;\"><b>NỘI DUNG ĐỀ THI</b></td>\n  </tr>\n</table>\n<p><b>Câu 1 (1.5 điểm).</b> Tính số phép toán cơ bản nhiều nhất mà thuật toán dưới đây cần phải thực hiện. Xác định độ phức tạp tiệm cận của thuật toán.</p>\n<pre>int k=0;\nfor(int i=1;i&lt;=n;i++)\n    for(int j=i+1;j&lt;=n;j++)\n        if((a[i]+a[j])%2==0 &amp;&amp; a[i]&gt;a[j])\n            k++;\nreturn k;</pre>\n<p><b>Câu 2. (2.5 điểm)</b> Thực hiện các yêu cầu sau đây:</p>\n<ul>\n  <li>Khái niệm cây, trình bày cấu trúc lớp cây tổng quát .</li>\n  <li>Khi xây dựng lớp mẫu Node của cây tổng quát gồm gồm public: T elem; vector&lt;Node&lt;T&gt;*&gt; child; hãy lập trình các hàm sau:<br>\nHàm void count(Node&lt;T&gt;*H, T x) đếm tất cả các Node của cây H chứa x.<br>\nHàm void high(Node&lt;T&gt;*H) xác định chiều cao của cây H.</li>\n</ul>\n<p><b>Câu 3. (3.0 điểm)</b> Thực hiện các yêu cầu sau đây:</p>\n<ul>\n  <li>Xây dựng lớp biểu diễn các đối tượng thí sinh gồm các thuộc tính: số báo danh (SBD), họ tên, năm sinh, giới tính, điểm thi toán, lý, hóa; các toán tử nhập &gt;&gt;, xuất &lt;&lt;, phương thức lấy SBD.</li>\n  <li>Xây dựng lớp Quản lý một danh sách thí sinh của một cuộc thi bằng danh sách liên kết (sử dụng lớp list của C++), có các phương thức sau: Thêm một thí sinh, Xóa một thí sinh theo mã, In danh sách thí sinh lên màn hình, Tìm kiếm thí sinh theo SBD bằng thuật toán tìm kiếm tuần tự.</li>\n</ul>\n<p><b>Câu 4. (2.0 điểm)</b> Thực hiện các yêu cầu sau đây:</p>\n<ul>\n  <li>Trình bày ý tưởng của thuật toán sắp xếp MergeSort</li>\n  <li>Lập trình thuật toán MergeSort</li>\n</ul>\n<p><b>Câu 5 (1.0 điểm).</b> Mô tả quá trình sắp xếp dãy số sau đây bằng thuật toán sắp xếp chọn (Selection sort).<br>\n65, 12, 75, 76, 86, 23, 65, 24, 57, 38.</p>",
+  "sampleSolution": "",
+  "duration": null,
+  "model": null,
+  "promptId": null,
+  "aiKeyId": null,
+  "isPublished": true,
+  "visibility": "users",
+  "allowedUserIds": [
+    "6ab6ea62461cb184bc25a92d",
+    "6aeaca48a3be4418cd51392c",
+    "6ae9ff2917ca8900c154859a",
+    "6aeb2daa6fb2175f94d64c9d",
+    "6abe6f118083c6c9eabfee34"
+  ],
+  "isDeleted": false,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-11-23T00:23:23.408Z",
+  "updatedAt": "2026-11-23T00:42:55.044Z",
+  "order": 0,
+  "analysisAiKeyIds": [],
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "deletedAt": null,
+  "deletedBy": null
+}

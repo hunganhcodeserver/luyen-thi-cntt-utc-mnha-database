@@ -1,0 +1,113 @@
+{
+  "submissionId": "6ad4369d2599de35fe17a4ec",
+  "submittedAt": "2026-10-18T03:01:49.737Z",
+  "gradedAt": "2026-10-18T03:02:12.611Z",
+  "status": "graded",
+  "errorMessage": null,
+  "userId": "6ab3d694415010bf620349e5",
+  "userName": "Mai Ngọc Hùng Anh",
+  "userEmail": "hunganh.okokok.0@gmail.com",
+  "subjectId": "6ab5aeac813f0f6c24604455",
+  "subjectName": "Lập trình hướng đối tượng-1-1-26(N04)",
+  "subjectCode": "IT1.108.3",
+  "subjectSlug": "lap-trinh-huong-doi-tuong-1-1-26n04",
+  "lessonId": "6ad316e67cfcb559dd84d34f",
+  "lessonTitle": "(17/10/2026) Bài 2: Tính lương nhân viên",
+  "lessonSlug": "17102026-bai-2-tinh-luong-nhan-vien",
+  "lessonDuration": 30,
+  "lessonContentHtml": "<h3>Bài 2.</h3>\n<p>Một công ty có nhiều loại nhân viên với cách tính lương khác nhau. Hãy xây dựng chương trình tính lương với các yêu cầu sau:</p>\n<ol>\n  <li>Xây dựng lớp cơ sở Employee gồm:\n    <ul>\n      <li>Thuộc tính: mã nhân viên, họ tên.</li>\n      <li>Hàm nhập và hiển thị thông tin.</li>\n      <li>Hàm ảo thuần túy calculateSalary() để tính lương.</li>\n    </ul>\n  </li>\n  <li>Xây dựng ba lớp dẫn xuất:\n    <ul>\n      <li>FullTimeEmployee: nhân viên toàn thời gian, lương bằng lương cơ bản cộng phụ cấp.</li>\n      <li>PartTimeEmployee: nhân viên bán thời gian, lương bằng số giờ làm việc nhân đơn giá mỗi giờ.</li>\n      <li>CommissionEmployee: nhân viên hưởng hoa hồng, lương bằng lương cơ bản cộng tỷ lệ hoa hồng nhân doanh thu.</li>\n    </ul>\n  </li>\n  <li>Mỗi lớp phải cài đặt phương thức calculateSalary() theo công thức riêng.</li>\n  <li>Trong hàm main():\n    <ul>\n      <li>Nhập danh sách n nhân viên thuộc các loại khác nhau.</li>\n      <li>In thông tin và tiền lương của từng nhân viên.</li>\n      <li>Tính tổng quỹ lương của công ty.</li>\n    </ul>\n  </li>\n</ol>",
+  "lessonSampleSolution": "",
+  "answerHtml": "#include <bits/stdc++.h>\nusing namespace std;\n\nclass Employee {\nprivate:\n    string maNV;\n    string hoTen;\npublic:\n    Employee() : maNV(\"\"), hoTen(\"\") {}\n    virtual ~Employee() {}\n\n    virtual void nhap() {\n        cout << \"Nhap ma nhan vien: \";\n        getline(cin >> ws, maNV);\n        cout << \"Nhap ho ten: \";\n        getline(cin >> ws, hoTen);\n    }\n\n    // ham ao thuan tuy: lop dan xuat bat buoc phai cai dat\n    virtual double calculateSalary() const = 0;\n    void xuat() {\n        cout << \"Ma nhan vien: \" << maNV << \" | Ho ten: \" << hoTen << \" | \" << \" | Luong = \" << fixed << setprecision(2) << calculateSalary() << endl;\n    }\n};\n\nclass FullTimeEmployee : public Employee {\nprivate:\n    double luongCoBan = 0, phuCap = 0;\npublic:\n    void nhap() {\n        Employee::nhap();\n        cout << \"Nhap luong co ban: \";\n        cin >> luongCoBan;\n        cout << \"Nhap phu cap: \";\n        cin >> phuCap;\n    }\n    double calculateSalary() const {\n        return luongCoBan + phuCap;\n    }\n};\n\nclass PartTimeEmployee : public Employee {\nprivate:\n    double gioLam = 0, donGiaMotGio = 0;\npublic:\n    void nhap() {\n        Employee::nhap();\n        cout << \"Nhap gio lam: \";\n        cin >> gioLam;\n        cout << \"Nhap don gia mot gio: \";\n        cin >> donGiaMotGio;\n    }\n    double calculateSalary() const {\n        return gioLam * donGiaMotGio;\n    }\n};\n\nclass CommissionEmployee : public Employee {\nprivate:\n    double luongCoBan = 0, hoaHong = 0, doanhThu = 0;\npublic:\n    void nhap() {\n        Employee::nhap();\n        cout << \"Nhap luong co ban: \";\n        cin >> luongCoBan;\n        cout << \"Nhap hoa hong (vd 0.1): \";\n        cin >> hoaHong;\n        cout << \"Nhap doanh thu: \";\n        cin >> doanhThu;\n    }\n    double calculateSalary() const {\n        return luongCoBan + hoaHong * doanhThu;\n    }\n};\n\nint main() {\n    int n;\n    cout << \"Nhap n: \";\n    cin >> n;\n    vector<Employee*> ds(n); // chuan CPP\n//    Employee* ds[n]; //khong chuan CPP\n    for (int i = 0; i < n; i++) {\n        cout << \"--- Nhan vien thu \" << i + 1 << \" ---\\n\";\n        int loai = 0;\n        do {\n            cout << \"Chon loai (1: FullTime, 2: PartTime, 3: Commission): \";\n            cin >> loai;\n            if (loai == 1) ds[i] = new FullTimeEmployee;\n            else if (loai == 2) ds[i] = new PartTimeEmployee;\n            else if (loai == 3) ds[i] = new CommissionEmployee;\n            else cout << \"Vui long chon lai!\\n\";\n        } while (loai < 1 || loai > 3);\n        ds[i]->nhap();\n    }\n\n    cout << \"\\n===== DANH SACH NHAN VIEN =====\\n\";\n    for (int i = 0; i < n; i++) ds[i]->xuat();\n\n    for (int i = 0; i < n; i++) delete ds[i];\n    return 0;\n}",
+  "hasDrawing": false,
+  "drawingFile": null,
+  "drawingMime": null,
+  "drawingAnalysis": null,
+  "score": 8.5,
+  "feedback": "Bài làm tốt, thể hiện đúng tư duy OOP: lớp cơ sở Employee có hàm ảo thuần túy calculateSalary(), ba lớp dẫn xuất cài đặt công thức lương riêng chính xác. Quản lý danh sách đa hình bằng vector<Employee*> và giải phóng bộ nhớ đúng cách. Tuy nhiên còn thiếu yêu cầu tính TỔNG QUỸ LƯƠNG của công ty (yêu cầu 4) và thiếu hàm hiển thị riêng cho thông tin nhân viên như đề nêu. Một vài chi tiết kỹ thuật cần cải thiện: hàm nhap()/xuat() ở lớp dẫn xuất nên dùng override, destructor lớp dẫn xuất không bắt buộc nhưng hàm ảo đã có base.",
+  "breakdown": [
+    {
+      "criterion": "Lớp cơ sở Employee (thuộc tính, nhập/hiển thị, hàm ảo thuần túy)",
+      "score": 2.5,
+      "comment": "Có đủ thuộc tính mã NV, họ tên; có nhap() và xuat(); calculateSalary() là hàm ảo thuần túy đúng chuẩn. Trừ nhẹ vì xuat() gộp luôn cả lương, chưa tách riêng chức năng hiển thị thông tin."
+    },
+    {
+      "criterion": "Ba lớp dẫn xuất với công thức lương riêng",
+      "score": 3,
+      "comment": "FullTime, PartTime, Commission cài đặt đầy đủ và đúng công thức theo đề."
+    },
+    {
+      "criterion": "Cài đặt calculateSalary() ở từng lớp",
+      "score": 2,
+      "comment": "Đúng công thức cho cả ba loại, trả về giá trị chính xác."
+    },
+    {
+      "criterion": "Hàm main (nhập n nhân viên, in thông tin + lương, tính tổng quỹ lương)",
+      "score": 1,
+      "comment": "Nhập và in danh sách tốt, chọn loại nhân viên hợp lý. Nhưng THIẾU phần tính tổng quỹ lương của công ty — một yêu cầu bắt buộc."
+    }
+  ],
+  "grammar": null,
+  "sampleComparison": null,
+  "model": "occ/claude-opus-4-8",
+  "aiKeyId": "6abfdf08b29c124d59ccc66b",
+  "aiKeyName": "hunganh2006",
+  "aiProvider": "vilao",
+  "latencyMs": 22451,
+  "promptSnapshot": {
+    "kind": "essay",
+    "promptId": null,
+    "name": "Fallback mặc định (hardcoded)",
+    "content": "Bạn là giáo viên chấm bài. Hãy chấm bài viết sau dựa trên đề bài và rubric.\n\nĐề bài:\n{đề_bài}\n\nBài làm sinh viên (phần nhập chữ):\n{bài_làm}\n\nPhần vẽ tay của sinh viên (đã được bước phân tích hình ảnh đọc trước):\n{hình_vẽ}\n\nLời giải mẫu (nếu có, chỉ dùng để đối chiếu ý, không chép nguyên văn vào feedback):\n{lời_giải_mẫu}\n\nRubric: {rubric}\nĐiểm tối đa: {max_score}\n\nQUY TẮC CHẤM KẾT HỢP CHỮ + HÌNH VẼ:\n- Nếu có cả phần nhập chữ và phần vẽ tay: chấm CẢ HAI theo đề bài/rubric, cho một điểm tổng duy nhất.\n- Nếu chỉ có một phần: chỉ chấm phần đó, KHÔNG trừ điểm vì phần sinh viên không nộp.\n\nQUY TẮC PHÁT HIỆN LỖI:\n- Chỉ liệt kê lỗi khi lỗi thực sự tồn tại trong bài làm, không tự bịa.\n- Nếu đề bài/rubric không đủ căn cứ để xác định một lỗi cụ thể, bỏ qua, không đoán.\n- Mỗi lỗi nêu rõ: câu gốc sai, câu đã sửa, giải thích ngắn gọn.\n\nChỉ trả về JSON hợp lệ, không Markdown, không giải thích ngoài JSON:\n{\n  \"score\": number,\n  \"feedback\": string,\n  \"breakdown\": [{ \"criterion\": string, \"score\": number, \"comment\": string }],\n  \"errors\": [{ \"original\": string, \"corrected\": string, \"explanation\": string }]\n}",
+    "rubric": null,
+    "strictness": "normal",
+    "maxScore": 10,
+    "scope": "fallback",
+    "version": 0,
+    "isFallback": true,
+    "unknownPlaceholders": [],
+    "snapshotAt": "2026-10-18T03:02:12.192Z"
+  },
+  "raw": {
+    "score": 8.5,
+    "feedback": "Bài làm tốt, thể hiện đúng tư duy OOP: lớp cơ sở Employee có hàm ảo thuần túy calculateSalary(), ba lớp dẫn xuất cài đặt công thức lương riêng chính xác. Quản lý danh sách đa hình bằng vector<Employee*> và giải phóng bộ nhớ đúng cách. Tuy nhiên còn thiếu yêu cầu tính TỔNG QUỸ LƯƠNG của công ty (yêu cầu 4) và thiếu hàm hiển thị riêng cho thông tin nhân viên như đề nêu. Một vài chi tiết kỹ thuật cần cải thiện: hàm nhap()/xuat() ở lớp dẫn xuất nên dùng override, destructor lớp dẫn xuất không bắt buộc nhưng hàm ảo đã có base.",
+    "breakdown": [
+      {
+        "criterion": "Lớp cơ sở Employee (thuộc tính, nhập/hiển thị, hàm ảo thuần túy)",
+        "score": 2.5,
+        "comment": "Có đủ thuộc tính mã NV, họ tên; có nhap() và xuat(); calculateSalary() là hàm ảo thuần túy đúng chuẩn. Trừ nhẹ vì xuat() gộp luôn cả lương, chưa tách riêng chức năng hiển thị thông tin."
+      },
+      {
+        "criterion": "Ba lớp dẫn xuất với công thức lương riêng",
+        "score": 3,
+        "comment": "FullTime, PartTime, Commission cài đặt đầy đủ và đúng công thức theo đề."
+      },
+      {
+        "criterion": "Cài đặt calculateSalary() ở từng lớp",
+        "score": 2,
+        "comment": "Đúng công thức cho cả ba loại, trả về giá trị chính xác."
+      },
+      {
+        "criterion": "Hàm main (nhập n nhân viên, in thông tin + lương, tính tổng quỹ lương)",
+        "score": 1,
+        "comment": "Nhập và in danh sách tốt, chọn loại nhân viên hợp lý. Nhưng THIẾU phần tính tổng quỹ lương của công ty — một yêu cầu bắt buộc."
+      }
+    ],
+    "errors": [
+      {
+        "original": "for (int i = 0; i < n; i++) ds[i]->xuat();",
+        "corrected": "double tongLuong = 0;\nfor (int i = 0; i < n; i++) { ds[i]->xuat(); tongLuong += ds[i]->calculateSalary(); }\ncout << \"Tong quy luong: \" << fixed << setprecision(2) << tongLuong << endl;",
+        "explanation": "Đề yêu cầu tính tổng quỹ lương của công ty nhưng bài làm chưa thực hiện; cần cộng dồn lương từng nhân viên và in ra."
+      },
+      {
+        "original": "void nhap() {\n        Employee::nhap();",
+        "corrected": "void nhap() override {\n        Employee::nhap();",
+        "explanation": "Các hàm nhap()/calculateSalary() ở lớp dẫn xuất nên thêm từ khóa override để biên dịch kiểm tra đúng việc ghi đè, tránh lỗi tiềm ẩn."
+      },
+      {
+        "original": "void xuat() {\n        cout << \"Ma nhan vien: \" << maNV << \" | Ho ten: \" << hoTen << \" | \" << \" | Luong = \" ...",
+        "corrected": "void xuat() {\n        cout << \"Ma nhan vien: \" << maNV << \" | Ho ten: \" << hoTen << \" | Luong = \" ...",
+        "explanation": "Chuỗi xuất có hai dấu \" | \" liên tiếp thừa, gây ra dấu phân cách trống thừa khi hiển thị."
+      }
+    ]
+  }
+}

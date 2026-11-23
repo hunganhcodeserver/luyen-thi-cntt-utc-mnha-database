@@ -1,0 +1,44 @@
+{
+  "type": "slide",
+  "slideId": "6aebfd114a8931e91a358cf6",
+  "title": "HAUI_DSA_24-03-2022",
+  "slug": "haui-dsa-24-03-2022",
+  "subjectSlug": "cau-truc-du-lieu-va-giai-thuat-1-1-26n06",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/cau-truc-du-lieu-va-giai-thuat-1-1-26n06/slides/haui-dsa-24-03-2022_1793850452-1.pdf",
+      "enc": 22000620,
+      "plain": 22000000
+    },
+    {
+      "path": "subjects/cau-truc-du-lieu-va-giai-thuat-1-1-26n06/slides/haui-dsa-24-03-2022_1793850452-2.pdf",
+      "enc": 22000620,
+      "plain": 22000000
+    },
+    {
+      "path": "subjects/cau-truc-du-lieu-va-giai-thuat-1-1-26n06/slides/haui-dsa-24-03-2022_1793850452-3.pdf",
+      "enc": 22000620,
+      "plain": 22000000
+    },
+    {
+      "path": "subjects/cau-truc-du-lieu-va-giai-thuat-1-1-26n06/slides/haui-dsa-24-03-2022_1793850452-4.pdf",
+      "enc": 11082537,
+      "plain": 11082197
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 77082197,
+  "originalName": "HAUI_DSA_24-03-2022.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-11-05T03:50:41.882Z",
+  "updatedAt": "2026-11-05T03:50:41.882Z"
+}

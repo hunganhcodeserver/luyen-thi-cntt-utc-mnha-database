@@ -1,0 +1,62 @@
+{
+  "type": "video",
+  "videoId": "6ae38221a6f100e27c9218a5",
+  "title": "Vũ Nguyễn Coder _ Chương 05 Nguyên tắc kế thừa (Inheritance)",
+  "slug": "vu-nguyen-coder-chuong-05-nguyen-tac-ke-thua-inheritance",
+  "subjectSlug": "lap-trinh-huong-doi-tuong-1-1-26n04",
+  "description": "",
+  "videos": [
+    {
+      "id": "v5d197f5a",
+      "title": "Bài 15 Tính kế thừa - Phần 1. Định nghĩa (website khoahocgiahoi.com zalo 0583953426)",
+      "enc": "v1.K5ZqDCBEXClePX03.dT9bnrhYYoF_KC4vNgiUEg.c8I4VTqVPK2tkvG0P-Q6CwZqZ6-PJc9VtV3Aar-nqOCzaGOv3Jcg5THMuzfLCW2yITgtBm3LY8sTrjHc8_yiiEj_g2iLtgdhyqFjJ67RBAxJ1xJcIQQPba7iA18bsnQ3FogPkhyE8APARz_GWDQksfl0vMhk4S7DHWR5doo_8Qp7OZy758mpf5i8_wttsLve2bCBEkJ4v2dqV-V-j3rs7781ANRZ-TAwTlqGzzGbHdRRpTiEbsE9dnM0y0S8_qSmGfZyZG8fOAeIYjrMWNNsl16z2zA2g5VupzQMTBHKzNokvwj1paRGqo5LGNhAzJHywi6VOXDUOrmn3Dv4y-MJU9UHqxFaiaSmOnDaoZQm2qRNQ43Vt4Nc2P2e3PkxD1efSXnYH_OQjdLpyVTm24rTgV9z6yEART3OILRN3o0eN5u4Q2D096lLMw"
+    },
+    {
+      "id": "va76a7a57",
+      "title": "Bài 16 Tính kế thừa - Phần 2. Overriding (website khoahocgiahoi.com zalo 0583953426)",
+      "enc": "v1.eGbqFKuIuFEKbqD-.YzeTV6oAfeMj_fu10B40tA.JAGF7x3yl32TCQE1Egv1Jx18mHusBPq503GKvaqdqpUKxYiogS9L3-HJ5UIIc_IuIFGnTdJ_GbTx4Z45f4c5LfBbzxlluq8deuHRrlp22lCL3YZxPN-ZXHAZmWAVQpdZlUdOrXBbkmfrCH2CYJy_wJ6pYzDz9kVVchEFlPexAWsKAR4Ae6Ss6SL-JnL2784gUhHduJ_QYNFT92p5c0IGSNaxMV0Lkjl-QSbwW17U9mJ33EBXFcqMSCIaSCZg7zr9o4qzfq9NRObvyqza4icDduYM3stw5sXo8s0UUHlFP1dnP4oEJWZ4woUVR-OasMfaRZU1HYVxIgN8pLXqr94lLWNZJRCitqhJlGM8cefBf-GTfuQwpu-rqA-bWbkYtyVZOp32WTkViwHi2xAq4UG81FZg3T8lFsShk1hRakpwZkycrOFbKXtXkQ"
+    },
+    {
+      "id": "v1fd9a618",
+      "title": "Bài 17 Tính kế thừa - Phần 3. Thêm thuộc tính và phương thức cho class dẫn xuất (website khoahocgiahoi.com zalo 0583953426)",
+      "enc": "v1.Jmb9wSu7wOrzi7mP.xlQPPb0Z5V0vvoe08BNkRg.wkF9JFZiBEtWevFZIba7C9pW8WrhJZ7-VoC7nLOrv-vWE6Jd89fzNcSzYweWQ1d6NzC_h4QJEqFSd_6loIZ4i6bpjQmjBbJ4qbe180i9TCZVPT6P0hmF10eqYBFiRgaqo_jSG0akAvaEG8udV41uPH69y8O0K5eROQb91ZpnevERZIesd7winwuy0JD6AUxtnKUNLp7DxvI8-r0btmwRiVOVA-BHjT2pPZ3e7zUNucYo25IFx5ylVL06J5Xji7ZpjD6zbyFdXWrMGHoyNepxOka7mZOgmNW59DIplcGLCcruWvH1NOBc_vcXVzQkwKHbW9OmxbO2V-oyxeYMaQ7WMuf7Saihlb75rDg2Mb_djUJX0KrTtTKzz7mQoZxV28hUFotKVpBj5Nlu5luAgzmMrLZr6YU6spmdAzWJBtJinWqMr2k9WoChlw"
+    },
+    {
+      "id": "v244d299e",
+      "title": "Bài 18 TÍnh kế thừa - Phần 4. Access modifier trong inheritance (website khoahocgiahoi.com zalo 0583953426)",
+      "enc": "v1.eUY8Vrd78iwa_zNv.qktx8icVBNvFTF87pCrH0Q.bgPI_FWz-bMYi5bpdn0i38AIUQugRi84YETDKWPqbFaq6ShbWstLmAImCKNsyBqzXdHhFiUYRKTPyk-qvxFcTLUuX4Rhi2Tjfpdfl9ZZMykRLVZkH2qywrw1yn8mJw1m--AlURpjpWyvK4oNN4FGlYhQoQEy4lm-h7vvmrT-VxJ1iM68NIkgxQ3DMj1c4RARJMUlERxKGQWMgXrI9PE26ciigSjX_6HucFE59eSlN75fTvWn-08ayAu8ljmpvMAfXTZibgnF38OGskj5tjvxtq1uwHc0-xxWczYLcPd_y0qGRH5x3ijzqaDpF3KUhL4SzB1VAI6jEyjKR_PqBotdc2OldHojGEhZLzLrE-wEDWihqkiacrhMEepUdkSRbFAB9HIVqkpJw5D6FJrgXhRhHVPffQWoI5UPvUYcLmpmzdgohKd6o9Ez0w"
+    },
+    {
+      "id": "v66001b40",
+      "title": "Bài 19 Tính kế thừa - Phần 5. Constructor trong quan hệ kế thừa (website khoahocgiahoi.com zalo 0583953426)",
+      "enc": "v1.aPxL1TmAltbh1mad.pCVwVZLLaF2ihHNCDJLSjg.D9JMJ5IjFA4FA2_hUWJ_J1QQ-gagnBsP309xa-_YKBEftdRpNKiE_4cifxLkvMS4Mz_VxJgXvQ3bihFqKvzKJ5oX0G-TfEXV9zLT_WH9AcbmKRBm4nrfW3HyvYdouzeabVA421iok0PxPy70JQe9pWYA_DST_RXf8T6qycfaRBsd_Hqilj3dMsEErBbXHcvAyqV3ByS2ex0y9RuLiB3ruklkPnriW0QMaEf05r_mqmZ0w07veZmlWWzgVvEbJFhxy3CAlo53kPCUVa2Q_d-kwxjm96ZTYg2aYJN12MX50Hfmrtt2837wzJOZJ-rMBLSMUyq4a95ITbhuMUpUGWb0mdRwo--fRL3dzS4sRVGf-5CRJlIZNdl3EYUcSloGkhm1j5xY_tNEzB8TqMqIVGKvwGlHVprTDc0FV_IZ4BiJJrWVoW_d6CNGQA"
+    },
+    {
+      "id": "vfc174894",
+      "title": "Bài 20 Tính kế thừa - Phần 6. Destructor trong quan hệ kế thừa (website khoahocgiahoi.com zalo 0583953426)",
+      "enc": "v1.wXxEq68FlT3lvHtS.eUfcGofy8g1px52JV0p1Lg.IO4cVwygBzKU-BKwAPDGxI0I4tb18uGMtjs5ne_PJvSBcgdD4zyHNUN4FX1JNDI-VtHcwQxOTXYWHRHOEiVTS5X1VxBfcBYn7gyIQgsFqDHXZ2Jn5tUPaT18lmq8LDdV4Sl29kw_c1MsBwR4g7p2kElzvypoCoOvCZidKfKth_6Jdy7xmNjfKArEoPyQeWvXzy4kYCxUyVutV_G2f67171sw41g1FPJ7mnjlMCvbAxUM3UOKYSSkIC3fv2o5Fv3IL8X3yVlmAXEjh0UGLmyxg_oMcL4sUdrRmwFuOkSTOIgvYSM9KZGaKRK0Vz0af_G4-eRxOQkl4O8oAoJiS8r7nqzkPwY5-wATM3Wb3z-Z5kAlxw4vLjv-X4gsuBdjOQ4YHYXY4_0jUfE9axMz1UuztiGPptNG88S_O3RJsnLyATfDSbJQD_eWcA"
+    },
+    {
+      "id": "v6ab960bb",
+      "title": "Bài 21 Phần 7 - Đa kế thừa (Muti Inheritance) (website khoahocgiahoi.com zalo 0583953426)",
+      "enc": "v1.-FaP8nj43csHnmky.nu5iQnPdOYmV-ut6wnjckA.eMJjkuJFCwjIduj5exOvr3m7mCtZ3Kaigekxra9dGv2ISBi43m8bTILGuKxDngbmQ-_bjWuKqU498eDpwBeecS7kVfTt8RmY4LEUehQZA3oQkuSTJp-9cNqM9EgSeuhdo_iL_i1Bpjn4OzHLj9vHl5tHGewJSvdMMNomHO5iCDvCyA-AyYPov4jRtfwjF1oN-7mR6rx6kNakiABOkHR5I4YCoCzfB2FOuZzxOwiWH_x4GtOOCoJJ7fb6R3WmH-C1gOR6SygNj6t52-KtQhwpvlY4J7GwXyM-YW20TZZNxxPdKTZpa4WMpqylMB_GkmQcrkdi59GcEM8k_iFCFBaGJIVJebhBC23U34QYaGtVbkkQ0qUQOuqTa71evw8Prsr2Y3MhKvEo6rv4gyfnNiASG7LyCtcVo2lR-XFXUv-khhNsHpEX_b6Nfw"
+    },
+    {
+      "id": "v062710e2",
+      "title": "Bài 21 Phần 7 - Multiple inheritance (Đa kế thừa) (website khoahocgiahoi.com zalo 0583953426)",
+      "enc": "v1.mAVH2D_pEoc5Xs7Z.FteHCsr_gqD9KFehGoNuuw.MXE67-fqiRy8Fq_MzUQIHRcI4VPhgFIcMLNPbLsXY9MgEc71crLauW8dkGO2HWexuJawvbW3cxq0hZ4EXsRHdwgj5YBaqkduka_eMNj-SnHSVr9wLZcv6MZGCPzsgsoZnwLB2sGi_MHbb7G4dJmAkhJWB9e9P5DhdKwpV7iTelAcaurh2aw2Y1A6ip_3suB13_mZrqBDtbPVYOFkEyZAnfcAewiRbEkGFox72Z653BZu7ySIgwTu8K6CZ0fSPI-Y0EHiXOROU2jaENmLRpUEqcdcrli7TVXHBZHTGDScYQLAw-cY9y7GNKMn2pBwd2LU9B8qeIh0rjmxOGA-9rSU128D2urIBAnodRDoW0QYw7nWpnGWbVTO8zVasmr8f_2YYhsWZexMG052q_4fRNgopZF8d1_t9jPvvbet9L9OLBnA-_OZA8L2vw"
+    }
+  ],
+  "videoCount": 8,
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-29T17:28:01.931Z",
+  "updatedAt": "2026-10-29T17:28:01.931Z"
+}

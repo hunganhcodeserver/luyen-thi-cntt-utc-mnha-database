@@ -1,0 +1,32 @@
+{
+  "lessonId": "6b038b6b92d1b1fcb72b67d1",
+  "type": "essay",
+  "title": "Bunh Nguyen_đề 3.jpg",
+  "slug": "bunh-nguyende-3jpg",
+  "subjectSlug": "cau-truc-du-lieu-va-giai-thuat-1-1-26n06",
+  "description": "",
+  "contentHtml": "<p style=\"text-align:center;\"><b>NỘI DUNG ĐỀ THI</b></p>\n<p><b>Câu 1 (1.5 điểm).</b> Tính số phép toán cơ bản nhiều nhất mà thuật toán dưới đây cần phải thực hiện. Xác định độ phức tạp tiệm cận của thuật toán.</p>\n<pre>f=0;\nfor (i = 0 ; i&lt;= n-1; i++){\n    p = 1;\n    for (j = 1 ;j&lt;= i;j++)\n        if(i!=j)\n            p = p *(u-x[j])/(x[i]-x[j])+x[i];\n    f = f + p*y[i];\n}\nreturn f;</pre>\n<p><b>Câu 2. (2.5 điểm)</b> Thực hiện các yêu cầu sau đây:</p>\n<ul>\n  <li>Trình bày khái niệm hàng đợi (Queue), trình bày về cấu trúc dữ liệu queue, vẽ hình minh họa.</li>\n  <li>Sử dụng cấu trúc dữ liệu hàng đợi trong thư viện STL có sẵn của C++ giải bài xếp búp bê Nga như sau: có n con búp bê có chiều cao là a1… an đã sắp giảm dần nếu 2 con búp bê có chiều cao chênh ít nhất khoảng cách 3 thì sẽ nuốt nhau. Hãy tìm cách lồng nhiều búp bê nhất bằng cách duyệt lần lượt chiều cao đưa vào queue nếu con đứng đầu nuốt được con mới thêm thì bỏ con đứng đầu khỏi queue, sau khi duyệt hết size của queue chính là số búp bê ít nhất.</li>\n</ul>\n<p><b>Câu 3. (3.0 điểm)</b> Thực hiện các yêu cầu sau đây:</p>\n<ul>\n  <li>Xây dựng lớp biểu diễn các đối tượng Laptop gồm các thuộc tính: mã máy (không trùng nhau), Hãng SX (Dell, HP,.v..v), tên máy, cấu hình, đơn giá, số lượng; Các toán tử nhập &gt;&gt;, xuất &lt;&lt;, phương thức lấy mã máy.</li>\n  <li>Xây dựng lớp quản lý một danh sách Laptop bằng vector (sử dụng lớp vector của C++), có các phương thức sau: Thêm 1 Laptop, Tính tổng giá trị Laptop tồn kho theo 1 hãng sản xuất (nếu không có trả về 0), In danh sách Laptop lên màn hình, Tìm kiếm Laptop theo mã bằng thuật toán tìm kiếm nhị phân (giả sử danh sách Laptop đã được sắp xếp tăng dần theo mã).</li>\n</ul>\n<p><b>Câu 4. (2.0 điểm)</b> Thực hiện các yêu cầu sau đây:</p>\n<ul>\n  <li>Trình bày ý tưởng của thuật toán sắp xếp chọn (SelectionSort)</li>\n  <li>Lập trình thuật toán sắp xếp chọn</li>\n</ul>\n<p><b>Câu 5 (1.0 điểm).</b> Mô tả quá trình sắp xếp dãy số sau đây bằng thuật toán sắp xếp chọn (Selection sort).<br>\n43, 12, 13, 76, 25, 76, 65, 21,62, 26.</p>",
+  "sampleSolution": "",
+  "duration": null,
+  "model": null,
+  "promptId": null,
+  "aiKeyId": null,
+  "isPublished": true,
+  "visibility": "users",
+  "allowedUserIds": [
+    "6ab6ea62461cb184bc25a92d",
+    "6aeaca48a3be4418cd51392c",
+    "6ae9ff2917ca8900c154859a",
+    "6aeb2daa6fb2175f94d64c9d",
+    "6abe6f118083c6c9eabfee34"
+  ],
+  "isDeleted": false,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-11-23T00:40:11.084Z",
+  "updatedAt": "2026-11-23T00:43:40.526Z",
+  "order": 0,
+  "analysisAiKeyIds": [],
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "deletedAt": null,
+  "deletedBy": null
+}

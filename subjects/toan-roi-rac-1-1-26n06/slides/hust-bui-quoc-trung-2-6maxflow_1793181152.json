@@ -1,0 +1,29 @@
+{
+  "type": "slide",
+  "slideId": "6ae1c5e7efc410fc851087ca",
+  "title": "HUST_Bùi Quốc Trung_2-6MaxFlow",
+  "slug": "hust-bui-quoc-trung-2-6maxflow",
+  "subjectSlug": "toan-roi-rac-1-1-26n06",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/toan-roi-rac-1-1-26n06/slides/hust-bui-quoc-trung-2-6maxflow_1793181152.pdf",
+      "enc": 1801159,
+      "plain": 1801099
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 1801099,
+  "originalName": "HUST_Bùi Quốc Trung_2-6MaxFlow.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-28T09:52:39.564Z",
+  "updatedAt": "2026-10-28T09:52:39.564Z"
+}

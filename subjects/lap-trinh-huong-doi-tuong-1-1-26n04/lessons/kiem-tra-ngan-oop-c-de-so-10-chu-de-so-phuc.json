@@ -1,0 +1,12 @@
+{
+  "lessonId": "6aba933eca76911fd04171c3",
+  "title": "(Kiểm tra ngắn OOP C++) ĐỀ SỐ 10 - Chủ đề: SỐ PHỨC",
+  "slug": "kiem-tra-ngan-oop-c-de-so-10-chu-de-so-phuc",
+  "description": "",
+  "contentHtml": "<h2>ĐỀ SỐ 10</h2>\r\n<p><strong>Chủ đề: SỐ PHỨC • Thời gian: 30 phút • C++</strong></p>\r\n\r\n<p>SỐ PHỨC là số có dạng | z=a+bi</p>\r\n\r\n<ul>\r\n    <li>\r\n        <strong>Yêu cầu: Xây dựng lớp SoPhuc bao gồm:</strong>\r\n        <ol>\r\n            <li>Khai báo thuc, ao và cấu tử có đối mặc định.</li>\r\n            <li>Viết phương thức double module() tính mô-đun số phức. – căn của phần thực bình phương + phần ảo bình phương</li>\r\n            <li>Nạp chồng toán tử * để nhân hai số phức.</li>\r\n            <li>Nạp chồng toán tử &lt;, quy ước so sánh theo mô-đun.</li>\r\n            <li>Viết hàm bạn &gt;&gt; và &lt;&lt;.</li>\r\n        </ol>\r\n    </li>\r\n    <li>\r\n        <strong>Yêu cầu trong hàm main():</strong> Nhập z1, z2; in z1 * z2. Dùng toán tử &lt; để cho biết số phức nào có mô-đun nhỏ hơn.\r\n    </li>\r\n</ul>\r\n\r\n<p><em>Lưu ý: Có thể bổ sung hàm/phương thức hỗ trợ hợp lý</em></p>\r\n",
+  "sampleSolution": "",
+  "duration": 30,
+  "model": null,
+  "isPublished": true,
+  "updatedAt": "2026-09-30T04:04:28.027Z"
+}

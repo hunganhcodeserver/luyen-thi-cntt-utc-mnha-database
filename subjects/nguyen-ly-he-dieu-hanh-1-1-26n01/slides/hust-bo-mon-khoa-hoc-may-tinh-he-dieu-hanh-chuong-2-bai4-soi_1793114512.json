@@ -1,0 +1,39 @@
+{
+  "type": "slide",
+  "slideId": "6ae0c48e970d31e9ddb8f100",
+  "title": "HUST_Bộ môn Khoa học máy tính_Hệ Điều Hành-Chuong 2_bai4_SoictTemplate.pptx",
+  "slug": "hust-bo-mon-khoa-hoc-may-tinh-he-dieu-hanh-chuong-2-bai4-soi",
+  "subjectSlug": "nguyen-ly-he-dieu-hanh-1-1-26n01",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/nguyen-ly-he-dieu-hanh-1-1-26n01/slides/hust-bo-mon-khoa-hoc-may-tinh-he-dieu-hanh-chuong-2-bai4-soi_1793114512-1.pptx",
+      "enc": 22000620,
+      "plain": 22000000
+    },
+    {
+      "path": "subjects/nguyen-ly-he-dieu-hanh-1-1-26n01/slides/hust-bo-mon-khoa-hoc-may-tinh-he-dieu-hanh-chuong-2-bai4-soi_1793114512-2.pptx",
+      "enc": 22000620,
+      "plain": 22000000
+    },
+    {
+      "path": "subjects/nguyen-ly-he-dieu-hanh-1-1-26n01/slides/hust-bo-mon-khoa-hoc-may-tinh-he-dieu-hanh-chuong-2-bai4-soi_1793114512-3.pptx",
+      "enc": 4188263,
+      "plain": 4188091
+    }
+  ],
+  "fileExt": "pptx",
+  "fileSize": 48188091,
+  "originalName": "HUST_Bộ môn Khoa học máy tính_Hệ Điều Hành-Chuong 2_bai4_SoictTemplate.pptx",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-27T15:34:38.791Z",
+  "updatedAt": "2026-10-27T15:34:38.791Z"
+}

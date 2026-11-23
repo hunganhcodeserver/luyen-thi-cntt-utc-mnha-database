@@ -1,0 +1,35 @@
+{
+  "type": "video",
+  "videoId": "6b033b5ab011d4927b893547",
+  "title": "Bunh Nguyen_Buoi12-Queue",
+  "slug": "bunh-nguyen-buoi12-queue",
+  "subjectSlug": "cau-truc-du-lieu-va-giai-thuat-1-1-26n06",
+  "description": "",
+  "videos": [
+    {
+      "id": "vac9d3a6d",
+      "title": "",
+      "enc": "v1.KD99wCiL0nwwXcOZ.Y3X5zKbFYcRJa_f9O0i4JA.28qvvoIEdnL3SAuhhiO2Z3wF2WWGozM-xWUbroO1qmnzuYpS70mVR3Y11KuQxjHPiGumiB9FG1iROumgCcicbVDGGYw2qR5zvjX5vV5jBcHZ5q5ibHjRNHVW4Ud8MoTjEWP6TvM6tQv1A1f9nX5CNIAWBt90JM4beKh_Zj83WL9oBZquKMPDS6Aa8sGYJB2faTODT-ffMDy3W5-WewJEnz6aQQ6FdAlA3ey9MSLdh2dudpphE4IuUX9fhXJW3sgAeETDplhCscLzKL6dHoLlHzYcjSL8e_iCzbNSCi8fIn7RMRDOvhmhOmn7nPHsruGTxHKxWgAFYTbIkTJ4pxad1TJJIw9684etS6i2Kpmlaqr3Evm7JjR1o_0P7OlLdUsUHLe9HeOaNblqHhtRvyYKbfutiSq872reLGf08EC6PW5UOjTR4sbLLQ"
+    }
+  ],
+  "videoCount": 1,
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "visibility": "users",
+  "allowedUserIds": [
+    "6ab6ea62461cb184bc25a92d",
+    "6aeaca48a3be4418cd51392c",
+    "6ae9ff2917ca8900c154859a",
+    "6aeb2daa6fb2175f94d64c9d",
+    "6abe6f118083c6c9eabfee34"
+  ],
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-11-22T18:58:34.599Z",
+  "updatedAt": "2026-11-22T18:58:34.599Z"
+}

@@ -1,0 +1,13 @@
+{
+  "lessonId": "6abc8c018954c815f83fe2ef",
+  "title": "(Kiểm tra ngắn OOP C++) ĐỀ SỐ 25 - Chủ đề: PHÂN SỐ",
+  "slug": "kiem-tra-ngan-oop-c-de-so-25-chu-de-phan-so",
+  "description": "",
+  "contentHtml": "<h2>ĐỀ SỐ 25</h2>\r\n<p><strong>Chủ đề: PHÂN SỐ • Thời gian: 30 phút • C++</strong></p>\r\n\r\n<ul>\r\n    <li>\r\n        <strong>Yêu cầu: Xây dựng lớp PhanSo bao gồm:</strong>\r\n        <ol>\r\n            <li>Khai báo tuSo, mauSo; cấu tử và rutGon().</li>\r\n            <li>Nạp chồng toán tử - một ngôi để đổi dấu phân số.</li>\r\n            <li>Nạp chồng toán tử =.</li>\r\n            <li>Nạp chồng toán tử &gt;=.</li>\r\n            <li>Viết hàm bạn &gt;&gt; và &lt;&lt;.</li>\r\n        </ol>\r\n    </li>\r\n    <li>\r\n        <strong>Yêu cầu trong hàm main():</strong> Nhập p1. Tạo p2 = -p1 bằng toán tử một ngôi; tạo p3 rồi gán p3 = p2. In p2, p3 và kiểm tra p1 &gt;= p2.\r\n    </li>\r\n</ul>\r\n\r\n<p><em>Lưu ý: Có thể bổ sung hàm/phương thức hỗ trợ hợp lý</em></p>\r\n",
+  "sampleSolution": "",
+  "duration": 30,
+  "model": null,
+  "isPublished": true,
+  "createdAt": "2026-09-30T04:11:45.645Z",
+  "updatedAt": "2026-09-30T04:11:45.865Z"
+}

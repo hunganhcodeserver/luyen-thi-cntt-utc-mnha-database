@@ -1,0 +1,13 @@
+{
+  "lessonId": "6abc8bb68954c815f83fe2ee",
+  "title": "(Kiểm tra ngắn OOP C++) ĐỀ SỐ 24 - Chủ đề: VECTOR 2 CHIỀU",
+  "slug": "kiem-tra-ngan-oop-c-de-so-24-chu-de-vector-2-chieu",
+  "description": "",
+  "contentHtml": "<h2>ĐỀ SỐ 24</h2>\r\n<p><strong>Chủ đề: THỜI GIAN • Thời gian: 30 phút • C++</strong></p>\r\n\r\n<ul>\r\n    <li>\r\n        <strong>Yêu cầu: Xây dựng lớp ThoiGian bao gồm:</strong>\r\n        <ol>\r\n            <li>Khai báo gio, phut, giay; cấu tử và chuanHoa() để đưa phút, giây về miền hợp lệ.</li>\r\n            <li>Viết phương thức int tongSoGiay() trả về số giây tính từ 00:00:00.</li>\r\n            <li>Nạp chồng toán tử - giữa hai ThoiGian, trả về độ lệch tuyệt đối theo giây.</li>\r\n            <li>Nạp chồng toán tử ==.</li>\r\n            <li>Viết hàm bạn &gt;&gt; và &lt;&lt;.</li>\r\n        </ol>\r\n    </li>\r\n    <li>\r\n        <strong>Yêu cầu trong hàm main():</strong> Nhập t1, t2; in độ lệch số giây giữa hai thời điểm. Sau đó kiểm tra t1 == t2.\r\n    </li>\r\n</ul>\r\n\r\n<p><em>Lưu ý: Có thể bổ sung hàm/phương thức hỗ trợ hợp lý</em></p>\r\n",
+  "sampleSolution": "",
+  "duration": 30,
+  "model": null,
+  "isPublished": true,
+  "createdAt": "2026-09-30T04:10:30.043Z",
+  "updatedAt": "2026-09-30T04:10:30.256Z"
+}

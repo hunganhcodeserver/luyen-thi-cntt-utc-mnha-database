@@ -1,0 +1,32 @@
+{
+  "lessonId": "6b038ccf92d1b1fcb72b67d4",
+  "type": "essay",
+  "title": "Bunh Nguyen_IMG_2802.JPG",
+  "slug": "bunh-nguyenimg2802jpg",
+  "subjectSlug": "cau-truc-du-lieu-va-giai-thuat-1-1-26n06",
+  "description": "",
+  "contentHtml": "<table border=\"1\" cellpadding=\"6\" cellspacing=\"0\" style=\"width:100%; border-collapse:collapse;\">\n  <tr>\n    <td>\n      <b>Khoa Công nghệ thông tin</b><br>\n      Bộ môn Khoa học máy tính\n    </td>\n    <td>\n      Môn thi: <b>Cấu trúc dữ liệu và giải thuật</b><br>\n      Mã đề: 3<br>\n      Thời gian: 90 phút\n    </td>\n    <td>\n      Trưởng Bộ môn<br>\n      Kí duyệt\n    </td>\n  </tr>\n  <tr>\n    <td colspan=\"3\" style=\"text-align:center;\"><b>NỘI DUNG ĐỀ THI</b></td>\n  </tr>\n</table>\n<p><b>Câu 1 (1.5 điểm).</b> Tính số phép toán cơ bản nhiều nhất mà thuật toán dưới đây cần phải thực hiện. Xác định độ phức tạp tiệm cận của thuật toán.</p>\n<pre>f=0;\nfor (i = 0 ; i&lt;= n-1; i++){\n    p = 1;\n    for (j = 1 ;j&lt;n;j+=2)\n        if(i!=j)\n            p = p *(u-x[j])/(x[i]-x[j])+x[i];\n    f = f + p*y[i];\n}\nreturn f;</pre>\n<p><b>Câu 2. (2.5 điểm)</b> Thực hiện các yêu cầu sau đây:</p>\n<ul>\n  <li>Khái niệm cây, trình bày cấu trúc lớp cây tổng quát .</li>\n  <li>Khi xây dựng lớp mẫu Node của cây tổng quát gồm gồm public: T elem; vector&lt;Node&lt;T&gt;*&gt; child; hãy lập trình các hàm sau:<br>\n+ Hàm Node&lt;T&gt;*find(Node&lt;T&gt;*H, T x) tìm giá trị x trong cây H trả về địa chỉ (con trỏ) của Node<br>\n+ Hàm void insert(Node&lt;T&gt;*H, T x, Node&lt;T&gt; *p) thêm Node p vào cây H là con của 1 Node có giá trị x (có thể sử dụng hàm find ở trên).</li>\n</ul>\n<p><b>Câu 3. (3.0 điểm)</b> Thực hiện các yêu cầu sau đây:</p>\n<ul>\n  <li>Xây dựng lớp biểu diễn các đối tượng Nhân viên của một công ty gồm các thuộc tính: mã, họ tên, năm sinh, lương; các toán tử nhập &gt;&gt;, xuất &lt;&lt;, phương thức lấy mã nhân viên.</li>\n  <li>Xây dựng lớp Quản lý một danh sách nhân viên của một công ty bằng danh sách liên kết (sử dụng lớp list của C++), có các phương thức sau: Thêm một nhân viên, Xóa một nhân viên theo mã, In danh sách nhân viên lên màn hình, Tìm kiếm nhân viên theo mã bằng thuật toán tìm kiếm tuần tự.</li>\n</ul>\n<p><b>Câu 4. (2.0 điểm)</b> Thực hiện các yêu cầu sau đây:</p>\n<ul>\n  <li>Trình bày ý tưởng của thuật toán sắp xếp MergeSort</li>\n  <li>Lập trình thuật toán MergeSort</li>\n</ul>\n<p><b>Câu 5 (1.0 điểm).</b> Mô tả quá trình sắp xếp dãy số sau đây bằng thuật toán sắp xếp chèn (insertion sort).<br>\n54, 12, 31, 98, 25, 76, 65, 18, 72, 27.</p>\n<p style=\"text-align:center;\"><b>---- HẾT ----</b></p>\n<p><b><i>(Lưu ý: Sinh viên không được ghi bất cứ gì vào đề thi!)</i></b></p>",
+  "sampleSolution": "",
+  "duration": null,
+  "model": null,
+  "promptId": null,
+  "aiKeyId": null,
+  "isPublished": true,
+  "visibility": "users",
+  "allowedUserIds": [
+    "6ab6ea62461cb184bc25a92d",
+    "6aeaca48a3be4418cd51392c",
+    "6ae9ff2917ca8900c154859a",
+    "6aeb2daa6fb2175f94d64c9d",
+    "6abe6f118083c6c9eabfee34"
+  ],
+  "isDeleted": false,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-11-23T00:46:07.550Z",
+  "updatedAt": "2026-11-23T00:46:08.764Z",
+  "order": 0,
+  "analysisAiKeyIds": [],
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "deletedAt": null,
+  "deletedBy": null
+}

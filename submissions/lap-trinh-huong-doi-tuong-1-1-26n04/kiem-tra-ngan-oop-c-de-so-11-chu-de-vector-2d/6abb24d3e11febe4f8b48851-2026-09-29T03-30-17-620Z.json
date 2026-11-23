@@ -1,0 +1,186 @@
+{
+  "submissionId": "6abb30c91a4102ee852ce829",
+  "submittedAt": "2026-09-29T03:30:17.620Z",
+  "gradedAt": "2026-09-29T03:30:24.667Z",
+  "status": "graded",
+  "errorMessage": null,
+  "userId": "6abb24d3e11febe4f8b48851",
+  "userName": "ha my",
+  "userEmail": "myyha3084@gmail.com",
+  "subjectId": "6ab5aeac813f0f6c24604455",
+  "subjectName": "Lập trình hướng đối tượng-1-1-26(N04)",
+  "subjectCode": "IT1.108.3",
+  "subjectSlug": "lap-trinh-huong-doi-tuong-1-1-26n04",
+  "lessonId": "6aba9391c5cc967daae7d1ee",
+  "lessonTitle": "(Kiểm tra ngắn OOP C++) ĐỀ SỐ 11 - Chủ đề: VECTOR 2D",
+  "lessonSlug": "kiem-tra-ngan-oop-c-de-so-11-chu-de-vector-2d",
+  "lessonDuration": 30,
+  "lessonContentHtml": "<div class=\"flex-container flex-1-2-1-10\" style=\"display: flex; flex-direction: column;\"><div class=\"flex-container flex-1-2-1-10-0\" style=\"display: flex; flex-direction: column;\"><div class=\"flex-container flex-1-2-1-10-0-0\" style=\"display: flex; flex-direction: column;\"><div style=\"width: 100%; height: 100%;\"><p data-path-to-node=\"1,2,1,10,0,0,0\">ĐỀ SỐ 11\r\nVECTOR 2D</p></div></div><div class=\"flex-container flex-1-2-1-10-0-1\" style=\"display: flex; flex-direction: column;\"><div style=\"width: 100%; height: 100%;\"><p data-path-to-node=\"1,2,1,10,0,1,0\">⏱ 30 phút | 💻 C++</p></div></div><div class=\"flex-container flex-1-2-1-10-0-2\" style=\"display: flex; flex-direction: column;\"><div style=\"width: 100%; height: 100%;\"><p data-path-to-node=\"1,2,1,10,0,2,0\"><b data-path-to-node=\"1,2,1,10,0,2,0\" data-index-in-node=\"0\">Lớp Vector2Chieu:</b></p></div><div style=\"width: 100%; height: 100%;\"><ul data-path-to-node=\"1,2,1,10,0,2,1\"><li><p data-path-to-node=\"1,2,1,10,0,2,1,0,0\">Thuộc tính: <code data-path-to-node=\"1,2,1,10,0,2,1,0,0\" data-index-in-node=\"12\">x</code>, <code data-path-to-node=\"1,2,1,10,0,2,1,0,0\" data-index-in-node=\"15\">y</code>, cấu tử mặc định</p></li><li><p data-path-to-node=\"1,2,1,10,0,2,1,1,0\">Nạp chồng toán tử <code data-path-to-node=\"1,2,1,10,0,2,1,1,0\" data-index-in-node=\"18\">*</code> (tích vô hướng: x1<i data-path-to-node=\"1,2,1,10,0,2,1,1,0\" data-index-in-node=\"38\">x2 + y1</i>y2)</p></li><li><p data-path-to-node=\"1,2,1,10,0,2,1,2,0\">Nạp chồng toán tử <code data-path-to-node=\"1,2,1,10,0,2,1,2,0\" data-index-in-node=\"18\">+=</code> và <code data-path-to-node=\"1,2,1,10,0,2,1,2,0\" data-index-in-node=\"24\">!=</code></p></li><li><p data-path-to-node=\"1,2,1,10,0,2,1,3,0\">Hàm bạn <code data-path-to-node=\"1,2,1,10,0,2,1,3,0\" data-index-in-node=\"8\">&gt;&gt;</code> và <code data-path-to-node=\"1,2,1,10,0,2,1,3,0\" data-index-in-node=\"14\">&lt;&lt;</code></p></li></ul></div><div class=\"flex-container flex-1-2-1-10-0-2-2\" style=\"display: flex; flex-direction: column;\"><div style=\"width: 100%; height: 100%;\"><p data-path-to-node=\"1,2,1,10,0,2,2,0\"><b data-path-to-node=\"1,2,1,10,0,2,2,0\" data-index-in-node=\"0\">main():</b> Nhập v1, v2; in v1 * v2. Thực hiện v1 += v2 và in v1.</p></div></div></div></div></div>",
+  "lessonSampleSolution": "",
+  "answerHtml": "#include <iostream>\n\nusing namespace std;\n\nclass Vector2D {\nprivate:\n    double x, y; // Thuộc tính tọa độ x và y\n\npublic:\n    // Cấu tử mặc định (hỗ trợ khởi tạo không tham số hoặc có tham số)\n    Vector2D(double x_val = 0.0, double y_val = 0.0) : x(x_val), y(y_val) {}\n\n    // Nạp chồng toán tử * (Tính tích vô hướng: x1*x2 + y1*y2)\n    double operator*(const Vector2D& other) const {\n        return (this->x * other.x) + (this->y * other.y);\n    }\n\n    // Nạp chồng toán tử +=\n    Vector2D& operator+=(const Vector2D& other) {\n        this->x += other.x;\n        this->y += other.y;\n        return *this;\n    }\n\n    // Nạp chồng toán tử !=\n    bool operator!=(const Vector2D& other) const {\n        return (this->x != other.x) || (this->y != other.y);\n    }\n\n    // Hàm bạn toán tử nhập >>\n    friend istream& operator>>(istream& in, Vector2D& v) {\n        cout << \"Nhap hoanh do x: \";\n        in >> v.x;\n        cout << \"Nhap tung do y: \";\n        in >> v.y;\n        return in;\n    }\n\n    // Hàm bạn toán tử xuất <<\n    friend ostream& operator<<(ostream& out, const Vector2D& v) {\n        out << \"(\" << v.x << \", \" << v.y << \")\";\n        return out;\n    }\n};\n\nint main() {\n    Vector2D v1, v2;\n\n    // Nhập dữ liệu cho 2 vector\n    cout << \"--- Nhap vector v1 ---\" << endl;\n    cin >> v1;\n    cout << \"\\n--- Nhap vector v2 ---\" << endl;\n    cin >> v2;\n\n    // In thông tin 2 vector vừa nhập\n    cout << \"\\nVector v1: \" << v1 << endl;\n    cout << \"Vector v2: \" << v2 << endl;\n\n    // Tính và in tích vô hướng v1 * v2\n    double tich_vo_huong = v1 * v2;\n    cout << \"\\nTich vo huong v1 * v2 = \" << tich_vo_huong << endl;\n\n    // Kiểm tra toán tử != (ví dụ thêm để chứng minh hoạt động)\n \n    // Thực hiện v1 += v2 và in v1\n    v1 += v2;\n    cout << \"\\nSau khi thuc hien v1 += v2:\" << endl;\n    cout << \"Vector v1 moi = \" << v1 << endl;\n\n    return 0;\n}",
+  "score": 10,
+  "feedback": "Bài làm xuất sắc. Cài đặt đầy đủ và chính xác tất cả các yêu cầu của đề bài: khai báo lớp, hàm tạo, nạp chồng toán tử nhập/xuất dạng friend, các toán tử *, +=, != và hoàn thiện hàm main đúng yêu cầu. Code rõ ràng, chuẩn cú pháp C++ và biên dịch tốt.",
+  "breakdown": [
+    {
+      "criterion": "Khai báo lớp, thuộc tính private, hàm tạo/hàm hủy đúng",
+      "score": 13,
+      "comment": "Khai báo đúng thuộc tính private x, y; hàm tạo mặc định có tham số mặc định đúng chuẩn."
+    },
+    {
+      "criterion": "Nạp chồng toán tử nhập >> là friend, nhập đúng dữ liệu",
+      "score": 13,
+      "comment": "Nạp chồng toán tử >> là hàm bạn, nhập đầy đủ và chính xác x, y."
+    },
+    {
+      "criterion": "Nạp chồng toán tử xuất << là friend, xuất đúng dữ liệu",
+      "score": 9,
+      "comment": "Nạp chồng toán tử << là hàm bạn, xuất dữ liệu dạng tọa độ rõ ràng."
+    },
+    {
+      "criterion": "Các phương thức getter/setter hoặc phương thức phụ trợ đúng",
+      "score": 5,
+      "comment": "Đề không yêu cầu thêm getter/setter hay phương thức phụ trợ khác."
+    },
+    {
+      "criterion": "Nạp chồng toán tử một ngôi (nếu đề yêu cầu +, -, !, ...)",
+      "score": 14,
+      "comment": "Đề không yêu cầu toán tử một ngôi."
+    },
+    {
+      "criterion": "Nạp chồng toán tử hai ngôi / so sánh (nếu đề yêu cầu +, -, >, <, ==, ...)",
+      "score": 14,
+      "comment": "Cài đặt chính xác các toán tử *, += và != theo đúng ngữ nghĩa và trả về kiểu dữ liệu phù hợp."
+    },
+    {
+      "criterion": "Hàm main nhập/xuất/xử lý đầy đủ theo đề",
+      "score": 14,
+      "comment": "Hàm main thực hiện đầy đủ các bước: nhập v1, v2, in v1 * v2, thực hiện v1 += v2 và in kết quả."
+    },
+    {
+      "criterion": "Quản lý bộ nhớ động đúng, không rò rỉ",
+      "score": 9,
+      "comment": "Bài không yêu cầu sử dụng bộ nhớ động, không có rò rỉ bộ nhớ."
+    },
+    {
+      "criterion": "Phong cách, đặt tên, chú thích, không lỗi biên dịch",
+      "score": 9,
+      "comment": "Mã nguồn trình bày đẹp, sáng sủa, có chú thích đầy đủ, biên dịch thành công."
+    }
+  ],
+  "grammar": null,
+  "sampleComparison": null,
+  "model": "gemini-flash-latest",
+  "aiKeyId": "6ab7116dc878bedb86de26dc",
+  "aiKeyName": "VMK1",
+  "latencyMs": 6330,
+  "promptSnapshot": {
+    "promptId": "6ab736bee5d88208e9117c70",
+    "name": "Prompt Kiểm tra ngắn OOP C++",
+    "content": "Bạn là giảng viên chấm bài môn Lập trình hướng đối tượng (C++).\r\nHãy chấm bài làm của sinh viên theo đúng rubric dưới đây. Chỉ đánh giá dựa trên mã nguồn được cung cấp và yêu cầu đề bài. Không suy diễn thêm. Nếu bài không biên dịch được, ghi rõ trong feedback và chỉ cho điểm các phần có thể xác minh.\r\n\r\nTên sinh viên: {student_name}\r\nĐiểm tối đa: {max_score}\r\n\r\nĐỀ BÀI:\r\n{đề_bài}\r\n\r\nRUBRIC:\r\n{rubric}\r\n\r\nLỜI GIẢI MẪU THAM KHẢO (nếu cần đối chiếu):\r\n{lời_giải_mẫu}\r\n\r\nBÀI LÀM SINH VIÊN:\r\n{bài_làm}\r\n\r\nYÊU CẦU TRẢ VỀ:\r\nTrả về DUY NHẤT một object JSON hợp lệ, không thêm văn bản ngoài JSON:\r\n{\r\n  \"score\": number,\r\n  \"feedback\": string,\r\n  \"breakdown\": [{\"criterion\": string, \"score\": number, \"comment\": string}]\r\n}\r\n\r\nVariables:\r\n{\r\n  \"variables\": [\r\n    \"{đề_bài}\",\r\n    \"{bài_làm}\",\r\n    \"{rubric}\",\r\n    \"{max_score}\",\r\n    \"{student_name}\",\r\n    \"{lời_giải_mẫu}\"\r\n  ]\r\n}",
+    "rubric": [
+      {
+        "criterion": "Khai báo lớp, thuộc tính private, hàm tạo/hàm hủy đúng",
+        "weight": 13,
+        "description": "Lớp có các thuộc tính private theo đề; hàm tạo mặc định/hàm tạo có đối; hàm hủy nếu có cấp phát động."
+      },
+      {
+        "criterion": "Nạp chồng toán tử nhập >> là friend, nhập đúng dữ liệu",
+        "weight": 13,
+        "description": "operator>> là friend, nhập đúng các trường theo đề; xử lý khoảng trắng hợp lý nếu cần."
+      },
+      {
+        "criterion": "Nạp chồng toán tử xuất << là friend, xuất đúng dữ liệu",
+        "weight": 9,
+        "description": "operator<< là friend, in ra thông tin rõ ràng, đúng định dạng đề yêu cầu."
+      },
+      {
+        "criterion": "Các phương thức getter/setter hoặc phương thức phụ trợ đúng",
+        "weight": 5,
+        "description": "Cung cấp đủ getter/setter hoặc phương thức mà đề yêu cầu."
+      },
+      {
+        "criterion": "Nạp chồng toán tử một ngôi (nếu đề yêu cầu +, -, !, ...)",
+        "weight": 14,
+        "description": "Cài đặt đúng toán tử một ngôi theo đề, ví dụ operator+() tính tổng, operator-() đổi dấu, operator!() đảo ngược."
+      },
+      {
+        "criterion": "Nạp chồng toán tử hai ngôi / so sánh (nếu đề yêu cầu +, -, >, <, ==, ...)",
+        "weight": 14,
+        "description": "Cài đặt đúng toán tử hai ngôi hoặc toán tử so sánh theo đề, xử lý đúng ngữ nghĩa."
+      },
+      {
+        "criterion": "Hàm main nhập/xuất/xử lý đầy đủ theo đề",
+        "weight": 14,
+        "description": "main thực hiện đủ các bước: nhập, xuất, tính toán, so sánh, sắp xếp, tìm kiếm, ... theo đề."
+      },
+      {
+        "criterion": "Quản lý bộ nhớ động đúng, không rò rỉ",
+        "weight": 9,
+        "description": "Nếu dùng new/delete, cấp phát và giải phóng đúng; không rò rỉ bộ nhớ."
+      },
+      {
+        "criterion": "Phong cách, đặt tên, chú thích, không lỗi biên dịch",
+        "weight": 9,
+        "description": "Code rõ ràng, đặt tên hợp lý, có chú thích, biên dịch thành công."
+      }
+    ],
+    "strictness": "strict",
+    "maxScore": 10,
+    "scope": "lesson",
+    "version": 4,
+    "isFallback": false,
+    "unknownPlaceholders": [],
+    "snapshotAt": "2026-09-29T03:30:24.462Z"
+  },
+  "raw": {
+    "score": 10,
+    "feedback": "Bài làm xuất sắc. Cài đặt đầy đủ và chính xác tất cả các yêu cầu của đề bài: khai báo lớp, hàm tạo, nạp chồng toán tử nhập/xuất dạng friend, các toán tử *, +=, != và hoàn thiện hàm main đúng yêu cầu. Code rõ ràng, chuẩn cú pháp C++ và biên dịch tốt.",
+    "breakdown": [
+      {
+        "criterion": "Khai báo lớp, thuộc tính private, hàm tạo/hàm hủy đúng",
+        "score": 13,
+        "comment": "Khai báo đúng thuộc tính private x, y; hàm tạo mặc định có tham số mặc định đúng chuẩn."
+      },
+      {
+        "criterion": "Nạp chồng toán tử nhập >> là friend, nhập đúng dữ liệu",
+        "score": 13,
+        "comment": "Nạp chồng toán tử >> là hàm bạn, nhập đầy đủ và chính xác x, y."
+      },
+      {
+        "criterion": "Nạp chồng toán tử xuất << là friend, xuất đúng dữ liệu",
+        "score": 9,
+        "comment": "Nạp chồng toán tử << là hàm bạn, xuất dữ liệu dạng tọa độ rõ ràng."
+      },
+      {
+        "criterion": "Các phương thức getter/setter hoặc phương thức phụ trợ đúng",
+        "score": 5,
+        "comment": "Đề không yêu cầu thêm getter/setter hay phương thức phụ trợ khác."
+      },
+      {
+        "criterion": "Nạp chồng toán tử một ngôi (nếu đề yêu cầu +, -, !, ...)",
+        "score": 14,
+        "comment": "Đề không yêu cầu toán tử một ngôi."
+      },
+      {
+        "criterion": "Nạp chồng toán tử hai ngôi / so sánh (nếu đề yêu cầu +, -, >, <, ==, ...)",
+        "score": 14,
+        "comment": "Cài đặt chính xác các toán tử *, += và != theo đúng ngữ nghĩa và trả về kiểu dữ liệu phù hợp."
+      },
+      {
+        "criterion": "Hàm main nhập/xuất/xử lý đầy đủ theo đề",
+        "score": 14,
+        "comment": "Hàm main thực hiện đầy đủ các bước: nhập v1, v2, in v1 * v2, thực hiện v1 += v2 và in kết quả."
+      },
+      {
+        "criterion": "Quản lý bộ nhớ động đúng, không rò rỉ",
+        "score": 9,
+        "comment": "Bài không yêu cầu sử dụng bộ nhớ động, không có rò rỉ bộ nhớ."
+      },
+      {
+        "criterion": "Phong cách, đặt tên, chú thích, không lỗi biên dịch",
+        "score": 9,
+        "comment": "Mã nguồn trình bày đẹp, sáng sủa, có chú thích đầy đủ, biên dịch thành công."
+      }
+    ]
+  }
+}

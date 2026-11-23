@@ -1,0 +1,29 @@
+{
+  "type": "slide",
+  "slideId": "6af56b248437f51a51de4963",
+  "title": "UTC_CNTT3K64_slide-c23-tim-phuong-an-cuc-bien",
+  "slug": "utc-cntt3k64-slide-c23-tim-phuong-an-cuc-bien",
+  "subjectSlug": "cac-phuong-phap-toi-uu-1-1-26n02",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/cac-phuong-phap-toi-uu-1-1-26n02/slides/utc-cntt3k64-slide-c23-tim-phuong-an-cuc-bien_1794468622.pptx",
+      "enc": 3933673,
+      "plain": 3933557
+    }
+  ],
+  "fileExt": "pptx",
+  "fileSize": 3933557,
+  "originalName": "UTC_CNTT3K64_slide-c23-tim-phuong-an-cuc-bien.pptx",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-11-12T07:30:44.041Z",
+  "updatedAt": "2026-11-12T07:30:44.041Z"
+}

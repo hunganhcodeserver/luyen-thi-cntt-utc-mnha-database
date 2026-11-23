@@ -1,0 +1,40 @@
+{
+  "type": "video",
+  "videoId": "6b01c61de99b957a7fad6ec8",
+  "title": "Bunh Nguyen _ Buoi9-LinkedList",
+  "slug": "bunh-nguyen-buoi9-linkedlist",
+  "subjectSlug": "cau-truc-du-lieu-va-giai-thuat-1-1-26n06",
+  "description": "",
+  "videos": [
+    {
+      "id": "v232e107d",
+      "title": "",
+      "enc": "v1.NFQxVnBv7aNwuKQo.U4Hi5vUeczzWgoQU10SGrQ.giTPlp5sDeRut_glx_1DfJ4r0rzUZTLAUKK_j4sh0BptFMZmhaVa3kaS6NQsiz5_yb_pBPaePWNywA5Hz7lcYxjPauezZcpMaGDvZQ3o0gUmqGgt1ki7PdgRKGuMpV0y-8RHyqoo3feJ3YzjI4BuLyxCnygvPhANl6q83DwWIgr4unXH2_-JcRmDlYAUulD2Z90Q3Koy1fvDJhSEgzl7G6-bOZDvjyox3fFEnMWExrDy2EEnBsr8d05dpGoLB7G4SAnC5g2AsfGp35cAX2-5t6mPlTzNIOYXT7MwhgNlYmacQpnGEZXp7nvIwx_O3Q1FzZ8GRkY9q1t_uR6ISpK262ygSWVBXfkHFJWNEsmny1SY70kAr3M0wgUya4Tcx1GvMDATOR_kqWsSDrk-i9rgl57hsypAC03MCb6UmQV80kGp0RnsM13GQQ"
+    },
+    {
+      "id": "v4266fb82",
+      "title": "",
+      "enc": "v1.vlRnOvJHS3MAuNBe.h5-ORsnAhV8ZCkC9DJj82Q.gIkheZPn_8IRKR4t3Nzs905UErAocZs0az5pWZADTfmE1DnTjoOTTurRuSY9RpZe__fpMYEgKaGTmYbUZjQxJX8cqUWrcRbI88F1nOGV8hHenqSj5MYHIH9Nw75RgTiNWoFww5bFvogDKa7oThYcVcARx0fyEXwshmNH6eF4C4EvNzsvzof08VD5Wd7seD_mb3JgkSW85NR2cN8_bxYVC0r6CReWEYONhbg4xd35yfB2zweGrlGG0hjVRv6BSqywhGkwPI8NUibDSTQ0ZEYUQaXcO0ZBnwx1wthyURMCBfYJ3H3-2cAxMg6YbGGq3icI_jLAuzeDOlBbQftdtxDNE__aa8NUA3LvO8eB5lplx67ljF1ae-aM88ciIeKnuSOxzXxP4FGNLmBP1_JsWAiHgYVs7BMEyH8saZVK563wdo2Fk2UPsD2x9g"
+    }
+  ],
+  "videoCount": 2,
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "visibility": "users",
+  "allowedUserIds": [
+    "6ab6ea62461cb184bc25a92d",
+    "6aeaca48a3be4418cd51392c",
+    "6ae9ff2917ca8900c154859a",
+    "6abe6f118083c6c9eabfee34",
+    "6aeb2daa6fb2175f94d64c9d"
+  ],
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-11-21T16:26:05.404Z",
+  "updatedAt": "2026-11-22T15:09:57.991Z"
+}

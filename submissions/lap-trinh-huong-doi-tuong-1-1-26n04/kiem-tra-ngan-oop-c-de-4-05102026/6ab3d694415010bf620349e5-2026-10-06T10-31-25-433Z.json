@@ -1,0 +1,114 @@
+{
+  "submissionId": "6ac4cdfd712a61efc476663b",
+  "submittedAt": "2026-10-06T10:31:25.433Z",
+  "gradedAt": "2026-10-06T10:31:32.214Z",
+  "status": "graded",
+  "errorMessage": null,
+  "userId": "6ab3d694415010bf620349e5",
+  "userName": "Mai Ngọc Hùng Anh",
+  "userEmail": "hunganh.okokok.0@gmail.com",
+  "subjectId": "6ab5aeac813f0f6c24604455",
+  "subjectName": "Lập trình hướng đối tượng-1-1-26(N04)",
+  "subjectCode": "IT1.108.3",
+  "subjectSlug": "lap-trinh-huong-doi-tuong-1-1-26n04",
+  "lessonId": "6ac4c3a974aba1d1f0d69e99",
+  "lessonTitle": "(Kiểm tra ngắn OOP C++) Đề 4 05/10/2026",
+  "lessonSlug": "kiem-tra-ngan-oop-c-de-4-05102026",
+  "lessonDuration": 30,
+  "lessonContentHtml": "<blockquote>\n    <p><strong>Lưu ý chung khi làm bài:</strong></p>\n    <ul>\n        <li>Dùng <code>cin &gt;&gt; ws; getline(cin, ...)</code> để nhập chuỗi ký tự nhằm tránh lỗi trôi lệnh (không sử dụng <code>cin.ignore()</code>).</li>\n        <li>Giả sử số lượng phần tử <var>n</var> &gt;= 1 khi thực hiện các thao tác tìm giá trị lớn nhất (max) hoặc nhỏ nhất (min).</li>\n    </ul>\n</blockquote>\n\n\n<hr />\n\n<!-- ĐỀ 4 -->\n<section id=\"de-4\">\n    <h2>Đề 4: Hàm tạo có đối số trong kế thừa</h2>\n    <p><strong>Yêu cầu:</strong></p>\n    <ol>\n        <li>Thiết lập lớp cha <code>Nguoi</code> gồm các thuộc tính <code>private</code>: họ tên, năm sinh. Tích hợp hàm tạo mặc định và hàm tạo có đối số (sử dụng tham số mặc định).</li>\n        <li>Xây dựng lớp con <code>SinhVien</code> kế thừa từ lớp <code>Nguoi</code>, bổ sung thuộc tính điểm số. Yêu cầu cài đặt đầy đủ cả hàm tạo mặc định và hàm tạo có đối số (gọi hàm tạo của lớp cha thông qua danh sách khởi tạo - initialization list).</li>\n        <li>Viết hàm <code>main</code> thực hiện khởi tạo 2 đối tượng sinh viên theo 2 cách:\n            <ul>\n                <li>Sinh viên <var>a</var>: khởi tạo trực tiếp bằng hàm tạo có đối số.</li>\n                <li>Sinh viên <var>b</var>: khởi tạo bằng hàm tạo mặc định rồi gọi hàm nhập dữ liệu từ bàn phím.</li>\n            </ul>\n            Kiểm tra và thông báo ra màn hình những sinh viên nào đã qua môn (điểm số &gt;= 6).\n        </li>\n    </ol>",
+  "lessonSampleSolution": "",
+  "answerHtml": "#include<bits/stdc++.h>\n\nusing namespace std;\nusing ll = long long;\n\n\nclass Nguoi{\n\tprivate:\n\t\tstring hoTen;\n\t\tint namSinh;\n\tpublic:\n\t\tNguoi(string hoTen = \"\", int namSinh = 0){\n\t\t\tthis->hoTen = hoTen;\n\t\t\tthis->namSinh = namSinh;\n\t\t}\n\t\tvoid nhap(){\n\t\t\tcout << \"Nhap ho ten: \";\n\t\t\tcin >> ws;\n\t\t\tgetline(cin, hoTen);\n\t\t\tcout << \"Nhap nam sinh: \";\n\t\t\tcin >> namSinh;\n\t\t}\n\t\tvoid xuat(){\n\t\t\tcout << \"Ho ten: \" << hoTen << \", Nam sinh: \" << namSinh;\n\t\t}\n};\n\nclass SinhVien : public Nguoi{\n\tprivate:\n\t\tdouble diemSo;\n\tpublic:\n\t\tSinhVien(string hoTen = \"\", int namSinh = 0, double diemSo = 0.0) : Nguoi(hoTen, namSinh){\n\t\t\tthis->diemSo = diemSo;\n\t\t}\n\t\tvoid nhap(){\n\t\t\tNguoi::nhap();\n\t\t\tcout << \"Nhap diem so: \";\n\t\t\tcin >> diemSo;\n\t\t}\n\t\tvoid xuat(){\n\t\t\tNguoi::xuat();\n\t\t\tcout << \", Diem: \" << diemSo;\n\t\t}\n\t\tdouble getDiem(){\n\t\t\treturn diemSo;\n\t\t}\n};\n\nbool kiemTra(SinhVien sv){\n\treturn sv.getDiem() >= 6.0;\n}\n\nint main() {\n\tSinhVien sva;\n\tcout << \"--- Nhap thong tin cho sva ---\\n\";\n\tsva.nhap(); \n\tSinhVien svb(\"Nguyen Van A\", 2005, 8.5);\n\tsva.xuat();\n\tif(kiemTra(sva)){\n\t\tcout << \", Qua mon\\n\";\n\t}else{\n\t\tcout << endl;\n\t}\n\tsvb.xuat();\n\tif(kiemTra(svb)){\n\t\tcout << \", Qua mon\\n\";\n\t}else{\n\t\tcout << endl;\n\t}\n    return 0;\n}",
+  "score": 7,
+  "feedback": "Bài làm đã cài đặt đúng kế thừa, hàm tạo có đối số và hàm tạo mặc định, sử dụng initialization list để gọi hàm tạo lớp cha, có nhập/xuất và kiểm tra qua môn. Tuy nhiên, phần main chưa bám sát yêu cầu: đề yêu cầu sinh viên a khởi tạo trực tiếp bằng hàm tạo có đối số, sinh viên b khởi tạo mặc định rồi nhập từ bàn phím, nhưng bài làm đang làm ngược lại. Ngoài ra, nên khai báo các hàm nhập/xuất là virtual hoặc sử dụng đúng nếu cần, nhưng không bắt buộc. Cách dùng cin >> ws và getline đúng quy định. Một số thông báo chưa rõ nghĩa khi không qua môn (chỉ in endl).",
+  "breakdown": [
+    {
+      "criterion": "Thiết lập lớp Nguoi với thuộc tính private và hàm tạo",
+      "score": 2,
+      "comment": "Đúng, có hàm tạo mặc định/tham số mặc định, thuộc tính private, nhập họ tên bằng cin >> ws và getline."
+    },
+    {
+      "criterion": "Xây dựng lớp SinhVien kế thừa, có điểm số, hàm tạo gọi lớp cha qua initialization list",
+      "score": 2.5,
+      "comment": "Đúng, kế thừa public, có hàm tạo gọi Nguoi(hoTen, namSinh), đầy đủ cả mặc định và có đối số."
+    },
+    {
+      "criterion": "Hàm main khởi tạo đúng yêu cầu: a dùng hàm tạo có đối số, b dùng mặc định rồi nhập",
+      "score": 0.5,
+      "comment": "Làm ngược: sva khởi tạo mặc định rồi nhập, svb khởi tạo có đối số. Không đúng yêu cầu."
+    },
+    {
+      "criterion": "Kiểm tra và thông báo sinh viên qua môn",
+      "score": 1.5,
+      "comment": "Có kiểm tra điểm >= 6 và thông báo 'Qua mon', nhưng khi không qua môn chỉ in endl, chưa thông báo rõ ràng."
+    },
+    {
+      "criterion": "Chất lượng mã nguồn, trình bày, không lỗi cú pháp",
+      "score": 1.5,
+      "comment": "Mã chạy được, không lỗi cú pháp, trình bày tạm ổn; có thể cải thiện thông báo."
+    }
+  ],
+  "grammar": null,
+  "sampleComparison": null,
+  "model": "chib/deepseek-v4.1-flash",
+  "aiKeyId": "6abfdf08b29c124d59ccc66b",
+  "aiKeyName": "hunganh2006",
+  "aiProvider": "vilao",
+  "latencyMs": 6150,
+  "promptSnapshot": {
+    "kind": "essay",
+    "promptId": null,
+    "name": "Fallback mặc định (hardcoded)",
+    "content": "Bạn là giáo viên chấm bài. Hãy chấm bài viết sau dựa trên đề bài và rubric.\n\nĐề bài:\n{đề_bài}\n\nBài làm sinh viên:\n{bài_làm}\n\nLời giải mẫu (nếu có, chỉ dùng để đối chiếu ý, không chép nguyên văn vào feedback):\n{lời_giải_mẫu}\n\nRubric: {rubric}\nĐiểm tối đa: {max_score}\n\nQUY TẮC PHÁT HIỆN LỖI:\n- Chỉ liệt kê lỗi khi lỗi thực sự tồn tại trong bài làm, không tự bịa.\n- Nếu đề bài/rubric không đủ căn cứ để xác định một lỗi cụ thể, bỏ qua, không đoán.\n- Mỗi lỗi nêu rõ: câu gốc sai, câu đã sửa, giải thích ngắn gọn.\n\nChỉ trả về JSON hợp lệ, không Markdown, không giải thích ngoài JSON:\n{\n  \"score\": number,\n  \"feedback\": string,\n  \"breakdown\": [{ \"criterion\": string, \"score\": number, \"comment\": string }],\n  \"errors\": [{ \"original\": string, \"corrected\": string, \"explanation\": string }]\n}",
+    "rubric": null,
+    "strictness": "normal",
+    "maxScore": 10,
+    "scope": "fallback",
+    "version": 0,
+    "isFallback": true,
+    "unknownPlaceholders": [],
+    "snapshotAt": "2026-10-06T10:31:32.005Z"
+  },
+  "raw": {
+    "score": 7,
+    "feedback": "Bài làm đã cài đặt đúng kế thừa, hàm tạo có đối số và hàm tạo mặc định, sử dụng initialization list để gọi hàm tạo lớp cha, có nhập/xuất và kiểm tra qua môn. Tuy nhiên, phần main chưa bám sát yêu cầu: đề yêu cầu sinh viên a khởi tạo trực tiếp bằng hàm tạo có đối số, sinh viên b khởi tạo mặc định rồi nhập từ bàn phím, nhưng bài làm đang làm ngược lại. Ngoài ra, nên khai báo các hàm nhập/xuất là virtual hoặc sử dụng đúng nếu cần, nhưng không bắt buộc. Cách dùng cin >> ws và getline đúng quy định. Một số thông báo chưa rõ nghĩa khi không qua môn (chỉ in endl).",
+    "breakdown": [
+      {
+        "criterion": "Thiết lập lớp Nguoi với thuộc tính private và hàm tạo",
+        "score": 2,
+        "comment": "Đúng, có hàm tạo mặc định/tham số mặc định, thuộc tính private, nhập họ tên bằng cin >> ws và getline."
+      },
+      {
+        "criterion": "Xây dựng lớp SinhVien kế thừa, có điểm số, hàm tạo gọi lớp cha qua initialization list",
+        "score": 2.5,
+        "comment": "Đúng, kế thừa public, có hàm tạo gọi Nguoi(hoTen, namSinh), đầy đủ cả mặc định và có đối số."
+      },
+      {
+        "criterion": "Hàm main khởi tạo đúng yêu cầu: a dùng hàm tạo có đối số, b dùng mặc định rồi nhập",
+        "score": 0.5,
+        "comment": "Làm ngược: sva khởi tạo mặc định rồi nhập, svb khởi tạo có đối số. Không đúng yêu cầu."
+      },
+      {
+        "criterion": "Kiểm tra và thông báo sinh viên qua môn",
+        "score": 1.5,
+        "comment": "Có kiểm tra điểm >= 6 và thông báo 'Qua mon', nhưng khi không qua môn chỉ in endl, chưa thông báo rõ ràng."
+      },
+      {
+        "criterion": "Chất lượng mã nguồn, trình bày, không lỗi cú pháp",
+        "score": 1.5,
+        "comment": "Mã chạy được, không lỗi cú pháp, trình bày tạm ổn; có thể cải thiện thông báo."
+      }
+    ],
+    "errors": [
+      {
+        "original": "SinhVien sva;\ncout << \"--- Nhap thong tin cho sva ---\\n\";\nsva.nhap(); \nSinhVien svb(\"Nguyen Van A\", 2005, 8.5);",
+        "corrected": "SinhVien sva(\"Nguyen Van A\", 2005, 8.5);\ncout << \"--- Nhap thong tin cho svb ---\\n\";\nSinhVien svb;\nsvb.nhap();",
+        "explanation": "Đề yêu cầu sinh viên a khởi tạo trực tiếp bằng hàm tạo có đối số, sinh viên b khởi tạo mặc định rồi nhập từ bàn phím; bài làm đang làm ngược lại."
+      },
+      {
+        "original": "}else{\n\t\tcout << endl;\n\t}",
+        "corrected": "}else{\n\t\tcout << \", Khong qua mon\\n\";\n\t}",
+        "explanation": "Khi sinh viên không qua môn, nên thông báo rõ ràng thay vì chỉ in xuống dòng."
+      }
+    ]
+  }
+}

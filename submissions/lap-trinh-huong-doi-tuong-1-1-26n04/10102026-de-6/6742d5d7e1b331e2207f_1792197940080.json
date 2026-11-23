@@ -1,0 +1,113 @@
+{
+  "submissionId": "6ad2c523594c281bf35f06f3",
+  "submittedAt": "2026-10-17T00:45:23.546Z",
+  "gradedAt": "2026-10-17T00:45:40.180Z",
+  "status": "graded",
+  "errorMessage": null,
+  "userId": "6ab3d694415010bf620349e5",
+  "userName": "Mai Ngọc Hùng Anh",
+  "userEmail": "hunganh.okokok.0@gmail.com",
+  "subjectId": "6ab5aeac813f0f6c24604455",
+  "subjectName": "Lập trình hướng đối tượng-1-1-26(N04)",
+  "subjectCode": "IT1.108.3",
+  "subjectSlug": "lap-trinh-huong-doi-tuong-1-1-26n04",
+  "lessonId": "6acae588f27cca54241c97cf",
+  "lessonTitle": "(10/10/2026) Đề 6",
+  "lessonSlug": "10102026-de-6",
+  "lessonDuration": 30,
+  "lessonContentHtml": "<div class=\"de-bai\">\n\n<div class=\"bai\">\n  <h3>Bài 6.</h3>\n  <p>Xây dựng lớp Xe, trong đó có các thuộc tính gồm: Biển số xe và trọng lượng của xe. Xây dựng lớp XeCon dẫn xuất từ lớp Xe, trong đó định nghĩa thêm thuộc tính: Số chỗ ngồi. Trong lớp trên có thể định nghĩa thêm một số hàm thành phần nếu cần thiết.</p>\n  <p>Viết chương trình:<br>\n  - Nhập thông tin cho n xe con<br>\n  - In danh sách các xe con có trọng lượng dưới 1 tấn và có không quá 5 chỗ ngồi.</p>\n</div>\n\n\n\n</div>",
+  "lessonSampleSolution": "",
+  "answerHtml": "#include<bits/stdc++.h>\nusing namespace std;\nclass Xe{\n\tprivate:\n\t\tint bien;\n\t\tfloat trongluong;\n\tpublic:\n\t\tvoid nhap(){\n\t\t\tcout<<\"Nhap bien so xe: \";\n\t\t\tcin>>bien;\n\t\t\tcout<<\"Nhap trong luong xe: \";\n\t\t\tcin>>trongluong;\n\t\t}\n\t\tvoid xuat(){\n\t\t\tcout<<endl<<\"Bien so: \"<<bien<<\" \"<<\"Trong luong: \"<<trongluong;\n\t\t}\n\t\tfloat getTrongluong(){\n\t\t\treturn trongluong;\n\t\t}\t\n};\nclass XeCon : public Xe{\n\tprivate:\n\t\tint sochongoi;\n\tpublic:\n\t\tvoid nhap(){\n\t\t\tXe::nhap();\n\t\t\tcout<<\"So cho ngoi: \";\n\t\t\tcin>>sochongoi;\n\t\t}\n\t\tvoid xuat(){\n\t\t\tXe::xuat();\n\t\t\tcout<<endl<<\"So cho ngoi: \"<<sochongoi;\n\t\t}\n\t\tint getSoChoNgoi(){\n\t\t\treturn sochongoi;\n\t\t}\t\n};\nint main(){\n\tint n;\n\tcout<<\"Nhap n xe:\";\n\tcin>>n;\n\tXeCon a[n];\n\tfor(int i=0;i<n;i++){\n\t\ta[i].nhap();\n\t}\n\tcout<<\"Danh sach xe thoa man dieu kien\";\n\tfor(int i=0;i<n;i++){\n\t\tif(a[i].getTrongluong()<1 && a[i].getSoChoNgoi()<=5){\n\t\t\ta[i].xuat();\n\t\t}\n\t}\n\treturn 0;\n}",
+  "hasDrawing": false,
+  "drawingFile": null,
+  "drawingMime": null,
+  "drawingAnalysis": null,
+  "score": 8.5,
+  "feedback": "Bài làm tốt, cài đặt đúng cấu trúc kế thừa: lớp Xe có biển số và trọng lượng, lớp XeCon dẫn xuất public và bổ sung số chỗ ngồi. Các hàm nhap/xuat được override và gọi lại hàm lớp cơ sở hợp lý. Logic lọc xe (trọng lượng dưới 1 tấn và không quá 5 chỗ) đúng yêu cầu đề. Có một số điểm nhỏ cần cải thiện về kiểu dữ liệu biển số và tính an toàn khi so sánh số thực.",
+  "breakdown": [
+    {
+      "criterion": "Lớp Xe với thuộc tính biển số và trọng lượng",
+      "score": 1.5,
+      "comment": "Đủ thuộc tính, nhưng biển số để kiểu int là chưa phù hợp (biển số thường có chữ cái/số 0 đầu)."
+    },
+    {
+      "criterion": "Lớp XeCon dẫn xuất, thêm số chỗ ngồi",
+      "score": 2.5,
+      "comment": "Kế thừa public đúng, thêm thuộc tính và hàm getter/override chuẩn."
+    },
+    {
+      "criterion": "Nhập thông tin n xe con",
+      "score": 2,
+      "comment": "Nhập đầy đủ qua vòng lặp, đúng yêu cầu."
+    },
+    {
+      "criterion": "Lọc và in xe thỏa điều kiện",
+      "score": 2.5,
+      "comment": "Điều kiện trọng lượng < 1 và số chỗ <= 5 đúng yêu cầu đề."
+    }
+  ],
+  "grammar": null,
+  "sampleComparison": null,
+  "model": "occ/claude-opus-4-8",
+  "aiKeyId": "6abfdf08b29c124d59ccc66b",
+  "aiKeyName": "hunganh2006",
+  "aiProvider": "vilao",
+  "latencyMs": 16258,
+  "promptSnapshot": {
+    "kind": "essay",
+    "promptId": null,
+    "name": "Fallback mặc định (hardcoded)",
+    "content": "Bạn là giáo viên chấm bài. Hãy chấm bài viết sau dựa trên đề bài và rubric.\n\nĐề bài:\n{đề_bài}\n\nBài làm sinh viên (phần nhập chữ):\n{bài_làm}\n\nPhần vẽ tay của sinh viên (đã được bước phân tích hình ảnh đọc trước):\n{hình_vẽ}\n\nLời giải mẫu (nếu có, chỉ dùng để đối chiếu ý, không chép nguyên văn vào feedback):\n{lời_giải_mẫu}\n\nRubric: {rubric}\nĐiểm tối đa: {max_score}\n\nQUY TẮC CHẤM KẾT HỢP CHỮ + HÌNH VẼ:\n- Nếu có cả phần nhập chữ và phần vẽ tay: chấm CẢ HAI theo đề bài/rubric, cho một điểm tổng duy nhất.\n- Nếu chỉ có một phần: chỉ chấm phần đó, KHÔNG trừ điểm vì phần sinh viên không nộp.\n\nQUY TẮC PHÁT HIỆN LỖI:\n- Chỉ liệt kê lỗi khi lỗi thực sự tồn tại trong bài làm, không tự bịa.\n- Nếu đề bài/rubric không đủ căn cứ để xác định một lỗi cụ thể, bỏ qua, không đoán.\n- Mỗi lỗi nêu rõ: câu gốc sai, câu đã sửa, giải thích ngắn gọn.\n\nChỉ trả về JSON hợp lệ, không Markdown, không giải thích ngoài JSON:\n{\n  \"score\": number,\n  \"feedback\": string,\n  \"breakdown\": [{ \"criterion\": string, \"score\": number, \"comment\": string }],\n  \"errors\": [{ \"original\": string, \"corrected\": string, \"explanation\": string }]\n}",
+    "rubric": null,
+    "strictness": "normal",
+    "maxScore": 10,
+    "scope": "fallback",
+    "version": 0,
+    "isFallback": true,
+    "unknownPlaceholders": [],
+    "snapshotAt": "2026-10-17T00:45:39.807Z"
+  },
+  "raw": {
+    "score": 8.5,
+    "feedback": "Bài làm tốt, cài đặt đúng cấu trúc kế thừa: lớp Xe có biển số và trọng lượng, lớp XeCon dẫn xuất public và bổ sung số chỗ ngồi. Các hàm nhap/xuat được override và gọi lại hàm lớp cơ sở hợp lý. Logic lọc xe (trọng lượng dưới 1 tấn và không quá 5 chỗ) đúng yêu cầu đề. Có một số điểm nhỏ cần cải thiện về kiểu dữ liệu biển số và tính an toàn khi so sánh số thực.",
+    "breakdown": [
+      {
+        "criterion": "Lớp Xe với thuộc tính biển số và trọng lượng",
+        "score": 1.5,
+        "comment": "Đủ thuộc tính, nhưng biển số để kiểu int là chưa phù hợp (biển số thường có chữ cái/số 0 đầu)."
+      },
+      {
+        "criterion": "Lớp XeCon dẫn xuất, thêm số chỗ ngồi",
+        "score": 2.5,
+        "comment": "Kế thừa public đúng, thêm thuộc tính và hàm getter/override chuẩn."
+      },
+      {
+        "criterion": "Nhập thông tin n xe con",
+        "score": 2,
+        "comment": "Nhập đầy đủ qua vòng lặp, đúng yêu cầu."
+      },
+      {
+        "criterion": "Lọc và in xe thỏa điều kiện",
+        "score": 2.5,
+        "comment": "Điều kiện trọng lượng < 1 và số chỗ <= 5 đúng yêu cầu đề."
+      }
+    ],
+    "errors": [
+      {
+        "original": "int bien;",
+        "corrected": "string bien;",
+        "explanation": "Biển số xe nên dùng kiểu string vì có thể chứa chữ cái và số 0 ở đầu; dùng int sẽ mất thông tin."
+      },
+      {
+        "original": "XeCon a[n];",
+        "corrected": "vector<XeCon> a(n);",
+        "explanation": "Mảng kích thước động (VLA) không chuẩn C++; nên dùng vector hoặc cấp phát động để đảm bảo tính di động."
+      },
+      {
+        "original": "if(a[i].getTrongluong()<1 ...",
+        "corrected": "// Nếu trọng lượng tính bằng tấn thì <1 đúng; cần làm rõ đơn vị khi nhập",
+        "explanation": "Đề nói 'dưới 1 tấn' nên trọng lượng phải nhập theo đơn vị tấn; nên ghi rõ đơn vị khi nhập để tránh nhầm (ví dụ kg)."
+      }
+    ]
+  }
+}

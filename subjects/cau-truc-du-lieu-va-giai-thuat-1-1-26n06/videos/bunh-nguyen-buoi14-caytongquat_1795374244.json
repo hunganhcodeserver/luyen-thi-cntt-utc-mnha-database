@@ -1,0 +1,35 @@
+{
+  "type": "video",
+  "videoId": "6b033ca4b011d4927b893549",
+  "title": "Bunh Nguyen_Buoi14_CayTongQuat",
+  "slug": "bunh-nguyen-buoi14-caytongquat",
+  "subjectSlug": "cau-truc-du-lieu-va-giai-thuat-1-1-26n06",
+  "description": "",
+  "videos": [
+    {
+      "id": "ve30907b6",
+      "title": "",
+      "enc": "v1.dwBkylO46_-9cJjI.OvBWILuQxqXzyjOqjwG6yA.nNMMC-5ojfLCAwcnkHSMJJKWqAsOlXEQ3tDV5WnAcm5wPQQw2fEIrEBzLPAc559Zcok3Tv7hk1rxO52MKv8RCdYzPb4Gd5Ot5K8R2vI6gAq6N3_5jm5sUGolvZtYtBiLaONrq0Fdrl1-TNFdxcgtY2G_d5dz_fQny-pUf9uAmOZUt6KTeRaw3LpNcufj3gQYDV5kiUDQEmpo0zcKx2L9-a3Mz2vhIbR4J6w4yZNoHS_qPykTpJsXTwgnWEyQVpbziy1VgA9Jns4u19R39L3K_iSLwdNgcu4SEQaaVC0Yfuucp8hSyrK_rMd8XKV-myh_MqOZWBYatqSMg_cZTEo-PbHSBdO1ZqHHgk3mBYVdPqvQqjvZKuUdBBxMe6DZiMhW_WxfkL7YcNe7a5WQc2l86nheNwomGwxFgzV0iFcZcBeL3xSx21JL2A"
+    }
+  ],
+  "videoCount": 1,
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "visibility": "users",
+  "allowedUserIds": [
+    "6ab6ea62461cb184bc25a92d",
+    "6aeaca48a3be4418cd51392c",
+    "6ae9ff2917ca8900c154859a",
+    "6aeb2daa6fb2175f94d64c9d",
+    "6abe6f118083c6c9eabfee34"
+  ],
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-11-22T19:04:04.986Z",
+  "updatedAt": "2026-11-22T19:04:04.986Z"
+}

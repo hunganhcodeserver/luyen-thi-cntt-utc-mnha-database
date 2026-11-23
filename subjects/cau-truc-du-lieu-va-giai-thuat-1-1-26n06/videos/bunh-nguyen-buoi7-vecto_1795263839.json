@@ -1,0 +1,35 @@
+{
+  "type": "video",
+  "videoId": "6b018d5f703ca32ba753194c",
+  "title": "Bunh Nguyen _ Buoi7-Vecto",
+  "slug": "bunh-nguyen-buoi7-vecto",
+  "subjectSlug": "cau-truc-du-lieu-va-giai-thuat-1-1-26n06",
+  "description": "",
+  "videos": [
+    {
+      "id": "v39621a84",
+      "title": "",
+      "enc": "v1.xRcOEk6rEoMrDSLo.2aQ1I8ovkTnybx-aVNvPxw.Z_q6xJf39uUGBU-7TSTwh9g1Zk-DIj4yFrrHw1von021aEERO8XqC5BhTliQb6VCjMbrjR3Sk4VLxvxzKT-_WZbpDgIlVc3smwtcu4dTXkor8iVTZoL5DaU6pyZdEUW6SgB_cxp19qoahPiCSwqumLMM73h5KMIAjUlLkecukIIxJrs-zOQZjFB0o4-aFzIKYfU3Iwp9N7kGWhW8Z8OZwktDK7M8fCRvduguWtcZIiwRy8ergE4fKDa8yMtA-FSUTt6WB5fJr16MwsxrTfi1_IXpArMNXga5XQj5oOGZRqM7FgttmdM-_tUXV_QI8OtWRfo7pIBh1iGl-zFDdIxFG90Giwwa5cHf3acUEDvf45a1ixYAQu0XSEdyjJJBjUrMktpWGxi2gM3HXjgOQvoJdZR-MwjsbX6ljTT0z0gPPOQXGXVttDWH5g"
+    }
+  ],
+  "videoCount": 1,
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "visibility": "users",
+  "allowedUserIds": [
+    "6ab6ea62461cb184bc25a92d",
+    "6ae9ff2917ca8900c154859a",
+    "6aeaca48a3be4418cd51392c",
+    "6aeb2daa6fb2175f94d64c9d",
+    "6abe6f118083c6c9eabfee34"
+  ],
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-11-21T12:23:59.316Z",
+  "updatedAt": "2026-11-22T15:09:27.859Z"
+}

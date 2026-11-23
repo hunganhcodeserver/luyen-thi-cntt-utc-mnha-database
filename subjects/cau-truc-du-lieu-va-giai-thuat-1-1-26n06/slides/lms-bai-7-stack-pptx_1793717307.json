@@ -1,0 +1,29 @@
+{
+  "type": "slide",
+  "slideId": "6ae9f44695e7f1b04fb052fd",
+  "title": "LMS/Bai 7. Stack.pptx",
+  "slug": "lms-bai-7-stack-pptx",
+  "subjectSlug": "cau-truc-du-lieu-va-giai-thuat-1-1-26n06",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/cau-truc-du-lieu-va-giai-thuat-1-1-26n06/slides/lms-bai-7-stack-pptx_1793717307.pdf",
+      "enc": 329664,
+      "plain": 329604
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 329604,
+  "originalName": "Bai 7. Stack.pptx.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-11-03T14:48:38.114Z",
+  "updatedAt": "2026-11-03T14:48:38.114Z"
+}

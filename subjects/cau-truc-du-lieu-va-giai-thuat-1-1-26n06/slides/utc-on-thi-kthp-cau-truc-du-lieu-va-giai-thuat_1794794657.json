@@ -1,0 +1,29 @@
+{
+  "type": "slide",
+  "slideId": "6afa64b06292a32b7da41d0b",
+  "title": "UTC_On_thi_KTHP_Cau_truc_du_lieu_va_giai_thuat",
+  "slug": "utc-on-thi-kthp-cau-truc-du-lieu-va-giai-thuat",
+  "subjectSlug": "cau-truc-du-lieu-va-giai-thuat-1-1-26n06",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/cau-truc-du-lieu-va-giai-thuat-1-1-26n06/slides/utc-on-thi-kthp-cau-truc-du-lieu-va-giai-thuat_1794794657.pptx",
+      "enc": 1037768,
+      "plain": 1037708
+    }
+  ],
+  "fileExt": "pptx",
+  "fileSize": 1037708,
+  "originalName": "UTC_On_thi_KTHP_Cau_truc_du_lieu_va_giai_thuat.pptx",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-11-16T02:04:32.624Z",
+  "updatedAt": "2026-11-16T02:04:32.624Z"
+}

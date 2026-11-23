@@ -1,0 +1,29 @@
+{
+  "type": "document",
+  "documentId": "6ae0cc30ef54c9b30a697898",
+  "title": "HUST_abraham-silberschatz-operating-system-concepts---9th2012.12 - [cuuduongthancong.com]",
+  "slug": "hust-abraham-silberschatz-operating-system-concepts-9th2012",
+  "subjectSlug": "nguyen-ly-he-dieu-hanh-1-1-26n01",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/nguyen-ly-he-dieu-hanh-1-1-26n01/documents/hust-abraham-silberschatz-operating-system-concepts-9th2012_1793116867.pdf",
+      "enc": 6843597,
+      "plain": 6843369
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 6843369,
+  "originalName": "HUST_abraham-silberschatz-operating-system-concepts---9th2012.12 - [cuuduongthancong.com].pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-27T16:07:12.629Z",
+  "updatedAt": "2026-10-27T16:07:12.629Z"
+}

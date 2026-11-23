@@ -1,0 +1,34 @@
+{
+  "type": "slide",
+  "slideId": "6afbbf10c288bd5b1d8310e3",
+  "title": "[Offline] IM_Slide khai giảng Pre",
+  "slug": "offline-im-slide-khai-giang-pre",
+  "subjectSlug": "vap-pi1059-t25-17h40-19h40",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/vap-pi1059-t25-17h40-19h40/slides/offline-im-slide-khai-giang-pre_1794883222-1.pptx",
+      "enc": 22000620,
+      "plain": 22000000
+    },
+    {
+      "path": "subjects/vap-pi1059-t25-17h40-19h40/slides/offline-im-slide-khai-giang-pre_1794883222-2.pptx",
+      "enc": 10542800,
+      "plain": 10542460
+    }
+  ],
+  "fileExt": "pptx",
+  "fileSize": 32542460,
+  "originalName": "[Offline] IM_Slide khai giảng Pre.pptx",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ac1d25d7d8ec4035a2f1e84",
+  "updatedBy": "6ac1d25d7d8ec4035a2f1e84",
+  "createdAt": "2026-11-17T02:42:24.023Z",
+  "updatedAt": "2026-11-17T02:42:24.023Z"
+}

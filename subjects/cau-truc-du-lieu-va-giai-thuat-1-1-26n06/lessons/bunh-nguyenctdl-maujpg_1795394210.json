@@ -1,0 +1,32 @@
+{
+  "lessonId": "6b038aa248e9f6434182920b",
+  "type": "essay",
+  "title": "Bunh Nguyen_ctdl-mau.jpg",
+  "slug": "bunh-nguyenctdl-maujpg",
+  "subjectSlug": "cau-truc-du-lieu-va-giai-thuat-1-1-26n06",
+  "description": "",
+  "contentHtml": "<p style=\"text-align:center;\"><b>NỘI DUNG ĐỀ THI</b></p>\n<p><b>Câu 1 (1.5 điểm).</b> Tính số phép toán cơ bản nhiều nhất mà thuật toán dưới đây cần phải thực hiện. Xác định độ phức tạp tiệm cận của thuật toán.</p>\n<pre>int Count2(int *a,int n)\n{\n    int k=0;\n    for(int i=1;i&lt;=n;i++)\n        for(int j=i+1;j&lt;=n;j++)\n            if((a[i]+a[j])%2==0 &amp;&amp; a[i]&gt;a[j])\n                k++;\n    return k;\n}</pre>\n<p><b>Câu 2. (2.0 điểm)</b> Thực hiện các yêu cầu sau đây:</p>\n<ul>\n  <li>Trình bày về cấu trúc dữ liệu danh sách liên kết đơn: Khái niệm, các thao tác, vẽ hình mô tả</li>\n  <li>Khi xây dựng lớp mẫu Node có dữ liệu gồm <b>public: T elem; Node *next;</b> và lớp mẫu Slist có dữ liệu gồm <b>int n; Node&lt;T&gt; *Head, *Trail;</b> hãy lập trình các phương thức sau trong lớp Slist: (không sử dụng bộ lặp)<br>\n• Hàm <b>void Slist&lt;T&gt;::erase(T x)</b> xoá một phần tử x (nếu có) ra khỏi Slist<br>\n• Hàm <b>void Slist&lt;T&gt;::push_front(T x)</b> thêm phần tử vào đầu Slist.</li>\n</ul>\n<p><b>Câu 3. (3.0 điểm)</b> Thực hiện các yêu cầu sau đây:</p>\n<ul>\n  <li>Xây dựng lớp biểu diễn các đối tượng <b>Tivi</b> gồm các thuộc tính: mã hàng (không trùng nhau),Hãng SX, tên Tivi, đơn giá, số lượng; Các toán tử nhập &gt;&gt;, xuất &lt;&lt;, phương thức lấy mã máy.</li>\n  <li>Xây dựng lớp quản lý một danh sách Tivi bằng <b>vector</b> (sử dụng lớp vector của C++), có các phương thức sau: Thêm 1 Tivi, Xóa một Tivi theo mã, Tính tổng giá trị hàng hoá tồn kho theo 1 hãng sản xuất (nếu không có trả về 0). In danh sách Tivi lên màn hình, Tìm kiếm Tivi theo mã bằng thuật toán tìm kiếm nhị phân (giả sử danh sách Tivi đã được sắp xếp tăng dần theo mã).</li>\n</ul>\n<p><b>Câu 4. (2.0 điểm)</b> Thực hiện các yêu cầu sau đây:</p>\n<ul>\n  <li>Trình bày ý tưởng của thuật toán sắp xếp Quicksort</li>\n  <li>Lập trình thuật toán Quicksort</li>\n</ul>\n<p><b>Câu 5. (1.5 điểm).</b></p>\n<ul>\n  <li>Mô tả quá trình phân hoạch dãy số sau đây bằng thuật toán <b>Partition</b> trong thuật toán Quicksort.<br>\n86, 74, 38, 45, 24, 129, 69, 154, 35, 75, 12, 543, 153.</li>\n  <li>Vẽ cây tìm kiếm nhị phân với các nút lần lượt có giá trị sau: 299, 125, 135, 555, 66, 333, 169, 567, 80, 190, 226, 78.</li>\n</ul>",
+  "sampleSolution": "",
+  "duration": null,
+  "model": null,
+  "promptId": null,
+  "aiKeyId": null,
+  "isPublished": true,
+  "visibility": "users",
+  "allowedUserIds": [
+    "6ab6ea62461cb184bc25a92d",
+    "6aeaca48a3be4418cd51392c",
+    "6ae9ff2917ca8900c154859a",
+    "6aeb2daa6fb2175f94d64c9d",
+    "6abe6f118083c6c9eabfee34"
+  ],
+  "isDeleted": false,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-11-23T00:36:50.599Z",
+  "updatedAt": "2026-11-23T00:43:21.019Z",
+  "order": 0,
+  "analysisAiKeyIds": [],
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "deletedAt": null,
+  "deletedBy": null
+}

@@ -1,0 +1,32 @@
+{
+  "lessonId": "6b038c8892d1b1fcb72b67d3",
+  "type": "essay",
+  "title": "Bunh Nguyen_Đề thi thử 6.jpg",
+  "slug": "bunh-nguyende-thi-thu-6jpg",
+  "subjectSlug": "cau-truc-du-lieu-va-giai-thuat-1-1-26n06",
+  "description": "",
+  "contentHtml": "<table border=\"1\" cellpadding=\"6\" cellspacing=\"0\" style=\"width:100%; border-collapse:collapse;\">\n  <tr>\n    <td>\n      <b>Khoa Công nghệ thông tin</b><br>\n      Bộ môn Khoa học máy tính\n    </td>\n    <td>\n      Môn thi: <b>Cấu trúc dữ liệu và giải thuật</b><br>\n      Mã đề: 08<br>\n      Thời gian: 90 phút\n    </td>\n    <td>\n      Trưởng Bộ môn<br>\n      Kí duyệt\n    </td>\n  </tr>\n  <tr>\n    <td colspan=\"3\" style=\"text-align:center;\"><b>NỘI DUNG ĐỀ THI</b></td>\n  </tr>\n</table>\n<p><b>Câu 1 (1.5 điểm).</b> Tính số phép toán cơ bản nhiều nhất mà thuật toán dưới đây cần phải thực hiện. Xác định độ phức tạp tiệm cận của thuật toán.</p>\n<pre>bool kiemtradoixung(int *a,int n)\n{\n    for(int i=1;i&lt;=n/2;i++)\n        if(a[i]!=a[j]) return false;\n    return true;\n}</pre>\n<p><b>Câu 2. (4.5 điểm)</b> Thực hiện các yêu cầu sau đây:</p>\n<ol type=\"a\" start=\"4\">\n  <li>Trình bày về cấu trúc dữ liệu ngăn xếp (stack): Khái niệm, các thao tác, hình mô tả quá trình</li>\n  <li>Lập trình cài đặt cấu trúc dữ liệu stack danh sách liên kết</li>\n  <li>Nêu ý tưởng thuật toán và lập trình áp dụng cấu trúc dữ liệu ngăn xếp … khối lượng phân tử của công thức hóa học chỉ gồm các nguyên tố C, … và các dấu đóng mở ngoặc với lần lặp không quá 9 lần …<br>\nC6H5(COOH)2 có khối lượng 12*6+1*5+(12+16+16+1)*2</li>\n</ol>\n<p><b>Câu 3. (4.0 điểm)</b> Thực hiện các yêu cầu sau đây</p>\n<ol type=\"a\">\n  <li>Nêu ý tưởng, lập trình viết hàm mẫu thuật toán sắp xếp SelectionSort … quá trình sắp xếp dãy {4,8,3,2,4,7,2,8,4,4,1,6} bằng thuật toán SelectionS…</li>\n  <li>Xây dựng lớp điểm gồm hai tọa độ kiểu <code>int</code> với các toán tử nhập xuất … &lt;&lt;) so sánh theo quan hệ gần hơn và xa hơn gốc tọa độ (&lt;, &gt;)</li>\n</ol>",
+  "sampleSolution": "",
+  "duration": null,
+  "model": null,
+  "promptId": null,
+  "aiKeyId": null,
+  "isPublished": true,
+  "visibility": "users",
+  "allowedUserIds": [
+    "6ab6ea62461cb184bc25a92d",
+    "6aeaca48a3be4418cd51392c",
+    "6ae9ff2917ca8900c154859a",
+    "6aeb2daa6fb2175f94d64c9d",
+    "6abe6f118083c6c9eabfee34"
+  ],
+  "isDeleted": false,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-11-23T00:44:56.003Z",
+  "updatedAt": "2026-11-23T00:44:57.253Z",
+  "order": 0,
+  "analysisAiKeyIds": [],
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "deletedAt": null,
+  "deletedBy": null
+}

@@ -1,0 +1,29 @@
+{
+  "type": "slide",
+  "slideId": "6ae99f40ead366c32245169e",
+  "title": "[Ver 3-Basic] Lesson 17",
+  "slug": "ver-3-basic-lesson-17",
+  "subjectSlug": "nk2-gtbs680-t36-19h50-21h50",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/nk2-gtbs680-t36-19h50-21h50/slides/ver-3-basic-lesson-17_1793695467.pptx",
+      "enc": 3353255,
+      "plain": 3353139
+    }
+  ],
+  "fileExt": "pptx",
+  "fileSize": 3353139,
+  "originalName": "[Ver 3-Basic] Lesson 17.pptx",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ac1d25d7d8ec4035a2f1e84",
+  "updatedBy": "6ac1d25d7d8ec4035a2f1e84",
+  "createdAt": "2026-11-03T08:45:52.576Z",
+  "updatedAt": "2026-11-03T08:45:52.576Z"
+}

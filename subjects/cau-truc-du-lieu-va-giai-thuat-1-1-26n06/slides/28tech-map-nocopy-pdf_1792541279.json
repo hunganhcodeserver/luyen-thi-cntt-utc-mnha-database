@@ -1,0 +1,29 @@
+{
+  "type": "slide",
+  "slideId": "6ad80267f933fee991ea3b54",
+  "title": "28tech\\MAP_NoCopy.pdf",
+  "slug": "28tech-map-nocopy-pdf",
+  "subjectSlug": "cau-truc-du-lieu-va-giai-thuat-1-1-26n06",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/cau-truc-du-lieu-va-giai-thuat-1-1-26n06/slides/28tech-map-nocopy-pdf_1792541279.pdf",
+      "enc": 893933,
+      "plain": 893873
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 893873,
+  "originalName": "MAP_NoCopy.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-21T00:08:07.168Z",
+  "updatedAt": "2026-10-21T00:08:07.168Z"
+}

@@ -1,0 +1,29 @@
+{
+  "type": "slide",
+  "slideId": "6ad801b3f933fee991ea3b4f",
+  "title": "28tech\\GRAPH 6 DSU_NoCopy.pdf",
+  "slug": "28tech-graph-6-dsu-nocopy-pdf",
+  "subjectSlug": "cau-truc-du-lieu-va-giai-thuat-1-1-26n06",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/cau-truc-du-lieu-va-giai-thuat-1-1-26n06/slides/28tech-graph-6-dsu-nocopy-pdf_1792541089.pdf",
+      "enc": 927279,
+      "plain": 927219
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 927219,
+  "originalName": "GRAPH 6 DSU_NoCopy.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-21T00:05:07.860Z",
+  "updatedAt": "2026-10-21T00:05:07.860Z"
+}

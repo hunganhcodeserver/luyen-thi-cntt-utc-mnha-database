@@ -1,0 +1,13 @@
+{
+  "lessonId": "6abc89128954c815f83fe2ed",
+  "title": "(Kiểm tra ngắn OOP C++) ĐỀ SỐ 6 - Chủ đề: SỐ PHỨC",
+  "slug": "kiem-tra-ngan-oop-c-de-so-6-chu-de-so-phuc",
+  "description": "",
+  "contentHtml": "<h2>ĐỀ SỐ 6</h2>\r\n<p><strong>Chủ đề: SỐ PHỨC • Thời gian: 30 phút • C++</strong></p>\r\n\r\n<p>SỐ PHỨC là số có dạng | z=a+bi</p>\r\n\r\n<ul>\r\n    <li>\r\n        <strong>Yêu cầu: Xây dựng lớp SoPhuc bao gồm:</strong>\r\n        <ol>\r\n            <li>Khai báo thuc, ao kiểu double; viết cấu tử mặc định và có tham số.</li>\r\n            <li>Nạp chồng toán tử - để trừ hai số phức.</li>\r\n            <li>Nạp chồng toán tử += để cộng và gán một số phức khác vào đối tượng hiện tại.</li>\r\n            <li>Nạp chồng toán tử != để so sánh khác nhau.</li>\r\n            <li>Viết hàm bạn &gt;&gt; và &lt;&lt;.</li>\r\n        </ol>\r\n    </li>\r\n    <li>\r\n        <strong>Yêu cầu trong hàm main():</strong> Nhập z1, z2. Tạo z3 = z1 - z2 và in z3. Sau đó thực hiện z1 += z2 và in lại z1.\r\n    </li>\r\n</ul>\r\n\r\n<p><em>Lưu ý: Có thể bổ sung hàm/phương thức hỗ trợ hợp lý</em></p>\r\n",
+  "sampleSolution": "",
+  "duration": 30,
+  "model": null,
+  "isPublished": true,
+  "createdAt": "2026-09-30T03:59:14.199Z",
+  "updatedAt": "2026-09-30T03:59:14.425Z"
+}

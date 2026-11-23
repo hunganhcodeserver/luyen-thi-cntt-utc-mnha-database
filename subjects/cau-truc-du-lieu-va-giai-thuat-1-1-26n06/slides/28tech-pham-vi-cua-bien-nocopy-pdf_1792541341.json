@@ -1,0 +1,29 @@
+{
+  "type": "slide",
+  "slideId": "6ad802a3f933fee991ea3b56",
+  "title": "28tech\\PHẠM VI CỦA BIẾN_NoCopy.pdf",
+  "slug": "28tech-pham-vi-cua-bien-nocopy-pdf",
+  "subjectSlug": "cau-truc-du-lieu-va-giai-thuat-1-1-26n06",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/cau-truc-du-lieu-va-giai-thuat-1-1-26n06/slides/28tech-pham-vi-cua-bien-nocopy-pdf_1792541341.pdf",
+      "enc": 520387,
+      "plain": 520327
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 520327,
+  "originalName": "PHẠM VI CỦA BIẾN_NoCopy.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-21T00:09:07.884Z",
+  "updatedAt": "2026-10-21T00:09:07.884Z"
+}

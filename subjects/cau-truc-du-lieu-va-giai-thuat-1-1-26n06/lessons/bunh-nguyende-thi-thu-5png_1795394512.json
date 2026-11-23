@@ -1,0 +1,32 @@
+{
+  "lessonId": "6b038bd092d1b1fcb72b67d2",
+  "type": "essay",
+  "title": "Bunh Nguyen_Đề thi thử 5.png",
+  "slug": "bunh-nguyende-thi-thu-5png",
+  "subjectSlug": "cau-truc-du-lieu-va-giai-thuat-1-1-26n06",
+  "description": "",
+  "contentHtml": "<table border=\"1\" cellpadding=\"6\" cellspacing=\"0\" style=\"width:100%; border-collapse:collapse;\">\n  <tr>\n    <td>\n      <b>Khoa Công nghệ thông tin</b><br>\n      Bộ môn Khoa học máy tính\n    </td>\n    <td>\n      Môn thi: <b>Cấu trúc dữ liệu và giải thuật</b><br>\n      Mã đề: 06<br>\n      Thời gian: 90 phút\n    </td>\n    <td>\n      Trưởng Bộ môn<br>\n      Kí duyệt\n    </td>\n  </tr>\n  <tr>\n    <td colspan=\"3\" style=\"text-align:center;\"><b>NỘI DUNG ĐỀ THI</b></td>\n  </tr>\n</table>\n<p><b>Câu 1 (1.5 điểm).</b> Tính số phép toán cơ bản nhiều nhất mà thuật toán dưới đây cần phải thực hiện. Xác định độ phức tạp tiệm cận của thuật toán.</p>\n<pre>for i ← 0 to n-1 do\n    s ← X[0];\n    for j ← 1 to i do\n        s ← s + X[j];\n    A[i] ← s/(i+1);\nreturn A;</pre>\n<p><b>Câu 2. (3.5 điểm)</b> Thực hiện các yêu cầu sau đây</p>\n<ol type=\"a\">\n  <li>Trình bày cấu trúc lớp cây nhị phân tìm kiếm (lớp node, lớp tree)</li>\n  <li>Cài đặt phương thức tìm kiếm trên cây</li>\n  <li>Cài đặt phương thức thêm 1 nút mới vào cây</li>\n  <li>Vẽ cây nhị phân với các nút lần lượt có giá trị sau: 146, 123, 132, 542, 65, 354, 165, 567, 80</li>\n</ol>\n<p><b>Câu 3. (5 điểm)</b> Thực hiện các yêu cầu sau đây</p>\n<ol type=\"a\">\n  <li>Xây dựng một lớp quản lý một dãy số (<b>DaySo</b>) bất kỳ có các phương thức sau:\n    <ul>\n      <li>Nhập vào một dãy <i>n</i> số</li>\n      <li>Sắp xếp dãy số bằng thuật toán <b>MergeSort</b></li>\n      <li>In dãy số lên màn hình</li>\n    </ul>\n  </li>\n  <li>Viết hàm <b>main</b> tạo một đối tượng của lớp <b>DaySo</b>, lần lượt gọi các phương thức của đối tượng này thực hiện.</li>\n  <li>Mô tả quá trình sắp xếp dãy số sau đây bằng thuật toán <b>MergeSort</b>: 67, 43, 78, 26, 82, 13, 98.</li>\n</ol>",
+  "sampleSolution": "",
+  "duration": null,
+  "model": null,
+  "promptId": null,
+  "aiKeyId": null,
+  "isPublished": true,
+  "visibility": "users",
+  "allowedUserIds": [
+    "6ab6ea62461cb184bc25a92d",
+    "6aeaca48a3be4418cd51392c",
+    "6ae9ff2917ca8900c154859a",
+    "6aeb2daa6fb2175f94d64c9d",
+    "6abe6f118083c6c9eabfee34"
+  ],
+  "isDeleted": false,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-11-23T00:41:52.238Z",
+  "updatedAt": "2026-11-23T00:41:53.505Z",
+  "order": 0,
+  "analysisAiKeyIds": [],
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "deletedAt": null,
+  "deletedBy": null
+}

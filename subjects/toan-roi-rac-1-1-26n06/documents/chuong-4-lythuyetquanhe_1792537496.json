@@ -1,0 +1,29 @@
+{
+  "type": "document",
+  "documentId": "6ad7f39eea489986ba009d31",
+  "title": "Chuong 4 - LyThuyetQuanHe",
+  "slug": "chuong-4-lythuyetquanhe",
+  "subjectSlug": "toan-roi-rac-1-1-26n06",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/toan-roi-rac-1-1-26n06/documents/chuong-4-lythuyetquanhe_1792537496.pdf",
+      "enc": 231212,
+      "plain": 231152
+    }
+  ],
+  "fileExt": "pdf",
+  "fileSize": 231152,
+  "originalName": "Chuong 4 - LyThuyetQuanHe.pdf",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-10-20T23:05:02.970Z",
+  "updatedAt": "2026-10-20T23:05:02.970Z"
+}
