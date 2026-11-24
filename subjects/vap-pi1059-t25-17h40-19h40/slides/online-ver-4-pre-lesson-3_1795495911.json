@@ -1,0 +1,37 @@
+{
+  "type": "slide",
+  "slideId": "6b051810cd25755d76996340",
+  "title": "[Online - Ver 4] Pre - Lesson 3",
+  "slug": "online-ver-4-pre-lesson-3",
+  "subjectSlug": "vap-pi1059-t25-17h40-19h40",
+  "description": "",
+  "parts": [
+    {
+      "path": "subjects/vap-pi1059-t25-17h40-19h40/slides/online-ver-4-pre-lesson-3_1795495911-1.pptx",
+      "enc": 22000620,
+      "plain": 22000000
+    },
+    {
+      "path": "subjects/vap-pi1059-t25-17h40-19h40/slides/online-ver-4-pre-lesson-3_1795495911-2.pptx",
+      "enc": 8633469,
+      "plain": 8633185
+    }
+  ],
+  "fileExt": "pptx",
+  "fileSize": 30633185,
+  "originalName": "[Online - Ver 4] Pre - Lesson 3.pptx",
+  "encrypted": true,
+  "encryption": "aes-256-gcm",
+  "order": 0,
+  "isPublished": true,
+  "visibility": "public",
+  "allowedUserIds": [],
+  "allowedGroupIds": [],
+  "isDeleted": false,
+  "deletedAt": null,
+  "deletedBy": null,
+  "createdBy": "6ab3d694415010bf620349e5",
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "createdAt": "2026-11-24T04:52:32.247Z",
+  "updatedAt": "2026-11-24T04:52:32.247Z"
+}
