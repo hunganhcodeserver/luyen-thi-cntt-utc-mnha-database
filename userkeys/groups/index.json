@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-23T15:59:12.226Z",
+  "updatedAt": "2026-11-25T05:23:46.815Z",
   "groups": [
     {
       "id": "6b0462d04d05372406b42a24",
@@ -11,11 +11,12 @@
         "6aeaca48a3be4418cd51392c",
         "6ae9ff2917ca8900c154859a",
         "6aeb2daa6fb2175f94d64c9d",
-        "6abe6f118083c6c9eabfee34"
+        "6abe6f118083c6c9eabfee34",
+        "6ab732b330d2131da7153038"
       ],
       "createdBy": "6ab3d694415010bf620349e5",
       "createdAt": "2026-11-23T15:59:12.109Z",
-      "updatedAt": "2026-11-23T15:59:12.109Z"
+      "updatedAt": "2026-11-25T05:23:46.718Z"
     }
   ]
 }
