@@ -1,7 +1,7 @@
 {
   "submissionId": "6b07135b7e910aa396fe6c8d",
   "submittedAt": "2026-11-25T16:56:59.357Z",
-  "gradedAt": "2026-11-25T16:57:23.888Z",
+  "gradedAt": "2026-11-25T16:57:23.026Z",
   "status": "failed",
   "errorMessage": "{\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}",
   "userId": "6ac9a9c4aec8d94a0e986288",
@@ -29,9 +29,12 @@
   "sampleComparison": null,
   "model": "gemini-flash-latest",
   "aiKeyId": null,
-  "aiKeyName": null,
-  "aiProvider": null,
+  "aiKeyName": "chunglop0781@gmail.com",
+  "aiProvider": "gemini",
   "latencyMs": null,
   "promptSnapshot": null,
-  "raw": null
+  "raw": null,
+  "type": "essay",
+  "teacherComment": null,
+  "updatedAt": "2026-11-25T16:57:25.424Z"
 }
