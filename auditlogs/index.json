@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-10T14:58:49.798Z",
-  "total": 40,
+  "updatedAt": "2026-11-26T04:21:02.839Z",
+  "total": 41,
   "logs": [
     {
       "id": "6ac45a48c3fe67bf29ff941c",
@@ -812,6 +812,28 @@
       "ipAddress": "118.68.41.169",
       "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Mobile/15E148 Safari/604.1",
       "createdAt": "2026-11-10T14:58:48.989Z"
+    },
+    {
+      "id": "6b07b3ae7fa8328066470efc",
+      "actor": "6aeacc35a3be4418cd51392e",
+      "actorEmail": "hoangtuanphong2007@gmail.com",
+      "action": "login_failed_locked",
+      "entity": "Auth",
+      "entityId": "6aeacc35a3be4418cd51392e",
+      "description": "Đăng nhập sai 5/5 lần với email \"hoangtuanphong2007@gmail.com\" lúc 11:21:02 26/11/2026 (IP 42.115.230.1, Chrome 158 · Windows 10/11). Thiết bị này bị khoá 1 phút.",
+      "metadata": {
+        "email": "hoangtuanphong2007@gmail.com",
+        "ip": "42.115.230.1",
+        "device": "Chrome 158 · Windows 10/11",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+        "attempts": 5,
+        "failedAt": "2026-11-26T04:21:02.061Z",
+        "lockedUntil": "2026-11-26T04:22:02.061Z",
+        "accountExists": true
+      },
+      "ipAddress": "42.115.230.1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+      "createdAt": "2026-11-26T04:21:02.061Z"
     }
   ]
 }
