@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-26T14:49:19.610Z",
-  "total": 128,
+  "updatedAt": "2026-11-26T14:49:28.759Z",
+  "total": 127,
   "sessions": {
     "c1.Rn_k_RX19g3gcuHAH3JwBiE5KlY2NB_tKNgn8bVmJnTj8EAZLUgt3UFXre9WOWzDjalk7bT7Sem8twgq": {
       "e": "2026-12-22T08:27:21.433Z",
@@ -637,11 +637,6 @@
       "e": "2026-11-27T10:50:15.978Z",
       "u": "2026-11-26T10:50:15.979Z",
       "d": "d1.pH16nd8fZ9cdqxaqCrJ-JrR5uajJC38OclwWnbzkzjuDOdUw-yCVzbN7q0xmuTjWPf0PGbS2pSJNUsjIiLdkivkuwwObl6jXN2nBYYyp5leQh2clKkpvNTLUzItk3hTz2fCS6S0GdMDY9MFg8oabGBhN41NnEQnwvjz12QkFto0Ebd2MvZanBGE-62S90Ckm2IKB0DyZ4XqPwnsIO3xIQ4qiQrvAaWOWr40WiBd42Cath7PaUJhXrdEffPEWws0RIGG8AEyyZTssCr_tlUNLdwq9qI1ZTJdBuKAWJTYibqb-uy3meT27ZeAICY2OzrJkhQ_nl3YXxgrnLjg3dLseaXYmhGw-bLKotXXuacuHx_-6oLNmVIFj_tZX8CtbSnPXdnKU0PQYy1gontese1p24Z2zcQi2s98VlY14_Ag9TNiWf8ZPjLC0Vw"
-    },
-    "c1.F8k6kAmjlMIHkfh2XkCxjEJ3dsGNh3OdBZb5O26hdFPGDlu0Z_P_HxuNTU9512MBv2M1lzHa10Xh7Fj2": {
-      "e": "2026-11-27T14:47:49.271Z",
-      "u": "2026-11-26T14:49:19.408Z",
-      "d": "d1.W-tnCyGEBnQ02RTxUFLiwDauSCPVYeqmJbO8G5DITKPNrD6kW6jYWGxqX8MjemeWOOvRj1zIIdqKrwp9xRQZEExCsMy6JqZQTVTkG3XYlax1_CoW-Fq7TqjuXUVQbL_LzwqzXVAipEY8fOLs5or-lfHzKSpPq-m98ti7h39gurMa_PurLCH3gaAUTTrjLS0BVmt9LGYAsf7hU7ost4wKwlw"
     }
   }
 }
