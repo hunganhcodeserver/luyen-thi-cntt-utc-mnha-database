@@ -16,11 +16,12 @@
   "allowedUserIds": [],
   "allowedGroupIds": [],
   "isDeleted": false,
-  "createdBy": {
-    "id": "6ab3d694415010bf620349e5",
-    "name": "Mai Ngọc Hùng Anh",
-    "email": "hunganh.okokok.0@gmail.com"
-  },
+  "createdBy": "6ab3d694415010bf620349e5",
   "createdAt": "2026-11-26T18:23:16.009Z",
-  "updatedAt": "2026-11-26T18:23:16.009Z"
+  "updatedAt": "2026-11-26T18:23:17.226Z",
+  "order": 0,
+  "analysisAiKeyIds": [],
+  "updatedBy": "6ab3d694415010bf620349e5",
+  "deletedAt": null,
+  "deletedBy": null
 }
