@@ -1,0 +1,26 @@
+{
+  "lessonId": "6b087a0431c3e7f65553c023",
+  "type": "essay",
+  "title": "2023_2TC_08",
+  "slug": "20232tc08",
+  "subjectSlug": "tin-hoc-dai-cuong-1-1-25n27-ky-thuat-lap-trinh-1-2-25n08",
+  "description": "",
+  "contentHtml": "<div class=\"de-thi\">\n  <table class=\"de-thi-header\" border=\"1\" cellspacing=\"0\" cellpadding=\"8\" style=\"width:100%; border-collapse:collapse; text-align:center;\">\n    <tr>\n      <td>\n        <b>TRƯỜNG ĐHGTVT</b><br>\n        <b>KHOA CNTT</b><br>\n        <b>BỘ MÔN CNPM</b>\n      </td>\n      <td>\n        <b>ĐỀ THI</b><br>\n        <b>KẾT THÚC HỌC PHẦN: TIN HỌC ĐẠI CƯƠNG</b><br>\n        <b>KỸ THUẬT LẬP TRÌNH – TIN HỌC CƠ SỞ</b><br>\n        Mã đề: 2023_2TC_08<br>\n        THỜI GIAN : 60 phút\n      </td>\n      <td>\n        <b>TRƯỞNG BỘ MÔN</b>\n      </td>\n    </tr>\n  </table>\n\n  <p><b>Câu 1 (4 điểm).</b> Nhập số nguyên dương n và số thực x. Tính giá trị biểu thức</p>\n  <p style=\"text-align:center;\">\n    <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\">\n      <mi>S</mi>\n      <mo>=</mo>\n      <mn>2023</mn>\n      <mo>+</mo>\n      <msqrt>\n        <mfrac><mrow><mi>x</mi><mo>+</mo><mn>2</mn></mrow><mrow><mn>2</mn><mi>x</mi></mrow></mfrac>\n        <mo>+</mo>\n        <mfrac><mrow><mi>x</mi><mo>+</mo><mn>4</mn></mrow><mrow><mn>4</mn><mi>x</mi></mrow></mfrac>\n        <mo>+</mo>\n        <mo>&#8230;</mo>\n        <mo>+</mo>\n        <mfrac><mrow><mi>x</mi><mo>+</mo><mn>2</mn><mi>n</mi></mrow><mrow><mn>2</mn><mi>n</mi><mi>x</mi></mrow></mfrac>\n      </msqrt>\n    </math>\n  </p>\n\n  <p><b>Câu 2 (6 điểm):</b> Cho một dãy điểm trong không gian 2 chiều (x<sub>1</sub>, y<sub>1</sub>), (x<sub>2</sub>, y<sub>2</sub>), …,(x<sub>n</sub>,y<sub>n</sub>).</p>\n  <ul>\n    <li>Nhập và in dãy điểm trên một dòng</li>\n    <li>Trong số các đoạn thẳng tạo bởi 2 điểm liên tiếp trong dãy, tìm khoảng cách ngắn nhất.</li>\n    <li>Đếm xem có bao nhiêu điểm nằm phía trong đường tròn tâm (x<sub>0</sub>, y<sub>0</sub>), bán kính k (x<sub>0</sub>,y<sub>0</sub> và k đều nhập từ bàn phím).</li>\n  </ul>\n</div>",
+  "sampleSolution": "",
+  "duration": 65,
+  "model": null,
+  "promptId": null,
+  "aiKeyId": null,
+  "isPublished": true,
+  "visibility": "public",
+  "allowedUserIds": [],
+  "allowedGroupIds": [],
+  "isDeleted": false,
+  "createdBy": {
+    "id": "6ab3d694415010bf620349e5",
+    "name": "Mai Ngọc Hùng Anh",
+    "email": "hunganh.okokok.0@gmail.com"
+  },
+  "createdAt": "2026-11-26T18:27:16.582Z",
+  "updatedAt": "2026-11-26T18:27:16.582Z"
+}
