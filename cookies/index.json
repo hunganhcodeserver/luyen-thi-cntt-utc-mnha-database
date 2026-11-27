@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-27T10:15:43.052Z",
-  "total": 126,
+  "updatedAt": "2026-11-27T10:15:47.183Z",
+  "total": 127,
   "sessions": {
     "c1.Rn_k_RX19g3gcuHAH3JwBiE5KlY2NB_tKNgn8bVmJnTj8EAZLUgt3UFXre9WOWzDjalk7bT7Sem8twgq": {
       "e": "2026-12-26T16:35:57.851Z",
@@ -632,6 +632,11 @@
       "e": "2026-11-28T10:15:42.849Z",
       "u": "2026-11-27T10:15:42.850Z",
       "d": "d1.tYYIW9t5tiGx-0RhEZNGgZK0MwUagzwhIxYI6bQ_ngtD39Cm1Rc_9A76qi5oj0QUSFrJUlPNm3qx0OeLrOdILk31niKxMdvi4DKDD5q2AP76j43p_Pu7UwJW_Iy7tebDP9xIpxjSI8boNlCV4H48WQKoMEr3s1tTUIS_D8ANdvvOy1cIgVM31PQqTtUzEqcRl2sM51ey_HsGnYmEQxE-LxsxxI6a-EPsdgWHRxqfe2znKrQ2U244sF5pdsADeCp8tljaEJ75ZjkQrAp50MTnOrZnCQ3K"
+    },
+    "c1.7e2CfnqIJExz0QViniNGRk2Rxlc8dEsPhtZNQzTPG12pV-B0cfBDNsFYMwmyde-Wi5SpRhB0x1nN8Poc": {
+      "e": "2026-11-28T10:15:46.994Z",
+      "u": "2026-11-27T10:15:46.995Z",
+      "d": "d1.__ZrdXEq_vZq64Z5BXqPwik6-_kiNmOD3tVtr6yli3Lubd00Art3lISzmaEHLEWIKX8jUa8ijsVHVZV5FA1scmxic2mEDl6Pe5Z3R1AP-pHUwSdSyMedEuI5f2eZ5yZLHKpc1mggtsjLjv3yIFC9NuvajLmOy22yC08IXvS4bAR4T4nsZ5-FJ8hOgmmzPV4BQooZYxPZZgg8ZfGxNKvtQu-zPY1ihKbFbxjFamwZ_zqj5rW4PJaBFzXx2Em9rmikj0itPuA0xPS7VHlcjxY4QQi6lvIpQ1uLaQNJs0_lI8LUc9rZx7ZWyJo71k4yywfWft1bQ8jCbw3H7hMAruUi3puoIytTMXkOQnQhXPsf0kOKQht5_wtdrn2mmokrBIPBf9Tw5t7wVqoutxm57auCJd39vj3Zq4XM__azUAW-BgtLhtajWuBxfQ"
     }
   }
 }
