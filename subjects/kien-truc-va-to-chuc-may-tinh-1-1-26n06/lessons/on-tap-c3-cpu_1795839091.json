@@ -1,0 +1,2284 @@
+{
+  "type": "quiz",
+  "lessonId": "6b0a547323ac90bc0b2495a4",
+  "title": "Ôn tập C3.CPU",
+  "slug": "on-tap-c3-cpu",
+  "subjectSlug": "kien-truc-va-to-chuc-may-tinh-1-1-26n06",
+  "duration": 75,
+  "promptId": null,
+  "analysisAiKeyIds": [],
+  "isPublished": true,
+  "visibility": "public",
+  "allowedUserIds": [],
+  "allowedGroupIds": [],
+  "isDeleted": false,
+  "createdBy": {
+    "id": "6ab3d694415010bf620349e5",
+    "name": "Mai Ngọc Hùng Anh",
+    "email": "hunganh.okokok.0@gmail.com"
+  },
+  "createdAt": "2026-11-28T04:11:31.401Z",
+  "updatedAt": "2026-11-28T04:11:31.401Z",
+  "contentHtml": null,
+  "quiz": {
+    "version": 1,
+    "maxScore": 10,
+    "parts": {
+      "mcq": {
+        "pointsPerQuestion": 0.1333,
+        "questions": [
+          {
+            "startLine": 1,
+            "text": "Theo mô hình máy tính trong sơ đồ, CPU kết nối với hệ thống nhớ (Memory Subsystem) và hệ thống vào/ra thông qua các thành phần nào?",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795838878253.enc",
+            "options": [
+              {
+                "key": "A",
+                "text": "Chỉ bus dữ liệu"
+              },
+              {
+                "key": "B",
+                "text": "Chỉ bus địa chỉ và bus điều khiển"
+              },
+              {
+                "key": "C",
+                "text": "Bus địa chỉ, bus dữ liệu và bus điều khiển"
+              },
+              {
+                "key": "D",
+                "text": "Cổng nối tiếp và cổng song song"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "Sơ đồ mô hình máy tính: CPU nối với bộ nhớ và I/O qua 3 loại bus.",
+            "multi": false,
+            "id": "mcq-1",
+            "clusterId": null
+          },
+          {
+            "startLine": 9,
+            "text": "Mô hình Havard khác mô hình Von Neumann ở điểm nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Havard lưu lệnh và dữ liệu trong hai hệ thống bộ nhớ riêng biệt"
+              },
+              {
+                "key": "B",
+                "text": "Havard lưu lệnh và dữ liệu chung một bộ nhớ"
+              },
+              {
+                "key": "C",
+                "text": "Havard không có bộ nhớ"
+              },
+              {
+                "key": "D",
+                "text": "Havard không có bus dữ liệu"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-2",
+            "clusterId": null
+          },
+          {
+            "startLine": 15,
+            "text": "Mô hình chính của máy tính cá nhân hiện nay là mô hình nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Havard"
+              },
+              {
+                "key": "B",
+                "text": "Von Neumann"
+              },
+              {
+                "key": "C",
+                "text": "Turing"
+              },
+              {
+                "key": "D",
+                "text": "Mô hình không có CPU"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Von Neumann: lệnh và dữ liệu lưu trộn lẫn trên cùng một bộ nhớ.",
+            "multi": false,
+            "id": "mcq-3",
+            "clusterId": null
+          },
+          {
+            "startLine": 22,
+            "text": "Trong sơ đồ cấu trúc cơ bản của CPU, các khối chính gồm:",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795838896151.enc",
+            "options": [
+              {
+                "key": "A",
+                "text": "Chỉ CU và ALU"
+              },
+              {
+                "key": "B",
+                "text": "RAM, ROM, ALU và CU"
+              },
+              {
+                "key": "C",
+                "text": "CU, ALU, ổ đĩa và BIU"
+              },
+              {
+                "key": "D",
+                "text": "Đơn vị điều khiển (CU), đơn vị số học và logic (ALU), tập các thanh ghi (RF) và đơn vị nối ghép bus (BIU)"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-4",
+            "clusterId": null
+          },
+          {
+            "startLine": 29,
+            "text": "Khối nào của CPU chịu trách nhiệm kết nối CPU với bus điều khiển, bus dữ liệu và bus địa chỉ?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Đơn vị số học và logic (ALU)"
+              },
+              {
+                "key": "B",
+                "text": "Tập các thanh ghi (RF)"
+              },
+              {
+                "key": "C",
+                "text": "Thanh ghi cờ (FR)"
+              },
+              {
+                "key": "D",
+                "text": "Đơn vị nối ghép bus (BIU)"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-5",
+            "clusterId": null
+          },
+          {
+            "startLine": 35,
+            "text": "Nhiệm vụ nào sau đây KHÔNG phải của CPU?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Nhận lệnh từ bộ nhớ"
+              },
+              {
+                "key": "B",
+                "text": "Lưu trữ lâu dài dữ liệu trên đĩa từ khi tắt máy"
+              },
+              {
+                "key": "C",
+                "text": "Giải mã lệnh"
+              },
+              {
+                "key": "D",
+                "text": "Ghi dữ liệu ra bộ nhớ hay cổng vào-ra"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-6",
+            "clusterId": null
+          },
+          {
+            "startLine": 41,
+            "text": "Bước 'Nhận lệnh (Fetch Instruction)' của CPU là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Xác định thao tác mà lệnh yêu cầu"
+              },
+              {
+                "key": "B",
+                "text": "Ghi kết quả ra cổng vào-ra"
+              },
+              {
+                "key": "C",
+                "text": "Đọc lệnh từ bộ nhớ"
+              },
+              {
+                "key": "D",
+                "text": "Thực hiện phép toán số học"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-7",
+            "clusterId": null
+          },
+          {
+            "startLine": 47,
+            "text": "Bước 'Giải mã lệnh (Decode Instruction)' có mục đích gì?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Đọc lệnh từ bộ nhớ"
+              },
+              {
+                "key": "B",
+                "text": "Xác định thao tác mà lệnh yêu cầu"
+              },
+              {
+                "key": "C",
+                "text": "Nhận dữ liệu từ cổng vào-ra"
+              },
+              {
+                "key": "D",
+                "text": "Ghi dữ liệu ra bộ nhớ"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-8",
+            "clusterId": null
+          },
+          {
+            "startLine": 53,
+            "text": "Bước 'Nhận dữ liệu (Fetch Data)' của CPU là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Giải mã lệnh"
+              },
+              {
+                "key": "B",
+                "text": "Tăng giá trị bộ đếm chương trình"
+              },
+              {
+                "key": "C",
+                "text": "Nhận dữ liệu từ bộ nhớ hoặc các cổng vào-ra"
+              },
+              {
+                "key": "D",
+                "text": "Thực hiện phép dịch bit"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-9",
+            "clusterId": null
+          },
+          {
+            "startLine": 59,
+            "text": "Thứ tự đúng các nhiệm vụ cơ bản của CPU khi thực hiện một lệnh là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Giải mã lệnh → Nhận lệnh → Xử lý dữ liệu → Nhận dữ liệu → Ghi dữ liệu"
+              },
+              {
+                "key": "B",
+                "text": "Nhận lệnh → Giải mã lệnh → Nhận dữ liệu → Xử lý dữ liệu → Ghi dữ liệu"
+              },
+              {
+                "key": "C",
+                "text": "Nhận dữ liệu → Nhận lệnh → Giải mã lệnh → Ghi dữ liệu → Xử lý dữ liệu"
+              },
+              {
+                "key": "D",
+                "text": "Xử lý dữ liệu → Nhận lệnh → Giải mã lệnh → Ghi dữ liệu → Nhận dữ liệu"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-10",
+            "clusterId": null
+          },
+          {
+            "startLine": 65,
+            "text": "Chức năng của ALU là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Điều khiển bộ nhớ"
+              },
+              {
+                "key": "B",
+                "text": "Giải mã lệnh"
+              },
+              {
+                "key": "C",
+                "text": "Lưu trữ chương trình"
+              },
+              {
+                "key": "D",
+                "text": "Thực hiện các phép toán số học và phép toán logic"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-11",
+            "clusterId": null
+          },
+          {
+            "startLine": 71,
+            "text": "Phép toán nào sau đây thuộc nhóm phép toán logic của ALU?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Cộng, trừ, nhân, chia"
+              },
+              {
+                "key": "B",
+                "text": "Tăng, giảm, đảo dấu"
+              },
+              {
+                "key": "C",
+                "text": "AND, OR, XOR, NOT, phép dịch bit"
+              },
+              {
+                "key": "D",
+                "text": "Nhận lệnh, giải mã lệnh"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-12",
+            "clusterId": null
+          },
+          {
+            "startLine": 77,
+            "text": "Phép toán nào sau đây là phép toán số học của ALU?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "XOR"
+              },
+              {
+                "key": "B",
+                "text": "NOT"
+              },
+              {
+                "key": "C",
+                "text": "Tăng, giảm, đảo dấu"
+              },
+              {
+                "key": "D",
+                "text": "Dịch bit"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-13",
+            "clusterId": null
+          },
+          {
+            "startLine": 83,
+            "text": "Trong mô hình kết nối ALU, ALU nhận những đầu vào nào?",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795838923537.enc",
+            "options": [
+              {
+                "key": "A",
+                "text": "Dữ liệu vào từ các thanh ghi và các tín hiệu từ đơn vị điều khiển"
+              },
+              {
+                "key": "B",
+                "text": "Chỉ dữ liệu từ bộ nhớ ngoài"
+              },
+              {
+                "key": "C",
+                "text": "Chỉ tín hiệu clock"
+              },
+              {
+                "key": "D",
+                "text": "Chỉ các tín hiệu ngắt"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "Kết quả ALU đưa ra các thanh ghi và cập nhật thanh ghi cờ.",
+            "multi": false,
+            "id": "mcq-14",
+            "clusterId": null
+          },
+          {
+            "startLine": 91,
+            "text": "Kết quả phép toán của ALU ngoài việc đưa ra các thanh ghi còn:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Ghi trực tiếp vào đĩa cứng"
+              },
+              {
+                "key": "B",
+                "text": "Được đưa vào ROM"
+              },
+              {
+                "key": "C",
+                "text": "Cập nhật trạng thái vào thanh ghi cờ"
+              },
+              {
+                "key": "D",
+                "text": "Làm tăng tần số xung nhịp"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-15",
+            "clusterId": null
+          },
+          {
+            "startLine": 97,
+            "text": "Đơn vị điều khiển (CU) KHÔNG thực hiện nhiệm vụ nào sau đây?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Thực hiện phép cộng hai số nguyên"
+              },
+              {
+                "key": "B",
+                "text": "Điều khiển nhận lệnh từ bộ nhớ đưa vào thanh ghi lệnh"
+              },
+              {
+                "key": "C",
+                "text": "Tăng nội dung PC để trỏ sang lệnh kế tiếp"
+              },
+              {
+                "key": "D",
+                "text": "Giải mã lệnh đã được nhận"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "Phép cộng do ALU thực hiện, CU chỉ phát tín hiệu điều khiển.",
+            "multi": false,
+            "id": "mcq-16",
+            "clusterId": null
+          },
+          {
+            "startLine": 104,
+            "text": "Các tín hiệu đến đơn vị điều khiển (CU) gồm:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Chỉ clock"
+              },
+              {
+                "key": "B",
+                "text": "Chỉ mã lệnh"
+              },
+              {
+                "key": "C",
+                "text": "Dữ liệu từ ổ đĩa và bàn phím"
+              },
+              {
+                "key": "D",
+                "text": "Clock, mã lệnh từ thanh ghi lệnh, các cờ từ thanh ghi cờ, tín hiệu yêu cầu từ bus điều khiển"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-17",
+            "clusterId": null
+          },
+          {
+            "startLine": 110,
+            "text": "Các tín hiệu điều khiển bên ngoài CPU do CU phát ra dùng để:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Điều khiển bộ nhớ và các mô-đun vào-ra"
+              },
+              {
+                "key": "B",
+                "text": "Điều khiển các thanh ghi"
+              },
+              {
+                "key": "C",
+                "text": "Điều khiển ALU"
+              },
+              {
+                "key": "D",
+                "text": "Điều khiển tần số clock"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-18",
+            "clusterId": null
+          },
+          {
+            "startLine": 116,
+            "text": "Tập thanh ghi trong CPU có đặc điểm nào sau đây?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Được coi là mức đầu tiên của hệ thống nhớ, chứa thông tin tạm thời phục vụ hoạt động hiện tại của CPU"
+              },
+              {
+                "key": "B",
+                "text": "Là bộ nhớ ngoài dung lượng lớn"
+              },
+              {
+                "key": "C",
+                "text": "Là bộ nhớ chỉ đọc không thay đổi được"
+              },
+              {
+                "key": "D",
+                "text": "Là mức nhớ chậm nhất của hệ thống"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-19",
+            "clusterId": null
+          },
+          {
+            "startLine": 122,
+            "text": "Các thanh ghi trong CPU được chia thành hai loại:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Thanh ghi lập trình được và thanh ghi không lập trình được"
+              },
+              {
+                "key": "B",
+                "text": "Thanh ghi nhanh và thanh ghi chậm"
+              },
+              {
+                "key": "C",
+                "text": "Thanh ghi đọc và thanh ghi ghi"
+              },
+              {
+                "key": "D",
+                "text": "Thanh ghi 8 bit và thanh ghi 16 bit"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-20",
+            "clusterId": null
+          },
+          {
+            "startLine": 128,
+            "text": "Thanh ghi nào dùng để lưu câu lệnh hiện thời đang được thực hiện?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Bộ đếm chương trình PC"
+              },
+              {
+                "key": "B",
+                "text": "Con trỏ ngăn xếp SP"
+              },
+              {
+                "key": "C",
+                "text": "Thanh ghi cờ"
+              },
+              {
+                "key": "D",
+                "text": "Thanh ghi lệnh IR"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-21",
+            "clusterId": null
+          },
+          {
+            "startLine": 134,
+            "text": "Thanh ghi lệnh IR nhận lệnh từ thanh ghi nào và chuyển đi đâu?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Nhận từ PC và chuyển cho ALU"
+              },
+              {
+                "key": "B",
+                "text": "Nhận từ MAR và chuyển cho bus địa chỉ"
+              },
+              {
+                "key": "C",
+                "text": "Nhận từ MBR và chuyển cho CU để giải mã"
+              },
+              {
+                "key": "D",
+                "text": "Nhận từ SP và chuyển cho MBR"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "Chuỗi: MBR → IR → CU.",
+            "multi": false,
+            "id": "mcq-22",
+            "clusterId": null
+          },
+          {
+            "startLine": 141,
+            "text": "Bộ đếm chương trình PC còn được gọi là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Con trỏ ngăn xếp"
+              },
+              {
+                "key": "B",
+                "text": "Con trỏ dữ liệu"
+              },
+              {
+                "key": "C",
+                "text": "Con trỏ lệnh IP (Instruction Pointer)"
+              },
+              {
+                "key": "D",
+                "text": "Thanh ghi cờ"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-23",
+            "clusterId": null
+          },
+          {
+            "startLine": 147,
+            "text": "PC (Program Counter) chứa:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Địa chỉ của dữ liệu cần đọc"
+              },
+              {
+                "key": "B",
+                "text": "Địa chỉ của lệnh tiếp theo sẽ được nhận vào"
+              },
+              {
+                "key": "C",
+                "text": "Lệnh đang thực hiện"
+              },
+              {
+                "key": "D",
+                "text": "Kết quả phép toán gần nhất"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-24",
+            "clusterId": null
+          },
+          {
+            "startLine": 153,
+            "text": "Sau khi một lệnh được nhận vào, nội dung của PC:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Tự động tăng để trỏ sang lệnh kế tiếp"
+              },
+              {
+                "key": "B",
+                "text": "Tự động giảm"
+              },
+              {
+                "key": "C",
+                "text": "Được xoá về 0"
+              },
+              {
+                "key": "D",
+                "text": "Giữ nguyên cho đến hết chương trình"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-25",
+            "clusterId": null
+          },
+          {
+            "startLine": 159,
+            "text": "Thanh ghi con trỏ dữ liệu DP chứa:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Địa chỉ của lệnh kế tiếp"
+              },
+              {
+                "key": "B",
+                "text": "Địa chỉ của ngăn nhớ dữ liệu mà CPU muốn truy cập"
+              },
+              {
+                "key": "C",
+                "text": "Địa chỉ đỉnh ngăn xếp"
+              },
+              {
+                "key": "D",
+                "text": "Mã lệnh hiện thời"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-26",
+            "clusterId": null
+          },
+          {
+            "startLine": 165,
+            "text": "Các thanh ghi con trỏ dữ liệu thường gặp trong họ 8086 là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "CS, IP"
+              },
+              {
+                "key": "B",
+                "text": "AX, BX"
+              },
+              {
+                "key": "C",
+                "text": "DS, ES"
+              },
+              {
+                "key": "D",
+                "text": "SP, BP"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-27",
+            "clusterId": null
+          },
+          {
+            "startLine": 171,
+            "text": "Ngăn xếp (Stack) là vùng nhớ có cấu trúc:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "FIFO (First In – First Out) thuần tuý"
+              },
+              {
+                "key": "B",
+                "text": "LIFO (Last In – First Out)"
+              },
+              {
+                "key": "C",
+                "text": "Truy cập ngẫu nhiên không thứ tự"
+              },
+              {
+                "key": "D",
+                "text": "Chỉ đọc (ROM)"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-28",
+            "clusterId": null
+          },
+          {
+            "startLine": 177,
+            "text": "Ngăn xếp thường được dùng để:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Phục vụ cho chương trình con (lưu địa chỉ trở về...)"
+              },
+              {
+                "key": "B",
+                "text": "Lưu mã lệnh của toàn bộ hệ điều hành"
+              },
+              {
+                "key": "C",
+                "text": "Thực hiện phép nhân"
+              },
+              {
+                "key": "D",
+                "text": "Đếm xung nhịp"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-29",
+            "clusterId": null
+          },
+          {
+            "startLine": 183,
+            "text": "Trong ngăn xếp, thành phần nào là một ngăn nhớ xác định, không thay đổi?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Đỉnh ngăn xếp"
+              },
+              {
+                "key": "B",
+                "text": "Con trỏ SP"
+              },
+              {
+                "key": "C",
+                "text": "Đáy ngăn xếp"
+              },
+              {
+                "key": "D",
+                "text": "Ngăn nhớ ở giữa"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "Đỉnh ngăn xếp có thể bị thay đổi còn đáy là cố định.",
+            "multi": false,
+            "id": "mcq-30",
+            "clusterId": null
+          },
+          {
+            "startLine": 190,
+            "text": "Con trỏ ngăn xếp SP chứa:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Địa chỉ của đáy ngăn xếp"
+              },
+              {
+                "key": "B",
+                "text": "Địa chỉ lệnh kế tiếp"
+              },
+              {
+                "key": "C",
+                "text": "Địa chỉ của ngăn nhớ đỉnh ngăn xếp"
+              },
+              {
+                "key": "D",
+                "text": "Địa chỉ cổng vào-ra"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-31",
+            "clusterId": null
+          },
+          {
+            "startLine": 196,
+            "text": "Khi cất một thông tin vào ngăn xếp (PUSH), điều gì xảy ra?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Nội dung SP tự động giảm, rồi thông tin được cất vào ngăn nhớ do SP trỏ tới"
+              },
+              {
+                "key": "B",
+                "text": "SP tự động tăng, rồi thông tin được cất vào"
+              },
+              {
+                "key": "C",
+                "text": "Thông tin được cất vào đáy, SP không đổi"
+              },
+              {
+                "key": "D",
+                "text": "SP bị xoá về 0"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "Ngăn xếp phát triển về phía địa chỉ thấp.",
+            "multi": false,
+            "id": "mcq-32",
+            "clusterId": null
+          },
+          {
+            "startLine": 203,
+            "text": "Khi lấy thông tin ra khỏi ngăn xếp (POP), điều gì xảy ra?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "SP giảm trước rồi mới đọc"
+              },
+              {
+                "key": "B",
+                "text": "Thông tin được đọc từ ngăn nhớ do SP trỏ tới, rồi nội dung SP tự động tăng"
+              },
+              {
+                "key": "C",
+                "text": "Thông tin bị xoá khỏi đáy"
+              },
+              {
+                "key": "D",
+                "text": "SP không đổi"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-33",
+            "clusterId": null
+          },
+          {
+            "startLine": 209,
+            "text": "Trong hình minh hoạ ngăn xếp, lệnh PUSH thực hiện theo thứ tự nào?",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795838957046.enc",
+            "options": [
+              {
+                "key": "A",
+                "text": "Ghi bộ nhớ, rồi tăng SP"
+              },
+              {
+                "key": "B",
+                "text": "Tăng SP, rồi ghi bộ nhớ"
+              },
+              {
+                "key": "C",
+                "text": "Đọc bộ nhớ, rồi giảm SP"
+              },
+              {
+                "key": "D",
+                "text": "Giảm SP, rồi ghi bộ nhớ"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-34",
+            "clusterId": null
+          },
+          {
+            "startLine": 216,
+            "text": "Địa chỉ của ngăn nhớ cần truy nhập khi dùng thanh ghi cơ sở và thanh ghi chỉ số được tính bằng:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Địa chỉ cơ sở − chỉ số"
+              },
+              {
+                "key": "B",
+                "text": "Địa chỉ cơ sở + chỉ số"
+              },
+              {
+                "key": "C",
+                "text": "Địa chỉ cơ sở × chỉ số"
+              },
+              {
+                "key": "D",
+                "text": "Chỉ số / địa chỉ cơ sở"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-35",
+            "clusterId": null
+          },
+          {
+            "startLine": 222,
+            "text": "Thanh ghi chỉ số chứa:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Địa chỉ của ngăn nhớ cơ sở"
+              },
+              {
+                "key": "B",
+                "text": "Địa chỉ lệnh kế tiếp"
+              },
+              {
+                "key": "C",
+                "text": "Số lần lặp"
+              },
+              {
+                "key": "D",
+                "text": "Độ lệch địa chỉ giữa ngăn nhớ cần truy nhập so với ngăn nhớ cơ sở"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-36",
+            "clusterId": null
+          },
+          {
+            "startLine": 228,
+            "text": "Trong họ 8086, thanh ghi AX thường dùng để:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Chứa số lần lặp"
+              },
+              {
+                "key": "B",
+                "text": "Lưu giữ kết quả tính toán"
+              },
+              {
+                "key": "C",
+                "text": "Chứa địa chỉ cơ sở"
+              },
+              {
+                "key": "D",
+                "text": "Chứa địa chỉ đỉnh ngăn xếp"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-37",
+            "clusterId": null
+          },
+          {
+            "startLine": 234,
+            "text": "Trong họ 8086, thanh ghi BX là thanh ghi:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Đếm, chứa số lần lặp"
+              },
+              {
+                "key": "B",
+                "text": "Dữ liệu dùng cho phép nhân chia"
+              },
+              {
+                "key": "C",
+                "text": "Cơ sở, thường chứa địa chỉ cơ sở của một vùng nhớ"
+              },
+              {
+                "key": "D",
+                "text": "Con trỏ ngăn xếp"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-38",
+            "clusterId": null
+          },
+          {
+            "startLine": 240,
+            "text": "Trong họ 8086, thanh ghi CX thường được dùng để:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Lưu kết quả tính toán"
+              },
+              {
+                "key": "B",
+                "text": "Chứa địa chỉ cơ sở"
+              },
+              {
+                "key": "C",
+                "text": "Chứa số lần lặp"
+              },
+              {
+                "key": "D",
+                "text": "Chứa địa chỉ cổng vào-ra"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-39",
+            "clusterId": null
+          },
+          {
+            "startLine": 246,
+            "text": "Trong họ 8086, thanh ghi DX thường được dùng cùng AX để:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Chứa số lần lặp"
+              },
+              {
+                "key": "B",
+                "text": "Chứa địa chỉ ngăn xếp"
+              },
+              {
+                "key": "C",
+                "text": "Lưu mã lệnh"
+              },
+              {
+                "key": "D",
+                "text": "Thực hiện các phép nhân hoặc chia 16 bit, và chứa địa chỉ cổng trong lệnh vào ra"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-40",
+            "clusterId": null
+          },
+          {
+            "startLine": 252,
+            "text": "Hình tập thanh ghi họ 8086 cho thấy các thanh ghi dữ liệu 16 bit chia được thành hai nửa nào?",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795838982939.enc",
+            "options": [
+              {
+                "key": "A",
+                "text": "Nửa cao H và nửa thấp L (mỗi nửa 8 bit)"
+              },
+              {
+                "key": "B",
+                "text": "Nửa chẵn và nửa lẻ"
+              },
+              {
+                "key": "C",
+                "text": "Phần địa chỉ và phần dữ liệu"
+              },
+              {
+                "key": "D",
+                "text": "Phần lệnh và phần cờ"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "Ví dụ AX gồm AH và AL.",
+            "multi": false,
+            "id": "mcq-41",
+            "clusterId": null
+          },
+          {
+            "startLine": 260,
+            "text": "Trong hình tập thanh ghi họ 8086, nhóm thanh ghi nào sau đây là thanh ghi đoạn?",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795838984708.enc",
+            "options": [
+              {
+                "key": "A",
+                "text": "AX, BX, CX, DX"
+              },
+              {
+                "key": "B",
+                "text": "SP, BP, SI, DI"
+              },
+              {
+                "key": "C",
+                "text": "Flag, IP"
+              },
+              {
+                "key": "D",
+                "text": "CS, DS, SS, ES"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-42",
+            "clusterId": null
+          },
+          {
+            "startLine": 267,
+            "text": "Trong hình tập thanh ghi họ 8086, nhóm AX, BX, CX, DX là:",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795838984132.enc",
+            "options": [
+              {
+                "key": "A",
+                "text": "Các thanh ghi đoạn"
+              },
+              {
+                "key": "B",
+                "text": "Các thanh ghi dữ liệu"
+              },
+              {
+                "key": "C",
+                "text": "Các thanh ghi con trỏ và chỉ số"
+              },
+              {
+                "key": "D",
+                "text": "Các thanh ghi cờ"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-43",
+            "clusterId": null
+          },
+          {
+            "startLine": 274,
+            "text": "Thanh ghi trạng thái (Status Register) còn được gọi là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Thanh ghi cờ (Flag Register)"
+              },
+              {
+                "key": "B",
+                "text": "Thanh ghi lệnh"
+              },
+              {
+                "key": "C",
+                "text": "Thanh ghi đệm"
+              },
+              {
+                "key": "D",
+                "text": "Thanh ghi địa chỉ"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-44",
+            "clusterId": null
+          },
+          {
+            "startLine": 280,
+            "text": "Các cờ trong thanh ghi cờ được chia thành hai nhóm:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Cờ đọc và cờ ghi"
+              },
+              {
+                "key": "B",
+                "text": "Cờ phép toán và cờ điều khiển"
+              },
+              {
+                "key": "C",
+                "text": "Cờ bộ nhớ và cờ vào-ra"
+              },
+              {
+                "key": "D",
+                "text": "Cờ lệnh và cờ dữ liệu"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-45",
+            "clusterId": null
+          },
+          {
+            "startLine": 286,
+            "text": "Cờ Zero (Z) được thiết lập bằng 1 khi:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Kết quả phép toán bằng 0"
+              },
+              {
+                "key": "B",
+                "text": "Kết quả phép toán âm"
+              },
+              {
+                "key": "C",
+                "text": "Có nhớ ra ngoài bit cao nhất"
+              },
+              {
+                "key": "D",
+                "text": "Có tràn số"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-46",
+            "clusterId": null
+          },
+          {
+            "startLine": 292,
+            "text": "Cờ Sign (S) được thiết lập bằng 1 khi:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Kết quả phép toán nhỏ hơn 0"
+              },
+              {
+                "key": "B",
+                "text": "Kết quả bằng 0"
+              },
+              {
+                "key": "C",
+                "text": "Có nhớ ra ngoài bit cao nhất"
+              },
+              {
+                "key": "D",
+                "text": "CPU ở trạng thái cho phép ngắt"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-47",
+            "clusterId": null
+          },
+          {
+            "startLine": 298,
+            "text": "Cờ Carry (C) được thiết lập bằng 1 khi:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Kết quả bằng 0"
+              },
+              {
+                "key": "B",
+                "text": "Kết quả âm"
+              },
+              {
+                "key": "C",
+                "text": "Phép toán có nhớ ra ngoài bit cao nhất (báo tràn với số không dấu)"
+              },
+              {
+                "key": "D",
+                "text": "Có yêu cầu ngắt"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-48",
+            "clusterId": null
+          },
+          {
+            "startLine": 304,
+            "text": "Cờ Overflow (O) được thiết lập bằng 1 khi:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Cộng hai số nguyên cùng dấu mà kết quả có dấu ngược lại (báo tràn với số có dấu)"
+              },
+              {
+                "key": "B",
+                "text": "Kết quả phép toán bằng 0"
+              },
+              {
+                "key": "C",
+                "text": "Có nhớ ra ngoài bit cao nhất của số không dấu"
+              },
+              {
+                "key": "D",
+                "text": "Cộng hai số khác dấu"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-49",
+            "clusterId": null
+          },
+          {
+            "startLine": 310,
+            "text": "Cờ Interrupt (IF) = 1 có nghĩa là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "CPU cấm mọi ngắt"
+              },
+              {
+                "key": "B",
+                "text": "Kết quả phép toán bằng 0"
+              },
+              {
+                "key": "C",
+                "text": "CPU đang dừng hoạt động"
+              },
+              {
+                "key": "D",
+                "text": "CPU ở trạng thái cho phép ngắt với tín hiệu yêu cầu ngắt từ bên ngoài"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-50",
+            "clusterId": null
+          },
+          {
+            "startLine": 316,
+            "text": "Cộng hai số có dấu 8 bit: 01111111 + 00000001 = 10000000. Cờ nào được thiết lập bằng 1 (xét theo kiến thức cờ O, C, Z)?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Cờ Zero (Z)"
+              },
+              {
+                "key": "B",
+                "text": "Cờ Carry (C)"
+              },
+              {
+                "key": "C",
+                "text": "Cả Z và C nhưng không có O"
+              },
+              {
+                "key": "D",
+                "text": "Cờ tràn Overflow (O)"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "Hai số dương cộng ra kết quả có bit dấu = 1 → tràn có dấu. Không có nhớ ra ngoài bit 7 và kết quả khác 0.",
+            "multi": false,
+            "id": "mcq-51",
+            "clusterId": null
+          },
+          {
+            "startLine": 323,
+            "text": "Cộng 8 bit không dấu: 11111111 + 00000001 = 00000000 (nhớ 1). Cờ nào được thiết lập bằng 1?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Chỉ cờ Overflow (O)"
+              },
+              {
+                "key": "B",
+                "text": "Chỉ cờ Sign (S)"
+              },
+              {
+                "key": "C",
+                "text": "Không có cờ nào"
+              },
+              {
+                "key": "D",
+                "text": "Cờ Zero (Z) và cờ Carry (C)"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "Kết quả 8 bit = 0 nên Z=1, có nhớ ra ngoài bit cao nhất nên C=1.",
+            "multi": false,
+            "id": "mcq-52",
+            "clusterId": null
+          },
+          {
+            "startLine": 330,
+            "text": "Thanh ghi MAR (Memory Address Register) là giao tiếp giữa CPU và:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Bus dữ liệu"
+              },
+              {
+                "key": "B",
+                "text": "Bus điều khiển"
+              },
+              {
+                "key": "C",
+                "text": "Bus địa chỉ"
+              },
+              {
+                "key": "D",
+                "text": "ALU"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "MAR đưa địa chỉ ô nhớ ra bus địa chỉ.",
+            "multi": false,
+            "id": "mcq-53",
+            "clusterId": null
+          },
+          {
+            "startLine": 337,
+            "text": "Thanh ghi MBR (Memory Buffer Register) là giao tiếp giữa CPU và:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Bus địa chỉ"
+              },
+              {
+                "key": "B",
+                "text": "Bus điều khiển"
+              },
+              {
+                "key": "C",
+                "text": "Cổng vào-ra"
+              },
+              {
+                "key": "D",
+                "text": "Bus dữ liệu"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "MBR nhận/chuyển dữ liệu và lệnh qua bus dữ liệu.",
+            "multi": false,
+            "id": "mcq-54",
+            "clusterId": null
+          },
+          {
+            "startLine": 344,
+            "text": "Các loại bus chính trong máy tính là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Bus địa chỉ, bus dữ liệu, bus điều khiển"
+              },
+              {
+                "key": "B",
+                "text": "Bus PC, bus SP, bus IR"
+              },
+              {
+                "key": "C",
+                "text": "Bus nhớ, bus đĩa, bus mạng"
+              },
+              {
+                "key": "D",
+                "text": "Bus lệnh, bus cờ, bus ngắt"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-55",
+            "clusterId": null
+          },
+          {
+            "startLine": 350,
+            "text": "Chức năng của bus địa chỉ là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Vận chuyển địa chỉ để xác định ngăn nhớ hay cổng vào-ra"
+              },
+              {
+                "key": "B",
+                "text": "Vận chuyển dữ liệu giữa CPU và bộ nhớ"
+              },
+              {
+                "key": "C",
+                "text": "Vận chuyển các tín hiệu điều khiển"
+              },
+              {
+                "key": "D",
+                "text": "Cấp nguồn cho CPU"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-56",
+            "clusterId": null
+          },
+          {
+            "startLine": 356,
+            "text": "Bus địa chỉ có độ rộng N bit thì CPU có thể đánh địa chỉ tối đa:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "N ngăn nhớ"
+              },
+              {
+                "key": "B",
+                "text": "2N ngăn nhớ"
+              },
+              {
+                "key": "C",
+                "text": "2^N ngăn nhớ"
+              },
+              {
+                "key": "D",
+                "text": "N^2 ngăn nhớ"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-57",
+            "clusterId": null
+          },
+          {
+            "startLine": 362,
+            "text": "Bộ xử lý có bus địa chỉ 32 bit thì không gian địa chỉ tối đa (đánh địa chỉ theo byte) là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "32 MB"
+              },
+              {
+                "key": "B",
+                "text": "1 GB"
+              },
+              {
+                "key": "C",
+                "text": "4 GB"
+              },
+              {
+                "key": "D",
+                "text": "64 GB"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "2^32 byte = 4 GB.",
+            "multi": false,
+            "id": "mcq-58",
+            "clusterId": null
+          },
+          {
+            "startLine": 369,
+            "text": "Bộ xử lý có bus địa chỉ 20 bit (như 8086) có không gian địa chỉ tối đa là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "64 KB"
+              },
+              {
+                "key": "B",
+                "text": "1 MB"
+              },
+              {
+                "key": "C",
+                "text": "640 KB"
+              },
+              {
+                "key": "D",
+                "text": "16 MB"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "2^20 = 1 048 576 byte = 1 MB.",
+            "multi": false,
+            "id": "mcq-59",
+            "clusterId": null
+          },
+          {
+            "startLine": 376,
+            "text": "Bus dữ liệu có chức năng:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Chỉ vận chuyển địa chỉ"
+              },
+              {
+                "key": "B",
+                "text": "Chỉ vận chuyển tín hiệu ngắt"
+              },
+              {
+                "key": "C",
+                "text": "Chỉ vận chuyển xung clock"
+              },
+              {
+                "key": "D",
+                "text": "Vận chuyển lệnh từ bộ nhớ đến CPU và dữ liệu giữa CPU, bộ nhớ và các mô-đun vào-ra"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-60",
+            "clusterId": null
+          },
+          {
+            "startLine": 382,
+            "text": "Độ rộng bus dữ liệu xác định:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Dung lượng bộ nhớ tối đa"
+              },
+              {
+                "key": "B",
+                "text": "Số bit dữ liệu có thể được trao đổi đồng thời"
+              },
+              {
+                "key": "C",
+                "text": "Số lệnh của CPU"
+              },
+              {
+                "key": "D",
+                "text": "Số thanh ghi của CPU"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-61",
+            "clusterId": null
+          },
+          {
+            "startLine": 388,
+            "text": "Các bộ xử lý Pentium có bus dữ liệu rộng bao nhiêu bit?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "8 bit"
+              },
+              {
+                "key": "B",
+                "text": "16 bit"
+              },
+              {
+                "key": "C",
+                "text": "64 bit"
+              },
+              {
+                "key": "D",
+                "text": "32 bit"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-62",
+            "clusterId": null
+          },
+          {
+            "startLine": 394,
+            "text": "Chức năng của bus điều khiển là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Vận chuyển địa chỉ ô nhớ"
+              },
+              {
+                "key": "B",
+                "text": "Vận chuyển các tín hiệu điều khiển"
+              },
+              {
+                "key": "C",
+                "text": "Vận chuyển dữ liệu 64 bit"
+              },
+              {
+                "key": "D",
+                "text": "Lưu trữ lệnh"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-63",
+            "clusterId": null
+          },
+          {
+            "startLine": 400,
+            "text": "Trong chu trình lệnh, bước đầu tiên khi chạy chương trình là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "CU giải mã lệnh"
+              },
+              {
+                "key": "B",
+                "text": "PC tăng lên 1"
+              },
+              {
+                "key": "C",
+                "text": "MBR chuyển lệnh tới IR"
+              },
+              {
+                "key": "D",
+                "text": "Hệ điều hành nạp chương trình vào bộ nhớ trong"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-64",
+            "clusterId": null
+          },
+          {
+            "startLine": 406,
+            "text": "Trong chu trình lệnh, địa chỉ ô nhớ chứa câu lệnh được chuyển vào bus địa chỉ qua thanh ghi nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "MBR"
+              },
+              {
+                "key": "B",
+                "text": "MAR"
+              },
+              {
+                "key": "C",
+                "text": "IR"
+              },
+              {
+                "key": "D",
+                "text": "SP"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-65",
+            "clusterId": null
+          },
+          {
+            "startLine": 412,
+            "text": "Trong chu trình lệnh, lệnh được chuyển từ ô nhớ vào thanh ghi nào qua bus dữ liệu?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "MAR"
+              },
+              {
+                "key": "B",
+                "text": "MBR"
+              },
+              {
+                "key": "C",
+                "text": "PC"
+              },
+              {
+                "key": "D",
+                "text": "SP"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-66",
+            "clusterId": null
+          },
+          {
+            "startLine": 418,
+            "text": "Trong chu trình lệnh, thứ tự đúng của đường đi của một lệnh sau khi đọc từ bộ nhớ là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Bộ nhớ → IR → MBR → CU"
+              },
+              {
+                "key": "B",
+                "text": "Bộ nhớ → MBR → IR → CU"
+              },
+              {
+                "key": "C",
+                "text": "Bộ nhớ → CU → MBR → IR"
+              },
+              {
+                "key": "D",
+                "text": "Bộ nhớ → PC → IR → ALU"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-67",
+            "clusterId": null
+          },
+          {
+            "startLine": 424,
+            "text": "Các giai đoạn của chu trình lệnh gồm:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Chỉ nhận lệnh và thực hiện lệnh"
+              },
+              {
+                "key": "B",
+                "text": "Nạp, nén, giải nén, ghi"
+              },
+              {
+                "key": "C",
+                "text": "Đọc đĩa, ghi đĩa, in, hiển thị"
+              },
+              {
+                "key": "D",
+                "text": "Nhận lệnh, giải mã lệnh, nhận toán hạng, thực hiện lệnh, cất toán hạng, ngắt"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-68",
+            "clusterId": null
+          },
+          {
+            "startLine": 430,
+            "text": "Trong giai đoạn nhận lệnh, CPU thực hiện:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Đưa địa chỉ từ PC ra bus địa chỉ, phát tín hiệu đọc, lệnh đưa vào IR và tăng PC"
+              },
+              {
+                "key": "B",
+                "text": "Đưa địa chỉ từ SP ra bus dữ liệu"
+              },
+              {
+                "key": "C",
+                "text": "Ghi lệnh vào bộ nhớ"
+              },
+              {
+                "key": "D",
+                "text": "Chỉ giải mã lệnh"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-69",
+            "clusterId": null
+          },
+          {
+            "startLine": 436,
+            "text": "Trong sơ đồ nhận lệnh, địa chỉ lệnh đi từ PC ra bus nào?",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795839036991.enc",
+            "options": [
+              {
+                "key": "A",
+                "text": "Bus địa chỉ"
+              },
+              {
+                "key": "B",
+                "text": "Bus dữ liệu"
+              },
+              {
+                "key": "C",
+                "text": "Bus điều khiển"
+              },
+              {
+                "key": "D",
+                "text": "Không qua bus nào"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-70",
+            "clusterId": null
+          },
+          {
+            "startLine": 443,
+            "text": "Trong sơ đồ nhận lệnh, lệnh đọc từ bộ nhớ trở về CPU qua bus nào để vào IR?",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795839042216.enc",
+            "options": [
+              {
+                "key": "A",
+                "text": "Bus địa chỉ"
+              },
+              {
+                "key": "B",
+                "text": "Bus điều khiển"
+              },
+              {
+                "key": "C",
+                "text": "Bus ngắt"
+              },
+              {
+                "key": "D",
+                "text": "Bus dữ liệu"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-71",
+            "clusterId": null
+          },
+          {
+            "startLine": 450,
+            "text": "Trong giai đoạn nhận dữ liệu từ bộ nhớ, thanh ghi nào đưa địa chỉ toán hạng ra bus địa chỉ?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "PC"
+              },
+              {
+                "key": "B",
+                "text": "IR"
+              },
+              {
+                "key": "C",
+                "text": "MAR"
+              },
+              {
+                "key": "D",
+                "text": "FR"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "Toán hạng được đọc về qua MBR.",
+            "multi": false,
+            "id": "mcq-72",
+            "clusterId": null
+          },
+          {
+            "startLine": 457,
+            "text": "Trong giai đoạn ghi toán hạng, dữ liệu cần ghi được đưa ra bus dữ liệu qua thanh ghi nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "MBR"
+              },
+              {
+                "key": "B",
+                "text": "MAR"
+              },
+              {
+                "key": "C",
+                "text": "PC"
+              },
+              {
+                "key": "D",
+                "text": "IR"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "Địa chỉ ghi đi qua MAR, dữ liệu đi qua MBR.",
+            "multi": false,
+            "id": "mcq-73",
+            "clusterId": null
+          },
+          {
+            "startLine": 464,
+            "text": "Khi có ngắt, nội dung bộ đếm chương trình PC được xử lý như thế nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Bị xoá và không cần lưu"
+              },
+              {
+                "key": "B",
+                "text": "Được ghi vào ROM"
+              },
+              {
+                "key": "C",
+                "text": "Được chuyển sang IR"
+              },
+              {
+                "key": "D",
+                "text": "Được đưa ra bus dữ liệu để cất vào ngăn xếp (địa chỉ trở về)"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-74",
+            "clusterId": null
+          },
+          {
+            "startLine": 470,
+            "text": "Trong sơ đồ chu trình ngắt, địa chỉ ngăn xếp để cất PC lấy từ thanh ghi nào?",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795839075098.enc",
+            "options": [
+              {
+                "key": "A",
+                "text": "Con trỏ dữ liệu DP"
+              },
+              {
+                "key": "B",
+                "text": "Con trỏ ngăn xếp SP"
+              },
+              {
+                "key": "C",
+                "text": "Thanh ghi cờ"
+              },
+              {
+                "key": "D",
+                "text": "Thanh ghi IR"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-75",
+            "clusterId": null
+          }
+        ]
+      }
+    }
+  }
+}
