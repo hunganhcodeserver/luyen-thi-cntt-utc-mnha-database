@@ -1,0 +1,1534 @@
+{
+  "type": "quiz",
+  "lessonId": "6b0a48af89d8047b0d96cbda",
+  "title": "Ôn tập Chuong2_Cau_truc_He_dieu_hanh.pdf",
+  "slug": "on-tap-chuong2-cau-truc-he-dieu-hanh-pdf",
+  "subjectSlug": "nguyen-ly-he-dieu-hanh-1-1-26n01",
+  "duration": 75,
+  "promptId": null,
+  "analysisAiKeyIds": [],
+  "isPublished": true,
+  "visibility": "public",
+  "allowedUserIds": [],
+  "allowedGroupIds": [],
+  "isDeleted": false,
+  "createdBy": {
+    "id": "6ab3d694415010bf620349e5",
+    "name": "Mai Ngọc Hùng Anh",
+    "email": "hunganh.okokok.0@gmail.com"
+  },
+  "createdAt": "2026-11-28T03:21:19.929Z",
+  "updatedAt": "2026-11-28T03:21:19.929Z",
+  "contentHtml": null,
+  "quiz": {
+    "version": 1,
+    "maxScore": 10,
+    "parts": {
+      "mcq": {
+        "pointsPerQuestion": 0.2,
+        "questions": [
+          {
+            "startLine": 1,
+            "text": "Theo cấu trúc hệ điều hành, lập trình viên (một trong ba góc nhìn) chủ yếu cần điều gì từ hệ điều hành?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Quyền truy cập trực tiếp vào mọi thanh ghi của thiết bị"
+              },
+              {
+                "key": "B",
+                "text": "Tổ chức nội bộ của các thành phần kernel"
+              },
+              {
+                "key": "C",
+                "text": "Chỉ cần giao diện đồ họa đẹp và dễ dùng"
+              },
+              {
+                "key": "D",
+                "text": "API nhất quán và các dịch vụ che giấu chi tiết phần cứng"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "Người dùng quan tâm sự thuận tiện, ổn định; lập trình viên cần API và dịch vụ; người thiết kế quan tâm tổ chức thành phần và giao diện bên trong.",
+            "multi": false,
+            "id": "mcq-1",
+            "clusterId": null
+          },
+          {
+            "startLine": 8,
+            "text": "Trong chuỗi từ yêu cầu của người dùng đến thao tác phần cứng, vai trò của nhân hệ điều hành là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Chỉ chuyển nguyên văn yêu cầu xuống phần cứng, không kiểm tra"
+              },
+              {
+                "key": "B",
+                "text": "Kiểm tra quyền, quản lý tài nguyên và thực hiện yêu cầu một cách có kiểm soát"
+              },
+              {
+                "key": "C",
+                "text": "Thay thế hoàn toàn vai trò của thư viện và API"
+              },
+              {
+                "key": "D",
+                "text": "Cho phép ứng dụng thao tác trực tiếp lên thiết bị để tăng tốc"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Ứng dụng không cần biết chi tiết thiết bị; nhân kiểm tra quyền, quản lý tài nguyên rồi thực hiện yêu cầu.",
+            "multi": false,
+            "id": "mcq-2",
+            "clusterId": null
+          },
+          {
+            "startLine": 15,
+            "text": "Trong sơ đồ các thành phần của hệ điều hành, các khối Tiến trình, Bộ nhớ, Vào/ra & thiết bị, Tệp & lưu trữ... nằm trực tiếp dưới thành phần nào?",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795835786345.enc",
+            "options": [
+              {
+                "key": "A",
+                "text": "Nhân hệ điều hành"
+              },
+              {
+                "key": "B",
+                "text": "Thông tin hệ thống"
+              },
+              {
+                "key": "C",
+                "text": "Chương trình ứng dụng"
+              },
+              {
+                "key": "D",
+                "text": "Phần cứng"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "Các khối chức năng quản lý là các thành phần bên trong nhân hệ điều hành, đứng giữa ứng dụng và phần cứng.",
+            "multi": false,
+            "id": "mcq-3",
+            "clusterId": null
+          },
+          {
+            "startLine": 23,
+            "text": "Tiến trình được định nghĩa trong phần quản lý tiến trình là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Chương trình đang thực thi và mang trạng thái riêng"
+              },
+              {
+                "key": "B",
+                "text": "Một thiết bị vào/ra đang hoạt động"
+              },
+              {
+                "key": "C",
+                "text": "Một vùng nhớ được cấp phát cố định"
+              },
+              {
+                "key": "D",
+                "text": "Tập tin chương trình lưu trên đĩa"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "Tiến trình cần CPU, bộ nhớ, tệp và thiết bị vào/ra để hoàn thành tác vụ.",
+            "multi": false,
+            "id": "mcq-4",
+            "clusterId": null
+          },
+          {
+            "startLine": 30,
+            "text": "Nhiệm vụ nào sau đây KHÔNG thuộc quản lý tiến trình?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Đồng bộ và giao tiếp giữa các tiến trình"
+              },
+              {
+                "key": "B",
+                "text": "Tạm dừng và tiếp tục tiến trình"
+              },
+              {
+                "key": "C",
+                "text": "Tạo và xóa tiến trình"
+              },
+              {
+                "key": "D",
+                "text": "Ánh xạ cấu trúc logic của tệp lên các khối dữ liệu trên thiết bị lưu trữ"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "Ánh xạ tệp lên khối dữ liệu thuộc quản lý hệ thống tệp và lưu trữ.",
+            "multi": false,
+            "id": "mcq-5",
+            "clusterId": null
+          },
+          {
+            "startLine": 37,
+            "text": "Ba việc chính của thành phần quản lý bộ nhớ là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Xếp hàng yêu cầu thiết bị, xử lý ngắt và đệm dữ liệu"
+              },
+              {
+                "key": "B",
+                "text": "Tạo tiến trình, kết thúc tiến trình và đồng bộ tiến trình"
+              },
+              {
+                "key": "C",
+                "text": "Theo dõi vùng nhớ đang dùng và tiến trình sở hữu, quyết định nạp gì, cấp phát/thu hồi bộ nhớ"
+              },
+              {
+                "key": "D",
+                "text": "Xác thực người dùng, mã hóa dữ liệu và ghi vết"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "Theo dõi, quyết định và cấp phát là ba hoạt động chính của quản lý bộ nhớ.",
+            "multi": false,
+            "id": "mcq-6",
+            "clusterId": null
+          },
+          {
+            "startLine": 44,
+            "text": "Quản lý bộ nhớ tạo nền tảng cho những khả năng nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Biên dịch, liên kết và nạp chương trình"
+              },
+              {
+                "key": "B",
+                "text": "Đa chương trình, cách ly tiến trình và bộ nhớ ảo"
+              },
+              {
+                "key": "C",
+                "text": "Sao lưu, khôi phục và nén dữ liệu"
+              },
+              {
+                "key": "D",
+                "text": "Giao diện đồ họa, in ấn và truyền thông mạng"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Quản lý bộ nhớ là nền tảng của đa chương trình, cách ly tiến trình và bộ nhớ ảo.",
+            "multi": false,
+            "id": "mcq-7",
+            "clusterId": null
+          },
+          {
+            "startLine": 51,
+            "text": "Trong quản lý hệ thống tệp và lưu trữ, \"ánh xạ lưu trữ\" có nghĩa là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Đổi tên tệp theo quy ước của người dùng"
+              },
+              {
+                "key": "B",
+                "text": "Nén tệp trước khi đọc"
+              },
+              {
+                "key": "C",
+                "text": "Gắn cấu trúc logic của tệp với các khối dữ liệu trên thiết bị"
+              },
+              {
+                "key": "D",
+                "text": "Sao chép toàn bộ tệp sang thiết bị khác"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "HĐH cung cấp không gian tên thống nhất dù dữ liệu nằm trên nhiều loại phương tiện vật lý.",
+            "multi": false,
+            "id": "mcq-8",
+            "clusterId": null
+          },
+          {
+            "startLine": 58,
+            "text": "Trình điều khiển thiết bị (device driver) trong quản lý vào/ra có nhiệm vụ gì?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Quản lý quyền truy cập tệp của người dùng"
+              },
+              {
+                "key": "B",
+                "text": "Cấp phát CPU cho các tiến trình"
+              },
+              {
+                "key": "C",
+                "text": "Ánh xạ địa chỉ logic sang địa chỉ vật lý của bộ nhớ"
+              },
+              {
+                "key": "D",
+                "text": "Chuyển yêu cầu chung thành lệnh đặc thù của thiết bị; xử lý ngắt, bộ đệm, hàng đợi I/O"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "Mục tiêu là che giấu sự đa dạng thiết bị và ngăn chương trình truy cập phần cứng tùy tiện.",
+            "multi": false,
+            "id": "mcq-9",
+            "clusterId": null
+          },
+          {
+            "startLine": 65,
+            "text": "Sự khác nhau giữa \"bảo vệ\" và \"bảo mật\" là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Bảo vệ là mã hóa dữ liệu; bảo mật là sao lưu dữ liệu"
+              },
+              {
+                "key": "B",
+                "text": "Bảo vệ quy định ai được làm gì; bảo mật chống truy cập hoặc phá hoại trái phép từ bên trong lẫn bên ngoài"
+              },
+              {
+                "key": "C",
+                "text": "Hai khái niệm hoàn toàn giống nhau"
+              },
+              {
+                "key": "D",
+                "text": "Bảo vệ chỉ chống tấn công từ bên ngoài; bảo mật chỉ kiểm soát quyền nội bộ"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Bảo vệ: kiểm soát quyền truy cập CPU, vùng nhớ, tệp, thiết bị. Bảo mật: xác thực, phân quyền, ghi vết, bảo vệ giao tiếp.",
+            "multi": false,
+            "id": "mcq-10",
+            "clusterId": null
+          },
+          {
+            "startLine": 72,
+            "text": "Nhóm dịch vụ nào của HĐH ưu tiên hiệu quả, công bằng, khả năng kiểm soát và độ tin cậy của hệ thống?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Chỉ các dịch vụ mạng"
+              },
+              {
+                "key": "B",
+                "text": "Chỉ dịch vụ biên dịch và gỡ lỗi"
+              },
+              {
+                "key": "C",
+                "text": "Cấp phát tài nguyên, kế toán, bảo vệ và bảo mật"
+              },
+              {
+                "key": "D",
+                "text": "Giao diện người dùng, thực thi chương trình, tệp và vào/ra"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "Đó là nhóm dịch vụ hướng hệ thống; nhóm còn lại hướng đến người dùng.",
+            "multi": false,
+            "id": "mcq-11",
+            "clusterId": null
+          },
+          {
+            "startLine": 79,
+            "text": "Theo sơ đồ các dịch vụ của hệ điều hành, dịch vụ nào sau đây KHÔNG xuất hiện?",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795835811785.enc",
+            "options": [
+              {
+                "key": "A",
+                "text": "Cấp phát tài nguyên"
+              },
+              {
+                "key": "B",
+                "text": "Biên dịch mã nguồn"
+              },
+              {
+                "key": "C",
+                "text": "Kế toán"
+              },
+              {
+                "key": "D",
+                "text": "Phát hiện lỗi"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Sơ đồ gồm: thực thi chương trình, vào/ra, hệ thống tệp, giao tiếp, phát hiện lỗi, kế toán, cấp phát tài nguyên, bảo vệ &amp; bảo mật.",
+            "multi": false,
+            "id": "mcq-12",
+            "clusterId": null
+          },
+          {
+            "startLine": 87,
+            "text": "Theo hình, sau bước \"Nạp vào bộ nhớ\" của chương trình trên đĩa, bước tiếp theo là gì?",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795835817320.enc",
+            "options": [
+              {
+                "key": "A",
+                "text": "CPU thực thi ngay, chưa cần tạo tiến trình"
+              },
+              {
+                "key": "B",
+                "text": "Kết thúc do lỗi"
+              },
+              {
+                "key": "C",
+                "text": "Thu hồi tài nguyên"
+              },
+              {
+                "key": "D",
+                "text": "Tạo tiến trình và cấp phát tài nguyên"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "Luồng: chương trình trên đĩa → nạp vào bộ nhớ → tạo tiến trình + cấp tài nguyên → CPU thực thi → kết thúc (bình thường hoặc do lỗi) → thu hồi tài nguyên.",
+            "multi": false,
+            "id": "mcq-13",
+            "clusterId": null
+          },
+          {
+            "startLine": 95,
+            "text": "Dịch vụ \"thực thi chương trình\" của hệ điều hành bao gồm:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Nạp, chạy và kết thúc chương trình, bình thường hoặc khi có lỗi"
+              },
+              {
+                "key": "B",
+                "text": "Chỉ nạp chương trình vào bộ nhớ"
+              },
+              {
+                "key": "C",
+                "text": "Chỉ biên dịch chương trình"
+              },
+              {
+                "key": "D",
+                "text": "Chỉ lập lịch CPU cho các tiến trình"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "Dịch vụ này quản lý toàn bộ vòng đời thực thi của chương trình.",
+            "multi": false,
+            "id": "mcq-14",
+            "clusterId": null
+          },
+          {
+            "startLine": 102,
+            "text": "Đối với người dùng, thao tác vào/ra thể hiện dưới dạng tệp và luồng dữ liệu; còn những công việc nào do HĐH xử lý ở phía dưới?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Lựa chọn giao diện CLI hay GUI"
+              },
+              {
+                "key": "B",
+                "text": "Soạn thảo nội dung tệp"
+              },
+              {
+                "key": "C",
+                "text": "Đặt tên tệp và chọn biểu tượng"
+              },
+              {
+                "key": "D",
+                "text": "Khối đĩa, bộ đệm, ngắt và trình điều khiển thiết bị"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "HĐH che giấu chi tiết thiết bị khỏi người dùng và ứng dụng.",
+            "multi": false,
+            "id": "mcq-15",
+            "clusterId": null
+          },
+          {
+            "startLine": 109,
+            "text": "Các tiến trình trao đổi dữ liệu với nhau (dịch vụ giao tiếp) bằng cách nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Chỉ bằng lệnh gõ từ bàn phím"
+              },
+              {
+                "key": "B",
+                "text": "Chỉ bằng cách ghi và đọc tệp trên đĩa"
+              },
+              {
+                "key": "C",
+                "text": "Chỉ bằng thanh ghi của CPU"
+              },
+              {
+                "key": "D",
+                "text": "Bộ nhớ chia sẻ hoặc truyền thông báo, trên cùng máy hoặc qua mạng"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "Hai mô hình giao tiếp là bộ nhớ chia sẻ và truyền thông báo.",
+            "multi": false,
+            "id": "mcq-16",
+            "clusterId": null
+          },
+          {
+            "startLine": 116,
+            "text": "Dịch vụ phát hiện và xử lý lỗi của HĐH có thể thực hiện hành động nào khi gặp lỗi?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Chỉ ghi lỗi ra màn hình mà không xử lý"
+              },
+              {
+                "key": "B",
+                "text": "Luôn bỏ qua lỗi để chương trình chạy tiếp"
+              },
+              {
+                "key": "C",
+                "text": "Trả mã lỗi, kết thúc tiến trình hoặc dừng hệ thống khi cần"
+              },
+              {
+                "key": "D",
+                "text": "Luôn khởi động lại máy"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "Mục tiêu là duy trì tính đúng đắn và nhất quán của quá trình tính toán.",
+            "multi": false,
+            "id": "mcq-17",
+            "clusterId": null
+          },
+          {
+            "startLine": 123,
+            "text": "Dịch vụ \"kế toán\" (accounting) của hệ điều hành dùng để:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Theo dõi mức sử dụng tài nguyên để thống kê, tính phí hoặc tối ưu hệ thống"
+              },
+              {
+                "key": "B",
+                "text": "Tính toán các biểu thức số học cho chương trình"
+              },
+              {
+                "key": "C",
+                "text": "Quản lý sổ sách tài chính của người dùng"
+              },
+              {
+                "key": "D",
+                "text": "Cấp phát địa chỉ IP cho thiết bị"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "Đây là dịch vụ thuộc nhóm giúp hệ thống vận hành hiệu quả.",
+            "multi": false,
+            "id": "mcq-18",
+            "clusterId": null
+          },
+          {
+            "startLine": 130,
+            "text": "Giao diện Batch của hệ điều hành là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Giao diện nhập lệnh văn bản từng dòng"
+              },
+              {
+                "key": "B",
+                "text": "Giao diện cảm ứng"
+              },
+              {
+                "key": "C",
+                "text": "Giao diện cửa sổ, biểu tượng và menu"
+              },
+              {
+                "key": "D",
+                "text": "Chuỗi lệnh được chuẩn bị trước và thực hiện không cần tương tác liên tục"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "GUI trực quan, CLI nhanh và tạo được script, Batch chạy theo chuỗi lệnh chuẩn bị sẵn.",
+            "multi": false,
+            "id": "mcq-19",
+            "clusterId": null
+          },
+          {
+            "startLine": 137,
+            "text": "Giao diện dòng lệnh (CLI) đặc biệt phù hợp với trường hợp nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Chỉ hệ thống không có bàn phím"
+              },
+              {
+                "key": "B",
+                "text": "Chỉ các chương trình trò chơi"
+              },
+              {
+                "key": "C",
+                "text": "Người dùng phổ thông chưa từng dùng máy tính"
+              },
+              {
+                "key": "D",
+                "text": "Quản trị hệ thống và tạo script"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "CLI nhanh, có thể viết script nên hợp với quản trị hệ thống.",
+            "multi": false,
+            "id": "mcq-20",
+            "clusterId": null
+          },
+          {
+            "startLine": 144,
+            "text": "Lời gọi hệ thống (system call) được mô tả là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Cổng vào có kiểm soát để chương trình yêu cầu dịch vụ của nhân hệ điều hành"
+              },
+              {
+                "key": "B",
+                "text": "Một hàm tiện ích chạy hoàn toàn trong chế độ người dùng"
+              },
+              {
+                "key": "C",
+                "text": "Lệnh tắt máy tính"
+              },
+              {
+                "key": "D",
+                "text": "Cuộc gọi điện thoại tới quản trị viên hệ thống"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "Ứng dụng thường gọi hàm thư viện/API thay vì thao tác trực tiếp với nhân.",
+            "multi": false,
+            "id": "mcq-21",
+            "clusterId": null
+          },
+          {
+            "startLine": 151,
+            "text": "Lý do chính khiến ứng dụng thường gọi API thay vì gọi trực tiếp lời gọi hệ thống là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "API tạo giao diện thuận tiện và khả chuyển giữa các hệ thống"
+              },
+              {
+                "key": "B",
+                "text": "API không cần kiểm tra quyền truy cập"
+              },
+              {
+                "key": "C",
+                "text": "API chạy trực tiếp trong nhân nên nhanh hơn"
+              },
+              {
+                "key": "D",
+                "text": "Lời gọi hệ thống không thể được gọi từ chương trình ứng dụng"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "Cùng một API có thể ánh xạ sang các system call khác nhau.",
+            "multi": false,
+            "id": "mcq-22",
+            "clusterId": null
+          },
+          {
+            "startLine": 158,
+            "text": "Trong hình, sau khi \"Giao diện lời gọi hệ thống\" nhận yêu cầu, nó tra thành phần nào để xác định dịch vụ cần gọi?",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795835850829.enc",
+            "options": [
+              {
+                "key": "A",
+                "text": "Bảng trang của tiến trình"
+              },
+              {
+                "key": "B",
+                "text": "Thư viện đồ họa"
+              },
+              {
+                "key": "C",
+                "text": "Bảng số hiệu system call"
+              },
+              {
+                "key": "D",
+                "text": "Bảng thiết bị"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "Mỗi lời gọi gắn với một số hiệu; giao diện system call tra bảng, chuyển điều khiển đến thủ tục tương ứng rồi trả trạng thái và kết quả.",
+            "multi": false,
+            "id": "mcq-23",
+            "clusterId": null
+          },
+          {
+            "startLine": 166,
+            "text": "Theo hình, ở bước 3 của luồng thực hiện một lời gọi hệ thống, CPU làm gì?",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795835853438.enc",
+            "options": [
+              {
+                "key": "A",
+                "text": "Đặt số hiệu và tham số"
+              },
+              {
+                "key": "B",
+                "text": "Thực hiện dịch vụ trong nhân"
+              },
+              {
+                "key": "C",
+                "text": "Trả kết quả về chế độ người dùng"
+              },
+              {
+                "key": "D",
+                "text": "Thực hiện lệnh trap/syscall"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "Lệnh trap/syscall chuyển CPU sang chế độ nhân ở bước kế tiếp (bước 4).",
+            "multi": false,
+            "id": "mcq-24",
+            "clusterId": null
+          },
+          {
+            "startLine": 174,
+            "text": "Theo hình, ứng dụng ở chế độ người dùng muốn truy cập phần cứng thì phải đi qua thành phần nào để chuyển sang chế độ nhân?",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795835878769.enc",
+            "options": [
+              {
+                "key": "A",
+                "text": "Dịch vụ nhân gọi ngược lên ứng dụng"
+              },
+              {
+                "key": "B",
+                "text": "API / thư viện mà không qua cổng nào"
+              },
+              {
+                "key": "C",
+                "text": "Trap / System Call Gate"
+              },
+              {
+                "key": "D",
+                "text": "Truy cập phần cứng trực tiếp từ ứng dụng"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "User mode có quyền hạn chế; mọi yêu cầu đặc quyền phải qua cổng trap/system call để vào kernel mode.",
+            "multi": false,
+            "id": "mcq-25",
+            "clusterId": null
+          },
+          {
+            "startLine": 182,
+            "text": "Phương pháp truyền tham số cho lời gọi hệ thống nào nhanh và đơn giản nhưng bị giới hạn bởi số lượng và kích thước thanh ghi?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Truyền qua thanh ghi"
+              },
+              {
+                "key": "B",
+                "text": "Truyền qua khối trong bộ nhớ"
+              },
+              {
+                "key": "C",
+                "text": "Truyền qua ngăn xếp"
+              },
+              {
+                "key": "D",
+                "text": "Truyền qua tệp tạm"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "Ba cách: thanh ghi, khối trong bộ nhớ (truyền địa chỉ khối qua thanh ghi) và ngăn xếp.",
+            "multi": false,
+            "id": "mcq-26",
+            "clusterId": null
+          },
+          {
+            "startLine": 189,
+            "text": "Khi tham số được đặt trong một bảng/khối trong bộ nhớ, chương trình truyền gì cho nhân?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Địa chỉ của khối nhớ đó, thường qua thanh ghi"
+              },
+              {
+                "key": "B",
+                "text": "Tên của thiết bị vào/ra"
+              },
+              {
+                "key": "C",
+                "text": "Số hiệu của tiến trình cha"
+              },
+              {
+                "key": "D",
+                "text": "Toàn bộ nội dung khối qua đường mạng"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "Khối nhớ và ngăn xếp hỗ trợ nhiều tham số hơn so với chỉ dùng thanh ghi.",
+            "multi": false,
+            "id": "mcq-27",
+            "clusterId": null
+          },
+          {
+            "startLine": 196,
+            "text": "Vì sao hệ điều hành phải kiểm tra địa chỉ và dữ liệu đến từ không gian người dùng khi nhận tham số?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Vì dữ liệu từ không gian người dùng không đáng tin cậy và có thể gây hại cho hệ thống"
+              },
+              {
+                "key": "B",
+                "text": "Vì thanh ghi chỉ chứa được số nguyên"
+              },
+              {
+                "key": "C",
+                "text": "Vì chương trình ứng dụng không có tham số"
+              },
+              {
+                "key": "D",
+                "text": "Vì không gian người dùng luôn có địa chỉ lớn hơn nhân"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "Kiểm tra giúp bảo vệ nhân và các tiến trình khác khỏi tham số sai hoặc độc hại.",
+            "multi": false,
+            "id": "mcq-28",
+            "clusterId": null
+          },
+          {
+            "startLine": 203,
+            "text": "Lời gọi hệ thống fork(), exec(), exit(), wait() thuộc nhóm nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Quản lý tệp"
+              },
+              {
+                "key": "B",
+                "text": "Quản lý tiến trình"
+              },
+              {
+                "key": "C",
+                "text": "Quản lý thiết bị"
+              },
+              {
+                "key": "D",
+                "text": "Bảo vệ"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Chúng dùng để tạo tiến trình mới, nạp chương trình, kết thúc tiến trình và chờ tiến trình con.",
+            "multi": false,
+            "id": "mcq-29",
+            "clusterId": null
+          },
+          {
+            "startLine": 210,
+            "text": "Lời gọi hệ thống ioctl() thuộc nhóm nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Giao tiếp"
+              },
+              {
+                "key": "B",
+                "text": "Quản lý thiết bị"
+              },
+              {
+                "key": "C",
+                "text": "Duy trì thông tin"
+              },
+              {
+                "key": "D",
+                "text": "Quản lý tiến trình"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "ioctl() dùng để điều khiển thiết bị.",
+            "multi": false,
+            "id": "mcq-30",
+            "clusterId": null
+          },
+          {
+            "startLine": 217,
+            "text": "Lời gọi hệ thống chmod() và setuid() thuộc nhóm nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Giao tiếp"
+              },
+              {
+                "key": "B",
+                "text": "Duy trì thông tin"
+              },
+              {
+                "key": "C",
+                "text": "Bảo vệ"
+              },
+              {
+                "key": "D",
+                "text": "Quản lý tệp thuần túy, không liên quan đến quyền"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "Nhóm bảo vệ: lấy/đặt quyền, chủ sở hữu, thuộc tính người dùng.",
+            "multi": false,
+            "id": "mcq-31",
+            "clusterId": null
+          },
+          {
+            "startLine": 224,
+            "text": "Theo hình về ví dụ sao chép tệp, sau khi mở tệp nguồn bằng open(), chương trình làm gì tiếp theo?",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795835939728.enc",
+            "options": [
+              {
+                "key": "A",
+                "text": "Đóng cả hai tệp"
+              },
+              {
+                "key": "B",
+                "text": "Nhập tên tệp đích rồi tạo/mở tệp đích"
+              },
+              {
+                "key": "C",
+                "text": "Kết thúc chương trình"
+              },
+              {
+                "key": "D",
+                "text": "Thực hiện vòng lặp ghi dữ liệu"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Chuỗi gọi: open() tệp nguồn → create()/open() tệp đích → vòng lặp read() → write() → close() hai tệp → kết thúc/báo lỗi.",
+            "multi": false,
+            "id": "mcq-32",
+            "clusterId": null
+          },
+          {
+            "startLine": 232,
+            "text": "Theo hình sao chép tệp, vòng lặp chính gồm các lời gọi hệ thống nào?",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795835945002.enc",
+            "options": [
+              {
+                "key": "A",
+                "text": "open() rồi close()"
+              },
+              {
+                "key": "B",
+                "text": "read() rồi write()"
+              },
+              {
+                "key": "C",
+                "text": "create() rồi read()"
+              },
+              {
+                "key": "D",
+                "text": "write() rồi open()"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Mỗi lần lặp đọc một phần từ tệp nguồn rồi ghi vào tệp đích.",
+            "multi": false,
+            "id": "mcq-33",
+            "clusterId": null
+          },
+          {
+            "startLine": 240,
+            "text": "Sau mỗi lời gọi hệ thống trong chương trình sao chép tệp, chương trình nên:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Bỏ qua mã trả về để chạy nhanh hơn"
+              },
+              {
+                "key": "B",
+                "text": "Luôn khởi động lại chương trình"
+              },
+              {
+                "key": "C",
+                "text": "Kiểm tra mã trả về; nếu có lỗi thì đóng tài nguyên đã mở và báo trạng thái phù hợp"
+              },
+              {
+                "key": "D",
+                "text": "Chỉ kiểm tra mã trả về ở lệnh cuối cùng"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "Xử lý lỗi đúng giúp tránh rò rỉ tài nguyên.",
+            "multi": false,
+            "id": "mcq-34",
+            "clusterId": null
+          },
+          {
+            "startLine": 247,
+            "text": "Hàm CreateProcess() thuộc bộ API nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Win32 API"
+              },
+              {
+                "key": "B",
+                "text": "POSIX API"
+              },
+              {
+                "key": "C",
+                "text": "Java API"
+              },
+              {
+                "key": "D",
+                "text": "Một lời gọi hệ thống của UNIX"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "POSIX: open(), read(), write(), fork(); Win32: CreateFile(), ReadFile(), CreateProcess().",
+            "multi": false,
+            "id": "mcq-35",
+            "clusterId": null
+          },
+          {
+            "startLine": 254,
+            "text": "Nhận định nào đúng về quan hệ giữa API và lời gọi hệ thống?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "API là phần cài đặt bên trong nhân"
+              },
+              {
+                "key": "B",
+                "text": "Mỗi hàm API luôn tương ứng chính xác một lời gọi hệ thống duy nhất"
+              },
+              {
+                "key": "C",
+                "text": "Lời gọi hệ thống luôn được gọi qua giao diện đồ họa"
+              },
+              {
+                "key": "D",
+                "text": "Cùng một API có thể được ánh xạ sang các lời gọi hệ thống khác nhau tùy hệ điều hành"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "Chương trình thường không cần biết chi tiết cài đặt trong nhân.",
+            "multi": false,
+            "id": "mcq-36",
+            "clusterId": null
+          },
+          {
+            "startLine": 261,
+            "text": "Nhiều chương trình hệ thống thực chất là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Chương trình ứng dụng văn phòng"
+              },
+              {
+                "key": "B",
+                "text": "Một phần của nhân hệ điều hành chạy ở chế độ nhân"
+              },
+              {
+                "key": "C",
+                "text": "Phần cứng chuyên dụng"
+              },
+              {
+                "key": "D",
+                "text": "Giao diện thuận tiện bao quanh một hoặc nhiều lời gọi hệ thống"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "Nhân cung cấp cơ chế; chương trình hệ thống tổ chức cơ chế đó thành lệnh, công cụ và môi trường.",
+            "multi": false,
+            "id": "mcq-37",
+            "clusterId": null
+          },
+          {
+            "startLine": 268,
+            "text": "Lệnh ps và date thuộc nhóm chương trình hệ thống nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Thông tin trạng thái"
+              },
+              {
+                "key": "B",
+                "text": "Hỗ trợ ngôn ngữ lập trình"
+              },
+              {
+                "key": "C",
+                "text": "Quản lý tệp"
+              },
+              {
+                "key": "D",
+                "text": "Soạn thảo tệp"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "Quản lý tệp: cp/mv/rm; hỗ trợ ngôn ngữ: compiler, assembler, debugger.",
+            "multi": false,
+            "id": "mcq-38",
+            "clusterId": null
+          },
+          {
+            "startLine": 275,
+            "text": "Trong hai cách cài đặt trình thông dịch lệnh, UNIX sử dụng mạnh cách nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Không dùng trình thông dịch lệnh"
+              },
+              {
+                "key": "B",
+                "text": "Mọi lệnh được dịch sang mã máy mỗi khi gõ"
+              },
+              {
+                "key": "C",
+                "text": "Mọi lệnh được tích hợp sẵn trong mã của shell"
+              },
+              {
+                "key": "D",
+                "text": "Mỗi lệnh (rm, cp, ls...) là một chương trình riêng được shell khởi chạy"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "Cách này dễ thêm lệnh mới mà không phải sửa trình thông dịch.",
+            "multi": false,
+            "id": "mcq-39",
+            "clusterId": null
+          },
+          {
+            "startLine": 282,
+            "text": "Nhược điểm của cách cài đặt lệnh tích hợp trực tiếp trong shell là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Lệnh chạy chậm hơn do phải tìm tệp thực thi"
+              },
+              {
+                "key": "B",
+                "text": "Shell trở nên lớn và khó mở rộng khi có nhiều lệnh"
+              },
+              {
+                "key": "C",
+                "text": "Không thể có lệnh nào có tham số"
+              },
+              {
+                "key": "D",
+                "text": "Không thể chạy trên UNIX"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Ưu điểm là gọi nhanh vì mã nằm ngay trong trình thông dịch.",
+            "multi": false,
+            "id": "mcq-40",
+            "clusterId": null
+          },
+          {
+            "startLine": 289,
+            "text": "Ranh giới giữa chương trình hệ thống và chương trình ứng dụng được đánh giá như thế nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Chương trình ứng dụng luôn do nhà sản xuất phần cứng viết"
+              },
+              {
+                "key": "B",
+                "text": "Chương trình hệ thống luôn chạy trong chế độ nhân"
+              },
+              {
+                "key": "C",
+                "text": "Hoàn toàn tuyệt đối và không bao giờ thay đổi"
+              },
+              {
+                "key": "D",
+                "text": "Không tuyệt đối; cùng một chương trình có thể là tiện ích hệ thống hoặc ứng dụng tùy mục đích và cách phân phối"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "Chương trình hệ thống hỗ trợ vận hành, phát triển, khai thác hệ thống; ứng dụng giải quyết bài toán của người dùng.",
+            "multi": false,
+            "id": "mcq-41",
+            "clusterId": null
+          },
+          {
+            "startLine": 296,
+            "text": "Nguyên tắc quan trọng trong thiết kế hệ điều hành là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Gộp mọi cơ chế và chính sách vào một mô-đun duy nhất"
+              },
+              {
+                "key": "B",
+                "text": "Tách cơ chế khỏi chính sách và xác định giao diện rõ ràng giữa các thành phần"
+              },
+              {
+                "key": "C",
+                "text": "Không định nghĩa giao diện giữa các thành phần"
+              },
+              {
+                "key": "D",
+                "text": "Chỉ tối ưu cho một loại phần cứng duy nhất"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Mục tiêu thiết kế gồm cả mục tiêu người dùng (dễ dùng, an toàn) và mục tiêu hệ thống (dễ thiết kế, bảo trì, mở rộng).",
+            "multi": false,
+            "id": "mcq-42",
+            "clusterId": null
+          },
+          {
+            "startLine": 303,
+            "text": "Hình dưới minh họa cấu trúc hệ điều hành nào?",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795835968803.enc",
+            "options": [
+              {
+                "key": "A",
+                "text": "Nhân đơn khối (tiến trình, bộ nhớ, tệp, I/O, driver nằm chung một khối nhân)"
+              },
+              {
+                "key": "B",
+                "text": "Cấu trúc phân tầng với 6 tầng"
+              },
+              {
+                "key": "C",
+                "text": "Máy ảo chạy trên hypervisor"
+              },
+              {
+                "key": "D",
+                "text": "Cấu trúc vi nhân với các server ở chế độ người dùng"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "Trong nhân đơn khối, mọi chức năng nằm chung trong một khối nhân lớn.",
+            "multi": false,
+            "id": "mcq-43",
+            "clusterId": null
+          },
+          {
+            "startLine": 311,
+            "text": "Theo hình cấu trúc UNIX, thành phần nằm giữa \"Chương trình hệ thống\" (Shell, tiện ích, thư viện, trình biên dịch) và \"Nhân UNIX\" là:",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795835972638.enc",
+            "options": [
+              {
+                "key": "A",
+                "text": "Hệ thống tệp"
+              },
+              {
+                "key": "B",
+                "text": "Phần cứng"
+              },
+              {
+                "key": "C",
+                "text": "Giao diện lời gọi hệ thống"
+              },
+              {
+                "key": "D",
+                "text": "Bộ nhớ ảo"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "Chương trình hệ thống yêu cầu dịch vụ của nhân qua giao diện lời gọi hệ thống.",
+            "multi": false,
+            "id": "mcq-44",
+            "clusterId": null
+          },
+          {
+            "startLine": 319,
+            "text": "Theo hình cấu trúc phân tầng, tầng 2 là:",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795836008331.enc",
+            "options": [
+              {
+                "key": "A",
+                "text": "Trình điều khiển thiết bị"
+              },
+              {
+                "key": "B",
+                "text": "Hệ thống tệp và I/O"
+              },
+              {
+                "key": "C",
+                "text": "Bộ nhớ và lập lịch"
+              },
+              {
+                "key": "D",
+                "text": "Giao diện người dùng"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "Tầng 5: giao diện người dùng; 4: chương trình hệ thống; 3: hệ thống tệp &amp; I/O; 2: bộ nhớ &amp; lập lịch; 1: trình điều khiển thiết bị; 0: phần cứng.",
+            "multi": false,
+            "id": "mcq-45",
+            "clusterId": null
+          },
+          {
+            "startLine": 327,
+            "text": "Trong hình cấu trúc vi nhân, vi nhân giữ lại những chức năng nào ở chế độ nhân?",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795836033196.enc",
+            "options": [
+              {
+                "key": "A",
+                "text": "Giao diện người dùng đồ họa"
+              },
+              {
+                "key": "B",
+                "text": "IPC, lập lịch và ngắt cơ bản"
+              },
+              {
+                "key": "C",
+                "text": "File server, Process server, Memory server và Driver server"
+              },
+              {
+                "key": "D",
+                "text": "Toàn bộ hệ thống tệp và trình điều khiển thiết bị"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Các server chạy ở chế độ người dùng và trao đổi thông điệp qua vi nhân.",
+            "multi": false,
+            "id": "mcq-46",
+            "clusterId": null
+          },
+          {
+            "startLine": 335,
+            "text": "Vì sao cấu trúc vi nhân tăng độ tin cậy nhưng có thể làm giảm hiệu năng?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Dịch vụ chạy ngoài nhân bị cách ly nên lỗi ít ảnh hưởng, nhưng phát sinh chi phí giao tiếp giữa các thành phần"
+              },
+              {
+                "key": "B",
+                "text": "Vì vi nhân không cho phép giao tiếp giữa các tiến trình"
+              },
+              {
+                "key": "C",
+                "text": "Vì vi nhân dùng ít bộ nhớ hơn nên dễ lỗi"
+              },
+              {
+                "key": "D",
+                "text": "Vì vi nhân chạy hoàn toàn trên phần cứng"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "Phân tầng và vi nhân tăng khả năng kiểm chứng, cách ly lỗi, bảo mật, mở rộng nhưng có chi phí giao tiếp.",
+            "multi": false,
+            "id": "mcq-47",
+            "clusterId": null
+          },
+          {
+            "startLine": 342,
+            "text": "Nhận định nào đúng về việc lựa chọn cấu trúc hệ điều hành?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Cấu trúc phân tầng không bao giờ được dùng"
+              },
+              {
+                "key": "B",
+                "text": "Không có cấu trúc tối ưu tuyệt đối; lựa chọn phụ thuộc hiệu năng, độ tin cậy, phần cứng mục tiêu và chi phí phát triển/bảo trì"
+              },
+              {
+                "key": "C",
+                "text": "Cấu trúc đơn khối luôn tốt nhất"
+              },
+              {
+                "key": "D",
+                "text": "Cấu trúc vi nhân luôn tốt nhất"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Đơn khối, mô-đun, lai ưu tiên hiệu năng và tích hợp; phân tầng và vi nhân ưu tiên tách biệt.",
+            "multi": false,
+            "id": "mcq-48",
+            "clusterId": null
+          },
+          {
+            "startLine": 349,
+            "text": "Nhóm cấu trúc hệ điều hành nào ưu tiên hiệu năng, giao tiếp trực tiếp và khả năng kết hợp linh hoạt giữa các thành phần?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Chỉ cấu trúc vi nhân"
+              },
+              {
+                "key": "B",
+                "text": "Chỉ hệ điều hành thời gian thực"
+              },
+              {
+                "key": "C",
+                "text": "Đơn khối, mô-đun và cấu trúc lai"
+              },
+              {
+                "key": "D",
+                "text": "Chỉ cấu trúc phân tầng"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "Hai hướng tổ chức: tích hợp chặt (đơn khối, mô-đun, lai) và tách biệt mạnh (phân tầng, vi nhân).",
+            "multi": false,
+            "id": "mcq-49",
+            "clusterId": null
+          },
+          {
+            "startLine": 356,
+            "text": "Theo các mục tiêu thiết kế hệ điều hành, \"mục tiêu hệ thống\" gồm những yêu cầu nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Chỉ yêu cầu về giao diện đồ họa đẹp"
+              },
+              {
+                "key": "B",
+                "text": "Dễ dùng, dễ học, đáng tin cậy và phản hồi tốt"
+              },
+              {
+                "key": "C",
+                "text": "Dễ thiết kế, cài đặt, kiểm thử và bảo trì; hiệu quả, linh hoạt, kháng lỗi và dễ mở rộng"
+              },
+              {
+                "key": "D",
+                "text": "Chỉ yêu cầu chạy nhanh nhất có thể"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "\"Mục tiêu người dùng\": dễ dùng, dễ học, tin cậy, an toàn, phản hồi tốt, phù hợp môi trường ứng dụng.",
+            "multi": false,
+            "id": "mcq-50",
+            "clusterId": null
+          }
+        ]
+      }
+    }
+  }
+}
