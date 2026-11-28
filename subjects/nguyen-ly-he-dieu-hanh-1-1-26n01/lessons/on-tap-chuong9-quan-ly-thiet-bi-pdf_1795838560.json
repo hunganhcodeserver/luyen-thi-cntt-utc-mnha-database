@@ -14,7 +14,7 @@
   "isDeleted": false,
   "createdBy": "6ab3d694415010bf620349e5",
   "createdAt": "2026-11-28T04:02:40.494Z",
-  "updatedAt": "2026-11-28T04:02:41.604Z",
+  "updatedAt": "2026-11-28T04:04:17.565Z",
   "contentHtml": null,
   "quiz": {
     "version": 1,
@@ -566,7 +566,7 @@
           {
             "startLine": 129,
             "text": "Theo bảng ví dụ ba sinh viên gửi lệnh in, tại thời điểm 10:00:06 (C vừa gửi 6 trang), trạng thái hàng đợi là:",
-            "image": null,
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795838614503.enc",
             "options": [
               {
                 "key": "A",
@@ -594,7 +594,7 @@
             "clusterId": null
           },
           {
-            "startLine": 136,
+            "startLine": 137,
             "text": "Các bước CPU xử lý một tín hiệu ngắt theo thứ tự là:",
             "image": null,
             "options": [
@@ -624,7 +624,7 @@
             "clusterId": null
           },
           {
-            "startLine": 143,
+            "startLine": 144,
             "text": "Khi thiết bị gặp lỗi tạm thời (ví dụ nhiễu mạng, thiết bị đang bận), hệ điều hành thường:",
             "image": null,
             "options": [
@@ -654,7 +654,7 @@
             "clusterId": null
           },
           {
-            "startLine": 150,
+            "startLine": 151,
             "text": "Bốn mục tiêu của quản lý thiết bị là:",
             "image": null,
             "options": [
@@ -684,9 +684,9 @@
             "clusterId": null
           },
           {
-            "startLine": 157,
+            "startLine": 158,
             "text": "Theo bảng thiết bị trong hình, danh sách tiến trình đang chờ như \"P2 → P5 → P1\" được lưu ở trường nào?",
-            "image": null,
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795838592286.enc",
             "options": [
               {
                 "key": "A",
@@ -714,7 +714,7 @@
             "clusterId": null
           },
           {
-            "startLine": 164,
+            "startLine": 166,
             "text": "Vòng đời một yêu cầu thiết bị theo thứ tự là:",
             "image": null,
             "options": [
@@ -744,7 +744,7 @@
             "clusterId": null
           },
           {
-            "startLine": 171,
+            "startLine": 173,
             "text": "Với lập lịch thiết bị theo mức ưu tiên, nguy cơ cần phòng tránh là gì, và biện pháp nào được dùng?",
             "image": null,
             "options": [
@@ -774,7 +774,7 @@
             "clusterId": null
           },
           {
-            "startLine": 178,
+            "startLine": 180,
             "text": "Địa chỉ khối luận lý LBA khác CHS ở điểm nào?",
             "image": null,
             "options": [
@@ -804,7 +804,7 @@
             "clusterId": null
           },
           {
-            "startLine": 185,
+            "startLine": 187,
             "text": "Thời gian truy cập của đĩa từ gồm những thành phần nào?",
             "image": null,
             "options": [
@@ -834,7 +834,7 @@
             "clusterId": null
           },
           {
-            "startLine": 192,
+            "startLine": 194,
             "text": "Băng từ phù hợp nhất với mục đích nào?",
             "image": null,
             "options": [
@@ -864,7 +864,7 @@
             "clusterId": null
           },
           {
-            "startLine": 199,
+            "startLine": 201,
             "text": "Cốt lõi của SCSI là gì?",
             "image": null,
             "options": [
@@ -894,7 +894,7 @@
             "clusterId": null
           },
           {
-            "startLine": 206,
+            "startLine": 208,
             "text": "Thuật toán lập lịch đĩa FCFS có đặc điểm nào?",
             "image": null,
             "options": [
@@ -924,7 +924,7 @@
             "clusterId": null
           },
           {
-            "startLine": 213,
+            "startLine": 215,
             "text": "Đầu đọc bắt đầu tại rãnh 53, hàng đợi 98, 183, 37, 122, 14, 124, 65, 67 được phục vụ theo thứ tự đến (như hình). Tổng số rãnh đầu đọc di chuyển là:",
             "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795838300610.enc",
             "options": [
@@ -954,7 +954,7 @@
             "clusterId": null
           },
           {
-            "startLine": 221,
+            "startLine": 223,
             "text": "Đầu đọc bắt đầu tại rãnh 53, hàng đợi 98, 183, 37, 122, 14, 124, 65, 67. Theo hình, luôn chọn yêu cầu gần vị trí hiện tại nhất thì tổng số rãnh di chuyển là:",
             "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795838437677.enc",
             "options": [
@@ -984,7 +984,7 @@
             "clusterId": null
           },
           {
-            "startLine": 229,
+            "startLine": 231,
             "text": "Nhược điểm của SSTF là:",
             "image": null,
             "options": [
@@ -1014,7 +1014,7 @@
             "clusterId": null
           },
           {
-            "startLine": 236,
+            "startLine": 238,
             "text": "Thuật toán SCAN (thang máy) hoạt động như thế nào?",
             "image": null,
             "options": [
@@ -1044,7 +1044,7 @@
             "clusterId": null
           },
           {
-            "startLine": 243,
+            "startLine": 245,
             "text": "Trong hình thuật toán SCAN với đầu đọc bắt đầu tại rãnh 53 đi về phía rãnh nhỏ trước, đầu đọc đổi hướng tại rãnh nào?",
             "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795838454013.enc",
             "options": [
@@ -1074,7 +1074,7 @@
             "clusterId": null
           },
           {
-            "startLine": 251,
+            "startLine": 253,
             "text": "Theo hình thuật toán C-SCAN (đi từ rãnh 53 lên rãnh 199 rồi quay về rãnh 0), nếu tính cả đoạn quay về thì tổng số rãnh di chuyển là:",
             "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795838456783.enc",
             "options": [
@@ -1104,7 +1104,7 @@
             "clusterId": null
           },
           {
-            "startLine": 259,
+            "startLine": 261,
             "text": "Điểm khác nhau giữa LOOK/C-LOOK và SCAN/C-SCAN là:",
             "image": null,
             "options": [
@@ -1134,7 +1134,7 @@
             "clusterId": null
           },
           {
-            "startLine": 266,
+            "startLine": 268,
             "text": "Vì sao thuật toán lập lịch tối ưu cho HDD không nhất thiết mang lại lợi ích tương tự trên SSD/NVMe?",
             "image": null,
             "options": [
@@ -1164,7 +1164,7 @@
             "clusterId": null
           },
           {
-            "startLine": 273,
+            "startLine": 275,
             "text": "Ba kỹ thuật cơ bản trong RAID là:",
             "image": null,
             "options": [
@@ -1194,7 +1194,7 @@
             "clusterId": null
           },
           {
-            "startLine": 280,
+            "startLine": 282,
             "text": "Trong hình RAID 1 (Mirroring), khối dữ liệu A1 được lưu như thế nào?",
             "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795838493928.enc",
             "options": [
@@ -1224,7 +1224,7 @@
             "clusterId": null
           },
           {
-            "startLine": 288,
+            "startLine": 290,
             "text": "Đặc điểm của RAID 0 là:",
             "image": null,
             "options": [
@@ -1254,7 +1254,7 @@
             "clusterId": null
           },
           {
-            "startLine": 295,
+            "startLine": 297,
             "text": "Theo hình RAID 5 với 4 đĩa D1–D4, parity của dải B (P(B)) nằm trên đĩa nào?",
             "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795838496356.enc",
             "options": [
@@ -1284,7 +1284,7 @@
             "clusterId": null
           },
           {
-            "startLine": 303,
+            "startLine": 305,
             "text": "Mảng RAID 5 gồm 4 đĩa, mỗi đĩa 2 TB. Dung lượng sử dụng là:",
             "image": null,
             "options": [
@@ -1314,7 +1314,7 @@
             "clusterId": null
           },
           {
-            "startLine": 310,
+            "startLine": 312,
             "text": "Theo hình RAID 10, hai đĩa trong cùng một cặp mirror chứa dữ liệu như thế nào?",
             "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795838531863.enc",
             "options": [
@@ -1344,7 +1344,7 @@
             "clusterId": null
           },
           {
-            "startLine": 318,
+            "startLine": 320,
             "text": "Điều nào sau đây RAID KHÔNG bảo vệ được?",
             "image": null,
             "options": [
@@ -1374,7 +1374,7 @@
             "clusterId": null
           },
           {
-            "startLine": 325,
+            "startLine": 327,
             "text": "Các nhiệm vụ chính của trình điều khiển thiết bị (driver) gồm:",
             "image": null,
             "options": [
@@ -1404,7 +1404,7 @@
             "clusterId": null
           },
           {
-            "startLine": 332,
+            "startLine": 334,
             "text": "Điểm khác nhau giữa thiết bị khối và thiết bị ký tự là:",
             "image": null,
             "options": [
@@ -1434,7 +1434,7 @@
             "clusterId": null
           },
           {
-            "startLine": 339,
+            "startLine": 341,
             "text": "So sánh driver chạy trong nhân và ngoài nhân:",
             "image": null,
             "options": [
@@ -1464,7 +1464,7 @@
             "clusterId": null
           },
           {
-            "startLine": 346,
+            "startLine": 348,
             "text": "Độc lập thiết bị (device independence) nghĩa là:",
             "image": null,
             "options": [
@@ -1494,7 +1494,7 @@
             "clusterId": null
           },
           {
-            "startLine": 353,
+            "startLine": 355,
             "text": "Trong Plug and Play, bước đầu tiên để hệ điều hành tìm driver phù hợp là:",
             "image": null,
             "options": [
