@@ -1,0 +1,2284 @@
+{
+  "type": "quiz",
+  "lessonId": "6b0a46fa89d8047b0d96cbd9",
+  "title": "Ôn tập C2. Bieu dien thong tin trong may tinh New 2",
+  "slug": "on-tap-c2-bieu-dien-thong-tin-trong-may-tinh-new-2",
+  "subjectSlug": "kien-truc-va-to-chuc-may-tinh-1-1-26n06",
+  "duration": 75,
+  "promptId": null,
+  "analysisAiKeyIds": [],
+  "isPublished": true,
+  "visibility": "public",
+  "allowedUserIds": [],
+  "allowedGroupIds": [],
+  "isDeleted": false,
+  "createdBy": {
+    "id": "6ab3d694415010bf620349e5",
+    "name": "Mai Ngọc Hùng Anh",
+    "email": "hunganh.okokok.0@gmail.com"
+  },
+  "createdAt": "2026-11-28T03:14:02.644Z",
+  "updatedAt": "2026-11-28T03:14:02.644Z",
+  "contentHtml": null,
+  "quiz": {
+    "version": 1,
+    "maxScore": 10,
+    "parts": {
+      "mcq": {
+        "pointsPerQuestion": 0.1333,
+        "questions": [
+          {
+            "startLine": 1,
+            "text": "Hệ mười sáu (Hexa) được dùng chủ yếu để:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Viết gọn các số nhị phân (mỗi nhóm 4 bit thay bằng một chữ số Hexa)"
+              },
+              {
+                "key": "B",
+                "text": "Thay thế hoàn toàn hệ nhị phân trong máy tính"
+              },
+              {
+                "key": "C",
+                "text": "Biểu diễn số thập phân"
+              },
+              {
+                "key": "D",
+                "text": "Biểu diễn số thực dấu phẩy động"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-1",
+            "clusterId": null
+          },
+          {
+            "startLine": 7,
+            "text": "Dùng n chữ số thập phân có thể biểu diễn được bao nhiêu giá trị khác nhau?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "10<sup>n</sup>"
+              },
+              {
+                "key": "B",
+                "text": "10n"
+              },
+              {
+                "key": "C",
+                "text": "n<sup>10</sup>"
+              },
+              {
+                "key": "D",
+                "text": "10<sup>n</sup> − 1"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "Giá trị lớn nhất là 10<sup>n</sup> − 1 nhưng số giá trị là 10<sup>n</sup>.",
+            "multi": false,
+            "id": "mcq-2",
+            "clusterId": null
+          },
+          {
+            "startLine": 14,
+            "text": "Giá trị thập phân của số nhị phân <code>1101001.1011</code> là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "105.5875"
+              },
+              {
+                "key": "B",
+                "text": "104.6875"
+              },
+              {
+                "key": "C",
+                "text": "105.6875"
+              },
+              {
+                "key": "D",
+                "text": "209.1011"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "64 + 32 + 8 + 1 + 0,5 + 0,125 + 0,0625 = 105,6875.",
+            "multi": false,
+            "id": "mcq-3",
+            "clusterId": null
+          },
+          {
+            "startLine": 21,
+            "text": "Chuyển số thập phân 105 sang nhị phân (chia dần cho 2, lấy phần dư), ta được:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "1101001"
+              },
+              {
+                "key": "B",
+                "text": "1001011"
+              },
+              {
+                "key": "C",
+                "text": "1100101"
+              },
+              {
+                "key": "D",
+                "text": "1110001"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-4",
+            "clusterId": null
+          },
+          {
+            "startLine": 27,
+            "text": "Phân tích 17000 = 16384 + 512 + 64 + 32 + 8, số 17000 trong hệ nhị phân (nhóm 4 bit) là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "0100 0010 0110 1000"
+              },
+              {
+                "key": "B",
+                "text": "0100 0001 0110 1000"
+              },
+              {
+                "key": "C",
+                "text": "0010 0010 0110 1000"
+              },
+              {
+                "key": "D",
+                "text": "0100 0010 0110 0100"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "Tương đương 4268 trong hệ Hexa.",
+            "multi": false,
+            "id": "mcq-5",
+            "clusterId": null
+          },
+          {
+            "startLine": 34,
+            "text": "Chuyển phần lẻ 0.6875 sang nhị phân bằng cách nhân dần với 2, ta được:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "0.1101"
+              },
+              {
+                "key": "B",
+                "text": "0.0111"
+              },
+              {
+                "key": "C",
+                "text": "0.1011"
+              },
+              {
+                "key": "D",
+                "text": "0.1010"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "0,6875×2=1,375 (1); 0,375×2=0,75 (0); 0,75×2=1,5 (1); 0,5×2=1,0 (1).",
+            "multi": false,
+            "id": "mcq-6",
+            "clusterId": null
+          },
+          {
+            "startLine": 41,
+            "text": "Số thập phân 0.2 khi đổi sang nhị phân có đặc điểm gì?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Là số hữu hạn 0.01"
+              },
+              {
+                "key": "B",
+                "text": "Là số hữu hạn 0.0011"
+              },
+              {
+                "key": "C",
+                "text": "Là số lẻ nhị phân vô hạn tuần hoàn (0.00110011...)"
+              },
+              {
+                "key": "D",
+                "text": "Không đổi được sang nhị phân"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "Phép nhân dần với 2 không bao giờ ra phần lẻ bằng 0.",
+            "multi": false,
+            "id": "mcq-7",
+            "clusterId": null
+          },
+          {
+            "startLine": 48,
+            "text": "Số nhị phân <code>1011 0011</code> viết sang Hexa là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "B2"
+              },
+              {
+                "key": "B",
+                "text": "3B"
+              },
+              {
+                "key": "C",
+                "text": "B3"
+              },
+              {
+                "key": "D",
+                "text": "D3"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "1011 = B, 0011 = 3.",
+            "multi": false,
+            "id": "mcq-8",
+            "clusterId": null
+          },
+          {
+            "startLine": 55,
+            "text": "Số nhị phân <code>0010 1101 1001 1010</code> viết sang Hexa là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "2D9B"
+              },
+              {
+                "key": "B",
+                "text": "2E9A"
+              },
+              {
+                "key": "C",
+                "text": "2D9A"
+              },
+              {
+                "key": "D",
+                "text": "D29A"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-9",
+            "clusterId": null
+          },
+          {
+            "startLine": 61,
+            "text": "Theo cách lưu trữ Little-endian, byte nào được lưu ở ngăn nhớ có địa chỉ nhỏ?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Byte cao"
+              },
+              {
+                "key": "B",
+                "text": "Byte thấp (byte có trọng số nhỏ nhất)"
+              },
+              {
+                "key": "C",
+                "text": "Byte giữa"
+              },
+              {
+                "key": "D",
+                "text": "Không xác định"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-10",
+            "clusterId": null
+          },
+          {
+            "startLine": 67,
+            "text": "Các bộ xử lý họ Intel 80x86 và Pentium lưu trữ dữ liệu theo kiểu nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Big-endian"
+              },
+              {
+                "key": "B",
+                "text": "Chỉ Big-endian"
+              },
+              {
+                "key": "C",
+                "text": "Little-endian"
+              },
+              {
+                "key": "D",
+                "text": "Không dùng cách nào"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-11",
+            "clusterId": null
+          },
+          {
+            "startLine": 73,
+            "text": "Để mã hoá 26 chữ cái hoa bằng các tổ hợp bit có độ dài cố định, cần ít nhất bao nhiêu bit?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "4 bit"
+              },
+              {
+                "key": "B",
+                "text": "5 bit"
+              },
+              {
+                "key": "C",
+                "text": "6 bit"
+              },
+              {
+                "key": "D",
+                "text": "8 bit"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "2<sup>4</sup> = 16 &lt; 26 ≤ 32 = 2<sup>5</sup>.",
+            "multi": false,
+            "id": "mcq-12",
+            "clusterId": null
+          },
+          {
+            "startLine": 80,
+            "text": "Dải biểu diễn số nguyên không dấu 8 bit là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "0 đến 256"
+              },
+              {
+                "key": "B",
+                "text": "0 đến 255"
+              },
+              {
+                "key": "C",
+                "text": "−128 đến +127"
+              },
+              {
+                "key": "D",
+                "text": "1 đến 255"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-13",
+            "clusterId": null
+          },
+          {
+            "startLine": 86,
+            "text": "Giá trị của số nguyên không dấu <code>1011 1001</code> (8 bit) là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "57"
+              },
+              {
+                "key": "B",
+                "text": "−71"
+              },
+              {
+                "key": "C",
+                "text": "189"
+              },
+              {
+                "key": "D",
+                "text": "185"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "128 + 32 + 16 + 8 + 1 = 185.",
+            "multi": false,
+            "id": "mcq-14",
+            "clusterId": null
+          },
+          {
+            "startLine": 93,
+            "text": "Với số nguyên không dấu 8 bit, phép tính 255 + 1 cho kết quả 0000 0000 và nhớ ra ngoài 1. Hiện tượng này gọi là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Chia cho 0"
+              },
+              {
+                "key": "B",
+                "text": "Lỗi làm tròn"
+              },
+              {
+                "key": "C",
+                "text": "Tràn (nhớ ra ngoài)"
+              },
+              {
+                "key": "D",
+                "text": "Bù hai"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "Trục số máy tính 8 bit là vòng tròn nên 255 + 1 quay về 0.",
+            "multi": false,
+            "id": "mcq-15",
+            "clusterId": null
+          },
+          {
+            "startLine": 100,
+            "text": "Với n = 4 chữ số thập phân, số bù chín của A = 3265 là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "6735"
+              },
+              {
+                "key": "B",
+                "text": "6745"
+              },
+              {
+                "key": "C",
+                "text": "7735"
+              },
+              {
+                "key": "D",
+                "text": "6734"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "9999 − 3265 = 6734.",
+            "multi": false,
+            "id": "mcq-16",
+            "clusterId": null
+          },
+          {
+            "startLine": 107,
+            "text": "Số bù một của số nhị phân A (n bit) được tính bằng:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Đảo bit của A rồi cộng 1"
+              },
+              {
+                "key": "B",
+                "text": "Đảo giá trị tất cả các bit của A"
+              },
+              {
+                "key": "C",
+                "text": "Dịch A sang trái 1 bit"
+              },
+              {
+                "key": "D",
+                "text": "Lấy A trừ 1"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Bù một = (2<sup>n</sup> − 1) − A.",
+            "multi": false,
+            "id": "mcq-17",
+            "clusterId": null
+          },
+          {
+            "startLine": 114,
+            "text": "Số bù hai của số nhị phân A (n bit) được tính bằng:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Số bù một của A cộng 1"
+              },
+              {
+                "key": "B",
+                "text": "Số bù một của A trừ 1"
+              },
+              {
+                "key": "C",
+                "text": "Đảo bit của A"
+              },
+              {
+                "key": "D",
+                "text": "Dịch A sang phải 1 bit"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "Bù hai = 2<sup>n</sup> − A.",
+            "multi": false,
+            "id": "mcq-18",
+            "clusterId": null
+          },
+          {
+            "startLine": 121,
+            "text": "Với A = 0010 0101 (8 bit), số bù hai của A là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "1101 1011"
+              },
+              {
+                "key": "B",
+                "text": "1101 1010"
+              },
+              {
+                "key": "C",
+                "text": "1101 1100"
+              },
+              {
+                "key": "D",
+                "text": "0010 0110"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "Bù một: 1101 1010; cộng 1 được 1101 1011 (= −37).",
+            "multi": false,
+            "id": "mcq-19",
+            "clusterId": null
+          },
+          {
+            "startLine": 128,
+            "text": "Trong biểu diễn số nguyên có dấu n bit bằng mã bù hai, bit a<sub>n−1</sub> có ý nghĩa gì?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Bit dấu: 1 là số dương, 0 là số âm"
+              },
+              {
+                "key": "B",
+                "text": "Bit chẵn lẻ"
+              },
+              {
+                "key": "C",
+                "text": "Bit tràn"
+              },
+              {
+                "key": "D",
+                "text": "Bit dấu: 0 là số dương, 1 là số âm"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-20",
+            "clusterId": null
+          },
+          {
+            "startLine": 134,
+            "text": "Dải biểu diễn số nguyên có dấu 8 bit dạng bù hai là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "−127 đến +127"
+              },
+              {
+                "key": "B",
+                "text": "−255 đến +255"
+              },
+              {
+                "key": "C",
+                "text": "0 đến 255"
+              },
+              {
+                "key": "D",
+                "text": "−128 đến +127"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-21",
+            "clusterId": null
+          },
+          {
+            "startLine": 140,
+            "text": "Số nguyên có dấu 8 bit <code>1000 0000</code> (bù hai) có giá trị là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "−0"
+              },
+              {
+                "key": "B",
+                "text": "−128"
+              },
+              {
+                "key": "C",
+                "text": "−127"
+              },
+              {
+                "key": "D",
+                "text": "+128"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-22",
+            "clusterId": null
+          },
+          {
+            "startLine": 146,
+            "text": "Giá trị của số nguyên có dấu <code>1101 1011</code> (8 bit, bù hai) là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "−37"
+              },
+              {
+                "key": "B",
+                "text": "−91"
+              },
+              {
+                "key": "C",
+                "text": "+219"
+              },
+              {
+                "key": "D",
+                "text": "−27"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "−128 + 64 + 16 + 8 + 2 + 1 = −37.",
+            "multi": false,
+            "id": "mcq-23",
+            "clusterId": null
+          },
+          {
+            "startLine": 153,
+            "text": "Biểu diễn −80 bằng 8 bit dạng bù hai là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "1010 1111"
+              },
+              {
+                "key": "B",
+                "text": "1011 0000"
+              },
+              {
+                "key": "C",
+                "text": "1101 0000"
+              },
+              {
+                "key": "D",
+                "text": "0101 0000"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "+80 = 0101 0000; bù một 1010 1111; cộng 1 được 1011 0000.",
+            "multi": false,
+            "id": "mcq-24",
+            "clusterId": null
+          },
+          {
+            "startLine": 160,
+            "text": "Số nhị phân 8 bit <code>1100 1100</code> nếu được hiểu là số có dấu dạng bù hai thì có giá trị:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "−51"
+              },
+              {
+                "key": "B",
+                "text": "−76"
+              },
+              {
+                "key": "C",
+                "text": "−52"
+              },
+              {
+                "key": "D",
+                "text": "+204"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "Bù hai: 0011 0011 + 1 = 0011 0100 = 52.",
+            "multi": false,
+            "id": "mcq-25",
+            "clusterId": null
+          },
+          {
+            "startLine": 167,
+            "text": "Số nhị phân 8 bit <code>1100 1100</code> nếu được hiểu là số có dấu dạng bù một thì có giá trị:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "−51"
+              },
+              {
+                "key": "B",
+                "text": "−52"
+              },
+              {
+                "key": "C",
+                "text": "−76"
+              },
+              {
+                "key": "D",
+                "text": "−204"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "Đảo bit: 0011 0011 = 51.",
+            "multi": false,
+            "id": "mcq-26",
+            "clusterId": null
+          },
+          {
+            "startLine": 174,
+            "text": "Mở rộng số −19 (<code>1110 1101</code>, 8 bit) thành 16 bit dạng bù hai ta được:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "0000 0000 1110 1101"
+              },
+              {
+                "key": "B",
+                "text": "1110 1101 0000 0000"
+              },
+              {
+                "key": "C",
+                "text": "1000 0000 1110 1101"
+              },
+              {
+                "key": "D",
+                "text": "1111 1111 1110 1101"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "Với số âm thêm 8 bit 1 bên trái.",
+            "multi": false,
+            "id": "mcq-27",
+            "clusterId": null
+          },
+          {
+            "startLine": 181,
+            "text": "Biểu diễn −2005 bằng 16 bit dạng bù hai, viết bằng Hexa, là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "F82B"
+              },
+              {
+                "key": "B",
+                "text": "07D5"
+              },
+              {
+                "key": "C",
+                "text": "F82A"
+              },
+              {
+                "key": "D",
+                "text": "FFD5"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "2005 = 07D5h; bù hai = F82Bh.",
+            "multi": false,
+            "id": "mcq-28",
+            "clusterId": null
+          },
+          {
+            "startLine": 188,
+            "text": "Phép đảo dấu một số nguyên trong máy tính thực chất là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Đảo bit dấu"
+              },
+              {
+                "key": "B",
+                "text": "Lấy bù hai của số đó"
+              },
+              {
+                "key": "C",
+                "text": "Lấy bù một của số đó"
+              },
+              {
+                "key": "D",
+                "text": "Dịch số đó sang trái"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-29",
+            "clusterId": null
+          },
+          {
+            "startLine": 194,
+            "text": "Khi cộng hai số nguyên không dấu n bit, kết quả đúng khi nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Khi C<sub>out</sub> = 1"
+              },
+              {
+                "key": "B",
+                "text": "Khi tổng hai số bằng 0"
+              },
+              {
+                "key": "C",
+                "text": "Khi C<sub>out</sub> = 0"
+              },
+              {
+                "key": "D",
+                "text": "Luôn đúng"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-30",
+            "clusterId": null
+          },
+          {
+            "startLine": 200,
+            "text": "Cộng hai số không dấu 8 bit 209 + 73 cho kết quả 8 bit sai (= 26) vì:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Hai số cùng dấu"
+              },
+              {
+                "key": "B",
+                "text": "Số 209 là số âm"
+              },
+              {
+                "key": "C",
+                "text": "Tổng 282 > 255 nên có nhớ ra ngoài (C<sub>out</sub> = 1)"
+              },
+              {
+                "key": "D",
+                "text": "Bit dấu bằng 1"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "Muốn đúng phải cộng theo 16 bit.",
+            "multi": false,
+            "id": "mcq-31",
+            "clusterId": null
+          },
+          {
+            "startLine": 207,
+            "text": "Khi cộng hai số nguyên có dấu khác dấu thì:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Luôn bị tràn"
+              },
+              {
+                "key": "B",
+                "text": "Kết quả luôn đúng, không bao giờ tràn"
+              },
+              {
+                "key": "C",
+                "text": "Chỉ đúng khi C<sub>out</sub> = 1"
+              },
+              {
+                "key": "D",
+                "text": "Luôn bằng 0"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-32",
+            "clusterId": null
+          },
+          {
+            "startLine": 213,
+            "text": "Khi nào việc cộng hai số nguyên có dấu bị tràn (overflow)?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Hai số khác dấu"
+              },
+              {
+                "key": "B",
+                "text": "Kết quả bằng 0"
+              },
+              {
+                "key": "C",
+                "text": "Có nhớ ra ngoài từ bit cao nhất trong mọi trường hợp"
+              },
+              {
+                "key": "D",
+                "text": "Hai số cùng dấu nhưng kết quả có dấu ngược lại"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-33",
+            "clusterId": null
+          },
+          {
+            "startLine": 219,
+            "text": "Cộng hai số có dấu 8 bit +75 và +82 cho kết quả nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "+157"
+              },
+              {
+                "key": "B",
+                "text": "+99"
+              },
+              {
+                "key": "C",
+                "text": "−157"
+              },
+              {
+                "key": "D",
+                "text": "−99 (sai do tràn)"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "157 &gt; 127 nên tràn: 1001 1101 = −99.",
+            "multi": false,
+            "id": "mcq-34",
+            "clusterId": null
+          },
+          {
+            "startLine": 226,
+            "text": "Máy tính thực hiện phép trừ X − Y bằng cách:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Lấy bù một của X rồi cộng Y"
+              },
+              {
+                "key": "B",
+                "text": "Cộng X với Y rồi đảo dấu"
+              },
+              {
+                "key": "C",
+                "text": "Lấy bù hai của Y rồi cộng với X"
+              },
+              {
+                "key": "D",
+                "text": "Dịch Y sang phải rồi trừ X"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "X − Y = X + (−Y).",
+            "multi": false,
+            "id": "mcq-35",
+            "clusterId": null
+          },
+          {
+            "startLine": 233,
+            "text": "Nhân hai số nguyên không dấu n bit thì tích có độ dài:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "n bit"
+              },
+              {
+                "key": "B",
+                "text": "n + 1 bit"
+              },
+              {
+                "key": "C",
+                "text": "n/2 bit"
+              },
+              {
+                "key": "D",
+                "text": "2n bit (không bao giờ tràn)"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-36",
+            "clusterId": null
+          },
+          {
+            "startLine": 239,
+            "text": "Với số bị nhân M = 1011 (11) và số nhân Q = 1101 (13), tích là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "1000 1111 (143)"
+              },
+              {
+                "key": "B",
+                "text": "1001 1111 (159)"
+              },
+              {
+                "key": "C",
+                "text": "0111 1111 (127)"
+              },
+              {
+                "key": "D",
+                "text": "1000 1101 (141)"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "11 × 13 = 143.",
+            "multi": false,
+            "id": "mcq-37",
+            "clusterId": null
+          },
+          {
+            "startLine": 246,
+            "text": "Thuật giải nhân dùng phương pháp kinh điển cho số có dấu dạng bù hai là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Thuật giải Euclid"
+              },
+              {
+                "key": "B",
+                "text": "Thuật giải Newton"
+              },
+              {
+                "key": "C",
+                "text": "Thuật giải CRC"
+              },
+              {
+                "key": "D",
+                "text": "Thuật giải Booth"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-38",
+            "clusterId": null
+          },
+          {
+            "startLine": 252,
+            "text": "Theo ví dụ Booth với M = 0111 (7), Q = 0011 (3), n = 4, kết quả tích là:",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795835635485.enc",
+            "options": [
+              {
+                "key": "A",
+                "text": "+10"
+              },
+              {
+                "key": "B",
+                "text": "−21"
+              },
+              {
+                "key": "C",
+                "text": "+21"
+              },
+              {
+                "key": "D",
+                "text": "+14"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-39",
+            "clusterId": null
+          },
+          {
+            "startLine": 259,
+            "text": "Trong phép chia không dấu 7/3 (0111/0011) theo thuật giải, kết quả thương Q và dư A là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Q = 1, A = 2"
+              },
+              {
+                "key": "B",
+                "text": "Q = 3, A = 0"
+              },
+              {
+                "key": "C",
+                "text": "Q = 2, A = 1"
+              },
+              {
+                "key": "D",
+                "text": "Q = 2, A = 0"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "7 = 3 × 2 + 1.",
+            "multi": false,
+            "id": "mcq-40",
+            "clusterId": null
+          },
+          {
+            "startLine": 266,
+            "text": "Trong thuật giải chia, khi phép trừ A ← A − M cho kết quả A < 0 thì:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Đặt Q<sub>0</sub> ← 1"
+              },
+              {
+                "key": "B",
+                "text": "Dừng thuật giải"
+              },
+              {
+                "key": "C",
+                "text": "Khôi phục A (A ← A + M) và đặt Q<sub>0</sub> ← 0"
+              },
+              {
+                "key": "D",
+                "text": "Đổi dấu M"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-41",
+            "clusterId": null
+          },
+          {
+            "startLine": 272,
+            "text": "Phép chia số nguyên có dấu: nếu số bị chia dương, số chia âm thì thương và số dư lần lượt:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Thương đảo dấu, số dư giữ nguyên"
+              },
+              {
+                "key": "B",
+                "text": "Cả hai giữ nguyên"
+              },
+              {
+                "key": "C",
+                "text": "Cả hai đảo dấu"
+              },
+              {
+                "key": "D",
+                "text": "Thương giữ nguyên, số dư đảo dấu"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "Theo bảng: dương/âm → thương đảo dấu, dư giữ nguyên.",
+            "multi": false,
+            "id": "mcq-42",
+            "clusterId": null
+          },
+          {
+            "startLine": 279,
+            "text": "Chuẩn dấu phẩy động IEEE 754 dùng cơ số R bằng:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "2"
+              },
+              {
+                "key": "B",
+                "text": "10"
+              },
+              {
+                "key": "C",
+                "text": "8"
+              },
+              {
+                "key": "D",
+                "text": "16"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-43",
+            "clusterId": null
+          },
+          {
+            "startLine": 285,
+            "text": "Số dấu phẩy động IEEE 754 dạng 32 bit gồm các trường nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "1 bit dấu, 11 bit mũ, 20 bit định trị"
+              },
+              {
+                "key": "B",
+                "text": "1 bit dấu, 7 bit mũ, 24 bit định trị"
+              },
+              {
+                "key": "C",
+                "text": "8 bit dấu, 1 bit mũ, 23 bit định trị"
+              },
+              {
+                "key": "D",
+                "text": "1 bit dấu, 8 bit mũ (e), 23 bit định trị (m)"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-44",
+            "clusterId": null
+          },
+          {
+            "startLine": 291,
+            "text": "Trong dạng 32 bit IEEE 754, phần mũ e được mã hoá theo kiểu nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Bù hai"
+              },
+              {
+                "key": "B",
+                "text": "Excess-127: e = E + 127"
+              },
+              {
+                "key": "C",
+                "text": "Dấu và độ lớn"
+              },
+              {
+                "key": "D",
+                "text": "Excess-128: e = E + 128"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-45",
+            "clusterId": null
+          },
+          {
+            "startLine": 297,
+            "text": "Giá trị của số thực dạng 32 bit IEEE 754 được tính theo công thức:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "X = (−1)<sup>S</sup> × 0.m × 2<sup>e</sup>"
+              },
+              {
+                "key": "B",
+                "text": "X = (−1)<sup>S</sup> × 1.m × 2<sup>e+127</sup>"
+              },
+              {
+                "key": "C",
+                "text": "X = S × m × 2<sup>e</sup>"
+              },
+              {
+                "key": "D",
+                "text": "X = (−1)<sup>S</sup> × 1.m × 2<sup>e−127</sup>"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-46",
+            "clusterId": null
+          },
+          {
+            "startLine": 303,
+            "text": "Dãy 32 bit <code>1100 0001 0101 0110 0000 ... 0000</code> biểu diễn số thực:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "+13.375"
+              },
+              {
+                "key": "B",
+                "text": "−13.375"
+              },
+              {
+                "key": "C",
+                "text": "−3.375"
+              },
+              {
+                "key": "D",
+                "text": "−26.75"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "S = 1; e = 130 → E = 3; 1.1010110 × 2<sup>3</sup> = 1101.011.",
+            "multi": false,
+            "id": "mcq-47",
+            "clusterId": null
+          },
+          {
+            "startLine": 310,
+            "text": "Biểu diễn số thực 83.75 dạng IEEE 754 32 bit, viết bằng Hexa, là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "42A70000"
+              },
+              {
+                "key": "B",
+                "text": "C2A78000"
+              },
+              {
+                "key": "C",
+                "text": "43A78000"
+              },
+              {
+                "key": "D",
+                "text": "42A78000"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "83,75 = 1.01001111 × 2<sup>6</sup>; e = 133.",
+            "multi": false,
+            "id": "mcq-48",
+            "clusterId": null
+          },
+          {
+            "startLine": 317,
+            "text": "Biểu diễn số thực 1/32 dạng IEEE 754 32 bit, viết bằng Hexa, là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "3C000000"
+              },
+              {
+                "key": "B",
+                "text": "3D000000"
+              },
+              {
+                "key": "C",
+                "text": "3D800000"
+              },
+              {
+                "key": "D",
+                "text": "3E000000"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "1/32 = 1.0 × 2<sup>−5</sup>; e = 122 = 7Ah.",
+            "multi": false,
+            "id": "mcq-49",
+            "clusterId": null
+          },
+          {
+            "startLine": 324,
+            "text": "Biểu diễn số thực −27.0625 dạng IEEE 754 32 bit, viết bằng Hexa, là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "41D88000"
+              },
+              {
+                "key": "B",
+                "text": "C1D80000"
+              },
+              {
+                "key": "C",
+                "text": "C1B88000"
+              },
+              {
+                "key": "D",
+                "text": "C1D88000"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "27,0625 = 11011.0001 = 1.10110001 × 2<sup>4</sup>; e = 131.",
+            "multi": false,
+            "id": "mcq-50",
+            "clusterId": null
+          },
+          {
+            "startLine": 331,
+            "text": "Trong IEEE 754 32 bit, nếu các bit của e đều bằng 1 và m đều bằng 0 thì số biểu diễn là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "±0"
+              },
+              {
+                "key": "B",
+                "text": "±∞ (vô cùng)"
+              },
+              {
+                "key": "C",
+                "text": "NaN"
+              },
+              {
+                "key": "D",
+                "text": "1.0"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Nếu e đều 1 và m có ít nhất 1 bit bằng 1 thì là NaN.",
+            "multi": false,
+            "id": "mcq-51",
+            "clusterId": null
+          },
+          {
+            "startLine": 338,
+            "text": "Thứ tự ưu tiên của các phép toán logic trong đại số Boole là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "OR > AND > NOT"
+              },
+              {
+                "key": "B",
+                "text": "AND > NOT > OR"
+              },
+              {
+                "key": "C",
+                "text": "NOT > OR > AND"
+              },
+              {
+                "key": "D",
+                "text": "NOT > AND > OR"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-52",
+            "clusterId": null
+          },
+          {
+            "startLine": 344,
+            "text": "Biểu thức nào sau đây là định lý De Morgan?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "<code>NOT(A·B) = NOT(A) + NOT(B)</code>"
+              },
+              {
+                "key": "B",
+                "text": "<code>A + A = 2A</code>"
+              },
+              {
+                "key": "C",
+                "text": "<code>A·NOT(A) = 1</code>"
+              },
+              {
+                "key": "D",
+                "text": "<code>A + 1 = A</code>"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-53",
+            "clusterId": null
+          },
+          {
+            "startLine": 350,
+            "text": "Phép toán A XOR B cho kết quả 1 khi nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Khi hai giá trị A và B khác nhau"
+              },
+              {
+                "key": "B",
+                "text": "Khi A và B cùng bằng 1"
+              },
+              {
+                "key": "C",
+                "text": "Khi A và B bằng nhau"
+              },
+              {
+                "key": "D",
+                "text": "Khi cả hai bằng 0"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-54",
+            "clusterId": null
+          },
+          {
+            "startLine": 356,
+            "text": "Phép toán NAND cho kết quả 0 khi nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Khi cả hai đầu vào bằng 1"
+              },
+              {
+                "key": "B",
+                "text": "Khi cả hai đầu vào bằng 0"
+              },
+              {
+                "key": "C",
+                "text": "Khi có ít nhất một đầu vào bằng 1"
+              },
+              {
+                "key": "D",
+                "text": "Khi hai đầu vào khác nhau"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-55",
+            "clusterId": null
+          },
+          {
+            "startLine": 362,
+            "text": "Tập đầy đủ (functionally complete) các cổng logic là tập có thể:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Chỉ thực hiện được hàm AND"
+              },
+              {
+                "key": "B",
+                "text": "Chỉ gồm các cổng một đầu vào"
+              },
+              {
+                "key": "C",
+                "text": "Gồm tất cả các cổng nhiều đầu vào"
+              },
+              {
+                "key": "D",
+                "text": "Thực hiện được bất kỳ hàm logic nào từ các cổng của tập đó"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-56",
+            "clusterId": null
+          },
+          {
+            "startLine": 368,
+            "text": "Tập cổng nào sau đây KHÔNG phải là tập đầy đủ?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "{AND, NOT}"
+              },
+              {
+                "key": "B",
+                "text": "{AND, OR}"
+              },
+              {
+                "key": "C",
+                "text": "{OR, NOT}"
+              },
+              {
+                "key": "D",
+                "text": "{NAND}"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Không có phép phủ định nên không tạo được NOT.",
+            "multi": false,
+            "id": "mcq-57",
+            "clusterId": null
+          },
+          {
+            "startLine": 375,
+            "text": "Mạch logic tổ hợp có đặc điểm nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Đầu ra phụ thuộc cả các giá trị trước đó"
+              },
+              {
+                "key": "B",
+                "text": "Đầu ra chỉ phụ thuộc giá trị đầu vào ở thời điểm hiện tại, không có nhớ"
+              },
+              {
+                "key": "C",
+                "text": "Luôn có phần tử nhớ"
+              },
+              {
+                "key": "D",
+                "text": "Chỉ gồm các flip-flop"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-58",
+            "clusterId": null
+          },
+          {
+            "startLine": 381,
+            "text": "Với hàm <code>F = NOT(A)·NOT(B)·C + NOT(A)·B·C + A·B·NOT(C)</code>, khi A = 0, B = 1, C = 1 thì F bằng:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "0"
+              },
+              {
+                "key": "B",
+                "text": "1"
+              },
+              {
+                "key": "C",
+                "text": "2"
+              },
+              {
+                "key": "D",
+                "text": "Không xác định"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Số hạng thứ hai: 1·1·1 = 1.",
+            "multi": false,
+            "id": "mcq-59",
+            "clusterId": null
+          },
+          {
+            "startLine": 388,
+            "text": "Bộ dồn kênh (MUX) 4-1 có bao nhiêu đầu vào dữ liệu, đầu vào chọn và đầu ra?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "2 đầu vào dữ liệu, 4 đầu vào chọn, 1 đầu ra"
+              },
+              {
+                "key": "B",
+                "text": "4 đầu vào dữ liệu, 4 đầu vào chọn, 2 đầu ra"
+              },
+              {
+                "key": "C",
+                "text": "2 đầu vào dữ liệu, 2 đầu vào chọn, 4 đầu ra"
+              },
+              {
+                "key": "D",
+                "text": "4 đầu vào dữ liệu, 2 đầu vào chọn, 1 đầu ra"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "MUX có 2<sup>n</sup> đầu vào dữ liệu, n đầu vào chọn, 1 đầu ra.",
+            "multi": false,
+            "id": "mcq-60",
+            "clusterId": null
+          },
+          {
+            "startLine": 395,
+            "text": "Bộ giải mã (Decoder) N đầu vào có bao nhiêu đầu ra và có bao nhiêu đầu ra tích cực tại một thời điểm?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "N đầu ra, tất cả đều tích cực"
+              },
+              {
+                "key": "B",
+                "text": "2N đầu ra, hai đầu ra tích cực"
+              },
+              {
+                "key": "C",
+                "text": "N<sup>2</sup> đầu ra, một đầu ra tích cực"
+              },
+              {
+                "key": "D",
+                "text": "2<sup>N</sup> đầu ra, chỉ một đầu ra tích cực"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-61",
+            "clusterId": null
+          },
+          {
+            "startLine": 401,
+            "text": "Bộ bán tổng (Half-adder) cộng hai bit A, B cho ra:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Sum = A AND B, Carry = A XOR B"
+              },
+              {
+                "key": "B",
+                "text": "Sum = A OR B, Carry = A AND B"
+              },
+              {
+                "key": "C",
+                "text": "Chỉ có Sum"
+              },
+              {
+                "key": "D",
+                "text": "Bit tổng Sum = A XOR B và bit nhớ Carry = A AND B"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-62",
+            "clusterId": null
+          },
+          {
+            "startLine": 407,
+            "text": "Bộ toàn tổng (Full-adder) khác bộ bán tổng ở chỗ:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Chỉ cộng 1 bit"
+              },
+              {
+                "key": "B",
+                "text": "Chỉ cộng 2 bit"
+              },
+              {
+                "key": "C",
+                "text": "Cộng được 3 bit (có thêm bit nhớ vào C<sub>in</sub>)"
+              },
+              {
+                "key": "D",
+                "text": "Không có bit nhớ ra"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-63",
+            "clusterId": null
+          },
+          {
+            "startLine": 413,
+            "text": "Mạch dãy (Sequential logic) có đặc điểm:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Đầu ra chỉ phụ thuộc đầu vào hiện tại"
+              },
+              {
+                "key": "B",
+                "text": "Không có mạch hồi tiếp"
+              },
+              {
+                "key": "C",
+                "text": "Đầu ra phụ thuộc giá trị đầu vào hiện tại và các giá trị trước đó (có phần tử nhớ)"
+              },
+              {
+                "key": "D",
+                "text": "Chỉ gồm các cổng AND, OR"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-64",
+            "clusterId": null
+          },
+          {
+            "startLine": 419,
+            "text": "Với flip-flop J-K, khi J = K = 1 thì trạng thái đầu ra Q:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Giữ nguyên"
+              },
+              {
+                "key": "B",
+                "text": "Bằng 0"
+              },
+              {
+                "key": "C",
+                "text": "Đảo trạng thái (toggle)"
+              },
+              {
+                "key": "D",
+                "text": "Bằng 1"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-65",
+            "clusterId": null
+          },
+          {
+            "startLine": 425,
+            "text": "Thanh ghi dịch 5 bit dùng 5 D flip-flop cần ít nhất bao nhiêu xung nhịp để dịch một bit nối tiếp vào đến đầu ra nối tiếp?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "1 xung nhịp"
+              },
+              {
+                "key": "B",
+                "text": "5 xung nhịp"
+              },
+              {
+                "key": "C",
+                "text": "2 xung nhịp"
+              },
+              {
+                "key": "D",
+                "text": "32 xung nhịp"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-66",
+            "clusterId": null
+          },
+          {
+            "startLine": 431,
+            "text": "Bộ đếm 4 bit (dùng 4 flip-flop J-K) đếm được bao nhiêu trạng thái khác nhau?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "16"
+              },
+              {
+                "key": "B",
+                "text": "4"
+              },
+              {
+                "key": "C",
+                "text": "8"
+              },
+              {
+                "key": "D",
+                "text": "15"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "2<sup>4</sup> = 16 (từ 0000 đến 1111).",
+            "multi": false,
+            "id": "mcq-67",
+            "clusterId": null
+          },
+          {
+            "startLine": 438,
+            "text": "Bộ mã ASCII dùng bao nhiêu bit và mã hoá được bao nhiêu ký tự (theo bản mở rộng 8 bit)?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "7 bit, 256 ký tự"
+              },
+              {
+                "key": "B",
+                "text": "8 bit, 256 ký tự"
+              },
+              {
+                "key": "C",
+                "text": "16 bit, 65 536 ký tự"
+              },
+              {
+                "key": "D",
+                "text": "8 bit, 128 ký tự"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "128 ký tự chuẩn (00–7F) và 128 ký tự mở rộng (80–FF).",
+            "multi": false,
+            "id": "mcq-68",
+            "clusterId": null
+          },
+          {
+            "startLine": 445,
+            "text": "Mã ASCII (Hexa) của chữ 'A' và chữ 'a' lần lượt là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "61 và 41"
+              },
+              {
+                "key": "B",
+                "text": "41 và 61"
+              },
+              {
+                "key": "C",
+                "text": "30 và 41"
+              },
+              {
+                "key": "D",
+                "text": "5A và 7A"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-69",
+            "clusterId": null
+          },
+          {
+            "startLine": 451,
+            "text": "Bộ mã Unicode có đặc điểm:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Mã 7 bit, chỉ có chữ cái Latinh"
+              },
+              {
+                "key": "B",
+                "text": "Mã 8 bit, không hỗ trợ tiếng Việt"
+              },
+              {
+                "key": "C",
+                "text": "Mã 16 bit, đa ngôn ngữ, hỗ trợ cả tiếng Việt"
+              },
+              {
+                "key": "D",
+                "text": "Mã 4 bit, dùng cho số"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-70",
+            "clusterId": null
+          },
+          {
+            "startLine": 457,
+            "text": "Mã chẵn lẻ (parity code) với 8 bit dữ liệu <code>10100110</code> theo kiểu chẵn thì bit chẵn lẻ thêm vào bằng:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "1"
+              },
+              {
+                "key": "B",
+                "text": "0"
+              },
+              {
+                "key": "C",
+                "text": "2"
+              },
+              {
+                "key": "D",
+                "text": "Không xác định"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Dữ liệu có 4 bit 1 (số chẵn) nên bit chẵn lẻ = 0.",
+            "multi": false,
+            "id": "mcq-71",
+            "clusterId": null
+          },
+          {
+            "startLine": 464,
+            "text": "Hạn chế lớn nhất của mã chẵn lẻ là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Không phát hiện lỗi đơn"
+              },
+              {
+                "key": "B",
+                "text": "Không dùng được cho dữ liệu nhị phân"
+              },
+              {
+                "key": "C",
+                "text": "Không phát hiện được lỗi kép (hai bit cùng sai)"
+              },
+              {
+                "key": "D",
+                "text": "Phải dùng thêm nhiều bit kiểm tra"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-72",
+            "clusterId": null
+          },
+          {
+            "startLine": 470,
+            "text": "Mã CRC thường được dùng để phát hiện lỗi ở:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Dữ liệu đọc từ đĩa mềm"
+              },
+              {
+                "key": "B",
+                "text": "Bộ nhớ cache"
+              },
+              {
+                "key": "C",
+                "text": "Thanh ghi CPU"
+              },
+              {
+                "key": "D",
+                "text": "Bus địa chỉ"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-73",
+            "clusterId": null
+          },
+          {
+            "startLine": 476,
+            "text": "Trong mã sửa lỗi Hamming, các bit kiểm tra chẵn lẻ được đặt tại các vị trí:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Là lũy thừa của hai (1, 2, 4, 8, 16, ...)"
+              },
+              {
+                "key": "B",
+                "text": "Là số nguyên tố"
+              },
+              {
+                "key": "C",
+                "text": "Là số chẵn"
+              },
+              {
+                "key": "D",
+                "text": "Là các vị trí cuối cùng của từ mã"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-74",
+            "clusterId": null
+          },
+          {
+            "startLine": 482,
+            "text": "Một từ mã Hamming 7 bit khi nhận có kiểm tra tại vị trí 2 và vị trí 4 báo lỗi (Not OK), vị trí 1 báo OK. Bit bị lỗi nằm ở vị trí:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "6"
+              },
+              {
+                "key": "B",
+                "text": "2"
+              },
+              {
+                "key": "C",
+                "text": "4"
+              },
+              {
+                "key": "D",
+                "text": "7"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "2 + 4 = 6.",
+            "multi": false,
+            "id": "mcq-75",
+            "clusterId": null
+          }
+        ]
+      }
+    }
+  }
+}
