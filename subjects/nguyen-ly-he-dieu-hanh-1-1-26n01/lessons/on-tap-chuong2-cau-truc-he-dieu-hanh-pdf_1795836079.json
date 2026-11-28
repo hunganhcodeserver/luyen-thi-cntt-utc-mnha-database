@@ -12,13 +12,9 @@
   "allowedUserIds": [],
   "allowedGroupIds": [],
   "isDeleted": false,
-  "createdBy": {
-    "id": "6ab3d694415010bf620349e5",
-    "name": "Mai Ngọc Hùng Anh",
-    "email": "hunganh.okokok.0@gmail.com"
-  },
+  "createdBy": "6ab3d694415010bf620349e5",
   "createdAt": "2026-11-28T03:21:19.929Z",
-  "updatedAt": "2026-11-28T03:21:19.929Z",
+  "updatedAt": "2026-11-28T03:21:21.212Z",
   "contentHtml": null,
   "quiz": {
     "version": 1,
@@ -1530,5 +1526,13 @@
         ]
       }
     }
-  }
+  },
+  "description": "",
+  "sampleSolution": "",
+  "order": 0,
+  "model": null,
+  "aiKeyId": null,
+  "updatedBy": null,
+  "deletedAt": null,
+  "deletedBy": null
 }
