@@ -1,0 +1,2347 @@
+{
+  "type": "quiz",
+  "submissionId": "6b0b18ba29db3be53a80eebb",
+  "userId": "6ab3d694415010bf620349e5",
+  "lessonId": "6b0a3c3e3459bf3b44825f5a",
+  "lessonTitle": "Ôn tập Chuong1_Tong_quan_He_dieu_hanh.pdf",
+  "subjectSlug": "nguyen-ly-he-dieu-hanh-1-1-26n01",
+  "lessonSlug": "on-tap-chuong1-tong-quan-he-dieu-hanh-pdf",
+  "submittedAt": "2026-11-28T18:08:57.540Z",
+  "answers": {
+    "mcq-1": [
+      "A"
+    ],
+    "mcq-2": [
+      "C"
+    ],
+    "mcq-3": [
+      "D"
+    ],
+    "mcq-4": [
+      "C"
+    ],
+    "mcq-5": [
+      "C"
+    ],
+    "mcq-6": [
+      "D"
+    ],
+    "mcq-7": [
+      "D"
+    ],
+    "mcq-8": [
+      "C"
+    ],
+    "mcq-9": [
+      "B"
+    ],
+    "mcq-10": [
+      "A"
+    ],
+    "mcq-11": [
+      "C"
+    ],
+    "mcq-12": [
+      "C"
+    ],
+    "mcq-13": [
+      "D"
+    ],
+    "mcq-14": [
+      "C"
+    ],
+    "mcq-15": [
+      "B"
+    ],
+    "mcq-16": [
+      "D"
+    ],
+    "mcq-17": [
+      "B"
+    ],
+    "mcq-18": [
+      "B"
+    ],
+    "mcq-19": [
+      "C"
+    ],
+    "mcq-20": [
+      "B"
+    ],
+    "mcq-21": [
+      "D"
+    ],
+    "mcq-22": [
+      "A"
+    ],
+    "mcq-23": [
+      "D"
+    ],
+    "mcq-24": [
+      "A"
+    ],
+    "mcq-25": [
+      "B"
+    ],
+    "mcq-26": [
+      "B"
+    ],
+    "mcq-27": [
+      "A"
+    ],
+    "mcq-28": [
+      "C"
+    ],
+    "mcq-29": [
+      "A"
+    ],
+    "mcq-30": [
+      "C"
+    ],
+    "mcq-31": [
+      "A"
+    ],
+    "mcq-32": [
+      "B"
+    ],
+    "mcq-33": [
+      "A"
+    ],
+    "mcq-34": [
+      "B"
+    ],
+    "mcq-35": [
+      "D"
+    ],
+    "mcq-36": [
+      "B"
+    ],
+    "mcq-37": [
+      "D"
+    ],
+    "mcq-38": [
+      "D"
+    ],
+    "mcq-39": [
+      "A"
+    ],
+    "mcq-40": [
+      "B"
+    ],
+    "mcq-41": [
+      "A"
+    ],
+    "mcq-42": [
+      "D"
+    ],
+    "mcq-43": [
+      "C"
+    ],
+    "mcq-44": [
+      "C"
+    ],
+    "mcq-45": [
+      "A"
+    ],
+    "mcq-46": [
+      "D"
+    ],
+    "mcq-47": [
+      "B"
+    ],
+    "mcq-48": [
+      "A"
+    ],
+    "mcq-49": [
+      "B"
+    ],
+    "mcq-50": [
+      "A"
+    ]
+  },
+  "quizSnapshot": {
+    "version": 1,
+    "maxScore": 10,
+    "parts": {
+      "mcq": {
+        "pointsPerQuestion": 0.2,
+        "questions": [
+          {
+            "startLine": 1,
+            "text": "Hệ điều hành (Operating System) được hiểu đúng nhất là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Lớp phần mềm trung gian giữa người dùng, chương trình ứng dụng và phần cứng máy tính"
+              },
+              {
+                "key": "B",
+                "text": "Một chương trình ứng dụng văn phòng được cài sẵn trên máy tính"
+              },
+              {
+                "key": "C",
+                "text": "Bộ phận phần cứng điều khiển CPU và bộ nhớ"
+              },
+              {
+                "key": "D",
+                "text": "Tập hợp các tiện ích dùng để sao lưu dữ liệu"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "Hệ điều hành là thành phần trung gian giữa người dùng/chương trình ứng dụng và phần cứng.",
+            "multi": false,
+            "id": "mcq-1",
+            "clusterId": null
+          },
+          {
+            "startLine": 8,
+            "text": "Hai vai trò cốt lõi của hệ điều hành là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Biên dịch chương trình và gỡ lỗi mã nguồn"
+              },
+              {
+                "key": "B",
+                "text": "Sản xuất phần cứng và phân phối phần mềm"
+              },
+              {
+                "key": "C",
+                "text": "Giả lập máy tính ảo và quản lý tài nguyên"
+              },
+              {
+                "key": "D",
+                "text": "Soạn thảo văn bản và quản lý mạng xã hội"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "HĐH vừa \"trừu tượng hóa\" phần cứng (máy ảo), vừa \"điều phối\" việc sử dụng phần cứng (quản lý tài nguyên).",
+            "multi": false,
+            "id": "mcq-2",
+            "clusterId": null
+          },
+          {
+            "startLine": 15,
+            "text": "Mục tiêu \"đáng tin cậy\" của hệ điều hành liên quan chủ yếu đến việc nào sau đây?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Chuẩn hóa giao diện cho nhiều cấu hình phần cứng khác nhau"
+              },
+              {
+                "key": "B",
+                "text": "Sử dụng CPU và bộ nhớ ở mức tối đa bất kể an toàn"
+              },
+              {
+                "key": "C",
+                "text": "Làm cho giao diện đồ họa đẹp và dễ nhìn hơn"
+              },
+              {
+                "key": "D",
+                "text": "Kiểm soát lỗi, bảo vệ tài nguyên và duy trì tính nhất quán của dữ liệu"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "\"Dễ sử dụng\" gắn với tiện lợi, \"hiệu quả\" gắn với việc dùng tài nguyên hợp lý, còn \"đáng tin cậy\" gắn với kiểm soát lỗi và bảo vệ.",
+            "multi": false,
+            "id": "mcq-3",
+            "clusterId": null
+          },
+          {
+            "startLine": 22,
+            "text": "Dựa vào hình, thành phần nằm giữa \"Chương trình hệ thống\" và \"Phần cứng\" là gì?",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795833481094.png",
+            "options": [
+              {
+                "key": "A",
+                "text": "Trình biên dịch"
+              },
+              {
+                "key": "B",
+                "text": "Chương trình ứng dụng"
+              },
+              {
+                "key": "C",
+                "text": "Hệ điều hành (Kernel + dịch vụ hệ thống)"
+              },
+              {
+                "key": "D",
+                "text": "Giao diện máy ảo"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "Trong sơ đồ phân lớp, hệ điều hành (kernel + dịch vụ hệ thống) nằm ngay trên phần cứng và dưới chương trình hệ thống.",
+            "multi": false,
+            "id": "mcq-4",
+            "clusterId": null
+          },
+          {
+            "startLine": 30,
+            "text": "Trong hình mô hình 4 lớp, thành phần nào sau đây thuộc lớp \"Chương trình ứng dụng\" chứ KHÔNG thuộc lớp \"Hệ điều hành\"?",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795833495595.png",
+            "options": [
+              {
+                "key": "A",
+                "text": "Bảo vệ và cung cấp giao diện dịch vụ"
+              },
+              {
+                "key": "B",
+                "text": "Quản lý tệp"
+              },
+              {
+                "key": "C",
+                "text": "Trình duyệt web"
+              },
+              {
+                "key": "D",
+                "text": "Quản lý bộ nhớ"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "Trình duyệt web, soạn thảo văn bản, trình phát media, bảng tính là ứng dụng; quản lý tiến trình, bộ nhớ, tệp, thiết bị, bảo vệ là chức năng của HĐH.",
+            "multi": false,
+            "id": "mcq-5",
+            "clusterId": null
+          },
+          {
+            "startLine": 38,
+            "text": "Định nghĩa hệ điều hành theo góc nhìn \"người quản lý\" là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Tạo ra một \"máy tính logic\" mới với tài nguyên và khả năng mới"
+              },
+              {
+                "key": "B",
+                "text": "Hệ chương trình giúp khai thác máy tính một cách thuận lợi"
+              },
+              {
+                "key": "C",
+                "text": "Mô phỏng hoạt động máy tính, người dùng và thao tác viên trong chế độ đối thoại"
+              },
+              {
+                "key": "D",
+                "text": "Hệ chương trình quản lý chặt chẽ và sử dụng tối ưu tài nguyên của máy tính"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "Góc nhìn người sử dụng nhấn mạnh sự thuận lợi; góc nhìn người quản lý nhấn mạnh quản lý chặt chẽ, tối ưu tài nguyên.",
+            "multi": false,
+            "id": "mcq-6",
+            "clusterId": null
+          },
+          {
+            "startLine": 45,
+            "text": "Nhân hệ điều hành (Kernel) là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Tập các tiện ích như trình soạn thảo và trình duyệt"
+              },
+              {
+                "key": "B",
+                "text": "Bộ nhớ đệm giữa CPU và RAM"
+              },
+              {
+                "key": "C",
+                "text": "Chương trình chỉ được nạp khi người dùng mở giao diện đồ họa"
+              },
+              {
+                "key": "D",
+                "text": "Phần lõi của hệ điều hành, luôn thường trú trong bộ nhớ khi hệ thống hoạt động"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "Kernel là phần lõi luôn thường trú; các chương trình không điều khiển phần cứng trực tiếp mà phải đi qua kernel.",
+            "multi": false,
+            "id": "mcq-7",
+            "clusterId": null
+          },
+          {
+            "startLine": 52,
+            "text": "Theo hình, chương trình ứng dụng người dùng yêu cầu dịch vụ của Kernel thông qua thành phần nào?",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795833511447.png",
+            "options": [
+              {
+                "key": "A",
+                "text": "Card mạng"
+              },
+              {
+                "key": "B",
+                "text": "Bộ nhớ RAM"
+              },
+              {
+                "key": "C",
+                "text": "Giao diện lời gọi hệ thống (System Call Interface)"
+              },
+              {
+                "key": "D",
+                "text": "Quản lý bảo vệ (Protection & Security)"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "System Call Interface (API) là cầu nối giữa ứng dụng và kernel.",
+            "multi": false,
+            "id": "mcq-8",
+            "clusterId": null
+          },
+          {
+            "startLine": 60,
+            "text": "Vì sao các chương trình ứng dụng không điều khiển trực tiếp phần cứng mà phải đi qua kernel?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Vì kernel là chương trình duy nhất được viết bằng ngôn ngữ máy"
+              },
+              {
+                "key": "B",
+                "text": "Để kernel kiểm soát quyền truy cập, bảo vệ và điều phối việc dùng tài nguyên phần cứng"
+              },
+              {
+                "key": "C",
+                "text": "Để phần cứng chạy chậm lại, tiết kiệm điện"
+              },
+              {
+                "key": "D",
+                "text": "Vì phần cứng không có khả năng nhận lệnh từ chương trình"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Đi qua kernel giúp bảo vệ tài nguyên, tránh xung đột và cho phép HĐH điều phối công bằng.",
+            "multi": false,
+            "id": "mcq-9",
+            "clusterId": null
+          },
+          {
+            "startLine": 67,
+            "text": "Trong hình kiến trúc cơ bản của hệ thống máy tính, CPU, bộ điều khiển đĩa, USB controller và Graphics adapter truy cập bộ nhớ chính thông qua thành phần nào?",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795833532640.png",
+            "options": [
+              {
+                "key": "A",
+                "text": "Bus hệ thống (đường truyền chung)"
+              },
+              {
+                "key": "B",
+                "text": "Hệ điều hành"
+              },
+              {
+                "key": "C",
+                "text": "Bộ nhớ đệm riêng của từng thiết bị"
+              },
+              {
+                "key": "D",
+                "text": "Chương trình điều khiển thiết bị"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "Các thành phần truy nhập bộ nhớ qua đường truyền chung nên HĐH phải điều phối cạnh tranh tài nguyên.",
+            "multi": false,
+            "id": "mcq-10",
+            "clusterId": null
+          },
+          {
+            "startLine": 75,
+            "text": "Trong bốn thành phần của hệ thống máy tính (người dùng, ứng dụng, hệ điều hành, phần cứng), thành phần nào chịu trách nhiệm chuyển yêu cầu của ứng dụng thành thao tác phần cứng có kiểm soát?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Chương trình ứng dụng"
+              },
+              {
+                "key": "B",
+                "text": "Phần cứng"
+              },
+              {
+                "key": "C",
+                "text": "Hệ điều hành"
+              },
+              {
+                "key": "D",
+                "text": "Người dùng"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "HĐH là lớp trung gian thực hiện việc chuyển yêu cầu của ứng dụng thành thao tác phần cứng có kiểm soát.",
+            "multi": false,
+            "id": "mcq-11",
+            "clusterId": null
+          },
+          {
+            "startLine": 82,
+            "text": "Mục tiêu chính của xử lý theo lô trong các hệ thống mainframe ban đầu là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Đảm bảo mọi công việc hoàn thành đúng hạn"
+              },
+              {
+                "key": "B",
+                "text": "Giảm giá thành của bộ nhớ"
+              },
+              {
+                "key": "C",
+                "text": "Giảm thời gian CPU nhàn rỗi giữa các công việc"
+              },
+              {
+                "key": "D",
+                "text": "Cho phép nhiều người dùng tương tác trực tiếp với máy"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "Phần cứng đắt tiền nên cần tối ưu thời gian sử dụng máy.",
+            "multi": false,
+            "id": "mcq-12",
+            "clusterId": null
+          },
+          {
+            "startLine": 89,
+            "text": "Theo hình, mỗi job được đưa vào hàng đợi lô gồm những thành phần nào?",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795833547935.png",
+            "options": [
+              {
+                "key": "A",
+                "text": "Chỉ riêng mã chương trình"
+              },
+              {
+                "key": "B",
+                "text": "Chương trình và thiết bị ngoại vi"
+              },
+              {
+                "key": "C",
+                "text": "Chỉ dữ liệu đầu vào của người dùng"
+              },
+              {
+                "key": "D",
+                "text": "Chương trình và dữ liệu (kèm thông tin điều khiển)"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "Công việc được đóng gói thành job gồm chương trình, dữ liệu và thông tin điều khiển, rồi xếp vào batch queue.",
+            "multi": false,
+            "id": "mcq-13",
+            "clusterId": null
+          },
+          {
+            "startLine": 97,
+            "text": "Nhược điểm chính của xử lý theo lô đơn giản (Simple Batch) là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Không thể gộp nhiều job thành một lô"
+              },
+              {
+                "key": "B",
+                "text": "Người lập trình phải nhập lệnh trực tiếp từng giây"
+              },
+              {
+                "key": "C",
+                "text": "CPU vẫn phải chờ khi job thực hiện thao tác vào/ra"
+              },
+              {
+                "key": "D",
+                "text": "Không thể in kết quả"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "Simple batch giảm thời gian chuẩn bị giữa các job nhưng CPU vẫn chờ I/O và không hỗ trợ tương tác.",
+            "multi": false,
+            "id": "mcq-14",
+            "clusterId": null
+          },
+          {
+            "startLine": 104,
+            "text": "Ý tưởng cốt lõi của xử lý theo lô đa chương trình (multiprogramming) là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Sao chép mỗi job sang nhiều máy tính khác nhau"
+              },
+              {
+                "key": "B",
+                "text": "Lưu đồng thời nhiều job trong bộ nhớ; khi một job chờ vào/ra thì chọn job khác dùng CPU"
+              },
+              {
+                "key": "C",
+                "text": "Chạy từng job một đến khi hoàn thành rồi mới nạp job kế tiếp"
+              },
+              {
+                "key": "D",
+                "text": "Mỗi người dùng được cấp riêng một CPU"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Mục đích là giữ CPU luôn bận rộn bằng cách chồng lấp tính toán và vào/ra.",
+            "multi": false,
+            "id": "mcq-15",
+            "clusterId": null
+          },
+          {
+            "startLine": 111,
+            "text": "Để thực hiện đa chương trình, hệ điều hành phải giải quyết những vấn đề nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Chỉ cần quản lý đường truyền mạng"
+              },
+              {
+                "key": "B",
+                "text": "Không cần quản lý gì thêm so với xử lý theo lô đơn giản"
+              },
+              {
+                "key": "C",
+                "text": "Chỉ cần quản lý màn hình và bàn phím"
+              },
+              {
+                "key": "D",
+                "text": "Quản lý bộ nhớ, lập lịch CPU và bảo vệ giữa các chương trình"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "Nhiều job cùng nằm trong bộ nhớ nên cần quản lý bộ nhớ, lập lịch CPU và cơ chế bảo vệ.",
+            "multi": false,
+            "id": "mcq-16",
+            "clusterId": null
+          },
+          {
+            "startLine": 118,
+            "text": "Hình dưới minh họa hệ thống nào, trong đó hệ điều hành lập lịch CPU cho nhiều người dùng?",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795833567554.png",
+            "options": [
+              {
+                "key": "A",
+                "text": "Hệ thống cụm"
+              },
+              {
+                "key": "B",
+                "text": "Hệ phân chia thời gian (Time Sharing)"
+              },
+              {
+                "key": "C",
+                "text": "Hệ phân tán"
+              },
+              {
+                "key": "D",
+                "text": "Xử lý theo lô đơn giản (Simple Batch)"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Time sharing chuyển đổi CPU nhanh giữa các tiến trình để tạo cảm giác nhiều người dùng làm việc đồng thời.",
+            "multi": false,
+            "id": "mcq-17",
+            "clusterId": null
+          },
+          {
+            "startLine": 126,
+            "text": "Hệ phân chia thời gian tạo cảm giác nhiều người dùng cùng làm việc đồng thời bằng cách nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Cho phép một người dùng chiếm CPU cho đến khi chương trình kết thúc"
+              },
+              {
+                "key": "B",
+                "text": "Chuyển đổi CPU nhanh giữa các tiến trình"
+              },
+              {
+                "key": "C",
+                "text": "Chạy các tiến trình theo lô, mỗi lô qua đêm"
+              },
+              {
+                "key": "D",
+                "text": "Cấp cho mỗi người dùng một CPU vật lý riêng"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Chuyển đổi nhanh giữa các tiến trình khiến mỗi người dùng cảm thấy mình được phục vụ liên tục.",
+            "multi": false,
+            "id": "mcq-18",
+            "clusterId": null
+          },
+          {
+            "startLine": 133,
+            "text": "Hệ phân chia thời gian đặc biệt yêu cầu điều gì?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Không cần bảo vệ bộ nhớ"
+              },
+              {
+                "key": "B",
+                "text": "Mọi chương trình phải có cùng độ ưu tiên"
+              },
+              {
+                "key": "C",
+                "text": "Thời gian đáp ứng ngắn và cơ chế bảo vệ mạnh"
+              },
+              {
+                "key": "D",
+                "text": "Chỉ một người dùng tại một thời điểm"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "Nhiều người dùng chia sẻ máy nên cần đáp ứng nhanh và cách ly lẫn nhau.",
+            "multi": false,
+            "id": "mcq-19",
+            "clusterId": null
+          },
+          {
+            "startLine": 140,
+            "text": "Kỹ thuật nào của mainframe giúp tận dụng CPU khi có thao tác vào/ra?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Xử lý theo lô tuần tự"
+              },
+              {
+                "key": "B",
+                "text": "Đa chương trình (Multiprogramming)"
+              },
+              {
+                "key": "C",
+                "text": "Bảo vệ truy cập (Protection)"
+              },
+              {
+                "key": "D",
+                "text": "Chế độ đối thoại (Time sharing)"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Multiprogramming chồng lấp tính toán và I/O, tận dụng CPU khi một job chờ I/O.",
+            "multi": false,
+            "id": "mcq-20",
+            "clusterId": null
+          },
+          {
+            "startLine": 147,
+            "text": "Đặc điểm nổi bật của hệ điều hành máy tính để bàn (Desktop OS) là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Ưu tiên tối đa hóa việc sử dụng máy đắt tiền"
+              },
+              {
+                "key": "B",
+                "text": "Chỉ hỗ trợ xử lý theo lô"
+              },
+              {
+                "key": "C",
+                "text": "Bắt buộc có nhiều CPU"
+              },
+              {
+                "key": "D",
+                "text": "Ưu tiên tính tiện dụng, giao diện đồ họa và trải nghiệm cá nhân"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "Hệ để bàn hướng tới người dùng cá nhân với GUI, thao tác trực tiếp và đa nhiệm.",
+            "multi": false,
+            "id": "mcq-21",
+            "clusterId": null
+          },
+          {
+            "startLine": 154,
+            "text": "Hệ điều hành máy tính để bàn kế thừa nhiều kỹ thuật nào từ hệ mainframe?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Bảo vệ bộ nhớ, hệ thống tệp và lập lịch"
+              },
+              {
+                "key": "B",
+                "text": "Cơ chế điều khiển thời gian thực cứng"
+              },
+              {
+                "key": "C",
+                "text": "Xử lý nhập liệu bằng thẻ đục lỗ"
+              },
+              {
+                "key": "D",
+                "text": "Chỉ có giao diện dòng lệnh"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "Desktop OS kế thừa bảo vệ bộ nhớ, file system, lập lịch từ mainframe.",
+            "multi": false,
+            "id": "mcq-22",
+            "clusterId": null
+          },
+          {
+            "startLine": 161,
+            "text": "Trọng tâm thiết kế hệ điều hành để bàn đã chuyển từ đâu sang đâu?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Từ \"tối đa hóa năng suất người dùng\" sang \"tối đa hóa máy đắt tiền\""
+              },
+              {
+                "key": "B",
+                "text": "Từ \"một người dùng\" sang \"xử lý theo lô\""
+              },
+              {
+                "key": "C",
+                "text": "Từ \"giao diện đồ họa\" sang \"giao diện dòng lệnh\""
+              },
+              {
+                "key": "D",
+                "text": "Từ \"tối đa hóa máy đắt tiền\" sang \"tối đa hóa năng suất người dùng\""
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "Phần cứng rẻ đi nên trọng tâm là trải nghiệm và năng suất của người dùng.",
+            "multi": false,
+            "id": "mcq-23",
+            "clusterId": null
+          },
+          {
+            "startLine": 168,
+            "text": "Hệ đa xử lý (Multiprocessor) là hệ thống:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Có nhiều bộ xử lý giao tiếp gần, thường chia sẻ bus, bộ nhớ, đồng hồ và thiết bị ngoại vi"
+              },
+              {
+                "key": "B",
+                "text": "Gồm nhiều máy tính độc lập nối qua mạng diện rộng"
+              },
+              {
+                "key": "C",
+                "text": "Gồm các máy chủ được phân phối dịch vụ cho nhiều khách hàng"
+              },
+              {
+                "key": "D",
+                "text": "Chỉ có một CPU nhưng chạy nhiều chương trình"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "Hệ đa xử lý có nhiều CPU chia sẻ tài nguyên trong cùng một hệ thống.",
+            "multi": false,
+            "id": "mcq-24",
+            "clusterId": null
+          },
+          {
+            "startLine": 175,
+            "text": "Trong hình hệ đa xử lý, CPU 1, CPU 2, ..., CPU n cùng chia sẻ thành phần nào?",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795833585223.png",
+            "options": [
+              {
+                "key": "A",
+                "text": "Hệ điều hành riêng cho từng CPU"
+              },
+              {
+                "key": "B",
+                "text": "Bộ nhớ chia sẻ (qua bus)"
+              },
+              {
+                "key": "C",
+                "text": "Ổ đĩa quang"
+              },
+              {
+                "key": "D",
+                "text": "Đường truyền Internet"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Các CPU thường chia sẻ bus và bộ nhớ.",
+            "multi": false,
+            "id": "mcq-25",
+            "clusterId": null
+          },
+          {
+            "startLine": 183,
+            "text": "Ba lợi ích chính của hệ đa xử lý là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Giảm độ phức tạp của HĐH, tăng độ trễ và giảm chi phí"
+              },
+              {
+                "key": "B",
+                "text": "Tăng thông lượng, hiệu quả kinh tế và tăng độ tin cậy"
+              },
+              {
+                "key": "C",
+                "text": "Tăng thời gian đáp ứng, giảm thông lượng và tăng bảo mật"
+              },
+              {
+                "key": "D",
+                "text": "Chỉ tăng dung lượng đĩa"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Đánh đổi: HĐH phức tạp hơn do đồng bộ, tranh chấp và cân bằng tải.",
+            "multi": false,
+            "id": "mcq-26",
+            "clusterId": null
+          },
+          {
+            "startLine": 190,
+            "text": "Khi một bộ xử lý trong hệ đa xử lý bị lỗi, hệ thống được thiết kế đúng sẽ:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Không nhất thiết phải dừng toàn bộ hệ thống"
+              },
+              {
+                "key": "B",
+                "text": "Tự động mất hết dữ liệu"
+              },
+              {
+                "key": "C",
+                "text": "Luôn phải khởi động lại toàn bộ"
+              },
+              {
+                "key": "D",
+                "text": "Chuyển sang chế độ xử lý theo lô"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "Đây chính là lợi ích tăng độ tin cậy.",
+            "multi": false,
+            "id": "mcq-27",
+            "clusterId": null
+          },
+          {
+            "startLine": 197,
+            "text": "Điểm đánh đổi (nhược điểm) của hệ đa xử lý là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Không thể chạy nhiều ứng dụng cùng lúc"
+              },
+              {
+                "key": "B",
+                "text": "Thông lượng luôn thấp hơn hệ một CPU"
+              },
+              {
+                "key": "C",
+                "text": "Hệ điều hành phức tạp hơn do phải xử lý đồng bộ, tranh chấp và cân bằng tải"
+              },
+              {
+                "key": "D",
+                "text": "Không thể chia sẻ thiết bị ngoại vi"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "Ứng dụng cũng cần thiết kế song song mới khai thác tốt nhiều CPU.",
+            "multi": false,
+            "id": "mcq-28",
+            "clusterId": null
+          },
+          {
+            "startLine": 204,
+            "text": "Điểm phân biệt chính giữa SMP và AMP là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Quyền điều phối thuộc về mọi CPU (SMP) hay chỉ một CPU chủ (AMP)"
+              },
+              {
+                "key": "B",
+                "text": "SMP chạy trên mạng còn AMP chạy cục bộ"
+              },
+              {
+                "key": "C",
+                "text": "SMP chỉ có hai CPU còn AMP có nhiều CPU"
+              },
+              {
+                "key": "D",
+                "text": "SMP dùng nhiều ổ đĩa còn AMP dùng một ổ đĩa"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "SMP: các CPU bình đẳng, cùng chạy nhân HĐH; AMP: CPU chủ điều phối CPU phụ.",
+            "multi": false,
+            "id": "mcq-29",
+            "clusterId": null
+          },
+          {
+            "startLine": 211,
+            "text": "Trong đa xử lý bất đối xứng (AMP), mô hình hoạt động là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Mỗi CPU chạy một hệ điều hành hoàn toàn độc lập"
+              },
+              {
+                "key": "B",
+                "text": "Chỉ có một CPU hoạt động, các CPU khác để dự phòng"
+              },
+              {
+                "key": "C",
+                "text": "Mỗi CPU được gán một nhiệm vụ riêng và có CPU chủ điều phối CPU phụ"
+              },
+              {
+                "key": "D",
+                "text": "Mọi CPU bình đẳng và giao tiếp ngang hàng"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "AMP thường gặp trong một số hệ nhúng/chuyên dụng.",
+            "multi": false,
+            "id": "mcq-30",
+            "clusterId": null
+          },
+          {
+            "startLine": 218,
+            "text": "Kiểu đa xử lý nào phổ biến trong các hệ thống đa lõi hiện đại?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "SMP (Symmetric Multiprocessing)"
+              },
+              {
+                "key": "B",
+                "text": "AMP (Asymmetric Multiprocessing)"
+              },
+              {
+                "key": "C",
+                "text": "Hệ phân tán thuần Client–Server"
+              },
+              {
+                "key": "D",
+                "text": "Xử lý theo lô"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "SMP cho phép mọi CPU/lõi cùng chạy nhân HĐH và giao tiếp ngang hàng.",
+            "multi": false,
+            "id": "mcq-31",
+            "clusterId": null
+          },
+          {
+            "startLine": 225,
+            "text": "Hệ phân tán (Distributed System) là hệ thống gồm:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Một máy tính lớn phục vụ nhiều thiết bị đầu cuối đơn giản"
+              },
+              {
+                "key": "B",
+                "text": "Các máy tính độc lập kết nối qua mạng, chia sẻ tài nguyên và phối hợp thực hiện tác vụ"
+              },
+              {
+                "key": "C",
+                "text": "Một chương trình chạy theo lô trên một máy duy nhất"
+              },
+              {
+                "key": "D",
+                "text": "Nhiều CPU dùng chung bus và bộ nhớ trong cùng một máy"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Người dùng có thể thấy hệ thống như một dịch vụ thống nhất.",
+            "multi": false,
+            "id": "mcq-32",
+            "clusterId": null
+          },
+          {
+            "startLine": 232,
+            "text": "Trong mô hình Peer-to-Peer, đặc điểm nào sau đây đúng?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Các nút vừa là client vừa là server, khả năng mở rộng tốt nhưng khó kiểm soát đồng nhất và bảo mật"
+              },
+              {
+                "key": "B",
+                "text": "Chỉ có một nút duy nhất được phép gửi yêu cầu"
+              },
+              {
+                "key": "C",
+                "text": "Các nút bắt buộc phải dùng chung bộ nhớ vật lý"
+              },
+              {
+                "key": "D",
+                "text": "Một server trung tâm cung cấp dịch vụ cho mọi client"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "Client–Server dễ quản lý nhưng server có thể là điểm nghẽn.",
+            "multi": false,
+            "id": "mcq-33",
+            "clusterId": null
+          },
+          {
+            "startLine": 239,
+            "text": "Việc dữ liệu được sao chép ở nhiều nơi trong hệ phân tán gây ra thách thức nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Tăng tốc độ CPU"
+              },
+              {
+                "key": "B",
+                "text": "Tính nhất quán"
+              },
+              {
+                "key": "C",
+                "text": "Giảm số tiến trình"
+              },
+              {
+                "key": "D",
+                "text": "Độ trễ truy cập bộ nhớ cục bộ"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Dữ liệu có nhiều bản sao dễ không đồng nhất nếu không được đồng bộ.",
+            "multi": false,
+            "id": "mcq-34",
+            "clusterId": null
+          },
+          {
+            "startLine": 246,
+            "text": "Điểm khác nhau chủ yếu giữa hệ thống cụm (cluster) và hệ phân tán là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Cluster chỉ gồm một máy, còn hệ phân tán gồm nhiều máy"
+              },
+              {
+                "key": "B",
+                "text": "Cluster không dùng mạng, còn hệ phân tán thì có"
+              },
+              {
+                "key": "C",
+                "text": "Cluster không thể cân bằng tải"
+              },
+              {
+                "key": "D",
+                "text": "Cluster liên kết chặt hơn, thường chia sẻ lưu trữ và hướng tới một dịch vụ thống nhất, sẵn sàng cao"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "Cụm khác phân tán ở mức liên kết và mục tiêu.",
+            "multi": false,
+            "id": "mcq-35",
+            "clusterId": null
+          },
+          {
+            "startLine": 253,
+            "text": "Hình dưới minh họa mô hình hệ thống nào?",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795833609357.png",
+            "options": [
+              {
+                "key": "A",
+                "text": "Hệ phân chia thời gian"
+              },
+              {
+                "key": "B",
+                "text": "Hệ thống cụm (Cluster) với hai nút dùng chung lưu trữ"
+              },
+              {
+                "key": "C",
+                "text": "Hệ thời gian thực"
+              },
+              {
+                "key": "D",
+                "text": "Hệ đa xử lý SMP"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Node A và Node B kết nối chặt, cùng dùng Shared Storage.",
+            "multi": false,
+            "id": "mcq-36",
+            "clusterId": null
+          },
+          {
+            "startLine": 261,
+            "text": "Trong cụm bất đối xứng, cách hoạt động là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Tất cả các nút đều dự phòng, không nút nào chạy dịch vụ"
+              },
+              {
+                "key": "B",
+                "text": "Nhiều nút cùng chạy dịch vụ và chia tải"
+              },
+              {
+                "key": "C",
+                "text": "Mỗi nút chạy một dịch vụ khác nhau, không thay thế nhau"
+              },
+              {
+                "key": "D",
+                "text": "Một nút chạy dịch vụ, nút còn lại dự phòng và tiếp quản khi có lỗi"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "Cụm đối xứng thì nhiều nút cùng chạy dịch vụ, theo dõi trạng thái của nhau và chia tải.",
+            "multi": false,
+            "id": "mcq-37",
+            "clusterId": null
+          },
+          {
+            "startLine": 268,
+            "text": "Trong cụm đối xứng, đặc điểm nào đúng?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Nút dự phòng luôn ở trạng thái tắt hoàn toàn"
+              },
+              {
+                "key": "B",
+                "text": "Một nút duy nhất chạy dịch vụ"
+              },
+              {
+                "key": "C",
+                "text": "Các nút không giao tiếp với nhau"
+              },
+              {
+                "key": "D",
+                "text": "Nhiều nút cùng chạy dịch vụ, cùng theo dõi trạng thái và chia tải"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "Đây là điểm khác với cụm bất đối xứng có nút dự phòng.",
+            "multi": false,
+            "id": "mcq-38",
+            "clusterId": null
+          },
+          {
+            "startLine": 275,
+            "text": "Khi một nút của cụm bị hỏng, hệ thống chuyển dịch vụ sang nút còn hoạt động. Đây là khả năng nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Chịu lỗi (fault tolerance)"
+              },
+              {
+                "key": "B",
+                "text": "Đa chương trình"
+              },
+              {
+                "key": "C",
+                "text": "Phân chia thời gian"
+              },
+              {
+                "key": "D",
+                "text": "Cân bằng tải"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "Cân bằng tải là phân phối yêu cầu đến nhiều nút để tăng thông lượng và giảm thời gian đáp ứng.",
+            "multi": false,
+            "id": "mcq-39",
+            "clusterId": null
+          },
+          {
+            "startLine": 282,
+            "text": "Điểm đặc trưng của hệ thời gian thực là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Chỉ phục vụ nhiều người dùng đồng thời"
+              },
+              {
+                "key": "B",
+                "text": "Đúng kết quả chưa đủ, còn phải đúng hạn (deadline)"
+              },
+              {
+                "key": "C",
+                "text": "Chỉ cần xử lý nhanh nhất có thể, không cần hạn chót"
+              },
+              {
+                "key": "D",
+                "text": "Chỉ chạy trên máy tính để bàn"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Nếu xử lý trễ hạn, kết quả có thể mất ý nghĩa hoặc gây nguy hiểm.",
+            "multi": false,
+            "id": "mcq-40",
+            "clusterId": null
+          },
+          {
+            "startLine": 289,
+            "text": "Trong hình thể hiện hệ thời gian thực, xử lý phải hoàn thành trong khoảng nào?",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795833624916.png",
+            "options": [
+              {
+                "key": "A",
+                "text": "Từ lúc xảy ra sự kiện đến deadline"
+              },
+              {
+                "key": "B",
+                "text": "Trước khi sự kiện xảy ra"
+              },
+              {
+                "key": "C",
+                "text": "Sau thời điểm deadline"
+              },
+              {
+                "key": "D",
+                "text": "Không giới hạn thời gian"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "Deadline là mốc thời gian chót mà kết quả xử lý phải sẵn sàng.",
+            "multi": false,
+            "id": "mcq-41",
+            "clusterId": null
+          },
+          {
+            "startLine": 297,
+            "text": "Ví dụ nào sau đây thuộc hệ thời gian thực cứng (hard real-time)?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Duyệt web"
+              },
+              {
+                "key": "B",
+                "text": "Trò chơi trực tuyến"
+              },
+              {
+                "key": "C",
+                "text": "Phát video trực tuyến"
+              },
+              {
+                "key": "D",
+                "text": "Điều khiển túi khí ô tô"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "Trễ hạn ở hard real-time có thể gây hậu quả nghiêm trọng.",
+            "multi": false,
+            "id": "mcq-42",
+            "clusterId": null
+          },
+          {
+            "startLine": 304,
+            "text": "Trong hệ thời gian thực mềm (soft real-time), việc trễ hạn dẫn đến:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Hệ thống phải khởi động lại"
+              },
+              {
+                "key": "B",
+                "text": "Kết quả bị tự động xóa"
+              },
+              {
+                "key": "C",
+                "text": "Giảm chất lượng dịch vụ nhưng có thể chấp nhận một tỷ lệ trễ nhỏ"
+              },
+              {
+                "key": "D",
+                "text": "Hậu quả nghiêm trọng, nguy hiểm đến tính mạng"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "Ví dụ: phát video, trò chơi trực tuyến.",
+            "multi": false,
+            "id": "mcq-43",
+            "clusterId": null
+          },
+          {
+            "startLine": 311,
+            "text": "Hệ điều hành thời gian thực cần đặc biệt chú ý yếu tố nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Tối đa số lượng người dùng đồng thời"
+              },
+              {
+                "key": "B",
+                "text": "Giao diện đồ họa đẹp"
+              },
+              {
+                "key": "C",
+                "text": "Lập lịch có thể dự đoán và độ trễ ngắt thấp"
+              },
+              {
+                "key": "D",
+                "text": "Dung lượng đĩa lớn"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "Hệ thời gian thực ưu tiên tính dự đoán được hơn thông lượng.",
+            "multi": false,
+            "id": "mcq-44",
+            "clusterId": null
+          },
+          {
+            "startLine": 318,
+            "text": "Một công ty cần dịch vụ cơ sở dữ liệu luôn sẵn sàng. Hai máy dùng chung ổ lưu trữ: một máy chạy dịch vụ, máy kia chờ và tiếp quản khi máy chính lỗi. Hệ thống này thuộc loại nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Cụm bất đối xứng"
+              },
+              {
+                "key": "B",
+                "text": "Hệ thời gian thực cứng"
+              },
+              {
+                "key": "C",
+                "text": "Hệ phân chia thời gian"
+              },
+              {
+                "key": "D",
+                "text": "Cụm đối xứng"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "Một nút chạy dịch vụ, nút còn lại dự phòng là đặc trưng của cụm bất đối xứng.",
+            "multi": false,
+            "id": "mcq-45",
+            "clusterId": null
+          },
+          {
+            "startLine": 325,
+            "text": "Hệ thống web, cơ sở dữ liệu phân tán, lưu trữ đám mây, hệ peer-to-peer là ví dụ của:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Hệ xử lý theo lô"
+              },
+              {
+                "key": "B",
+                "text": "Hệ đa xử lý SMP"
+              },
+              {
+                "key": "C",
+                "text": "Hệ thời gian thực cứng"
+              },
+              {
+                "key": "D",
+                "text": "Hệ phân tán"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "Chúng gồm nhiều máy độc lập phối hợp qua mạng.",
+            "multi": false,
+            "id": "mcq-46",
+            "clusterId": null
+          },
+          {
+            "startLine": 332,
+            "text": "Nếu CPU rất mạnh nhưng ổ đĩa chậm, hệ điều hành có thể tối ưu bằng kỹ thuật nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Chỉ chạy một tiến trình tại một thời điểm"
+              },
+              {
+                "key": "B",
+                "text": "Đa chương trình: khi một tiến trình chờ I/O thì cho tiến trình khác dùng CPU"
+              },
+              {
+                "key": "C",
+                "text": "Tăng độ ưu tiên cho tiến trình đang chờ I/O"
+              },
+              {
+                "key": "D",
+                "text": "Tắt bộ đệm vào/ra"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Chồng lấp tính toán và vào/ra giúp CPU không phải chờ ổ đĩa chậm.",
+            "multi": false,
+            "id": "mcq-47",
+            "clusterId": null
+          },
+          {
+            "startLine": 339,
+            "text": "Hệ điều hành cần cơ chế bảo vệ bộ nhớ chủ yếu để:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Ngăn một chương trình truy cập hoặc ghi đè lên vùng nhớ của chương trình khác hoặc của hệ điều hành"
+              },
+              {
+                "key": "B",
+                "text": "Tăng dung lượng RAM vật lý"
+              },
+              {
+                "key": "C",
+                "text": "Làm cho chương trình chạy nhanh hơn"
+              },
+              {
+                "key": "D",
+                "text": "Cho phép chương trình truy cập trực tiếp phần cứng"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "Khi nhiều chương trình cùng nằm trong bộ nhớ, cần cách ly và kiểm soát truy cập.",
+            "multi": false,
+            "id": "mcq-48",
+            "clusterId": null
+          },
+          {
+            "startLine": 346,
+            "text": "Việc HĐH ẩn chi tiết phần cứng và cung cấp các khái niệm như tiến trình, tệp, bộ nhớ ảo thuộc vai trò nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Cân bằng tải"
+              },
+              {
+                "key": "B",
+                "text": "Giả lập máy tính ảo"
+              },
+              {
+                "key": "C",
+                "text": "Quản lý tài nguyên"
+              },
+              {
+                "key": "D",
+                "text": "Kế toán sử dụng tài nguyên"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Vai trò máy ảo giúp lập trình đơn giản và an toàn hơn.",
+            "multi": false,
+            "id": "mcq-49",
+            "clusterId": null
+          },
+          {
+            "startLine": 353,
+            "text": "Việc thu hồi tài nguyên sau khi một tiến trình kết thúc thuộc vai trò nào của hệ điều hành?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Quản lý tài nguyên"
+              },
+              {
+                "key": "B",
+                "text": "Biên dịch chương trình"
+              },
+              {
+                "key": "C",
+                "text": "Giả lập máy tính ảo"
+              },
+              {
+                "key": "D",
+                "text": "Cung cấp giao diện đồ họa"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "Quản lý tài nguyên gồm cấp phát CPU, RAM, I/O, file; giải quyết tranh chấp; thu hồi tài nguyên.",
+            "multi": false,
+            "id": "mcq-50",
+            "clusterId": null
+          }
+        ]
+      }
+    }
+  },
+  "result": {
+    "score": 10,
+    "maxScore": 10,
+    "earnedPoints": 10,
+    "totalPoints": 10,
+    "correctCount": 50,
+    "totalCount": 50,
+    "parts": {
+      "mcq": {
+        "correct": 50,
+        "total": 50,
+        "earned": 10,
+        "points": 10
+      }
+    },
+    "tfQuestions": [],
+    "items": [
+      {
+        "id": "mcq-1",
+        "part": "mcq",
+        "correct": true,
+        "earned": 0.2,
+        "points": 0.2,
+        "studentAnswer": [
+          "A"
+        ],
+        "correctAnswer": [
+          "A"
+        ]
+      },
+      {
+        "id": "mcq-2",
+        "part": "mcq",
+        "correct": true,
+        "earned": 0.2,
+        "points": 0.2,
+        "studentAnswer": [
+          "C"
+        ],
+        "correctAnswer": [
+          "C"
+        ]
+      },
+      {
+        "id": "mcq-3",
+        "part": "mcq",
+        "correct": true,
+        "earned": 0.2,
+        "points": 0.2,
+        "studentAnswer": [
+          "D"
+        ],
+        "correctAnswer": [
+          "D"
+        ]
+      },
+      {
+        "id": "mcq-4",
+        "part": "mcq",
+        "correct": true,
+        "earned": 0.2,
+        "points": 0.2,
+        "studentAnswer": [
+          "C"
+        ],
+        "correctAnswer": [
+          "C"
+        ]
+      },
+      {
+        "id": "mcq-5",
+        "part": "mcq",
+        "correct": true,
+        "earned": 0.2,
+        "points": 0.2,
+        "studentAnswer": [
+          "C"
+        ],
+        "correctAnswer": [
+          "C"
+        ]
+      },
+      {
+        "id": "mcq-6",
+        "part": "mcq",
+        "correct": true,
+        "earned": 0.2,
+        "points": 0.2,
+        "studentAnswer": [
+          "D"
+        ],
+        "correctAnswer": [
+          "D"
+        ]
+      },
+      {
+        "id": "mcq-7",
+        "part": "mcq",
+        "correct": true,
+        "earned": 0.2,
+        "points": 0.2,
+        "studentAnswer": [
+          "D"
+        ],
+        "correctAnswer": [
+          "D"
+        ]
+      },
+      {
+        "id": "mcq-8",
+        "part": "mcq",
+        "correct": true,
+        "earned": 0.2,
+        "points": 0.2,
+        "studentAnswer": [
+          "C"
+        ],
+        "correctAnswer": [
+          "C"
+        ]
+      },
+      {
+        "id": "mcq-9",
+        "part": "mcq",
+        "correct": true,
+        "earned": 0.2,
+        "points": 0.2,
+        "studentAnswer": [
+          "B"
+        ],
+        "correctAnswer": [
+          "B"
+        ]
+      },
+      {
+        "id": "mcq-10",
+        "part": "mcq",
+        "correct": true,
+        "earned": 0.2,
+        "points": 0.2,
+        "studentAnswer": [
+          "A"
+        ],
+        "correctAnswer": [
+          "A"
+        ]
+      },
+      {
+        "id": "mcq-11",
+        "part": "mcq",
+        "correct": true,
+        "earned": 0.2,
+        "points": 0.2,
+        "studentAnswer": [
+          "C"
+        ],
+        "correctAnswer": [
+          "C"
+        ]
+      },
+      {
+        "id": "mcq-12",
+        "part": "mcq",
+        "correct": true,
+        "earned": 0.2,
+        "points": 0.2,
+        "studentAnswer": [
+          "C"
+        ],
+        "correctAnswer": [
+          "C"
+        ]
+      },
+      {
+        "id": "mcq-13",
+        "part": "mcq",
+        "correct": true,
+        "earned": 0.2,
+        "points": 0.2,
+        "studentAnswer": [
+          "D"
+        ],
+        "correctAnswer": [
+          "D"
+        ]
+      },
+      {
+        "id": "mcq-14",
+        "part": "mcq",
+        "correct": true,
+        "earned": 0.2,
+        "points": 0.2,
+        "studentAnswer": [
+          "C"
+        ],
+        "correctAnswer": [
+          "C"
+        ]
+      },
+      {
+        "id": "mcq-15",
+        "part": "mcq",
+        "correct": true,
+        "earned": 0.2,
+        "points": 0.2,
+        "studentAnswer": [
+          "B"
+        ],
+        "correctAnswer": [
+          "B"
+        ]
+      },
+      {
+        "id": "mcq-16",
+        "part": "mcq",
+        "correct": true,
+        "earned": 0.2,
+        "points": 0.2,
+        "studentAnswer": [
+          "D"
+        ],
+        "correctAnswer": [
+          "D"
+        ]
+      },
+      {
+        "id": "mcq-17",
+        "part": "mcq",
+        "correct": true,
+        "earned": 0.2,
+        "points": 0.2,
+        "studentAnswer": [
+          "B"
+        ],
+        "correctAnswer": [
+          "B"
+        ]
+      },
+      {
+        "id": "mcq-18",
+        "part": "mcq",
+        "correct": true,
+        "earned": 0.2,
+        "points": 0.2,
+        "studentAnswer": [
+          "B"
+        ],
+        "correctAnswer": [
+          "B"
+        ]
+      },
+      {
+        "id": "mcq-19",
+        "part": "mcq",
+        "correct": true,
+        "earned": 0.2,
+        "points": 0.2,
+        "studentAnswer": [
+          "C"
+        ],
+        "correctAnswer": [
+          "C"
+        ]
+      },
+      {
+        "id": "mcq-20",
+        "part": "mcq",
+        "correct": true,
+        "earned": 0.2,
+        "points": 0.2,
+        "studentAnswer": [
+          "B"
+        ],
+        "correctAnswer": [
+          "B"
+        ]
+      },
+      {
+        "id": "mcq-21",
+        "part": "mcq",
+        "correct": true,
+        "earned": 0.2,
+        "points": 0.2,
+        "studentAnswer": [
+          "D"
+        ],
+        "correctAnswer": [
+          "D"
+        ]
+      },
+      {
+        "id": "mcq-22",
+        "part": "mcq",
+        "correct": true,
+        "earned": 0.2,
+        "points": 0.2,
+        "studentAnswer": [
+          "A"
+        ],
+        "correctAnswer": [
+          "A"
+        ]
+      },
+      {
+        "id": "mcq-23",
+        "part": "mcq",
+        "correct": true,
+        "earned": 0.2,
+        "points": 0.2,
+        "studentAnswer": [
+          "D"
+        ],
+        "correctAnswer": [
+          "D"
+        ]
+      },
+      {
+        "id": "mcq-24",
+        "part": "mcq",
+        "correct": true,
+        "earned": 0.2,
+        "points": 0.2,
+        "studentAnswer": [
+          "A"
+        ],
+        "correctAnswer": [
+          "A"
+        ]
+      },
+      {
+        "id": "mcq-25",
+        "part": "mcq",
+        "correct": true,
+        "earned": 0.2,
+        "points": 0.2,
+        "studentAnswer": [
+          "B"
+        ],
+        "correctAnswer": [
+          "B"
+        ]
+      },
+      {
+        "id": "mcq-26",
+        "part": "mcq",
+        "correct": true,
+        "earned": 0.2,
+        "points": 0.2,
+        "studentAnswer": [
+          "B"
+        ],
+        "correctAnswer": [
+          "B"
+        ]
+      },
+      {
+        "id": "mcq-27",
+        "part": "mcq",
+        "correct": true,
+        "earned": 0.2,
+        "points": 0.2,
+        "studentAnswer": [
+          "A"
+        ],
+        "correctAnswer": [
+          "A"
+        ]
+      },
+      {
+        "id": "mcq-28",
+        "part": "mcq",
+        "correct": true,
+        "earned": 0.2,
+        "points": 0.2,
+        "studentAnswer": [
+          "C"
+        ],
+        "correctAnswer": [
+          "C"
+        ]
+      },
+      {
+        "id": "mcq-29",
+        "part": "mcq",
+        "correct": true,
+        "earned": 0.2,
+        "points": 0.2,
+        "studentAnswer": [
+          "A"
+        ],
+        "correctAnswer": [
+          "A"
+        ]
+      },
+      {
+        "id": "mcq-30",
+        "part": "mcq",
+        "correct": true,
+        "earned": 0.2,
+        "points": 0.2,
+        "studentAnswer": [
+          "C"
+        ],
+        "correctAnswer": [
+          "C"
+        ]
+      },
+      {
+        "id": "mcq-31",
+        "part": "mcq",
+        "correct": true,
+        "earned": 0.2,
+        "points": 0.2,
+        "studentAnswer": [
+          "A"
+        ],
+        "correctAnswer": [
+          "A"
+        ]
+      },
+      {
+        "id": "mcq-32",
+        "part": "mcq",
+        "correct": true,
+        "earned": 0.2,
+        "points": 0.2,
+        "studentAnswer": [
+          "B"
+        ],
+        "correctAnswer": [
+          "B"
+        ]
+      },
+      {
+        "id": "mcq-33",
+        "part": "mcq",
+        "correct": true,
+        "earned": 0.2,
+        "points": 0.2,
+        "studentAnswer": [
+          "A"
+        ],
+        "correctAnswer": [
+          "A"
+        ]
+      },
+      {
+        "id": "mcq-34",
+        "part": "mcq",
+        "correct": true,
+        "earned": 0.2,
+        "points": 0.2,
+        "studentAnswer": [
+          "B"
+        ],
+        "correctAnswer": [
+          "B"
+        ]
+      },
+      {
+        "id": "mcq-35",
+        "part": "mcq",
+        "correct": true,
+        "earned": 0.2,
+        "points": 0.2,
+        "studentAnswer": [
+          "D"
+        ],
+        "correctAnswer": [
+          "D"
+        ]
+      },
+      {
+        "id": "mcq-36",
+        "part": "mcq",
+        "correct": true,
+        "earned": 0.2,
+        "points": 0.2,
+        "studentAnswer": [
+          "B"
+        ],
+        "correctAnswer": [
+          "B"
+        ]
+      },
+      {
+        "id": "mcq-37",
+        "part": "mcq",
+        "correct": true,
+        "earned": 0.2,
+        "points": 0.2,
+        "studentAnswer": [
+          "D"
+        ],
+        "correctAnswer": [
+          "D"
+        ]
+      },
+      {
+        "id": "mcq-38",
+        "part": "mcq",
+        "correct": true,
+        "earned": 0.2,
+        "points": 0.2,
+        "studentAnswer": [
+          "D"
+        ],
+        "correctAnswer": [
+          "D"
+        ]
+      },
+      {
+        "id": "mcq-39",
+        "part": "mcq",
+        "correct": true,
+        "earned": 0.2,
+        "points": 0.2,
+        "studentAnswer": [
+          "A"
+        ],
+        "correctAnswer": [
+          "A"
+        ]
+      },
+      {
+        "id": "mcq-40",
+        "part": "mcq",
+        "correct": true,
+        "earned": 0.2,
+        "points": 0.2,
+        "studentAnswer": [
+          "B"
+        ],
+        "correctAnswer": [
+          "B"
+        ]
+      },
+      {
+        "id": "mcq-41",
+        "part": "mcq",
+        "correct": true,
+        "earned": 0.2,
+        "points": 0.2,
+        "studentAnswer": [
+          "A"
+        ],
+        "correctAnswer": [
+          "A"
+        ]
+      },
+      {
+        "id": "mcq-42",
+        "part": "mcq",
+        "correct": true,
+        "earned": 0.2,
+        "points": 0.2,
+        "studentAnswer": [
+          "D"
+        ],
+        "correctAnswer": [
+          "D"
+        ]
+      },
+      {
+        "id": "mcq-43",
+        "part": "mcq",
+        "correct": true,
+        "earned": 0.2,
+        "points": 0.2,
+        "studentAnswer": [
+          "C"
+        ],
+        "correctAnswer": [
+          "C"
+        ]
+      },
+      {
+        "id": "mcq-44",
+        "part": "mcq",
+        "correct": true,
+        "earned": 0.2,
+        "points": 0.2,
+        "studentAnswer": [
+          "C"
+        ],
+        "correctAnswer": [
+          "C"
+        ]
+      },
+      {
+        "id": "mcq-45",
+        "part": "mcq",
+        "correct": true,
+        "earned": 0.2,
+        "points": 0.2,
+        "studentAnswer": [
+          "A"
+        ],
+        "correctAnswer": [
+          "A"
+        ]
+      },
+      {
+        "id": "mcq-46",
+        "part": "mcq",
+        "correct": true,
+        "earned": 0.2,
+        "points": 0.2,
+        "studentAnswer": [
+          "D"
+        ],
+        "correctAnswer": [
+          "D"
+        ]
+      },
+      {
+        "id": "mcq-47",
+        "part": "mcq",
+        "correct": true,
+        "earned": 0.2,
+        "points": 0.2,
+        "studentAnswer": [
+          "B"
+        ],
+        "correctAnswer": [
+          "B"
+        ]
+      },
+      {
+        "id": "mcq-48",
+        "part": "mcq",
+        "correct": true,
+        "earned": 0.2,
+        "points": 0.2,
+        "studentAnswer": [
+          "A"
+        ],
+        "correctAnswer": [
+          "A"
+        ]
+      },
+      {
+        "id": "mcq-49",
+        "part": "mcq",
+        "correct": true,
+        "earned": 0.2,
+        "points": 0.2,
+        "studentAnswer": [
+          "B"
+        ],
+        "correctAnswer": [
+          "B"
+        ]
+      },
+      {
+        "id": "mcq-50",
+        "part": "mcq",
+        "correct": true,
+        "earned": 0.2,
+        "points": 0.2,
+        "studentAnswer": [
+          "A"
+        ],
+        "correctAnswer": [
+          "A"
+        ]
+      }
+    ]
+  },
+  "gradedAt": "2026-11-28T18:08:57.540Z",
+  "gradedBy": "auto",
+  "teacherComment": null,
+  "teacherCommentHistory": [],
+  "aiAnalyses": []
+}
