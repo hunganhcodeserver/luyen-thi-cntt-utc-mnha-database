@@ -1,0 +1,1534 @@
+{
+  "type": "quiz",
+  "lessonId": "6b0a4df394c2b1d81221ce5a",
+  "title": "Ôn tập Chuong7_Bo_nho_ao.pdf",
+  "slug": "on-tap-chuong7-bo-nho-ao-pdf",
+  "subjectSlug": "nguyen-ly-he-dieu-hanh-1-1-26n01",
+  "duration": 75,
+  "promptId": null,
+  "analysisAiKeyIds": [],
+  "isPublished": true,
+  "visibility": "public",
+  "allowedUserIds": [],
+  "allowedGroupIds": [],
+  "isDeleted": false,
+  "createdBy": {
+    "id": "6ab3d694415010bf620349e5",
+    "name": "Mai Ngọc Hùng Anh",
+    "email": "hunganh.okokok.0@gmail.com"
+  },
+  "createdAt": "2026-11-28T03:43:47.446Z",
+  "updatedAt": "2026-11-28T03:43:47.446Z",
+  "contentHtml": null,
+  "quiz": {
+    "version": 1,
+    "maxScore": 10,
+    "parts": {
+      "mcq": {
+        "pointsPerQuestion": 0.2,
+        "questions": [
+          {
+            "startLine": 1,
+            "text": "Bộ nhớ ảo giúp tách điều gì khỏi điều gì?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Dung lượng chương trình nhìn thấy khỏi lượng RAM đang có thật"
+              },
+              {
+                "key": "B",
+                "text": "Tốc độ CPU khỏi tốc độ ổ đĩa"
+              },
+              {
+                "key": "C",
+                "text": "Dữ liệu khỏi chương trình"
+              },
+              {
+                "key": "D",
+                "text": "Hệ điều hành khỏi phần cứng"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "Chương trình thấy một không gian nhớ lớn, riêng; chỉ phần cần thiết được giữ trong RAM.",
+            "multi": false,
+            "id": "mcq-1",
+            "clusterId": null
+          },
+          {
+            "startLine": 8,
+            "text": "Theo hình, trang 5 của chương trình hiện đang nằm ở đâu?",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795837158032.enc",
+            "options": [
+              {
+                "key": "A",
+                "text": "Trên ổ đĩa"
+              },
+              {
+                "key": "B",
+                "text": "Trong vùng chưa dùng của chương trình"
+              },
+              {
+                "key": "C",
+                "text": "Trong RAM, ở khung đầu tiên"
+              },
+              {
+                "key": "D",
+                "text": "Trong RAM, ở khung rỗi"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "RAM đang giữ các trang 2, 7, 0, 4; các trang 1, 3, 5, 6, 8... nằm trên ổ đĩa.",
+            "multi": false,
+            "id": "mcq-2",
+            "clusterId": null
+          },
+          {
+            "startLine": 16,
+            "text": "Bốn bước trong ý tưởng cốt lõi của bộ nhớ ảo theo thứ tự là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Nạp khi thiếu → chia nhỏ → nạp một phần → thay khi đầy"
+              },
+              {
+                "key": "B",
+                "text": "Chia nhỏ → thay khi đầy → nạp một phần → nạp khi thiếu"
+              },
+              {
+                "key": "C",
+                "text": "Chia nhỏ → nạp một phần → nạp khi thiếu → thay khi đầy"
+              },
+              {
+                "key": "D",
+                "text": "Nạp toàn bộ → chia nhỏ → thay khi đầy → nạp khi thiếu"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "Chương trình chia thành trang/đoạn; chỉ phần cần dùng vào RAM; truy cập phần chưa có gây lỗi trang; khi đầy thì chọn phần cũ nhường khung.",
+            "multi": false,
+            "id": "mcq-3",
+            "clusterId": null
+          },
+          {
+            "startLine": 23,
+            "text": "Lợi ích chính của bộ nhớ ảo là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Làm RAM vật lý tăng dung lượng thật"
+              },
+              {
+                "key": "B",
+                "text": "Chạy được chương trình lớn hơn RAM và tăng số tiến trình cùng hoạt động"
+              },
+              {
+                "key": "C",
+                "text": "Loại bỏ hoàn toàn lỗi trang"
+              },
+              {
+                "key": "D",
+                "text": "Làm ổ đĩa nhanh bằng RAM"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Đánh đổi: nếu lỗi trang quá nhiều thì ổ đĩa thành nút thắt và máy rất chậm.",
+            "multi": false,
+            "id": "mcq-4",
+            "clusterId": null
+          },
+          {
+            "startLine": 30,
+            "text": "Đánh đổi lớn nhất của bộ nhớ ảo khi có quá nhiều lỗi trang là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "CPU tăng tốc quá mức"
+              },
+              {
+                "key": "B",
+                "text": "RAM bị hỏng vĩnh viễn"
+              },
+              {
+                "key": "C",
+                "text": "Chương trình bị mất mã nguồn"
+              },
+              {
+                "key": "D",
+                "text": "Ổ đĩa trở thành nút thắt và hệ thống rất chậm"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "Truy cập ổ đĩa chậm hơn RAM hàng nghìn lần.",
+            "multi": false,
+            "id": "mcq-5",
+            "clusterId": null
+          },
+          {
+            "startLine": 37,
+            "text": "Tính cục bộ của chương trình bao gồm hai dạng nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Cục bộ theo bảng trang và cục bộ theo TLB"
+              },
+              {
+                "key": "B",
+                "text": "Cục bộ theo CPU và cục bộ theo ổ đĩa"
+              },
+              {
+                "key": "C",
+                "text": "Cục bộ theo thời gian (dùng lại sớm) và cục bộ theo không gian (địa chỉ gần cũng sắp được dùng)"
+              },
+              {
+                "key": "D",
+                "text": "Cục bộ theo tiến trình và cục bộ theo người dùng"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "Nhờ tính cục bộ, chỉ cần giữ \"vùng đang hoạt động\" trong RAM là chương trình vẫn chạy tốt.",
+            "multi": false,
+            "id": "mcq-6",
+            "clusterId": null
+          },
+          {
+            "startLine": 44,
+            "text": "Theo hình, khi CPU truy cập trang 5, điều gì xảy ra?",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795837173824.enc",
+            "options": [
+              {
+                "key": "A",
+                "text": "Lỗi bảo vệ và tiến trình bị kết thúc"
+              },
+              {
+                "key": "B",
+                "text": "Hệ điều hành bỏ qua truy cập"
+              },
+              {
+                "key": "C",
+                "text": "Lỗi trang, vì trang 5 chưa ở RAM nên hệ điều hành phải nạp từ ổ đĩa"
+              },
+              {
+                "key": "D",
+                "text": "Truy cập RAM bình thường vì trang 5 đang ở RAM"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "Trong hình chỉ các trang 0, 2, 4, 6 đang ở RAM.",
+            "multi": false,
+            "id": "mcq-7",
+            "clusterId": null
+          },
+          {
+            "startLine": 52,
+            "text": "Thứ tự đúng khi CPU truy cập một trang chưa có trong RAM là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Phần cứng phát hiện thiếu trang → hệ điều hành nạp trang từ đĩa → cập nhật bảng trang và chạy lại lệnh"
+              },
+              {
+                "key": "B",
+                "text": "Chạy lại lệnh → nạp trang → cập nhật bảng trang"
+              },
+              {
+                "key": "C",
+                "text": "Cập nhật bảng trang → nạp trang → phát hiện thiếu trang"
+              },
+              {
+                "key": "D",
+                "text": "Hệ điều hành nạp trang → phần cứng phát hiện thiếu trang → bỏ qua lệnh"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "Lệnh gây lỗi trang phải được chạy lại như chưa từng thực hiện.",
+            "multi": false,
+            "id": "mcq-8",
+            "clusterId": null
+          },
+          {
+            "startLine": 59,
+            "text": "Theo bảng trang trong hình, khi truy cập trang 1 sẽ xảy ra điều gì?",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795837175089.enc",
+            "options": [
+              {
+                "key": "A",
+                "text": "Truy cập khung 5"
+              },
+              {
+                "key": "B",
+                "text": "Lỗi trang, vì trang 1 chưa ở RAM"
+              },
+              {
+                "key": "C",
+                "text": "Truy cập khung 7"
+              },
+              {
+                "key": "D",
+                "text": "Truy cập khung 1"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Trang 1 có present = 0.",
+            "multi": false,
+            "id": "mcq-9",
+            "clusterId": null
+          },
+          {
+            "startLine": 67,
+            "text": "Theo bảng trang trong hình, trang 4 đang nằm ở khung số mấy?",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795837191850.enc",
+            "options": [
+              {
+                "key": "A",
+                "text": "1"
+              },
+              {
+                "key": "B",
+                "text": "4"
+              },
+              {
+                "key": "C",
+                "text": "5"
+              },
+              {
+                "key": "D",
+                "text": "7"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "Bảng: trang 0 → khung 5; trang 2 → khung 1; trang 4 → khung 7.",
+            "multi": false,
+            "id": "mcq-10",
+            "clusterId": null
+          },
+          {
+            "startLine": 75,
+            "text": "Bit hiện diện (present bit) bằng 0 trong bảng trang có nghĩa là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Trang chưa ở RAM; truy cập sẽ tạo lỗi trang"
+              },
+              {
+                "key": "B",
+                "text": "Trang đã bị sửa nội dung"
+              },
+              {
+                "key": "C",
+                "text": "Trang chỉ được đọc, không được ghi"
+              },
+              {
+                "key": "D",
+                "text": "Trang đang ở RAM và được bảo vệ"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "Bảng trang còn lưu trạng thái và quyền truy cập.",
+            "multi": false,
+            "id": "mcq-11",
+            "clusterId": null
+          },
+          {
+            "startLine": 82,
+            "text": "Theo hình chương trình 12 trang, RAM giữ 4 trang, các trang nào đang nằm trong 4 khung?",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795837212184.enc",
+            "options": [
+              {
+                "key": "A",
+                "text": "P8, P9, P10, P11"
+              },
+              {
+                "key": "B",
+                "text": "P0, P1, P2, P3"
+              },
+              {
+                "key": "C",
+                "text": "P0, P1, P4, P7"
+              },
+              {
+                "key": "D",
+                "text": "P2, P3, P5, P6"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "Các trang còn lại nằm trên ổ đĩa; khi dùng P2, hệ điều hành nạp P2 và có thể phải thay một trang.",
+            "multi": false,
+            "id": "mcq-12",
+            "clusterId": null
+          },
+          {
+            "startLine": 90,
+            "text": "Phân trang theo yêu cầu (demand paging) nghĩa là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Mọi trang được nạp trước khi tiến trình bắt đầu"
+              },
+              {
+                "key": "B",
+                "text": "Chỉ nạp các trang chứa mã chương trình"
+              },
+              {
+                "key": "C",
+                "text": "Trang được nạp theo thứ tự địa chỉ"
+              },
+              {
+                "key": "D",
+                "text": "Trang chỉ được nạp vào RAM khi CPU thực sự truy cập đến trang đó"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "Ban đầu chỉ nạp một số trang cần để tiến trình bắt đầu.",
+            "multi": false,
+            "id": "mcq-13",
+            "clusterId": null
+          },
+          {
+            "startLine": 97,
+            "text": "Trong phân trang hoàn toàn theo yêu cầu (pure demand paging), khi tiến trình vừa bắt đầu:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Toàn bộ chương trình đã nằm sẵn trong RAM"
+              },
+              {
+                "key": "B",
+                "text": "Lệnh đầu tiên gây lỗi trang vì chưa có trang nào của tiến trình trong RAM"
+              },
+              {
+                "key": "C",
+                "text": "Không có lỗi trang nào xảy ra"
+              },
+              {
+                "key": "D",
+                "text": "Hệ điều hành từ chối chạy tiến trình"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Cách này tiết kiệm RAM nhất nhưng giai đoạn đầu có thể có nhiều lỗi trang liên tiếp.",
+            "multi": false,
+            "id": "mcq-14",
+            "clusterId": null
+          },
+          {
+            "startLine": 104,
+            "text": "Mỗi lần CPU truy cập bộ nhớ có phân trang, thứ tự đúng là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "CPU tạo địa chỉ (trang p, độ lệch d) → MMU tra TLB/bảng trang → present = 1 thì lấy khung; present = 0 thì lỗi trang"
+              },
+              {
+                "key": "B",
+                "text": "MMU luôn tạo lỗi trang ở lần truy cập đầu tiên"
+              },
+              {
+                "key": "C",
+                "text": "Hệ điều hành tạo địa chỉ vật lý rồi gửi cho CPU"
+              },
+              {
+                "key": "D",
+                "text": "CPU truy cập ổ đĩa trước, rồi mới tra bảng trang"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "TLB là bộ đệm tăng tốc việc tra bảng trang.",
+            "multi": false,
+            "id": "mcq-15",
+            "clusterId": null
+          },
+          {
+            "startLine": 111,
+            "text": "Điểm khác nhau giữa lỗi trang (page fault) và truy cập sai là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Hai khái niệm giống nhau"
+              },
+              {
+                "key": "B",
+                "text": "Truy cập sai có thể xử lý bằng cách nạp trang từ ổ đĩa"
+              },
+              {
+                "key": "C",
+                "text": "Lỗi trang là trang hợp lệ nhưng chưa nằm trong RAM, xử lý được rồi chạy tiếp; truy cập sai thường dẫn đến kết thúc tiến trình"
+              },
+              {
+                "key": "D",
+                "text": "Lỗi trang luôn do lập trình viên viết sai chương trình"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "Địa chỉ vượt giới hạn tiến trình hoặc vi phạm quyền là lỗi bảo vệ.",
+            "multi": false,
+            "id": "mcq-16",
+            "clusterId": null
+          },
+          {
+            "startLine": 118,
+            "text": "Các bước xử lý một lỗi trang theo thứ tự là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Kiểm tra địa chỉ hợp lệ → tìm trang trên đĩa → chọn khung (rỗi hoặc thay trang) → đọc trang vào RAM → cập nhật bảng trang và chạy lại lệnh"
+              },
+              {
+                "key": "B",
+                "text": "Đọc trang → kiểm tra địa chỉ → chọn khung → chạy lại lệnh"
+              },
+              {
+                "key": "C",
+                "text": "Kiểm tra địa chỉ → chạy lại lệnh → đọc trang → cập nhật bảng trang"
+              },
+              {
+                "key": "D",
+                "text": "Chọn khung → cập nhật bảng trang → kiểm tra địa chỉ → đọc trang"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "Nếu còn khung rỗi thì nạp trực tiếp; nếu không phải chọn trang để thay.",
+            "multi": false,
+            "id": "mcq-17",
+            "clusterId": null
+          },
+          {
+            "startLine": 125,
+            "text": "Theo sơ đồ xử lý lỗi trang, nhánh \"Không\" (trang không có trong RAM) dẫn đến bước nào?",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795837228408.enc",
+            "options": [
+              {
+                "key": "A",
+                "text": "Cấp thêm khung cho tiến trình khác"
+              },
+              {
+                "key": "B",
+                "text": "Kết thúc tiến trình"
+              },
+              {
+                "key": "C",
+                "text": "Truy cập RAM ngay"
+              },
+              {
+                "key": "D",
+                "text": "Nạp trang và chạy lại lệnh"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "Nhánh \"Có\" thực thi rất nhanh; nhánh \"Không\" phải chờ ổ đĩa nên chậm hơn rất nhiều.",
+            "multi": false,
+            "id": "mcq-18",
+            "clusterId": null
+          },
+          {
+            "startLine": 133,
+            "text": "Công thức thời gian truy cập hiệu dụng (EAT) với tỷ lệ lỗi trang p là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "EAT ≈ (1 − p) × thời gian truy cập RAM + p × thời gian xử lý lỗi trang"
+              },
+              {
+                "key": "B",
+                "text": "EAT ≈ thời gian truy cập RAM + thời gian xử lý lỗi trang"
+              },
+              {
+                "key": "C",
+                "text": "EAT ≈ p × thời gian truy cập RAM + (1 − p) × thời gian xử lý lỗi trang"
+              },
+              {
+                "key": "D",
+                "text": "EAT ≈ (1 − p) × thời gian xử lý lỗi trang"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "Thời gian lỗi trang lớn (ms) nên p rất nhỏ cũng làm EAT tăng mạnh.",
+            "multi": false,
+            "id": "mcq-19",
+            "clusterId": null
+          },
+          {
+            "startLine": 140,
+            "text": "Truy cập RAM mất 100 ns, xử lý lỗi trang mất 8 ms, tỷ lệ lỗi trang p = 0,0001. Thời gian truy cập hiệu dụng xấp xỉ:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "100 ns"
+              },
+              {
+                "key": "B",
+                "text": "900 ns"
+              },
+              {
+                "key": "C",
+                "text": "8000 ns"
+              },
+              {
+                "key": "D",
+                "text": "80100 ns"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "(1 − 0,0001) × 100 + 0,0001 × 8.000.000 ≈ 899,99 ns, chậm gần 9 lần.",
+            "multi": false,
+            "id": "mcq-20",
+            "clusterId": null
+          },
+          {
+            "startLine": 147,
+            "text": "Với RAM 100 ns, lỗi trang 8 ms, nếu tỷ lệ lỗi trang tăng lên p = 0,001 thì EAT xấp xỉ:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "900 ns"
+              },
+              {
+                "key": "B",
+                "text": "1000 ns"
+              },
+              {
+                "key": "C",
+                "text": "8100 ns"
+              },
+              {
+                "key": "D",
+                "text": "80000 ns"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "(1 − 0,001) × 100 + 0,001 × 8.000.000 = 99,9 + 8000 ≈ 8100 ns.",
+            "multi": false,
+            "id": "mcq-21",
+            "clusterId": null
+          },
+          {
+            "startLine": 154,
+            "text": "Khi nào hệ điều hành cần thực hiện thay thế trang?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Khi có lỗi trang nhưng không còn khung rỗi"
+              },
+              {
+                "key": "B",
+                "text": "Khi bảng trang bị xóa"
+              },
+              {
+                "key": "C",
+                "text": "Khi tiến trình mới được tạo"
+              },
+              {
+                "key": "D",
+                "text": "Khi mọi trang đều đang ở RAM"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "Phải chọn một trang \"nạn nhân\" để nhường khung cho trang mới.",
+            "multi": false,
+            "id": "mcq-22",
+            "clusterId": null
+          },
+          {
+            "startLine": 161,
+            "text": "Khi trang nạn nhân đã bị sửa (dirty bit = 1), hệ điều hành phải:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Ghi trang đó trở lại ổ đĩa trước khi dùng khung cho trang mới"
+              },
+              {
+                "key": "B",
+                "text": "Kết thúc tiến trình"
+              },
+              {
+                "key": "C",
+                "text": "Bỏ qua và ghi đè lên khung"
+              },
+              {
+                "key": "D",
+                "text": "Đưa trang vào TLB"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "Quy trình: chọn trang → kiểm tra dirty → nạp trang mới → cập nhật bảng trang của cả hai trang.",
+            "multi": false,
+            "id": "mcq-23",
+            "clusterId": null
+          },
+          {
+            "startLine": 168,
+            "text": "Thuật toán thay trang FIFO chọn trang nạn nhân là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Trang được dùng gần đây nhất"
+              },
+              {
+                "key": "B",
+                "text": "Trang đã nằm trong RAM lâu nhất"
+              },
+              {
+                "key": "C",
+                "text": "Trang có số lần truy cập ít nhất"
+              },
+              {
+                "key": "D",
+                "text": "Trang sẽ được dùng muộn nhất trong tương lai"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "FIFO xếp các trang như một hàng đợi, không quan tâm trang có đang được dùng thường xuyên hay không.",
+            "multi": false,
+            "id": "mcq-24",
+            "clusterId": null
+          },
+          {
+            "startLine": 175,
+            "text": "Với chuỗi tham chiếu 7, 0, 1, 2, 0, 3, 0, 4, 2, 3, 0, 3, 2 và 3 khung ban đầu rỗng, FIFO gây ra bao nhiêu lỗi trang?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "7"
+              },
+              {
+                "key": "B",
+                "text": "9"
+              },
+              {
+                "key": "C",
+                "text": "10"
+              },
+              {
+                "key": "D",
+                "text": "12"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "Slide ghi FIFO: 10 lỗi trên 13 lần truy cập.",
+            "multi": false,
+            "id": "mcq-25",
+            "clusterId": null
+          },
+          {
+            "startLine": 182,
+            "text": "Nghịch lý Belady là hiện tượng:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Tăng số khung làm số lỗi trang luôn giảm"
+              },
+              {
+                "key": "B",
+                "text": "Tăng số khung nhưng số lỗi trang lại tăng (xảy ra với FIFO)"
+              },
+              {
+                "key": "C",
+                "text": "Số lỗi trang không phụ thuộc vào số khung"
+              },
+              {
+                "key": "D",
+                "text": "Giảm số khung làm số lỗi trang giảm"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Với chuỗi 1, 2, 3, 4, 1, 2, 5, 1, 2, 3, 4, 5: FIFO 3 khung có 9 lỗi, 4 khung có 10 lỗi.",
+            "multi": false,
+            "id": "mcq-26",
+            "clusterId": null
+          },
+          {
+            "startLine": 189,
+            "text": "Với chuỗi 1, 2, 3, 4, 1, 2, 5, 1, 2, 3, 4, 5, thuật toán FIFO dùng 4 khung gây ra bao nhiêu lỗi trang?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "8"
+              },
+              {
+                "key": "B",
+                "text": "9"
+              },
+              {
+                "key": "C",
+                "text": "10"
+              },
+              {
+                "key": "D",
+                "text": "12"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "Đây chính là minh họa của nghịch lý Belady (3 khung chỉ có 9 lỗi).",
+            "multi": false,
+            "id": "mcq-27",
+            "clusterId": null
+          },
+          {
+            "startLine": 196,
+            "text": "Thuật toán thay trang tối ưu OPT chọn nạn nhân là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Trang có kích thước nhỏ nhất"
+              },
+              {
+                "key": "B",
+                "text": "Trang vào RAM lâu nhất"
+              },
+              {
+                "key": "C",
+                "text": "Trang sẽ được dùng lại muộn nhất trong tương lai"
+              },
+              {
+                "key": "D",
+                "text": "Trang lâu nhất chưa được dùng"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "OPT cho số lỗi ít nhất nhưng không biết trước tương lai nên chỉ dùng làm chuẩn so sánh.",
+            "multi": false,
+            "id": "mcq-28",
+            "clusterId": null
+          },
+          {
+            "startLine": 203,
+            "text": "Theo bảng mô phỏng OPT trong hình (3 khung), tổng số lỗi trang là bao nhiêu?",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795837255188.enc",
+            "options": [
+              {
+                "key": "A",
+                "text": "6"
+              },
+              {
+                "key": "B",
+                "text": "7"
+              },
+              {
+                "key": "C",
+                "text": "9"
+              },
+              {
+                "key": "D",
+                "text": "10"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Với chuỗi 7, 0, 1, 2, 0, 3, 0, 4, 2, 3, 0, 3, 2: OPT 7 lỗi.",
+            "multi": false,
+            "id": "mcq-29",
+            "clusterId": null
+          },
+          {
+            "startLine": 211,
+            "text": "Theo bảng OPT trong hình, khi truy cập trang 4, trang nào bị thay ra?",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795837268815.enc",
+            "options": [
+              {
+                "key": "A",
+                "text": "Trang 3"
+              },
+              {
+                "key": "B",
+                "text": "Trang 2"
+              },
+              {
+                "key": "C",
+                "text": "Trang 0"
+              },
+              {
+                "key": "D",
+                "text": "Trang 7"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "Các trang 2, 0, 3 đang ở RAM; trang 0 được dùng lại muộn nhất nên bị thay.",
+            "multi": false,
+            "id": "mcq-30",
+            "clusterId": null
+          },
+          {
+            "startLine": 219,
+            "text": "Thuật toán thay trang LRU chọn nạn nhân là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Trang sẽ được dùng muộn nhất"
+              },
+              {
+                "key": "B",
+                "text": "Trang lâu nhất chưa được truy cập"
+              },
+              {
+                "key": "C",
+                "text": "Trang vào RAM sớm nhất"
+              },
+              {
+                "key": "D",
+                "text": "Trang được truy cập gần đây nhất"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "LRU dựa vào quá khứ, bám sát tính cục bộ nhưng phải theo dõi lịch sử truy cập.",
+            "multi": false,
+            "id": "mcq-31",
+            "clusterId": null
+          },
+          {
+            "startLine": 226,
+            "text": "Theo bảng mô phỏng LRU trong hình, khi truy cập trang 4, trang nào bị thay ra?",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795837299050.enc",
+            "options": [
+              {
+                "key": "A",
+                "text": "Trang 7"
+              },
+              {
+                "key": "B",
+                "text": "Trang 3"
+              },
+              {
+                "key": "C",
+                "text": "Trang 0"
+              },
+              {
+                "key": "D",
+                "text": "Trang 2"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "Các trang 2, 0, 3 đang ở RAM; trang 2 lâu nhất chưa được dùng.",
+            "multi": false,
+            "id": "mcq-32",
+            "clusterId": null
+          },
+          {
+            "startLine": 234,
+            "text": "Với chuỗi ví dụ và 3 khung, thứ tự số lỗi trang từ ít đến nhiều là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "FIFO (7) < LRU (9) < OPT (10)"
+              },
+              {
+                "key": "B",
+                "text": "OPT (7) < LRU (9) < FIFO (10)"
+              },
+              {
+                "key": "C",
+                "text": "OPT (7) < FIFO (9) < LRU (10)"
+              },
+              {
+                "key": "D",
+                "text": "LRU (7) < OPT (9) < FIFO (10)"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "OPT là chuẩn tốt nhất, LRU tốt hơn FIFO.",
+            "multi": false,
+            "id": "mcq-33",
+            "clusterId": null
+          },
+          {
+            "startLine": 241,
+            "text": "Cách thực tế để xấp xỉ LRU với chi phí thấp là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Ghi dấu thời gian mỗi lần truy cập bằng phần mềm"
+              },
+              {
+                "key": "B",
+                "text": "Thay trang ngẫu nhiên hoàn toàn"
+              },
+              {
+                "key": "C",
+                "text": "Dùng thuật toán OPT"
+              },
+              {
+                "key": "D",
+                "text": "Dùng bit tham chiếu và thuật toán Clock"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "LRU chính xác cần cập nhật dữ liệu mỗi lần truy cập nên tốn phần cứng và thời gian.",
+            "multi": false,
+            "id": "mcq-34",
+            "clusterId": null
+          },
+          {
+            "startLine": 248,
+            "text": "Với chuỗi tham chiếu 2, 3, 2, 1, 5, 2, 4, 5, 3, 2, 5, 2 và 3 khung ban đầu rỗng, FIFO gây ra bao nhiêu lỗi trang?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "6"
+              },
+              {
+                "key": "B",
+                "text": "7"
+              },
+              {
+                "key": "C",
+                "text": "9"
+              },
+              {
+                "key": "D",
+                "text": "10"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "Mô phỏng FIFO cho 9 lỗi trang.",
+            "multi": false,
+            "id": "mcq-35",
+            "clusterId": null
+          },
+          {
+            "startLine": 255,
+            "text": "Với chuỗi tham chiếu 2, 3, 2, 1, 5, 2, 4, 5, 3, 2, 5, 2 và 3 khung ban đầu rỗng, LRU gây ra bao nhiêu lỗi trang?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "6"
+              },
+              {
+                "key": "B",
+                "text": "7"
+              },
+              {
+                "key": "C",
+                "text": "9"
+              },
+              {
+                "key": "D",
+                "text": "10"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Mô phỏng LRU cho 7 lỗi trang, ít hơn FIFO (9) vì bám sát tính cục bộ.",
+            "multi": false,
+            "id": "mcq-36",
+            "clusterId": null
+          },
+          {
+            "startLine": 262,
+            "text": "Cấp phát khung bằng nhau cho 3 tiến trình với 12 khung thì mỗi tiến trình nhận:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "3 khung"
+              },
+              {
+                "key": "B",
+                "text": "4 khung"
+              },
+              {
+                "key": "C",
+                "text": "6 khung"
+              },
+              {
+                "key": "D",
+                "text": "12 khung"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Cách này dễ thực hiện nhưng tiến trình lớn và nhỏ nhận như nhau dù nhu cầu khác nhau.",
+            "multi": false,
+            "id": "mcq-37",
+            "clusterId": null
+          },
+          {
+            "startLine": 269,
+            "text": "Có 12 khung và ba tiến trình P1 = 10 trang, P2 = 20 trang, P3 = 30 trang. Cấp phát theo tỷ lệ kích thước thì P2 nhận bao nhiêu khung?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "2"
+              },
+              {
+                "key": "B",
+                "text": "4"
+              },
+              {
+                "key": "C",
+                "text": "6"
+              },
+              {
+                "key": "D",
+                "text": "8"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "20/60 × 12 = 4 khung (P1 nhận 2, P3 nhận 6).",
+            "multi": false,
+            "id": "mcq-38",
+            "clusterId": null
+          },
+          {
+            "startLine": 276,
+            "text": "Thay thế trang cục bộ khác thay thế trang toàn cục ở điểm nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Cục bộ có thể lấy khung của tiến trình khác; toàn cục chỉ thay trang của chính nó"
+              },
+              {
+                "key": "B",
+                "text": "Cả hai đều không cho thay trang"
+              },
+              {
+                "key": "C",
+                "text": "Cục bộ chỉ thay trang của chính tiến trình; toàn cục có thể lấy khung của tiến trình khác"
+              },
+              {
+                "key": "D",
+                "text": "Cục bộ luôn cho thông lượng tốt hơn toàn cục"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "Toàn cục linh hoạt hơn và thường cho thông lượng tốt hơn nhưng các tiến trình ảnh hưởng lẫn nhau; cục bộ dễ dự đoán hơn.",
+            "multi": false,
+            "id": "mcq-39",
+            "clusterId": null
+          },
+          {
+            "startLine": 283,
+            "text": "Tập làm việc (working set) của tiến trình là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Tập các trang đang ở trên ổ đĩa"
+              },
+              {
+                "key": "B",
+                "text": "Tập mọi trang của tiến trình"
+              },
+              {
+                "key": "C",
+                "text": "Tập các trang bị thay ra gần nhất"
+              },
+              {
+                "key": "D",
+                "text": "Tập các trang được truy cập trong cửa sổ quan sát gần nhất"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "Ví dụ: chuỗi gần đây 2, 3, 2, 4, 3, 2 → tập làm việc = {2, 3, 4}.",
+            "multi": false,
+            "id": "mcq-40",
+            "clusterId": null
+          },
+          {
+            "startLine": 290,
+            "text": "Thrashing là hiện tượng:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Hệ thống liên tục thay trang, ổ đĩa bận, CPU rảnh và công việc hữu ích chạy rất ít"
+              },
+              {
+                "key": "B",
+                "text": "Tiến trình bị khóa chờ nhau mãi mãi"
+              },
+              {
+                "key": "C",
+                "text": "RAM bị hỏng và mất dữ liệu"
+              },
+              {
+                "key": "D",
+                "text": "CPU hoạt động hết công suất để tính toán"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "Nguyên nhân chính: tổng tập làm việc của các tiến trình lớn hơn số khung RAM.",
+            "multi": false,
+            "id": "mcq-41",
+            "clusterId": null
+          },
+          {
+            "startLine": 297,
+            "text": "Dấu hiệu nào KHÔNG phải dấu hiệu của thrashing?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Mức sử dụng CPU rất cao"
+              },
+              {
+                "key": "B",
+                "text": "Ổ đĩa bận cao do đọc/ghi swap liên tục"
+              },
+              {
+                "key": "C",
+                "text": "Ứng dụng phản hồi chậm, giật kéo dài"
+              },
+              {
+                "key": "D",
+                "text": "Tỷ lệ lỗi trang tăng"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "Khi thrashing, CPU sử dụng thấp vì phải chờ I/O.",
+            "multi": false,
+            "id": "mcq-42",
+            "clusterId": null
+          },
+          {
+            "startLine": 304,
+            "text": "Cách nào sau đây giúp hạn chế thrashing?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Tắt bộ nhớ ảo"
+              },
+              {
+                "key": "B",
+                "text": "Tăng số tiến trình để tận dụng CPU"
+              },
+              {
+                "key": "C",
+                "text": "Giảm số khung cấp cho mọi tiến trình"
+              },
+              {
+                "key": "D",
+                "text": "Giảm số tiến trình đang chạy (tạm dừng hoặc swap out) và cấp đủ khung cho tập làm việc"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "Tăng thêm tiến trình trong lúc thrashing thường làm tình hình xấu hơn.",
+            "multi": false,
+            "id": "mcq-43",
+            "clusterId": null
+          },
+          {
+            "startLine": 311,
+            "text": "Cơ chế PFF (Page Fault Frequency) điều chỉnh số khung dựa trên điều gì?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Kích thước của tiến trình"
+              },
+              {
+                "key": "B",
+                "text": "Tần suất lỗi trang đo được so với hai ngưỡng trên và dưới"
+              },
+              {
+                "key": "C",
+                "text": "Độ ưu tiên của tiến trình"
+              },
+              {
+                "key": "D",
+                "text": "Số lần tiến trình gọi hệ thống"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Cao hơn ngưỡng trên thì thêm khung hoặc giảm tải; thấp hơn ngưỡng dưới thì thu hồi bớt khung.",
+            "multi": false,
+            "id": "mcq-44",
+            "clusterId": null
+          },
+          {
+            "startLine": 318,
+            "text": "Ba tiến trình: P1 (6 khung, 2 lỗi/giây), P2 (4 khung, 18 lỗi/giây), P3 (5 khung, 7 lỗi/giây). Theo PFF, quyết định hợp lý là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Chuyển một khung từ P2 sang P1"
+              },
+              {
+                "key": "B",
+                "text": "Giữ nguyên số khung của cả ba tiến trình"
+              },
+              {
+                "key": "C",
+                "text": "Chuyển một khung từ P1 sang P2"
+              },
+              {
+                "key": "D",
+                "text": "Thu hồi khung của P3 để cấp cho P1"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "P2 có tần suất lỗi quá cao nên cần thêm khung; P1 lỗi thấp nên có thể giảm 1 khung; P3 giữ nguyên.",
+            "multi": false,
+            "id": "mcq-45",
+            "clusterId": null
+          },
+          {
+            "startLine": 325,
+            "text": "Theo bảng đoạn trong hình, địa chỉ logic (đoạn 2, độ lệch 3000) tương ứng địa chỉ vật lý nào?",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795837323193.enc",
+            "options": [
+              {
+                "key": "A",
+                "text": "3000"
+              },
+              {
+                "key": "B",
+                "text": "15000"
+              },
+              {
+                "key": "C",
+                "text": "25000"
+              },
+              {
+                "key": "D",
+                "text": "28000"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "Heap có base 25000, limit 6000; 3000 &lt; 6000 nên địa chỉ vật lý = 25000 + 3000 = 28000.",
+            "multi": false,
+            "id": "mcq-46",
+            "clusterId": null
+          },
+          {
+            "startLine": 333,
+            "text": "Theo bảng đoạn trong hình, địa chỉ logic (đoạn 0, độ lệch 7000) tương ứng địa chỉ vật lý nào?",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795837324995.enc",
+            "options": [
+              {
+                "key": "A",
+                "text": "7000"
+              },
+              {
+                "key": "B",
+                "text": "12000"
+              },
+              {
+                "key": "C",
+                "text": "19000"
+              },
+              {
+                "key": "D",
+                "text": "20000"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "Đoạn Mã có base 12000, limit 8000; 7000 &lt; 8000 nên địa chỉ vật lý = 12000 + 7000 = 19000.",
+            "multi": false,
+            "id": "mcq-47",
+            "clusterId": null
+          },
+          {
+            "startLine": 341,
+            "text": "Theo hình, khi chương trình gọi mô-đun A đang nằm trên ổ đĩa, hệ điều hành làm gì?",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795837329469.enc",
+            "options": [
+              {
+                "key": "A",
+                "text": "Kết thúc chương trình vì thiếu bộ nhớ"
+              },
+              {
+                "key": "B",
+                "text": "Chỉ nạp một trang của đoạn A"
+              },
+              {
+                "key": "C",
+                "text": "Nạp tất cả các đoạn của chương trình"
+              },
+              {
+                "key": "D",
+                "text": "Nạp toàn bộ đoạn A vào một vùng RAM liên tục"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "Vì đoạn có kích thước biến đổi nên cần vùng liên tục đủ lớn; chưa có chỗ thì có thể kết khối.",
+            "multi": false,
+            "id": "mcq-48",
+            "clusterId": null
+          },
+          {
+            "startLine": 349,
+            "text": "So với phân trang theo yêu cầu, phân đoạn theo yêu cầu có đặc điểm nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Đơn vị cố định, đặt vào khung rỗi bất kỳ, chủ yếu phân mảnh trong"
+              },
+              {
+                "key": "B",
+                "text": "Không có lỗi khi thiếu đoạn"
+              },
+              {
+                "key": "C",
+                "text": "Không cần bảng quản lý"
+              },
+              {
+                "key": "D",
+                "text": "Đơn vị có kích thước khác nhau, cần vùng liên tục đủ lớn và gây phân mảnh ngoài"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "Phân trang: lỗi trang, phân mảnh trong; phân đoạn: lỗi đoạn, phân mảnh ngoài.",
+            "multi": false,
+            "id": "mcq-49",
+            "clusterId": null
+          },
+          {
+            "startLine": 356,
+            "text": "Trong hình địa chỉ logic s | p | d của kết hợp phân đoạn và phân trang, trường p dùng để làm gì?",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795837362144.enc",
+            "options": [
+              {
+                "key": "A",
+                "text": "Chọn đoạn"
+              },
+              {
+                "key": "B",
+                "text": "Tìm bảng trang của đoạn"
+              },
+              {
+                "key": "C",
+                "text": "Chọn byte trong khung"
+              },
+              {
+                "key": "D",
+                "text": "Chọn trang trong đoạn"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "s chọn đoạn (qua bảng đoạn tìm bảng trang), p chọn trang trong đoạn, d chọn byte trong khung.",
+            "multi": false,
+            "id": "mcq-50",
+            "clusterId": null
+          }
+        ]
+      }
+    }
+  }
+}
