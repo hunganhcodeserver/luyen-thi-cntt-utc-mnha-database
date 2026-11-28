@@ -1,0 +1,2284 @@
+{
+  "type": "quiz",
+  "lessonId": "6b0a554d23ac90bc0b2495a5",
+  "title": "Ôn tập C4. Memory (1)",
+  "slug": "on-tap-c4-memory-1",
+  "subjectSlug": "kien-truc-va-to-chuc-may-tinh-1-1-26n06",
+  "duration": 75,
+  "promptId": null,
+  "analysisAiKeyIds": [],
+  "isPublished": true,
+  "visibility": "public",
+  "allowedUserIds": [],
+  "allowedGroupIds": [],
+  "isDeleted": false,
+  "createdBy": {
+    "id": "6ab3d694415010bf620349e5",
+    "name": "Mai Ngọc Hùng Anh",
+    "email": "hunganh.okokok.0@gmail.com"
+  },
+  "createdAt": "2026-11-28T04:15:09.103Z",
+  "updatedAt": "2026-11-28T04:15:09.103Z",
+  "contentHtml": null,
+  "quiz": {
+    "version": 1,
+    "maxScore": 10,
+    "parts": {
+      "mcq": {
+        "pointsPerQuestion": 0.1333,
+        "questions": [
+          {
+            "startLine": 1,
+            "text": "Theo vị trí trong hệ thống, bộ nhớ ngoài là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Tập thanh ghi bên trong CPU"
+              },
+              {
+                "key": "B",
+                "text": "Bộ nhớ chính và cache"
+              },
+              {
+                "key": "C",
+                "text": "Các thiết bị nhớ như đĩa từ, đĩa quang, flash, băng từ"
+              },
+              {
+                "key": "D",
+                "text": "Chỉ gồm ROM BIOS trên bo mạch chủ"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "Bộ nhớ ngoài là các thiết bị nhớ (đĩa, băng từ...); thanh ghi nằm trong CPU, bộ nhớ trong gồm bộ nhớ chính và cache.",
+            "multi": false,
+            "id": "mcq-1",
+            "clusterId": null
+          },
+          {
+            "startLine": 8,
+            "text": "Dung lượng của một hệ thống nhớ được đặc trưng bởi:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Thời gian truy nhập và chu kỳ nhớ"
+              },
+              {
+                "key": "B",
+                "text": "Phương pháp truy nhập và kiểu vật lý"
+              },
+              {
+                "key": "C",
+                "text": "Tính khả biến và khả năng xoá"
+              },
+              {
+                "key": "D",
+                "text": "Độ dài từ nhớ và số lượng từ nhớ"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-2",
+            "clusterId": null
+          },
+          {
+            "startLine": 14,
+            "text": "Phương pháp truy nhập nào gắn với bộ nhớ bán dẫn (RAM/ROM)?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Truy nhập tuần tự"
+              },
+              {
+                "key": "B",
+                "text": "Truy nhập trực tiếp"
+              },
+              {
+                "key": "C",
+                "text": "Truy nhập ngẫu nhiên"
+              },
+              {
+                "key": "D",
+                "text": "Truy nhập liên kết"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "Băng từ: tuần tự; đĩa: trực tiếp; bộ nhớ bán dẫn: ngẫu nhiên; cache: liên kết.",
+            "multi": false,
+            "id": "mcq-3",
+            "clusterId": null
+          },
+          {
+            "startLine": 21,
+            "text": "Bộ nhớ khả biến (volatile) là bộ nhớ:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Không thể ghi lại thông tin"
+              },
+              {
+                "key": "B",
+                "text": "Mất thông tin khi mất nguồn điện cung cấp"
+              },
+              {
+                "key": "C",
+                "text": "Chỉ ghi được một lần"
+              },
+              {
+                "key": "D",
+                "text": "Có thể xoá bằng tia cực tím"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-4",
+            "clusterId": null
+          },
+          {
+            "startLine": 27,
+            "text": "Trong sơ đồ phân cấp hệ thống nhớ (từ tập thanh ghi, cache L1, L2, bộ nhớ chính đến bộ nhớ ngoài), khi đi từ trái sang phải thì:",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795839197963.enc",
+            "options": [
+              {
+                "key": "A",
+                "text": "Dung lượng tăng dần, tốc độ giảm dần, giá thành trên 1 bit giảm dần"
+              },
+              {
+                "key": "B",
+                "text": "Dung lượng giảm dần, tốc độ tăng dần, giá thành/bit tăng dần"
+              },
+              {
+                "key": "C",
+                "text": "Dung lượng tăng dần, tốc độ tăng dần, giá thành/bit giảm dần"
+              },
+              {
+                "key": "D",
+                "text": "Dung lượng, tốc độ và giá thành/bit đều tăng dần"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-5",
+            "clusterId": null
+          },
+          {
+            "startLine": 34,
+            "text": "Dựa vào bảng phân loại bộ nhớ bán dẫn, loại bộ nhớ nào được xoá bằng tia cực tím và xoá toàn bộ chip?",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795839201437.enc",
+            "options": [
+              {
+                "key": "A",
+                "text": "EEPROM"
+              },
+              {
+                "key": "B",
+                "text": "Flash Memory"
+              },
+              {
+                "key": "C",
+                "text": "PROM"
+              },
+              {
+                "key": "D",
+                "text": "EPROM"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "EPROM xoá bằng tia cực tím (cả chip); EEPROM xoá bằng điện theo từng byte; Flash xoá bằng điện theo từng khối.",
+            "multi": false,
+            "id": "mcq-6",
+            "clusterId": null
+          },
+          {
+            "startLine": 42,
+            "text": "ROM mặt nạ (Mask ROM) có đặc điểm:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Ghi được nhiều lần bằng chương trình"
+              },
+              {
+                "key": "B",
+                "text": "Xoá bằng tia cực tím"
+              },
+              {
+                "key": "C",
+                "text": "Ghi một lần bằng thiết bị chuyên dụng sau khi sản xuất"
+              },
+              {
+                "key": "D",
+                "text": "Thông tin được ghi ngay khi sản xuất và rất đắt nếu sản xuất số lượng ít"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-7",
+            "clusterId": null
+          },
+          {
+            "startLine": 48,
+            "text": "Loại nào xoá được bằng điện và có thể ghi theo từng byte?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "EEPROM"
+              },
+              {
+                "key": "B",
+                "text": "EPROM"
+              },
+              {
+                "key": "C",
+                "text": "PROM"
+              },
+              {
+                "key": "D",
+                "text": "ROM mặt nạ"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-8",
+            "clusterId": null
+          },
+          {
+            "startLine": 54,
+            "text": "Loại thông tin nào sau đây KHÔNG được lưu trữ trong ROM?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Các chương trình điều khiển hệ thống (BIOS)"
+              },
+              {
+                "key": "B",
+                "text": "Dữ liệu tạm thời của chương trình đang chạy"
+              },
+              {
+                "key": "C",
+                "text": "Thư viện các chương trình con"
+              },
+              {
+                "key": "D",
+                "text": "Các bảng chức năng"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Dữ liệu tạm thời lưu ở RAM.",
+            "multi": false,
+            "id": "mcq-9",
+            "clusterId": null
+          },
+          {
+            "startLine": 61,
+            "text": "PROM (Programmable ROM) có đặc điểm:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Ghi được nhiều lần, xoá bằng tia cực tím"
+              },
+              {
+                "key": "B",
+                "text": "Thông tin ghi cố định khi sản xuất"
+              },
+              {
+                "key": "C",
+                "text": "Xoá được bằng điện từng byte"
+              },
+              {
+                "key": "D",
+                "text": "Cần thiết bị chuyên dụng để ghi bằng chương trình và chỉ ghi được một lần"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-10",
+            "clusterId": null
+          },
+          {
+            "startLine": 67,
+            "text": "EPROM khác PROM ở điểm nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "EPROM chỉ ghi được một lần"
+              },
+              {
+                "key": "B",
+                "text": "EPROM xoá bằng điện theo từng byte"
+              },
+              {
+                "key": "C",
+                "text": "EPROM là bộ nhớ khả biến"
+              },
+              {
+                "key": "D",
+                "text": "EPROM có thể xoá bằng tia cực tím rồi ghi lại nhiều lần"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-11",
+            "clusterId": null
+          },
+          {
+            "startLine": 73,
+            "text": "Flash Memory có đặc điểm:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Ghi theo khối và xoá bằng điện"
+              },
+              {
+                "key": "B",
+                "text": "Ghi theo từng bit và xoá bằng tia cực tím"
+              },
+              {
+                "key": "C",
+                "text": "Ghi một lần, không xoá được"
+              },
+              {
+                "key": "D",
+                "text": "Mất dữ liệu khi tắt nguồn"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-12",
+            "clusterId": null
+          },
+          {
+            "startLine": 79,
+            "text": "Phát biểu đúng về SRAM (Static RAM):",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Các bit lưu trên tụ điện nên cần mạch làm tươi"
+              },
+              {
+                "key": "B",
+                "text": "Có cấu trúc đơn giản, dung lượng lớn, rẻ tiền"
+              },
+              {
+                "key": "C",
+                "text": "Tốc độ chậm hơn DRAM"
+              },
+              {
+                "key": "D",
+                "text": "Các bit được lưu trữ bằng các Flip-Flop nên thông tin ổn định, không cần làm tươi"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-13",
+            "clusterId": null
+          },
+          {
+            "startLine": 85,
+            "text": "Phát biểu đúng về DRAM (Dynamic RAM):",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Bit lưu bằng Flip-Flop, không cần làm tươi, đắt tiền"
+              },
+              {
+                "key": "B",
+                "text": "Chỉ đọc được, không ghi được"
+              },
+              {
+                "key": "C",
+                "text": "Bit lưu trên tụ điện, cần mạch làm tươi, cấu trúc đơn giản, dung lượng lớn, rẻ, chậm hơn SRAM"
+              },
+              {
+                "key": "D",
+                "text": "Thường dùng làm bộ nhớ cache"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-14",
+            "clusterId": null
+          },
+          {
+            "startLine": 91,
+            "text": "Loại RAM nào thường được dùng làm bộ nhớ cache?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "DRAM"
+              },
+              {
+                "key": "B",
+                "text": "EEPROM"
+              },
+              {
+                "key": "C",
+                "text": "PROM"
+              },
+              {
+                "key": "D",
+                "text": "SRAM"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "SRAM nhanh nhưng đắt, dung lượng nhỏ nên dùng làm cache; DRAM rẻ, dung lượng lớn nên dùng làm bộ nhớ chính.",
+            "multi": false,
+            "id": "mcq-15",
+            "clusterId": null
+          },
+          {
+            "startLine": 98,
+            "text": "SDRAM (Synchronous DRAM) là loại DRAM:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Làm việc đồng bộ bởi xung đồng hồ"
+              },
+              {
+                "key": "B",
+                "text": "Làm việc không cần xung đồng hồ"
+              },
+              {
+                "key": "C",
+                "text": "Chỉ dùng làm ROM"
+              },
+              {
+                "key": "D",
+                "text": "Lưu bit bằng Flip-Flop"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-16",
+            "clusterId": null
+          },
+          {
+            "startLine": 104,
+            "text": "DDR-SDRAM có tên đầy đủ là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Dynamic Data Rate SDRAM"
+              },
+              {
+                "key": "B",
+                "text": "Direct Data Read SDRAM"
+              },
+              {
+                "key": "C",
+                "text": "Dual Disk Random SDRAM"
+              },
+              {
+                "key": "D",
+                "text": "Double Data Rate SDRAM"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-17",
+            "clusterId": null
+          },
+          {
+            "startLine": 110,
+            "text": "Trên sơ đồ cơ bản của chip nhớ, tín hiệu nào dùng để chọn chip, tín hiệu nào cho phép đọc, tín hiệu nào cho phép ghi?",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795839226284.enc",
+            "options": [
+              {
+                "key": "A",
+                "text": "CS cho phép đọc; OE chọn chip; WE cho phép ghi"
+              },
+              {
+                "key": "B",
+                "text": "CS chọn chip; OE cho phép ghi; WE cho phép đọc"
+              },
+              {
+                "key": "C",
+                "text": "CS chọn chip; OE cho phép đọc; WE cho phép ghi"
+              },
+              {
+                "key": "D",
+                "text": "CS cho phép ghi; OE cho phép đọc; WE chọn chip"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "Các tín hiệu điều khiển tích cực với mức 0.",
+            "multi": false,
+            "id": "mcq-18",
+            "clusterId": null
+          },
+          {
+            "startLine": 118,
+            "text": "Chip nhớ SRAM 4K × 4 bit có số chân địa chỉ và số chân dữ liệu là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "4 chân địa chỉ, 12 chân dữ liệu"
+              },
+              {
+                "key": "B",
+                "text": "4096 chân địa chỉ, 4 chân dữ liệu"
+              },
+              {
+                "key": "C",
+                "text": "10 chân địa chỉ, 4 chân dữ liệu"
+              },
+              {
+                "key": "D",
+                "text": "12 chân địa chỉ, 4 chân dữ liệu"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "4K = 2^12 từ nhớ nên cần 12 chân địa chỉ; mỗi từ 4 bit nên 4 chân dữ liệu.",
+            "multi": false,
+            "id": "mcq-19",
+            "clusterId": null
+          },
+          {
+            "startLine": 125,
+            "text": "Chip nhớ có 20 chân địa chỉ và 8 chân dữ liệu có dung lượng:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "20 × 8 bit = 160 bit"
+              },
+              {
+                "key": "B",
+                "text": "2^8 × 20 bit"
+              },
+              {
+                "key": "C",
+                "text": "2^20 × 8 bit = 8 Mbit (1 MB)"
+              },
+              {
+                "key": "D",
+                "text": "2^28 bit = 256 Mbit"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-20",
+            "clusterId": null
+          },
+          {
+            "startLine": 131,
+            "text": "Chip nhớ tổ chức hai chiều có n1 = 6 bit địa chỉ hàng, n2 = 5 bit địa chỉ cột và độ dài từ nhớ m = 8 bit. Dung lượng chip là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "(6 + 5) × 8 = 88 bit"
+              },
+              {
+                "key": "B",
+                "text": "2^11 × 8 bit = 16384 bit"
+              },
+              {
+                "key": "C",
+                "text": "2^6 × 8 bit = 512 bit"
+              },
+              {
+                "key": "D",
+                "text": "2^30 × 8 bit"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Dung lượng = 2^(n1+n2) × m bit.",
+            "multi": false,
+            "id": "mcq-21",
+            "clusterId": null
+          },
+          {
+            "startLine": 138,
+            "text": "Trong chip nhớ tổ chức hai chiều, quá trình giải mã địa chỉ gồm hai bước:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Giải mã cột trước chọn 1 trong 2^n1 cột, rồi giải mã hàng"
+              },
+              {
+                "key": "B",
+                "text": "Giải mã đồng thời toàn bộ 2^(n1+n2) từ nhớ bằng một bộ giải mã duy nhất"
+              },
+              {
+                "key": "C",
+                "text": "Bộ giải mã hàng chọn 1 trong 2^n1 hàng, rồi bộ giải mã cột chọn 1 trong 2^n2 từ nhớ của hàng đó"
+              },
+              {
+                "key": "D",
+                "text": "Bộ giải mã hàng chọn chip, bộ giải mã cột chọn byte"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-22",
+            "clusterId": null
+          },
+          {
+            "startLine": 144,
+            "text": "Trong sơ đồ tổ chức của DRAM, hai tín hiệu RAS và CAS có chức năng:",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795839242519.enc",
+            "options": [
+              {
+                "key": "A",
+                "text": "RAS chọn địa chỉ hàng, CAS chọn địa chỉ cột (dồn kênh đường địa chỉ)"
+              },
+              {
+                "key": "B",
+                "text": "RAS cho phép đọc, CAS cho phép ghi"
+              },
+              {
+                "key": "C",
+                "text": "RAS chọn chip, CAS xoá chip"
+              },
+              {
+                "key": "D",
+                "text": "RAS là xung làm tươi, CAS là xung đồng hồ"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-23",
+            "clusterId": null
+          },
+          {
+            "startLine": 151,
+            "text": "DRAM có 14 chân địa chỉ dồn kênh và 8 chân dữ liệu. Dung lượng của chip là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "16 MB"
+              },
+              {
+                "key": "B",
+                "text": "256 MB"
+              },
+              {
+                "key": "C",
+                "text": "128 MB"
+              },
+              {
+                "key": "D",
+                "text": "512 MB"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Dồn kênh cho phép truyền 2n = 28 bit địa chỉ nên dung lượng = 2^28 × 8 bit = 256M × 8 bit = 256 MB.",
+            "multi": false,
+            "id": "mcq-24",
+            "clusterId": null
+          },
+          {
+            "startLine": 158,
+            "text": "DRAM có 12 chân địa chỉ dồn kênh và 4 chân dữ liệu. Dung lượng của chip là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "8 MB (16M × 4 bit)"
+              },
+              {
+                "key": "B",
+                "text": "4 MB"
+              },
+              {
+                "key": "C",
+                "text": "16 MB"
+              },
+              {
+                "key": "D",
+                "text": "64 MB"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "2^24 × 4 bit = 16M × 4 bit = 64 Mbit = 8 MB.",
+            "multi": false,
+            "id": "mcq-25",
+            "clusterId": null
+          },
+          {
+            "startLine": 165,
+            "text": "Việc dồn kênh địa chỉ (hàng/cột) trong DRAM có tác dụng chính là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Tăng tốc độ ghi gấp đôi"
+              },
+              {
+                "key": "B",
+                "text": "Tiết kiệm số chân địa chỉ của chip"
+              },
+              {
+                "key": "C",
+                "text": "Giảm số chân dữ liệu"
+              },
+              {
+                "key": "D",
+                "text": "Không cần mạch làm tươi"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-26",
+            "clusterId": null
+          },
+          {
+            "startLine": 171,
+            "text": "Để thiết kế mô-đun nhớ 4K × 8 bit từ các chip SRAM 4K × 4 bit (xem sơ đồ), cần:",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795839263234.enc",
+            "options": [
+              {
+                "key": "A",
+                "text": "2 chip, các chân địa chỉ, CS, WE, OE nối chung; 4 chân dữ liệu của mỗi chip ghép thành 8 chân dữ liệu"
+              },
+              {
+                "key": "B",
+                "text": "2 chip, mỗi chip có CS riêng nối với một bộ giải mã"
+              },
+              {
+                "key": "C",
+                "text": "4 chip, nối nối tiếp các chân địa chỉ"
+              },
+              {
+                "key": "D",
+                "text": "1 chip và 1 bộ giải mã 1→2"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "Tăng độ dài từ nhớ: dùng k chip, nối chung địa chỉ và điều khiển, ghép các đường dữ liệu.",
+            "multi": false,
+            "id": "mcq-27",
+            "clusterId": null
+          },
+          {
+            "startLine": 179,
+            "text": "Cho chip nhớ SRAM 1K × 8 bit. Để thiết kế mô-đun nhớ 1K × 32 bit cần số chip là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "2"
+              },
+              {
+                "key": "B",
+                "text": "8"
+              },
+              {
+                "key": "C",
+                "text": "32"
+              },
+              {
+                "key": "D",
+                "text": "4"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "Tăng độ dài từ 8 → 32 bit: k = 32/8 = 4 chip.",
+            "multi": false,
+            "id": "mcq-28",
+            "clusterId": null
+          },
+          {
+            "startLine": 186,
+            "text": "Mô-đun nhớ 8K × 8 bit được thiết kế từ 2 chip SRAM 4K × 8 bit như sơ đồ. Tín hiệu địa chỉ nào được dùng cho bộ giải mã 1→2 để tạo tín hiệu chọn chip?",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795839266561.enc",
+            "options": [
+              {
+                "key": "A",
+                "text": "A11"
+              },
+              {
+                "key": "B",
+                "text": "A13"
+              },
+              {
+                "key": "C",
+                "text": "A12"
+              },
+              {
+                "key": "D",
+                "text": "A0"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "Mô-đun có 13 chân địa chỉ A12÷A0; A11÷A0 nối chung vào cả hai chip, A12 qua bộ giải mã 1→2 chọn chip.",
+            "multi": false,
+            "id": "mcq-29",
+            "clusterId": null
+          },
+          {
+            "startLine": 194,
+            "text": "Bộ giải mã 2→4 có đầu vào cho phép G̅ và các đầu ra Y0..Y3 tích cực mức 0. Khi G̅ = 0, B = 1, A = 0 thì đầu ra nào bằng 0?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Y0"
+              },
+              {
+                "key": "B",
+                "text": "Y2"
+              },
+              {
+                "key": "C",
+                "text": "Y1"
+              },
+              {
+                "key": "D",
+                "text": "Y3"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "BA = 10 (nhị phân) = 2 nên Y2 = 0, các đầu ra còn lại bằng 1.",
+            "multi": false,
+            "id": "mcq-30",
+            "clusterId": null
+          },
+          {
+            "startLine": 201,
+            "text": "Thiết kế mô-đun nhớ 16K × 8 bit từ các chip SRAM 4K × 8 bit. Phương án đúng là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Dùng 2 chip; A13 chọn chip"
+              },
+              {
+                "key": "B",
+                "text": "Dùng 4 chip; A13, A12 nối chung vào cả 4 chip"
+              },
+              {
+                "key": "C",
+                "text": "Dùng 4 chip; A11÷A0 nối chung các chip; A13, A12 qua bộ giải mã 2→4 tạo tín hiệu CS cho từng chip"
+              },
+              {
+                "key": "D",
+                "text": "Dùng 8 chip; ghép song song các đường dữ liệu"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-31",
+            "clusterId": null
+          },
+          {
+            "startLine": 207,
+            "text": "Cho chip SRAM 4K × 4 bit. Số chip cần để thiết kế mô-đun nhớ 8K × 8 bit là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "2"
+              },
+              {
+                "key": "B",
+                "text": "3"
+              },
+              {
+                "key": "C",
+                "text": "8"
+              },
+              {
+                "key": "D",
+                "text": "4"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "Tăng số từ gấp 2 và độ dài từ gấp 2: 2 × 2 = 4 chip.",
+            "multi": false,
+            "id": "mcq-32",
+            "clusterId": null
+          },
+          {
+            "startLine": 214,
+            "text": "Cho chip SRAM 4K × 4 bit. Số chip cần để thiết kế mô-đun nhớ 32K × 8 bit là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "16"
+              },
+              {
+                "key": "B",
+                "text": "8"
+              },
+              {
+                "key": "C",
+                "text": "12"
+              },
+              {
+                "key": "D",
+                "text": "32"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "(32K/4K) × (8/4) = 8 × 2 = 16 chip.",
+            "multi": false,
+            "id": "mcq-33",
+            "clusterId": null
+          },
+          {
+            "startLine": 221,
+            "text": "Cho chip nhớ 16K × 8 bit. Số chip cần để thiết kế mô-đun nhớ 64K × 16 bit là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "4"
+              },
+              {
+                "key": "B",
+                "text": "6"
+              },
+              {
+                "key": "C",
+                "text": "8"
+              },
+              {
+                "key": "D",
+                "text": "16"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "(64K/16K) × (16/8) = 4 × 2 = 8 chip.",
+            "multi": false,
+            "id": "mcq-34",
+            "clusterId": null
+          },
+          {
+            "startLine": 228,
+            "text": "Thiết kế mô-đun nhớ 32K × 8 bit từ chip SRAM 4K × 8 bit. Phát biểu nào đúng?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Cần 8 chip, mô-đun có 15 chân địa chỉ, dùng bộ giải mã 3→8 cho 3 bit địa chỉ cao"
+              },
+              {
+                "key": "B",
+                "text": "Cần 4 chip, mô-đun có 14 chân địa chỉ, dùng bộ giải mã 2→4"
+              },
+              {
+                "key": "C",
+                "text": "Cần 8 chip, mô-đun có 12 chân địa chỉ"
+              },
+              {
+                "key": "D",
+                "text": "Cần 16 chip, dùng bộ giải mã 4→16"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "32K = 2^15 nên 15 chân địa chỉ; 32K/4K = 8 chip; chọn chip bằng A14, A13, A12 qua bộ giải mã 3→8.",
+            "multi": false,
+            "id": "mcq-35",
+            "clusterId": null
+          },
+          {
+            "startLine": 235,
+            "text": "Đặc điểm của bộ nhớ chính là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Chứa các chương trình đang thực hiện và dữ liệu đang được sử dụng; các ngăn nhớ được CPU đánh địa chỉ trực tiếp"
+              },
+              {
+                "key": "B",
+                "text": "Chỉ chứa dữ liệu, không chứa chương trình"
+              },
+              {
+                "key": "C",
+                "text": "Chỉ gồm ROM, không có RAM"
+              },
+              {
+                "key": "D",
+                "text": "Các ngăn nhớ phải được truy nhập qua cache mới đánh địa chỉ được"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-36",
+            "clusterId": null
+          },
+          {
+            "startLine": 241,
+            "text": "Dung lượng bộ nhớ chính của một máy tính so với không gian địa chỉ mà CPU quản lý:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Luôn bằng không gian địa chỉ của CPU"
+              },
+              {
+                "key": "B",
+                "text": "Luôn lớn hơn không gian địa chỉ của CPU"
+              },
+              {
+                "key": "C",
+                "text": "Không có quan hệ gì"
+              },
+              {
+                "key": "D",
+                "text": "Thường nhỏ hơn không gian địa chỉ mà CPU quản lý"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-37",
+            "clusterId": null
+          },
+          {
+            "startLine": 247,
+            "text": "Với bus dữ liệu rộng m = 16 bit, bộ nhớ chính tổ chức đan xen gồm:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Hai băng nhớ (băng 0 chứa các byte địa chỉ chẵn, băng 1 chứa các byte địa chỉ lẻ)"
+              },
+              {
+                "key": "B",
+                "text": "Một băng nhớ tuyến tính"
+              },
+              {
+                "key": "C",
+                "text": "Bốn băng nhớ"
+              },
+              {
+                "key": "D",
+                "text": "Tám băng nhớ"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-38",
+            "clusterId": null
+          },
+          {
+            "startLine": 253,
+            "text": "Với tổ chức đan xen m = 16 bit, khi BE1 = 0 và BE0 = 1 thì:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Chọn byte cao (băng 1)"
+              },
+              {
+                "key": "B",
+                "text": "Chọn byte thấp (băng 0)"
+              },
+              {
+                "key": "C",
+                "text": "Chọn cả hai byte"
+              },
+              {
+                "key": "D",
+                "text": "Không chọn byte nào"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "BE1 BE0 = 00: cả 2 byte; 01: byte cao; 10: byte thấp; 11: không chọn.",
+            "multi": false,
+            "id": "mcq-39",
+            "clusterId": null
+          },
+          {
+            "startLine": 260,
+            "text": "Trong tổ chức bộ nhớ đan xen m = 32 bit (4 băng), ngăn nhớ có địa chỉ 14 nằm ở băng nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Băng 0"
+              },
+              {
+                "key": "B",
+                "text": "Băng 2"
+              },
+              {
+                "key": "C",
+                "text": "Băng 1"
+              },
+              {
+                "key": "D",
+                "text": "Băng 3"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Băng i chứa các địa chỉ 4k + i; 14 = 4×3 + 2 nên ở băng 2.",
+            "multi": false,
+            "id": "mcq-40",
+            "clusterId": null
+          },
+          {
+            "startLine": 267,
+            "text": "Với bus dữ liệu m = 64 bit (8 băng nhớ đan xen), byte có địa chỉ 21 nằm ở băng nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Băng 2"
+              },
+              {
+                "key": "B",
+                "text": "Băng 5"
+              },
+              {
+                "key": "C",
+                "text": "Băng 3"
+              },
+              {
+                "key": "D",
+                "text": "Băng 7"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "21 mod 8 = 5.",
+            "multi": false,
+            "id": "mcq-41",
+            "clusterId": null
+          },
+          {
+            "startLine": 274,
+            "text": "Với bus dữ liệu m = 16 bit (hai băng đan xen), byte có địa chỉ 9 nằm ở băng nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Băng 0"
+              },
+              {
+                "key": "B",
+                "text": "Băng 1"
+              },
+              {
+                "key": "C",
+                "text": "Băng 2"
+              },
+              {
+                "key": "D",
+                "text": "Băng 9"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "9 mod 2 = 1: địa chỉ lẻ thuộc băng 1.",
+            "multi": false,
+            "id": "mcq-42",
+            "clusterId": null
+          },
+          {
+            "startLine": 281,
+            "text": "Nguyên tắc chung của bộ nhớ cache là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Cache có dung lượng lớn hơn bộ nhớ chính"
+              },
+              {
+                "key": "B",
+                "text": "Cache đặt giữa bộ nhớ chính và đĩa cứng để tăng dung lượng"
+              },
+              {
+                "key": "C",
+                "text": "Cache có tốc độ chậm hơn nhưng rẻ hơn bộ nhớ chính"
+              },
+              {
+                "key": "D",
+                "text": "Cache có tốc độ nhanh hơn bộ nhớ chính, đặt giữa CPU và bộ nhớ chính nhằm tăng tốc độ CPU truy cập bộ nhớ"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-43",
+            "clusterId": null
+          },
+          {
+            "startLine": 287,
+            "text": "Cache hit là trường hợp:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Từ nhớ CPU cần truy nhập có trong cache"
+              },
+              {
+                "key": "B",
+                "text": "Từ nhớ CPU cần truy nhập không có trong cache"
+              },
+              {
+                "key": "C",
+                "text": "Cache bị đầy"
+              },
+              {
+                "key": "D",
+                "text": "Dữ liệu được ghi trả về bộ nhớ chính"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-44",
+            "clusterId": null
+          },
+          {
+            "startLine": 293,
+            "text": "Khi xảy ra cache miss, hệ thống thực hiện:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Chỉ đọc đúng từ nhớ cần thiết từ bộ nhớ chính, không nạp vào cache"
+              },
+              {
+                "key": "B",
+                "text": "Báo lỗi cho CPU"
+              },
+              {
+                "key": "C",
+                "text": "Đọc block chứa từ nhớ từ bộ nhớ chính nạp vào cache, sau đó chuyển dữ liệu cho CPU"
+              },
+              {
+                "key": "D",
+                "text": "Xoá toàn bộ cache"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-45",
+            "clusterId": null
+          },
+          {
+            "startLine": 299,
+            "text": "Bộ nhớ chính 64 MB được chia thành các block 16 byte. Số block của bộ nhớ chính là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "64M block"
+              },
+              {
+                "key": "B",
+                "text": "4M block"
+              },
+              {
+                "key": "C",
+                "text": "16M block"
+              },
+              {
+                "key": "D",
+                "text": "1M block"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "2^26 / 2^4 = 2^22 = 4M.",
+            "multi": false,
+            "id": "mcq-46",
+            "clusterId": null
+          },
+          {
+            "startLine": 306,
+            "text": "Trường Tag của mỗi line trong cache cho biết:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Số byte của line"
+              },
+              {
+                "key": "B",
+                "text": "Địa chỉ của CPU đang truy nhập"
+              },
+              {
+                "key": "C",
+                "text": "Block nào của bộ nhớ chính hiện đang được chứa ở line đó"
+              },
+              {
+                "key": "D",
+                "text": "Line đó đã bị sửa hay chưa"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-47",
+            "clusterId": null
+          },
+          {
+            "startLine": 312,
+            "text": "Cache có 8 line (L0..L7) dùng ánh xạ trực tiếp. Block B13 của bộ nhớ chính chỉ có thể nạp vào line:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "L5"
+              },
+              {
+                "key": "B",
+                "text": "L1"
+              },
+              {
+                "key": "C",
+                "text": "L3"
+              },
+              {
+                "key": "D",
+                "text": "L6"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "13 mod 8 = 5.",
+            "multi": false,
+            "id": "mcq-48",
+            "clusterId": null
+          },
+          {
+            "startLine": 319,
+            "text": "Trong ánh xạ trực tiếp, địa chỉ N bit gồm các trường Tag (n3), Line (n2), Byte (n1). Dung lượng của cache bằng:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "2^n3 byte"
+              },
+              {
+                "key": "B",
+                "text": "2^(n1 + n2 + n3) byte"
+              },
+              {
+                "key": "C",
+                "text": "2^(n1 + n2) byte"
+              },
+              {
+                "key": "D",
+                "text": "2^n2 byte"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-49",
+            "clusterId": null
+          },
+          {
+            "startLine": 325,
+            "text": "Máy tính có bộ nhớ chính 256 MB, cache 128 KB, line 16 B, độ dài ngăn nhớ 2 B. Với ánh xạ trực tiếp, dạng địa chỉ (Tag + Line + Byte) là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "13 + 11 + 3"
+              },
+              {
+                "key": "B",
+                "text": "11 + 13 + 3"
+              },
+              {
+                "key": "C",
+                "text": "11 + 13 + 4"
+              },
+              {
+                "key": "D",
+                "text": "12 + 13 + 3"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "N = 27 bit (256MB/2B = 2^27); Byte: 16B/2B = 2^3 nên 3 bit; Line: 128KB/16B = 2^13 nên 13 bit; Tag = 27 − 3 − 13 = 11.",
+            "multi": false,
+            "id": "mcq-50",
+            "clusterId": null
+          },
+          {
+            "startLine": 332,
+            "text": "Bộ nhớ chính 4 GB (ngăn nhớ 1 byte), cache 64 KB, line 64 B, ánh xạ trực tiếp. Số bit của trường Tag là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "10"
+              },
+              {
+                "key": "B",
+                "text": "16"
+              },
+              {
+                "key": "C",
+                "text": "6"
+              },
+              {
+                "key": "D",
+                "text": "22"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "N = 32; Byte = 6; Line = 64KB/64B = 1024 nên 10 bit; Tag = 32 − 6 − 10 = 16.",
+            "multi": false,
+            "id": "mcq-51",
+            "clusterId": null
+          },
+          {
+            "startLine": 339,
+            "text": "Đặc điểm của ánh xạ liên kết toàn phần là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Mỗi block chỉ nạp vào một line duy nhất"
+              },
+              {
+                "key": "B",
+                "text": "Mỗi block có thể nạp vào bất kỳ line nào; để kiểm tra phải so sánh đồng thời tất cả tag, cần mạch phức tạp"
+              },
+              {
+                "key": "C",
+                "text": "Địa chỉ gồm ba trường Tag, Line, Byte"
+              },
+              {
+                "key": "D",
+                "text": "Không cần trường Tag"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-52",
+            "clusterId": null
+          },
+          {
+            "startLine": 345,
+            "text": "Bộ nhớ chính 256 MB (ngăn nhớ 1 byte), line 16 B, ánh xạ liên kết toàn phần. Số bit trường Tag là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "24"
+              },
+              {
+                "key": "B",
+                "text": "28"
+              },
+              {
+                "key": "C",
+                "text": "20"
+              },
+              {
+                "key": "D",
+                "text": "11"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "N = 28, Byte = 4 nên Tag = 28 − 4 = 24 bit.",
+            "multi": false,
+            "id": "mcq-53",
+            "clusterId": null
+          },
+          {
+            "startLine": 352,
+            "text": "Trong ánh xạ liên kết tập hợp (Set associative), địa chỉ CPU phát ra được chia thành các trường:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Tag, Set, Byte"
+              },
+              {
+                "key": "B",
+                "text": "Tag, Line, Byte"
+              },
+              {
+                "key": "C",
+                "text": "Tag, Byte"
+              },
+              {
+                "key": "D",
+                "text": "Set, Line, Byte"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "Mỗi block được nạp vào một set nhất định, trong set có thể nạp vào line bất kỳ.",
+            "multi": false,
+            "id": "mcq-54",
+            "clusterId": null
+          },
+          {
+            "startLine": 359,
+            "text": "Bộ nhớ chính 256 MB, cache 128 KB, line 16 B, ánh xạ liên kết tập hợp 4 line/set. Số bit trường Tag là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "11"
+              },
+              {
+                "key": "B",
+                "text": "15"
+              },
+              {
+                "key": "C",
+                "text": "13"
+              },
+              {
+                "key": "D",
+                "text": "17"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "N = 28; Byte = 4; số line = 2^13, số set = 2^11 nên Set = 11 bit; Tag = 28 − 4 − 11 = 13.",
+            "multi": false,
+            "id": "mcq-55",
+            "clusterId": null
+          },
+          {
+            "startLine": 366,
+            "text": "Bộ nhớ chính 1 GB, cache 64 KB, line 32 B, ánh xạ tập hợp 2 line/set (2-way). Số bit trường Tag là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "15"
+              },
+              {
+                "key": "B",
+                "text": "16"
+              },
+              {
+                "key": "C",
+                "text": "14"
+              },
+              {
+                "key": "D",
+                "text": "10"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "N = 30; Byte = 5; số line = 2048, số set = 1024 nên Set = 10 bit; Tag = 30 − 5 − 10 = 15.",
+            "multi": false,
+            "id": "mcq-56",
+            "clusterId": null
+          },
+          {
+            "startLine": 373,
+            "text": "Cache 32 KB, line 32 B, tổ chức tập hợp 4 line/set. Số set của cache là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "256"
+              },
+              {
+                "key": "B",
+                "text": "1024"
+              },
+              {
+                "key": "C",
+                "text": "512"
+              },
+              {
+                "key": "D",
+                "text": "128"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "Số line = 32KB/32B = 1024; số set = 1024/4 = 256.",
+            "multi": false,
+            "id": "mcq-57",
+            "clusterId": null
+          },
+          {
+            "startLine": 380,
+            "text": "Thuật toán thay thế block LRU (Least Recently Used) sẽ thay block:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Có số lần truy nhập ít nhất"
+              },
+              {
+                "key": "B",
+                "text": "Có khoảng thời gian dài nhất không được truy nhập"
+              },
+              {
+                "key": "C",
+                "text": "Đã tồn tại lâu nhất trong cache"
+              },
+              {
+                "key": "D",
+                "text": "Được chọn ngẫu nhiên"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "LFU: ít lần truy nhập nhất; FIFO: vào cache sớm nhất; Random: ngẫu nhiên.",
+            "multi": false,
+            "id": "mcq-58",
+            "clusterId": null
+          },
+          {
+            "startLine": 387,
+            "text": "Thuật toán thay thế LFU (Least Frequently Used) thay block:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Có khoảng thời gian không truy nhập dài nhất"
+              },
+              {
+                "key": "B",
+                "text": "Có số lần truy nhập ít nhất"
+              },
+              {
+                "key": "C",
+                "text": "Đã tồn tại lâu nhất trong cache"
+              },
+              {
+                "key": "D",
+                "text": "Được nạp vào cache gần đây nhất"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-59",
+            "clusterId": null
+          },
+          {
+            "startLine": 393,
+            "text": "Vì sao ánh xạ trực tiếp không cần thuật toán thay thế block?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Vì cache luôn còn chỗ trống"
+              },
+              {
+                "key": "B",
+                "text": "Vì dữ liệu luôn được ghi xuyên qua"
+              },
+              {
+                "key": "C",
+                "text": "Vì dùng thuật toán LRU phần cứng"
+              },
+              {
+                "key": "D",
+                "text": "Mỗi block chỉ có đúng một line để nạp nên không có sự lựa chọn"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-60",
+            "clusterId": null
+          },
+          {
+            "startLine": 399,
+            "text": "Phương pháp ghi trả sau (Write back) khi cache hit có đặc điểm:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Ghi đồng thời cả cache và bộ nhớ chính, tốc độ chậm"
+              },
+              {
+                "key": "B",
+                "text": "Chỉ ghi vào bộ nhớ chính"
+              },
+              {
+                "key": "C",
+                "text": "Chỉ ghi ra cache (tốc độ nhanh); khi block bị thay thế phải ghi trả cả block về bộ nhớ chính"
+              },
+              {
+                "key": "D",
+                "text": "Không bao giờ ghi trả về bộ nhớ chính"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "Ghi xuyên qua (Write through) ghi cả cache và bộ nhớ chính nên chậm.",
+            "multi": false,
+            "id": "mcq-61",
+            "clusterId": null
+          },
+          {
+            "startLine": 406,
+            "text": "Trong bộ vi xử lý Pentium, cache L1 gồm:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "1 cache 8 KB dùng chung, line 128 byte"
+              },
+              {
+                "key": "B",
+                "text": "2 cache (lệnh và dữ liệu), mỗi cache 8 KB, kích thước line 64 byte"
+              },
+              {
+                "key": "C",
+                "text": "2 cache mỗi cache 256 KB, line 64 byte"
+              },
+              {
+                "key": "D",
+                "text": "Không có cache L1"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "80386 không có cache trên chip; 80486 có 8 KB; Pentium có 2 cache L1 8KB.",
+            "multi": false,
+            "id": "mcq-62",
+            "clusterId": null
+          },
+          {
+            "startLine": 413,
+            "text": "Theo sơ đồ Pentium 4, bộ nhớ L2 cache có dung lượng:",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795839294371.enc",
+            "options": [
+              {
+                "key": "A",
+                "text": "8 KB"
+              },
+              {
+                "key": "B",
+                "text": "12 KB"
+              },
+              {
+                "key": "C",
+                "text": "256 KB"
+              },
+              {
+                "key": "D",
+                "text": "2 GB"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-63",
+            "clusterId": null
+          },
+          {
+            "startLine": 420,
+            "text": "Trong cấu trúc đĩa từ như hình, mỗi mặt đĩa được chia thành các vòng tròn đồng tâm và các cung gọi lần lượt là:",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795839295726.enc",
+            "options": [
+              {
+                "key": "A",
+                "text": "Sector và cylinder"
+              },
+              {
+                "key": "B",
+                "text": "Cylinder và track"
+              },
+              {
+                "key": "C",
+                "text": "Platter và sector"
+              },
+              {
+                "key": "D",
+                "text": "Track (rãnh) và sector (cung)"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-64",
+            "clusterId": null
+          },
+          {
+            "startLine": 427,
+            "text": "Các kiểu bộ nhớ ngoài gồm:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Cache, RAM, ROM, thanh ghi"
+              },
+              {
+                "key": "B",
+                "text": "Đĩa từ, đĩa quang, flash disk, băng từ"
+              },
+              {
+                "key": "C",
+                "text": "Chỉ đĩa từ và băng từ"
+              },
+              {
+                "key": "D",
+                "text": "SRAM, DRAM, EEPROM, flash"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-65",
+            "clusterId": null
+          },
+          {
+            "startLine": 433,
+            "text": "Đĩa mềm thông dụng 3.5 inch có dung lượng tối đa khoảng:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "720 GB"
+              },
+              {
+                "key": "B",
+                "text": "1.44 GB"
+              },
+              {
+                "key": "C",
+                "text": "14.4 MB"
+              },
+              {
+                "key": "D",
+                "text": "1.44 MB"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-66",
+            "clusterId": null
+          },
+          {
+            "startLine": 439,
+            "text": "Đặc điểm của đĩa cứng là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Dung lượng nhỏ tối đa 1.44 MB, tốc độ 360 rpm"
+              },
+              {
+                "key": "B",
+                "text": "Không có phần cơ khí chuyển động"
+              },
+              {
+                "key": "C",
+                "text": "Có một hoặc nhiều đĩa, dung lượng lớn, tốc độ quay 5400, 7200 rpm, giá rẻ"
+              },
+              {
+                "key": "D",
+                "text": "Chỉ ghi được một lần"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-67",
+            "clusterId": null
+          },
+          {
+            "startLine": 445,
+            "text": "RAID (Redundant Array of Independent Disks) cho phép:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Coi nhiều ổ đĩa vật lý như một ổ logic duy nhất, lưu dữ liệu phân tán và có thông tin kiểm tra chẵn lẻ để khôi phục khi đĩa hỏng"
+              },
+              {
+                "key": "B",
+                "text": "Chỉ tăng tốc độ quay của đĩa"
+              },
+              {
+                "key": "C",
+                "text": "Chỉ dùng cho đĩa quang"
+              },
+              {
+                "key": "D",
+                "text": "Thay thế hoàn toàn bộ nhớ cache"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-68",
+            "clusterId": null
+          },
+          {
+            "startLine": 451,
+            "text": "Đĩa CD-ROM thông dụng có dung lượng khoảng và tốc độ đọc cơ sở lần lượt là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "4.7 GB và 150 KB/s"
+              },
+              {
+                "key": "B",
+                "text": "700 MB và 1.44 MB/s"
+              },
+              {
+                "key": "C",
+                "text": "700 GB và 150 MB/s"
+              },
+              {
+                "key": "D",
+                "text": "700 MB và 150 KB/s"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "Ổ 48x đọc được 48 × 150 KB/s = 7200 KB/s.",
+            "multi": false,
+            "id": "mcq-69",
+            "clusterId": null
+          },
+          {
+            "startLine": 458,
+            "text": "Đĩa DVD (Digital Versatile Disk) có dung lượng thông dụng:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "700 MB/lớp"
+              },
+              {
+                "key": "B",
+                "text": "1.44 GB/lớp"
+              },
+              {
+                "key": "C",
+                "text": "47 GB/lớp"
+              },
+              {
+                "key": "D",
+                "text": "4.7 GB/lớp"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-70",
+            "clusterId": null
+          },
+          {
+            "startLine": 464,
+            "text": "Flash disk (USB) và SSD có điểm chung là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Lưu dữ liệu trên phiến đĩa từ quay"
+              },
+              {
+                "key": "B",
+                "text": "Dùng bộ nhớ bán dẫn flash, không phải dạng đĩa quay nên bền và êm"
+              },
+              {
+                "key": "C",
+                "text": "Phải dùng tia laser để đọc"
+              },
+              {
+                "key": "D",
+                "text": "Mất dữ liệu khi rút nguồn"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-71",
+            "clusterId": null
+          },
+          {
+            "startLine": 470,
+            "text": "Mô-đun nhớ nào có 168 chân và 64 đường dữ liệu?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "SIMM 30 chân"
+              },
+              {
+                "key": "B",
+                "text": "SIMM 72 chân"
+              },
+              {
+                "key": "C",
+                "text": "DIMM"
+              },
+              {
+                "key": "D",
+                "text": "RIMM 8 bit"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "SIMM 30 chân: 8 bit dữ liệu; SIMM 72 chân: 32 bit; DIMM 168 chân: 64 bit.",
+            "multi": false,
+            "id": "mcq-72",
+            "clusterId": null
+          },
+          {
+            "startLine": 477,
+            "text": "ROM BIOS trên máy tính cá nhân chứa:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Cấu hình hệ thống và đồng hồ hệ thống"
+              },
+              {
+                "key": "B",
+                "text": "Chương trình POST, CMOS Setup, Bootstrap loader và các trình điều khiển vào-ra cơ bản"
+              },
+              {
+                "key": "C",
+                "text": "Thông tin quản lý màn hình"
+              },
+              {
+                "key": "D",
+                "text": "Hệ điều hành đầy đủ"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Cấu hình hệ thống, đồng hồ là của CMOS RAM; thông tin màn hình do Video RAM quản lý.",
+            "multi": false,
+            "id": "mcq-73",
+            "clusterId": null
+          },
+          {
+            "startLine": 484,
+            "text": "CMOS RAM trên PC có đặc điểm:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Chứa chương trình POST và Bootstrap loader"
+              },
+              {
+                "key": "B",
+                "text": "Quản lý thông tin hiển thị của màn hình"
+              },
+              {
+                "key": "C",
+                "text": "Lưu cấu hình hệ thống, đồng hồ hệ thống và có pin nuôi riêng"
+              },
+              {
+                "key": "D",
+                "text": "Là bộ nhớ chỉ đọc, không ghi được"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-74",
+            "clusterId": null
+          },
+          {
+            "startLine": 490,
+            "text": "Trong cấu trúc đĩa từ nhiều đĩa như hình, một cylinder là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Tập hợp tất cả sector của một track"
+              },
+              {
+                "key": "B",
+                "text": "Một mặt đĩa duy nhất"
+              },
+              {
+                "key": "C",
+                "text": "Tập hợp các track cùng bán kính trên tất cả các mặt đĩa"
+              },
+              {
+                "key": "D",
+                "text": "Cụm đầu từ đọc/ghi"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-75",
+            "clusterId": null
+          }
+        ]
+      }
+    }
+  }
+}
