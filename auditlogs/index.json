@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-28T02:40:35.903Z",
-  "total": 43,
+  "updatedAt": "2026-11-28T03:12:22.111Z",
+  "total": 44,
   "logs": [
     {
       "id": "6ac45a48c3fe67bf29ff941c",
@@ -874,6 +874,26 @@
       "ipAddress": "116.96.47.185",
       "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
       "createdAt": "2026-11-28T02:40:35.737Z"
+    },
+    {
+      "id": "6b0a4695115b3c224fb1a982",
+      "actor": "6ab3d694415010bf620349e5",
+      "action": "create_quiz",
+      "entity": "Lesson",
+      "entityId": "6b0a469389d8047b0d96cbd8",
+      "description": "",
+      "metadata": {
+        "title": "Ôn tập C1. Gioithieu",
+        "duration": 75,
+        "counts": {
+          "mcq": 75,
+          "tf": 0,
+          "fill": 0
+        }
+      },
+      "ipAddress": "116.96.47.185",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+      "createdAt": "2026-11-28T03:12:21.972Z"
     }
   ]
 }
