@@ -14,7 +14,7 @@
   "isDeleted": false,
   "createdBy": "6ab3d694415010bf620349e5",
   "createdAt": "2026-11-28T04:15:09.103Z",
-  "updatedAt": "2026-11-28T04:15:10.280Z",
+  "updatedAt": "2026-11-28T04:15:48.359Z",
   "contentHtml": null,
   "quiz": {
     "version": 1,
@@ -2246,7 +2246,7 @@
           {
             "startLine": 490,
             "text": "Trong cấu trúc đĩa từ nhiều đĩa như hình, một cylinder là:",
-            "image": null,
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795839338554.enc",
             "options": [
               {
                 "key": "A",
