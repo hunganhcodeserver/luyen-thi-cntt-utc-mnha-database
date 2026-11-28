@@ -1,0 +1,2284 @@
+{
+  "type": "quiz",
+  "lessonId": "6b0a469389d8047b0d96cbd8",
+  "title": "Ôn tập C1. Gioithieu",
+  "slug": "on-tap-c1-gioithieu",
+  "subjectSlug": "kien-truc-va-to-chuc-may-tinh-1-1-26n06",
+  "duration": 75,
+  "promptId": null,
+  "analysisAiKeyIds": [],
+  "isPublished": true,
+  "visibility": "public",
+  "allowedUserIds": [],
+  "allowedGroupIds": [],
+  "isDeleted": false,
+  "createdBy": {
+    "id": "6ab3d694415010bf620349e5",
+    "name": "Mai Ngọc Hùng Anh",
+    "email": "hunganh.okokok.0@gmail.com"
+  },
+  "createdAt": "2026-11-28T03:12:19.033Z",
+  "updatedAt": "2026-11-28T03:12:19.033Z",
+  "contentHtml": null,
+  "quiz": {
+    "version": 1,
+    "maxScore": 10,
+    "parts": {
+      "mcq": {
+        "pointsPerQuestion": 0.1333,
+        "questions": [
+          {
+            "startLine": 1,
+            "text": "Máy tính (computer) là thiết bị điện tử thực hiện các công việc nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Chỉ thực hiện các phép tính số học"
+              },
+              {
+                "key": "B",
+                "text": "Nhận thông tin vào, xử lý theo dãy lệnh nhớ sẵn, đưa thông tin ra và lưu giữ thông tin"
+              },
+              {
+                "key": "C",
+                "text": "Chỉ lưu giữ thông tin"
+              },
+              {
+                "key": "D",
+                "text": "Chỉ nhận thông tin vào và đưa ra, không xử lý"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-1",
+            "clusterId": null
+          },
+          {
+            "startLine": 7,
+            "text": "Dãy các lệnh nằm trong bộ nhớ để yêu cầu máy tính thực hiện một công việc cụ thể được gọi là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Dữ liệu"
+              },
+              {
+                "key": "B",
+                "text": "Chương trình (program)"
+              },
+              {
+                "key": "C",
+                "text": "Hệ điều hành"
+              },
+              {
+                "key": "D",
+                "text": "Bộ nhớ đệm"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Máy tính hoạt động theo chương trình.",
+            "multi": false,
+            "id": "mcq-2",
+            "clusterId": null
+          },
+          {
+            "startLine": 14,
+            "text": "Mô hình cơ bản của máy tính gồm các khối nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Chỉ CPU và đĩa cứng"
+              },
+              {
+                "key": "B",
+                "text": "Chỉ bàn phím và màn hình"
+              },
+              {
+                "key": "C",
+                "text": "CPU, ROM và nguồn điện"
+              },
+              {
+                "key": "D",
+                "text": "Thiết bị vào, CPU và bộ nhớ chính, thiết bị ra"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-3",
+            "clusterId": null
+          },
+          {
+            "startLine": 20,
+            "text": "Theo cách phân loại truyền thống, máy tính gồm các loại nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Máy vi tính, máy tính nhỏ, máy tính lớn, siêu máy tính"
+              },
+              {
+                "key": "B",
+                "text": "Máy tính để bàn, máy chủ, máy nhúng"
+              },
+              {
+                "key": "C",
+                "text": "Máy tính xách tay và điện thoại"
+              },
+              {
+                "key": "D",
+                "text": "Máy tính cá nhân và máy in"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-4",
+            "clusterId": null
+          },
+          {
+            "startLine": 26,
+            "text": "Theo cách phân loại hiện đại, loại máy tính nào được đặt ẩn trong thiết bị khác và thiết kế chuyên dụng?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Máy chủ (Server)"
+              },
+              {
+                "key": "B",
+                "text": "Máy tính nhúng (Embedded Computers)"
+              },
+              {
+                "key": "C",
+                "text": "Máy tính để bàn"
+              },
+              {
+                "key": "D",
+                "text": "Siêu máy tính"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Ví dụ: bộ điều khiển trong máy giặt, điều hoà nhiệt độ.",
+            "multi": false,
+            "id": "mcq-5",
+            "clusterId": null
+          },
+          {
+            "startLine": 33,
+            "text": "Máy chủ (Server) có đặc điểm nào sau đây?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Giá thành chỉ vài chục USD"
+              },
+              {
+                "key": "B",
+                "text": "Luôn đặt ẩn trong thiết bị khác"
+              },
+              {
+                "key": "C",
+                "text": "Tốc độ tính toán, dung lượng bộ nhớ lớn và độ tin cậy cao; dùng trong mô hình Client/Server"
+              },
+              {
+                "key": "D",
+                "text": "Chỉ dùng cho một người dùng duy nhất"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-6",
+            "clusterId": null
+          },
+          {
+            "startLine": 39,
+            "text": "Cấu trúc máy tính của John von Neumann được gọi là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Máy tính IAS, đặt theo ý tưởng 'chương trình được lưu trữ' (stored-program concept)"
+              },
+              {
+                "key": "B",
+                "text": "Máy tính ENIAC"
+              },
+              {
+                "key": "C",
+                "text": "Máy tính UNIVAC I"
+              },
+              {
+                "key": "D",
+                "text": "Máy tính IBM 701"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-7",
+            "clusterId": null
+          },
+          {
+            "startLine": 45,
+            "text": "Theo nghĩa hẹp (định nghĩa trước đây), kiến trúc máy tính là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Kiến trúc tập lệnh (Instruction Set Architecture – ISA)"
+              },
+              {
+                "key": "B",
+                "text": "Tổ chức máy tính"
+              },
+              {
+                "key": "C",
+                "text": "Công nghệ chế tạo phần cứng"
+              },
+              {
+                "key": "D",
+                "text": "Hệ điều hành"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-8",
+            "clusterId": null
+          },
+          {
+            "startLine": 51,
+            "text": "Theo Hennessy/Patterson, kiến trúc máy tính bao gồm:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Kiến trúc tập lệnh, tổ chức máy tính và phần cứng"
+              },
+              {
+                "key": "B",
+                "text": "Chỉ kiến trúc tập lệnh"
+              },
+              {
+                "key": "C",
+                "text": "Chỉ tổ chức máy tính"
+              },
+              {
+                "key": "D",
+                "text": "Chỉ phần cứng"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-9",
+            "clusterId": null
+          },
+          {
+            "startLine": 57,
+            "text": "Trong ba thành phần của kiến trúc máy tính, thành phần nào thay đổi chậm nhất?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Tổ chức máy tính"
+              },
+              {
+                "key": "B",
+                "text": "Phần cứng"
+              },
+              {
+                "key": "C",
+                "text": "Cả ba thay đổi nhanh như nhau"
+              },
+              {
+                "key": "D",
+                "text": "Kiến trúc tập lệnh"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "Kiến trúc tập lệnh thay đổi chậm; tổ chức và phần cứng thay đổi rất nhanh.",
+            "multi": false,
+            "id": "mcq-10",
+            "clusterId": null
+          },
+          {
+            "startLine": 64,
+            "text": "Thành phần nào của kiến trúc máy tính nghiên cứu thiết kế logic chi tiết và công nghệ đóng gói?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Kiến trúc tập lệnh"
+              },
+              {
+                "key": "B",
+                "text": "Tổ chức máy tính"
+              },
+              {
+                "key": "C",
+                "text": "Phần cứng (Hardware)"
+              },
+              {
+                "key": "D",
+                "text": "Hệ điều hành"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-11",
+            "clusterId": null
+          },
+          {
+            "startLine": 70,
+            "text": "Thành phần nào của kiến trúc máy tính nghiên cứu hệ thống nhớ, cấu trúc bus, thiết kế bên trong CPU ở mức cao?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Kiến trúc tập lệnh"
+              },
+              {
+                "key": "B",
+                "text": "Phần cứng"
+              },
+              {
+                "key": "C",
+                "text": "Hệ điều hành"
+              },
+              {
+                "key": "D",
+                "text": "Tổ chức máy tính (Computer Organization)"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-12",
+            "clusterId": null
+          },
+          {
+            "startLine": 76,
+            "text": "Kiến trúc tập lệnh của máy tính bao gồm:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Chỉ tập lệnh"
+              },
+              {
+                "key": "B",
+                "text": "Tập lệnh và các kiểu dữ liệu"
+              },
+              {
+                "key": "C",
+                "text": "Bus và bộ nhớ"
+              },
+              {
+                "key": "D",
+                "text": "CPU và đĩa cứng"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Tập lệnh: tập hợp các chuỗi nhị phân mã hoá thao tác; kiểu dữ liệu: các kiểu dữ liệu máy xử lý được.",
+            "multi": false,
+            "id": "mcq-13",
+            "clusterId": null
+          },
+          {
+            "startLine": 83,
+            "text": "Bốn thành phần cơ bản của máy tính là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "CPU, RAM, ROM, đĩa cứng"
+              },
+              {
+                "key": "B",
+                "text": "CPU, bộ nhớ chính, hệ thống vào ra, liên kết hệ thống"
+              },
+              {
+                "key": "C",
+                "text": "Bàn phím, chuột, màn hình, máy in"
+              },
+              {
+                "key": "D",
+                "text": "CPU, ALU, thanh ghi, bus"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-14",
+            "clusterId": null
+          },
+          {
+            "startLine": 89,
+            "text": "Thành phần nào của máy tính điều khiển hoạt động của máy và xử lý dữ liệu?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Bộ nhớ chính"
+              },
+              {
+                "key": "B",
+                "text": "Bộ xử lý trung tâm (CPU)"
+              },
+              {
+                "key": "C",
+                "text": "Hệ thống vào ra"
+              },
+              {
+                "key": "D",
+                "text": "Liên kết hệ thống"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-15",
+            "clusterId": null
+          },
+          {
+            "startLine": 95,
+            "text": "Thành phần nào chứa các chương trình và dữ liệu đang được sử dụng?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Bộ nhớ chính (Main Memory)"
+              },
+              {
+                "key": "B",
+                "text": "Hệ thống vào ra"
+              },
+              {
+                "key": "C",
+                "text": "Liên kết hệ thống"
+              },
+              {
+                "key": "D",
+                "text": "Thanh ghi cờ"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-16",
+            "clusterId": null
+          },
+          {
+            "startLine": 101,
+            "text": "Thành phần liên kết hệ thống (System Interconnection) có nhiệm vụ:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Xử lý dữ liệu"
+              },
+              {
+                "key": "B",
+                "text": "Kết nối và vận chuyển thông tin giữa các thành phần với nhau"
+              },
+              {
+                "key": "C",
+                "text": "Lưu trữ chương trình"
+              },
+              {
+                "key": "D",
+                "text": "Điều khiển nguồn điện"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-17",
+            "clusterId": null
+          },
+          {
+            "startLine": 107,
+            "text": "Trong sơ đồ các thành phần cơ bản của máy tính, CPU và bộ nhớ chính được nối với hệ thống vào-ra thông qua:",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795835506086.enc",
+            "options": [
+              {
+                "key": "A",
+                "text": "Cổng USB"
+              },
+              {
+                "key": "B",
+                "text": "Bộ nhớ đệm"
+              },
+              {
+                "key": "C",
+                "text": "Mạng Internet"
+              },
+              {
+                "key": "D",
+                "text": "Bus liên kết hệ thống"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-18",
+            "clusterId": null
+          },
+          {
+            "startLine": 114,
+            "text": "Trong mô hình phân lớp của máy tính, lớp nào nằm sát ngay trên phần cứng và quản lý tài nguyên?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Hệ điều hành"
+              },
+              {
+                "key": "B",
+                "text": "Phần mềm ứng dụng"
+              },
+              {
+                "key": "C",
+                "text": "Phần mềm trung gian"
+              },
+              {
+                "key": "D",
+                "text": "Người sử dụng"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-19",
+            "clusterId": null
+          },
+          {
+            "startLine": 120,
+            "text": "Phần cứng (Hardware) của máy tính là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Hệ thống vật lý của máy tính"
+              },
+              {
+                "key": "B",
+                "text": "Các chương trình và dữ liệu"
+              },
+              {
+                "key": "C",
+                "text": "Hệ điều hành"
+              },
+              {
+                "key": "D",
+                "text": "Phần mềm ứng dụng"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-20",
+            "clusterId": null
+          },
+          {
+            "startLine": 126,
+            "text": "Máy tính thế hệ thứ nhất dùng linh kiện chính nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Transistor"
+              },
+              {
+                "key": "B",
+                "text": "Vi mạch SSI"
+              },
+              {
+                "key": "C",
+                "text": "Đèn điện tử chân không"
+              },
+              {
+                "key": "D",
+                "text": "Vi mạch VLSI"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-21",
+            "clusterId": null
+          },
+          {
+            "startLine": 132,
+            "text": "Máy tính thế hệ thứ hai dùng linh kiện chính nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Đèn điện tử chân không"
+              },
+              {
+                "key": "B",
+                "text": "Vi mạch VLSI"
+              },
+              {
+                "key": "C",
+                "text": "Transistor"
+              },
+              {
+                "key": "D",
+                "text": "Vi mạch ULSI"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-22",
+            "clusterId": null
+          },
+          {
+            "startLine": 138,
+            "text": "Máy tính thế hệ thứ ba dùng linh kiện chính nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Đèn điện tử chân không"
+              },
+              {
+                "key": "B",
+                "text": "Transistor"
+              },
+              {
+                "key": "C",
+                "text": "Vi mạch VLSI"
+              },
+              {
+                "key": "D",
+                "text": "Vi mạch SSI, MSI và LSI"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-23",
+            "clusterId": null
+          },
+          {
+            "startLine": 144,
+            "text": "Máy tính thế hệ thứ tư dùng linh kiện chính nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Đèn điện tử"
+              },
+              {
+                "key": "B",
+                "text": "Transistor"
+              },
+              {
+                "key": "C",
+                "text": "Vi mạch VLSI"
+              },
+              {
+                "key": "D",
+                "text": "Vi mạch SSI"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-24",
+            "clusterId": null
+          },
+          {
+            "startLine": 150,
+            "text": "Máy tính điện tử đầu tiên dùng đèn điện tử là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "ENIAC"
+              },
+              {
+                "key": "B",
+                "text": "IAS"
+              },
+              {
+                "key": "C",
+                "text": "UNIVAC II"
+              },
+              {
+                "key": "D",
+                "text": "PDP-1"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-25",
+            "clusterId": null
+          },
+          {
+            "startLine": 156,
+            "text": "ENIAC là viết tắt của:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Electronic National Integrated Analog Computer"
+              },
+              {
+                "key": "B",
+                "text": "Easy Numerical Input And Control"
+              },
+              {
+                "key": "C",
+                "text": "Electric Network Interface And Computer"
+              },
+              {
+                "key": "D",
+                "text": "Electronic Numerical Integrator And Computer"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-26",
+            "clusterId": null
+          },
+          {
+            "startLine": 162,
+            "text": "ENIAC được hoàn thành vào năm nào và nặng khoảng bao nhiêu?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "1936, nặng khoảng 3 tấn"
+              },
+              {
+                "key": "B",
+                "text": "1956, nặng khoảng 30 kg"
+              },
+              {
+                "key": "C",
+                "text": "1946, nặng khoảng 30 tấn"
+              },
+              {
+                "key": "D",
+                "text": "1966, nặng khoảng 300 tấn"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-27",
+            "clusterId": null
+          },
+          {
+            "startLine": 168,
+            "text": "ENIAC xử lý số theo hệ nào và lập trình như thế nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Hệ nhị phân; lập trình bằng ngôn ngữ C"
+              },
+              {
+                "key": "B",
+                "text": "Hệ thập phân; lập trình bằng cách thiết lập vị trí các chuyển mạch và cắm cáp nối"
+              },
+              {
+                "key": "C",
+                "text": "Hệ thập phân; lập trình bằng hợp ngữ"
+              },
+              {
+                "key": "D",
+                "text": "Hệ nhị phân; lập trình bằng bàn phím"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-28",
+            "clusterId": null
+          },
+          {
+            "startLine": 174,
+            "text": "Máy tính IAS được bắt đầu xây dựng từ năm nào và hoàn thành khi nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Bắt đầu 1937, hoàn thành 1942"
+              },
+              {
+                "key": "B",
+                "text": "Bắt đầu 1947, hoàn thành 1952"
+              },
+              {
+                "key": "C",
+                "text": "Bắt đầu 1957, hoàn thành 1962"
+              },
+              {
+                "key": "D",
+                "text": "Bắt đầu 1927, hoàn thành 1932"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-29",
+            "clusterId": null
+          },
+          {
+            "startLine": 180,
+            "text": "Máy tính IAS được thiết kế tại:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Princeton Institute for Advanced Studies"
+              },
+              {
+                "key": "B",
+                "text": "Đại học Pennsylvania"
+              },
+              {
+                "key": "C",
+                "text": "Viện IBM"
+              },
+              {
+                "key": "D",
+                "text": "Đại học Harvard"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-30",
+            "clusterId": null
+          },
+          {
+            "startLine": 186,
+            "text": "Đặc điểm nào sau đây KHÔNG thuộc máy tính IAS?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Bộ nhớ chỉ lưu dữ liệu, chương trình lập trình bằng cắm cáp"
+              },
+              {
+                "key": "B",
+                "text": "Bộ nhớ chính chứa cả chương trình và dữ liệu"
+              },
+              {
+                "key": "C",
+                "text": "Bộ nhớ chính được đánh địa chỉ theo từng ngăn nhớ"
+              },
+              {
+                "key": "D",
+                "text": "Đơn vị điều khiển nhận lệnh từ bộ nhớ, giải mã và thực hiện tuần tự"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "Đặc điểm đó thuộc ENIAC, không phải IAS.",
+            "multi": false,
+            "id": "mcq-31",
+            "clusterId": null
+          },
+          {
+            "startLine": 193,
+            "text": "Trong máy tính IAS, ALU thực hiện các phép toán với:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Số thập phân"
+              },
+              {
+                "key": "B",
+                "text": "Số La Mã"
+              },
+              {
+                "key": "C",
+                "text": "Số nhị phân"
+              },
+              {
+                "key": "D",
+                "text": "Số Hexa chỉ ở dạng ký tự"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-32",
+            "clusterId": null
+          },
+          {
+            "startLine": 199,
+            "text": "Máy tính thương mại UNIVAC I (Universal Automatic Computer) ra đời gắn với công ty nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "IBM"
+              },
+              {
+                "key": "B",
+                "text": "Eckert-Mauchly Computer Corporation (1947)"
+              },
+              {
+                "key": "C",
+                "text": "Intel"
+              },
+              {
+                "key": "D",
+                "text": "Apple"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-33",
+            "clusterId": null
+          },
+          {
+            "startLine": 205,
+            "text": "Máy tính IBM 701 (1953) có ý nghĩa gì?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Là máy tính cá nhân đầu tiên"
+              },
+              {
+                "key": "B",
+                "text": "Là máy tính dùng vi xử lý đầu tiên"
+              },
+              {
+                "key": "C",
+                "text": "Là máy tính lưu trữ chương trình đầu tiên của IBM, dùng cho tính toán khoa học"
+              },
+              {
+                "key": "D",
+                "text": "Là siêu máy tính đầu tiên"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-34",
+            "clusterId": null
+          },
+          {
+            "startLine": 211,
+            "text": "Máy tính mini đầu tiên là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "IBM PC"
+              },
+              {
+                "key": "B",
+                "text": "ENIAC"
+              },
+              {
+                "key": "C",
+                "text": "PDP-1 của DEC (Digital Equipment Corporation)"
+              },
+              {
+                "key": "D",
+                "text": "UNIVAC I"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-35",
+            "clusterId": null
+          },
+          {
+            "startLine": 217,
+            "text": "Máy tính dùng transistor có đặc điểm nào sau đây?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Chỉ thực hiện vài chục phép tính một giây"
+              },
+              {
+                "key": "B",
+                "text": "Thực hiện hàng trăm nghìn phép cộng trong một giây; các ngôn ngữ lập trình bậc cao ra đời"
+              },
+              {
+                "key": "C",
+                "text": "Chưa có ngôn ngữ lập trình"
+              },
+              {
+                "key": "D",
+                "text": "Nặng 30 tấn và dùng đèn chân không"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-36",
+            "clusterId": null
+          },
+          {
+            "startLine": 223,
+            "text": "SSI, MSI và LSI phân biệt với nhau theo tiêu chí nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Màu sắc vỏ chip"
+              },
+              {
+                "key": "B",
+                "text": "Hãng sản xuất"
+              },
+              {
+                "key": "C",
+                "text": "Quy mô tích hợp (số transistor trên một chip)"
+              },
+              {
+                "key": "D",
+                "text": "Loại hệ điều hành"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "SSI = Small, MSI = Medium, LSI = Large Scale Integration.",
+            "multi": false,
+            "id": "mcq-37",
+            "clusterId": null
+          },
+          {
+            "startLine": 230,
+            "text": "Bộ vi xử lý đầu tiên là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Intel 8008"
+              },
+              {
+                "key": "B",
+                "text": "Intel 8086"
+              },
+              {
+                "key": "C",
+                "text": "Pentium"
+              },
+              {
+                "key": "D",
+                "text": "Intel 4004 (1971)"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-38",
+            "clusterId": null
+          },
+          {
+            "startLine": 236,
+            "text": "Phát biểu nào đúng về Luật Moore?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Số transistor trên chip sẽ gấp đôi sau khoảng 18 tháng"
+              },
+              {
+                "key": "B",
+                "text": "Tốc độ CPU tăng gấp đôi mỗi tháng"
+              },
+              {
+                "key": "C",
+                "text": "Giá chip tăng gấp đôi mỗi năm"
+              },
+              {
+                "key": "D",
+                "text": "Dung lượng RAM giảm một nửa sau 18 tháng"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "Gordon Moore là người đồng sáng lập Intel.",
+            "multi": false,
+            "id": "mcq-39",
+            "clusterId": null
+          },
+          {
+            "startLine": 243,
+            "text": "Hệ quả nào sau đây KHÔNG phải là hệ quả của việc tăng mật độ chip theo Luật Moore?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Đường dẫn ngắn hơn, mật độ cao hơn"
+              },
+              {
+                "key": "B",
+                "text": "Kích thước nhỏ hơn, điện năng tiêu thụ ít hơn"
+              },
+              {
+                "key": "C",
+                "text": "Ít chip liên kết với nhau hơn nên tăng độ tin cậy"
+              },
+              {
+                "key": "D",
+                "text": "Giá thành chip tăng mạnh"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "Giá thành chip hầu như không thay đổi.",
+            "multi": false,
+            "id": "mcq-40",
+            "clusterId": null
+          },
+          {
+            "startLine": 250,
+            "text": "VLSI/ULSI cho ra các sản phẩm chính nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Đèn điện tử, rơ-le, cáp nối"
+              },
+              {
+                "key": "B",
+                "text": "Ổ đĩa mềm, băng từ, thẻ đục lỗ"
+              },
+              {
+                "key": "C",
+                "text": "Bộ vi xử lý, chipset, bộ nhớ bán dẫn, bộ vi điều khiển"
+              },
+              {
+                "key": "D",
+                "text": "Chỉ bộ vi xử lý"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-41",
+            "clusterId": null
+          },
+          {
+            "startLine": 256,
+            "text": "Bộ vi điều khiển (Microcontroller) là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Bộ nhớ bán dẫn"
+              },
+              {
+                "key": "B",
+                "text": "Máy tính chuyên dụng được chế tạo trên một chip"
+              },
+              {
+                "key": "C",
+                "text": "Vi mạch điều khiển tổng hợp"
+              },
+              {
+                "key": "D",
+                "text": "Bộ vi xử lý 4 bit"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-42",
+            "clusterId": null
+          },
+          {
+            "startLine": 262,
+            "text": "Từ năm 2006 trở đi, xu hướng phát triển của bộ vi xử lý là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Bộ xử lý 4 bit"
+              },
+              {
+                "key": "B",
+                "text": "Bộ xử lý 8 bit"
+              },
+              {
+                "key": "C",
+                "text": "Bộ xử lý đa lõi (multicores)"
+              },
+              {
+                "key": "D",
+                "text": "Bộ xử lý dùng đèn chân không"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-43",
+            "clusterId": null
+          },
+          {
+            "startLine": 268,
+            "text": "Intel 8080 (1974) có tốc độ và số transistor là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "200 KHz với 3 500 bóng bán dẫn"
+              },
+              {
+                "key": "B",
+                "text": "4,77 MHz với 29 000 bóng bán dẫn"
+              },
+              {
+                "key": "C",
+                "text": "60 MHz với 3,1 triệu bóng bán dẫn"
+              },
+              {
+                "key": "D",
+                "text": "2 MHz với 6 000 bóng bán dẫn"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-44",
+            "clusterId": null
+          },
+          {
+            "startLine": 274,
+            "text": "Bộ xử lý Intel 8080 trở thành bộ não của máy tính cá nhân đầu tiên nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "IBM PC"
+              },
+              {
+                "key": "B",
+                "text": "Macintosh"
+              },
+              {
+                "key": "C",
+                "text": "Altair"
+              },
+              {
+                "key": "D",
+                "text": "Apple II"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-45",
+            "clusterId": null
+          },
+          {
+            "startLine": 280,
+            "text": "Intel 8088 (1979) có đặc điểm kiến trúc nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Kiến trúc trong 8 bit và bus ngoài 16 bit"
+              },
+              {
+                "key": "B",
+                "text": "Kiến trúc trong và ngoài 32 bit"
+              },
+              {
+                "key": "C",
+                "text": "Kiến trúc trong 4 bit và bus ngoài 4 bit"
+              },
+              {
+                "key": "D",
+                "text": "Kiến trúc bên trong 16 bit và bus ngoài 8 bit"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-46",
+            "clusterId": null
+          },
+          {
+            "startLine": 286,
+            "text": "Hãng IBM chọn công ty nào cung cấp hệ điều hành cho máy IBM-PC (1980)?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Apple"
+              },
+              {
+                "key": "B",
+                "text": "Microsoft"
+              },
+              {
+                "key": "C",
+                "text": "Intel"
+              },
+              {
+                "key": "D",
+                "text": "Adobe"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-47",
+            "clusterId": null
+          },
+          {
+            "startLine": 292,
+            "text": "Microsoft đã mua chương trình Q-DOS của hãng nào để sửa đổi thành hệ điều hành cho IBM-PC?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Seattle Computer Products"
+              },
+              {
+                "key": "B",
+                "text": "Apple"
+              },
+              {
+                "key": "C",
+                "text": "Motorola"
+              },
+              {
+                "key": "D",
+                "text": "Digital Research"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "Q-DOS: Quick and Disk Operating System.",
+            "multi": false,
+            "id": "mcq-48",
+            "clusterId": null
+          },
+          {
+            "startLine": 299,
+            "text": "IBM-PC (1981) sử dụng CPU nào, tốc độ bao nhiêu?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Intel 8086, 8 MHz"
+              },
+              {
+                "key": "B",
+                "text": "Intel 8088, 4,77 MHz"
+              },
+              {
+                "key": "C",
+                "text": "Intel 80286, 6 MHz"
+              },
+              {
+                "key": "D",
+                "text": "Motorola 68000, 4 MHz"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-49",
+            "clusterId": null
+          },
+          {
+            "startLine": 305,
+            "text": "Bộ vi xử lý Pentium (1993) có tốc độ và số transistor ban đầu là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "60 MHz và 66 MHz với 3,1 triệu bóng bán dẫn"
+              },
+              {
+                "key": "B",
+                "text": "1,3 GHz với 42 triệu bóng bán dẫn"
+              },
+              {
+                "key": "C",
+                "text": "4,77 MHz với 29 000 bóng bán dẫn"
+              },
+              {
+                "key": "D",
+                "text": "3,2 GHz với 2 triệu bóng bán dẫn"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-50",
+            "clusterId": null
+          },
+          {
+            "startLine": 311,
+            "text": "Chip lõi kép (Pentium D) ra đời vào năm nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "1993"
+              },
+              {
+                "key": "B",
+                "text": "2000"
+              },
+              {
+                "key": "C",
+                "text": "2005"
+              },
+              {
+                "key": "D",
+                "text": "2012"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-51",
+            "clusterId": null
+          },
+          {
+            "startLine": 317,
+            "text": "Thành phần nào trong PC có nhiệm vụ duy trì cấu hình cơ bản và đồng hồ của máy?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Chipset"
+              },
+              {
+                "key": "B",
+                "text": "BIOS"
+              },
+              {
+                "key": "C",
+                "text": "Socket"
+              },
+              {
+                "key": "D",
+                "text": "Chip tạo xung (nhịp)"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-52",
+            "clusterId": null
+          },
+          {
+            "startLine": 323,
+            "text": "BIOS (Basic Input/Output System) có chức năng:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Lưu dữ liệu người dùng lâu dài"
+              },
+              {
+                "key": "B",
+                "text": "Thực hiện quá trình khởi động máy tính"
+              },
+              {
+                "key": "C",
+                "text": "Điều khiển tốc độ quạt"
+              },
+              {
+                "key": "D",
+                "text": "Kết nối mạng LAN"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-53",
+            "clusterId": null
+          },
+          {
+            "startLine": 329,
+            "text": "Chipset trên bo mạch chủ gồm hai cầu nối (North Bridge và South Bridge) để:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Cấp nguồn cho CPU"
+              },
+              {
+                "key": "B",
+                "text": "Lưu trữ BIOS"
+              },
+              {
+                "key": "C",
+                "text": "Kết nối với các thành phần khác của máy tính"
+              },
+              {
+                "key": "D",
+                "text": "Tạo xung nhịp"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-54",
+            "clusterId": null
+          },
+          {
+            "startLine": 335,
+            "text": "Khe cắm PCI (Peripheral Component Interconnect) dùng để:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Kết nối card màn hình, âm thanh, video hay mạng"
+              },
+              {
+                "key": "B",
+                "text": "Gắn CPU"
+              },
+              {
+                "key": "C",
+                "text": "Gắn ổ đĩa cứng IDE"
+              },
+              {
+                "key": "D",
+                "text": "Cấp nguồn"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-55",
+            "clusterId": null
+          },
+          {
+            "startLine": 341,
+            "text": "Hiệu năng P của máy tính liên hệ với thời gian thực hiện t theo công thức:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "P = t"
+              },
+              {
+                "key": "B",
+                "text": "P = t<sup>2</sup>"
+              },
+              {
+                "key": "C",
+                "text": "P = 1/t"
+              },
+              {
+                "key": "D",
+                "text": "P = 1 − t"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-56",
+            "clusterId": null
+          },
+          {
+            "startLine": 347,
+            "text": "Máy A chạy một chương trình hết 10 s, máy B hết 15 s. Máy A nhanh hơn máy B bao nhiêu lần?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "0,67 lần"
+              },
+              {
+                "key": "B",
+                "text": "5 lần"
+              },
+              {
+                "key": "C",
+                "text": "25 lần"
+              },
+              {
+                "key": "D",
+                "text": "1,5 lần"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "t<sub>B</sub>/t<sub>A</sub> = 15/10 = 1,5.",
+            "multi": false,
+            "id": "mcq-57",
+            "clusterId": null
+          },
+          {
+            "startLine": 354,
+            "text": "Chu kỳ xung nhịp T<sub>0</sub> và tần số xung nhịp f<sub>0</sub> liên hệ với nhau theo công thức:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "f<sub>0</sub> = T<sub>0</sub>"
+              },
+              {
+                "key": "B",
+                "text": "f<sub>0</sub> = T<sub>0</sub><sup>2</sup>"
+              },
+              {
+                "key": "C",
+                "text": "f<sub>0</sub> = 1/T<sub>0</sub>"
+              },
+              {
+                "key": "D",
+                "text": "f<sub>0</sub> = 2T<sub>0</sub>"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-58",
+            "clusterId": null
+          },
+          {
+            "startLine": 360,
+            "text": "Bộ xử lý có tần số 4 GHz thì chu kỳ xung nhịp là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "4 ns"
+              },
+              {
+                "key": "B",
+                "text": "0,25 ns"
+              },
+              {
+                "key": "C",
+                "text": "2,5 ns"
+              },
+              {
+                "key": "D",
+                "text": "0,4 ns"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "T<sub>0</sub> = 1/(4×10<sup>9</sup>) = 0,25×10<sup>−9</sup> s.",
+            "multi": false,
+            "id": "mcq-59",
+            "clusterId": null
+          },
+          {
+            "startLine": 367,
+            "text": "Thời gian CPU (t<sub>CPU</sub>) được tính bằng công thức nào, với n là số chu kỳ xung nhịp?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "t<sub>CPU</sub> = n × f<sub>0</sub>"
+              },
+              {
+                "key": "B",
+                "text": "t<sub>CPU</sub> = n × T<sub>0</sub> = n / f<sub>0</sub>"
+              },
+              {
+                "key": "C",
+                "text": "t<sub>CPU</sub> = n / T<sub>0</sub>"
+              },
+              {
+                "key": "D",
+                "text": "t<sub>CPU</sub> = n + T<sub>0</sub>"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-60",
+            "clusterId": null
+          },
+          {
+            "startLine": 373,
+            "text": "Cách nào sau đây làm tăng hiệu năng CPU?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Tăng n và giảm f<sub>0</sub>"
+              },
+              {
+                "key": "B",
+                "text": "Tăng chu kỳ xung nhịp"
+              },
+              {
+                "key": "C",
+                "text": "Giảm số chu kỳ xung nhịp n hoặc tăng tần số xung nhịp f<sub>0</sub>"
+              },
+              {
+                "key": "D",
+                "text": "Giảm số lệnh nhưng tăng CPI gấp đôi"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-61",
+            "clusterId": null
+          },
+          {
+            "startLine": 379,
+            "text": "Máy A: f = 2 GHz, thời gian CPU 10 s. Máy B: thời gian CPU 6 s, số chu kỳ gấp 1,2 lần máy A. Tần số xung nhịp của máy B là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "2,4 GHz"
+              },
+              {
+                "key": "B",
+                "text": "3 GHz"
+              },
+              {
+                "key": "C",
+                "text": "5 GHz"
+              },
+              {
+                "key": "D",
+                "text": "4 GHz"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "n<sub>A</sub> = 10 × 2×10<sup>9</sup> = 20×10<sup>9</sup>; n<sub>B</sub> = 24×10<sup>9</sup>; f<sub>B</sub> = 24×10<sup>9</sup>/6 = 4 GHz.",
+            "multi": false,
+            "id": "mcq-62",
+            "clusterId": null
+          },
+          {
+            "startLine": 386,
+            "text": "Số chu kỳ xung nhịp n của một chương trình được tính theo IC và CPI như thế nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "n = IC × CPI"
+              },
+              {
+                "key": "B",
+                "text": "n = IC / CPI"
+              },
+              {
+                "key": "C",
+                "text": "n = IC + CPI"
+              },
+              {
+                "key": "D",
+                "text": "n = CPI / IC"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "IC: số lệnh; CPI: số chu kỳ trên một lệnh.",
+            "multi": false,
+            "id": "mcq-63",
+            "clusterId": null
+          },
+          {
+            "startLine": 393,
+            "text": "Công thức tính thời gian CPU theo IC, CPI và f<sub>0</sub> là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "t<sub>CPU</sub> = IC × f<sub>0</sub> / CPI"
+              },
+              {
+                "key": "B",
+                "text": "t<sub>CPU</sub> = CPI × f<sub>0</sub> / IC"
+              },
+              {
+                "key": "C",
+                "text": "t<sub>CPU</sub> = IC / (CPI × f<sub>0</sub>)"
+              },
+              {
+                "key": "D",
+                "text": "t<sub>CPU</sub> = IC × CPI / f<sub>0</sub>"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-64",
+            "clusterId": null
+          },
+          {
+            "startLine": 399,
+            "text": "Chương trình có IC = 10<sup>9</sup> lệnh, CPI = 1,5, f<sub>0</sub> = 3 GHz. Thời gian CPU là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "0,5 s"
+              },
+              {
+                "key": "B",
+                "text": "2 s"
+              },
+              {
+                "key": "C",
+                "text": "4,5 s"
+              },
+              {
+                "key": "D",
+                "text": "1,5 s"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "t = 10<sup>9</sup> × 1,5 / (3×10<sup>9</sup>) = 0,5 s.",
+            "multi": false,
+            "id": "mcq-65",
+            "clusterId": null
+          },
+          {
+            "startLine": 406,
+            "text": "Máy A: T<sub>A</sub> = 250 ps, CPI<sub>A</sub> = 2,0. Máy B: T<sub>B</sub> = 500 ps, CPI<sub>B</sub> = 1,2. Cùng ISA, máy nào nhanh hơn và nhanh hơn bao nhiêu?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Máy B nhanh hơn máy A 1,2 lần"
+              },
+              {
+                "key": "B",
+                "text": "Máy A nhanh hơn máy B 1,2 lần"
+              },
+              {
+                "key": "C",
+                "text": "Máy A nhanh hơn máy B 2 lần"
+              },
+              {
+                "key": "D",
+                "text": "Hai máy nhanh như nhau"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "t<sub>A</sub> = IC×500 ps; t<sub>B</sub> = IC×600 ps; t<sub>B</sub>/t<sub>A</sub> = 1,2.",
+            "multi": false,
+            "id": "mcq-66",
+            "clusterId": null
+          },
+          {
+            "startLine": 413,
+            "text": "Khi các loại lệnh có số chu kỳ khác nhau, tổng số chu kỳ được tính bởi:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "n = Σ CPI<sub>i</sub> + Σ IC<sub>i</sub>"
+              },
+              {
+                "key": "B",
+                "text": "n = IC / Σ CPI<sub>i</sub>"
+              },
+              {
+                "key": "C",
+                "text": "n = Σ (CPI<sub>i</sub> × IC<sub>i</sub>)"
+              },
+              {
+                "key": "D",
+                "text": "n = CPI<sub>TB</sub> / IC"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-67",
+            "clusterId": null
+          },
+          {
+            "startLine": 419,
+            "text": "Dãy lệnh có IC = 5 gồm: loại A (CPI 1) 2 lệnh, loại B (CPI 2) 1 lệnh, loại C (CPI 3) 2 lệnh. CPI trung bình là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "1,5"
+              },
+              {
+                "key": "B",
+                "text": "2,5"
+              },
+              {
+                "key": "C",
+                "text": "3,0"
+              },
+              {
+                "key": "D",
+                "text": "2,0"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "n = 2×1 + 1×2 + 2×3 = 10; CPI = 10/5 = 2,0.",
+            "multi": false,
+            "id": "mcq-68",
+            "clusterId": null
+          },
+          {
+            "startLine": 426,
+            "text": "Dãy lệnh có IC = 6 gồm: loại A (CPI 1) 4 lệnh, loại B (CPI 2) 1 lệnh, loại C (CPI 3) 1 lệnh. CPI trung bình là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "2,0"
+              },
+              {
+                "key": "B",
+                "text": "1,0"
+              },
+              {
+                "key": "C",
+                "text": "3,0"
+              },
+              {
+                "key": "D",
+                "text": "1,5"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "n = 4×1 + 1×2 + 1×3 = 9; CPI = 9/6 = 1,5.",
+            "multi": false,
+            "id": "mcq-69",
+            "clusterId": null
+          },
+          {
+            "startLine": 433,
+            "text": "Hiệu năng của máy tính phụ thuộc vào yếu tố nào sau đây?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Chỉ màu sắc vỏ máy"
+              },
+              {
+                "key": "B",
+                "text": "Chỉ dung lượng đĩa cứng"
+              },
+              {
+                "key": "C",
+                "text": "Chỉ hệ điều hành"
+              },
+              {
+                "key": "D",
+                "text": "Thuật toán, ngôn ngữ lập trình, chương trình dịch và kiến trúc tập lệnh"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-70",
+            "clusterId": null
+          },
+          {
+            "startLine": 439,
+            "text": "MIPS là viết tắt của:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Millions of Instructions Per Second"
+              },
+              {
+                "key": "B",
+                "text": "Mega Input Per Second"
+              },
+              {
+                "key": "C",
+                "text": "Machine Instruction Program System"
+              },
+              {
+                "key": "D",
+                "text": "Multiple Instruction Processing Standard"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-71",
+            "clusterId": null
+          },
+          {
+            "startLine": 445,
+            "text": "Công thức tính MIPS theo tần số xung nhịp f<sub>0</sub> và CPI là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "MIPS = CPI × f<sub>0</sub> × 10<sup>6</sup>"
+              },
+              {
+                "key": "B",
+                "text": "MIPS = f<sub>0</sub> / (CPI × 10<sup>6</sup>)"
+              },
+              {
+                "key": "C",
+                "text": "MIPS = CPI / f<sub>0</sub>"
+              },
+              {
+                "key": "D",
+                "text": "MIPS = f<sub>0</sub> × 10<sup>6</sup>"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-72",
+            "clusterId": null
+          },
+          {
+            "startLine": 451,
+            "text": "Bộ xử lý có clock rate 2 GHz và CPI = 4 đạt hiệu năng bao nhiêu MIPS?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "500 MIPS"
+              },
+              {
+                "key": "B",
+                "text": "50 MIPS"
+              },
+              {
+                "key": "C",
+                "text": "2000 MIPS"
+              },
+              {
+                "key": "D",
+                "text": "8000 MIPS"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "2×10<sup>9</sup> / (4×10<sup>6</sup>) = 500.",
+            "multi": false,
+            "id": "mcq-73",
+            "clusterId": null
+          },
+          {
+            "startLine": 458,
+            "text": "Bộ xử lý có clock rate 1 GHz và 400 MIPS thì CPI bằng:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "0,4"
+              },
+              {
+                "key": "B",
+                "text": "4"
+              },
+              {
+                "key": "C",
+                "text": "25"
+              },
+              {
+                "key": "D",
+                "text": "2,5"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "CPI = f<sub>0</sub>/(MIPS×10<sup>6</sup>) = 10<sup>9</sup>/(4×10<sup>8</sup>) = 2,5.",
+            "multi": false,
+            "id": "mcq-74",
+            "clusterId": null
+          },
+          {
+            "startLine": 465,
+            "text": "MFLOPS dùng để đo:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Số triệu phép toán số dấu phẩy động thực hiện trên một giây"
+              },
+              {
+                "key": "B",
+                "text": "Số triệu lệnh trên một giây"
+              },
+              {
+                "key": "C",
+                "text": "Số triệu byte trên một giây"
+              },
+              {
+                "key": "D",
+                "text": "Số triệu bit nhớ"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "GFLOPS = 10<sup>9</sup>, TFLOPS = 10<sup>12</sup>.",
+            "multi": false,
+            "id": "mcq-75",
+            "clusterId": null
+          }
+        ]
+      }
+    }
+  }
+}
