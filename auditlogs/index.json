@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-28T03:12:22.111Z",
-  "total": 44,
+  "updatedAt": "2026-11-28T03:14:06.996Z",
+  "total": 45,
   "logs": [
     {
       "id": "6ac45a48c3fe67bf29ff941c",
@@ -894,6 +894,26 @@
       "ipAddress": "116.96.47.185",
       "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
       "createdAt": "2026-11-28T03:12:21.972Z"
+    },
+    {
+      "id": "6b0a46fe1d2f444ce857f5f5",
+      "actor": "6ab3d694415010bf620349e5",
+      "action": "create_quiz",
+      "entity": "Lesson",
+      "entityId": "6b0a46fa89d8047b0d96cbd9",
+      "description": "",
+      "metadata": {
+        "title": "Ôn tập C2. Bieu dien thong tin trong may tinh New 2",
+        "duration": 75,
+        "counts": {
+          "mcq": 75,
+          "tf": 0,
+          "fill": 0
+        }
+      },
+      "ipAddress": "116.96.47.185",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+      "createdAt": "2026-11-28T03:14:06.884Z"
     }
   ]
 }
