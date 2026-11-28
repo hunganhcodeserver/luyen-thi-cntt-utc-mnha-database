@@ -1,0 +1,1534 @@
+{
+  "type": "quiz",
+  "lessonId": "6b0a4c4323ac90bc0b2495a3",
+  "title": "Ôn tập Chuong5_Be_tac.pdf",
+  "slug": "on-tap-chuong5-be-tac-pdf",
+  "subjectSlug": "nguyen-ly-he-dieu-hanh-1-1-26n01",
+  "duration": 75,
+  "promptId": null,
+  "analysisAiKeyIds": [],
+  "isPublished": true,
+  "visibility": "public",
+  "allowedUserIds": [],
+  "allowedGroupIds": [],
+  "isDeleted": false,
+  "createdBy": {
+    "id": "6ab3d694415010bf620349e5",
+    "name": "Mai Ngọc Hùng Anh",
+    "email": "hunganh.okokok.0@gmail.com"
+  },
+  "createdAt": "2026-11-28T03:36:35.479Z",
+  "updatedAt": "2026-11-28T03:36:35.479Z",
+  "contentHtml": null,
+  "quiz": {
+    "version": 1,
+    "maxScore": 10,
+    "parts": {
+      "mcq": {
+        "pointsPerQuestion": 0.2,
+        "questions": [
+          {
+            "startLine": 1,
+            "text": "Bế tắc (deadlock) xảy ra khi:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Một nhóm tiến trình chờ lẫn nhau và không thành viên nào tự tạo được sự kiện giải phóng"
+              },
+              {
+                "key": "B",
+                "text": "Một tiến trình bị chặn chờ I/O của thiết bị đang hoạt động bình thường"
+              },
+              {
+                "key": "C",
+                "text": "Bộ nhớ chính bị đầy hoàn toàn"
+              },
+              {
+                "key": "D",
+                "text": "Một tiến trình dùng quá nhiều thời gian CPU"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "Bế tắc là trạng thái chờ khép kín của một tập tiến trình.",
+            "multi": false,
+            "id": "mcq-1",
+            "clusterId": null
+          },
+          {
+            "startLine": 8,
+            "text": "Trong hình, P0 giữ băng từ 1 và chờ băng từ 2; P1 giữ băng từ 2 và chờ băng từ 1. Trạng thái này là gì?",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795836184755.enc",
+            "options": [
+              {
+                "key": "A",
+                "text": "Bế tắc, vì không tiến trình nào có thể tự hoàn thành để trả tài nguyên"
+              },
+              {
+                "key": "B",
+                "text": "Chờ bình thường, vì P0 sẽ sớm trả băng từ 1"
+              },
+              {
+                "key": "C",
+                "text": "Chết đói, vì một tiến trình bị vượt mặt liên tục"
+              },
+              {
+                "key": "D",
+                "text": "Livelock, vì hai tiến trình vẫn đổi trạng thái hữu ích"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "Mỗi tiến trình giữ tài nguyên mà tiến trình kia cần và chờ tài nguyên của tiến trình kia.",
+            "multi": false,
+            "id": "mcq-2",
+            "clusterId": null
+          },
+          {
+            "startLine": 16,
+            "text": "Bế tắc là thuộc tính của:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Cả một tập tiến trình và quan hệ chờ giữa chúng, không chỉ của một tiến trình đơn lẻ"
+              },
+              {
+                "key": "B",
+                "text": "Chỉ một tiến trình duy nhất"
+              },
+              {
+                "key": "C",
+                "text": "Chỉ của thuật toán lập lịch CPU"
+              },
+              {
+                "key": "D",
+                "text": "Chỉ của thiết bị phần cứng"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "Mỗi thành viên giữ ít nhất một tài nguyên và chờ thêm tài nguyên do thành viên khác giữ.",
+            "multi": false,
+            "id": "mcq-3",
+            "clusterId": null
+          },
+          {
+            "startLine": 23,
+            "text": "Trong mô hình hệ thống xét bế tắc, một loại tài nguyên có thể có:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Chỉ đúng hai thể hiện"
+              },
+              {
+                "key": "B",
+                "text": "Một thể hiện hoặc nhiều thể hiện tương đương"
+              },
+              {
+                "key": "C",
+                "text": "Chỉ đúng một thể hiện"
+              },
+              {
+                "key": "D",
+                "text": "Vô hạn thể hiện"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Ví dụ: CPU, vùng nhớ, tệp, khóa, thiết bị vào/ra.",
+            "multi": false,
+            "id": "mcq-4",
+            "clusterId": null
+          },
+          {
+            "startLine": 30,
+            "text": "Một tiến trình sử dụng tài nguyên theo trình tự nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Use → Request → Release"
+              },
+              {
+                "key": "B",
+                "text": "Release → Request → Use"
+              },
+              {
+                "key": "C",
+                "text": "Request → Use → Release"
+              },
+              {
+                "key": "D",
+                "text": "Request → Release → Use"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "Request có thể được cấp ngay hoặc làm tiến trình chờ; sau khi use phải release.",
+            "multi": false,
+            "id": "mcq-5",
+            "clusterId": null
+          },
+          {
+            "startLine": 37,
+            "text": "Sự khác nhau giữa chờ bình thường và bế tắc là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Hai khái niệm hoàn toàn giống nhau"
+              },
+              {
+                "key": "B",
+                "text": "Chờ bình thường: tài nguyên sẽ được trả bởi tiến trình vẫn tiến triển; bế tắc: nhóm chờ khép kín không thể tự giải phóng"
+              },
+              {
+                "key": "C",
+                "text": "Chờ bình thường không bao giờ kết thúc, bế tắc thì có"
+              },
+              {
+                "key": "D",
+                "text": "Chờ bình thường chỉ xảy ra với CPU, bế tắc chỉ với bộ nhớ"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Bế tắc cần chờ khép kín.",
+            "multi": false,
+            "id": "mcq-6",
+            "clusterId": null
+          },
+          {
+            "startLine": 44,
+            "text": "Chết đói (starvation) là tình huống:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Các tiến trình nhường nhau mãi mà không có tiến triển hữu ích"
+              },
+              {
+                "key": "B",
+                "text": "Tiến trình dùng hết bộ nhớ"
+              },
+              {
+                "key": "C",
+                "text": "Một nhóm tiến trình chờ khép kín"
+              },
+              {
+                "key": "D",
+                "text": "Hệ thống vẫn tiến triển nhưng một tiến trình liên tục bị vượt qua và không nhận được tài nguyên"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "Livelock là khi các tiến trình vẫn đổi trạng thái hoặc nhường nhau nhưng không tạo ra tiến triển hữu ích.",
+            "multi": false,
+            "id": "mcq-7",
+            "clusterId": null
+          },
+          {
+            "startLine": 51,
+            "text": "Cách tiếp cận \"ostrich\" (đà điểu) đối với bế tắc là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Phát hiện định kỳ rồi rollback tiến trình"
+              },
+              {
+                "key": "B",
+                "text": "Giả định bế tắc hiếm và để ứng dụng/người dùng tự xử lý"
+              },
+              {
+                "key": "C",
+                "text": "Ngăn chặn bế tắc bằng cách phá một điều kiện cần"
+              },
+              {
+                "key": "D",
+                "text": "Luôn kiểm tra trạng thái an toàn trước khi cấp"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Bốn hướng: ngăn chặn, tránh, phát hiện và khắc phục, bỏ qua.",
+            "multi": false,
+            "id": "mcq-8",
+            "clusterId": null
+          },
+          {
+            "startLine": 58,
+            "text": "Bốn điều kiện cần để bế tắc xảy ra là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Giữ và chờ, chiếm đoạt, ưu tiên, chờ vòng tròn"
+              },
+              {
+                "key": "B",
+                "text": "Độc quyền truy xuất, ưu tiên, giữ và chờ, đồng bộ"
+              },
+              {
+                "key": "C",
+                "text": "Độc quyền truy xuất, chia sẻ tài nguyên, chiếm đoạt, chờ vòng tròn"
+              },
+              {
+                "key": "D",
+                "text": "Độc quyền truy xuất, giữ và chờ, không chiếm đoạt, chờ vòng tròn"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "Cả bốn điều kiện phải đồng thời đúng.",
+            "multi": false,
+            "id": "mcq-9",
+            "clusterId": null
+          },
+          {
+            "startLine": 65,
+            "text": "Trong hình bốn điều kiện cần, điều kiện được đánh số 4 là:",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795836202252.enc",
+            "options": [
+              {
+                "key": "A",
+                "text": "Không chiếm đoạt: chỉ có chủ sở hữu tự trả"
+              },
+              {
+                "key": "B",
+                "text": "Giữ và chờ: giữ tài nguyên, xin thêm"
+              },
+              {
+                "key": "C",
+                "text": "Chờ vòng tròn: P0 → P1 → ... → P0"
+              },
+              {
+                "key": "D",
+                "text": "Độc quyền: tài nguyên chỉ được một tiến trình dùng"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "1 độc quyền, 2 giữ và chờ, 3 không chiếm đoạt, 4 chờ vòng tròn.",
+            "multi": false,
+            "id": "mcq-10",
+            "clusterId": null
+          },
+          {
+            "startLine": 73,
+            "text": "Điều kiện \"độc quyền truy xuất\" (mutual exclusion) có nghĩa là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Tiến trình có thể giành tài nguyên của tiến trình khác"
+              },
+              {
+                "key": "B",
+                "text": "Ít nhất một tài nguyên chỉ phục vụ một tiến trình tại một thời điểm"
+              },
+              {
+                "key": "C",
+                "text": "Các tiến trình chờ theo vòng tròn"
+              },
+              {
+                "key": "D",
+                "text": "Mọi tài nguyên đều được chia sẻ tự do"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Ví dụ: máy in, mutex đang khóa, tệp đang cập nhật.",
+            "multi": false,
+            "id": "mcq-11",
+            "clusterId": null
+          },
+          {
+            "startLine": 80,
+            "text": "Điều kiện \"giữ và chờ\" (hold and wait) có nghĩa là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Tiến trình vừa giữ tài nguyên đã cấp, vừa chờ thêm tài nguyên khác"
+              },
+              {
+                "key": "B",
+                "text": "Tiến trình chỉ giữ tài nguyên mà không xin thêm"
+              },
+              {
+                "key": "C",
+                "text": "Tiến trình bị hệ thống thu hồi tài nguyên bất kỳ lúc nào"
+              },
+              {
+                "key": "D",
+                "text": "Tiến trình trả hết tài nguyên trước khi xin mới"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "Nếu mọi yêu cầu phải được cấp cùng lúc hoặc chỉ xin khi không giữ gì thì điều kiện này không tồn tại.",
+            "multi": false,
+            "id": "mcq-12",
+            "clusterId": null
+          },
+          {
+            "startLine": 87,
+            "text": "Điều kiện \"không chiếm đoạt\" (no preemption) có nghĩa là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Mọi tiến trình đều phải chờ"
+              },
+              {
+                "key": "B",
+                "text": "Tài nguyên chỉ được cấp cho tiến trình ưu tiên cao nhất"
+              },
+              {
+                "key": "C",
+                "text": "Tài nguyên không bị hệ thống thu hồi cưỡng bức; chủ sở hữu tự giải phóng"
+              },
+              {
+                "key": "D",
+                "text": "Hệ thống có thể lấy lại tài nguyên bất cứ lúc nào"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "Thu hồi giữa chừng có thể phá bất biến hoặc làm thao tác I/O không khôi phục được.",
+            "multi": false,
+            "id": "mcq-13",
+            "clusterId": null
+          },
+          {
+            "startLine": 94,
+            "text": "Điều kiện \"chờ vòng tròn\" (circular wait) là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Một tiến trình chờ chính nó"
+              },
+              {
+                "key": "B",
+                "text": "Các tiến trình chờ ở hàng đợi sẵn sàng"
+              },
+              {
+                "key": "C",
+                "text": "Các tiến trình lần lượt dùng CPU theo lượt"
+              },
+              {
+                "key": "D",
+                "text": "Tồn tại chuỗi P0 chờ P1, P1 chờ P2, ..., Pn chờ P0"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "Đây là biểu hiện cấu trúc của bế tắc.",
+            "multi": false,
+            "id": "mcq-14",
+            "clusterId": null
+          },
+          {
+            "startLine": 101,
+            "text": "Nhận định nào đúng về bốn điều kiện cần của bế tắc?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Bốn điều kiện không liên quan đến bế tắc"
+              },
+              {
+                "key": "B",
+                "text": "Phải làm cả bốn điều kiện sai mới ngăn được bế tắc"
+              },
+              {
+                "key": "C",
+                "text": "Mỗi điều kiện cần nhưng chưa đủ; chỉ cần làm một điều kiện luôn sai thì bế tắc bị ngăn chặn"
+              },
+              {
+                "key": "D",
+                "text": "Chỉ cần một điều kiện đúng là chắc chắn có bế tắc"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "Bốn điều kiện kết hợp mới tạo nguy cơ bế tắc.",
+            "multi": false,
+            "id": "mcq-15",
+            "clusterId": null
+          },
+          {
+            "startLine": 108,
+            "text": "Trong đồ thị cấp phát tài nguyên, các ký hiệu được quy ước là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Hình vuông là tiến trình, hình tròn là tài nguyên"
+              },
+              {
+                "key": "B",
+                "text": "Hình tròn là tài nguyên, hình vuông là CPU"
+              },
+              {
+                "key": "C",
+                "text": "Các chấm trong hình tròn là số thể hiện tài nguyên"
+              },
+              {
+                "key": "D",
+                "text": "Hình tròn là tiến trình, hình vuông là tài nguyên, các chấm trong hình vuông là số thể hiện"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "Pi → Rj là cạnh yêu cầu; Rj → Pi là cạnh phân phối.",
+            "multi": false,
+            "id": "mcq-16",
+            "clusterId": null
+          },
+          {
+            "startLine": 115,
+            "text": "Trong đồ thị cấp phát tài nguyên, cạnh Rj → Pi nghĩa là gì?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Pi đang chờ một thể hiện của Rj"
+              },
+              {
+                "key": "B",
+                "text": "Một thể hiện của Rj đang được cấp cho Pi"
+              },
+              {
+                "key": "C",
+                "text": "Pi giải phóng Rj"
+              },
+              {
+                "key": "D",
+                "text": "Rj đang chờ Pi"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Cạnh Pi → Rj là cạnh yêu cầu (Pi đang chờ Rj).",
+            "multi": false,
+            "id": "mcq-17",
+            "clusterId": null
+          },
+          {
+            "startLine": 122,
+            "text": "Dựa vào đồ thị cấp phát tài nguyên trong hình, hệ thống có bế tắc không?",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795836226923.enc",
+            "options": [
+              {
+                "key": "A",
+                "text": "Có, vì P1, P2, P3 đều đang chờ"
+              },
+              {
+                "key": "B",
+                "text": "Không, vì đồ thị không có chu trình"
+              },
+              {
+                "key": "C",
+                "text": "Không thể kết luận"
+              },
+              {
+                "key": "D",
+                "text": "Có, vì R4 có nhiều thể hiện"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Không có chu trình thì chắc chắn không bế tắc.",
+            "multi": false,
+            "id": "mcq-18",
+            "clusterId": null
+          },
+          {
+            "startLine": 130,
+            "text": "Trong hình, loại tài nguyên R4 có bao nhiêu thể hiện?",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795836267453.enc",
+            "options": [
+              {
+                "key": "A",
+                "text": "1"
+              },
+              {
+                "key": "B",
+                "text": "2"
+              },
+              {
+                "key": "C",
+                "text": "3"
+              },
+              {
+                "key": "D",
+                "text": "4"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "Số chấm trong hình vuông là số thể hiện: R1 và R3 có 1, R2 có 2, R4 có 3.",
+            "multi": false,
+            "id": "mcq-19",
+            "clusterId": null
+          },
+          {
+            "startLine": 138,
+            "text": "Đồ thị cấp phát tài nguyên trong hình có chu trình. Kết luận nào đúng?",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795836270246.enc",
+            "options": [
+              {
+                "key": "A",
+                "text": "Có bế tắc, các tiến trình P1, P2, P3 bị bế tắc"
+              },
+              {
+                "key": "B",
+                "text": "Chỉ P1 bị bế tắc"
+              },
+              {
+                "key": "C",
+                "text": "Không có bế tắc vì có nhiều thể hiện"
+              },
+              {
+                "key": "D",
+                "text": "Chỉ P3 bị bế tắc"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "Chu trình P1 → R1 → P2 → R3 → P3 → R2 → P1 khiến mọi tiến trình trong vòng không thể tiến triển.",
+            "multi": false,
+            "id": "mcq-20",
+            "clusterId": null
+          },
+          {
+            "startLine": 146,
+            "text": "Đồ thị trong hình có chu trình P1 → R1 → P3 → R2 → P1 nhưng hệ thống KHÔNG bế tắc. Lý do là:",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795836294085.enc",
+            "options": [
+              {
+                "key": "A",
+                "text": "Vì R1 và R2 chỉ có một thể hiện"
+              },
+              {
+                "key": "B",
+                "text": "Vì P1 không yêu cầu tài nguyên nào"
+              },
+              {
+                "key": "C",
+                "text": "Các tiến trình P2 và P4 ngoài chu trình có thể kết thúc và trả tài nguyên"
+              },
+              {
+                "key": "D",
+                "text": "Vì chu trình luôn đồng nghĩa không bế tắc"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "Với nhiều thể hiện, chu trình chỉ là điều kiện cần.",
+            "multi": false,
+            "id": "mcq-21",
+            "clusterId": null
+          },
+          {
+            "startLine": 154,
+            "text": "Nếu mỗi loại tài nguyên chỉ có một thể hiện, chu trình trong đồ thị cấp phát tài nguyên:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Không liên quan đến bế tắc"
+              },
+              {
+                "key": "B",
+                "text": "Là điều kiện cần và đủ cho bế tắc"
+              },
+              {
+                "key": "C",
+                "text": "Chỉ là điều kiện cần"
+              },
+              {
+                "key": "D",
+                "text": "Là điều kiện đủ nhưng không cần"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Với nhiều thể hiện, chu trình chỉ là điều kiện cần.",
+            "multi": false,
+            "id": "mcq-22",
+            "clusterId": null
+          },
+          {
+            "startLine": 161,
+            "text": "Mục tiêu của ngăn chặn bế tắc (prevention) là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Làm cho ít nhất một điều kiện cần không thể xảy ra bằng các quy tắc cấp phát cố định"
+              },
+              {
+                "key": "B",
+                "text": "Giả định bế tắc không xảy ra"
+              },
+              {
+                "key": "C",
+                "text": "Cho phép bế tắc rồi phát hiện và khắc phục"
+              },
+              {
+                "key": "D",
+                "text": "Chỉ cấp phát khi trạng thái sau cấp phát vẫn an toàn dựa trên nhu cầu cực đại"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "Ngăn chặn đổi lấy hiệu năng: có thể giảm mức sử dụng tài nguyên.",
+            "multi": false,
+            "id": "mcq-23",
+            "clusterId": null
+          },
+          {
+            "startLine": 168,
+            "text": "Chia sẻ tài nguyên nhằm loại bỏ điều kiện nào, và áp dụng được cho loại tài nguyên nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Giữ và chờ; áp dụng cho máy in"
+              },
+              {
+                "key": "B",
+                "text": "Độc quyền truy xuất; áp dụng cho dữ liệu bất biến, tệp chỉ đọc, thư viện dùng chung"
+              },
+              {
+                "key": "C",
+                "text": "Không chiếm đoạt; áp dụng cho khóa ghi"
+              },
+              {
+                "key": "D",
+                "text": "Chờ vòng tròn; áp dụng cho mọi tài nguyên"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Máy in, thiết bị ghi, khóa cập nhật vẫn cần độc quyền nên không thể loại bỏ mutual exclusion cho mọi tài nguyên.",
+            "multi": false,
+            "id": "mcq-24",
+            "clusterId": null
+          },
+          {
+            "startLine": 175,
+            "text": "Yêu cầu tiến trình xin tất cả tài nguyên cùng lúc trước khi chạy nhằm phá điều kiện nào, và có nhược điểm gì?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Không chiếm đoạt; cần rollback"
+              },
+              {
+                "key": "B",
+                "text": "Giữ và chờ; tài nguyên bị giữ lâu chưa dùng, hiệu suất thấp và có thể dẫn tới chết đói"
+              },
+              {
+                "key": "C",
+                "text": "Độc quyền; không áp dụng cho máy in"
+              },
+              {
+                "key": "D",
+                "text": "Chờ vòng tròn; làm mã phức tạp"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Phương án khác là chỉ cho xin khi không giữ gì.",
+            "multi": false,
+            "id": "mcq-25",
+            "clusterId": null
+          },
+          {
+            "startLine": 182,
+            "text": "Cho phép thu hồi tài nguyên của tiến trình đang chờ nhằm phá điều kiện nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Chờ vòng tròn"
+              },
+              {
+                "key": "B",
+                "text": "Không chiếm đoạt"
+              },
+              {
+                "key": "C",
+                "text": "Giữ và chờ"
+              },
+              {
+                "key": "D",
+                "text": "Độc quyền truy xuất"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Phù hợp với CPU, thanh ghi, trang nhớ; khó áp dụng cho thiết bị có hiệu ứng ngoài không đảo ngược.",
+            "multi": false,
+            "id": "mcq-26",
+            "clusterId": null
+          },
+          {
+            "startLine": 189,
+            "text": "Gán hàm thứ tự F(R) cho mọi loại tài nguyên và chỉ cho yêu cầu theo thứ tự tăng dần nhằm phá điều kiện:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Độc quyền truy xuất"
+              },
+              {
+                "key": "B",
+                "text": "Giữ và chờ"
+              },
+              {
+                "key": "C",
+                "text": "Không chiếm đoạt"
+              },
+              {
+                "key": "D",
+                "text": "Chờ vòng tròn"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "Nếu đang giữ Ri thì chỉ được xin Rj khi F(Rj) &gt; F(Ri); một chu trình đòi hỏi thứ tự tăng nghiêm ngặt quay về điểm đầu, điều không thể.",
+            "multi": false,
+            "id": "mcq-27",
+            "clusterId": null
+          },
+          {
+            "startLine": 196,
+            "text": "Theo hình thứ tự tài nguyên FR(1)=1 (Khóa hẹp), FR(2)=2 (Khóa bảng), FR(3)=3 (Khóa thiết bị), tiến trình đang giữ khóa bảng có thể xin tiếp khóa nào?",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795836326523.enc",
+            "options": [
+              {
+                "key": "A",
+                "text": "Khóa thiết bị (FR = 3)"
+              },
+              {
+                "key": "B",
+                "text": "Khóa bảng lần thứ hai"
+              },
+              {
+                "key": "C",
+                "text": "Không được xin khóa nào"
+              },
+              {
+                "key": "D",
+                "text": "Khóa hẹp (FR = 1)"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "Chỉ được xin tài nguyên có thứ tự cao hơn; xin tài nguyên thứ tự thấp hơn là không được phép.",
+            "multi": false,
+            "id": "mcq-28",
+            "clusterId": null
+          },
+          {
+            "startLine": 204,
+            "text": "Điều kiện để thuật toán tránh bế tắc có thể hoạt động là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Mỗi tài nguyên chỉ có đúng một thể hiện"
+              },
+              {
+                "key": "B",
+                "text": "Mỗi tiến trình khai báo trước nhu cầu tối đa cho từng loại tài nguyên"
+              },
+              {
+                "key": "C",
+                "text": "Hệ thống không có tiến trình nào chờ"
+              },
+              {
+                "key": "D",
+                "text": "Không có tiến trình nào giữ tài nguyên"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Hệ điều hành mô phỏng trạng thái sau cấp và tìm thứ tự để mọi tiến trình lần lượt hoàn thành.",
+            "multi": false,
+            "id": "mcq-29",
+            "clusterId": null
+          },
+          {
+            "startLine": 211,
+            "text": "Mối quan hệ giữa trạng thái an toàn, không an toàn và bế tắc là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Mọi trạng thái không an toàn đều là bế tắc"
+              },
+              {
+                "key": "B",
+                "text": "Trạng thái an toàn có thể là bế tắc"
+              },
+              {
+                "key": "C",
+                "text": "Ba trạng thái hoàn toàn giống nhau"
+              },
+              {
+                "key": "D",
+                "text": "Mọi trạng thái bế tắc đều không an toàn, nhưng trạng thái không an toàn có thể chưa bế tắc"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "Thuật toán tránh bế tắc không cho hệ thống rời miền an toàn.",
+            "multi": false,
+            "id": "mcq-30",
+            "clusterId": null
+          },
+          {
+            "startLine": 218,
+            "text": "Hệ thống ở trạng thái an toàn khi:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Mọi tiến trình đều đang chờ"
+              },
+              {
+                "key": "B",
+                "text": "Không có tiến trình nào yêu cầu tài nguyên"
+              },
+              {
+                "key": "C",
+                "text": "Tồn tại ít nhất một chuỗi an toàn"
+              },
+              {
+                "key": "D",
+                "text": "Số tài nguyên rỗi bằng 0"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "Chuỗi an toàn là thứ tự cho phép từng tiến trình hoàn thành.",
+            "multi": false,
+            "id": "mcq-31",
+            "clusterId": null
+          },
+          {
+            "startLine": 225,
+            "text": "Hệ thống có 12 băng từ. Tại t0: P0 (Max 10, đã cấp 5), P1 (Max 4, đã cấp 2), P2 (Max 9, đã cấp 2), còn 3 băng rỗi. Chuỗi nào là chuỗi an toàn?",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795836373736.enc",
+            "options": [
+              {
+                "key": "A",
+                "text": "⟨P0, P1, P2⟩"
+              },
+              {
+                "key": "B",
+                "text": "⟨P2, P0, P1⟩"
+              },
+              {
+                "key": "C",
+                "text": "⟨P0, P2, P1⟩"
+              },
+              {
+                "key": "D",
+                "text": "⟨P1, P0, P2⟩"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "P1 cần thêm 2 ≤ 3, xong trả 4 → có 5; P0 cần 5 ≤ 5, xong trả 10 → có 10; P2 cần 7 ≤ 10.",
+            "multi": false,
+            "id": "mcq-32",
+            "clusterId": null
+          },
+          {
+            "startLine": 233,
+            "text": "Trong hình, tại t1 P2 xin thêm 1 băng và được cấp (P2 đã có 3, còn cần 6; rỗi 2). Trạng thái mới là:",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795836375232.enc",
+            "options": [
+              {
+                "key": "A",
+                "text": "Không an toàn, vì chỉ P1 hoàn thành được; P0 cần 5 và P2 cần 6 đều vượt số rỗi"
+              },
+              {
+                "key": "B",
+                "text": "An toàn với chuỗi ⟨P0, P1, P2⟩"
+              },
+              {
+                "key": "C",
+                "text": "Bế tắc hoàn toàn ngay lập tức"
+              },
+              {
+                "key": "D",
+                "text": "An toàn với chuỗi ⟨P1, P0, P2⟩"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "Sau khi P1 trả 4 băng, rỗi = 4 &lt; 5 (P0) và &lt; 6 (P2). Do đó nên hoãn yêu cầu của P2.",
+            "multi": false,
+            "id": "mcq-33",
+            "clusterId": null
+          },
+          {
+            "startLine": 241,
+            "text": "Trong thuật toán đồ thị cấp phát tài nguyên (mỗi loại một thể hiện), cạnh claim được biểu diễn như thế nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Cạnh nét đứt Pi ⇢ Rj, cho biết Pi có thể yêu cầu Rj trong tương lai"
+              },
+              {
+                "key": "B",
+                "text": "Cạnh liền Pi → Rj"
+              },
+              {
+                "key": "C",
+                "text": "Hình vuông có chấm bên trong"
+              },
+              {
+                "key": "D",
+                "text": "Cạnh liền Rj → Pi"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "Cạnh claim chuyển thành cạnh yêu cầu khi tiến trình yêu cầu, rồi thành cạnh phân phối khi được cấp.",
+            "multi": false,
+            "id": "mcq-34",
+            "clusterId": null
+          },
+          {
+            "startLine": 248,
+            "text": "Trong thuật toán đồ thị cấp phát tài nguyên, yêu cầu của tiến trình được cấp khi:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Tài nguyên đang rỗi, bất kể chu trình"
+              },
+              {
+                "key": "B",
+                "text": "Đồ thị có chu trình"
+              },
+              {
+                "key": "C",
+                "text": "Việc đổi cạnh yêu cầu thành cạnh phân phối không tạo chu trình"
+              },
+              {
+                "key": "D",
+                "text": "Tiến trình có độ ưu tiên cao nhất"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "Tạo chu trình thì khôi phục và cho tiến trình chờ.",
+            "multi": false,
+            "id": "mcq-35",
+            "clusterId": null
+          },
+          {
+            "startLine": 255,
+            "text": "Thuật toán Banker dùng bốn cấu trúc dữ liệu nào, và Need được tính ra sao?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Work, Finish, Max, Need; Need = Allocation − Max"
+              },
+              {
+                "key": "B",
+                "text": "Available, Max, Allocation, Need; Need = Max − Allocation"
+              },
+              {
+                "key": "C",
+                "text": "Available, Max, Request, Need; Need = Request − Allocation"
+              },
+              {
+                "key": "D",
+                "text": "Available, Request, Allocation, Need; Need = Max + Allocation"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Mỗi hàng ứng với một tiến trình, mỗi cột ứng với một loại tài nguyên.",
+            "multi": false,
+            "id": "mcq-36",
+            "clusterId": null
+          },
+          {
+            "startLine": 262,
+            "text": "Dựa vào bảng dữ liệu Banker trong hình, ma trận Need của P2 là:",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795836402340.enc",
+            "options": [
+              {
+                "key": "A",
+                "text": "(9, 0, 2)"
+              },
+              {
+                "key": "B",
+                "text": "(6, 0, 2)"
+              },
+              {
+                "key": "C",
+                "text": "(3, 0, 2)"
+              },
+              {
+                "key": "D",
+                "text": "(6, 0, 0)"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "Need(P2) = Max(P2) − Allocation(P2) = (9,0,2) − (3,0,2) = (6,0,0).",
+            "multi": false,
+            "id": "mcq-37",
+            "clusterId": null
+          },
+          {
+            "startLine": 270,
+            "text": "Với dữ liệu Banker trong hình (Available = 3, 3, 2), chuỗi nào là chuỗi an toàn?",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795836445749.enc",
+            "options": [
+              {
+                "key": "A",
+                "text": "⟨P1, P3, P4, P0, P2⟩"
+              },
+              {
+                "key": "B",
+                "text": "⟨P0, P1, P2, P3, P4⟩"
+              },
+              {
+                "key": "C",
+                "text": "⟨P4, P3, P1, P0, P2⟩"
+              },
+              {
+                "key": "D",
+                "text": "⟨P2, P1, P3, P4, P0⟩"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "Need(P0)=(7,4,3), Need(P2)=(6,0,0), Need(P4)=(4,3,1) đều không ≤ (3,3,2) nên không thể chạy đầu tiên; P1 và P3 thì được.",
+            "multi": false,
+            "id": "mcq-38",
+            "clusterId": null
+          },
+          {
+            "startLine": 278,
+            "text": "Bước đầu tiên của thuật toán Safety là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Đặt Work = 0 và Finish = true"
+              },
+              {
+                "key": "B",
+                "text": "Đặt Work = Max"
+              },
+              {
+                "key": "C",
+                "text": "Đặt Work = Available và đánh dấu mọi tiến trình là chưa hoàn thành"
+              },
+              {
+                "key": "D",
+                "text": "Chọn tiến trình có Need lớn nhất"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "Sau đó chọn Pi chưa hoàn thành có Need[i] ≤ Work, đặt Work = Work + Allocation[i].",
+            "multi": false,
+            "id": "mcq-39",
+            "clusterId": null
+          },
+          {
+            "startLine": 285,
+            "text": "Với Available = (3,3,2), P1 có Allocation (2,0,0) và Need (1,2,2). Sau khi P1 hoàn thành và trả tài nguyên, Work bằng:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "(2, 3, 0)"
+              },
+              {
+                "key": "B",
+                "text": "(3, 3, 2)"
+              },
+              {
+                "key": "C",
+                "text": "(4, 3, 2)"
+              },
+              {
+                "key": "D",
+                "text": "(5, 3, 2)"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "Work = (3,3,2) + (2,0,0) = (5,3,2).",
+            "multi": false,
+            "id": "mcq-40",
+            "clusterId": null
+          },
+          {
+            "startLine": 292,
+            "text": "Ba lần kiểm tra của thuật toán yêu cầu tài nguyên (Resource-Request) theo thứ tự là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Chạy Safety, rồi kiểm tra Need, rồi kiểm tra Available"
+              },
+              {
+                "key": "B",
+                "text": "Request > Available thì không hợp lệ; Request > Need thì chờ; cấp thật ngay"
+              },
+              {
+                "key": "C",
+                "text": "Cấp thử rồi kiểm tra Max"
+              },
+              {
+                "key": "D",
+                "text": "Request > Need thì không hợp lệ; Request > Available thì chờ; cấp thử rồi chạy Safety"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "Nếu sau khi cấp thử vẫn an toàn thì cấp thật; nếu không thì hoàn tác.",
+            "multi": false,
+            "id": "mcq-41",
+            "clusterId": null
+          },
+          {
+            "startLine": 299,
+            "text": "Trạng thái Banker ban đầu có Available = (3,3,2), Need(P1) = (1,2,2). P1 yêu cầu (1,0,2). Hệ thống quyết định:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Cho chờ, vì Request > Available"
+              },
+              {
+                "key": "B",
+                "text": "Cho chờ, vì sau cấp thử trạng thái không an toàn"
+              },
+              {
+                "key": "C",
+                "text": "Từ chối, vì Request > Need"
+              },
+              {
+                "key": "D",
+                "text": "Cấp, vì hợp lệ, đủ tài nguyên và sau cấp thử vẫn an toàn"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "(1,0,2) ≤ (1,2,2) và ≤ (3,3,2); sau cấp thử vẫn có chuỗi ⟨P1, P3, P4, P0, P2⟩.",
+            "multi": false,
+            "id": "mcq-42",
+            "clusterId": null
+          },
+          {
+            "startLine": 306,
+            "text": "Trạng thái Banker ban đầu có Available = (3,3,2), Need(P4) = (4,3,1). P4 yêu cầu (3,3,0). Quyết định đúng là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Từ chối vì Request > Need"
+              },
+              {
+                "key": "B",
+                "text": "Cấp ngay vì Available còn dư"
+              },
+              {
+                "key": "C",
+                "text": "Cấp ngay, vì (3,3,0) ≤ (3,3,2)"
+              },
+              {
+                "key": "D",
+                "text": "Cho chờ, vì cấp thử sẽ dẫn tới trạng thái không an toàn"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "Hợp lệ và đủ tài nguyên, nhưng sau cấp thử Available = (0,0,2) và không tiến trình nào có Need ≤ Work, nên không tồn tại chuỗi an toàn.",
+            "multi": false,
+            "id": "mcq-43",
+            "clusterId": null
+          },
+          {
+            "startLine": 313,
+            "text": "Với mỗi loại chỉ một thể hiện, đồ thị chờ (wait-for graph) khác đồ thị cấp phát tài nguyên ở điểm nào (xem hình)?",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795836481047.enc",
+            "options": [
+              {
+                "key": "A",
+                "text": "Thêm nút tài nguyên vào đồ thị"
+              },
+              {
+                "key": "B",
+                "text": "Dùng hình vuông cho tiến trình"
+              },
+              {
+                "key": "C",
+                "text": "Bỏ các nút tài nguyên, chỉ còn nút tiến trình với cạnh Pi → Pj"
+              },
+              {
+                "key": "D",
+                "text": "Chỉ dùng cạnh claim nét đứt"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "Cạnh Pi → Pj nghĩa là Pi đang chờ tài nguyên do Pj giữ; có chu trình thì các tiến trình trong chu trình bị bế tắc.",
+            "multi": false,
+            "id": "mcq-44",
+            "clusterId": null
+          },
+          {
+            "startLine": 321,
+            "text": "Điểm khác biệt chính giữa thuật toán Detection và thuật toán Banker là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Detection không dùng Available"
+              },
+              {
+                "key": "B",
+                "text": "Detection chỉ hoạt động khi mỗi loại có một thể hiện"
+              },
+              {
+                "key": "C",
+                "text": "Detection dùng Max và Need, Banker dùng Request"
+              },
+              {
+                "key": "D",
+                "text": "Detection dùng Request hiện tại, không dùng Max và Need tối đa"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "Detection và Safety có cách lặp tương tự nhưng dùng dữ liệu khác nhau.",
+            "multi": false,
+            "id": "mcq-45",
+            "clusterId": null
+          },
+          {
+            "startLine": 328,
+            "text": "Với bảng Detection trong hình (Available = (0,0)), tiến trình nào bị bế tắc?",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795836983686.enc",
+            "options": [
+              {
+                "key": "A",
+                "text": "P0 và P1"
+              },
+              {
+                "key": "B",
+                "text": "Chỉ P0"
+              },
+              {
+                "key": "C",
+                "text": "Chỉ P2"
+              },
+              {
+                "key": "D",
+                "text": "P0, P1 và P2"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "P2 không giữ tài nguyên nên kết thúc được; P0 cần B (do P1 giữ), P1 cần A (do P0 giữ).",
+            "multi": false,
+            "id": "mcq-46",
+            "clusterId": null
+          },
+          {
+            "startLine": 336,
+            "text": "Hai phương án kết thúc tiến trình để khắc phục bế tắc được so sánh như sau:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Dừng tất cả: nhanh, chắc chắn nhưng mất nhiều công việc; dừng từng tiến trình: ít thiệt hại hơn nhưng phải chạy Detection nhiều lần"
+              },
+              {
+                "key": "B",
+                "text": "Hai cách giống nhau"
+              },
+              {
+                "key": "C",
+                "text": "Dừng tất cả: ít thiệt hại; dừng từng tiến trình: chắc chắn hơn"
+              },
+              {
+                "key": "D",
+                "text": "Chỉ dừng từng tiến trình mới phá được bế tắc"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "Cần chọn nạn nhân khi dừng từng tiến trình.",
+            "multi": false,
+            "id": "mcq-47",
+            "clusterId": null
+          },
+          {
+            "startLine": 343,
+            "text": "Khi chọn nạn nhân để khắc phục bế tắc, cần xét những yếu tố nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Chỉ thời điểm tạo tiến trình"
+              },
+              {
+                "key": "B",
+                "text": "Chỉ kích thước tệp thực thi"
+              },
+              {
+                "key": "C",
+                "text": "Ưu tiên và loại tiến trình, tiến độ, tài nguyên đang giữ, ảnh hưởng dây chuyền"
+              },
+              {
+                "key": "D",
+                "text": "Chỉ tên của tiến trình"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "Tiến trình hệ thống, tương tác hoặc thời gian thực thường có chi phí dừng cao hơn job nền.",
+            "multi": false,
+            "id": "mcq-48",
+            "clusterId": null
+          },
+          {
+            "startLine": 350,
+            "text": "Để tránh một tiến trình liên tục bị chọn làm nạn nhân (chết đói), cần:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Luôn chọn tiến trình có chi phí thấp nhất"
+              },
+              {
+                "key": "B",
+                "text": "Luôn chọn cùng một tiến trình"
+              },
+              {
+                "key": "C",
+                "text": "Tính cả lịch sử, tăng chi phí nạn nhân theo số lần bị chọn và giới hạn số lần rollback"
+              },
+              {
+                "key": "D",
+                "text": "Không bao giờ rollback"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "Checkpoint hợp lý giúp giảm công việc mất và bảo đảm tiến triển.",
+            "multi": false,
+            "id": "mcq-49",
+            "clusterId": null
+          },
+          {
+            "startLine": 357,
+            "text": "Chiếm đoạt tài nguyên để phá bế tắc cần đi kèm với:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Cấp thêm tài nguyên mới cho nạn nhân"
+              },
+              {
+                "key": "B",
+                "text": "Rollback về checkpoint nhất quán rồi kiểm tra lại bế tắc"
+              },
+              {
+                "key": "C",
+                "text": "Bỏ qua trạng thái của nạn nhân"
+              },
+              {
+                "key": "D",
+                "text": "Tắt toàn bộ hệ thống"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Chọn nạn nhân chi phí thấp, thu hồi tài nguyên, khôi phục checkpoint.",
+            "multi": false,
+            "id": "mcq-50",
+            "clusterId": null
+          }
+        ]
+      }
+    }
+  }
+}
