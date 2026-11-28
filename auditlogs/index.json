@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-28T03:14:06.996Z",
-  "total": 45,
+  "updatedAt": "2026-11-28T03:21:23.134Z",
+  "total": 46,
   "logs": [
     {
       "id": "6ac45a48c3fe67bf29ff941c",
@@ -914,6 +914,26 @@
       "ipAddress": "116.96.47.185",
       "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
       "createdAt": "2026-11-28T03:14:06.884Z"
+    },
+    {
+      "id": "6b0a48b3cf4a43c701b82380",
+      "actor": "6ab3d694415010bf620349e5",
+      "action": "create_quiz",
+      "entity": "Lesson",
+      "entityId": "6b0a48af89d8047b0d96cbda",
+      "description": "",
+      "metadata": {
+        "title": "Ôn tập Chuong2_Cau_truc_He_dieu_hanh.pdf",
+        "duration": 75,
+        "counts": {
+          "mcq": 50,
+          "tf": 0,
+          "fill": 0
+        }
+      },
+      "ipAddress": "116.96.47.185",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+      "createdAt": "2026-11-28T03:21:23.002Z"
     }
   ]
 }
