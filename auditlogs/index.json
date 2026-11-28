@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-28T04:11:34.416Z",
-  "total": 52,
+  "updatedAt": "2026-11-28T04:15:12.115Z",
+  "total": 53,
   "logs": [
     {
       "id": "6ac45a48c3fe67bf29ff941c",
@@ -1054,6 +1054,26 @@
       "ipAddress": "116.96.47.185",
       "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
       "createdAt": "2026-11-28T04:11:34.300Z"
+    },
+    {
+      "id": "6b0a554fa8e7b01a4df5bfee",
+      "actor": "6ab3d694415010bf620349e5",
+      "action": "create_quiz",
+      "entity": "Lesson",
+      "entityId": "6b0a554d23ac90bc0b2495a5",
+      "description": "",
+      "metadata": {
+        "title": "Ôn tập C4. Memory (1)",
+        "duration": 75,
+        "counts": {
+          "mcq": 75,
+          "tf": 0,
+          "fill": 0
+        }
+      },
+      "ipAddress": "116.96.47.185",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+      "createdAt": "2026-11-28T04:15:11.973Z"
     }
   ]
 }
