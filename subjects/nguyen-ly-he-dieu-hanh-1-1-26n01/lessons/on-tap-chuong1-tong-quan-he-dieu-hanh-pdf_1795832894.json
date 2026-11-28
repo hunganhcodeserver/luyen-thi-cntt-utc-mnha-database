@@ -14,7 +14,7 @@
   "isDeleted": false,
   "createdBy": "6ab3d694415010bf620349e5",
   "createdAt": "2026-11-28T02:28:14.917Z",
-  "updatedAt": "2026-11-28T02:28:16.011Z",
+  "updatedAt": "2026-11-28T02:40:34.767Z",
   "contentHtml": null,
   "quiz": {
     "version": 1,
@@ -116,7 +116,7 @@
           {
             "startLine": 22,
             "text": "Dựa vào hình, thành phần nằm giữa \"Chương trình hệ thống\" và \"Phần cứng\" là gì?",
-            "image": null,
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795833481094.png",
             "options": [
               {
                 "key": "A",
@@ -144,9 +144,9 @@
             "clusterId": null
           },
           {
-            "startLine": 29,
+            "startLine": 30,
             "text": "Trong hình mô hình 4 lớp, thành phần nào sau đây thuộc lớp \"Chương trình ứng dụng\" chứ KHÔNG thuộc lớp \"Hệ điều hành\"?",
-            "image": null,
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795833495595.png",
             "options": [
               {
                 "key": "A",
@@ -174,7 +174,7 @@
             "clusterId": null
           },
           {
-            "startLine": 36,
+            "startLine": 38,
             "text": "Định nghĩa hệ điều hành theo góc nhìn \"người quản lý\" là:",
             "image": null,
             "options": [
@@ -204,7 +204,7 @@
             "clusterId": null
           },
           {
-            "startLine": 43,
+            "startLine": 45,
             "text": "Nhân hệ điều hành (Kernel) là:",
             "image": null,
             "options": [
@@ -234,9 +234,9 @@
             "clusterId": null
           },
           {
-            "startLine": 50,
+            "startLine": 52,
             "text": "Theo hình, chương trình ứng dụng người dùng yêu cầu dịch vụ của Kernel thông qua thành phần nào?",
-            "image": null,
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795833511447.png",
             "options": [
               {
                 "key": "A",
@@ -264,7 +264,7 @@
             "clusterId": null
           },
           {
-            "startLine": 57,
+            "startLine": 60,
             "text": "Vì sao các chương trình ứng dụng không điều khiển trực tiếp phần cứng mà phải đi qua kernel?",
             "image": null,
             "options": [
@@ -294,9 +294,9 @@
             "clusterId": null
           },
           {
-            "startLine": 64,
+            "startLine": 67,
             "text": "Trong hình kiến trúc cơ bản của hệ thống máy tính, CPU, bộ điều khiển đĩa, USB controller và Graphics adapter truy cập bộ nhớ chính thông qua thành phần nào?",
-            "image": null,
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795833532640.png",
             "options": [
               {
                 "key": "A",
@@ -324,7 +324,7 @@
             "clusterId": null
           },
           {
-            "startLine": 71,
+            "startLine": 75,
             "text": "Trong bốn thành phần của hệ thống máy tính (người dùng, ứng dụng, hệ điều hành, phần cứng), thành phần nào chịu trách nhiệm chuyển yêu cầu của ứng dụng thành thao tác phần cứng có kiểm soát?",
             "image": null,
             "options": [
@@ -354,7 +354,7 @@
             "clusterId": null
           },
           {
-            "startLine": 78,
+            "startLine": 82,
             "text": "Mục tiêu chính của xử lý theo lô trong các hệ thống mainframe ban đầu là:",
             "image": null,
             "options": [
@@ -384,9 +384,9 @@
             "clusterId": null
           },
           {
-            "startLine": 85,
+            "startLine": 89,
             "text": "Theo hình, mỗi job được đưa vào hàng đợi lô gồm những thành phần nào?",
-            "image": null,
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795833547935.png",
             "options": [
               {
                 "key": "A",
@@ -414,7 +414,7 @@
             "clusterId": null
           },
           {
-            "startLine": 92,
+            "startLine": 97,
             "text": "Nhược điểm chính của xử lý theo lô đơn giản (Simple Batch) là:",
             "image": null,
             "options": [
@@ -444,7 +444,7 @@
             "clusterId": null
           },
           {
-            "startLine": 99,
+            "startLine": 104,
             "text": "Ý tưởng cốt lõi của xử lý theo lô đa chương trình (multiprogramming) là:",
             "image": null,
             "options": [
@@ -474,7 +474,7 @@
             "clusterId": null
           },
           {
-            "startLine": 106,
+            "startLine": 111,
             "text": "Để thực hiện đa chương trình, hệ điều hành phải giải quyết những vấn đề nào?",
             "image": null,
             "options": [
@@ -504,9 +504,9 @@
             "clusterId": null
           },
           {
-            "startLine": 113,
+            "startLine": 118,
             "text": "Hình dưới minh họa hệ thống nào, trong đó hệ điều hành lập lịch CPU cho nhiều người dùng?",
-            "image": null,
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795833567554.png",
             "options": [
               {
                 "key": "A",
@@ -534,7 +534,7 @@
             "clusterId": null
           },
           {
-            "startLine": 120,
+            "startLine": 126,
             "text": "Hệ phân chia thời gian tạo cảm giác nhiều người dùng cùng làm việc đồng thời bằng cách nào?",
             "image": null,
             "options": [
@@ -564,7 +564,7 @@
             "clusterId": null
           },
           {
-            "startLine": 127,
+            "startLine": 133,
             "text": "Hệ phân chia thời gian đặc biệt yêu cầu điều gì?",
             "image": null,
             "options": [
@@ -594,7 +594,7 @@
             "clusterId": null
           },
           {
-            "startLine": 134,
+            "startLine": 140,
             "text": "Kỹ thuật nào của mainframe giúp tận dụng CPU khi có thao tác vào/ra?",
             "image": null,
             "options": [
@@ -624,7 +624,7 @@
             "clusterId": null
           },
           {
-            "startLine": 141,
+            "startLine": 147,
             "text": "Đặc điểm nổi bật của hệ điều hành máy tính để bàn (Desktop OS) là:",
             "image": null,
             "options": [
@@ -654,7 +654,7 @@
             "clusterId": null
           },
           {
-            "startLine": 148,
+            "startLine": 154,
             "text": "Hệ điều hành máy tính để bàn kế thừa nhiều kỹ thuật nào từ hệ mainframe?",
             "image": null,
             "options": [
@@ -684,7 +684,7 @@
             "clusterId": null
           },
           {
-            "startLine": 155,
+            "startLine": 161,
             "text": "Trọng tâm thiết kế hệ điều hành để bàn đã chuyển từ đâu sang đâu?",
             "image": null,
             "options": [
@@ -714,7 +714,7 @@
             "clusterId": null
           },
           {
-            "startLine": 162,
+            "startLine": 168,
             "text": "Hệ đa xử lý (Multiprocessor) là hệ thống:",
             "image": null,
             "options": [
@@ -744,9 +744,9 @@
             "clusterId": null
           },
           {
-            "startLine": 169,
+            "startLine": 175,
             "text": "Trong hình hệ đa xử lý, CPU 1, CPU 2, ..., CPU n cùng chia sẻ thành phần nào?",
-            "image": null,
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795833585223.png",
             "options": [
               {
                 "key": "A",
@@ -774,7 +774,7 @@
             "clusterId": null
           },
           {
-            "startLine": 176,
+            "startLine": 183,
             "text": "Ba lợi ích chính của hệ đa xử lý là:",
             "image": null,
             "options": [
@@ -804,7 +804,7 @@
             "clusterId": null
           },
           {
-            "startLine": 183,
+            "startLine": 190,
             "text": "Khi một bộ xử lý trong hệ đa xử lý bị lỗi, hệ thống được thiết kế đúng sẽ:",
             "image": null,
             "options": [
@@ -834,7 +834,7 @@
             "clusterId": null
           },
           {
-            "startLine": 190,
+            "startLine": 197,
             "text": "Điểm đánh đổi (nhược điểm) của hệ đa xử lý là:",
             "image": null,
             "options": [
@@ -864,7 +864,7 @@
             "clusterId": null
           },
           {
-            "startLine": 197,
+            "startLine": 204,
             "text": "Điểm phân biệt chính giữa SMP và AMP là:",
             "image": null,
             "options": [
@@ -894,7 +894,7 @@
             "clusterId": null
           },
           {
-            "startLine": 204,
+            "startLine": 211,
             "text": "Trong đa xử lý bất đối xứng (AMP), mô hình hoạt động là:",
             "image": null,
             "options": [
@@ -924,7 +924,7 @@
             "clusterId": null
           },
           {
-            "startLine": 211,
+            "startLine": 218,
             "text": "Kiểu đa xử lý nào phổ biến trong các hệ thống đa lõi hiện đại?",
             "image": null,
             "options": [
@@ -954,7 +954,7 @@
             "clusterId": null
           },
           {
-            "startLine": 218,
+            "startLine": 225,
             "text": "Hệ phân tán (Distributed System) là hệ thống gồm:",
             "image": null,
             "options": [
@@ -984,7 +984,7 @@
             "clusterId": null
           },
           {
-            "startLine": 225,
+            "startLine": 232,
             "text": "Trong mô hình Peer-to-Peer, đặc điểm nào sau đây đúng?",
             "image": null,
             "options": [
@@ -1014,7 +1014,7 @@
             "clusterId": null
           },
           {
-            "startLine": 232,
+            "startLine": 239,
             "text": "Việc dữ liệu được sao chép ở nhiều nơi trong hệ phân tán gây ra thách thức nào?",
             "image": null,
             "options": [
@@ -1044,7 +1044,7 @@
             "clusterId": null
           },
           {
-            "startLine": 239,
+            "startLine": 246,
             "text": "Điểm khác nhau chủ yếu giữa hệ thống cụm (cluster) và hệ phân tán là:",
             "image": null,
             "options": [
@@ -1074,9 +1074,9 @@
             "clusterId": null
           },
           {
-            "startLine": 246,
+            "startLine": 253,
             "text": "Hình dưới minh họa mô hình hệ thống nào?",
-            "image": null,
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795833609357.png",
             "options": [
               {
                 "key": "A",
@@ -1104,7 +1104,7 @@
             "clusterId": null
           },
           {
-            "startLine": 253,
+            "startLine": 261,
             "text": "Trong cụm bất đối xứng, cách hoạt động là:",
             "image": null,
             "options": [
@@ -1134,7 +1134,7 @@
             "clusterId": null
           },
           {
-            "startLine": 260,
+            "startLine": 268,
             "text": "Trong cụm đối xứng, đặc điểm nào đúng?",
             "image": null,
             "options": [
@@ -1164,7 +1164,7 @@
             "clusterId": null
           },
           {
-            "startLine": 267,
+            "startLine": 275,
             "text": "Khi một nút của cụm bị hỏng, hệ thống chuyển dịch vụ sang nút còn hoạt động. Đây là khả năng nào?",
             "image": null,
             "options": [
@@ -1194,7 +1194,7 @@
             "clusterId": null
           },
           {
-            "startLine": 274,
+            "startLine": 282,
             "text": "Điểm đặc trưng của hệ thời gian thực là:",
             "image": null,
             "options": [
@@ -1224,9 +1224,9 @@
             "clusterId": null
           },
           {
-            "startLine": 281,
+            "startLine": 289,
             "text": "Trong hình thể hiện hệ thời gian thực, xử lý phải hoàn thành trong khoảng nào?",
-            "image": null,
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795833624916.png",
             "options": [
               {
                 "key": "A",
@@ -1254,7 +1254,7 @@
             "clusterId": null
           },
           {
-            "startLine": 288,
+            "startLine": 297,
             "text": "Ví dụ nào sau đây thuộc hệ thời gian thực cứng (hard real-time)?",
             "image": null,
             "options": [
@@ -1284,7 +1284,7 @@
             "clusterId": null
           },
           {
-            "startLine": 295,
+            "startLine": 304,
             "text": "Trong hệ thời gian thực mềm (soft real-time), việc trễ hạn dẫn đến:",
             "image": null,
             "options": [
@@ -1314,7 +1314,7 @@
             "clusterId": null
           },
           {
-            "startLine": 302,
+            "startLine": 311,
             "text": "Hệ điều hành thời gian thực cần đặc biệt chú ý yếu tố nào?",
             "image": null,
             "options": [
@@ -1344,7 +1344,7 @@
             "clusterId": null
           },
           {
-            "startLine": 309,
+            "startLine": 318,
             "text": "Một công ty cần dịch vụ cơ sở dữ liệu luôn sẵn sàng. Hai máy dùng chung ổ lưu trữ: một máy chạy dịch vụ, máy kia chờ và tiếp quản khi máy chính lỗi. Hệ thống này thuộc loại nào?",
             "image": null,
             "options": [
@@ -1374,7 +1374,7 @@
             "clusterId": null
           },
           {
-            "startLine": 316,
+            "startLine": 325,
             "text": "Hệ thống web, cơ sở dữ liệu phân tán, lưu trữ đám mây, hệ peer-to-peer là ví dụ của:",
             "image": null,
             "options": [
@@ -1404,7 +1404,7 @@
             "clusterId": null
           },
           {
-            "startLine": 323,
+            "startLine": 332,
             "text": "Nếu CPU rất mạnh nhưng ổ đĩa chậm, hệ điều hành có thể tối ưu bằng kỹ thuật nào?",
             "image": null,
             "options": [
@@ -1434,7 +1434,7 @@
             "clusterId": null
           },
           {
-            "startLine": 330,
+            "startLine": 339,
             "text": "Hệ điều hành cần cơ chế bảo vệ bộ nhớ chủ yếu để:",
             "image": null,
             "options": [
@@ -1464,7 +1464,7 @@
             "clusterId": null
           },
           {
-            "startLine": 337,
+            "startLine": 346,
             "text": "Việc HĐH ẩn chi tiết phần cứng và cung cấp các khái niệm như tiến trình, tệp, bộ nhớ ảo thuộc vai trò nào?",
             "image": null,
             "options": [
@@ -1494,7 +1494,7 @@
             "clusterId": null
           },
           {
-            "startLine": 344,
+            "startLine": 353,
             "text": "Việc thu hồi tài nguyên sau khi một tiến trình kết thúc thuộc vai trò nào của hệ điều hành?",
             "image": null,
             "options": [
