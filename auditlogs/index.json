@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-26T04:21:02.839Z",
-  "total": 41,
+  "updatedAt": "2026-11-28T02:28:17.706Z",
+  "total": 42,
   "logs": [
     {
       "id": "6ac45a48c3fe67bf29ff941c",
@@ -834,6 +834,26 @@
       "ipAddress": "42.115.230.1",
       "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
       "createdAt": "2026-11-26T04:21:02.061Z"
+    },
+    {
+      "id": "6b0a3c41d19d4f704f09ee70",
+      "actor": "6ab3d694415010bf620349e5",
+      "action": "create_quiz",
+      "entity": "Lesson",
+      "entityId": "6b0a3c3e3459bf3b44825f5a",
+      "description": "",
+      "metadata": {
+        "title": "Ôn tập Chuong1_Tong_quan_He_dieu_hanh.pdf",
+        "duration": 75,
+        "counts": {
+          "mcq": 50,
+          "tf": 0,
+          "fill": 0
+        }
+      },
+      "ipAddress": "116.96.47.185",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+      "createdAt": "2026-11-28T02:28:17.564Z"
     }
   ]
 }
