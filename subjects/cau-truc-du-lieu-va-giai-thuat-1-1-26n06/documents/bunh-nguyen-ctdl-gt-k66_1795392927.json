@@ -7,14 +7,14 @@
   "description": "",
   "parts": [
     {
-      "path": "subjects/cau-truc-du-lieu-va-giai-thuat-1-1-26n06/documents/bunh-nguyen-ctdl-gt-k66_1795453448.pdf",
-      "enc": 120257,
-      "plain": 120197
+      "path": "subjects/cau-truc-du-lieu-va-giai-thuat-1-1-26n06/documents/bunh-nguyen-ctdl-gt-k66_1795860552.pdf",
+      "enc": 92972,
+      "plain": 92912
     }
   ],
   "fileExt": "pdf",
-  "fileSize": 1546303,
-  "originalName": "BunhNguyen_Buoi11-Stack_Stack_C2_watermark.pdf",
+  "fileSize": 1639215,
+  "originalName": "Buoi17_Bai4_Câu4.pdf",
   "encrypted": true,
   "encryption": "aes-256-gcm",
   "order": 0,
@@ -27,8 +27,21 @@
   "createdBy": "6ab3d694415010bf620349e5",
   "updatedBy": "6ab3d694415010bf620349e5",
   "createdAt": "2026-11-23T00:15:36.536Z",
-  "updatedAt": "2026-11-23T17:04:21.253Z",
+  "updatedAt": "2026-11-28T10:09:23.245Z",
   "files": [
+    {
+      "id": "fcd93f9c3",
+      "name": "Buoi17_Bai4_Câu4.pdf",
+      "ext": "pdf",
+      "size": 92912,
+      "parts": [
+        {
+          "path": "subjects/cau-truc-du-lieu-va-giai-thuat-1-1-26n06/documents/bunh-nguyen-ctdl-gt-k66_1795860552.pdf",
+          "enc": 92972,
+          "plain": 92912
+        }
+      ]
+    },
     {
       "id": "f1ed24f9e",
       "name": "BunhNguyen_Buoi11-Stack_Stack_C2_watermark.pdf",
