@@ -1,0 +1,2284 @@
+{
+  "type": "quiz",
+  "lessonId": "6b0a56997ab263abe5dac3e9",
+  "title": "Ôn tập C5.Hệ thống vào ra (1)",
+  "slug": "on-tap-c5-he-thong-vao-ra-1",
+  "subjectSlug": "kien-truc-va-to-chuc-may-tinh-1-1-26n06",
+  "duration": 75,
+  "promptId": null,
+  "analysisAiKeyIds": [],
+  "isPublished": true,
+  "visibility": "public",
+  "allowedUserIds": [],
+  "allowedGroupIds": [],
+  "isDeleted": false,
+  "createdBy": {
+    "id": "6ab3d694415010bf620349e5",
+    "name": "Mai Ngọc Hùng Anh",
+    "email": "hunganh.okokok.0@gmail.com"
+  },
+  "createdAt": "2026-11-28T04:20:41.114Z",
+  "updatedAt": "2026-11-28T04:20:41.114Z",
+  "contentHtml": null,
+  "quiz": {
+    "version": 1,
+    "maxScore": 10,
+    "parts": {
+      "mcq": {
+        "pointsPerQuestion": 0.1333,
+        "questions": [
+          {
+            "startLine": 1,
+            "text": "Chức năng chính của hệ thống vào ra là gì?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Thực hiện các phép toán số học và logic"
+              },
+              {
+                "key": "B",
+                "text": "Trao đổi thông tin giữa máy tính với thế giới bên ngoài"
+              },
+              {
+                "key": "C",
+                "text": "Lưu trữ chương trình đang thực hiện"
+              },
+              {
+                "key": "D",
+                "text": "Giải mã lệnh và điều khiển CPU"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-1",
+            "clusterId": null
+          },
+          {
+            "startLine": 7,
+            "text": "Các thao tác cơ bản của hệ thống vào ra gồm:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Đọc lệnh và giải mã lệnh"
+              },
+              {
+                "key": "B",
+                "text": "Nạp chương trình và xoá chương trình"
+              },
+              {
+                "key": "C",
+                "text": "Vào dữ liệu và ra dữ liệu"
+              },
+              {
+                "key": "D",
+                "text": "Ngắt và khôi phục"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-2",
+            "clusterId": null
+          },
+          {
+            "startLine": 13,
+            "text": "Các thành phần cơ bản của hệ thống vào ra là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "CPU và bộ nhớ chính"
+              },
+              {
+                "key": "B",
+                "text": "ALU và khối điều khiển"
+              },
+              {
+                "key": "C",
+                "text": "Các thiết bị ngoại vi và các modul vào ra"
+              },
+              {
+                "key": "D",
+                "text": "Bus địa chỉ và bus dữ liệu"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-3",
+            "clusterId": null
+          },
+          {
+            "startLine": 19,
+            "text": "Vì sao cần có modul vào ra để nối ghép thiết bị ngoại vi với CPU và bộ nhớ chính?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Vì thiết bị ngoại vi đa dạng về nguyên tắc hoạt động, tốc độ, khuôn dạng dữ liệu và đều chậm hơn CPU, bộ nhớ chính"
+              },
+              {
+                "key": "B",
+                "text": "Vì thiết bị ngoại vi nhanh hơn CPU nên cần modul để làm chậm lại"
+              },
+              {
+                "key": "C",
+                "text": "Vì thiết bị ngoại vi luôn có cùng khuôn dạng dữ liệu với CPU"
+              },
+              {
+                "key": "D",
+                "text": "Vì CPU không có bus để kết nối"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-4",
+            "clusterId": null
+          },
+          {
+            "startLine": 25,
+            "text": "Phát biểu nào về tốc độ của thiết bị ngoại vi là đúng?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Thiết bị ngoại vi nhanh hơn bộ nhớ chính nhưng chậm hơn CPU"
+              },
+              {
+                "key": "B",
+                "text": "Thiết bị ngoại vi có tốc độ bằng CPU"
+              },
+              {
+                "key": "C",
+                "text": "Thiết bị ngoại vi nhanh hơn CPU"
+              },
+              {
+                "key": "D",
+                "text": "Tất cả thiết bị ngoại vi đều chậm hơn CPU và bộ nhớ chính"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-5",
+            "clusterId": null
+          },
+          {
+            "startLine": 31,
+            "text": "Chức năng của thiết bị ngoại vi là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Thực hiện lệnh của chương trình"
+              },
+              {
+                "key": "B",
+                "text": "Lưu trữ dữ liệu trong bộ nhớ chính"
+              },
+              {
+                "key": "C",
+                "text": "Chuyển đổi dữ liệu giữa bên trong và bên ngoài máy tính"
+              },
+              {
+                "key": "D",
+                "text": "Điều khiển bus hệ thống"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-6",
+            "clusterId": null
+          },
+          {
+            "startLine": 37,
+            "text": "Bàn phím, máy in, màn hình thuộc loại thiết bị ngoại vi nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Thiết bị giao tiếp máy-máy"
+              },
+              {
+                "key": "B",
+                "text": "Thiết bị truyền thông"
+              },
+              {
+                "key": "C",
+                "text": "Thiết bị lưu trữ trong"
+              },
+              {
+                "key": "D",
+                "text": "Thiết bị giao tiếp người-máy"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-7",
+            "clusterId": null
+          },
+          {
+            "startLine": 43,
+            "text": "Modem và NIC thuộc loại thiết bị ngoại vi nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Thiết bị giao tiếp người-máy"
+              },
+              {
+                "key": "B",
+                "text": "Thiết bị giao tiếp máy-máy"
+              },
+              {
+                "key": "C",
+                "text": "Thiết bị nhớ trong"
+              },
+              {
+                "key": "D",
+                "text": "Thiết bị truyền thông"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-8",
+            "clusterId": null
+          },
+          {
+            "startLine": 49,
+            "text": "Quan sát cấu trúc chung của thiết bị ngoại vi, thành phần nào chuyển đổi dữ liệu giữa bên trong và bên ngoài máy tính?",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795839465190.enc",
+            "options": [
+              {
+                "key": "A",
+                "text": "Bộ đệm dữ liệu"
+              },
+              {
+                "key": "B",
+                "text": "Bộ chuyển đổi tín hiệu (Transducer)"
+              },
+              {
+                "key": "C",
+                "text": "Khối logic điều khiển"
+              },
+              {
+                "key": "D",
+                "text": "Thanh ghi trạng thái"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Bộ chuyển đổi (Transducer) nằm phía nối với bên ngoài.",
+            "multi": false,
+            "id": "mcq-9",
+            "clusterId": null
+          },
+          {
+            "startLine": 57,
+            "text": "Trong cấu trúc chung của thiết bị ngoại vi, bộ đệm dữ liệu có nhiệm vụ gì?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Chuyển đổi dữ liệu giữa bên trong và bên ngoài máy tính"
+              },
+              {
+                "key": "B",
+                "text": "Đệm dữ liệu khi truyền giữa modul vào ra và thiết bị ngoại vi"
+              },
+              {
+                "key": "C",
+                "text": "Điều khiển hoạt động của thiết bị ngoại vi"
+              },
+              {
+                "key": "D",
+                "text": "Phát hiện lỗi của thiết bị ngoại vi"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-10",
+            "clusterId": null
+          },
+          {
+            "startLine": 63,
+            "text": "Khối logic điều khiển trong thiết bị ngoại vi có nhiệm vụ:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Điều khiển hoạt động của thiết bị ngoại vi đáp ứng theo yêu cầu từ modul vào ra"
+              },
+              {
+                "key": "B",
+                "text": "Đệm dữ liệu truyền giữa modul và thiết bị"
+              },
+              {
+                "key": "C",
+                "text": "Chuyển đổi dữ liệu thành tín hiệu điện"
+              },
+              {
+                "key": "D",
+                "text": "Giải mã địa chỉ bộ nhớ"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-11",
+            "clusterId": null
+          },
+          {
+            "startLine": 69,
+            "text": "Chức năng nào KHÔNG phải là chức năng của modul vào ra?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Điều khiển và định thời"
+              },
+              {
+                "key": "B",
+                "text": "Thực hiện các phép toán số học và logic trên dữ liệu"
+              },
+              {
+                "key": "C",
+                "text": "Phát hiện lỗi của các thiết bị ngoại vi"
+              },
+              {
+                "key": "D",
+                "text": "Đệm giữa bên trong máy tính với thiết bị ngoại vi"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Phép toán số học và logic do ALU thực hiện.",
+            "multi": false,
+            "id": "mcq-12",
+            "clusterId": null
+          },
+          {
+            "startLine": 76,
+            "text": "Modul vào ra trao đổi thông tin với những đối tượng nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Chỉ CPU"
+              },
+              {
+                "key": "B",
+                "text": "CPU và thiết bị ngoại vi"
+              },
+              {
+                "key": "C",
+                "text": "Chỉ thiết bị ngoại vi"
+              },
+              {
+                "key": "D",
+                "text": "ALU và thanh ghi"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-13",
+            "clusterId": null
+          },
+          {
+            "startLine": 82,
+            "text": "Quan sát cấu trúc chung của modul vào ra, thành phần nào lưu giữ thông tin trạng thái cho các cổng vào ra?",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795839480664.enc",
+            "options": [
+              {
+                "key": "A",
+                "text": "Thanh ghi đệm dữ liệu"
+              },
+              {
+                "key": "B",
+                "text": "Thanh ghi trạng thái/điều khiển"
+              },
+              {
+                "key": "C",
+                "text": "Khối logic điều khiển"
+              },
+              {
+                "key": "D",
+                "text": "Cổng nối ghép vào-ra"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-14",
+            "clusterId": null
+          },
+          {
+            "startLine": 89,
+            "text": "Thành phần nào của modul vào ra dùng để kết nối với thiết bị ngoại vi và mỗi cái có một địa chỉ xác định?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Các cổng vào ra"
+              },
+              {
+                "key": "B",
+                "text": "Thanh ghi đệm dữ liệu"
+              },
+              {
+                "key": "C",
+                "text": "Thanh ghi trạng thái/điều khiển"
+              },
+              {
+                "key": "D",
+                "text": "Khối logic điều khiển"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-15",
+            "clusterId": null
+          },
+          {
+            "startLine": 95,
+            "text": "Thanh ghi đệm dữ liệu của modul vào ra có chức năng:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Lưu trạng thái các cổng"
+              },
+              {
+                "key": "B",
+                "text": "Điều khiển modul vào ra"
+              },
+              {
+                "key": "C",
+                "text": "Lưu địa chỉ cổng"
+              },
+              {
+                "key": "D",
+                "text": "Đệm dữ liệu trong quá trình trao đổi"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-16",
+            "clusterId": null
+          },
+          {
+            "startLine": 101,
+            "text": "Trong phương pháp vào ra riêng biệt, cổng vào ra được đánh địa chỉ theo:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Không gian địa chỉ bộ nhớ"
+              },
+              {
+                "key": "B",
+                "text": "Không gian địa chỉ vào ra"
+              },
+              {
+                "key": "C",
+                "text": "Không gian địa chỉ của đĩa"
+              },
+              {
+                "key": "D",
+                "text": "Không gian địa chỉ ảo"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-17",
+            "clusterId": null
+          },
+          {
+            "startLine": 107,
+            "text": "Trong vào ra riêng biệt, CPU trao đổi dữ liệu với cổng vào ra bằng:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Các lệnh truy nhập bộ nhớ"
+              },
+              {
+                "key": "B",
+                "text": "Các lệnh số học"
+              },
+              {
+                "key": "C",
+                "text": "Các lệnh vào ra chuyên dụng"
+              },
+              {
+                "key": "D",
+                "text": "Các lệnh nhảy"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-18",
+            "clusterId": null
+          },
+          {
+            "startLine": 113,
+            "text": "Trong vào ra theo bản đồ bộ nhớ, CPU trao đổi dữ liệu với cổng vào ra bằng:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Các lệnh vào ra chuyên dụng"
+              },
+              {
+                "key": "B",
+                "text": "Các lệnh truy nhập dữ liệu bộ nhớ"
+              },
+              {
+                "key": "C",
+                "text": "Chỉ các lệnh ngắt"
+              },
+              {
+                "key": "D",
+                "text": "Các lệnh điều khiển DMA"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-19",
+            "clusterId": null
+          },
+          {
+            "startLine": 119,
+            "text": "Phương pháp địa chỉ hoá cổng nào chỉ thực hiện được trên hệ thống có quản lý không gian địa chỉ vào ra riêng biệt?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Vào ra riêng biệt"
+              },
+              {
+                "key": "B",
+                "text": "Vào ra theo bản đồ bộ nhớ"
+              },
+              {
+                "key": "C",
+                "text": "Cả hai phương pháp"
+              },
+              {
+                "key": "D",
+                "text": "Không phương pháp nào"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-20",
+            "clusterId": null
+          },
+          {
+            "startLine": 125,
+            "text": "Phương pháp địa chỉ hoá cổng nào có thể thực hiện trên mọi hệ thống?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Vào ra riêng biệt"
+              },
+              {
+                "key": "B",
+                "text": "Chỉ trên hệ thống 8086"
+              },
+              {
+                "key": "C",
+                "text": "Vào ra theo bản đồ bộ nhớ"
+              },
+              {
+                "key": "D",
+                "text": "Không phương pháp nào"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-21",
+            "clusterId": null
+          },
+          {
+            "startLine": 131,
+            "text": "Đặc điểm của vào ra theo bản đồ bộ nhớ là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Cần lệnh IN/OUT chuyên dụng"
+              },
+              {
+                "key": "B",
+                "text": "Dùng không gian địa chỉ vào ra tách biệt"
+              },
+              {
+                "key": "C",
+                "text": "Không dùng địa chỉ"
+              },
+              {
+                "key": "D",
+                "text": "Vào ra giống như đọc ghi bộ nhớ"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-22",
+            "clusterId": null
+          },
+          {
+            "startLine": 137,
+            "text": "Ba phương pháp điều khiển vào ra là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Vào ra song song, nối tiếp, DMA"
+              },
+              {
+                "key": "B",
+                "text": "Vào ra bằng chương trình, vào ra điều khiển bằng ngắt, DMA"
+              },
+              {
+                "key": "C",
+                "text": "Vào ra riêng biệt, bản đồ bộ nhớ, ngắt"
+              },
+              {
+                "key": "D",
+                "text": "Vào ra bằng chương trình, riêng biệt, DMA"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-23",
+            "clusterId": null
+          },
+          {
+            "startLine": 143,
+            "text": "Trong vào ra bằng chương trình (Programmed I/O), ai trực tiếp điều khiển vào ra?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Modul DMAC"
+              },
+              {
+                "key": "B",
+                "text": "Bộ điều khiển ngắt"
+              },
+              {
+                "key": "C",
+                "text": "Thiết bị ngoại vi"
+              },
+              {
+                "key": "D",
+                "text": "CPU"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-24",
+            "clusterId": null
+          },
+          {
+            "startLine": 149,
+            "text": "Trong vào ra bằng chương trình, CPU thực hiện những việc nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Chỉ trao đổi dữ liệu"
+              },
+              {
+                "key": "B",
+                "text": "Chỉ phát tín hiệu ngắt"
+              },
+              {
+                "key": "C",
+                "text": "Kiểm tra trạng thái thiết bị, phát tín hiệu điều khiển đọc/ghi, trao đổi dữ liệu"
+              },
+              {
+                "key": "D",
+                "text": "Chỉ nạp địa chỉ cho DMAC"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-25",
+            "clusterId": null
+          },
+          {
+            "startLine": 155,
+            "text": "Theo lưu đồ vào ra bằng chương trình, nếu modul vào ra chưa sẵn sàng thì CPU làm gì?",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795839504570.enc",
+            "options": [
+              {
+                "key": "A",
+                "text": "Trao đổi dữ liệu ngay"
+              },
+              {
+                "key": "B",
+                "text": "Nhận tín hiệu ngắt"
+              },
+              {
+                "key": "C",
+                "text": "Quay lại đọc trạng thái của modul vào ra"
+              },
+              {
+                "key": "D",
+                "text": "Kết thúc chương trình"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "Nhánh N của điều kiện quay lại bước đọc trạng thái.",
+            "multi": false,
+            "id": "mcq-26",
+            "clusterId": null
+          },
+          {
+            "startLine": 163,
+            "text": "Theo lưu đồ vào ra bằng chương trình, khi nào CPU thực hiện trao đổi dữ liệu với modul vào ra?",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795839577726.enc",
+            "options": [
+              {
+                "key": "A",
+                "text": "Khi modul vào ra sẵn sàng (nhánh Y)"
+              },
+              {
+                "key": "B",
+                "text": "Ngay sau khi đọc trạng thái, bất kể kết quả"
+              },
+              {
+                "key": "C",
+                "text": "Khi nhận tín hiệu INTA"
+              },
+              {
+                "key": "D",
+                "text": "Khi bộ đệm DMA bằng 0"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-27",
+            "clusterId": null
+          },
+          {
+            "startLine": 170,
+            "text": "Nhược điểm chính của vào ra bằng chương trình là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Cần phần cứng ngắt phức tạp"
+              },
+              {
+                "key": "B",
+                "text": "Tốc độ truyền cao nhưng tốn bus"
+              },
+              {
+                "key": "C",
+                "text": "Không thể lập trình được"
+              },
+              {
+                "key": "D",
+                "text": "CPU phải đợi modul vào ra, tiêu tốn thời gian của CPU"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-28",
+            "clusterId": null
+          },
+          {
+            "startLine": 176,
+            "text": "Trong vào ra điều khiển bằng ngắt, khi nào modul vào ra phát tín hiệu ngắt CPU?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Khi CPU rảnh"
+              },
+              {
+                "key": "B",
+                "text": "Khi bộ đệm dữ liệu bằng 0"
+              },
+              {
+                "key": "C",
+                "text": "Khi bus bận"
+              },
+              {
+                "key": "D",
+                "text": "Khi modul vào ra sẵn sàng trao đổi dữ liệu"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-29",
+            "clusterId": null
+          },
+          {
+            "startLine": 182,
+            "text": "Trong vào ra điều khiển bằng ngắt, CPU có phải đợi trạng thái sẵn sàng của modul vào ra không?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Có, CPU luôn chờ"
+              },
+              {
+                "key": "B",
+                "text": "Không, CPU thực hiện chương trình khác cho đến khi bị ngắt"
+              },
+              {
+                "key": "C",
+                "text": "Có, nhưng chỉ khi DMA bận"
+              },
+              {
+                "key": "D",
+                "text": "Không, vì CPU không điều khiển vào ra"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-30",
+            "clusterId": null
+          },
+          {
+            "startLine": 188,
+            "text": "Sau khi CPU nhận tín hiệu ngắt, CPU thực hiện:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Chương trình con phục vụ ngắt tương ứng để trao đổi dữ liệu"
+              },
+              {
+                "key": "B",
+                "text": "Dừng hẳn chương trình đang chạy"
+              },
+              {
+                "key": "C",
+                "text": "Khởi động lại hệ thống"
+              },
+              {
+                "key": "D",
+                "text": "Chuyển điều khiển cho DMAC"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-31",
+            "clusterId": null
+          },
+          {
+            "startLine": 194,
+            "text": "Sau khi chương trình con phục vụ ngắt kết thúc (lệnh RETURN), CPU:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Bắt đầu lại chương trình từ đầu"
+              },
+              {
+                "key": "B",
+                "text": "Tiếp tục thực hiện chương trình đang bị ngắt"
+              },
+              {
+                "key": "C",
+                "text": "Dừng chờ lệnh mới"
+              },
+              {
+                "key": "D",
+                "text": "Thực hiện lại chương trình con ngắt"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-32",
+            "clusterId": null
+          },
+          {
+            "startLine": 200,
+            "text": "Phương pháp nối ghép ngắt nào dùng mỗi modul vào ra nối với một đường yêu cầu ngắt riêng?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Sử dụng nhiều đường ngắt"
+              },
+              {
+                "key": "B",
+                "text": "Kiểm tra vòng bằng phần mềm"
+              },
+              {
+                "key": "C",
+                "text": "Kiểm tra vòng bằng phần cứng"
+              },
+              {
+                "key": "D",
+                "text": "DMA"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-33",
+            "clusterId": null
+          },
+          {
+            "startLine": 206,
+            "text": "Hạn chế của phương pháp sử dụng nhiều đường ngắt là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Chậm do phải hỏi vòng"
+              },
+              {
+                "key": "B",
+                "text": "Cần chuỗi daisy chain"
+              },
+              {
+                "key": "C",
+                "text": "Không có mức ưu tiên"
+              },
+              {
+                "key": "D",
+                "text": "Hạn chế số lượng modul vào ra"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-34",
+            "clusterId": null
+          },
+          {
+            "startLine": 212,
+            "text": "Trong phương pháp kiểm tra vòng bằng phần mềm, CPU làm gì khi có ngắt?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Hỏi lần lượt từng modul vào ra để xác định modul gây ngắt"
+              },
+              {
+                "key": "B",
+                "text": "Phát INTA để các modul tự nhận"
+              },
+              {
+                "key": "C",
+                "text": "Dùng PIC chọn modul ưu tiên"
+              },
+              {
+                "key": "D",
+                "text": "Mỗi modul có đường ngắt riêng"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-35",
+            "clusterId": null
+          },
+          {
+            "startLine": 218,
+            "text": "Nhược điểm của kiểm tra vòng bằng phần mềm là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Tốn nhiều đường ngắt"
+              },
+              {
+                "key": "B",
+                "text": "Cần thêm phần cứng đặc biệt"
+              },
+              {
+                "key": "C",
+                "text": "Không xác định được ưu tiên"
+              },
+              {
+                "key": "D",
+                "text": "Chậm"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-36",
+            "clusterId": null
+          },
+          {
+            "startLine": 224,
+            "text": "Trong kiểm tra vòng bằng phần mềm, thứ tự ưu tiên của các modul được xác định bởi:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Vị trí vật lý trên bo mạch"
+              },
+              {
+                "key": "B",
+                "text": "Chiều dài đường ngắt"
+              },
+              {
+                "key": "C",
+                "text": "Thứ tự các modul được hỏi vòng"
+              },
+              {
+                "key": "D",
+                "text": "Địa chỉ cổng"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-37",
+            "clusterId": null
+          },
+          {
+            "startLine": 230,
+            "text": "Trong kiểm tra vòng bằng phần cứng (Daisy Chain), CPU phát tín hiệu nào để chấp nhận ngắt?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "INTR"
+              },
+              {
+                "key": "B",
+                "text": "DMA ACK"
+              },
+              {
+                "key": "C",
+                "text": "INTA"
+              },
+              {
+                "key": "D",
+                "text": "HOLD"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-38",
+            "clusterId": null
+          },
+          {
+            "startLine": 236,
+            "text": "Trong Daisy Chain, thứ tự ưu tiên của các modul vào ra được xác định bởi:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Thứ tự được hỏi trong phần mềm"
+              },
+              {
+                "key": "B",
+                "text": "Giá trị trong PIC"
+              },
+              {
+                "key": "C",
+                "text": "Thứ tự kết nối trong chuỗi"
+              },
+              {
+                "key": "D",
+                "text": "Địa chỉ bus"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-39",
+            "clusterId": null
+          },
+          {
+            "startLine": 242,
+            "text": "Trong Daisy Chain, nếu modul vào ra nhận INTA mà không gây ngắt thì:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Chặn tín hiệu INTA"
+              },
+              {
+                "key": "B",
+                "text": "Ngắt CPU"
+              },
+              {
+                "key": "C",
+                "text": "Gửi tín hiệu đến modul kế tiếp cho đến khi xác định được modul gây ngắt"
+              },
+              {
+                "key": "D",
+                "text": "Đặt vector ngắt lên bus"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-40",
+            "clusterId": null
+          },
+          {
+            "startLine": 248,
+            "text": "Trong Daisy Chain, modul gây ngắt sẽ đặt lên bus dữ liệu:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Địa chỉ cổng vào ra"
+              },
+              {
+                "key": "B",
+                "text": "Số từ cần truyền"
+              },
+              {
+                "key": "C",
+                "text": "Nội dung thanh ghi trạng thái"
+              },
+              {
+                "key": "D",
+                "text": "Vector ngắt"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-41",
+            "clusterId": null
+          },
+          {
+            "startLine": 254,
+            "text": "CPU sử dụng vector ngắt để:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Xác định tốc độ thiết bị"
+              },
+              {
+                "key": "B",
+                "text": "Xác định dung lượng bộ nhớ"
+              },
+              {
+                "key": "C",
+                "text": "Xác định nơi chứa chương trình con điều khiển ngắt"
+              },
+              {
+                "key": "D",
+                "text": "Chọn kiểu DMA"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-42",
+            "clusterId": null
+          },
+          {
+            "startLine": 260,
+            "text": "PIC là viết tắt của:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Peripheral Input Controller"
+              },
+              {
+                "key": "B",
+                "text": "Primary Interface Circuit"
+              },
+              {
+                "key": "C",
+                "text": "Programmable Interrupt Controller"
+              },
+              {
+                "key": "D",
+                "text": "Parallel Interface Controller"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-43",
+            "clusterId": null
+          },
+          {
+            "startLine": 266,
+            "text": "Bộ điều khiển ngắt lập trình được (PIC) chọn yêu cầu ngắt nào gửi tới CPU?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Yêu cầu đến sớm nhất"
+              },
+              {
+                "key": "B",
+                "text": "Yêu cầu ngắt không bị cấm có mức ưu tiên cao nhất"
+              },
+              {
+                "key": "C",
+                "text": "Yêu cầu có mức ưu tiên thấp nhất"
+              },
+              {
+                "key": "D",
+                "text": "Yêu cầu ngẫu nhiên"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-44",
+            "clusterId": null
+          },
+          {
+            "startLine": 272,
+            "text": "PIC có nhiều đường vào yêu cầu ngắt và có khả năng:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Truyền dữ liệu trực tiếp với bộ nhớ"
+              },
+              {
+                "key": "B",
+                "text": "Thay thế CPU"
+              },
+              {
+                "key": "C",
+                "text": "Chuyển đổi song song sang nối tiếp"
+              },
+              {
+                "key": "D",
+                "text": "Qui định mức ưu tiên cho các đường ngắt"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-45",
+            "clusterId": null
+          },
+          {
+            "startLine": 278,
+            "text": "Đặc điểm của vào ra điều khiển bằng ngắt là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Hoàn toàn bằng phần cứng"
+              },
+              {
+                "key": "B",
+                "text": "Hoàn toàn bằng phần mềm"
+              },
+              {
+                "key": "C",
+                "text": "Có sự kết hợp giữa phần cứng và phần mềm"
+              },
+              {
+                "key": "D",
+                "text": "Không cần CPU"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-46",
+            "clusterId": null
+          },
+          {
+            "startLine": 284,
+            "text": "Trong vào ra điều khiển bằng ngắt, phần cứng và phần mềm lần lượt làm gì?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Phần cứng gây ngắt CPU, phần mềm trao đổi dữ liệu"
+              },
+              {
+                "key": "B",
+                "text": "Phần cứng trao đổi dữ liệu, phần mềm gây ngắt"
+              },
+              {
+                "key": "C",
+                "text": "Cả hai đều gây ngắt"
+              },
+              {
+                "key": "D",
+                "text": "Cả hai đều trao đổi dữ liệu"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-47",
+            "clusterId": null
+          },
+          {
+            "startLine": 290,
+            "text": "Ưu điểm của vào ra điều khiển bằng ngắt so với vào ra bằng chương trình là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "CPU không phải đợi modul vào ra nên sử dụng CPU hiệu quả hơn"
+              },
+              {
+                "key": "B",
+                "text": "Tốc độ truyền nhanh hơn DMA"
+              },
+              {
+                "key": "C",
+                "text": "Không cần CPU tham gia"
+              },
+              {
+                "key": "D",
+                "text": "Không cần modul vào ra"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-48",
+            "clusterId": null
+          },
+          {
+            "startLine": 296,
+            "text": "DMA là viết tắt của:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Digital Memory Array"
+              },
+              {
+                "key": "B",
+                "text": "Data Management Application"
+              },
+              {
+                "key": "C",
+                "text": "Direct Memory Access"
+              },
+              {
+                "key": "D",
+                "text": "Direct Module Allocation"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-49",
+            "clusterId": null
+          },
+          {
+            "startLine": 302,
+            "text": "Để khắc phục hạn chế của vào ra bằng chương trình và ngắt, người ta:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Thêm mô-đun phần cứng DMAC trên bus"
+              },
+              {
+                "key": "B",
+                "text": "Tăng tốc độ CPU"
+              },
+              {
+                "key": "C",
+                "text": "Bỏ modul vào ra"
+              },
+              {
+                "key": "D",
+                "text": "Dùng thêm ALU"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-50",
+            "clusterId": null
+          },
+          {
+            "startLine": 308,
+            "text": "DMAC điều khiển trao đổi dữ liệu giữa:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "CPU với ALU"
+              },
+              {
+                "key": "B",
+                "text": "CPU với thanh ghi"
+              },
+              {
+                "key": "C",
+                "text": "Bộ nhớ chính với cache"
+              },
+              {
+                "key": "D",
+                "text": "Modul vào ra với bộ nhớ chính"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-51",
+            "clusterId": null
+          },
+          {
+            "startLine": 314,
+            "text": "Thanh ghi dữ liệu của DMAC chứa:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Địa chỉ ngăn nhớ dữ liệu"
+              },
+              {
+                "key": "B",
+                "text": "Số từ dữ liệu cần truyền"
+              },
+              {
+                "key": "C",
+                "text": "Dữ liệu trao đổi"
+              },
+              {
+                "key": "D",
+                "text": "Trạng thái ngắt"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-52",
+            "clusterId": null
+          },
+          {
+            "startLine": 320,
+            "text": "Thanh ghi địa chỉ của DMAC chứa:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Địa chỉ ngăn nhớ dữ liệu"
+              },
+              {
+                "key": "B",
+                "text": "Dữ liệu trao đổi"
+              },
+              {
+                "key": "C",
+                "text": "Số từ dữ liệu cần truyền"
+              },
+              {
+                "key": "D",
+                "text": "Mã lệnh"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-53",
+            "clusterId": null
+          },
+          {
+            "startLine": 326,
+            "text": "Bộ đếm dữ liệu của DMAC chứa:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Số từ dữ liệu cần trao đổi"
+              },
+              {
+                "key": "B",
+                "text": "Địa chỉ ngăn nhớ"
+              },
+              {
+                "key": "C",
+                "text": "Dữ liệu trao đổi"
+              },
+              {
+                "key": "D",
+                "text": "Địa chỉ cổng"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-54",
+            "clusterId": null
+          },
+          {
+            "startLine": 332,
+            "text": "Logic điều khiển của DMAC có chức năng:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Lưu dữ liệu trao đổi"
+              },
+              {
+                "key": "B",
+                "text": "Điều khiển hoạt động của DMAC"
+              },
+              {
+                "key": "C",
+                "text": "Chứa địa chỉ ngăn nhớ"
+              },
+              {
+                "key": "D",
+                "text": "Đếm số từ cần truyền"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-55",
+            "clusterId": null
+          },
+          {
+            "startLine": 338,
+            "text": "Trước khi DMA bắt đầu, CPU \"nói\" với DMAC những thông tin nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Vào hay ra dữ liệu, địa chỉ cổng, địa chỉ đầu mảng nhớ, số từ cần truyền"
+              },
+              {
+                "key": "B",
+                "text": "Chỉ vào hay ra"
+              },
+              {
+                "key": "C",
+                "text": "Chỉ địa chỉ cổng"
+              },
+              {
+                "key": "D",
+                "text": "Chỉ số từ cần truyền"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-56",
+            "clusterId": null
+          },
+          {
+            "startLine": 344,
+            "text": "Trong quá trình DMA, CPU làm gì?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "CPU trực tiếp điều khiển truyền"
+              },
+              {
+                "key": "B",
+                "text": "CPU đợi DMAC trong vòng lặp"
+              },
+              {
+                "key": "C",
+                "text": "CPU làm việc khác, DMAC điều khiển trao đổi dữ liệu"
+              },
+              {
+                "key": "D",
+                "text": "CPU tắt"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-57",
+            "clusterId": null
+          },
+          {
+            "startLine": 350,
+            "text": "Sau khi truyền xong một từ dữ liệu, nội dung thanh ghi địa chỉ và bộ đếm dữ liệu của DMAC thay đổi thế nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Thanh ghi địa chỉ tăng, bộ đếm dữ liệu giảm"
+              },
+              {
+                "key": "B",
+                "text": "Thanh ghi địa chỉ giảm, bộ đếm tăng"
+              },
+              {
+                "key": "C",
+                "text": "Cả hai tăng"
+              },
+              {
+                "key": "D",
+                "text": "Cả hai giảm"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-58",
+            "clusterId": null
+          },
+          {
+            "startLine": 356,
+            "text": "Khi bộ đếm dữ liệu của DMAC bằng 0, DMAC:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Gửi tín hiệu ngắt CPU để báo kết thúc DMA"
+              },
+              {
+                "key": "B",
+                "text": "Tiếp tục truyền"
+              },
+              {
+                "key": "C",
+                "text": "Tự reset hệ thống"
+              },
+              {
+                "key": "D",
+                "text": "Khoá bus vĩnh viễn"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-59",
+            "clusterId": null
+          },
+          {
+            "startLine": 362,
+            "text": "DMA truyền theo khối (Block-transfer DMA) có đặc điểm:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "DMAC chỉ truyền một từ mỗi chu kỳ CPU rảnh"
+              },
+              {
+                "key": "B",
+                "text": "DMAC dùng bus để truyền xong cả khối dữ liệu"
+              },
+              {
+                "key": "C",
+                "text": "DMAC không dùng bus"
+              },
+              {
+                "key": "D",
+                "text": "CPU truyền hộ"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-60",
+            "clusterId": null
+          },
+          {
+            "startLine": 368,
+            "text": "DMA lấy chu kỳ (Cycle Stealing) có đặc điểm:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "DMAC truyền cả khối rồi trả bus"
+              },
+              {
+                "key": "B",
+                "text": "DMAC chỉ dùng bus khi CPU không dùng"
+              },
+              {
+                "key": "C",
+                "text": "CPU đang chạy không bị ảnh hưởng"
+              },
+              {
+                "key": "D",
+                "text": "DMAC cưỡng bức CPU treo tạm thời từng chu kỳ bus để truyền một từ dữ liệu"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-61",
+            "clusterId": null
+          },
+          {
+            "startLine": 374,
+            "text": "DMA trong suốt (Transparent DMA) có đặc điểm:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "DMAC cưỡng bức CPU treo"
+              },
+              {
+                "key": "B",
+                "text": "DMAC chiếm bus để truyền một từ khi nhận biết chu kỳ CPU không sử dụng bus"
+              },
+              {
+                "key": "C",
+                "text": "DMAC truyền cả khối liên tục"
+              },
+              {
+                "key": "D",
+                "text": "DMAC dùng bus riêng"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-62",
+            "clusterId": null
+          },
+          {
+            "startLine": 380,
+            "text": "Kiểu DMA nào không làm CPU bị chậm lại do tranh chấp bus?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "DMA theo khối"
+              },
+              {
+                "key": "B",
+                "text": "DMA trong suốt"
+              },
+              {
+                "key": "C",
+                "text": "DMA lấy chu kỳ"
+              },
+              {
+                "key": "D",
+                "text": "Cả ba kiểu như nhau"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-63",
+            "clusterId": null
+          },
+          {
+            "startLine": 386,
+            "text": "Trong cấu hình DMA dùng một bus hệ thống chung (DMAC, I/O module, Memory cùng một bus), mỗi lần truyền DMAC sử dụng bus mấy lần?",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795839598661.enc",
+            "options": [
+              {
+                "key": "A",
+                "text": "Một lần"
+              },
+              {
+                "key": "B",
+                "text": "Ba lần"
+              },
+              {
+                "key": "C",
+                "text": "Không lần nào"
+              },
+              {
+                "key": "D",
+                "text": "Hai lần"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "Một lần giữa modul vào ra với DMAC và một lần giữa DMAC với bộ nhớ.",
+            "multi": false,
+            "id": "mcq-64",
+            "clusterId": null
+          },
+          {
+            "startLine": 394,
+            "text": "Trong cấu hình DMA nối DMAC với một hay nhiều modul vào ra, mỗi lần truyền DMAC sử dụng bus mấy lần?",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795839600683.enc",
+            "options": [
+              {
+                "key": "A",
+                "text": "Hai lần"
+              },
+              {
+                "key": "B",
+                "text": "Ba lần"
+              },
+              {
+                "key": "C",
+                "text": "Không dùng bus"
+              },
+              {
+                "key": "D",
+                "text": "Một lần (giữa DMAC với bộ nhớ)"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-65",
+            "clusterId": null
+          },
+          {
+            "startLine": 401,
+            "text": "Trong cấu hình DMA có bus vào ra tách rời hỗ trợ mọi thiết bị, mỗi lần truyền DMAC sử dụng bus hệ thống mấy lần?",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795839614239.enc",
+            "options": [
+              {
+                "key": "A",
+                "text": "Hai lần"
+              },
+              {
+                "key": "B",
+                "text": "Ba lần"
+              },
+              {
+                "key": "C",
+                "text": "Một lần (giữa DMAC với bộ nhớ)"
+              },
+              {
+                "key": "D",
+                "text": "Bốn lần"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-66",
+            "clusterId": null
+          },
+          {
+            "startLine": 408,
+            "text": "Cấu hình DMA nào dùng bus vào ra tách rời?",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795839621946.enc",
+            "options": [
+              {
+                "key": "A",
+                "text": "Cấu hình DMA thứ ba, bus vào ra hỗ trợ tất cả thiết bị cho phép DMA"
+              },
+              {
+                "key": "B",
+                "text": "Cấu hình DMA thứ nhất"
+              },
+              {
+                "key": "C",
+                "text": "Cấu hình DMA thứ hai"
+              },
+              {
+                "key": "D",
+                "text": "Không cấu hình nào"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-67",
+            "clusterId": null
+          },
+          {
+            "startLine": 415,
+            "text": "DMA phù hợp với các yêu cầu trao đổi mảng dữ liệu có kích thước:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Rất nhỏ (1 byte)"
+              },
+              {
+                "key": "B",
+                "text": "Lớn"
+              },
+              {
+                "key": "C",
+                "text": "Bằng 0"
+              },
+              {
+                "key": "D",
+                "text": "Chỉ 1 bit"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-68",
+            "clusterId": null
+          },
+          {
+            "startLine": 421,
+            "text": "Vì sao DMA có tốc độ truyền nhanh?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Vì điều khiển trao đổi giữa bộ nhớ chính với modul vào ra hoàn toàn bằng phần cứng"
+              },
+              {
+                "key": "B",
+                "text": "Vì CPU xử lý từng từ"
+              },
+              {
+                "key": "C",
+                "text": "Vì dùng phần mềm tối ưu"
+              },
+              {
+                "key": "D",
+                "text": "Vì không dùng bộ nhớ"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-69",
+            "clusterId": null
+          },
+          {
+            "startLine": 427,
+            "text": "Đặc điểm của nối ghép song song là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Truyền lần lượt từng bit, chậm, cần ít đường"
+              },
+              {
+                "key": "B",
+                "text": "Truyền nhiều bit song song, tốc độ nhanh, cần nhiều đường truyền dữ liệu"
+              },
+              {
+                "key": "C",
+                "text": "Truyền một bit, nhanh, ít đường"
+              },
+              {
+                "key": "D",
+                "text": "Truyền nhiều bit, chậm, ít đường"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-70",
+            "clusterId": null
+          },
+          {
+            "startLine": 433,
+            "text": "Đặc điểm của nối ghép nối tiếp là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Truyền nhiều bit đồng thời, tốc độ nhanh"
+              },
+              {
+                "key": "B",
+                "text": "Cần nhiều đường truyền dữ liệu"
+              },
+              {
+                "key": "C",
+                "text": "Không cần bộ chuyển đổi"
+              },
+              {
+                "key": "D",
+                "text": "Truyền lần lượt từng bit, tốc độ chậm hơn, cần ít đường truyền dữ liệu"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-71",
+            "clusterId": null
+          },
+          {
+            "startLine": 439,
+            "text": "Trong nối ghép nối tiếp, cần có bộ chuyển đổi nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Chuyển dữ liệu song song sang nối tiếp và/hoặc ngược lại"
+              },
+              {
+                "key": "B",
+                "text": "Chuyển tương tự sang số"
+              },
+              {
+                "key": "C",
+                "text": "Chuyển điện áp sang dòng điện"
+              },
+              {
+                "key": "D",
+                "text": "Không cần bộ chuyển đổi"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-72",
+            "clusterId": null
+          },
+          {
+            "startLine": 445,
+            "text": "Ưu điểm của nối ghép nối tiếp so với song song là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Tốc độ nhanh hơn"
+              },
+              {
+                "key": "B",
+                "text": "Không cần modul vào ra"
+              },
+              {
+                "key": "C",
+                "text": "Không cần bộ chuyển đổi"
+              },
+              {
+                "key": "D",
+                "text": "Cần ít đường truyền dữ liệu hơn"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-73",
+            "clusterId": null
+          },
+          {
+            "startLine": 451,
+            "text": "Ưu điểm của nối ghép song song so với nối tiếp là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Cần ít đường truyền hơn"
+              },
+              {
+                "key": "B",
+                "text": "Không cần bus"
+              },
+              {
+                "key": "C",
+                "text": "Tốc độ nhanh hơn"
+              },
+              {
+                "key": "D",
+                "text": "Luôn rẻ hơn"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-74",
+            "clusterId": null
+          },
+          {
+            "startLine": 457,
+            "text": "Với kiểu nối ghép nào, modul vào ra có nhiều đường nối tới bus hệ thống và nhiều đường nối tới thiết bị ngoại vi?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Nối ghép nối tiếp"
+              },
+              {
+                "key": "B",
+                "text": "Nối ghép song song"
+              },
+              {
+                "key": "C",
+                "text": "Cả hai như nhau"
+              },
+              {
+                "key": "D",
+                "text": "DMA"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-75",
+            "clusterId": null
+          }
+        ]
+      }
+    }
+  }
+}
