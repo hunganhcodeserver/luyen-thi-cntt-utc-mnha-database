@@ -1,0 +1,2284 @@
+{
+  "type": "quiz",
+  "lessonId": "6b0a570423ac90bc0b2495a6",
+  "title": "Ôn tập C6-Hop ngu 8086",
+  "slug": "on-tap-c6-hop-ngu-8086",
+  "subjectSlug": "kien-truc-va-to-chuc-may-tinh-1-1-26n06",
+  "duration": 75,
+  "promptId": null,
+  "analysisAiKeyIds": [],
+  "isPublished": true,
+  "visibility": "public",
+  "allowedUserIds": [],
+  "allowedGroupIds": [],
+  "isDeleted": false,
+  "createdBy": {
+    "id": "6ab3d694415010bf620349e5",
+    "name": "Mai Ngọc Hùng Anh",
+    "email": "hunganh.okokok.0@gmail.com"
+  },
+  "createdAt": "2026-11-28T04:22:28.355Z",
+  "updatedAt": "2026-11-28T04:22:28.355Z",
+  "contentHtml": null,
+  "quiz": {
+    "version": 1,
+    "maxScore": 10,
+    "parts": {
+      "mcq": {
+        "pointsPerQuestion": 0.1333,
+        "questions": [
+          {
+            "startLine": 1,
+            "text": "Trong 8086, thanh ghi AX thường được dùng để:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Lưu số lần lặp của lệnh LOOP"
+              },
+              {
+                "key": "B",
+                "text": "Trỏ tới đỉnh ngăn xếp"
+              },
+              {
+                "key": "C",
+                "text": "Chứa địa chỉ đoạn mã lệnh"
+              },
+              {
+                "key": "D",
+                "text": "Lưu kết quả tính toán"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-1",
+            "clusterId": null
+          },
+          {
+            "startLine": 7,
+            "text": "Thanh ghi BX thường được dùng để:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Đếm số lần lặp"
+              },
+              {
+                "key": "B",
+                "text": "Trỏ tới lệnh kế tiếp"
+              },
+              {
+                "key": "C",
+                "text": "Chứa địa chỉ cơ sở của một vùng nhớ"
+              },
+              {
+                "key": "D",
+                "text": "Chứa địa chỉ ngăn xếp"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-2",
+            "clusterId": null
+          },
+          {
+            "startLine": 13,
+            "text": "Thanh ghi CX được dùng để lưu:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Kết quả phép nhân"
+              },
+              {
+                "key": "B",
+                "text": "Số lần lặp trong lệnh LOOP"
+              },
+              {
+                "key": "C",
+                "text": "Địa chỉ đoạn dữ liệu"
+              },
+              {
+                "key": "D",
+                "text": "Đỉnh ngăn xếp"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-3",
+            "clusterId": null
+          },
+          {
+            "startLine": 19,
+            "text": "Thanh ghi DX có thể được dùng để:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Chỉ chứa số lần lặp"
+              },
+              {
+                "key": "B",
+                "text": "Kết hợp với AX chứa kết quả phép nhân/chia 16 bit và chứa địa chỉ cổng vào/ra"
+              },
+              {
+                "key": "C",
+                "text": "Chỉ trỏ tới đỉnh ngăn xếp"
+              },
+              {
+                "key": "D",
+                "text": "Chứa địa chỉ đoạn mã lệnh"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-4",
+            "clusterId": null
+          },
+          {
+            "startLine": 25,
+            "text": "Thanh ghi đoạn CS chứa:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Địa chỉ đoạn dữ liệu"
+              },
+              {
+                "key": "B",
+                "text": "Địa chỉ đoạn ngăn xếp"
+              },
+              {
+                "key": "C",
+                "text": "Địa chỉ đoạn phụ"
+              },
+              {
+                "key": "D",
+                "text": "Địa chỉ đoạn mã lệnh"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-5",
+            "clusterId": null
+          },
+          {
+            "startLine": 31,
+            "text": "Thanh ghi đoạn DS chứa:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Địa chỉ đoạn dữ liệu"
+              },
+              {
+                "key": "B",
+                "text": "Địa chỉ đoạn mã lệnh"
+              },
+              {
+                "key": "C",
+                "text": "Địa chỉ đoạn ngăn xếp"
+              },
+              {
+                "key": "D",
+                "text": "Địa chỉ lệnh kế tiếp"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-6",
+            "clusterId": null
+          },
+          {
+            "startLine": 37,
+            "text": "Thanh ghi đoạn SS chứa:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Địa chỉ đoạn dữ liệu"
+              },
+              {
+                "key": "B",
+                "text": "Địa chỉ đoạn mã lệnh"
+              },
+              {
+                "key": "C",
+                "text": "Địa chỉ đoạn ngăn xếp"
+              },
+              {
+                "key": "D",
+                "text": "Số lần lặp"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-7",
+            "clusterId": null
+          },
+          {
+            "startLine": 43,
+            "text": "Thanh ghi ES là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Thanh ghi đoạn phụ, thường dùng chứa địa chỉ chuỗi"
+              },
+              {
+                "key": "B",
+                "text": "Thanh ghi đoạn mã lệnh"
+              },
+              {
+                "key": "C",
+                "text": "Thanh ghi cờ"
+              },
+              {
+                "key": "D",
+                "text": "Thanh ghi đa năng 8 bit"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-8",
+            "clusterId": null
+          },
+          {
+            "startLine": 49,
+            "text": "Thanh ghi SP trỏ tới:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Lệnh kế tiếp"
+              },
+              {
+                "key": "B",
+                "text": "Đầu đoạn dữ liệu"
+              },
+              {
+                "key": "C",
+                "text": "Chuỗi nguồn"
+              },
+              {
+                "key": "D",
+                "text": "Đỉnh ngăn xếp"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-9",
+            "clusterId": null
+          },
+          {
+            "startLine": 55,
+            "text": "Cặp thanh ghi DS:SI được dùng để:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Chỉ địa chỉ dữ liệu nguồn"
+              },
+              {
+                "key": "B",
+                "text": "Chỉ địa chỉ dữ liệu đích của chuỗi"
+              },
+              {
+                "key": "C",
+                "text": "Chỉ đỉnh ngăn xếp"
+              },
+              {
+                "key": "D",
+                "text": "Chỉ địa chỉ lệnh tiếp theo"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "SI là chỉ số nguồn, DI là chỉ số đích đi với ES (ES:DI).",
+            "multi": false,
+            "id": "mcq-10",
+            "clusterId": null
+          },
+          {
+            "startLine": 62,
+            "text": "Cặp thanh ghi ES:DI được dùng để:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Chỉ địa chỉ dữ liệu đích"
+              },
+              {
+                "key": "B",
+                "text": "Chỉ địa chỉ dữ liệu nguồn"
+              },
+              {
+                "key": "C",
+                "text": "Chỉ đỉnh ngăn xếp"
+              },
+              {
+                "key": "D",
+                "text": "Chỉ lệnh kế tiếp"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-11",
+            "clusterId": null
+          },
+          {
+            "startLine": 68,
+            "text": "Với khai báo <code>A3 DW 1</code>, biến A3 dài bao nhiêu byte?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "2 byte"
+              },
+              {
+                "key": "B",
+                "text": "1 byte"
+              },
+              {
+                "key": "C",
+                "text": "4 byte"
+              },
+              {
+                "key": "D",
+                "text": "8 byte"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "DB = 1 byte, DW = 2 byte, DD = 4 byte.",
+            "multi": false,
+            "id": "mcq-12",
+            "clusterId": null
+          },
+          {
+            "startLine": 75,
+            "text": "Với khai báo <code>A4 DD ?</code>, biến A4 dài bao nhiêu byte và có giá trị ban đầu không?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "4 byte, không có giá trị ban đầu"
+              },
+              {
+                "key": "B",
+                "text": "2 byte, không có giá trị ban đầu"
+              },
+              {
+                "key": "C",
+                "text": "4 byte, giá trị ban đầu bằng 0"
+              },
+              {
+                "key": "D",
+                "text": "1 byte, giá trị ban đầu bằng 1"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-13",
+            "clusterId": null
+          },
+          {
+            "startLine": 81,
+            "text": "Khai báo <code>A6 DB 10 DUP(?)</code> tạo ra:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Mảng 10 phần tử, mỗi phần tử bằng 10"
+              },
+              {
+                "key": "B",
+                "text": "Một biến byte có giá trị 10"
+              },
+              {
+                "key": "C",
+                "text": "Mảng 2 phần tử"
+              },
+              {
+                "key": "D",
+                "text": "Mảng 10 phần tử byte, không gán giá trị ban đầu"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-14",
+            "clusterId": null
+          },
+          {
+            "startLine": 87,
+            "text": "Khai báo <code>Muoi EQU 10</code> dùng để:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Cấp phát một byte nhớ tên Muoi"
+              },
+              {
+                "key": "B",
+                "text": "Khai báo mảng 10 phần tử"
+              },
+              {
+                "key": "C",
+                "text": "Nhảy tới nhãn Muoi"
+              },
+              {
+                "key": "D",
+                "text": "Định nghĩa hằng số Muoi có giá trị 10"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "EQU không cấp phát bộ nhớ.",
+            "multi": false,
+            "id": "mcq-15",
+            "clusterId": null
+          },
+          {
+            "startLine": 94,
+            "text": "Dạng tổng quát của một lệnh 8086 là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "<Mã gợi nhớ> <Toán hạng đích>[,<Toán hạng nguồn>]"
+              },
+              {
+                "key": "B",
+                "text": "<Toán hạng nguồn>, <Toán hạng đích> <Mã gợi nhớ>"
+              },
+              {
+                "key": "C",
+                "text": "<Toán hạng đích> <Mã gợi nhớ> <Toán hạng nguồn>"
+              },
+              {
+                "key": "D",
+                "text": "<Mã gợi nhớ> <Toán hạng nguồn>, <Toán hạng đích>"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-16",
+            "clusterId": null
+          },
+          {
+            "startLine": 100,
+            "text": "Trong lệnh <code>MOV DS:100H, AX</code>, toán hạng đích và nguồn lần lượt thuộc loại nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Đích là ô nhớ, nguồn là thanh ghi"
+              },
+              {
+                "key": "B",
+                "text": "Đích là thanh ghi, nguồn là ô nhớ"
+              },
+              {
+                "key": "C",
+                "text": "Đích là ô nhớ, nguồn là hằng số"
+              },
+              {
+                "key": "D",
+                "text": "Cả hai là thanh ghi"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-17",
+            "clusterId": null
+          },
+          {
+            "startLine": 106,
+            "text": "Lệnh <code>MOV AX, 0FFFFH</code> có nguồn là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Thanh ghi"
+              },
+              {
+                "key": "B",
+                "text": "Số tức thời (hằng số)"
+              },
+              {
+                "key": "C",
+                "text": "Ô nhớ"
+              },
+              {
+                "key": "D",
+                "text": "Cổng vào/ra"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-18",
+            "clusterId": null
+          },
+          {
+            "startLine": 112,
+            "text": "Lệnh PUSH nguồn thực hiện thứ tự nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "SP ← SP + 2 rồi cất nguồn"
+              },
+              {
+                "key": "B",
+                "text": "Cất nguồn rồi SP ← SP − 1"
+              },
+              {
+                "key": "C",
+                "text": "SP ← SP − 1 rồi cất 1 byte"
+              },
+              {
+                "key": "D",
+                "text": "SP ← SP − 2 rồi cất nguồn vào ô nhớ do SP chỉ ra"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-19",
+            "clusterId": null
+          },
+          {
+            "startLine": 118,
+            "text": "Lệnh POP đích thực hiện:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Lấy 2 byte rồi SP ← SP − 2"
+              },
+              {
+                "key": "B",
+                "text": "Lấy 2 byte tại đỉnh ngăn xếp vào đích rồi SP ← SP + 2"
+              },
+              {
+                "key": "C",
+                "text": "Lấy 1 byte rồi SP ← SP + 1"
+              },
+              {
+                "key": "D",
+                "text": "Xoá ngăn xếp"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-20",
+            "clusterId": null
+          },
+          {
+            "startLine": 124,
+            "text": "Giả sử SP = 0100h. Sau lệnh <code>PUSH AX</code>, SP bằng:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "0102h"
+              },
+              {
+                "key": "B",
+                "text": "00FFh"
+              },
+              {
+                "key": "C",
+                "text": "00FEh"
+              },
+              {
+                "key": "D",
+                "text": "0101h"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "SP = 0100h − 2 = 00FEh.",
+            "multi": false,
+            "id": "mcq-21",
+            "clusterId": null
+          },
+          {
+            "startLine": 131,
+            "text": "Cho <code>MOV AX,1</code>, <code>MOV BX,2</code>, <code>PUSH AX</code>, <code>PUSH BX</code>, <code>POP CX</code>. Giá trị CX là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "1"
+              },
+              {
+                "key": "B",
+                "text": "2"
+              },
+              {
+                "key": "C",
+                "text": "3"
+              },
+              {
+                "key": "D",
+                "text": "0"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Ngăn xếp LIFO: BX (=2) được cất sau nên lấy ra trước.",
+            "multi": false,
+            "id": "mcq-22",
+            "clusterId": null
+          },
+          {
+            "startLine": 138,
+            "text": "Cho <code>MOV AX,1</code>, <code>MOV BX,2</code>, <code>PUSH AX</code>, <code>PUSH BX</code>, <code>POP AX</code>, <code>POP BX</code>. Kết quả AX, BX là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "AX = 1, BX = 2"
+              },
+              {
+                "key": "B",
+                "text": "AX = 2, BX = 1"
+              },
+              {
+                "key": "C",
+                "text": "AX = 2, BX = 2"
+              },
+              {
+                "key": "D",
+                "text": "AX = 1, BX = 1"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Đoạn mã hoán đổi AX và BX.",
+            "multi": false,
+            "id": "mcq-23",
+            "clusterId": null
+          },
+          {
+            "startLine": 145,
+            "text": "Lệnh <code>LEA DX, msg</code> làm gì?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Nạp nội dung của msg vào DX"
+              },
+              {
+                "key": "B",
+                "text": "Nạp địa chỉ offset của msg vào DX"
+              },
+              {
+                "key": "C",
+                "text": "Nạp địa chỉ đoạn của msg vào DX"
+              },
+              {
+                "key": "D",
+                "text": "Nạp độ dài của msg vào DX"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-24",
+            "clusterId": null
+          },
+          {
+            "startLine": 151,
+            "text": "Lệnh LAHF thực hiện:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Nạp các cờ vào thanh ghi AH"
+              },
+              {
+                "key": "B",
+                "text": "Nạp AH vào các cờ"
+              },
+              {
+                "key": "C",
+                "text": "Xoá các cờ"
+              },
+              {
+                "key": "D",
+                "text": "Nạp AL vào AH"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-25",
+            "clusterId": null
+          },
+          {
+            "startLine": 157,
+            "text": "Lệnh SAHF thực hiện:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Lưu nội dung AH vào các cờ"
+              },
+              {
+                "key": "B",
+                "text": "Nạp các cờ vào AH"
+              },
+              {
+                "key": "C",
+                "text": "Lưu AL vào cờ"
+              },
+              {
+                "key": "D",
+                "text": "Đảo các cờ"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-26",
+            "clusterId": null
+          },
+          {
+            "startLine": 163,
+            "text": "Lệnh <code>IN AX, Port</code> đọc dữ liệu từ cổng như thế nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "8 bit từ cổng Port"
+              },
+              {
+                "key": "B",
+                "text": "16 bit từ hai cổng Port và Port+1"
+              },
+              {
+                "key": "C",
+                "text": "16 bit chỉ từ cổng Port"
+              },
+              {
+                "key": "D",
+                "text": "8 bit từ Port+1"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-27",
+            "clusterId": null
+          },
+          {
+            "startLine": 169,
+            "text": "Muốn dùng lệnh IN/OUT với địa chỉ cổng lớn hơn FFh (0000h..FFFFh), ta phải:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Gán địa chỉ cổng vào CX"
+              },
+              {
+                "key": "B",
+                "text": "Gán địa chỉ cổng vào BX"
+              },
+              {
+                "key": "C",
+                "text": "Gán địa chỉ cổng vào DX rồi dùng IN Acc, DX hoặc OUT DX, Acc"
+              },
+              {
+                "key": "D",
+                "text": "Không thể thực hiện được"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-28",
+            "clusterId": null
+          },
+          {
+            "startLine": 175,
+            "text": "Lệnh <code>ADD đích, nguồn</code> thực hiện:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "nguồn ← đích + nguồn"
+              },
+              {
+                "key": "B",
+                "text": "đích ← đích + nguồn"
+              },
+              {
+                "key": "C",
+                "text": "đích ← nguồn"
+              },
+              {
+                "key": "D",
+                "text": "đích ← đích − nguồn"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-29",
+            "clusterId": null
+          },
+          {
+            "startLine": 181,
+            "text": "Lệnh nào sau đây KHÔNG hợp lệ vì hai toán hạng khác kích thước?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "<code>ADD AX, BX</code>"
+              },
+              {
+                "key": "B",
+                "text": "<code>ADD AL, 05H</code>"
+              },
+              {
+                "key": "C",
+                "text": "<code>ADD AL, BL</code>"
+              },
+              {
+                "key": "D",
+                "text": "<code>ADD AL, BX</code>"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "Đích và nguồn phải cùng kích thước.",
+            "multi": false,
+            "id": "mcq-30",
+            "clusterId": null
+          },
+          {
+            "startLine": 188,
+            "text": "Sau đoạn mã <code>MOV AL,05H</code>; <code>MOV BL,03H</code>; <code>ADD AL,BL</code>, giá trị AL là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "02H"
+              },
+              {
+                "key": "B",
+                "text": "0FH"
+              },
+              {
+                "key": "C",
+                "text": "35H"
+              },
+              {
+                "key": "D",
+                "text": "08H"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-31",
+            "clusterId": null
+          },
+          {
+            "startLine": 194,
+            "text": "Lệnh <code>SUB AL, BL</code> với AL = 09H, BL = 04H cho AL bằng:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "0DH"
+              },
+              {
+                "key": "B",
+                "text": "04H"
+              },
+              {
+                "key": "C",
+                "text": "06H"
+              },
+              {
+                "key": "D",
+                "text": "05H"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-32",
+            "clusterId": null
+          },
+          {
+            "startLine": 200,
+            "text": "Với <code>MOV AL,05H</code>, <code>MOV CL,03H</code>, <code>MUL CL</code>, kết quả AX là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "0008H"
+              },
+              {
+                "key": "B",
+                "text": "0035H"
+              },
+              {
+                "key": "C",
+                "text": "000FH"
+              },
+              {
+                "key": "D",
+                "text": "0003H"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "5 × 3 = 15 = 0Fh.",
+            "multi": false,
+            "id": "mcq-33",
+            "clusterId": null
+          },
+          {
+            "startLine": 207,
+            "text": "Với toán hạng nguồn 8 bit, lệnh MUL lưu kết quả vào:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "AL ← AL × nguồn"
+              },
+              {
+                "key": "B",
+                "text": "DX:AX ← AX × nguồn"
+              },
+              {
+                "key": "C",
+                "text": "AH ← AL × nguồn"
+              },
+              {
+                "key": "D",
+                "text": "AX ← AL × nguồn"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-34",
+            "clusterId": null
+          },
+          {
+            "startLine": 213,
+            "text": "Với toán hạng nguồn 16 bit, lệnh MUL lưu kết quả vào:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "AX ← AX × nguồn"
+              },
+              {
+                "key": "B",
+                "text": "AX ← AL × nguồn"
+              },
+              {
+                "key": "C",
+                "text": "DX:AX ← AX × nguồn"
+              },
+              {
+                "key": "D",
+                "text": "DX ← AX × nguồn"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-35",
+            "clusterId": null
+          },
+          {
+            "startLine": 219,
+            "text": "Với <code>MOV AX,3A62H</code>, <code>MOV CX,2B14H</code>, <code>MUL CX</code>, giá trị DX và AX lần lượt là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "DX = 289CH, AX = 63A8H"
+              },
+              {
+                "key": "B",
+                "text": "DX = 05A8H, AX = 09D3H"
+              },
+              {
+                "key": "C",
+                "text": "DX = 09D3H, AX = 05A8H"
+              },
+              {
+                "key": "D",
+                "text": "DX = 0000H, AX = 05A8H"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "3A62h × 2B14h = 09D305A8h (kiểm tra bằng máy tính). Lưu ý: giá trị 289C63A8h ghi trong slide chưa chính xác.",
+            "multi": false,
+            "id": "mcq-36",
+            "clusterId": null
+          },
+          {
+            "startLine": 226,
+            "text": "Với toán hạng nguồn 8 bit, lệnh DIV cho:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "AH = thương, AL = số dư"
+              },
+              {
+                "key": "B",
+                "text": "AL = thương, AH = số dư"
+              },
+              {
+                "key": "C",
+                "text": "AX = thương, DX = số dư"
+              },
+              {
+                "key": "D",
+                "text": "AL = số dư, AH = thương"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-37",
+            "clusterId": null
+          },
+          {
+            "startLine": 232,
+            "text": "Với toán hạng nguồn 16 bit, lệnh DIV cho:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "DX = thương, AX = số dư"
+              },
+              {
+                "key": "B",
+                "text": "AL = thương, AH = số dư"
+              },
+              {
+                "key": "C",
+                "text": "AX = số dư, DX = thương"
+              },
+              {
+                "key": "D",
+                "text": "AX = thương, DX = số dư"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "Số bị chia là DX:AX.",
+            "multi": false,
+            "id": "mcq-38",
+            "clusterId": null
+          },
+          {
+            "startLine": 239,
+            "text": "Với <code>MOV AX,0006H</code>, <code>MOV CL,03H</code>, <code>DIV CL</code>, giá trị AH và AL là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "AH = 02H, AL = 00H"
+              },
+              {
+                "key": "B",
+                "text": "AH = 03H, AL = 02H"
+              },
+              {
+                "key": "C",
+                "text": "AH = 00H, AL = 03H"
+              },
+              {
+                "key": "D",
+                "text": "AH = 00H, AL = 02H"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "6 / 3 = 2 dư 0.",
+            "multi": false,
+            "id": "mcq-39",
+            "clusterId": null
+          },
+          {
+            "startLine": 246,
+            "text": "Với <code>MOV AX,0A034H</code>, <code>MOV DX,0001H</code>, <code>MOV BX,1002H</code>, <code>DIV BX</code>, giá trị AX và DX là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "AX = 0000H, DX = 001AH"
+              },
+              {
+                "key": "B",
+                "text": "AX = 001AH, DX = 0000H"
+              },
+              {
+                "key": "C",
+                "text": "AX = 1002H, DX = 0001H"
+              },
+              {
+                "key": "D",
+                "text": "AX = 001AH, DX = 0001H"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "DX:AX = 1A034h; 1A034h / 1002h = 1Ah dư 0.",
+            "multi": false,
+            "id": "mcq-40",
+            "clusterId": null
+          },
+          {
+            "startLine": 253,
+            "text": "Trước khi dùng <code>DIV CL</code> với số bị chia 6H, ta nạp <code>MOV AX, 0006H</code> thay vì <code>MOV AL, 06H</code> vì:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Lệnh MOV AL không tồn tại"
+              },
+              {
+                "key": "B",
+                "text": "Để CL không bị thay đổi"
+              },
+              {
+                "key": "C",
+                "text": "Số bị chia là AX nên byte cao AH phải được xoá để không gây sai kết quả"
+              },
+              {
+                "key": "D",
+                "text": "Để cờ Z luôn bằng 1"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-41",
+            "clusterId": null
+          },
+          {
+            "startLine": 259,
+            "text": "Sau <code>MOV BL,00110011B</code> và <code>NOT BL</code>, BL bằng:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "00110011B"
+              },
+              {
+                "key": "B",
+                "text": "11001100B"
+              },
+              {
+                "key": "C",
+                "text": "11111111B"
+              },
+              {
+                "key": "D",
+                "text": "00000000B"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "NOT đảo từng bit.",
+            "multi": false,
+            "id": "mcq-42",
+            "clusterId": null
+          },
+          {
+            "startLine": 266,
+            "text": "Với BL = 0A7H, sau lệnh <code>AND BL, 0FH</code>, BL bằng:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "0AH"
+              },
+              {
+                "key": "B",
+                "text": "07H"
+              },
+              {
+                "key": "C",
+                "text": "A0H"
+              },
+              {
+                "key": "D",
+                "text": "F7H"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "AND với 0Fh che 4 bit cao.",
+            "multi": false,
+            "id": "mcq-43",
+            "clusterId": null
+          },
+          {
+            "startLine": 273,
+            "text": "Với BL = 05H, sau lệnh <code>OR BL, 30H</code>, BL bằng:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "35H"
+              },
+              {
+                "key": "B",
+                "text": "30H"
+              },
+              {
+                "key": "C",
+                "text": "05H"
+              },
+              {
+                "key": "D",
+                "text": "25H"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "Thiết lập bit b4 và b5; đổi chữ số 5 thành mã ASCII '5'.",
+            "multi": false,
+            "id": "mcq-44",
+            "clusterId": null
+          },
+          {
+            "startLine": 280,
+            "text": "Lệnh <code>XOR BL, BL</code> dùng để:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Đặt BL bằng FFH"
+              },
+              {
+                "key": "B",
+                "text": "Đảo bit của BL"
+              },
+              {
+                "key": "C",
+                "text": "Xoá BL về 0"
+              },
+              {
+                "key": "D",
+                "text": "Che 4 bit cao của BL"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-45",
+            "clusterId": null
+          },
+          {
+            "startLine": 286,
+            "text": "Với AL = 'A' (41H), sau <code>OR AL, 20H</code>, AL bằng:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "21H"
+              },
+              {
+                "key": "B",
+                "text": "01H"
+              },
+              {
+                "key": "C",
+                "text": "61H ('a')"
+              },
+              {
+                "key": "D",
+                "text": "E1H"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "Bật bit b5 đổi chữ hoa thành chữ thường.",
+            "multi": false,
+            "id": "mcq-46",
+            "clusterId": null
+          },
+          {
+            "startLine": 293,
+            "text": "Với AL = 0F0H, sau <code>XOR AL, 0FFH</code>, AL bằng:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "FFH"
+              },
+              {
+                "key": "B",
+                "text": "F0H"
+              },
+              {
+                "key": "C",
+                "text": "0FH"
+              },
+              {
+                "key": "D",
+                "text": "00H"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-47",
+            "clusterId": null
+          },
+          {
+            "startLine": 299,
+            "text": "Lệnh LODSB thực hiện:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "AL ← byte tại DS:SI rồi cập nhật SI"
+              },
+              {
+                "key": "B",
+                "text": "Byte tại ES:DI ← AL"
+              },
+              {
+                "key": "C",
+                "text": "AX ← word tại DS:SI"
+              },
+              {
+                "key": "D",
+                "text": "So sánh DS:SI với ES:DI"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-48",
+            "clusterId": null
+          },
+          {
+            "startLine": 305,
+            "text": "Lệnh STOSB thực hiện:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "AL ← DS:SI"
+              },
+              {
+                "key": "B",
+                "text": "Chuyển DS:SI sang ES:DI"
+              },
+              {
+                "key": "C",
+                "text": "So sánh AL với DS:SI"
+              },
+              {
+                "key": "D",
+                "text": "Lưu AL vào ô nhớ ES:DI rồi cập nhật DI"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-49",
+            "clusterId": null
+          },
+          {
+            "startLine": 311,
+            "text": "Lệnh MOVS chuyển dữ liệu:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Từ ES:DI đến DS:SI"
+              },
+              {
+                "key": "B",
+                "text": "Từ AL đến ES:DI"
+              },
+              {
+                "key": "C",
+                "text": "Từ ô nhớ DS:SI đến ô nhớ ES:DI"
+              },
+              {
+                "key": "D",
+                "text": "Từ cổng vào AL"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-50",
+            "clusterId": null
+          },
+          {
+            "startLine": 317,
+            "text": "Lệnh CMPS dùng để:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Chuyển byte từ DS:SI sang ES:DI"
+              },
+              {
+                "key": "B",
+                "text": "So sánh byte/từ tại DS:SI và ES:DI"
+              },
+              {
+                "key": "C",
+                "text": "Đặt cờ Z bằng 0"
+              },
+              {
+                "key": "D",
+                "text": "Nạp AL từ DS:SI"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-51",
+            "clusterId": null
+          },
+          {
+            "startLine": 323,
+            "text": "Lệnh <code>JMP label</code> là:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Lệnh nhảy khi cờ Z = 1"
+              },
+              {
+                "key": "B",
+                "text": "Lệnh nhảy không điều kiện tới nhãn"
+              },
+              {
+                "key": "C",
+                "text": "Lệnh gọi chương trình con"
+              },
+              {
+                "key": "D",
+                "text": "Lệnh lặp theo CX"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-52",
+            "clusterId": null
+          },
+          {
+            "startLine": 329,
+            "text": "Lệnh JA label nhảy khi:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Hai toán hạng bằng nhau"
+              },
+              {
+                "key": "B",
+                "text": "Toán hạng thứ nhất nhỏ hơn"
+              },
+              {
+                "key": "C",
+                "text": "Luôn nhảy"
+              },
+              {
+                "key": "D",
+                "text": "Toán hạng thứ nhất lớn hơn toán hạng thứ hai trong phép so sánh trước đó"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-53",
+            "clusterId": null
+          },
+          {
+            "startLine": 335,
+            "text": "Lệnh JE label nhảy khi:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Bằng nhau (cờ Z = 1)"
+              },
+              {
+                "key": "B",
+                "text": "Lớn hơn"
+              },
+              {
+                "key": "C",
+                "text": "Nhỏ hơn"
+              },
+              {
+                "key": "D",
+                "text": "Cờ Z = 0"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-54",
+            "clusterId": null
+          },
+          {
+            "startLine": 341,
+            "text": "Lệnh <code>CMP AX, B</code> có tác dụng:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Gán B cho AX"
+              },
+              {
+                "key": "B",
+                "text": "Trừ B khỏi AX và lưu kết quả vào AX"
+              },
+              {
+                "key": "C",
+                "text": "So sánh AX với B, chỉ ảnh hưởng tới cờ, không thay đổi AX"
+              },
+              {
+                "key": "D",
+                "text": "Cộng B vào AX"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-55",
+            "clusterId": null
+          },
+          {
+            "startLine": 347,
+            "text": "Đoạn mã <code>cmp al,13</code> / <code>JE dungnhap</code> thường dùng để:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Kiểm tra ký tự có phải chữ hoa không"
+              },
+              {
+                "key": "B",
+                "text": "Đếm số ký tự nhập"
+              },
+              {
+                "key": "C",
+                "text": "Kiểm tra ký tự nhập vào có phải phím Enter không"
+              },
+              {
+                "key": "D",
+                "text": "Kiểm tra AL bằng 0"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "Mã ASCII 13 là ký tự xuống dòng (Enter).",
+            "multi": false,
+            "id": "mcq-56",
+            "clusterId": null
+          },
+          {
+            "startLine": 354,
+            "text": "Ngắt INT 21h hàm 01h có chức năng:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Xuất ký tự trong DL ra màn hình"
+              },
+              {
+                "key": "B",
+                "text": "Xuất chuỗi kết thúc bằng $"
+              },
+              {
+                "key": "C",
+                "text": "Nhập chuỗi đến khi Enter"
+              },
+              {
+                "key": "D",
+                "text": "Nhập 1 ký tự từ bàn phím, hiện ra màn hình, ký tự lưu trong AL"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-57",
+            "clusterId": null
+          },
+          {
+            "startLine": 360,
+            "text": "Ngắt INT 21h hàm 02h có chức năng:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Nhập 1 ký tự vào AL"
+              },
+              {
+                "key": "B",
+                "text": "Xuất ký tự trong thanh ghi DL ra màn hình"
+              },
+              {
+                "key": "C",
+                "text": "Xuất chuỗi tại DS:DX"
+              },
+              {
+                "key": "D",
+                "text": "Nhập chuỗi tại DS:DX"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-58",
+            "clusterId": null
+          },
+          {
+            "startLine": 366,
+            "text": "Đoạn mã <code>MOV AH,02h</code>; <code>MOV DL,'A'</code>; <code>INT 21h</code> sẽ:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Nhập ký tự A từ bàn phím"
+              },
+              {
+                "key": "B",
+                "text": "Hiển thị chuỗi A$"
+              },
+              {
+                "key": "C",
+                "text": "Hiển thị ký tự A ra màn hình"
+              },
+              {
+                "key": "D",
+                "text": "Thoát về DOS"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-59",
+            "clusterId": null
+          },
+          {
+            "startLine": 372,
+            "text": "Hàm 09h của INT 21h xuất chuỗi có địa chỉ ở đâu và kết thúc bằng gì?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Địa chỉ ở ES:DI; kết thúc bằng 0"
+              },
+              {
+                "key": "B",
+                "text": "Địa chỉ ở DS:SI; kết thúc bằng Enter"
+              },
+              {
+                "key": "C",
+                "text": "Địa chỉ ở DS:DX; kết thúc bằng ký tự $"
+              },
+              {
+                "key": "D",
+                "text": "Địa chỉ ở AX; kết thúc bằng $"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-60",
+            "clusterId": null
+          },
+          {
+            "startLine": 378,
+            "text": "Hàm 0Ah của INT 21h có chức năng:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Nhập một chuỗi ký tự từ bàn phím đến khi gõ Enter, vùng đệm ở DS:DX"
+              },
+              {
+                "key": "B",
+                "text": "Xuất một chuỗi ra màn hình"
+              },
+              {
+                "key": "C",
+                "text": "Nhập 1 ký tự"
+              },
+              {
+                "key": "D",
+                "text": "Thoát chương trình"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-61",
+            "clusterId": null
+          },
+          {
+            "startLine": 384,
+            "text": "Trong vùng đệm cho hàm 0Ah, trường thứ nhất (trường 0) chứa:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Số byte đã đọc"
+              },
+              {
+                "key": "B",
+                "text": "Chuỗi ký tự nhập"
+              },
+              {
+                "key": "C",
+                "text": "Số byte tối đa cần đọc"
+              },
+              {
+                "key": "D",
+                "text": "Mã ký tự Enter"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": "Trường 1: số byte đã đọc; trường 2: chuỗi.",
+            "multi": false,
+            "id": "mcq-62",
+            "clusterId": null
+          },
+          {
+            "startLine": 391,
+            "text": "Với <code>Msg DB 101</code> / <code>DB ?</code> / <code>DB 101 DUP(?)</code> dùng cho hàm 0Ah, chương trình đọc tối đa bao nhiêu ký tự?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "101 ký tự"
+              },
+              {
+                "key": "B",
+                "text": "100 ký tự"
+              },
+              {
+                "key": "C",
+                "text": "1 ký tự"
+              },
+              {
+                "key": "D",
+                "text": "255 ký tự"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "Giá trị 101 gồm cả ký tự Enter, nên tối đa 100 ký tự.",
+            "multi": false,
+            "id": "mcq-63",
+            "clusterId": null
+          },
+          {
+            "startLine": 398,
+            "text": "Khung chương trình hợp ngữ 8086 (dạng đơn giản) gồm các khai báo nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "<code>.IF</code>, <code>.ELSE</code>, <code>.END</code>"
+              },
+              {
+                "key": "B",
+                "text": "<code>.MODEL</code>, <code>.STACK</code>, <code>.DATA</code>, <code>.CODE</code>"
+              },
+              {
+                "key": "C",
+                "text": "<code>.MAIN</code>, <code>.LOOP</code>, <code>.INT</code>"
+              },
+              {
+                "key": "D",
+                "text": "<code>.BIT</code>, <code>.BYTE</code>, <code>.WORD</code>"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-64",
+            "clusterId": null
+          },
+          {
+            "startLine": 404,
+            "text": "Hai lệnh <code>MOV AX,@DATA</code> và <code>MOV DS,AX</code> ở đầu chương trình có tác dụng:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Khởi động thanh ghi DS trỏ tới đoạn dữ liệu"
+              },
+              {
+                "key": "B",
+                "text": "Khởi động thanh ghi SS"
+              },
+              {
+                "key": "C",
+                "text": "Xoá thanh ghi AX"
+              },
+              {
+                "key": "D",
+                "text": "Nhập dữ liệu từ bàn phím"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-65",
+            "clusterId": null
+          },
+          {
+            "startLine": 410,
+            "text": "Trong ví dụ Hello World, lệnh <code>LEA DX, msg</code> trước <code>INT 21h</code> với AH = 09h dùng để:",
+            "image": "https://raw.githubusercontent.com/hunganhcodeserver/luyen-thi-cntt-utc-mnha-database-9/main/cache/image/1795839740536.enc",
+            "options": [
+              {
+                "key": "A",
+                "text": "Đưa nội dung chuỗi vào AL"
+              },
+              {
+                "key": "B",
+                "text": "Đưa độ dài chuỗi vào CX"
+              },
+              {
+                "key": "C",
+                "text": "Đưa địa chỉ chuỗi cần in vào DX"
+              },
+              {
+                "key": "D",
+                "text": "Đưa địa chỉ chuỗi vào DS"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-66",
+            "clusterId": null
+          },
+          {
+            "startLine": 417,
+            "text": "Cặp lệnh <code>main PROC</code> ... <code>main ENDP</code> và <code>END main</code> dùng để:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Khai báo biến main"
+              },
+              {
+                "key": "B",
+                "text": "Nhảy tới nhãn main"
+              },
+              {
+                "key": "C",
+                "text": "Mở/đóng thủ tục chính và kết thúc chương trình"
+              },
+              {
+                "key": "D",
+                "text": "Gọi hàm main hai lần"
+              }
+            ],
+            "correct": [
+              "C"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-67",
+            "clusterId": null
+          },
+          {
+            "startLine": 423,
+            "text": "Lệnh <code>MOV AX, BX</code> dùng phương pháp định địa chỉ nào?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Định địa chỉ tức thì"
+              },
+              {
+                "key": "B",
+                "text": "Định địa chỉ trực tiếp"
+              },
+              {
+                "key": "C",
+                "text": "Định địa chỉ gián tiếp"
+              },
+              {
+                "key": "D",
+                "text": "Định địa chỉ thanh ghi"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-68",
+            "clusterId": null
+          },
+          {
+            "startLine": 429,
+            "text": "Lệnh <code>MOV AL, DS:1234H</code> dùng phương pháp định địa chỉ nào cho toán hạng nguồn?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Định địa chỉ trực tiếp"
+              },
+              {
+                "key": "B",
+                "text": "Định địa chỉ tức thì"
+              },
+              {
+                "key": "C",
+                "text": "Định địa chỉ thanh ghi"
+              },
+              {
+                "key": "D",
+                "text": "Định địa chỉ gián tiếp qua thanh ghi"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-69",
+            "clusterId": null
+          },
+          {
+            "startLine": 435,
+            "text": "Lệnh <code>MOV AL, DS:BX</code> dùng phương pháp định địa chỉ nào cho toán hạng nguồn?",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Định địa chỉ gián tiếp qua thanh ghi"
+              },
+              {
+                "key": "B",
+                "text": "Định địa chỉ trực tiếp"
+              },
+              {
+                "key": "C",
+                "text": "Định địa chỉ tức thì"
+              },
+              {
+                "key": "D",
+                "text": "Định địa chỉ thanh ghi"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "BX chứa địa chỉ ô nhớ.",
+            "multi": false,
+            "id": "mcq-70",
+            "clusterId": null
+          },
+          {
+            "startLine": 442,
+            "text": "Lệnh <code>MOV AL, DS:[SI+10]</code> dùng phương pháp định địa chỉ:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Tương đối chỉ số"
+              },
+              {
+                "key": "B",
+                "text": "Tương đối cơ sở"
+              },
+              {
+                "key": "C",
+                "text": "Trực tiếp"
+              },
+              {
+                "key": "D",
+                "text": "Tức thì"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-71",
+            "clusterId": null
+          },
+          {
+            "startLine": 448,
+            "text": "Lệnh <code>MOV CX, DS:[BX+10]</code> chuyển vào CX nội dung của:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Một ô nhớ DS:(BX+10)"
+              },
+              {
+                "key": "B",
+                "text": "Hai ô nhớ liên tiếp DS:(BX+10) và DS:(BX+11)"
+              },
+              {
+                "key": "C",
+                "text": "Hai ô nhớ DS:(BX+10) và DS:(BX+9)"
+              },
+              {
+                "key": "D",
+                "text": "Ô nhớ DS:BX cộng 10"
+              }
+            ],
+            "correct": [
+              "B"
+            ],
+            "explanationHtml": "CX có 16 bit nên đọc 2 byte.",
+            "multi": false,
+            "id": "mcq-72",
+            "clusterId": null
+          },
+          {
+            "startLine": 455,
+            "text": "Lệnh <code>MOV DS:4321H, CX</code> ghi nội dung CX vào:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "Một ô nhớ DS:4321H"
+              },
+              {
+                "key": "B",
+                "text": "Ô nhớ DS:4321H và DS:4320H"
+              },
+              {
+                "key": "C",
+                "text": "Cổng 4321H"
+              },
+              {
+                "key": "D",
+                "text": "Hai ô nhớ liên tiếp DS:4321H và DS:4322H"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": null,
+            "multi": false,
+            "id": "mcq-73",
+            "clusterId": null
+          },
+          {
+            "startLine": 461,
+            "text": "Đoạn mã: <code>MOV CX,3</code>; <code>MOV AX,0</code>; <code>L: ADD AX,2</code>; <code>LOOP L</code>. Sau khi kết thúc, AX bằng:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "6"
+              },
+              {
+                "key": "B",
+                "text": "2"
+              },
+              {
+                "key": "C",
+                "text": "3"
+              },
+              {
+                "key": "D",
+                "text": "5"
+              }
+            ],
+            "correct": [
+              "A"
+            ],
+            "explanationHtml": "LOOP giảm CX và lặp khi CX ≠ 0 nên ADD chạy 3 lần: 3 × 2 = 6.",
+            "multi": false,
+            "id": "mcq-74",
+            "clusterId": null
+          },
+          {
+            "startLine": 468,
+            "text": "Để lấy chữ số '7' (ASCII 37H) chuyển thành giá trị số 7 trong AL, ta có thể dùng:",
+            "image": null,
+            "options": [
+              {
+                "key": "A",
+                "text": "<code>OR AL, 0FH</code>"
+              },
+              {
+                "key": "B",
+                "text": "<code>XOR AL, 0FFH</code>"
+              },
+              {
+                "key": "C",
+                "text": "<code>NOT AL</code>"
+              },
+              {
+                "key": "D",
+                "text": "<code>AND AL, 0FH</code>"
+              }
+            ],
+            "correct": [
+              "D"
+            ],
+            "explanationHtml": "37h AND 0Fh = 07h.",
+            "multi": false,
+            "id": "mcq-75",
+            "clusterId": null
+          }
+        ]
+      }
+    }
+  }
+}
