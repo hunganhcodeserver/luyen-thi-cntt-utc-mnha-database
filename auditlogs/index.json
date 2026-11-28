@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-28T03:36:38.342Z",
-  "total": 47,
+  "updatedAt": "2026-11-28T03:43:48.505Z",
+  "total": 48,
   "logs": [
     {
       "id": "6ac45a48c3fe67bf29ff941c",
@@ -954,6 +954,26 @@
       "ipAddress": "116.96.47.185",
       "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
       "createdAt": "2026-11-28T03:36:38.230Z"
+    },
+    {
+      "id": "6b0a4df49b1aae6d1de0958f",
+      "actor": "6ab3d694415010bf620349e5",
+      "action": "create_quiz",
+      "entity": "Lesson",
+      "entityId": "6b0a4df394c2b1d81221ce5a",
+      "description": "",
+      "metadata": {
+        "title": "Ôn tập Chuong7_Bo_nho_ao.pdf",
+        "duration": 75,
+        "counts": {
+          "mcq": 50,
+          "tf": 0,
+          "fill": 0
+        }
+      },
+      "ipAddress": "116.96.47.185",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+      "createdAt": "2026-11-28T03:43:48.389Z"
     }
   ]
 }
